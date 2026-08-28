@@ -1,0 +1,12 @@
+# Gotowe archiwa ZIP i bundle patcha — za duże na git, publikowane ręcznie
+# jako załącznik do GitHub Release.
+patches/*
+!patches/README.md
+*.zip
+
+# Lokalna konfiguracja ścieżki do gry (zawiera ścieżkę użytkownika).
+game-path.env
+
+# Pliki systemowe.
+.DS_Store
+Thumbs.db
