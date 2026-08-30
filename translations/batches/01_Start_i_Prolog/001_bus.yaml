@@ -1,0 +1,891 @@
+schema_version: 1
+dzial:
+  numer: '01'
+  nazwa: Start_i_Prolog
+grupa_lokacji_lub_systemu: bus
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 4
+liczba_wpisow: 51
+sceny:
+- kolejnosc_w_danych_gry: 692
+  skrypt: bus_driver
+  pomieszczenie:
+    id: bus
+    nazwa_en: On The Bus
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_42b885a349263b127d9b
+      kontekst: textscripts.bus_driver:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the bus driver.
+      pl: To kierowca autobusu.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.bus_driver:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: convo
+    wpisy:
+    - id: sol_b284b4d766b662871a15
+      kontekst: textscripts.bus_driver:line:10
+      linia: 10
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Is it much further to Ocean City?
+      pl: Daleko jeszcze do Ocean City?
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_13a982dad32d34b5e74e
+      kontekst: textscripts.bus_driver:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Not too far.  Say, why are you heading that way?  You on vacation or something?  Ocean City used to be a big tourist spot, but I don't
+        get so many passengers these days.
+      pl: Niedaleko. Powiedz, po co tam jedziesz? Wakacje czy coś innego? Ocean City było kiedyś wielką atrakcją turystyczną, ale ostatnio nie mam wielu
+        pasażerów.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fe0e71c2afc3ec7a802
+      kontekst: textscripts.bus_driver:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Kind of.  I'm visiting my uncle.
+      pl: Coś w tym rodzaju. Jadę odwiedzić wujka.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad42b9487762a5cb0fc7
+      kontekst: textscripts.bus_driver:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Must be nice, havin' an uncle.
+      pl: Fajnie tak mieć wujka.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6da7ec37ffaff8f23645
+      kontekst: textscripts.bus_driver:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bus suddenly judders to a stop.
+      pl: Autobus nagle zatrzymuje się z szarpnięciem.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b719f55e8cab7ff154a
+      kontekst: textscripts.bus_driver:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh oh
+      pl: Oho.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 694
+  skrypt: bus_letter
+  pomieszczenie:
+    id: bus
+    nazwa_en: On The Bus
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_324f022399eff9d0f0f9
+      kontekst: textscripts.bus_letter:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You must've dropped the letter from Uncle Murray.
+      pl: List od wujka Murraya musiał ci wypaść.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_96711ca85ce117755d08
+      kontekst: textscripts.bus_letter:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it up
+      pl: Podnieś go
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read
+    wpisy:
+    - id: sol_8f973f77673de764fa3e
+      kontekst: textscripts.bus_letter:line:9
+      linia: 9
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Murray Morris
+      pl: Murray Morris
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_914283bff1b882c1c932
+      kontekst: textscripts.bus_letter:line:10
+      linia: 10
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: c/o Plunkett Street Antiques
+      pl: c/o Antyki przy Plunkett Street
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f1f8871999e95a90a245
+      kontekst: textscripts.bus_letter:line:11
+      linia: 11
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 111 Plunkett St.
+      pl: Plunkett Street 111
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_476b656ea40a75e8a3a3
+      kontekst: textscripts.bus_letter:line:12
+      linia: 12
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ocean City
+      pl: Ocean City
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aa5e785ca4fb6eb4ad45
+      kontekst: textscripts.bus_letter:line:14
+      linia: 14
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dear @firstname@,
+      pl: Drogi @firstname@,
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e8a0a650230129209cc
+      kontekst: textscripts.bus_letter:line:16
+      linia: 16
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I hope this letter finds you well, and I hope it finds you quickly.
+      pl: Mam nadzieję, że ten list zastanie cię w dobrym zdrowiu i że zrobi to szybko.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a3b6a354a58c7c0bdf4c
+      kontekst: textscripts.bus_letter:line:17
+      linia: 17
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Please come and help me with the plot of this video game.
+      pl: Proszę, przyjedź i pomóż mi z fabułą tej gry wideo.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_663372c4b627231eca32
+      kontekst: textscripts.bus_letter:line:19
+      linia: 19
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your uncle,
+      pl: Twój wujek
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d56d96457dafe02f56fd
+      kontekst: textscripts.bus_letter:line:20
+      linia: 20
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Murray
+      pl: Murray
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_95a6834de8fd425a8d6f
+      kontekst: textscripts.bus_letter:line:22
+      linia: 22
+      sekcja_skryptu: read
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put the letter away
+      pl: Schowaj list
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: done
+    wpisy:
+    - id: sol_bd95574d004aedfb7885
+      kontekst: textscripts.bus_letter:line:26
+      linia: 26
+      sekcja_skryptu: done
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You stuff the letter back into your luggage.
+      pl: Wpychasz list z powrotem do bagażu.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5af9cd867abede147561
+      kontekst: textscripts.bus_letter:line:27
+      linia: 27
+      sekcja_skryptu: done
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It'll be safe there
+      pl: Tam będzie bezpieczny
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 695
+  skrypt: bus_murray
+  pomieszczenie:
+    id: bus
+    nazwa_en: On The Bus
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8ac7ca9ee1d4e4450d5b
+      kontekst: textscripts.bus_murray:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It'd be way too awkward to talk to that guy again.
+      pl: Ponowna rozmowa z tym facetem byłaby zdecydowanie zbyt niezręczna.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_198d45e7fa97c558ad18
+      kontekst: textscripts.bus_murray:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's Uncle Murray!
+      pl: To wujek Murray!
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.bus_murray:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: convo
+    wpisy:
+    - id: sol_0bda9b0c94905ea6c674
+      kontekst: textscripts.bus_murray:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uncle Murray!  I didn't expect to see you until I got to Ocean City!
+      pl: Wujku Murray! Nie spodziewałem się ciebie przed dotarciem do Ocean City!
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b95a2e7e9d1a83a1be68
+      kontekst: textscripts.bus_murray:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Murray smiles.
+      pl: Murray się uśmiecha.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_51a17a1b01e6c1139fec
+      kontekst: textscripts.bus_murray:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Heya, @firstname@!  It's great to see you!  Hold on a minute...  What's this?
+      pl: Cześć, @firstname@! Wspaniale cię widzieć! Chwileczkę... A to co?
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1370ad33c1e12414fb8
+      kontekst: textscripts.bus_murray:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He reaches behind your ear.
+      pl: Sięga ci za ucho.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f46cb52539b88352cd80
+      kontekst: textscripts.bus_murray:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait
+      pl: Czekaj
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo1
+    wpisy:
+    - id: sol_277fdbb05704038665a7
+      kontekst: textscripts.bus_murray:line:25
+      linia: 25
+      sekcja_skryptu: convo1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He produces a coin and hands it to you.
+      pl: Wyciąga monetę i ci ją podaje.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f6bd5d6a8777e05fdbce
+      kontekst: textscripts.bus_murray:line:27
+      linia: 27
+      sekcja_skryptu: convo1
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Haha, classic Uncle Murray.
+      pl: Ha, ha, klasyczny wujek Murray.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3718baf8525390e6fe01
+      kontekst: textscripts.bus_murray:line:28
+      linia: 28
+      sekcja_skryptu: convo1
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Listen, kid, I need your help.
+      pl: Słuchaj, dzieciaku, potrzebuję twojej pomocy.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7199021dc590c8955fcf
+      kontekst: textscripts.bus_murray:line:29
+      linia: 29
+      sekcja_skryptu: convo1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: With what?
+      pl: W czym?
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo2
+    wpisy:
+    - id: sol_7b53d5b491eb51879256
+      kontekst: textscripts.bus_murray:line:33
+      linia: 33
+      sekcja_skryptu: convo2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm in trouble.  I need you to come find me.
+      pl: Mam kłopoty. Musisz mnie znaleźć.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a2bbacf1d399b0d2ae3e
+      kontekst: textscripts.bus_murray:line:34
+      linia: 34
+      sekcja_skryptu: convo2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Find you?  But you're right here!
+      pl: Znaleźć? Przecież tu jesteś!
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d4c862da4dfc3482301
+      kontekst: textscripts.bus_murray:line:35
+      linia: 35
+      sekcja_skryptu: convo2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Jessica will know what to do.  Follow her lead.  Follow the signals.
+      pl: Jessica będzie wiedzieć, co robić. Idź za jej wskazówkami. Podążaj za sygnałami.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f3b906ff555cf0c0e593
+      kontekst: textscripts.bus_murray:line:36
+      linia: 36
+      sekcja_skryptu: convo2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Signals?
+      pl: Sygnałami?
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo3
+    wpisy:
+    - id: sol_2725260a0b7a58ba4992
+      kontekst: textscripts.bus_murray:line:41
+      linia: 41
+      sekcja_skryptu: convo3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a flash of lightning, a crash of thunder, and a sudden torrential downpour outside.
+      pl: Za oknem błyska, grzmi i nagle zaczyna lać jak z cebra.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_baeaca6e312b24a6bdad
+      kontekst: textscripts.bus_murray:line:46
+      linia: 46
+      sekcja_skryptu: convo3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Signals?  What are you talking about?
+      pl: Sygnałami? O czym ty mówisz?
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2429c4186416d175c06c
+      kontekst: textscripts.bus_murray:line:47
+      linia: 47
+      sekcja_skryptu: convo3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This... isn't Murray.
+      pl: To... nie jest Murray.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3a58e24406f07673b854
+      kontekst: textscripts.bus_murray:line:48
+      linia: 48
+      sekcja_skryptu: convo3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh, sorry.  I... thought you were somebody else...
+      pl: Eee, przepraszam. Ja... Myślałem że jesteś kimś innym...
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: [Rozbudowa zdania]
+    - id: sol_ded22e300d293d89917a
+      kontekst: textscripts.bus_murray:line:49
+      linia: 49
+      sekcja_skryptu: convo3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You thought I was somebody you could just walk up to and say 'Signals?' and it would make sense?
+      pl: Myślisz, że można po prostu podejść do kogoś, powiedzieć „Sygnały?” i że to będzie miało sens?
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_02f4618160357449a28c
+      kontekst: textscripts.bus_murray:line:50
+      linia: 50
+      sekcja_skryptu: convo3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '... Yes.'
+      pl: '...Tak.'
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7b20904ef41c4084fc5a
+      kontekst: textscripts.bus_murray:line:51
+      linia: 51
+      sekcja_skryptu: convo3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No.
+      pl: Nie.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c75056c5ee0a6fe0bcd
+      kontekst: textscripts.bus_murray:line:52
+      linia: 52
+      sekcja_skryptu: convo3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't know.
+      pl: Nie wiem.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo4
+    wpisy:
+    - id: sol_e73127ecbcee8928b5f9
+      kontekst: textscripts.bus_murray:line:56
+      linia: 56
+      sekcja_skryptu: convo4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man looks at you quizzically and turns back to his newspaper.
+      pl: Mężczyzna spogląda na ciebie ze zdziwieniem i wraca do gazety.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e81d16ab3db686f56a08
+      kontekst: textscripts.bus_murray:line:57
+      linia: 57
+      sekcja_skryptu: convo4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What the heck is going on here?
+      pl: Co tu się, do licha, dzieje?
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 697
+  skrypt: bus_sleepyplayer
+  pomieszczenie:
+    id: bus
+    nazwa_en: On The Bus
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5228afe5f335f039c3fa
+      kontekst: textscripts.bus_sleepyplayer:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This person looks just like you, only asleep.
+      pl: Ta osoba wygląda zupełnie jak ty, tylko śpi.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a0f43e7477518463f79a
+      kontekst: textscripts.bus_sleepyplayer:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick their pocket
+      pl: Opróżnij jej kieszenie
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_95279ea72730b8ee873d
+      kontekst: textscripts.bus_sleepyplayer:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab everything that isn't nailed to them.
+      pl: Zabierasz wszystko, czego do nich nie przybito.
+      status: zatwierdzono
+      zakres: wydaniowe_wysoka_pewnosc
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

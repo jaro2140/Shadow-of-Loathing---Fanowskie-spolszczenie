@@ -1,0 +1,3013 @@
+schema_version: 1
+dzial:
+  numer: '01'
+  nazwa: Start_i_Prolog
+grupa_lokacji_lub_systemu: diner
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 10
+liczba_wpisow: 185
+sceny:
+- kolejnosc_w_danych_gry: 1206
+  skrypt: diner_bathroom
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.diner_bathroom:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_e78e1339fb38475f3722
+      kontekst: textscripts.diner_bathroom:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You were just in there a few seconds ago. If you go in again, people will think you're weird.
+      pl: Dopiero co stamtąd wychodzisz. Jeśli wejdziesz ponownie, ludzie uznają cię za dziwadło.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickface
+    wpisy:
+    - id: sol_11dbf4a4914f0ff3c300
+      kontekst: textscripts.diner_bathroom:line:17
+      linia: 17
+      sekcja_skryptu: pickface
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You blunder your way into the bathroom and eventually find the sink.
+      pl: Niezdarnie przedzierasz się do łazienki i w końcu znajdujesz umywalkę.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_038d3c005699ff1480e3
+      kontekst: textscripts.diner_bathroom:line:18
+      linia: 18
+      sekcja_skryptu: pickface
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After fumbling with the faucet for a while, you manage to disentangle yourself from the magazine.
+      pl: Po dłuższej walce z kranem udaje ci się uwolnić od czasopisma.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ec8e26d26af25e1f84bb
+      kontekst: textscripts.diner_bathroom:line:19
+      linia: 19
+      sekcja_skryptu: pickface
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You stare into the mirror, revealing...
+      pl: Wpatrujesz się w lustro, które ujawnia...
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4bf4c19c1fd82766dcfb
+      kontekst: textscripts.diner_bathroom:line:21
+      linia: 21
+      sekcja_skryptu: pickface
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes?
+      pl: Tak?
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickface2
+    wpisy:
+    - id: sol_6f78e13870bd0311f449
+      kontekst: textscripts.diner_bathroom:line:25
+      linia: 25
+      sekcja_skryptu: pickface2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You gotta have a face under that magazine. What's it look like?
+      pl: Pod tym czasopismem musi być jakaś twarz. Jak wygląda?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_be7cc9b7361771e303aa
+      kontekst: textscripts.diner_bathroom:line:26
+      linia: 26
+      sekcja_skryptu: pickface2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It's...
+      pl: Jest...
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: see
+    wpisy:
+    - id: sol_66d7c3ea64e054287fab
+      kontekst: textscripts.diner_bathroom:line:30
+      linia: 30
+      sekcja_skryptu: see
+      typ: promptlist
+      mowca_lub_kanal: pole_wprowadzania
+      en: My face!
+      pl: Moja twarz!
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: done
+    wpisy:
+    - id: sol_ea892542f315376008cb
+      kontekst: textscripts.diner_bathroom:line:35
+      linia: 35
+      sekcja_skryptu: done
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There you are!
+      pl: Oto ty!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e24a5a8e4d593c89f6cf
+      kontekst: textscripts.diner_bathroom:line:47
+      linia: 47
+      sekcja_skryptu: done
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the bathroom
+      pl: Wyjdź z łazienki
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1207
+  skrypt: diner_convo1
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_95214e3c63d2290b050e
+      kontekst: textscripts.diner_convo1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't bother anybody until you get this magazine off your face.
+      pl: Nie niepokój nikogo, dopóki nie zdejmiesz czasopisma z twarzy.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_02be7f25a6f72e85aa2b
+      kontekst: textscripts.diner_convo1:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That guy is still squinting at his coffee.
+      pl: Facet nadal mruży oczy nad kawą.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8f33c062bd9a4b8dcf2e
+      kontekst: textscripts.diner_convo1:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This man is concentrating very hard on his coffee.
+      pl: Ten mężczyzna bardzo intensywnie skupia się na kawie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.diner_convo1:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_27734c1cf739441ccdb8
+      kontekst: textscripts.diner_convo1:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey there. Is there something particularly interesting about that coffee?
+      pl: Dzień dobry. W tej kawie jest coś szczególnie interesującego?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_62d0365c0fb645773f45
+      kontekst: textscripts.diner_convo1:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's my first one.
+      pl: To moja pierwsza.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9d1cfd3827241ccf17f9
+      kontekst: textscripts.diner_convo1:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Of the day?
+      pl: Dzisiaj?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cb2d557f3e172c14be80
+      kontekst: textscripts.diner_convo1:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No. It's my first coffee ever.
+      pl: Nie. Pierwsza kawa w życiu.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ffee3253a6607556cfb
+      kontekst: textscripts.diner_convo1:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh!  What do you think?
+      pl: Och! I jak wrażenia?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo2
+    wpisy:
+    - id: sol_0203dc683de5b9aa8437
+      kontekst: textscripts.diner_convo1:line:28
+      linia: 28
+      sekcja_skryptu: convo2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I think it is a bad beverage. It's bitter and it makes my stomach hurt.
+      pl: Uważam, że to zły napój. Jest gorzki i boli mnie od niego brzuch.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ded023ea0d5bc80b73f
+      kontekst: textscripts.diner_convo1:line:29
+      linia: 29
+      sekcja_skryptu: convo2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ah, well -- it's not for everybody, I suppose.
+      pl: Cóż — chyba nie wszystkim musi smakować.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_29460558dc46816897b6
+      kontekst: textscripts.diner_convo1:line:30
+      linia: 30
+      sekcja_skryptu: convo2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah. I think I'll have another one after this, though. And then maybe every morning for the rest of my life.
+      pl: Tak. Chyba jednak wypiję następną, gdy skończę tę. A później może każdego ranka do końca życia.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2dfeee0cf592e06a0cc3
+      kontekst: textscripts.diner_convo1:line:31
+      linia: 31
+      sekcja_skryptu: convo2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, enjoy!
+      pl: W takim razie smacznego!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1208
+  skrypt: diner_convo2
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_95214e3c63d2290b050e
+      kontekst: textscripts.diner_convo2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't bother anybody until you get this magazine off your face.
+      pl: Nie niepokój nikogo, dopóki nie zdejmiesz czasopisma z twarzy.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_863cb792da4762a542e9
+      kontekst: textscripts.diner_convo2:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These flappers are too confusing to talk to.
+      pl: Te flapperki mówią zbyt niezrozumiale, żeby z nimi rozmawiać.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8b9db4df3375595f6d57
+      kontekst: textscripts.diner_convo2:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A couple of young women are chatting breezily over coffee.
+      pl: Dwie młode kobiety prowadzą przy kawie beztroską pogawędkę.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffc255412bfe7ff432e1
+      kontekst: textscripts.diner_convo2:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to them
+      pl: Porozmawiaj z nimi
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_546820276d2047e03145
+      kontekst: textscripts.diner_convo2:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey @p|mac,kitten,pal@, what town is this?
+      pl: Hej, @p|mac,kitten,pal@, co to za miasto?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|mac,kitten,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d0807a15e348915fb330
+      kontekst: textscripts.diner_convo2:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Poughkeepsie. Are you two travelling?
+      pl: Poughkeepsie. Podróżujecie?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6a0f85c9f388f7532fb0
+      kontekst: textscripts.diner_convo2:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah! Ocean City's turning into a real sawmill, so we boosted her jellybean's breezer for a weekend whirl to the Hot Potato!
+      pl: Pewnie! Ocean City zmienia się w niezłą budę, więc gwizdnęłyśmy brykę jej laluśka i śmignęłyśmy na weekendowy wir do Gorącego Kartofla!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2aacd536886363978ab7
+      kontekst: textscripts.diner_convo2:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh bushwa, you make it sound like we went south with it! I flew him a kite, everything's jake!
+      pl: E, nie maluj tego tak, jakbyśmy ją rąbnęły! Puściłam mu cynk, wszystko gra!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_699535ce353264e1c043
+      kontekst: textscripts.diner_convo2:line:26
+      linia: 26
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Jeez, I'm pretty sure I'm only three or four years older than you two, but I barely understand what you're saying.
+      pl: Rany, dzielą nas chyba tylko trzy albo cztery lata, a ledwie rozumiem, co mówicie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1ea816397a9b0f66d907
+      kontekst: textscripts.diner_convo2:line:28
+      linia: 28
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What are you, a cancelled stamp? Go put some pepper in your shoes!
+      pl: Co z ciebie za skasowany znaczek? Wsyp sobie pieprzu do butów!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87272d95c4dd90378659
+      kontekst: textscripts.diner_convo2:line:29
+      linia: 29
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, yeah. I'll try that.
+      pl: Eee, dobrze. Spróbuję.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1209
+  skrypt: diner_convo3
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_95214e3c63d2290b050e
+      kontekst: textscripts.diner_convo3:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't bother anybody until you get this magazine off your face.
+      pl: Nie niepokój nikogo, dopóki nie zdejmiesz czasopisma z twarzy.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_29c4f4903e51939e924c
+      kontekst: textscripts.diner_convo3:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These two are still ranting about the problem with kids these days. Well, one of them is.
+      pl: Wciąż trwa tyrada o dzisiejszej młodzieży. To znaczy tyrada jednej z tych osób.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b35534d833cb328a881
+      kontekst: textscripts.diner_convo3:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A couple of older folks are having an animated discussion. Well, one of them is.
+      pl: Dwie starsze osoby prowadzą ożywioną dyskusję. A właściwie jedna z nich.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f48426500151fd9c0a95
+      kontekst: textscripts.diner_convo3:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Listen in
+      pl: Podsłuchaj
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_0269a8708db78db75097
+      kontekst: textscripts.diner_convo3:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmph! The way these young women act these days, with their short hair and their sassy talk and their dresses that don't even cover their...
+        their...
+      pl: Hmpf! Jak te młode kobiety się dzisiaj zachowują, z krótkimi włosami, zuchwałymi odzywkami i sukienkami, które nie zasłaniają nawet...
+        nawet ich...
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b46905b4ab00f055d6ce
+      kontekst: textscripts.diner_convo3:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ankles?
+      pl: Kostek?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_47336b790c531585d0e4
+      kontekst: textscripts.diner_convo3:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's scandalous! And those dances they do, flailin' around like I don't know what! I'd've thought Prohibition would've put the kibosh
+        on that sort of tomfoolery, but nossir!
+      pl: To skandal! A te ich tańce — wymachują kończynami jak opętane! Można by sądzić, że prohibicja ukróci takie błazeństwa, ale gdzie tam!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4e14232b2f92eaa13846
+      kontekst: textscripts.diner_convo3:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can't imagine dancing a waltz to the music they're playing nowadays, though.
+      pl: Choć trudno wyobrazić sobie walca do muzyki, którą grają w dzisiejszych czasach.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e69b45f51a42f4635052
+      kontekst: textscripts.diner_convo3:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And that's the problem right there! This newfangled jazz music with all the drums and... and... clarinets and such. What kinda word
+        is that, anyway? <i>Jazz.</i>
+      pl: I w tym właśnie problem! Ta nowomodna muzyka jazzowa, te wszystkie bębny i... i... klarnety czy inne takie. Co to w ogóle za słowo?
+        <i>Jazz.</i>
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19aa65f2b40bde9fd9af
+      kontekst: textscripts.diner_convo3:line:26
+      linia: 26
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I think our cups got switched. You're supposed to be drinking decaf.
+      pl: Chyba zamieniono nam filiżanki. To ty masz pić bezkofeinową.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.diner_convo3:line:27
+      linia: 27
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1211
+  skrypt: diner_emptytable
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c8c1ed0b41db20bb1c27
+      kontekst: textscripts.diner_emptytable:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Is this table occupied? You can't be sure until you get this magazine off your face.
+      pl: Czy ten stolik jest zajęty? Dopóki nie zdejmiesz czasopisma z twarzy, nie da się tego ustalić.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6e08ebd4092a9a2d0bd3
+      kontekst: textscripts.diner_emptytable:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some petty vandal has scratched the name "DanBob" into the surface of this table.
+      pl: Jakiś drobny wandal wydrapał na blacie imię „DanBob”.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1213
+  skrypt: diner_exit
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2c739a0dc384e5e371ac
+      kontekst: textscripts.diner_exit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't leave until you've gotten this magazine off your face.
+      pl: Nie wychodź, dopóki nie zdejmiesz czasopisma z twarzy.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3c037d7e698fca39b6fc
+      kontekst: textscripts.diner_exit:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should ask the lady behind the counter when the next bus is coming. No sense in standing in the wind any longer than you have to.
+      pl: Zapytaj kobietę za ladą, kiedy przyjedzie następny autobus. Nie ma sensu stać na wietrze dłużej, niż to konieczne.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_70a33ac03097a18f78a5
+      kontekst: textscripts.diner_exit:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ethel said the bus will be here any minute.
+      pl: Ethel mówiła, że autobus przyjedzie lada chwila.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_275bed7ec5c6cf9d8002
+      kontekst: textscripts.diner_exit:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go out and wait for it
+      pl: Wyjdź i zaczekaj
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1214
+  skrypt: diner_flo
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 122
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: sol_77e4fa6e0645233daa2c
+      kontekst: textscripts.diner_flo:line:19
+      linia: 19
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm $n1$.
+      pl: Jestem $n1$.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $n1$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_79b2ca442c81094211c5
+      kontekst: textscripts.diner_flo:line:20
+      linia: 20
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm $n2$.
+      pl: Jestem $n2$.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $n2$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2ee2f13525013116dcb8
+      kontekst: textscripts.diner_flo:line:21
+      linia: 21
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm $n3$.
+      pl: Jestem $n3$.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $n3$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36d9fe31dc09924ab160
+      kontekst: textscripts.diner_flo:line:22
+      linia: 22
+      sekcja_skryptu: intro
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter a different first name
+      pl: Wpisz inne imię
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: n4
+    wpisy:
+    - id: sol_6473a381767437bdb3b7
+      kontekst: textscripts.diner_flo:line:38
+      linia: 38
+      sekcja_skryptu: n4
+      typ: prompt
+      mowca_lub_kanal: pole_wprowadzania
+      en: First name?
+      pl: Imię?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: retype1
+    wpisy:
+    - id: sol_cc75e681b6b49721f399
+      kontekst: textscripts.diner_flo:line:49
+      linia: 49
+      sekcja_skryptu: retype1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"(You actually need to enter something!)"'
+      pl: „(Musisz naprawdę coś wpisać!)”
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cdf30d199394d994e122
+      kontekst: textscripts.diner_flo:line:52
+      linia: 52
+      sekcja_skryptu: retype1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, fine
+      pl: No dobrze
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: aftername
+    wpisy:
+    - id: sol_7dc3af319788364ee77b
+      kontekst: textscripts.diner_flo:line:57
+      linia: 57
+      sekcja_skryptu: aftername
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, I'm @firstname@.
+      pl: Cześć, jestem @firstname@.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b70b0a57359441b99333
+      kontekst: textscripts.diner_flo:line:58
+      linia: 58
+      sekcja_skryptu: aftername
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '@firstname@ who?'
+      pl: '@firstname@ jaki?'
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: presentlastnames
+    wpisy:
+    - id: sol_f52c202e70ae99d6a26c
+      kontekst: textscripts.diner_flo:line:83
+      linia: 83
+      sekcja_skryptu: presentlastnames
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '@firstname@ $n1$.'
+      pl: '@firstname@ $n1$.'
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - $n1$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e9b581769c5f8ba23c4d
+      kontekst: textscripts.diner_flo:line:84
+      linia: 84
+      sekcja_skryptu: presentlastnames
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '@firstname@ $n2$.'
+      pl: '@firstname@ $n2$.'
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - $n2$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_20e8decdf0bea79716cf
+      kontekst: textscripts.diner_flo:line:85
+      linia: 85
+      sekcja_skryptu: presentlastnames
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '@firstname@ $goofy$.'
+      pl: '@firstname@ $goofy$.'
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - $goofy$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3de750307afce6cca426
+      kontekst: textscripts.diner_flo:line:86
+      linia: 86
+      sekcja_skryptu: presentlastnames
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter a different last name
+      pl: Wpisz inne nazwisko
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ln4
+    wpisy:
+    - id: sol_e991b1f3848eab53d5da
+      kontekst: textscripts.diner_flo:line:101
+      linia: 101
+      sekcja_skryptu: ln4
+      typ: prompt
+      mowca_lub_kanal: pole_wprowadzania
+      en: Last name?
+      pl: Nazwisko?
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: retype2
+    wpisy:
+    - id: sol_d340ebae6c8c7f2c25ba
+      kontekst: textscripts.diner_flo:line:111
+      linia: 111
+      sekcja_skryptu: retype2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"(You actually need to type something!)"'
+      pl: „(Musisz naprawdę coś wpisać!)”
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cdf30d199394d994e122
+      kontekst: textscripts.diner_flo:line:112
+      linia: 112
+      sekcja_skryptu: retype2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, fine
+      pl: No dobrze
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: afterbothnames
+    wpisy:
+    - id: sol_ea9ca8cc1f53c890945c
+      kontekst: textscripts.diner_flo:line:118
+      linia: 118
+      sekcja_skryptu: afterbothnames
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '@firstname@ @lastname@.'
+      pl: '@firstname@ @lastname@.'
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_767b74ceca487e5790e4
+      kontekst: textscripts.diner_flo:line:119
+      linia: 119
+      sekcja_skryptu: afterbothnames
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Pleased to meet you, @firstname@ @lastname@. What can I get you?
+      pl: Miło cię poznać, @firstname@ @lastname@. Co podać?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4a5b8bc89dfcbd372540
+      kontekst: textscripts.diner_flo:line:121
+      linia: 121
+      sekcja_skryptu: afterbothnames
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can I get a cup of coffee?
+      pl: Mogę prosić filiżankę kawy?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f082b14f7cb0485bdaa2
+      kontekst: textscripts.diner_flo:line:122
+      linia: 122
+      sekcja_skryptu: afterbothnames
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Does the bus to Ocean City pick up here?
+      pl: Czy autobus do Ocean City zatrzymuje się tutaj?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_11c2d91a538a6771d948
+      kontekst: textscripts.diner_flo:line:123
+      linia: 123
+      sekcja_skryptu: afterbothnames
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing just now, thanks.
+      pl: Na razie nic, dziękuję.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: return
+    wpisy:
+    - id: sol_2e21c9ef575959975691
+      kontekst: textscripts.diner_flo:line:128
+      linia: 128
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anything I can get you, hon?
+      pl: Podać ci coś, kochanie?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_11c2d91a538a6771d948
+      kontekst: textscripts.diner_flo:line:134
+      linia: 134
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing just now, thanks.
+      pl: Na razie nic, dziękuję.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: coffee
+    wpisy:
+    - id: sol_8760d5d421d50e6b4cf0
+      kontekst: textscripts.diner_flo:line:139
+      linia: 139
+      sekcja_skryptu: coffee
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You sure can! Best cup of coffee in the state, if I may say so myself. That'll be one Meat.
+      pl: Oczywiście! Najlepsza kawa w stanie, jeśli wolno mi tak powiedzieć. Należy się jedno Mięso.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72f33217b1884c424ddf
+      kontekst: textscripts.diner_flo:line:142
+      linia: 142
+      sekcja_skryptu: coffee
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Umm, I'll be right back.
+      pl: Eee, zaraz wracam.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: coffee2
+    wpisy:
+    - id: sol_a885fc3581062bceefab
+      kontekst: textscripts.diner_flo:line:147
+      linia: 147
+      sekcja_skryptu: coffee2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ethel pours you a steaming-hot cup of fresh black java.
+      pl: Ethel nalewa ci parującą filiżankę świeżej czarnej kawy.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_07c3a54194970f2351dd
+      kontekst: textscripts.diner_flo:line:151
+      linia: 151
+      sekcja_skryptu: coffee2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anything else, hon?
+      pl: Coś jeszcze, kochanie?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7f158430f653ec958a54
+      kontekst: textscripts.diner_flo:line:153
+      linia: 153
+      sekcja_skryptu: coffee2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope, thanks!
+      pl: Nie, dzięki!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: coffeeno
+    wpisy:
+    - id: sol_3c0fc095f2a0e55cea6d
+      kontekst: textscripts.diner_flo:line:158
+      linia: 158
+      sekcja_skryptu: coffeeno
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that's a shame. Anything else?
+      pl: Szkoda. Coś jeszcze?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d63b21d12357cbf9bc67
+      kontekst: textscripts.diner_flo:line:160
+      linia: 160
+      sekcja_skryptu: coffeeno
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing just now, thanks anyway.
+      pl: Na razie nic, ale dzięki.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bus
+    wpisy:
+    - id: sol_f0174a55c8e8e6a77c73
+      kontekst: textscripts.diner_flo:line:167
+      linia: 167
+      sekcja_skryptu: bus
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure does -- should be here any minute. Good thing too, I hear we're in for rain tonight.  What takes you to Ocean City?
+      pl: Owszem — powinien być lada chwila. To dobrze, bo podobno wieczorem będzie padać. Co cię sprowadza do Ocean City?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2e16d1dadd4a96c7c2c6
+      kontekst: textscripts.diner_flo:line:168
+      linia: 168
+      sekcja_skryptu: bus
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: My uncle lives there.  I got a letter from him.  He wants me to help him with something.
+      pl: Mieszka tam mój wujek. Przysłał mi list. Chce mojej pomocy w jakiejś sprawie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e027b77bbeb6a9fb9ed4
+      kontekst: textscripts.diner_flo:line:169
+      linia: 169
+      sekcja_skryptu: bus
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's a reason, hon, but it's somebody <i>else's</i> reason.  What's <i>your</i> reason?
+      pl: To jest powód, kochanie, ale powód kogoś <i>innego</i>. Jaki jest <i>twój</i>?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f5e88cdbab453339042d
+      kontekst: textscripts.diner_flo:line:170
+      linia: 170
+      sekcja_skryptu: bus
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ethel locks eyes with you.
+      pl: Ethel patrzy ci prosto w oczy.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ebe8dbc1f44d2bf40494
+      kontekst: textscripts.diner_flo:line:171
+      linia: 171
+      sekcja_skryptu: bus
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I... uh...
+      pl: Ja... eee...
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: motivation
+    wpisy:
+    - id: sol_cbb8f2fc170fabdd5882
+      kontekst: textscripts.diner_flo:line:184
+      linia: 184
+      sekcja_skryptu: motivation
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I just really want to help.
+      pl: Naprawdę chcę pomóc.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_983fdbd96e5695b4295e
+      kontekst: textscripts.diner_flo:line:185
+      linia: 185
+      sekcja_skryptu: motivation
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I got in some trouble back home.
+      pl: Mam kłopoty w domu.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9e5851e909eca18a2c3f
+      kontekst: textscripts.diner_flo:line:186
+      linia: 186
+      sekcja_skryptu: motivation
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm searching for something.
+      pl: Szukam czegoś.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_63ab8aa0d5ee4c1186d2
+      kontekst: textscripts.diner_flo:line:187
+      linia: 187
+      sekcja_skryptu: motivation
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Just seeking my fortune.
+      pl: Po prostu szukam szczęścia.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3f1833a55ae525eab569
+      kontekst: textscripts.diner_flo:line:188
+      linia: 188
+      sekcja_skryptu: motivation
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Mind your own business, Ethel.
+      pl: Pilnuj własnego nosa, Ethel.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: help
+    wpisy:
+    - id: sol_683de742e5d011d60605
+      kontekst: textscripts.diner_flo:line:195
+      linia: 195
+      sekcja_skryptu: help
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Your uncle must be pretty important to you.
+      pl: Wujek musi wiele dla ciebie znaczyć.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2d080a3bf4fc1311ce07
+      kontekst: textscripts.diner_flo:line:196
+      linia: 196
+      sekcja_skryptu: help
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Of course he is.  He's family, after all.
+      pl: Oczywiście. W końcu to rodzina.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_21b8aa3a159d4291aa30
+      kontekst: textscripts.diner_flo:line:197
+      linia: 197
+      sekcja_skryptu: help
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Everybody who needs help deserves help.
+      pl: Każdy, kto potrzebuje pomocy, zasługuje na nią.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3f97f916b336f6faba6c
+      kontekst: textscripts.diner_flo:line:198
+      linia: 198
+      sekcja_skryptu: help
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, I have a different reason.
+      pl: Właściwie mam inny powód.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: altruism
+    wpisy:
+    - id: sol_36379f05ad4fef8c3820
+      kontekst: textscripts.diner_flo:line:205
+      linia: 205
+      sekcja_skryptu: altruism
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ethel beams.
+      pl: Ethel promienieje.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6a36b046e0b968fe1407
+      kontekst: textscripts.diner_flo:line:206
+      linia: 206
+      sekcja_skryptu: altruism
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, isn't that sweet.  The world could use more folks like you, I think.
+      pl: Czy to nie urocze? Światu przydałoby się więcej takich osób jak ty.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_58f3e5d67ef4728e3102
+      kontekst: textscripts.diner_flo:line:207
+      linia: 207
+      sekcja_skryptu: altruism
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smile and leave
+      pl: Uśmiechnij się i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+  - etykieta: family
+    wpisy:
+    - id: sol_ad1e2ab458a55bd4df3b
+      kontekst: textscripts.diner_flo:line:214
+      linia: 214
+      sekcja_skryptu: family
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Aww.  What's your uncle's name?
+      pl: Ooo. Jak ma na imię twój wujek?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4635394f552f6ae77dd6
+      kontekst: textscripts.diner_flo:line:215
+      linia: 215
+      sekcja_skryptu: family
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Murray.
+      pl: Murray.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6772ed855cf8e56c2cf6
+      kontekst: textscripts.diner_flo:line:216
+      linia: 216
+      sekcja_skryptu: family
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She smiles.
+      pl: Uśmiecha się.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b1bb418accea65eac349
+      kontekst: textscripts.diner_flo:line:217
+      linia: 217
+      sekcja_skryptu: family
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Murray's one lucky guy.
+      pl: Murray ma wielkie szczęście.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_58f3e5d67ef4728e3102
+      kontekst: textscripts.diner_flo:line:218
+      linia: 218
+      sekcja_skryptu: family
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smile and leave
+      pl: Uśmiechnij się i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: run
+    wpisy:
+    - id: sol_35253e771e8d3ceb2885
+      kontekst: textscripts.diner_flo:line:223
+      linia: 223
+      sekcja_skryptu: run
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Really?  You look like such a sweetheart.  What did you do?
+      pl: Naprawdę? Masz przecież minę niewiniątka. Co takiego się stało?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9f3494de8a15969c720d
+      kontekst: textscripts.diner_flo:line:224
+      linia: 224
+      sekcja_skryptu: run
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I beat up a phone booth.
+      pl: Spuściłem łomot budce telefonicznej.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5bae7e2b5e2a00e1c6dd
+      kontekst: textscripts.diner_flo:line:225
+      linia: 225
+      sekcja_skryptu: run
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I shot a parking meter.
+      pl: Parkometr oberwał ode mnie kulkę.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2684d653a210971a890a
+      kontekst: textscripts.diner_flo:line:226
+      linia: 226
+      sekcja_skryptu: run
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I started a fire in a mailbox.
+      pl: Skrzynka pocztowa stanęła przeze mnie w ogniu.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_854318812d865353a41f
+      kontekst: textscripts.diner_flo:line:227
+      linia: 227
+      sekcja_skryptu: run
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I was mistaken, there was no trouble.
+      pl: To pomyłka, nie było żadnych kłopotów.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: run1
+    wpisy:
+    - id: sol_854600dd4be3d987c12a
+      kontekst: textscripts.diner_flo:line:237
+      linia: 237
+      sekcja_skryptu: run1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And... the police are actually bothering to come after you for that?
+      pl: I... policja naprawdę ściga cię z tego powodu?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d3f9aee183b96fe66459
+      kontekst: textscripts.diner_flo:line:238
+      linia: 238
+      sekcja_skryptu: run1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I'm just embarrassed about it.
+      pl: Nie, po prostu mi wstyd.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4d17245911d4ade1b80c
+      kontekst: textscripts.diner_flo:line:239
+      linia: 239
+      sekcja_skryptu: run1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aww.
+      pl: Ooo.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_896112922f1a89f92f9d
+      kontekst: textscripts.diner_flo:line:240
+      linia: 240
+      sekcja_skryptu: run1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smile sheepishly and walk away
+      pl: Uśmiechnij się nieśmiało i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: run2
+    wpisy:
+    - id: sol_709ba3a236050ca9e69f
+      kontekst: textscripts.diner_flo:line:250
+      linia: 250
+      sekcja_skryptu: run2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I guess I can't blame you.  I hate those things too.
+      pl: Cóż, trudno cię winić. Ja też ich nie znoszę.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6f3afed2d84b25e86e2a
+      kontekst: textscripts.diner_flo:line:251
+      linia: 251
+      sekcja_skryptu: run2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nod and leave
+      pl: Kiwnij głową i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: run3
+    wpisy:
+    - id: sol_604caaf8445623c423cb
+      kontekst: textscripts.diner_flo:line:261
+      linia: 261
+      sekcja_skryptu: run3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Now why would you go and do a thing like that?
+      pl: A po co robić coś takiego?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0a18a7cec4d61efe124a
+      kontekst: textscripts.diner_flo:line:262
+      linia: 262
+      sekcja_skryptu: run3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: It was full of eviction notices.
+      pl: Była pełna nakazów eksmisji.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8455ddcbc4c676713edb
+      kontekst: textscripts.diner_flo:line:263
+      linia: 263
+      sekcja_skryptu: run3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh.
+      pl: Oh.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f9211d87b53af3aea73b
+      kontekst: textscripts.diner_flo:line:264
+      linia: 264
+      sekcja_skryptu: run3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ethel tries to give you a disapproving look, but she can't help smiling a little.
+      pl: Ethel próbuje spojrzeć z dezaprobatą, ale nie potrafi powstrzymać lekkiego uśmiechu.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_368d1e841e9afe5a2052
+      kontekst: textscripts.diner_flo:line:265
+      linia: 265
+      sekcja_skryptu: run3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wink and walk away
+      pl: Mrugnij i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: looking
+    wpisy:
+    - id: sol_4306b061c59e52f1c931
+      kontekst: textscripts.diner_flo:line:270
+      linia: 270
+      sekcja_skryptu: looking
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I see. Do you know what it is you're looking for?
+      pl: Rozumiem. Wiesz, czego szukasz?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_06557e95ff245273c317
+      kontekst: textscripts.diner_flo:line:271
+      linia: 271
+      sekcja_skryptu: looking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No.  That's the problem.
+      pl: Nie. W tym właśnie problem.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e844ebbe963cbad0b76
+      kontekst: textscripts.diner_flo:line:272
+      linia: 272
+      sekcja_skryptu: looking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Just trying to find myself, I guess.
+      pl: Chyba próbuję odnaleźć siebie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5ee7bf4e15594a74c11c
+      kontekst: textscripts.diner_flo:line:273
+      linia: 273
+      sekcja_skryptu: looking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Something dark.
+      pl: Czegoś mrocznego.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f65a16b3db36b4cfaf13
+      kontekst: textscripts.diner_flo:line:274
+      linia: 274
+      sekcja_skryptu: looking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Just kidding, I'm not looking for anything.
+      pl: Żartuję, niczego nie szukam.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lostsoul
+    wpisy:
+    - id: sol_47866a28aaba7903eeea
+      kontekst: textscripts.diner_flo:line:281
+      linia: 281
+      sekcja_skryptu: lostsoul
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'm sure you'll figure out what it is, hon.
+      pl: Na pewno uda ci się to ustalić, kochanie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_04bd4c095e0bdacebf87
+      kontekst: textscripts.diner_flo:line:282
+      linia: 282
+      sekcja_skryptu: lostsoul
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I hope so.
+      pl: Mam taką nadzieję.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4b37ef9ea0a0e37346
+      kontekst: textscripts.diner_flo:line:283
+      linia: 283
+      sekcja_skryptu: lostsoul
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away
+      pl: Odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: myself
+    wpisy:
+    - id: sol_7f5da17b5da34425ec01
+      kontekst: textscripts.diner_flo:line:290
+      linia: 290
+      sekcja_skryptu: myself
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ethel smiles.
+      pl: Ethel się uśmiecha.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f1a8064e5705afbbef31
+      kontekst: textscripts.diner_flo:line:291
+      linia: 291
+      sekcja_skryptu: myself
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, you know what they say, you're always in the last place you look.
+      pl: 'Wiesz, jak to mówią: zawsze znajdujesz to w ostatnim miejscu, w którym szukasz.'
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_300f69f74038238d0175
+      kontekst: textscripts.diner_flo:line:292
+      linia: 292
+      sekcja_skryptu: myself
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Laugh and leave
+      pl: Roześmiej się i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_58f3e5d67ef4728e3102
+      kontekst: textscripts.diner_flo:line:293
+      linia: 293
+      sekcja_skryptu: myself
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smile and leave
+      pl: Uśmiechnij się i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_9502977459aae557c788
+      kontekst: textscripts.diner_flo:line:294
+      linia: 294
+      sekcja_skryptu: myself
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just walk away
+      pl: Po prostu odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: darkness
+    wpisy:
+    - id: sol_2f8698a9c307a0588196
+      kontekst: textscripts.diner_flo:line:302
+      linia: 302
+      sekcja_skryptu: darkness
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What do you mean by that?
+      pl: Co masz na myśli?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_56fa9cacfa80e49da94f
+      kontekst: textscripts.diner_flo:line:303
+      linia: 303
+      sekcja_skryptu: darkness
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: There's something in my dreams.  A kind of darkness, but it's moving.  I have to find out what it is.
+      pl: Coś nawiedza moje sny. Jakiś rodzaj mroku, ale... to się porusza. Muszę odkryć, co to jest.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: [zmiana koncepcji zdania]
+    - id: sol_703fe9667475a05f7243
+      kontekst: textscripts.diner_flo:line:304
+      linia: 304
+      sekcja_skryptu: darkness
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some of the color drains from Ethel's cheeks.
+      pl: Z policzków Ethel odpływa nieco koloru.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_300f69f74038238d0175
+      kontekst: textscripts.diner_flo:line:305
+      linia: 305
+      sekcja_skryptu: darkness
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Laugh and leave
+      pl: Roześmiej się i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_58f3e5d67ef4728e3102
+      kontekst: textscripts.diner_flo:line:306
+      linia: 306
+      sekcja_skryptu: darkness
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smile and leave
+      pl: Uśmiechnij się i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_2222c3e85919593e090f
+      kontekst: textscripts.diner_flo:line:307
+      linia: 307
+      sekcja_skryptu: darkness
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stare at her for a while, then leave
+      pl: Popatrz na nią przez chwilę, a potem odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fortune
+    wpisy:
+    - id: sol_910b6302507a22d47fe0
+      kontekst: textscripts.diner_flo:line:312
+      linia: 312
+      sekcja_skryptu: fortune
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: And what exactly does fortune mean to you, hon?
+      pl: A czym właściwie jest dla ciebie szczęście, kochanie?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_944d5d39e66736b2d95f
+      kontekst: textscripts.diner_flo:line:313
+      linia: 313
+      sekcja_skryptu: fortune
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Money.
+      pl: Pieniędzmi.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5fdb3d16ceb88f58dd1a
+      kontekst: textscripts.diner_flo:line:314
+      linia: 314
+      sekcja_skryptu: fortune
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fame.
+      pl: Sławą.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f32a79a84c8c83acf5af
+      kontekst: textscripts.diner_flo:line:315
+      linia: 315
+      sekcja_skryptu: fortune
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Having lots of stuff.
+      pl: Posiadaniem mnóstwa rzeczy.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7de4d6c964af45e057e8
+      kontekst: textscripts.diner_flo:line:316
+      linia: 316
+      sekcja_skryptu: fortune
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: On second thought, forget about fortune.
+      pl: Po namyśle zapomnijmy o szczęściu.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: money
+    wpisy:
+    - id: sol_eec9e3146e73fd943f8d
+      kontekst: textscripts.diner_flo:line:320
+      linia: 320
+      sekcja_skryptu: money
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Money.  I'm tired of being broke.
+      pl: Pieniędzmi. Mam dość biedowania.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7ebbaf500ee21eeb631f
+      kontekst: textscripts.diner_flo:line:323
+      linia: 323
+      sekcja_skryptu: money
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I understand completely.  You're young, you've got to go where the opportunities are.  Though I'm not sure Ocean City exactly qualifies
+        these days.
+      pl: Doskonale rozumiem. Młodość ma swoje prawa — trzeba iść tam, gdzie czekają możliwości. Choć nie wiem, czy w dzisiejszych czasach Ocean
+        City się do takich miejsc zalicza.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_98db7e79c48fbc3b40df
+      kontekst: textscripts.diner_flo:line:324
+      linia: 324
+      sekcja_skryptu: money
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I've gotta start somewhere.
+      pl: Od czegoś trzeba zacząć.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a4edad0779bc5169c9e5
+      kontekst: textscripts.diner_flo:line:325
+      linia: 325
+      sekcja_skryptu: money
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smile and walk away
+      pl: Uśmiechnij się i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fame
+    wpisy:
+    - id: sol_464e0b798089dc10f520
+      kontekst: textscripts.diner_flo:line:329
+      linia: 329
+      sekcja_skryptu: fame
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Fame.  I wanna be somebody.
+      pl: Sławą. Chcę być kimś.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_13d1df8cad8e5b66f70f
+      kontekst: textscripts.diner_flo:line:332
+      linia: 332
+      sekcja_skryptu: fame
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You're already somebody, hon.
+      pl: Już jesteś kimś, kochanie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c84665ae0b560bd03277
+      kontekst: textscripts.diner_flo:line:333
+      linia: 333
+      sekcja_skryptu: fame
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I mean somebody special.  Somebody people will remember forever, like Gertrude Ederle, or John Gilbert, or Juan Belmonte Garcia.
+      pl: Chodzi mi o kogoś wyjątkowego. Osobę, którą ludzie zapamiętają na zawsze, jak Gertrude Ederle, John Gilbert albo Juan Belmonte Garcia.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_67aca568847583645388
+      kontekst: textscripts.diner_flo:line:334
+      linia: 334
+      sekcja_skryptu: fame
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I see.  Well, as the owner of a tiny diner in the middle of nowhere, I have absolutely no advice for you.
+      pl: Rozumiem. Jako właścicielka maleńkiego baru pośrodku pustkowia nie mam dla ciebie absolutnie żadnej rady.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_efcb9f729771baed3299
+      kontekst: textscripts.diner_flo:line:335
+      linia: 335
+      sekcja_skryptu: fame
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nod and walk away
+      pl: Kiwnij głową i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+  - etykieta: stuffs
+    wpisy:
+    - id: sol_68f42c820f94e44c6b85
+      kontekst: textscripts.diner_flo:line:339
+      linia: 339
+      sekcja_skryptu: stuffs
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm just sick of having to make do with a cheap wristwatch.
+      pl: Mam po prostu dość zadowalania się tanim zegarkiem na rękę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_00312465c95d433f6aea
+      kontekst: textscripts.diner_flo:line:340
+      linia: 340
+      sekcja_skryptu: stuffs
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You're not wearing a wristwatch.
+      pl: Nie masz zegarka.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_378b1a156dc2e19eadea
+      kontekst: textscripts.diner_flo:line:341
+      linia: 341
+      sekcja_skryptu: stuffs
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: See what I mean!?
+      pl: Widzisz, o czym mówię?!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_42a581d659f9804bc345
+      kontekst: textscripts.diner_flo:line:344
+      linia: 344
+      sekcja_skryptu: stuffs
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Shake your head and walk away
+      pl: Pokręć głową i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nunya
+    wpisy:
+    - id: sol_d418ddcf4f143aa4d3e4
+      kontekst: textscripts.diner_flo:line:351
+      linia: 351
+      sekcja_skryptu: nunya
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, of course, hon, where are my manners.  I'm sorry to pry.  My curiosity just got the best of me.
+      pl: Och, oczywiście, kochanie, gdzie moje maniery. Przepraszam za wścibstwo. Ciekawość wzięła nade mną górę.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_efcb9f729771baed3299
+      kontekst: textscripts.diner_flo:line:352
+      linia: 352
+      sekcja_skryptu: nunya
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nod and walk away
+      pl: Kiwnij głową i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_f34039d4644859077284
+      kontekst: textscripts.diner_flo:line:353
+      linia: 353
+      sekcja_skryptu: nunya
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Frown and walk away
+      pl: Zmarszcz brwi i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: chaos
+    wpisy:
+    - id: sol_4814fdae8002b2db0590
+      kontekst: textscripts.diner_flo:line:357
+      linia: 357
+      sekcja_skryptu: chaos
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I flipped a coin.  It came up heads.
+      pl: Rzuciłem monetą. Wyszła reszka.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_afe8c9e9933cfccb53a8
+      kontekst: textscripts.diner_flo:line:358
+      linia: 358
+      sekcja_skryptu: chaos
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Really?
+      pl: Naprawdę?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b4f9239c4522baab309b
+      kontekst: textscripts.diner_flo:line:359
+      linia: 359
+      sekcja_skryptu: chaos
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab a coin from the counter and flip it.  It comes up heads.
+      pl: Bierzesz monetę z lady i rzucasz. Wypada orzeł.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4e1cc06a04c9cb9c4927
+      kontekst: textscripts.diner_flo:line:360
+      linia: 360
+      sekcja_skryptu: chaos
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yep.
+      pl: Tak.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_25c589725cf503c53886
+      kontekst: textscripts.diner_flo:line:363
+      linia: 363
+      sekcja_skryptu: chaos
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh.
+      pl: Hm.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e369d43345b90afa2ad0
+      kontekst: textscripts.diner_flo:line:364
+      linia: 364
+      sekcja_skryptu: chaos
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Giggle and walk away
+      pl: Zachichocz i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dcab98c35d5d5a602465
+      kontekst: textscripts.diner_flo:line:365
+      linia: 365
+      sekcja_skryptu: chaos
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Titter and walk away
+      pl: Zaśmiej się cicho i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2ec57738e00d95caef4e
+      kontekst: textscripts.diner_flo:line:366
+      linia: 366
+      sekcja_skryptu: chaos
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cackle and walk away
+      pl: Zarechocz i odejdź
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: maghead
+    wpisy:
+    - id: sol_674ad2671e8e050e3a51
+      kontekst: textscripts.diner_flo:line:372
+      linia: 372
+      sekcja_skryptu: maghead
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Ermf rrrm merffff.
+      pl: Yyyf rrrm mffff.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_596586524cc18f63e166
+      kontekst: textscripts.diner_flo:line:375
+      linia: 375
+      sekcja_skryptu: maghead
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm not talking to you until you wipe that LOOK off your face.
+      pl: Nie odezwę się do ciebie, dopóki nie zdejmiesz z twarzy tego LOOK-u.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d0ab397d340d28428231
+      kontekst: textscripts.diner_flo:line:376
+      linia: 376
+      sekcja_skryptu: maghead
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Wrrf lrrk?
+      pl: Jkki LOOK?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a3fcf788328de5b7d393
+      kontekst: textscripts.diner_flo:line:377
+      linia: 377
+      sekcja_skryptu: maghead
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: The copy of LOOK magazine that's stuck to your face. Bathroom's in the back.
+      pl: Egzemplarz czasopisma LOOK przyklejony do twojej twarzy. Łazienka jest z tyłu.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_839bc7553af4165d7750
+      kontekst: textscripts.diner_flo:line:380
+      linia: 380
+      sekcja_skryptu: maghead
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She points over to the right. As far as you know.
+      pl: Wskazuje w prawo. O ile możesz to stwierdzić.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eada392f69a5cd967809
+      kontekst: textscripts.diner_flo:line:382
+      linia: 382
+      sekcja_skryptu: maghead
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thmmks.
+      pl: Dzmmki.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1215
+  skrypt: diner_jukebox
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b5f52cf420358585d9e3
+      kontekst: textscripts.diner_jukebox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, they've got one of those new Meat-operated multi-selection phonographs! Or "jukeboxes," as the kids call them. Neat!
+      pl: Uuu, mają jeden z tych nowych, wieloutworowych fonografów na Mięso! Czy „szafę grającą”, jak mówi młodzież. Świetnie!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: magazine
+    wpisy:
+    - id: sol_34509b316df7aac9a2a6
+      kontekst: textscripts.diner_jukebox:line:9
+      linia: 9
+      sekcja_skryptu: magazine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's some kind of big glass and metal box here, but you can't actually see what it is.
+      pl: Stoi tu jakaś wielka szklano-metalowa skrzynia, ale nie możesz zobaczyć, czym właściwie jest.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: meatinthere
+    wpisy:
+    - id: sol_e5fdce225c5ba48f40e5
+      kontekst: textscripts.diner_jukebox:line:13
+      linia: 13
+      sekcja_skryptu: meatinthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, there's something in the coin return!
+      pl: Hej, coś jest w otworze na zwrot monet!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.diner_jukebox:line:14
+      linia: 14
+      sekcja_skryptu: meatinthere
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_ddfaf4019bde7a699031
+      kontekst: textscripts.diner_jukebox:line:21
+      linia: 21
+      sekcja_skryptu: e
+      typ: saycenter
+      mowca_lub_kanal: tekst_wysrodkowany
+      en: Nice.
+      pl: Fajnie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: song
+    wpisy:
+    - id: sol_5e8ac4fc06eadefdceae
+      kontekst: textscripts.diner_jukebox:line:26
+      linia: 26
+      sekcja_skryptu: song
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You insert your Meat and it automatically changes to the next record.
+      pl: Wrzucasz Mięso, a urządzenie automatycznie zmienia płytę na następną.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1217
+  skrypt: diner_piecase
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9121262f3c5d5fe4214c
+      kontekst: textscripts.diner_piecase:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Smells like... pie?
+      pl: Pachnie jak... ciasto?
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1218
+  skrypt: diner_sign
+  pomieszczenie:
+    id: diner
+    nazwa_en: The Nightingale Diner
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_05b6f6a6889f24fbb9cb
+      kontekst: textscripts.diner_sign:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can feel a little sign here, but can't see what it says.  Probably instructions for what to do in case of magazine related emergencies.
+      pl: Wyczuwasz tu małą tabliczkę, ale nie widzisz, co na niej napisano. Pewnie instrukcje postępowania w razie wypadku związanego z czasopismem.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e08f104fe5109d761f1e
+      kontekst: textscripts.diner_sign:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The sign says:'
+      pl: 'Napis na tabliczce:'
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_395d5ec122adf82d17a4
+      kontekst: textscripts.diner_sign:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: saycenter
+      mowca_lub_kanal: tekst_wysrodkowany
+      en: MEAT ONLY
+      pl: TYLKO MIĘSO
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8fd2fcf67b8761804942
+      kontekst: textscripts.diner_sign:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: saycenter
+      mowca_lub_kanal: tekst_wysrodkowany
+      en: ((no credit))
+      pl: ((bez kredytu))
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

@@ -1,0 +1,231 @@
+schema_version: 1
+dzial:
+  numer: '01'
+  nazwa: Start_i_Prolog
+grupa_lokacji_lub_systemu: cutscene
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 1
+liczba_wpisow: 13
+sceny:
+- kolejnosc_w_danych_gry: 1094
+  skrypt: cutscene_busride
+  pomieszczenie:
+    id: cutscene_bus
+    nazwa_en: On The Bus
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: letter
+    wpisy:
+    - id: sol_06ce716f456c69db0bca
+      kontekst: textscripts.cutscene_busride:line:33
+      linia: 33
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull out the letter you got from Uncle Murray and read it again.
+      pl: Wyciągasz list od wujka Murraya i czytasz go ponownie.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2afe807e4855244d6792
+      kontekst: textscripts.cutscene_busride:line:35
+      linia: 35
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Murray Morris\nc/o Murray's Antiques\n111 Plunkett St.\nOcean City
+      pl: 'Murray Morris
+
+        do odbioru w Antykwariacie Murraya
+
+        ul. Plunkett 111
+
+        Ocean City'
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_455e1d6b858088311e7c
+      kontekst: textscripts.cutscene_busride:line:36
+      linia: 36
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <size=10> </size>
+      pl: <size=10> </size>
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne:
+      - <size=10>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_aa5e785ca4fb6eb4ad45
+      kontekst: textscripts.cutscene_busride:line:37
+      linia: 37
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dear @firstname@,
+      pl: Witaj, @firstname@,
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e8a0a650230129209cc
+      kontekst: textscripts.cutscene_busride:line:38
+      linia: 38
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I hope this letter finds you well, and I hope it finds you quickly.
+      pl: Mam nadzieję, że ten list zastanie cię w dobrym zdrowiu i że zrobi to szybko.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87bc8fbab4d0372d1ec1
+      kontekst: textscripts.cutscene_busride:line:39
+      linia: 39
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something quite serious has happened, and I need the help of your adventuresome spirit.  Come to my shop in Ocean City as soon as you
+        are able, please!
+      pl: Stało się coś bardzo poważnego i potrzebuję twojego awanturniczego zapału. Przyjedź proszę do mojego sklepu w Ocean City, gdy tylko
+        zdołasz!
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_455e1d6b858088311e7c
+      kontekst: textscripts.cutscene_busride:line:40
+      linia: 40
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <size=10> </size>
+      pl: <size=10> </size>
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne:
+      - <size=10>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_663372c4b627231eca32
+      kontekst: textscripts.cutscene_busride:line:41
+      linia: 41
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your uncle,
+      pl: Twój wujek
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d56d96457dafe02f56fd
+      kontekst: textscripts.cutscene_busride:line:42
+      linia: 42
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Murray
+      pl: Murray
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_95a6834de8fd425a8d6f
+      kontekst: textscripts.cutscene_busride:line:44
+      linia: 44
+      sekcja_skryptu: letter
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put the letter away
+      pl: Schowaj list
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stopping
+    wpisy:
+    - id: sol_9a19e889ce347e5f33c3
+      kontekst: textscripts.cutscene_busride:line:78
+      linia: 78
+      sekcja_skryptu: stopping
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're just about to go mad from the monotony of this ride, when the bus suddenly judders to a stop.
+      pl: Monotonia podróży doprowadza cię już niemal do obłędu, gdy autobus nagle z szarpnięciem się zatrzymuje.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e20cc99f3f7bfd6afe33
+      kontekst: textscripts.cutscene_busride:line:79
+      linia: 79
+      sekcja_skryptu: stopping
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look out the window expecting to see the sights and sounds of Ocean City, but instead you see an endless expanse of extremely wet
+        trees.
+      pl: Wyglądasz przez okno, spodziewając się widoków i odgłosów Ocean City, ale zamiast nich widzisz bezkresną połać wyjątkowo mokrych drzew.
+      status: zatwierdzono
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b719f55e8cab7ff154a
+      kontekst: textscripts.cutscene_busride:line:80
+      linia: 80
+      sekcja_skryptu: stopping
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh oh
+      pl: Oho.
+      status: zatwierdzono
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
