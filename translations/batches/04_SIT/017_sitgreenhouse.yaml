@@ -1,0 +1,2928 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: sitgreenhouse
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 42
+liczba_wpisow: 156
+sceny:
+- kolejnosc_w_danych_gry: 5465
+  skrypt: autoscript__sitgreenhouse__bench__popup
+  pomieszczenie:
+    id: sitgreenhouse
+    nazwa_en: S.I.T. (Greenhouse)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_508057171cce67477e8f
+      kontekst: textscripts.autoscript__sitgreenhouse__bench__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is either an Avant-Garde sculpture project or some weird new kind of bench.
+      pl: To albo awangardowy projekt rzeźbiarski, albo jakiś dziwny nowy rodzaj ławki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5466
+  skrypt: autoscript__sitgreenhouse__light__popup
+  pomieszczenie:
+    id: sitgreenhouse
+    nazwa_en: S.I.T. (Greenhouse)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_89c30aefafd1dcfc0033
+      kontekst: textscripts.autoscript__sitgreenhouse__light__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A steam-powered lamppost.  What ridiculous thing will they think of next?
+      pl: Latarnia napędzana parą. Jaką niedorzeczność wymyślą następnym razem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3823
+  skrypt: sitgreenhouse_athenaoutside
+  pomieszczenie:
+    id: sitgreenhouse
+    nazwa_en: S.I.T. (Greenhouse)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f66f6d11f2bb228cbe22
+      kontekst: textscripts.sitgreenhouse_athenaoutside:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"<i>Welcome to the S.I.T. Greenhouse, constructed in 1919 by German engineer Walther Bauersfield -- an early attempt to invent the
+        geodesic dome, at which he was not successful until 1923.</i>"
+      pl: \"<i>Witamy w Szklarni S.I.T., zbudowanej w 1919 roku przez niemieckiego inżyniera Walthera Bauersfelda — była to wczesna próba wynalezienia
+        kopuły geodezyjnej, co udało mu się dopiero w roku 1923.</i>"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3828
+  skrypt: sitgreenhouse_exit
+  pomieszczenie:
+    id: sitgreenhouse
+    nazwa_en: S.I.T. (Greenhouse)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b1b66599b788a44f1b1a
+      kontekst: textscripts.sitgreenhouse_exit:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wanna leave the greenhouse in search of greener houses, er, I mean pastures?
+      pl: Opuścić szklarnię w poszukiwaniu bardziej zielonych domów... eee, to znaczy pastwisk?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.sitgreenhouse_exit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5468
+  skrypt: autoscript__sitgreenhouse_inside__plant1__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f682d9495a73c84657eb
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""Despite its addictive and hallucinogenic qualities, loco weed is still legal because it is not popular among Jazz musicians.""'
+      pl: „Pomimo właściwości uzależniających i halucynogennych szalej pozostaje legalny, ponieważ nie cieszy się popularnością wśród muzyków
+        jazzowych”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5469
+  skrypt: autoscript__sitgreenhouse_inside__plant2__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_648ec93e0c36e1f93840
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""This is just a regular tree.  It was put here by accident.""'
+      pl: „To po prostu zwyczajne drzewo. Trafiło tutaj przez pomyłkę”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5470
+  skrypt: autoscript__sitgreenhouse_inside__plant3__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2f608cf10eddc194127c
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""Though its habitat is threatened by Prohibition, the Gin Blossom still thrives in locations boring enough to not seem suspicious
+        to authorities.""'
+      pl: „Choć prohibicja zagraża jego środowisku, Kwiat Dżinu nadal rozkwita w miejscach dość nudnych, by nie wzbudzać podejrzeń władz”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5471
+  skrypt: autoscript__sitgreenhouse_inside__plant4__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2d0d3c8fcbe765f5565f
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""S.I.T. proudly hosts the world''s largest exhibition of Invisible Chrysanthemums.""'
+      pl: „S.I.T. z dumą prezentuje największą na świecie wystawę Niewidzialnych Chryzantem”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5472
+  skrypt: autoscript__sitgreenhouse_inside__plant5__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2e4f6fb87759416813c2
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant5__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""Contrary to its name, the yucca is not particularly funny.""'
+      pl: „Wbrew nazwie juka nie jest szczególnie jajcarska”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5473
+  skrypt: autoscript__sitgreenhouse_inside__plant6__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7748a92877bcf4d24b61
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant6__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""Native to the nearby Moistlands, the Eastern Cattail smells extremely bad and has no known industrial or culinary uses.""'
+      pl: „Pochodząca z pobliskich Zatęchłych Mokradeł Wschodnia Pałka Wodna cuchnie niemiłosiernie i nie ma żadnych znanych zastosowań przemysłowych ani kulinarnych”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5474
+  skrypt: autoscript__sitgreenhouse_inside__plant7__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b5525e557d6a121ae8a6
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant7__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""The Very Tall Sunflower is critically endangered due to being too far away from the ground for pollinating insects to notice it.""'
+      pl: „Bardzo Wysoki Słonecznik jest krytycznie zagrożony, ponieważ rośnie zbyt daleko od ziemi, by owady zapylające mogły go dostrzec”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5475
+  skrypt: autoscript__sitgreenhouse_inside__plant8__popup
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_929f57a3f8e5381ad214
+      kontekst: textscripts.autoscript__sitgreenhouse_inside__plant8__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""The Northern Organ Pipe cactus does not make any sound no matter how hard you blow into it, so please stop trying.""'
+      pl: „Północny Kaktus Organowy nie wydaje żadnego dźwięku, choćby dmuchać weń z całej siły, więc prosimy przestać próbować”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3836
+  skrypt: sitgreenhouse_labdoor
+  pomieszczenie:
+    id: sitgreenhouse_inside
+    nazwa_en: S.I.T. (Greenhouse Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8ba4c5f3757ee11c9f83
+      kontekst: textscripts.sitgreenhouse_labdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you're not mistaken, this stairwell doorway provides access to a classroom of some sort.
+      pl: Jeśli się nie mylisz, drzwi na tej klatce schodowej prowadzą do jakiejś sali lekcyjnej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_739b298bbe635af84280
+      kontekst: textscripts.sitgreenhouse_labdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to ATHENA
+      pl: Porozmawiaj z ATHENĄ
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_c19a528b53f0c3fecb10
+      kontekst: textscripts.sitgreenhouse_labdoor:line:11
+      linia: 11
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: ATHENA, can I go down to the classroom?
+      pl: ATHENO, mogę zejść do sali?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a7459d3f483774ce2ff
+      kontekst: textscripts.sitgreenhouse_labdoor:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '<i>Student ID: @firstname@ @lastname@ identified.</i>'
+      pl: '<i>Zidentyfikowano legitymację studencką: @firstname@ @lastname@.</i>'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne:
+      - <i>
+      - '@firstname@'
+      - '@lastname@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_223277214d3bd8153189
+      kontekst: textscripts.sitgreenhouse_labdoor:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Access to this doorway is limited to students and faculty in the Botany department.</i>
+      pl: <i>Dostęp przez te drzwi mają wyłącznie studenci i pracownicy Wydziału Botaniki.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: sol_d89048281a2cdd01306e
+      kontekst: textscripts.sitgreenhouse_labdoor:line:21
+      linia: 21
+      sekcja_skryptu: open
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Authorization verified. Access granted.</i>
+      pl: <i>Uprawnienia potwierdzone. Dostęp przyznany.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_75bd328a6f3c458258e0
+      kontekst: textscripts.sitgreenhouse_labdoor:line:22
+      linia: 22
+      sekcja_skryptu: open
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_08e64b8a8e995cea480f
+      kontekst: textscripts.sitgreenhouse_labdoor:line:23
+      linia: 23
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a thump as the door's internal lock disengages.
+      pl: Słyszysz łomot — wewnętrzny zamek drzwi właśnie się zwolnił.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c37a8fa88e90605ae68b
+      kontekst: textscripts.sitgreenhouse_labdoor:line:26
+      linia: 26
+      sekcja_skryptu: open
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e60baaba5188c9bae47f
+      kontekst: textscripts.sitgreenhouse_labdoor:line:27
+      linia: 27
+      sekcja_skryptu: open
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't go down
+      pl: Nie schodź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5477
+  skrypt: autoscript__sitgreenhouse_office__chair__popup
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_81e1829c1be14c541382
+      kontekst: textscripts.autoscript__sitgreenhouse_office__chair__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like this chair is on break too.
+      pl: Wygląda na to, że to krzesło również ma przerwę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5478
+  skrypt: autoscript__sitgreenhouse_office__desk__popup
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_000caae680f3113eeec3
+      kontekst: textscripts.autoscript__sitgreenhouse_office__desk__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Judging by the layer of dust on this desk, Professor Kalos hasn't been here for quite some time.
+      pl: Sądząc po warstwie kurzu na biurku, profesor Kalos nie zaglądał tu od dłuższego czasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5479
+  skrypt: autoscript__sitgreenhouse_office__table1__popup
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_507ba8d4a2aaf6a5a2f8
+      kontekst: textscripts.autoscript__sitgreenhouse_office__table1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A little glass case full of various hollies and ivies.
+      pl: Mała szklana gablotka pełna rozmaitych ostrokrzewów i bluszczów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5480
+  skrypt: autoscript__sitgreenhouse_office__table2__popup
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_afa89f5db235c9601446
+      kontekst: textscripts.autoscript__sitgreenhouse_office__table2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A glass case full of pointy plants.
+      pl: Szklana gablota pełna kolczastych roślin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5481
+  skrypt: autoscript__sitgreenhouse_office__table3__popup
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d5fa3ef0479ac6a4cd65
+      kontekst: textscripts.autoscript__sitgreenhouse_office__table3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A steamy glass case filled with ferns.
+      pl: Zaparowana szklana gablota pełna paproci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3824
+  skrypt: sitgreenhouse_blackboard
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d4b9ca783e4de24e7e8b
+      kontekst: textscripts.sitgreenhouse_blackboard:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This chalkboard is covered with complex diagrams of plants.
+      pl: Tablicę pokrywają skomplikowane schematy roślin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_2b4c595adf62cbce3134
+      kontekst: textscripts.sitgreenhouse_blackboard:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A lot of it is beyond you, but you manage to learn a few new things!
+      pl: Większość cię przerasta, ale udaje ci się nauczyć kilku nowych rzeczy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3825
+  skrypt: sitgreenhouse_bookshelf
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e58178662374f22b08ba
+      kontekst: textscripts.sitgreenhouse_bookshelf:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A collection of book-shaped plants.
+      pl: Kolekcja roślin w kształcie książek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_0f9c16d803617bafaba1
+      kontekst: textscripts.sitgreenhouse_bookshelf:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, there's a book in these plants!
+      pl: Hej, wśród tych roślin jest książka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3847
+  skrypt: sitgreenhouse_samplecabinet
+  pomieszczenie:
+    id: sitgreenhouse_office
+    nazwa_en: S.I.T. (Professor Kalos' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4f0b7e8bd638c5af4f54
+      kontekst: textscripts.sitgreenhouse_samplecabinet:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign reads "SAMPLE STORAGE."
+      pl: Na tabliczce napisano „MAGAZYN PRÓBEK”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_52f68818b1bf9a620dc6
+      kontekst: textscripts.sitgreenhouse_samplecabinet:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Since all samples are free samples as far as you know or care, you help yourself.
+      pl: O ile ci wiadomo — i o ile cię to obchodzi — każda próbka jest próbką darmową, więc się częstujesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5482
+  skrypt: autoscript__sitgreenhouse_sublab1__chloroshelf__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bd90dc0ead4c2d79b976
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab1__chloroshelf__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A sign on this shelf says in big letters "CONCENTRATED CHLOROPHYLL.  Not for pranks."
+      pl: Na wielkiej tabliczce na półce napisano „SKONCENTROWANY CHLOROFIL. Nie do żartów”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5483
+  skrypt: autoscript__sitgreenhouse_sublab1__sign1__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_56caa9adfec187971b1b
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab1__sign1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""WATER ONLY""'
+      pl: „TYLKO WODA”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5484
+  skrypt: autoscript__sitgreenhouse_sublab1__sign2__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4e77aff8716f1a0bb61f
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab1__sign2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""WATER / NITROGEN MIX""'
+      pl: „MIESZANKA WODY I AZOTU”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5485
+  skrypt: autoscript__sitgreenhouse_sublab1__sign3__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8ea9141b89178cbc240a
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab1__sign3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""BLEACH""'
+      pl: „WYBIELACZ”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5486
+  skrypt: autoscript__sitgreenhouse_sublab1__sign4__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e38c0b226817b2fd0bf0
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab1__sign4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '""SERUM K6""'
+      pl: „SERUM K6”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3832
+  skrypt: sitgreenhouse_flasherbench
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1d7eee46507df8664100
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already messed up some grad student's work enough for one day.
+      pl: Jak na jeden dzień wystarczająco mocno utrudniłeś już pracę jakiemuś magistrantowi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a8ac2b98779d9e546c74
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A complicated device sits on this workbench.
+      pl: Na tym stole roboczym stoi skomplikowane urządzenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c89ed792f8459ee0e2d0
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate
+      pl: Zbadaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checko
+    wpisy:
+    - id: sol_80e8b8c245cbfe4331e4
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:16
+      linia: 16
+      sekcja_skryptu: checko
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It appears to be some kind of hand-held flashbulb thing.
+      pl: Wygląda na jakiś ręczny flesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0183a6aaef1b917a0f7a
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:19
+      linia: 19
+      sekcja_skryptu: checko
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: sol_33ba0a4071d906555b50
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:22
+      linia: 22
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The device seems to have an ultraviolet bulb in it -- it must be designed to provide quick bursts of energy to plants.
+      pl: W urządzeniu znajduje się chyba żarówka ultrafioletowa — musi służyć do dostarczania roślinom szybkich zastrzyków energii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_096b68eb1b3cf95a8b06
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:23
+      linia: 23
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take the bulb out and screw it back in backwards. Now let's see how the plants like it.
+      pl: Wykręcasz żarówkę i wkręcasz ją tyłem naprzód. Zobaczymy, jak spodoba się to roślinom.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.sitgreenhouse_flasherbench:line:27
+      linia: 27
+      sekcja_skryptu: get
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3840
+  skrypt: sitgreenhouse_medicinecabinet
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_79c89e41a7daf871469e
+      kontekst: textscripts.sitgreenhouse_medicinecabinet:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A first aid kit.  They must have been expecting a lot of botany-related injuries.
+      pl: Apteczka. Najwyraźniej spodziewali się wielu urazów związanych z botaniką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3843
+  skrypt: sitgreenhouse_plant2
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8fb88f1522367065f1d1
+      kontekst: textscripts.sitgreenhouse_plant2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (This plant has dozens of
+      pl: (Ta roślina ma dziesiątki
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Angielski tekst źródłowy jest urwany; nie da się ustalić pełnego znaczenia bez rekonstrukcji wywołania w
+        silniku.'
+  - etykieta: e
+    wpisy:
+    - id: sol_be9d50a379134fbb1dfb
+      kontekst: textscripts.sitgreenhouse_plant2:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pry open a few of the pods and gather the gooey goodness within.
+      pl: Podważasz kilka strąków i zbierasz kleiste dobrodziejstwo ze środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3849
+  skrypt: sitgreenhouse_sodatable
+  pomieszczenie:
+    id: sitgreenhouse_sublab1
+    nazwa_en: S.I.T. (Growth Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9c108786c2101d449ca6
+      kontekst: textscripts.sitgreenhouse_sodatable:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This table has two things on it:  A soda, and a note that says "STOP POURING CHLOROPHYLL INTO MY SODAS, YOU JERKS."'
+      pl: 'Na tym stole leżą dwie rzeczy: puszka napoju oraz notatka o treści „PRZESTAŃCIE WLEWAĆ CHLOROFIL DO MOICH NAPOJÓW, PAJACE”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_832e4de48d45c1cd1574
+      kontekst: textscripts.sitgreenhouse_sodatable:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the can of decidedly green-tinged liquid.
+      pl: Chwytasz puszkę płynu o zdecydowanie zielonkawym odcieniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5487
+  skrypt: autoscript__sitgreenhouse_sublab2__shelf1__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab2
+    nazwa_en: S.I.T. (Fungus Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e68db4d1cc54d301f1ee
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab2__shelf1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: So much fungus, so little light.
+      pl: Tyle grzybów, tak mało światła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5488
+  skrypt: autoscript__sitgreenhouse_sublab2__shelf2__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab2
+    nazwa_en: S.I.T. (Fungus Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_29c2c1a235766bd25e5e
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab2__shelf2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Lots of mushrooms growing on a substrate you'd prefer not to consider.
+      pl: Mnóstwo grzybów rosnących na podłożu, nad którym wolisz się nie zastanawiać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5489
+  skrypt: autoscript__sitgreenhouse_sublab2__sign__popup
+  pomieszczenie:
+    id: sitgreenhouse_sublab2
+    nazwa_en: S.I.T. (Fungus Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_15be295f096e7d519d7b
+      kontekst: textscripts.autoscript__sitgreenhouse_sublab2__sign__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'NOTICE:  ABSOLUTELY NO LIGHT IN THIS LAB.  (If you can read this, there''s too much light!)'
+      pl: 'UWAGA: W TYM LABORATORIUM OBOWIĄZUJE CAŁKOWITY ZAKAZ ŚWIATŁA. (Jeśli potrafisz to przeczytać, jest go za dużo!)'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3842
+  skrypt: sitgreenhouse_plant1
+  pomieszczenie:
+    id: sitgreenhouse_sublab2
+    nazwa_en: S.I.T. (Fungus Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b308932fb605285d1feb
+      kontekst: textscripts.sitgreenhouse_plant1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This appears to be every kind of mushroom all at once.
+      pl: To chyba wszystkie gatunki grzybów naraz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d50356b41f14f77f6a31
+      kontekst: textscripts.sitgreenhouse_plant1:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You gather a variety of useful oozes and scrapings from the weird mushroom.
+      pl: Zbierasz z dziwnego grzyba rozmaite przydatne wydzieliny i zeskrobiny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3848
+  skrypt: sitgreenhouse_shroombench
+  pomieszczenie:
+    id: sitgreenhouse_sublab2
+    nazwa_en: S.I.T. (Fungus Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2f087762154d7d1cec2b
+      kontekst: textscripts.sitgreenhouse_shroombench:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already completed this experiment and are now just awaiting your Nobel prize.
+      pl: Ten eksperyment już ukończyłeś i teraz czekasz tylko na Nagrodę Nobla.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7ce003e155f25c09632d
+      kontekst: textscripts.sitgreenhouse_shroombench:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some kind of fungus experiment is in progress on this bench.  You think.  It's kinda hard to tell in this light.
+      pl: Na tym stole trwa jakiś eksperyment z grzybami. Chyba. W tym świetle trudno stwierdzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_59c0c9c6c46abeafb484
+      kontekst: textscripts.sitgreenhouse_shroombench:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A couple of titers here, a couple of isotopes there, and the results are clear!  Well, as clear as they can be in near-total darkness.
+      pl: Kilka mian tutaj, kilka izotopów tam — i wyniki są jasne! A przynajmniej tak jasne, jak mogą być w niemal całkowitej ciemności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3829
+  skrypt: sitgreenhouse_fight1
+  pomieszczenie:
+    id: sitgreenhouse_under
+    nazwa_en: S.I.T. (Botany Classroom)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2b3bfec2702f0da999f1
+      kontekst: textscripts.sitgreenhouse_fight1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These vicious plants are standing between you and the professor's office.
+      pl: Te krwiożercze rośliny stoją między tobą a gabinetem profesora.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_c8d3c0067a4c6eff3c05
+      kontekst: textscripts.sitgreenhouse_fight1:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You converted those nasty plants into harmless green stains.
+      pl: Zmieniłeś te paskudne rośliny w nieszkodliwe zielone plamy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.sitgreenhouse_fight1:line:21
+      linia: 21
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id001 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_05b1b3e6109b7f98bda1
+      kontekst: textscripts.sitgreenhouse_fight1:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those plants knocked the chlorophyll out of you.
+      pl: Te rośliny wybiły z ciebie cały chlorofil.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.sitgreenhouse_fight1:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 3830
+  skrypt: sitgreenhouse_fight2
+  pomieszczenie:
+    id: sitgreenhouse_under
+    nazwa_en: S.I.T. (Botany Classroom)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_19dc7454b5a13f3c6bd3
+      kontekst: textscripts.sitgreenhouse_fight2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Good grief. Who would've thought the botany department would have so many plants!?
+      pl: Wielkie nieba. Kto by pomyślał, że Wydział Botaniki będzie miał aż tyle roślin!?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_2c37387a0307d8025ef4
+      kontekst: textscripts.sitgreenhouse_fight2:line:14
+      linia: 14
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have turned five plants into zero plants. You always did have a green thumb.
+      pl: Zmieniłeś pięć roślin w zero roślin. Zawsze miałeś dobrą rękę do roślin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.sitgreenhouse_fight2:line:22
+      linia: 22
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id001
+  - etykieta: lose
+    wpisy:
+    - id: sol_a2a59e43818b4420bb2a
+      kontekst: textscripts.sitgreenhouse_fight2:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It turns out that the number of plants you can take in a fight is somewhere south of five.
+      pl: Okazuje się, że liczba roślin, którym potrafisz stawić czoła w walce, jest nieco mniejsza niż pięć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.sitgreenhouse_fight2:line:29
+      linia: 29
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 3831
+  skrypt: sitgreenhouse_fight3
+  pomieszczenie:
+    id: sitgreenhouse_under
+    nazwa_en: S.I.T. (Botany Classroom)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_967b0bb8d5d01cf8cd04
+      kontekst: textscripts.sitgreenhouse_fight3:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mother of all plants. Well, not <i>all</i> plants, but all the ones in here, presumably.
+      pl: Matka wszystkich roślin. No, może nie <i>wszystkich</i>, ale przypuszczalnie wszystkich tutejszych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_f6df5ecfc4a7f687dd32
+      kontekst: textscripts.sitgreenhouse_fight3:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put an end to the giant plant's reign of terror. Also its rain of pollen.
+      pl: Kładziesz kres rządom terroru olbrzymiej rośliny. A także opadom jej pyłku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.sitgreenhouse_fight3:line:21
+      linia: 21
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id001
+  - etykieta: lose
+    wpisy:
+    - id: sol_b653eed9f0cec6af90fc
+      kontekst: textscripts.sitgreenhouse_fight3:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That plant really buried you.
+      pl: Ta roślina naprawdę wdeptała cię w ziemię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_c296629a5f304f6ba85d
+      kontekst: textscripts.sitgreenhouse_fight3:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ugh
+      pl: Uch
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 3833
+  skrypt: sitgreenhouse_helmetcabinet
+  pomieszczenie:
+    id: sitgreenhouse_under
+    nazwa_en: S.I.T. (Botany Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_15c56b8bd211a5c48595
+      kontekst: textscripts.sitgreenhouse_helmetcabinet:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A label indicates this is where the P.U.B.A. gear is kept.
+      pl: Etykieta informuje, że tutaj przechowuje się wyposażenie P.U.B.A.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.sitgreenhouse_helmetcabinet:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3845
+  skrypt: sitgreenhouse_pollenblocker
+  pomieszczenie:
+    id: sitgreenhouse_under
+    nazwa_en: S.I.T. (Botany Classroom)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ebcbc752f15dc0683fa3
+      kontekst: textscripts.sitgreenhouse_pollenblocker:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You suddenly find yourself unable to breathe!
+      pl: Nagle nie możesz oddychać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3851
+  skrypt: sitgreenhouse_steamdoor
+  pomieszczenie:
+    id: sitgreenhouse_under
+    nazwa_en: S.I.T. (Botany Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_97022bc4a8c392227198
+      kontekst: textscripts.sitgreenhouse_steamdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is barred, probably so that no steam can get in.
+      pl: Drzwi są zaryglowane, zapewne po to, by nie dostawała się tędy para.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a564932ad3aca14dc6cd
+      kontekst: textscripts.sitgreenhouse_steamdoor:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unbar it
+      pl: Odsuń rygiel
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_2f32741a443178a7cd6e
+      kontekst: textscripts.sitgreenhouse_steamdoor:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unbar the door.  No steam continues to get in.
+      pl: Odsuwasz rygiel. Nadal nie dostaje się tędy żadna para.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8ee27fc94e217ed73902
+      kontekst: textscripts.sitgreenhouse_steamdoor:line:14
+      linia: 14
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through?
+      pl: Przejść?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3853
+  skrypt: sitgreenhouse_tadesk
+  pomieszczenie:
+    id: sitgreenhouse_under
+    nazwa_en: S.I.T. (Botany Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 74
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.sitgreenhouse_tadesk:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_c686dc02c2259f4029a6
+      kontekst: textscripts.sitgreenhouse_tadesk:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After a moment, the TA returns from wherever he was inside his head, and blinks at you.
+      pl: Po chwili asystent wraca z miejsca, w które odpłynął we własnej głowie, i mruga do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ed2953fd31d251677dc3
+      kontekst: textscripts.sitgreenhouse_tadesk:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah?
+      pl: Tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4d492d2a6ceb09e61aac
+      kontekst: textscripts.sitgreenhouse_tadesk:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind.
+      pl: Nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 24
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askpollen
+    wpisy:
+    - id: sol_555071d74c3003732ea5
+      kontekst: textscripts.sitgreenhouse_tadesk:line:27
+      linia: 27
+      sekcja_skryptu: askpollen
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, those mantraps spray out pollen like you wouldn't believe. Someone should probably prune them back a bit, they've really gotten
+        out of control.
+      pl: Tak, te muchołówki tryskają pyłkiem jak szalone. Ktoś powinien je trochę przyciąć, bo zupełnie wymknęły się spod kontroli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1be42b7549053f59f690
+      kontekst: textscripts.sitgreenhouse_tadesk:line:28
+      linia: 28
+      sekcja_skryptu: askpollen
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Was that maybe <i>your</i> job?
+      pl: Czy to przypadkiem nie było <i>twoje</i> zadanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6aeb52ae49332e535da9
+      kontekst: textscripts.sitgreenhouse_tadesk:line:29
+      linia: 29
+      sekcja_skryptu: askpollen
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If it was, nobody said anything.
+      pl: Jeśli tak, nikt nic nie mówił.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_554b6b7098253367c27c
+      kontekst: textscripts.sitgreenhouse_tadesk:line:30
+      linia: 30
+      sekcja_skryptu: askpollen
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, how do I get past them? I can't even get near them.
+      pl: No dobrze, ale jak mam je ominąć? Nie mogę nawet podejść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_89858bde256f3bcecbfb
+      kontekst: textscripts.sitgreenhouse_tadesk:line:31
+      linia: 31
+      sekcja_skryptu: askpollen
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You need a P.U.B.A. helmet.
+      pl: Potrzebujesz hełmu P.U.B.A.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea4c79a7b7592803ac3f
+      kontekst: textscripts.sitgreenhouse_tadesk:line:32
+      linia: 32
+      sekcja_skryptu: askpollen
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A what?
+      pl: Co takiego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askpollen2
+    wpisy:
+    - id: sol_f2c80a237dd7e375c97d
+      kontekst: textscripts.sitgreenhouse_tadesk:line:37
+      linia: 37
+      sekcja_skryptu: askpollen2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: P.U.B.A. helmet. Pollen Untoxifying Breathing Apparatus.
+      pl: Hełmu P.U.B.A. Pyłkowego Urządzenia Beztrującej Aeracji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Funkcjonalnie rozwinięto akronim P.U.B.A., zachowując celowo niepoprawne słowo „beztrującej” potrzebne w
+        kolejnym żarcie. Ujednolicić z nazwą przedmiotu w UI.'
+    - id: sol_3eb8df8ac81dc2d45faf
+      kontekst: textscripts.sitgreenhouse_tadesk:line:38
+      linia: 38
+      sekcja_skryptu: askpollen2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't think untoxify is a real word.
+      pl: Nie wydaje mi się, żeby „beztrującej” było prawdziwym słowem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eda86fb8c8ca47a5d5eb
+      kontekst: textscripts.sitgreenhouse_tadesk:line:39
+      linia: 39
+      sekcja_skryptu: askpollen2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, but nobody likes an acronym you can't pronounce. Anyway, there's some in the cabinet over there.
+      pl: Tak, ale nikt nie lubi akronimów, których nie da się wymówić. W każdym razie kilka powinno być w tamtej szafce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askpollen3
+    wpisy:
+    - id: sol_01d0e01563caf0f097b0
+      kontekst: textscripts.sitgreenhouse_tadesk:line:46
+      linia: 46
+      sekcja_skryptu: askpollen3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I already checked, the cabinet's empty.
+      pl: Już była sprawdzana. Szafka jest pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stillpollen
+    wpisy:
+    - id: sol_931b94c338d6d55330e2
+      kontekst: textscripts.sitgreenhouse_tadesk:line:52
+      linia: 52
+      sekcja_skryptu: stillpollen
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, you'll need a P.U.B.A. helmet. Did you check the cabinet over there?
+      pl: Tak, potrzebujesz hełmu P.U.B.A. Zaglądałeś do tamtej szafki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d2308e42038e74ed4d64
+      kontekst: textscripts.sitgreenhouse_tadesk:line:53
+      linia: 53
+      sekcja_skryptu: stillpollen
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.  Will do.
+      pl: Jeszcze nie. Już idę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stillpollen2
+    wpisy:
+    - id: sol_fca8a056777e7c585d45
+      kontekst: textscripts.sitgreenhouse_tadesk:line:58
+      linia: 58
+      sekcja_skryptu: stillpollen2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, you'll need a P.U.B.A. helmet. Have you asked Chip over at Phi Upsilon Tau for the one he has?
+      pl: Tak, potrzebujesz hełmu P.U.B.A. Pytanie do Chipa z Phi Upsilon Tau o jego hełm nic nie dało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5475170bfd60ff88ef7c
+      kontekst: textscripts.sitgreenhouse_tadesk:line:59
+      linia: 59
+      sekcja_skryptu: stillpollen2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll head there now.
+      pl: Już tam idę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askhelmet
+    wpisy:
+    - id: sol_65f413e41527faaae095
+      kontekst: textscripts.sitgreenhouse_tadesk:line:69
+      linia: 69
+      sekcja_skryptu: askhelmet
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Well, that figures. Everybody's always checking them out and not putting them back.
+      pl: Och. Tego można się było spodziewać. Wszyscy ciągle je wypożyczają i nie oddają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_db1ef99c365fff7c0d90
+      kontekst: textscripts.sitgreenhouse_tadesk:line:72
+      linia: 72
+      sekcja_skryptu: askhelmet
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sooo... what should I do?
+      pl: No więęęc... co mam zrobić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a8f9d713e987faddd8d
+      kontekst: textscripts.sitgreenhouse_tadesk:line:73
+      linia: 73
+      sekcja_skryptu: askhelmet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Umm... I guess you could try and hunt down someone who has one?
+      pl: Eee... może uda ci się znaleźć kogoś, kto ma taki hełm?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fcf26bf4dfb50ca1bb2e
+      kontekst: textscripts.sitgreenhouse_tadesk:line:74
+      linia: 74
+      sekcja_skryptu: askhelmet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you know who?
+      pl: Wiesz kogo?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_84115c36ab3d42525104
+      kontekst: textscripts.sitgreenhouse_tadesk:line:75
+      linia: 75
+      sekcja_skryptu: askhelmet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What about a gas mask or diving helmet?
+      pl: A maska gazowa albo hełm nurkowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gasmask
+    wpisy:
+    - id: sol_c7d0cfff2a1adc85156e
+      kontekst: textscripts.sitgreenhouse_tadesk:line:79
+      linia: 79
+      sekcja_skryptu: gasmask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What about a gas mask or diving helmet? Something like that should work, right?
+      pl: A maska gazowa albo hełm nurkowy? Coś takiego powinno zadziałać, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6117ce732c162fdb7c23
+      kontekst: textscripts.sitgreenhouse_tadesk:line:80
+      linia: 80
+      sekcja_skryptu: gasmask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah, those things don't have the untoxifying properties of a P.U.B.A. helmet.
+      pl: Nie, takie rzeczy nie mają beztrujących właściwości hełmu P.U.B.A.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b997c73734f8e18cdc14
+      kontekst: textscripts.sitgreenhouse_tadesk:line:81
+      linia: 81
+      sekcja_skryptu: gasmask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I still don't think that's a word.
+      pl: Nadal nie wydaje mi się, żeby to było słowo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4cdf21570de63c77d27c
+      kontekst: textscripts.sitgreenhouse_tadesk:line:82
+      linia: 82
+      sekcja_skryptu: gasmask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The P.U.B.A. filters are designed to counter the specific... poison stuff of this pollen. The air filters in other kinds of breathing
+        gear can't handle it.
+      pl: Filtry P.U.B.A. zaprojektowano tak, żeby przeciwdziałały konkretnym... trującym rzeczom w tym pyłku. Filtry powietrza w innym sprzęcie
+        oddechowym sobie z nim nie poradzą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2f6404b9a9323eb332d9
+      kontekst: textscripts.sitgreenhouse_tadesk:line:84
+      linia: 84
+      sekcja_skryptu: gasmask
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you know who has one?
+      pl: Wiesz, kto ma taki hełm?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askhelmet2
+    wpisy:
+    - id: sol_7786a9d63123b15d7cef
+      kontekst: textscripts.sitgreenhouse_tadesk:line:87
+      linia: 87
+      sekcja_skryptu: askhelmet2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you know who@sitgreenhouse_tagasmaskcont|, has one@? You must have a record of checkouts, right?
+      pl: Wiesz, kto@sitgreenhouse_tagasmaskcont|, has one@? Musicie prowadzić rejestr wypożyczeń, prawda?
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@sitgreenhouse_tagasmaskcont|, has one@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Chroniony token zawiera angielski wariant tekstu i nie może zostać zmieniony w tej warstwie; sprawdzić lokalizację
+        rozwinięcia w silniku.'
+    - id: sol_b32ab2d21933bd15403f
+      kontekst: textscripts.sitgreenhouse_tadesk:line:88
+      linia: 88
+      sekcja_skryptu: askhelmet2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah, probably? Let's see...
+      pl: Och, tak, chyba tak? Zobaczmy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b57949c07764fbd467c
+      kontekst: textscripts.sitgreenhouse_tadesk:line:89
+      linia: 89
+      sekcja_skryptu: askhelmet2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He pokes around in the desk until he finds a small notebook.
+      pl: Grzebie w biurku, aż znajduje mały notes.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fb27cae27528916ef7db
+      kontekst: textscripts.sitgreenhouse_tadesk:line:90
+      linia: 90
+      sekcja_skryptu: askhelmet2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Got it. Hmm, most of these kids are gonna be gone for the break.
+      pl: Mam. Hm, większość tych dzieciaków wyjechała na przerwę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31e4060245db82ed7f9b
+      kontekst: textscripts.sitgreenhouse_tadesk:line:91
+      linia: 91
+      sekcja_skryptu: askhelmet2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: They wouldn't have taken the helmets with them though, right?
+      pl: Ale chyba nie zabrali ze sobą hełmów, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cf33092232c74c40e673
+      kontekst: textscripts.sitgreenhouse_tadesk:line:92
+      linia: 92
+      sekcja_skryptu: askhelmet2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well no. Probably not. But it's not like you're gonna go breaking into their dorm rooms, right?
+      pl: No nie. Pewnie nie. Ale przecież nie zamierzasz włamywać się do ich pokoi w akademiku, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5583729d6d768d4ac152
+      kontekst: textscripts.sitgreenhouse_tadesk:line:94
+      linia: 94
+      sekcja_skryptu: askhelmet2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, I guess not.
+      pl: Nie, chyba nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askhelmet3a
+    wpisy:
+    - id: sol_76f62aae589633d74c49
+      kontekst: textscripts.sitgreenhouse_tadesk:line:101
+      linia: 101
+      sekcja_skryptu: askhelmet3a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Right, exactly. Dorm security is the real McCoy after last year's big April Fools hack, anyway.
+      pl: No właśnie. Po zeszłorocznym wielkim primaaprilisowym włamaniu ochrona akademików i tak nie żartuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c0a3b53dc5bcfeaf8c33
+      kontekst: textscripts.sitgreenhouse_tadesk:line:102
+      linia: 102
+      sekcja_skryptu: askhelmet3a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What happened?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+    - id: sol_0481cc5f7fec5d331d7d
+      kontekst: textscripts.sitgreenhouse_tadesk:line:103
+      linia: 103
+      sekcja_skryptu: askhelmet3a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Someone broke into maintenance and rewired all the elevators to go sideways.
+      pl: Ktoś włamał się do działu technicznego i przerobił wszystkie windy tak, żeby jeździły na boki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_a935124613121086733b
+      kontekst: textscripts.sitgreenhouse_tadesk:line:104
+      linia: 104
+      sekcja_skryptu: askhelmet3a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow!
+      pl: Rany!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+  - etykieta: askhelmet3b
+    wpisy:
+    - id: sol_4e24e04141f538facbda
+      kontekst: textscripts.sitgreenhouse_tadesk:line:110
+      linia: 110
+      sekcja_skryptu: askhelmet3b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's fierce. I wouldn't recommend it, though. Dorm security is the real McCoy after last year's big April Fools hack.
+      pl: Grubo. Nie radziłbym jednak próbować. Po zeszłorocznym wielkim primaaprilisowym włamaniu ochrona akademików nie żartuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c0a3b53dc5bcfeaf8c33
+      kontekst: textscripts.sitgreenhouse_tadesk:line:111
+      linia: 111
+      sekcja_skryptu: askhelmet3b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What happened?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_0481cc5f7fec5d331d7d
+      kontekst: textscripts.sitgreenhouse_tadesk:line:112
+      linia: 112
+      sekcja_skryptu: askhelmet3b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Someone broke into maintenance and rewired all the elevators to go sideways.
+      pl: Ktoś włamał się do działu technicznego i przerobił wszystkie windy tak, żeby jeździły na boki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_a935124613121086733b
+      kontekst: textscripts.sitgreenhouse_tadesk:line:113
+      linia: 113
+      sekcja_skryptu: askhelmet3b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow!
+      pl: Rany!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: askhelmet4
+    wpisy:
+    - id: sol_5eebbaa808532ffa5425
+      kontekst: textscripts.sitgreenhouse_tadesk:line:118
+      linia: 118
+      sekcja_skryptu: askhelmet4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmmm... oh! Chip has one, there you go.
+      pl: Hmmm... och! Chip ma jeden. Proszę bardzo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_03e30dc39771a177bbe2
+      kontekst: textscripts.sitgreenhouse_tadesk:line:119
+      linia: 119
+      sekcja_skryptu: askhelmet4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Chip who?
+      pl: Chip jaki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askhelmet5
+    wpisy:
+    - id: sol_7d35bc97ea21e2f1f825
+      kontekst: textscripts.sitgreenhouse_tadesk:line:124
+      linia: 124
+      sekcja_skryptu: askhelmet5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Chip Noonsley. He's a frat guy I know, Phi Upsilon Tau. He didn't leave for break 'coz he's monitoring some plants he's been working
+        on.
+      pl: Chip Noonsley. Znam go z bractwa Phi Upsilon Tau. Nie wyjechał na przerwę, bo pilnuje roślin, nad którymi pracował.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_01a5a94c5f817d680448
+      kontekst: textscripts.sitgreenhouse_tadesk:line:130
+      linia: 130
+      sekcja_skryptu: askhelmet5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Great, thanks.
+      pl: Świetnie, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askprof
+    wpisy:
+    - id: sol_e130fb63490c070fb613
+      kontekst: textscripts.sitgreenhouse_tadesk:line:135
+      linia: 135
+      sekcja_skryptu: askprof
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Riiight. The semester's over, huh. I guess he'd be at his holiday home at Crystaldream Lake, then.
+      pl: Och. No taaak. Semestr się skończył, co? W takim razie pewnie jest w swoim domku letniskowym nad Jeziorem Kryształowych Snów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f51edbd8b6b0479bfc27
+      kontekst: textscripts.sitgreenhouse_tadesk:line:136
+      linia: 136
+      sekcja_skryptu: askprof
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks for remembering that <i>after</i> I fought all those plants.
+      pl: Dzięki za przypomnienie sobie o tym <i>po</i> mojej walce z tymi wszystkimi roślinami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5471d18f56dd468a1547
+      kontekst: textscripts.sitgreenhouse_tadesk:line:137
+      linia: 137
+      sekcja_skryptu: askprof
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure thing. No problem.
+      pl: Nie ma za co. Żaden problem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b713da31368c58e53c9
+      kontekst: textscripts.sitgreenhouse_tadesk:line:138
+      linia: 138
+      sekcja_skryptu: askprof
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: <i>Sigh...</i> Where's his stupid holiday home then?
+      pl: <i>Westchnienie...</i> Gdzie jest ten jego głupi domek letniskowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0a466d941251bc50a0db
+      kontekst: textscripts.sitgreenhouse_tadesk:line:139
+      linia: 139
+      sekcja_skryptu: askprof
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Near the lake.
+      pl: Nad jeziorem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_233a1eb7c9a79f5b5859
+      kontekst: textscripts.sitgreenhouse_tadesk:line:140
+      linia: 140
+      sekcja_skryptu: askprof
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I need you to be more specific.
+      pl: Potrzebuję konkretów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askprof2
+    wpisy:
+    - id: sol_4d43b2c80a661d97a76a
+      kontekst: textscripts.sitgreenhouse_tadesk:line:144
+      linia: 144
+      sekcja_skryptu: askprof2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Look, I've <i>been</i> to Crystaldream Lake. I need you to be more specific.
+      pl: Słuchaj, <i>byłem</i> już nad Jeziorem Kryształowych Snów. Potrzebuję konkretów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b770a6e8fa8e193544ae
+      kontekst: textscripts.sitgreenhouse_tadesk:line:145
+      linia: 145
+      sekcja_skryptu: askprof2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Umm. Well, it's sort of... There's a road? And then it's like...
+      pl: Eee. No więc to jest jakby... Jest droga? A potem tak jakby...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_76653df5e3856af5c641
+      kontekst: textscripts.sitgreenhouse_tadesk:line:146
+      linia: 146
+      sekcja_skryptu: askprof2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Just mark it on this postcard.
+      pl: Po prostu zaznacz to na tej pocztówce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e66c9713c999b0d0ee1e
+      kontekst: textscripts.sitgreenhouse_tadesk:line:147
+      linia: 147
+      sekcja_skryptu: askprof2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nice, okay.
+      pl: Dobra, jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a92bdb016fb6c4b53100
+      kontekst: textscripts.sitgreenhouse_tadesk:line:151
+      linia: 151
+      sekcja_skryptu: askprof2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks
+      pl: Dzięki
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_6c181aed0c768acc89a6
+      kontekst: textscripts.sitgreenhouse_tadesk:line:157
+      linia: 157
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Excuse me?
+      pl: Słucham?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7d4ab95477c5f44e4af4
+      kontekst: textscripts.sitgreenhouse_tadesk:line:159
+      linia: 159
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hm?
+      pl: Hm?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1092940823ee6ac02441
+      kontekst: textscripts.sitgreenhouse_tadesk:line:160
+      linia: 160
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm a Botany major.
+      pl: Studiuję botanikę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bd47c44cbf5073d891eb
+      kontekst: textscripts.sitgreenhouse_tadesk:line:161
+      linia: 161
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nice. Me too.
+      pl: Fajnie. Ja też.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7567b100b6619b05a1e5
+      kontekst: textscripts.sitgreenhouse_tadesk:line:164
+      linia: 164
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...I''ll elaborate.'
+      pl: '...Rozwinę myśl.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: sol_e439d2404db0462c46ca
+      kontekst: textscripts.sitgreenhouse_tadesk:line:168
+      linia: 168
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...I''ll elaborate. I''m a <i>new</i> Botany major, and I need to know what I''m supposed to do here.'
+      pl: '...Rozwinę myśl. <i>Dopiero zaczynam</i> studiować botanikę i muszę wiedzieć, co mam tutaj zrobić.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_78d4e98df1de47ce4c5f
+      kontekst: textscripts.sitgreenhouse_tadesk:line:169
+      linia: 169
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Okay. Well, ultimately you'll need to get your transcript signed, to show that you passed the course. I'm just a TA, so I can't
+        do that for you, but Professor Kalos should be in his office down at the other end of the lab.
+      pl: Ach. Dobrze. Ostatecznie musisz zdobyć podpis na wykazie zaliczeń, żeby potwierdzić zdanie przedmiotu. Jestem tylko asystentem, więc
+        nie mogę go podpisać, ale profesor Kalos powinien być w swoim gabinecie na drugim końcu laboratorium.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_463f8c2d0f26f45444fe
+      kontekst: textscripts.sitgreenhouse_tadesk:line:170
+      linia: 170
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Is there a lecture or class or anything first?
+      pl: Nie powinien najpierw odbyć się jakiś wykład albo zajęcia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e0f4f229a3d44c67dd99
+      kontekst: textscripts.sitgreenhouse_tadesk:line:171
+      linia: 171
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You'd think so, right? But you're the only student here today, and nobody gave me any lecture notes or anything, so...
+      pl: Można by tak pomyśleć, prawda? Ale jesteś dziś jedynym studentem, a nikt nie dał mi notatek do wykładu ani niczego takiego, więc...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_06a09d7ea429f96597c0
+      kontekst: textscripts.sitgreenhouse_tadesk:line:172
+      linia: 172
+      sekcja_skryptu: intro2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well, okay then
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: badnews
+    wpisy:
+    - id: sol_1a2658f11d2ba3fe807b
+      kontekst: textscripts.sitgreenhouse_tadesk:line:178
+      linia: 178
+      sekcja_skryptu: badnews
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Was he turned into a horrible plant monster by an experiment gone awry?
+      pl: Eksperyment wymknął się spod kontroli i zmienił go w potwornego roślinnego mutanta?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6ece43893a1b6adb2d69
+      kontekst: textscripts.sitgreenhouse_tadesk:line:179
+      linia: 179
+      sekcja_skryptu: badnews
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: He-- yes! You <i>knew?</i>
+      pl: On... tak! <i>Wiedziałeś?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c39a3a2cada822308ddc
+      kontekst: textscripts.sitgreenhouse_tadesk:line:180
+      linia: 180
+      sekcja_skryptu: badnews
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, but he's been gone for a while and everyone assumed it was probably something like that. It's kind of an occupational hazard around
+        here. There's a reason why S.I.T. doesn't have a Biology department anymore.
+      pl: Nie, ale nie ma go już od dłuższego czasu i wszyscy zakładali, że pewnie stało się coś w tym rodzaju. To tutaj takie ryzyko zawodowe.
+        Nie bez powodu S.I.T. nie ma już Wydziału Biologii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9911ba0cff2923a52859
+      kontekst: textscripts.sitgreenhouse_tadesk:line:181
+      linia: 181
+      sekcja_skryptu: badnews
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wait, you told me he was in his office!
+      pl: Chwila, mówiłeś, że jest w gabinecie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b27393e7c96f38e0c06a
+      kontekst: textscripts.sitgreenhouse_tadesk:line:182
+      linia: 182
+      sekcja_skryptu: badnews
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I said he <i>should</i> be in his office. Every professor should be in their office during office hours, that's a rule.
+      pl: Powiedziałem, że <i>powinien</i> być w gabinecie. Każdy profesor powinien przebywać w gabinecie podczas dyżuru. Taki jest przepis.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_06b77705db1737ac429e
+      kontekst: textscripts.sitgreenhouse_tadesk:line:183
+      linia: 183
+      sekcja_skryptu: badnews
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Swell.
+      pl: Świetnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

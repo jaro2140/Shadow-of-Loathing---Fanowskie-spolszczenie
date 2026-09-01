@@ -1,0 +1,2818 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: sitbridge
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 25
+liczba_wpisow: 158
+sceny:
+- kolejnosc_w_danych_gry: 1506
+  skrypt: fishnest_boots
+  pomieszczenie:
+    id: fishnest
+    nazwa_en: Underneath River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4c7626b9ba70a3cf379c
+      kontekst: textscripts.fishnest_boots:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An old pair of rubber boots has been discarded by this piling.
+      pl: Przy tym palu porzucono starą parę gumowców.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_24dd98a7978c00cb2b1c
+      kontekst: textscripts.fishnest_boots:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab 'em
+      pl: Zabierz je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_3c5f9c1604bcbdfffb72
+      kontekst: textscripts.fishnest_boots:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take them from the bridge's pile and add them to your own.
+      pl: Zabierasz je ze sterty przy moście i dodajesz do własnej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1509
+  skrypt: fishnest_hobocode
+  pomieszczenie:
+    id: fishnest
+    nazwa_en: Underneath River Bridge
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_29c19d6d5a048f26f9b4
+      kontekst: textscripts.fishnest_hobocode:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: I'M HIDING BEHIND THE NEXT PILING TO THE LEFT. COME SAY HELLO!
+      pl: CHOWAM SIĘ ZA NASTĘPNYM PALEM PO LEWEJ. PRZYJDŹ SIĘ PRZYWITAĆ!
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_735f995cfca78107e3ca
+      kontekst: textscripts.fishnest_hobocode:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already translated this code.  It says $message$
+      pl: 'Ten kod już przetłumaczyłeś. Brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 20
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_827f01cb3d7adc6d5864
+      kontekst: textscripts.fishnest_hobocode:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange marks have been painted on this piling.
+      pl: Na tym palu namalowano dziwne znaki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1ba25e4394d1e01ad9c8
+      kontekst: textscripts.fishnest_hobocode:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This piling has some hobo code written on it!
+      pl: Na tym palu zapisano kod włóczęgów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1ac6b611ce848855701e
+      kontekst: textscripts.fishnest_hobocode:line:22
+      linia: 22
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The code reads $message$
+      pl: 'Kod brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 15
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_450f447e089400a0a439
+      kontekst: textscripts.fishnest_hobocode:line:23
+      linia: 23
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, sounds like it's time to make a new friend!
+      pl: Uuu, wygląda na porę poznania nowego przyjaciela!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1510
+  skrypt: fishnest_hole
+  pomieszczenie:
+    id: fishnest
+    nazwa_en: Underneath River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_15fd2504e7323273d96a
+      kontekst: textscripts.fishnest_hole:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a nasty mudhole. Is a cloaca covered in mud worse than a regular cloaca?
+      pl: To paskudna dziura w błocie. Czy kloaka pokryta błotem jest gorsza od zwykłej kloaki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d6bcbb6d63d971baa7f3
+      kontekst: textscripts.fishnest_hole:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, there's one way to find out.
+      pl: Cóż, można się przekonać tylko w jeden sposób.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_caa60a60226fa1673aab
+      kontekst: textscripts.fishnest_hole:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Jump in!
+      pl: Wskocz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_accd8f3448fa81039a87
+      kontekst: textscripts.fishnest_hole:line:32
+      linia: 32
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The hole ruminates on your presence for a moment, and then spits you back out. Guess you don't taste fishmanny enough. Fishmanly?
+      pl: Dziura chwilę przeżuwa twoją obecność, po czym wypluwa cię z powrotem. Chyba nie smakujesz dostatecznie ryboludzko. Ryboludnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1512
+  skrypt: fishnest_ladderup
+  pomieszczenie:
+    id: fishnest
+    nazwa_en: Underneath River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a0a07ef99a6c338e8e14
+      kontekst: textscripts.fishnest_ladderup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the ladder back to the good side of the bridge.
+      pl: Drabina prowadząca na dobrą stronę mostu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_26d9c8b34995a429c15e
+      kontekst: textscripts.fishnest_ladderup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb up
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1513
+  skrypt: fishnest_leaveleft
+  pomieszczenie:
+    id: fishnest
+    nazwa_en: Underneath River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fde34c2984737f649f41
+      kontekst: textscripts.fishnest_leaveleft:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That way leads back to town.
+      pl: Ta droga prowadzi z powrotem do miasta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_494273ce0d438ac8b330
+      kontekst: textscripts.fishnest_leaveleft:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's go to town
+      pl: Jedźmy do miasta
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1515
+  skrypt: fishnest_sign
+  pomieszczenie:
+    id: fishnest
+    nazwa_en: Underneath River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e83474b3b0a3b7d8b689
+      kontekst: textscripts.fishnest_sign:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: saycenter
+      mowca_lub_kanal: tekst_wysrodkowany
+      en: ADOPT-A-BANK
+      pl: ZAADOPTUJ-BRZEG
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea688561d9228f8ae652
+      kontekst: textscripts.fishnest_sign:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This section of bank is kept clean and safe by the fine folks at the S.I.T. Chemicals Department.
+      pl: Ten odcinek brzegu utrzymują w czystości i bezpieczeństwie zacni ludzie z Wydziału Chemikaliów S.I.T.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1517
+  skrypt: fishnest_walterpile
+  pomieszczenie:
+    id: fishnest
+    nazwa_en: Underneath River Bridge
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 34
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_431112b9f71c3c9ac3f5
+      kontekst: textscripts.fishnest_walterpile:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You check behind the bridge pile, but Walter has packed up and left.
+      pl: Zaglądasz za pal mostu, ale Walter spakował rzeczy i odszedł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5847b211c5b05740065a
+      kontekst: textscripts.fishnest_walterpile:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look behind the bridge pile, and find a hobo sitting there with a fishing pole.
+      pl: Zaglądasz za pal mostu i znajdujesz siedzącego tam włóczęgę z wędką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6abb2fb97715faf2dab2
+      kontekst: textscripts.fishnest_walterpile:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He wasn't even particularly hiding. Weird that you didn't see him before.
+      pl: Nawet specjalnie się nie chował. Dziwne, że wcześniej go nie dostrzegłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.fishnest_walterpile:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_552beeab3574bc85ea10
+      kontekst: textscripts.fishnest_walterpile:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm busy.
+      pl: Mam robotę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.fishnest_walterpile:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Token pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_638637e1e15d462ad88d
+      kontekst: textscripts.fishnest_walterpile:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I said I'm busy.
+      pl: Mówiłem, że mam robotę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fishnest_walterpile:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_921c5fcf21b47a361313
+      kontekst: textscripts.fishnest_walterpile:line:30
+      linia: 30
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well hello again! What's up?
+      pl: Witaj ponownie! Co słychać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_4b7d016e37a78ebd0a8a
+      kontekst: textscripts.fishnest_walterpile:line:36
+      linia: 36
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well hi there! You must've seen my note on the other piling. My name's Walter.
+      pl: Witaj! Zapewne widziałeś moją notatkę na drugim palu. Jestem Walter.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7bb8122296a1783fecd2
+      kontekst: textscripts.fishnest_walterpile:line:37
+      linia: 37
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, I'm @firstname@. Are you living under this bridge?
+      pl: Cześć, jestem @firstname@. Mieszkasz pod tym mostem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69fd666f1f6f97422bc7
+      kontekst: textscripts.fishnest_walterpile:line:38
+      linia: 38
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: For the moment! I'll probably move on soon, coz S.I.T. students keep throwing weird rocks down here. But it's protected from the rain,
+        and the fishing is good, so it's a pretty nice spot to camp for a while.
+      pl: Na razie! Pewnie niedługo ruszę dalej, bo studenci S.I.T. ciągle zrzucają tu dziwne kamienie. Ale deszcz nie pada na głowę, a ryby dobrze
+        biorą, więc przez jakiś czas to całkiem dobre miejsce na obóz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3502175378ef4adb2b50
+      kontekst: textscripts.fishnest_walterpile:line:39
+      linia: 39
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What about the fishmen?
+      pl: A ryboludzie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e6ef6fffc97d0faa6303
+      kontekst: textscripts.fishnest_walterpile:line:40
+      linia: 40
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Those fellas with the glowing eyes? They were a bit leery of me at first, but I guess they decided I was harmless. Maybe all the raw
+        fish I been handlin' rubbed off on me.
+      pl: Ci goście ze świecącymi oczami? Na początku patrzyli nieufnie, ale chyba uznali mnie za nieszkodliwego. Może przesiąkłem zapachem wszystkich surowych ryb, których dotykałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19d0db0c2bed997f4d40
+      kontekst: textscripts.fishnest_walterpile:line:42
+      linia: 42
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Makes sense, I guess.
+      pl: Chyba ma sens.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_b677f5ea764e168d9776
+      kontekst: textscripts.fishnest_walterpile:line:47
+      linia: 47
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tell him about the hobo camp
+      pl: Opowiedz mu o obozie włóczęgów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fishnest_walterpile:line:50
+      linia: 50
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: fishingtips
+    wpisy:
+    - id: sol_9abefbb71932c4ed46c5
+      kontekst: textscripts.fishnest_walterpile:line:54
+      linia: 54
+      sekcja_skryptu: fishingtips
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, do you know a lot about fishing?
+      pl: Znasz się dobrze na łowieniu ryb?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9bac45d8c407eddc8cff
+      kontekst: textscripts.fishnest_walterpile:line:55
+      linia: 55
+      sekcja_skryptu: fishingtips
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I guess I picked up a trick or two! You looking for some pointers?
+      pl: Chyba znam parę sztuczek! Potrzebujesz wskazówek?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3a7a6edb6bb3078da0d8
+      kontekst: textscripts.fishnest_walterpile:line:56
+      linia: 56
+      sekcja_skryptu: fishingtips
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, that'd be great! So far I've figured out that you hold onto the long stiff part of the pole, and dangle the sharp wire thing into
+        the water.
+      pl: Jasne, świetnie! Jak dotąd odkryłem, że trzeba trzymać długą, sztywną część wędki, a ostrą rzecz na drucie zanurzyć w wodzie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1d2edfdfd85a30e03b1e
+      kontekst: textscripts.fishnest_walterpile:line:57
+      linia: 57
+      sekcja_skryptu: fishingtips
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well <i>there's</i> a sentence that stopped bein' a double-entendre real fast. Here, let's expand on that knowledge a bit.
+      pl: No <i>to</i> zdanie wyjątkowo szybko przestało mieć podwójne znaczenie. Dobrze, rozwińmy trochę tę wiedzę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.fishnest_walterpile:line:59
+      linia: 59
+      sekcja_skryptu: fishingtips
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sendtocamp
+    wpisy:
+    - id: sol_0b325d015279e14fed1f
+      kontekst: textscripts.fishnest_walterpile:line:63
+      linia: 63
+      sekcja_skryptu: sendtocamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: If you're thinking of moving anyway, there's a hobo camp on the outskirts of Ocean City. They could probably use someone with your fishing
+        acumen.
+      pl: Skoro i tak rozważasz przeprowadzkę, na obrzeżach Ocean City jest obóz włóczęgów. Pewnie przyda im się ktoś z twoim wyczuciem ryb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e25230aa416e212a7bcc
+      kontekst: textscripts.fishnest_walterpile:line:64
+      linia: 64
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I just use regular tackle, but that still sounds like a pretty good deal. I'll head out there directly!
+      pl: Używam zwykłych haczyków, ale propozycja i tak brzmi nieźle. Zaraz tam ruszę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60feb6dd31750fd3d3a7
+      kontekst: textscripts.fishnest_walterpile:line:68
+      linia: 68
+      sekcja_skryptu: sendtocamp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He packs up his gear and heads off with a wave.
+      pl: Pakuje sprzęt, macha ci i odchodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fishnest_walterpile:line:70
+      linia: 70
+      sekcja_skryptu: sendtocamp
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: getcode
+    wpisy:
+    - id: sol_48166d31b136a91fbd77
+      kontekst: textscripts.fishnest_walterpile:line:74
+      linia: 74
+      sekcja_skryptu: getcode
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you know any hobo code you could teach me?
+      pl: Nauczysz mnie jakichś znaków kodu włóczęgów?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d10021c2cf397a8a6a0c
+      kontekst: textscripts.fishnest_walterpile:line:75
+      linia: 75
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mostly fishing-related ones, but sure! Everyone should know the "Industrial Chemicals Dumping Spot" sign in particular.
+      pl: Głównie te związane z rybami, ale pewnie! Każdy powinien znać zwłaszcza znak „Miejsce Zrzutu Chemikaliów Przemysłowych”.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d1d15583c05e42b50941
+      kontekst: textscripts.fishnest_walterpile:line:76
+      linia: 76
+      sekcja_skryptu: getcode
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh yeah, I bet you get real weird fish there.
+      pl: O tak, pewnie łowisz tam naprawdę dziwne ryby.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_af53445fac3715c4afad
+      kontekst: textscripts.fishnest_walterpile:line:77
+      linia: 77
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Got one with two butts once!
+      pl: Raz trafiła mi się taka z dwoma tyłkami!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1153cae416225c4d817
+      kontekst: textscripts.fishnest_walterpile:line:78
+      linia: 78
+      sekcja_skryptu: getcode
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you mean tails?
+      pl: Masz na myśli ogony?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ec589973992c00291fb
+      kontekst: textscripts.fishnest_walterpile:line:79
+      linia: 79
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53f6687bc26f92dc9edb
+      kontekst: textscripts.fishnest_walterpile:line:82
+      linia: 82
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about something else
+      pl: Zapytaj o coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 50
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fishnest_walterpile:line:83
+      linia: 83
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 5039
+  skrypt: autoscript__fishnest_inside__e1__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2fbccbfced19ed51fbd7
+      kontekst: textscripts.autoscript__fishnest_inside__e1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Awful eggs.
+      pl: Okropne jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5040
+  skrypt: autoscript__fishnest_inside__e2__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_45cd6ec46ecb459475f3
+      kontekst: textscripts.autoscript__fishnest_inside__e2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These eggs are fine, actually.
+      pl: Te jaja są właściwie w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5041
+  skrypt: autoscript__fishnest_inside__e3__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_deb27f5e0bf8c8941458
+      kontekst: textscripts.autoscript__fishnest_inside__e3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Revolting eggs.
+      pl: Odrażające jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5042
+  skrypt: autoscript__fishnest_inside__e4__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_32690fdad0592b4aeca9
+      kontekst: textscripts.autoscript__fishnest_inside__e4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Terrible eggs.
+      pl: Straszne jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5043
+  skrypt: autoscript__fishnest_inside__e5__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_52a6882d9e5f5b6093e6
+      kontekst: textscripts.autoscript__fishnest_inside__e5__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nasty eggs.
+      pl: Paskudne jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5044
+  skrypt: autoscript__fishnest_inside__e6__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c57b1aeaab3c2b1c3a88
+      kontekst: textscripts.autoscript__fishnest_inside__e6__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gross eggs.
+      pl: Obrzydliwe jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5045
+  skrypt: autoscript__fishnest_inside__e7__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_68a8bf26d6c65f41b134
+      kontekst: textscripts.autoscript__fishnest_inside__e7__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Slimy eggs.
+      pl: Oślizgłe jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5046
+  skrypt: autoscript__fishnest_inside__e8__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a41f14bbb34a4e07d6b1
+      kontekst: textscripts.autoscript__fishnest_inside__e8__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Disgusting eggs.
+      pl: Wstrętne jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5047
+  skrypt: autoscript__fishnest_inside__e9__popup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_655ee05998e62a97d3fa
+      kontekst: textscripts.autoscript__fishnest_inside__e9__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bad eggs.
+      pl: Złe jaja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1507
+  skrypt: fishnest_describe
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_5878adc4f03a28fc6437
+      kontekst: textscripts.fishnest_describe:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You emerge from that disgusting hole into a slightly less disgusting cave, although let's not be unclear, here -- the cave is <i>very</i>
+        disgusting.
+      pl: Wychodzisz z tej obrzydliwej dziury do nieco mniej obrzydliwej jaskini, choć nie może być wątpliwości — jaskinia jest <i>bardzo</i>
+        obrzydliwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fb7fbf6bdbaf922aa9ef
+      kontekst: textscripts.fishnest_describe:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wet piles of eggs litter the uneven ground, and you hear a quiet, gurgly breathing sound from the other end of the cavern.
+      pl: Mokre stosy jaj pokrywają nierówną ziemię. Z drugiego końca groty dobiega cichy, bulgoczący oddech.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b9a42959baf88dc01f00
+      kontekst: textscripts.fishnest_describe:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's get Rufus his stupid pearl
+      pl: Zdobądźmy Rufusowi tę głupią perłę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1511
+  skrypt: fishnest_holeup
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9edbd3c5bc9ed4c30628
+      kontekst: textscripts.fishnest_holeup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the nasty hole you arrived through.
+      pl: To paskudna dziura, którą tu dotarłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a6dd1797d7fa7cf792d
+      kontekst: textscripts.fishnest_holeup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb back up
+      pl: Wespnij się z powrotem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1514
+  skrypt: fishnest_pearlbox
+  pomieszczenie:
+    id: fishnest_inside
+    nazwa_en: The Lair of the Fishmother
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 65
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3b061f79c1dd648573d3
+      kontekst: textscripts.fishnest_pearlbox:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get the sense that she kind of regrets giving up her pearl. Better just leave her alone.
+      pl: Czujesz, że trochę żałuje oddania perły. Lepiej zostawić ją w spokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a26de3c07dfc4689a057
+      kontekst: textscripts.fishnest_pearlbox:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Approach her
+      pl: Podejdź do niej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_08abc5f31db6fc7a67fb
+      kontekst: textscripts.fishnest_pearlbox:line:27
+      linia: 27
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You hear a smooth, melodious voice speaking directly into your mind:'
+      pl: 'Słyszysz gładki, melodyjny głos przemawiający bezpośrednio do twojego umysłu:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f8d4ce5936ecba213b45
+      kontekst: textscripts.fishnest_pearlbox:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>You are a cunning and wily human, to have bypassed the defenses of this place.</i>
+      pl: <i>Trzeba przyznać, że sprytny i przebiegły z ciebie człowiek, skoro udało ci się ominąć zabezpieczenia tego miejsca.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9b78031b3cc37905561d
+      kontekst: textscripts.fishnest_pearlbox:line:29
+      linia: 29
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh, thanks. Don't ask how I did it.
+      pl: Eee, dzięki. Nie pytaj, jak to zrobiłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37c1dcdb53ace7610e2e
+      kontekst: textscripts.fishnest_pearlbox:line:30
+      linia: 30
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>I already know. Fear not -- the eggs I give my children to take care of are largely nonviable. It helps keep them out of trouble
+        if they think they have responsibilities.</i>
+      pl: <i>Już wiem. Bez obaw — jaja, które powierzam dzieciom, w większości nie nadają się do wyklucia. Gdy myślą, że mają obowiązki, nie pakują
+        się w kłopoty.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_67a56eb2edc6f0550dc0
+      kontekst: textscripts.fishnest_pearlbox:line:31
+      linia: 31
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Why have you sought out this audience with me, human?</i>
+      pl: <i>Dlaczego szukałeś u mnie audiencji, człowieku?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b5f5674344312faaddba
+      kontekst: textscripts.fishnest_pearlbox:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well...
+      pl: Cóż...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_3c2e3fa63bb6cc62ddfe
+      kontekst: textscripts.fishnest_pearlbox:line:40
+      linia: 40
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...I''ll come back later.'
+      pl: '...Wrócę później.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ask
+    wpisy:
+    - id: sol_2a2069c2fe633ae7e747
+      kontekst: textscripts.fishnest_pearlbox:line:43
+      linia: 43
+      sekcja_skryptu: ask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, it's about the pearls...
+      pl: Cóż, chodzi o perły...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9c254c738e21c329d815
+      kontekst: textscripts.fishnest_pearlbox:line:44
+      linia: 44
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Ah. So you are a treasure-hunter, are you?</i>
+      pl: <i>Ach. Zatem polujesz na skarby?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_df10d2d05dc1af948d96
+      kontekst: textscripts.fishnest_pearlbox:line:47
+      linia: 47
+      sekcja_skryptu: ask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's not like that -- a friend of mine needs one. He thinks he can use it to help him find his lost @p|brother,sister,sibling@.
+      pl: To nie tak — przyjaciel potrzebuje jednej. Uważa, że dzięki niej odnajdzie @p|brother,sister,sibling@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|brother,sister,sibling@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e561b9f7c4768b82cac3
+      kontekst: textscripts.fishnest_pearlbox:line:48
+      linia: 48
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hmm. I sense that you speak the truth. And family is important. Furthermore, you have been peaceful in your past encounters with
+        my children.</i>
+      pl: <i>Hm. Wyczuwam prawdę w twoich słowach. A rodzina jest ważna. Ponadto we wcześniejszych spotkaniach z moimi dziećmi zachowywałeś się pokojowo.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a00bc7388a72bdbc8d6
+      kontekst: textscripts.fishnest_pearlbox:line:50
+      linia: 50
+      sekcja_skryptu: ask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, apart from the boxing.
+      pl: Poza boksem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_56cc2149fcbd28e0cf17
+      kontekst: textscripts.fishnest_pearlbox:line:51
+      linia: 51
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Oh, that doesn't count. They knew what they were signing up for. Anyway, you didn't </i>kill<i> them or anything.</i>
+      pl: <i>Och, to się nie liczy. Wiedziały, na co się zapisują. Zresztą nie </i>zabiłeś<i> ich ani nic podobnego.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf0409a78133c34622e1
+      kontekst: textscripts.fishnest_pearlbox:line:53
+      linia: 53
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hmmm...</i>
+      pl: <i>Hmmm...</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_683380f1054e05082e31
+      kontekst: textscripts.fishnest_pearlbox:line:54
+      linia: 54
+      sekcja_skryptu: ask
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait patiently
+      pl: Czekaj cierpliwie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ask2
+    wpisy:
+    - id: sol_5082b808568ccb1871ff
+      kontekst: textscripts.fishnest_pearlbox:line:58
+      linia: 58
+      sekcja_skryptu: ask2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>...Very well. Although it pains me to part with a pearl, you are deserving of a boon, and I will grant you this.</i>
+      pl: <i>...Dobrze. Choć rozstanie z perłą sprawia mi ból, zasługujesz na łaskę, więc ci jej udzielę.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aa4500dcee21f2db69a8
+      kontekst: textscripts.fishnest_pearlbox:line:62
+      linia: 62
+      sekcja_skryptu: ask2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow! Thank you!
+      pl: Łał! Dziękuję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b80d28b984eb6ec8fb2
+      kontekst: textscripts.fishnest_pearlbox:line:63
+      linia: 63
+      sekcja_skryptu: ask2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Is there anything else you wish to speak of... I mean, of which you wish to speak?</i>
+      pl: <i>Czy chcesz porozmawiać o czymś jeszcze... To znaczy, czy jest jeszcze coś, o czym pragniesz rozmawiać?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a32309f6a4c688858f4
+      kontekst: textscripts.fishnest_pearlbox:line:65
+      linia: 65
+      sekcja_skryptu: ask2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, could we talk about your kids?
+      pl: Właściwie możemy porozmawiać o twoich dzieciach?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f562bfbf2e47e803b7d8
+      kontekst: textscripts.fishnest_pearlbox:line:66
+      linia: 66
+      sekcja_skryptu: ask2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, that's all. Thanks again!
+      pl: Nie, to wszystko. Jeszcze raz dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: killed
+    wpisy:
+    - id: sol_97ddab1d25be56f423cf
+      kontekst: textscripts.fishnest_pearlbox:line:71
+      linia: 71
+      sekcja_skryptu: killed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>You, who have killed %misc_numwords/$killed$% of my children -- yes, I counted -- have the further temerity to trick your way into
+        my lair, in pursuit of material wealth.</i>
+      pl: <i>Po zabiciu %misc_numwords/$killed$% moich dzieci — tak, policzyłam — masz jeszcze czelność podstępem wkraść się do mego leża w pogoni za materialnym bogactwem.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%misc_numwords/$killed$%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_07b160b5ef88465d4ae7
+      kontekst: textscripts.fishnest_pearlbox:line:72
+      linia: 72
+      sekcja_skryptu: killed
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's not like that--
+      pl: To nie tak—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d61f134ab2b35f3872bb
+      kontekst: textscripts.fishnest_pearlbox:line:73
+      linia: 73
+      sekcja_skryptu: killed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Your words are the ashes of one whose pants are aflame, human. I will grant you no such boon.</i>
+      pl: <i>Twoje słowa są popiołem kogoś, komu płoną spodnie, człowieku. Nie udzielę ci takiej łaski.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf33ad6bcd7cec44d596
+      kontekst: textscripts.fishnest_pearlbox:line:74
+      linia: 74
+      sekcja_skryptu: killed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nuts.
+      pl: Kurczę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: peace
+    wpisy:
+    - id: sol_8a36aa1c28154579b4ab
+      kontekst: textscripts.fishnest_pearlbox:line:78
+      linia: 78
+      sekcja_skryptu: peace
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>My children? Is there a problem?</i>
+      pl: <i>Moje dzieci? Czy jest jakiś problem?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1b015eeb9c163b98670
+      kontekst: textscripts.fishnest_pearlbox:line:79
+      linia: 79
+      sekcja_skryptu: peace
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, they're getting kind of... unruly. Crawling out of manholes, attacking college students, and so on. Any chance you could make
+        them stay down in the sewers?
+      pl: Cóż, robią się trochę... niesforne. Wypełzają ze studzienek, atakują studentów i tak dalej. Możesz kazać im zostać w kanałach?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e49c75d2e9e3fc63f29c
+      kontekst: textscripts.fishnest_pearlbox:line:80
+      linia: 80
+      sekcja_skryptu: peace
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Remain in the sewers? Amongst the filth and refuse of your people? What reason can you give, that my children should not roam free,
+        and breathe fresh air as you do?</i>
+      pl: <i>Pozostać w kanałach? Pośród brudu i odpadków twojego ludu? Podaj choć jeden powód, dla którego moje dzieci nie powinny chodzić wolno
+        i oddychać świeżym powietrzem tak jak wy.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: peacehub
+    wpisy:
+    - id: sol_8b996de065bb6a738ce5
+      kontekst: textscripts.fishnest_pearlbox:line:92
+      linia: 92
+      sekcja_skryptu: peacehub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well jeez, when you put it that way...
+      pl: Rety, gdy tak to ujmujesz...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: brag
+    wpisy:
+    - id: sol_3f42b36dbe23adccfe60
+      kontekst: textscripts.fishnest_pearlbox:line:99
+      linia: 99
+      sekcja_skryptu: brag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh hey, don't get me wrong, I'm the most egalitarian person you'll ever meet. See these biceps? These muscles are for <i>equality</i>.
+        Hoo-hah!
+      pl: Hej, nie zrozum mnie źle. Jestem najbardziej egalitarnym człowiekiem, jakiego kiedykolwiek spotkasz. Widzisz te bicepsy? Te mięśnie
+        służą <i>równości</i>. Hoo-ha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_812781ff9fbff0794328
+      kontekst: textscripts.fishnest_pearlbox:line:100
+      linia: 100
+      sekcja_skryptu: brag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thing is, though, not everyone has muscles as open-minded as mine, and if your kids attract too much attention, you could end up with
+        cops, G-men, or even military busting down your door. You seem like nice people, I wouldn't want that to happen to you.
+      pl: Rzecz w tym, że nie każdy ma mięśnie tak otwarte na świat jak moje. Jeśli twoje dzieci zwrócą na siebie zbyt wiele uwagi, policja, agenci
+        federalni albo nawet wojsko mogą wyważyć wam drzwi. Wyglądacie na miłych ludzi i nie chcę, żeby coś takiego się stało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4e99192af2662d677b7a
+      kontekst: textscripts.fishnest_pearlbox:line:101
+      linia: 101
+      sekcja_skryptu: brag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hmm. Your biceps are indisputable. Very well, I will instruct my children to remain underground -- both figuratively and literally
+        -- until a more diplomatic solution can be arranged.</i>
+      pl: <i>Hm. Nie sposób zaprzeczyć twoim bicepsom. Dobrze, polecę dzieciom pozostać w podziemiu — zarówno w przenośni, jak i dosłownie — dopóki
+        nie uda się wypracować bardziej dyplomatycznego rozwiązania.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b8eead3419667a017da2
+      kontekst: textscripts.fishnest_pearlbox:line:102
+      linia: 102
+      sekcja_skryptu: brag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+    - id: sol_c04487a0d81588e6de54
+      kontekst: textscripts.fishnest_pearlbox:line:103
+      linia: 103
+      sekcja_skryptu: brag
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks again for everything.
+      pl: Jeszcze raz dzięki za wszystko.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: bewitch
+    wpisy:
+    - id: sol_46caf3a6b44ae12dd654
+      kontekst: textscripts.fishnest_pearlbox:line:108
+      linia: 108
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, usually in a situation like this, I would use hypnosis to make someone see my point of view, but I respect you.
+      pl: Zwykle w takiej sytuacji używam hipnozy, by przekonać kogoś do swojego punktu widzenia, ale darzę cię szacunkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c23db2a238aabd31f44a
+      kontekst: textscripts.fishnest_pearlbox:line:109
+      linia: 109
+      sekcja_skryptu: bewitch
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hypnosis would not work on me.</i>
+      pl: <i>Hipnoza by na mnie nie zadziałała.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d3f8c1d5e4291c5420eb
+      kontekst: textscripts.fishnest_pearlbox:line:110
+      linia: 110
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's the other reason, yeah.
+      pl: Tak, to drugi powód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fdc9535df8daf9bca2d4
+      kontekst: textscripts.fishnest_pearlbox:line:111
+      linia: 111
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Anyway, the thing is, if your kids attract too much attention, you could end up with cops, G-men, or even military busting down your
+        door. You seem like nice people, I wouldn't want that to happen to you.
+      pl: Tak czy inaczej, jeśli twoje dzieci zwrócą na siebie zbyt wiele uwagi, policja, agenci federalni albo nawet wojsko mogą wyważyć wam
+        drzwi. Wyglądacie na miłych ludzi i nie chcę, żeby coś takiego się stało.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_36a9a94d01d81934e5d2
+      kontekst: textscripts.fishnest_pearlbox:line:112
+      linia: 112
+      sekcja_skryptu: bewitch
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hmm. This is a reasonable point. Very well, I will instruct my children to remain underground -- both figuratively and literally
+        -- until a more diplomatic solution can be arranged.</i>
+      pl: <i>Hm. To rozsądny argument. Dobrze, polecę dzieciom pozostać w podziemiu — zarówno w przenośni, jak i dosłownie — dopóki nie uda się
+        wypracować bardziej dyplomatycznego rozwiązania.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_b8eead3419667a017da2
+      kontekst: textscripts.fishnest_pearlbox:line:113
+      linia: 113
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_c04487a0d81588e6de54
+      kontekst: textscripts.fishnest_pearlbox:line:114
+      linia: 114
+      sekcja_skryptu: bewitch
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks again for everything.
+      pl: Jeszcze raz dzięki za wszystko.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: bamboozle
+    wpisy:
+    - id: sol_2daa43f8453dec37b795
+      kontekst: textscripts.fishnest_pearlbox:line:118
+      linia: 118
+      sekcja_skryptu: bamboozle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well... okay, out of respect, I'll just give it you straight, instead of trying to fast-talk you.
+      pl: Cóż... dobrze, z szacunku powiem wprost, zamiast próbować cię zagadać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d68bbcd27628c7db0350
+      kontekst: textscripts.fishnest_pearlbox:line:119
+      linia: 119
+      sekcja_skryptu: bamboozle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>How do I know that saying this is not part of your fast-talk strategem?</i>
+      pl: <i>Skąd mam wiedzieć, czy to stwierdzenie nie jest częścią strategii zagadywania?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_65cfa245335db1923530
+      kontekst: textscripts.fishnest_pearlbox:line:120
+      linia: 120
+      sekcja_skryptu: bamboozle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You don't.
+      pl: Nie wiesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fdc9535df8daf9bca2d4
+      kontekst: textscripts.fishnest_pearlbox:line:121
+      linia: 121
+      sekcja_skryptu: bamboozle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Anyway, the thing is, if your kids attract too much attention, you could end up with cops, G-men, or even military busting down your
+        door. You seem like nice people, I wouldn't want that to happen to you.
+      pl: Tak czy inaczej, jeśli twoje dzieci zwrócą na siebie zbyt wiele uwagi, policja, agenci federalni albo nawet wojsko mogą wyważyć wam
+        drzwi. Wyglądacie na miłych ludzi i nie chcę, żeby coś takiego się stało.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_36a9a94d01d81934e5d2
+      kontekst: textscripts.fishnest_pearlbox:line:122
+      linia: 122
+      sekcja_skryptu: bamboozle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hmm. This is a reasonable point. Very well, I will instruct my children to remain underground -- both figuratively and literally
+        -- until a more diplomatic solution can be arranged.</i>
+      pl: <i>Hm. To rozsądny argument. Dobrze, polecę dzieciom pozostać w podziemiu — zarówno w przenośni, jak i dosłownie — dopóki nie uda się
+        wypracować bardziej dyplomatycznego rozwiązania.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_b8eead3419667a017da2
+      kontekst: textscripts.fishnest_pearlbox:line:123
+      linia: 123
+      sekcja_skryptu: bamboozle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_c04487a0d81588e6de54
+      kontekst: textscripts.fishnest_pearlbox:line:124
+      linia: 124
+      sekcja_skryptu: bamboozle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks again for everything.
+      pl: Jeszcze raz dzięki za wszystko.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: peacefail
+    wpisy:
+    - id: sol_5374b22c2bc66fe066a3
+      kontekst: textscripts.fishnest_pearlbox:line:129
+      linia: 129
+      sekcja_skryptu: peacefail
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well jeez, when you put it that way... I guess I don't have an answer to that.
+      pl: Rety, gdy tak to ujmujesz... Chyba nie mam odpowiedzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b006caa10ee381eec603
+      kontekst: textscripts.fishnest_pearlbox:line:130
+      linia: 130
+      sekcja_skryptu: peacefail
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Correct.</i>
+      pl: <i>Zgadza się.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5dc68f4c865f365bcc08
+      kontekst: textscripts.fishnest_pearlbox:line:131
+      linia: 131
+      sekcja_skryptu: peacefail
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Anyway, thanks for the pearl. I won't take up any more of your time.
+      pl: Tak czy inaczej, dzięki za perłę. Nie będę już zabierał ci czasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fishnest_pearlbox:line:132
+      linia: 132
+      sekcja_skryptu: peacefail
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: fedora
+    wpisy:
+    - id: sol_9dd10ada5b330ae4dc34
+      kontekst: textscripts.fishnest_pearlbox:line:137
+      linia: 137
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>My psyche is bulwarked by the collective minds of all of my children, human. Such artifacts will not work on me. You are fortunate
+        that I am amused by the attempt.</i>
+      pl: <i>Moją psychikę obwarowują połączone umysły wszystkich moich dzieci, człowieku. Takie artefakty na mnie nie działają. Masz szczęście, że ta próba mnie rozbawiła.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+    - id: sol_b0871af25915eb7768e2
+      kontekst: textscripts.fishnest_pearlbox:line:138
+      linia: 138
+      sekcja_skryptu: fedora
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Not as amused as I am by the word 'bulwarked'.
+      pl: Nie aż tak, jak mnie rozbawia słowo „obwarowują”.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+    - id: sol_3c65f6329a0916e4248f
+      kontekst: textscripts.fishnest_pearlbox:line:140
+      linia: 140
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Pretty good, right?</i>
+      pl: <i>Niezłe, prawda?</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id008 []
+  - etykieta: fedora2
+    wpisy:
+    - id: sol_9dd10ada5b330ae4dc34
+      kontekst: textscripts.fishnest_pearlbox:line:147
+      linia: 147
+      sekcja_skryptu: fedora2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>My psyche is bulwarked by the collective minds of all of my children, human. Such artifacts will not work on me. You are fortunate
+        that I am amused by the attempt.</i>
+      pl: <i>Moją psychikę obwarowują połączone umysły wszystkich moich dzieci, człowieku. Takie artefakty na mnie nie działają. Masz szczęście, że ta próba mnie rozbawiła.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_b0871af25915eb7768e2
+      kontekst: textscripts.fishnest_pearlbox:line:148
+      linia: 148
+      sekcja_skryptu: fedora2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Not as amused as I am by the word 'bulwarked'.
+      pl: Nie aż tak, jak mnie rozbawia słowo „obwarowują”.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+    - id: sol_3c65f6329a0916e4248f
+      kontekst: textscripts.fishnest_pearlbox:line:150
+      linia: 150
+      sekcja_skryptu: fedora2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Pretty good, right?</i>
+      pl: <i>Niezłe, prawda?</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+  - etykieta: win
+    wpisy:
+    - id: sol_2a2d2fdb2f5de4087b06
+      kontekst: textscripts.fishnest_pearlbox:line:157
+      linia: 157
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Hopefully that won't set off a protracted human/fishman war, or anything.
+      pl: Wygrałeś! Oby tylko nie wywołało to przewlekłej wojny ludzi z ryboludźmi czy czegoś podobnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.fishnest_pearlbox:line:164
+      linia: 164
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_de51cba98388d30439c4
+      kontekst: textscripts.fishnest_pearlbox:line:168
+      linia: 168
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. The Fishmother glares at you imperiously as you haul your carcass back to its feet.
+      pl: Przegrałeś. Rybia Matka patrzy na ciebie władczo, gdy podnosisz swoje truchło z ziemi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e97f338c1ac4ea1a7410
+      kontekst: textscripts.fishnest_pearlbox:line:169
+      linia: 169
+      sekcja_skryptu: lose
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Did you think me defenseless, human? You are a fool.</i>
+      pl: <i>Uważałeś mnie za bezbronną, człowieku? Jesteś głupcem.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_55614c4892637fa7716b
+      kontekst: textscripts.fishnest_pearlbox:line:170
+      linia: 170
+      sekcja_skryptu: lose
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, jeez, you don't have to rub it in.
+      pl: Dobrze, rety, nie musisz się nade mną pastwić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.fishnest_pearlbox:line:173
+      linia: 173
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1508
+  skrypt: fishnest_fishfight
+  pomieszczenie:
+    id: fishnest_inside2
+    nazwa_en: The Fishmother's Nursery Cave
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2749fa362bd8f3878e43
+      kontekst: textscripts.fishnest_fishfight:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A teeming mass of fishmen.  This is apparently where the Fishmother keeps most of her young.
+      pl: Kłębiąca się masa ryboludzi. Najwyraźniej tutaj Rybia Matka trzyma większość młodych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_6709c3c5cc7904637a4f
+      kontekst: textscripts.fishnest_fishfight:line:11
+      linia: 11
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Fishmother's young number slighly fewer thanks to your efforts.
+      pl: Dzięki twoim staraniom potomstwo Rybiej Matki jest nieco mniej liczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_e7eadf611a36b502dfc9
+      kontekst: textscripts.fishnest_fishfight:line:18
+      linia: 18
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fewer is better
+      pl: Mniej znaczy lepiej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_49ab8b71dd910fff78a7
+      kontekst: textscripts.fishnest_fishfight:line:23
+      linia: 23
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those fish really made sushi out of you.  I know that's not a common expression, but I'm trying to get it to catch on, so just humor
+        me.
+      pl: Te ryby naprawdę zrobiły z ciebie sushi. Wiem, że to niezbyt popularne powiedzenie, ale próbuję je rozkręcić, więc przytaknij.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_2b75e9f14bb0be4f6c60
+      kontekst: textscripts.fishnest_fishfight:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, they really made sushi out of me
+      pl: Dobrze, naprawdę zrobiły ze mnie sushi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 5451
+  skrypt: autoscript__sitbridge__leftblocker__popup
+  pomieszczenie:
+    id: sitbridge
+    nazwa_en: River Bridge
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_597fea916b824b4f82c3
+      kontekst: textscripts.autoscript__sitbridge__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nah.  You've heard the school on the other end of the bridge is even weirder.
+      pl: Nie. Podobno szkoła po drugiej stronie mostu jest jeszcze dziwniejsza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3773
+  skrypt: sitbridge_droppoint
+  pomieszczenie:
+    id: sitbridge
+    nazwa_en: River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b52cd9701f01eb6f38ba
+      kontekst: textscripts.sitbridge_droppoint:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plaque says "S.I.T. Chemicals Dept. Dump Zone."
+      pl: Tabliczka głosi „STREFA ZRZUTU WYDZIAŁU CHEMIKALIÓW S.I.T.”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8cf2b618e87b263a0c3a
+      kontekst: textscripts.sitbridge_droppoint:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drop in the sulfur
+      pl: Wrzuć siarkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f0b6cc659cb7686d8e5d
+      kontekst: textscripts.sitbridge_droppoint:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the bismuth's turn.
+      pl: Teraz kolej bizmutu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba63451df7d2c92b366f
+      kontekst: textscripts.sitbridge_droppoint:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drop it in
+      pl: Wrzuć go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f4b59f067d04c9603278
+      kontekst: textscripts.sitbridge_droppoint:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I hope the river is ready for some magnesium.
+      pl: Mam nadzieję, że rzeka jest gotowa na trochę magnezu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31999b7ab5dfdf746e6f
+      kontekst: textscripts.sitbridge_droppoint:line:12
+      linia: 12
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drop it
+      pl: Wrzuć go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drop1
+    wpisy:
+    - id: sol_237ec043ac3c9f354471
+      kontekst: textscripts.sitbridge_droppoint:line:27
+      linia: 27
+      sekcja_skryptu: drop1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop the sulfur and watch carefully. The yellow lump hits the surface of the water with a <i>plop</i> and sinks. Nothing else seems
+        to happen.
+      pl: Wrzucasz siarkę i uważnie obserwujesz. Żółta bryła uderza o powierzchnię wody z cichym <i>plum</i> i tonie. Poza tym chyba nic się nie
+        dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6659c60ccf9aeb5c4b0d
+      kontekst: textscripts.sitbridge_droppoint:line:28
+      linia: 28
+      sekcja_skryptu: drop1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Noted
+      pl: Odnotowano
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drop2
+    wpisy:
+    - id: sol_4616c3e99015ce59df7c
+      kontekst: textscripts.sitbridge_droppoint:line:32
+      linia: 32
+      sekcja_skryptu: drop2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop the bismuth into the river. It goes <i>kaplunk!</i> and sinks quite rapidly.
+      pl: Wrzucasz bizmut do rzeki. Robi <i>plusk-bęc!</i> i dość szybko tonie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60e850b5368fc93afcf5
+      kontekst: textscripts.sitbridge_droppoint:line:33
+      linia: 33
+      sekcja_skryptu: drop2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay then
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 22
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drop3
+    wpisy:
+    - id: sol_f2132cb7660bfafa4959
+      kontekst: textscripts.sitbridge_droppoint:line:37
+      linia: 37
+      sekcja_skryptu: drop3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop the magnesium, and watch it closely as it sinks. It doesn't seem to go as quickly as the bismuth did. ...That's about it.
+      pl: Wrzucasz magnez i uważnie obserwujesz, jak tonie. Chyba nie opada tak szybko jak bizmut. ...To właściwie wszystko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37ee7b7826287f7a8881
+      kontekst: textscripts.sitbridge_droppoint:line:38
+      linia: 38
+      sekcja_skryptu: drop3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hmmm
+      pl: Hmmm
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3774
+  skrypt: sitbridge_fishingrod
+  pomieszczenie:
+    id: sitbridge
+    nazwa_en: River Bridge
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_05d32b48b7457175b4c0
+      kontekst: textscripts.sitbridge_fishingrod:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a fishing rod leaning against the railing. Maybe it was left here because something is wrong with it.
+      pl: O barierkę opiera się wędka. Może ktoś ją tu zostawił, bo coś jest z nią nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_229bf9dd501439e0708b
+      kontekst: textscripts.sitbridge_fishingrod:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: sol_23b61b3c4f341096f6ba
+      kontekst: textscripts.sitbridge_fishingrod:line:9
+      linia: 9
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's definitely something wrong with it.
+      pl: Zdecydowanie coś jest z nią nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 3775
+  skrypt: sitbridge_ladder
+  pomieszczenie:
+    id: sitbridge
+    nazwa_en: River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d3cb0d2ca238a5c76f5a
+      kontekst: textscripts.sitbridge_ladder:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a ladder, blocked by some complicated municipal contraption.
+      pl: Drabina zablokowana przez jakieś skomplikowane miejskie ustrojstwo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_fde9bd8e37b5d70bc8ec
+      kontekst: textscripts.sitbridge_ladder:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wrench the box open, destroying the tool in the process.
+      pl: Wyłamujesz skrzynkę, niszcząc przy tym narzędzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b5e4b090c6f10bb7abe
+      kontekst: textscripts.sitbridge_ladder:line:18
+      linia: 18
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3776
+  skrypt: sitbridge_left
+  pomieszczenie:
+    id: sitbridge
+    nazwa_en: River Bridge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6ec8c0b24aab5cf1ca20
+      kontekst: textscripts.sitbridge_left:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wanna head back to campus?
+      pl: Wracamy na kampus?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_03401792b29af2abb232
+      kontekst: textscripts.sitbridge_left:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

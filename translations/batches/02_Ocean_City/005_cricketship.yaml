@@ -1,0 +1,1682 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: cricketship
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 4
+liczba_wpisow: 98
+sceny:
+- kolejnosc_w_danych_gry: 1079
+  skrypt: cricketship_alien1
+  pomieszczenie:
+    id: cricketship
+    nazwa_en: A... Spaceship?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 33
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cdd1e855932e141b9688
+      kontekst: textscripts.cricketship_alien1:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, this is, uh... an alien.
+      pl: Cóż, to jest, eee... kosmita.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b729e3d69b2028aad174
+      kontekst: textscripts.cricketship_alien1:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I really don't know what else to tell you.
+      pl: Naprawdę nie wiem, co jeszcze mam ci powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffc255412bfe7ff432e1
+      kontekst: textscripts.cricketship_alien1:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to them
+      pl: Porozmawiaj z nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: chat
+    wpisy:
+    - id: sol_1855125dd058b4d87b4c
+      kontekst: textscripts.cricketship_alien1:line:18
+      linia: 18
+      sekcja_skryptu: chat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hello again, @yecchname@. Do you have more questions? Or would you like to ask the previous ones again?</i>
+      pl: <i>Witaj ponownie, @yecchname@. Masz więcej pytań? A może chcesz jeszcze raz zadać te poprzednie?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '@yecchname@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_12e6dab28213bb1c5b47
+      kontekst: textscripts.cricketship_alien1:line:26
+      linia: 26
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um. Hi there.
+      pl: Eee. Cześć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e0f0d8733f64625efccc
+      kontekst: textscripts.cricketship_alien1:line:27
+      linia: 27
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hello, human. Welcome to our spaceship.</i>
+      pl: <i>Witaj, człowieku. Witamy na naszym statku kosmicznym.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: choices
+    wpisy:
+    - id: sol_ab710d79efda1979efc7
+      kontekst: textscripts.cricketship_alien1:line:34
+      linia: 34
+      sekcja_skryptu: choices
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: What happened to me?
+      pl: Co mi się stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c1879fbac4dc57fa2655
+      kontekst: textscripts.cricketship_alien1:line:35
+      linia: 35
+      sekcja_skryptu: choices
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: Who are you guys?
+      pl: Kim jesteście?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b562d736856421dc55ce
+      kontekst: textscripts.cricketship_alien1:line:36
+      linia: 36
+      sekcja_skryptu: choices
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: Nice purse.
+      pl: Ładna torebka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a43180861562d0b8d7e0
+      kontekst: textscripts.cricketship_alien1:line:37
+      linia: 37
+      sekcja_skryptu: choices
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: What's that one tentacle for?
+      pl: Do czego służy tamta macka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f4ac21d283d63e3b5046
+      kontekst: textscripts.cricketship_alien1:line:38
+      linia: 38
+      sekcja_skryptu: choices
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, see you later.
+      pl: Dobrze, do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: sol_d02a791f35dbcbb2ea3d
+      kontekst: textscripts.cricketship_alien1:line:43
+      linia: 43
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Do not be alarmed. Your mind has been transferred from your body into the body of one of our crew. This is much, <b>much</b> simpler
+        than transporting your physical body through space and time.</i>
+      pl: <i>Nie obawiaj się. Twój umysł został przeniesiony z twojego ciała do ciała członka naszej załogi. To znacznie, <b>znacznie</b> prostsze
+        niż transportowanie fizycznego ciała przez czas i przestrzeń.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - <b>
+      - </b>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba790789168e8e550468
+      kontekst: textscripts.cricketship_alien1:line:48
+      linia: 48
+      sekcja_skryptu: what
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Will my body be okay while I'm gone?
+      pl: Czy podczas mojej nieobecności mojemu ciału nic się nie stanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what2
+    wpisy:
+    - id: sol_d8140dc725ca794bfe37
+      kontekst: textscripts.cricketship_alien1:line:53
+      linia: 53
+      sekcja_skryptu: what2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Yes, Ygnxtkch will keep an eye on it for you. They switched places with you.</i>
+      pl: <i>Tak, Ygnxtkch go dla ciebie przypilnuje. Zamieniliście się miejscami.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1d68bb4c95ac2cc4d170
+      kontekst: textscripts.cricketship_alien1:line:54
+      linia: 54
+      sekcja_skryptu: what2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...I''m not sure how I feel about that.'
+      pl: '...Nie wiem, co o tym sądzić.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e669b79d6e70c8627fd
+      kontekst: textscripts.cricketship_alien1:line:55
+      linia: 55
+      sekcja_skryptu: what2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>You need not worry. They are very chill and respectful of boundaries.</i>
+      pl: <i>Nie musisz się martwić. Ygnxtkch jest na wielkim luzie i szanuje cudze granice.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_909ac6e1a959ae18b81f
+      kontekst: textscripts.cricketship_alien1:line:56
+      linia: 56
+      sekcja_skryptu: what2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Okay.'
+      pl: '...Dobrze.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: who
+    wpisy:
+    - id: sol_ddf2db349920a16d9877
+      kontekst: textscripts.cricketship_alien1:line:61
+      linia: 61
+      sekcja_skryptu: who
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>I should leave the broad details to our captain. But as for myself, my name is Yxrgprch.</i>
+      pl: <i>Ogólny obraz powinien przedstawić ci nasz kapitan. Jeśli zaś chodzi o mnie, nazywam się Yxrgprch.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_80e6b7a898d9dd17e73e
+      kontekst: textscripts.cricketship_alien1:line:62
+      linia: 62
+      sekcja_skryptu: who
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nice to meet you, uh, Yixerg-porch. My name's @firstname@ @lastname@.
+      pl: Miło cię poznać, eee, Yikserg-porcz. Jestem @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_10033900ab87b13f28c4
+      kontekst: textscripts.cricketship_alien1:line:63
+      linia: 63
+      sekcja_skryptu: who
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Nice to meet you, @yecchname@.</i>
+      pl: <i>Miło cię poznać, @yecchname@.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '@yecchname@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bag
+    wpisy:
+    - id: sol_11510f645f7db83cb69e
+      kontekst: textscripts.cricketship_alien1:line:70
+      linia: 70
+      sekcja_skryptu: bag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Thank you, although I prefer to call it a messenger bag.</i>
+      pl: <i>Dziękuję, choć wolę określenie „torba kurierska”.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1476fe256d5755780efb
+      kontekst: textscripts.cricketship_alien1:line:71
+      linia: 71
+      sekcja_skryptu: bag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What do you keep in it?
+      pl: Co w niej trzymasz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_77170ebcb51055f23e8b
+      kontekst: textscripts.cricketship_alien1:line:72
+      linia: 72
+      sekcja_skryptu: bag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Items you would not comprehend. And snacks.</i>
+      pl: <i>Przedmioty niepojęte dla twojego umysłu. I przekąski.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a11468297e7502130399
+      kontekst: textscripts.cricketship_alien1:line:73
+      linia: 73
+      sekcja_skryptu: bag
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nice.
+      pl: Fajnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: butt
+    wpisy:
+    - id: sol_c291ef035b5b032b743f
+      kontekst: textscripts.cricketship_alien1:line:78
+      linia: 78
+      sekcja_skryptu: butt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Excuse me?</i>
+      pl: <i>Słucham?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5f8da341210680e40d11
+      kontekst: textscripts.cricketship_alien1:line:79
+      linia: 79
+      sekcja_skryptu: butt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The one with, like, four trumpets on the end?
+      pl: Ta zakończona czymś w rodzaju czterech trąbek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7feb7791f6909e852a62
+      kontekst: textscripts.cricketship_alien1:line:80
+      linia: 80
+      sekcja_skryptu: butt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>That's... we don't generally talk about that.</i>
+      pl: <i>To... na ogół o tym nie rozmawiamy.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0da60f9d5ee27469d239
+      kontekst: textscripts.cricketship_alien1:line:81
+      linia: 81
+      sekcja_skryptu: butt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh... Oh! Is that your butt? Our butts?
+      pl: Och... Och! To twoja pupa? Nasza pupa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_74b09a7e6b8c9fbde436
+      kontekst: textscripts.cricketship_alien1:line:82
+      linia: 82
+      sekcja_skryptu: butt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Among other things.</i>
+      pl: <i>Między innymi.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69f23d99666585c4f934
+      kontekst: textscripts.cricketship_alien1:line:83
+      linia: 83
+      sekcja_skryptu: butt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Jeez, sorry! I'm new.
+      pl: Rany, przepraszam! Jestem tu nowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7fb3a45d4bea5ca80d6c
+      kontekst: textscripts.cricketship_alien1:line:84
+      linia: 84
+      sekcja_skryptu: butt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Nah, I get it. We're good.</i>
+      pl: <i>Spoko, rozumiem. Nie ma sprawy.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3c0deb0534088a9fced6
+      kontekst: textscripts.cricketship_alien1:line:85
+      linia: 85
+      sekcja_skryptu: butt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I sure hope I'm not here long enough to have to figure out how to use it.
+      pl: Mam wielką nadzieję, że nie zostanę tu tak długo, żeby musieć się nauczyć jej używać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ee2b147fe5a8792f8578
+      kontekst: textscripts.cricketship_alien1:line:86
+      linia: 86
+      sekcja_skryptu: butt
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good grief.
+      pl: O ludzie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1080
+  skrypt: cricketship_alien2
+  pomieszczenie:
+    id: cricketship
+    nazwa_en: A... Spaceship?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_39d4f07d0a2b5c7586ff
+      kontekst: textscripts.cricketship_alien2:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This alien seems focused on something.
+      pl: Ten kosmita wydaje się na czymś skupiony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffc255412bfe7ff432e1
+      kontekst: textscripts.cricketship_alien2:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to them
+      pl: Porozmawiaj z nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: chat
+    wpisy:
+    - id: sol_750a9caf0bd1105ee910
+      kontekst: textscripts.cricketship_alien2:line:16
+      linia: 16
+      sekcja_skryptu: chat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Excuse me...
+      pl: Przepraszam...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7272bf9c6d8d6a79219f
+      kontekst: textscripts.cricketship_alien2:line:17
+      linia: 17
+      sekcja_skryptu: chat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Yes?</i>
+      pl: <i>Tak?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd8633955ee79aecb69e
+      kontekst: textscripts.cricketship_alien2:line:18
+      linia: 18
+      sekcja_skryptu: chat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sorry to bother you, but what are you doing?
+      pl: Nie chcę przeszkadzać, ale co robisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_39ce66a8af8a8038c734
+      kontekst: textscripts.cricketship_alien2:line:19
+      linia: 19
+      sekcja_skryptu: chat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>I am scanning for any threats to our ship. Our enemies could appear at any time.</i>
+      pl: <i>Skanuję otoczenie w poszukiwaniu zagrożeń dla statku. Nasi wrogowie mogą zjawić się w każdej chwili.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6449d63b9d2fe5258b82
+      kontekst: textscripts.cricketship_alien2:line:20
+      linia: 20
+      sekcja_skryptu: chat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh jeez, okay.
+      pl: O rany, dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fc548ba9a4d9768f4b76
+      kontekst: textscripts.cricketship_alien2:line:21
+      linia: 21
+      sekcja_skryptu: chat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm, you don't seem to have any scanning machines, though. Are you doing it psychically?
+      pl: Hm, tylko że nie masz żadnego urządzenia skanującego. Robisz to telepatycznie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_12dd314c957ead186fd5
+      kontekst: textscripts.cricketship_alien2:line:22
+      linia: 22
+      sekcja_skryptu: chat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>I'm just looking out the window.</i>
+      pl: <i>Po prostu wyglądam przez okno.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f5ec74201fad0f434334
+      kontekst: textscripts.cricketship_alien2:line:23
+      linia: 23
+      sekcja_skryptu: chat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gotcha.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1081
+  skrypt: cricketship_captain
+  pomieszczenie:
+    id: cricketship
+    nazwa_en: A... Spaceship?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 54
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_711f2e8d8dfaa4e65255
+      kontekst: textscripts.cricketship_captain:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This alien seems to be in charge. You're basing this entirely on the fact that they have a fancy hat.
+      pl: Ten kosmita najwyraźniej tu dowodzi. Opierasz ten wniosek wyłącznie na tym, że ma wytworny kapelusz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffc255412bfe7ff432e1
+      kontekst: textscripts.cricketship_captain:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to them
+      pl: Porozmawiaj z nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: convo
+    wpisy:
+    - id: sol_cdf588b5472183e1494e
+      kontekst: textscripts.cricketship_captain:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Do you have more questions for me, @yecchname@? Or perhaps your mind is muddled from the transferrance and you wish to ask something
+        again?</i>
+      pl: <i>Masz więcej pytań, @yecchname@? A może transfer zmącił ci umysł i chcesz któreś powtórzyć?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '@yecchname@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_43123a88839c5cca6b53
+      kontekst: textscripts.cricketship_captain:line:19
+      linia: 19
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh, hi there.
+      pl: Eee, dzień dobry.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e0b0648436800ecbe27d
+      kontekst: textscripts.cricketship_captain:line:20
+      linia: 20
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Greetings, human. Thank you for your patience. I am commander of this ship; my personal name is Yxlplgh, and my people are known
+        — or will be known — to your people as the Yecchians.</i>
+      pl: <i>Witaj, człowieku. Dziękuję za cierpliwość. Dowodzę tym statkiem; moje osobiste imię brzmi Yxlplgh, a mój lud jest — lub będzie —
+        znany twojemu ludowi jako Yecchianie.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7ba376c82f82497026ac
+      kontekst: textscripts.cricketship_captain:line:21
+      linia: 21
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nice to meet you... Yexil-plugh. My name’s @firstname@ @lastname@.
+      pl: Miło cię poznać... Yeksil-plugh. Jestem @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1f414dc3c59934a71938
+      kontekst: textscripts.cricketship_captain:line:22
+      linia: 22
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>I am certain you have many questions for me, @yecchname@.</i>
+      pl: <i>Z pewnością masz do mnie wiele pytań, @yecchname@.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '@yecchname@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3d6a80558cff04eb3d81
+      kontekst: textscripts.cricketship_captain:line:23
+      linia: 23
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Boy howdy, do I ever.
+      pl: Oj, i to ile.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_572cee48042250739ef6
+      kontekst: textscripts.cricketship_captain:line:28
+      linia: 28
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: Nice hat.
+      pl: Ładny kapelusz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ed65dee6aef1262a7243
+      kontekst: textscripts.cricketship_captain:line:29
+      linia: 29
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: The Yecchians? Weird name.
+      pl: Yecchianie? Dziwna nazwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b5210bd0ec0fe7a0bdae
+      kontekst: textscripts.cricketship_captain:line:30
+      linia: 30
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: So uh... who are you guys?
+      pl: Więc, eee... kim jesteście?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_70cf92f9cb54c97c9f12
+      kontekst: textscripts.cricketship_captain:line:31
+      linia: 31
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: Where are we?
+      pl: Gdzie jesteśmy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_130063f2ef5199b0f196
+      kontekst: textscripts.cricketship_captain:line:32
+      linia: 32
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: What do you want with me?
+      pl: Czego ode mnie chcecie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d5f21f30bfd895d0355
+      kontekst: textscripts.cricketship_captain:line:34
+      linia: 34
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll be right back.
+      pl: Zaraz wracam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hat
+    wpisy:
+    - id: sol_bd8419f60da843d730f8
+      kontekst: textscripts.cricketship_captain:line:39
+      linia: 39
+      sekcja_skryptu: hat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nice hat. Is it a Yecchian spaceship captain’s hat?
+      pl: Ładny kapelusz. To kapelusz kapitana yecchiańskiego statku kosmicznego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf132888a249a42ac3a0
+      kontekst: textscripts.cricketship_captain:line:40
+      linia: 40
+      sekcja_skryptu: hat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Only in the sense that I am a Yecchian spaceship captain, and it is mine. But as I <i>am</i> captain, it is not considered rude for
+        me to wear my hat while aboard.</i>
+      pl: <i>Tylko w tym sensie, że jestem kapitanem yecchiańskiego statku kosmicznego, a kapelusz należy do mnie. Ponieważ jednak <i>jestem</i>
+        kapitanem, noszenie go na pokładzie nie uchodzi za niegrzeczne.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - <i>
+      - </i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37a3985b34d402b9e682
+      kontekst: textscripts.cricketship_captain:line:45
+      linia: 45
+      sekcja_skryptu: hat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: name
+    wpisy:
+    - id: sol_e5c0443f5f62040a690a
+      kontekst: textscripts.cricketship_captain:line:50
+      linia: 50
+      sekcja_skryptu: name
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Yes, well, in our language it's quite elegant, actually. It loses something when pronounced by a little flapping strip of wet meat.</i>
+      pl: <i>Tak, cóż, w naszym języku brzmi to niezwykle elegancko. Traci nieco uroku w wymowie małego, trzepoczącego paska mokrego mięsa.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_412eb77bd8bf5fbf2ba6
+      kontekst: textscripts.cricketship_captain:line:51
+      linia: 51
+      sekcja_skryptu: name
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ah. That's fair.
+      pl: Aha. No trudno się nie zgodzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: who
+    wpisy:
+    - id: sol_c46c1bbb4a109a7f5dde
+      kontekst: textscripts.cricketship_captain:line:58
+      linia: 58
+      sekcja_skryptu: who
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Our story is long and complicated, so I will spare you most of the details. What is relevant to you is that we have the power to
+        send our minds through time and space, and in doing so we have forseen our demise.</i>
+      pl: <i>Nasza historia jest długa i skomplikowana, więc oszczędzę ci większości szczegółów. Dla ciebie istotne jest to, że potrafimy wysyłać
+        umysły przez czas i przestrzeń, dzięki czemu przewidzieliśmy własną zagładę.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bbf18fe210822b9db9ba
+      kontekst: textscripts.cricketship_captain:line:59
+      linia: 59
+      sekcja_skryptu: who
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>We have witnessed... an ending. Not the only possible ending, for there are several, but it is perhaps the most likely one. And in
+        this ending, our home planet of New Yecchia is destroyed by an unimaginable force of darkness.</i>
+      pl: <i>Byliśmy świadkami... zakończenia. Nie jedynego możliwego, bo jest ich kilka, ale chyba najbardziej prawdopodobnego. W tym zakończeniu
+        naszą ojczystą planetę, Nową Yecchię, niszczy niewyobrażalna siła ciemności.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1291cbd0570c80739638
+      kontekst: textscripts.cricketship_captain:line:63
+      linia: 63
+      sekcja_skryptu: who
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gosh!
+      pl: Ojej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: where
+    wpisy:
+    - id: sol_520e56e411b7fc6aa3b0
+      kontekst: textscripts.cricketship_captain:line:68
+      linia: 68
+      sekcja_skryptu: where
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>We are in the neutral zone between the territory of New Yecchia, and that of Gobulon Prime, our hated enemies. At this time, 990
+        years in your future, your people refer to the inhabitants of Gobulon Prime as "gobsaucers."</i>
+      pl: <i>Znajdujemy się w strefie neutralnej pomiędzy terytorium Nowej Yecchii a Gobulon Prime, planetą naszych znienawidzonych wrogów. W tych czasach, 990 lat w twojej przyszłości, twój lud nazywa mieszkańców Gobulon Prime „gobspodkami”.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c5008731ed529fbb4051
+      kontekst: textscripts.cricketship_captain:line:71
+      linia: 71
+      sekcja_skryptu: where
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow, okay. So we make it at least another 990 years, huh?
+      pl: O rany. Czyli przetrwamy jeszcze co najmniej 990 lat?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffa02bb339b908af68c7
+      kontekst: textscripts.cricketship_captain:line:72
+      linia: 72
+      sekcja_skryptu: where
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Probably.</i>
+      pl: <i>Prawdopodobnie.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dfc91072245ce5b9da7c
+      kontekst: textscripts.cricketship_captain:line:73
+      linia: 73
+      sekcja_skryptu: where
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do we have cool spaceships?
+      pl: Mamy fajne statki kosmiczne?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d1a364d64491c0e61b4b
+      kontekst: textscripts.cricketship_captain:line:74
+      linia: 74
+      sekcja_skryptu: where
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Yes. You are the only spacefaring race that prioritizes aesthetics in your shipbuilding.</i>
+      pl: <i>Tak. Jesteście jedyną rasą podróżującą w kosmosie, dla której estetyka jest priorytetem przy budowie statków.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7a96fefd34e6ce624b2e
+      kontekst: textscripts.cricketship_captain:line:75
+      linia: 75
+      sekcja_skryptu: where
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nice!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: sol_45aac6c702cb32430e36
+      kontekst: textscripts.cricketship_captain:line:80
+      linia: 80
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>If you are the one we seek, the one who will choose the ending -- and I'm <i>pretty sure</i> you are -- then I humbly request that
+        you choose the one where our planet doesn't blow up.</i>
+      pl: <i>Jeśli jesteś tym, którego szukamy, tym, który wybierze zakończenie — a jestem tego <i>niemal pewien</i> — pokornie proszę, wybierz
+        takie, w którym nasza planeta nie wybuchnie.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - <i>
+      - </i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_35bd9e090338261e1e2d
+      kontekst: textscripts.cricketship_captain:line:81
+      linia: 81
+      sekcja_skryptu: what
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How do I do that? How will I know?
+      pl: Jak mam to zrobić? Skąd będę wiedzieć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_378cbf21d239e431ef78
+      kontekst: textscripts.cricketship_captain:line:82
+      linia: 82
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>You will know. There will be a climactic event -- what you might call a Final Boss -- and at that time there will be a machine that
+        you will need to destroy, to prevent the destruction of Earth.</i>
+      pl: <i>Będziesz wiedzieć. Nastąpi kulminacyjne wydarzenie — coś, co możesz nazwać Finałowym Bossem — i pojawi się maszyna, którą trzeba
+        zniszczyć, aby zapobiec zagładzie Ziemi.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c36a3c7e08bca06182c6
+      kontekst: textscripts.cricketship_captain:line:83
+      linia: 83
+      sekcja_skryptu: what
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The captain holds up a fist-sized, glowing pink-red crystal.
+      pl: Kapitan unosi świecący różowoczerwony kryształ wielkości pięści.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ecdb0a6709b8c52d5ed6
+      kontekst: textscripts.cricketship_captain:line:84
+      linia: 84
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>All I ask is that, rather than destroy the machine in any other way, you destroy it by applying this crystal to it.</i>
+      pl: <i>Proszę tylko, żebyś zamiast niszczyć maszynę w inny sposób, zniszczył ją, przykładając do niej ten kryształ.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7f965250262072a5f291
+      kontekst: textscripts.cricketship_captain:line:85
+      linia: 85
+      sekcja_skryptu: what
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, no problem.
+      pl: Jasne, nie ma sprawy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2f6d35ad731414568963
+      kontekst: textscripts.cricketship_captain:line:86
+      linia: 86
+      sekcja_skryptu: what
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Is there a catch?'
+      pl: '...Jest jakiś haczyk?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whata
+    wpisy:
+    - id: sol_348f3daaf31578782760
+      kontekst: textscripts.cricketship_captain:line:91
+      linia: 91
+      sekcja_skryptu: whata
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Oh! Great! Honestly, I expected to have to do a little more convincing.</i>
+      pl: <i>Och! Świetnie! Szczerze mówiąc, spodziewałem się, że trzeba będzie cię trochę dłużej przekonywać.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_541d55fc2226f6e3c6ef
+      kontekst: textscripts.cricketship_captain:line:92
+      linia: 92
+      sekcja_skryptu: whata
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nah, you seem like right guys, I don't mind helping you out. How does this save you?
+      pl: Nie, wyglądacie na porządne typy, chętnie pomogę. W jaki sposób to was uratuje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1998d466c4517be3cff2
+      kontekst: textscripts.cricketship_captain:line:93
+      linia: 93
+      sekcja_skryptu: whata
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Basically, the destruction of the machine has consequences that reverberate through space-time, and 990 years later, New Yecchia
+        is where the waves converge, catastrophically. Using the crystal will redirect them slightly, so Gobulon Prime takes the hit instead.</i>
+      pl: '<i>W skrócie: zniszczenie maszyny wywołuje konsekwencje rozchodzące się przez czasoprzestrzeń, a 990 lat później fale zbiegają się
+        katastrofalnie na Nowej Yecchii. Kryształ nieco zmieni ich kierunek, więc uderzenie przyjmie Gobulon Prime.</i>'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd4d398ddb508ab77503
+      kontekst: textscripts.cricketship_captain:line:94
+      linia: 94
+      sekcja_skryptu: whata
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty then.
+      pl: No to dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whatb
+    wpisy:
+    - id: sol_eea71369da917aea77da
+      kontekst: textscripts.cricketship_captain:line:99
+      linia: 99
+      sekcja_skryptu: whatb
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Do not worry, this is not what you humans refer to as a "monkey's paw." Your planet will not be sacrificed to preserve ours, or anything
+        like that. We like your planet. The only catch is that, instead of New Yecchia being destroyed 990 years later as a side-effect of these
+        events, Gobulon Prime will be.</i>
+      pl: <i>Nie martw się, nie jest to coś, co wy, ludzie, nazywacie „małpią łapką”. Wasza planeta nie zostanie poświęcona dla ratowania naszej
+        ani nic w tym rodzaju. Lubimy waszą planetę. Jedyny haczyk polega na tym, że zamiast Nowej Yecchii 990 lat później jako skutek uboczny
+        tych wydarzeń zostanie zniszczony Gobulon Prime.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b94f9c421691a478421
+      kontekst: textscripts.cricketship_captain:line:100
+      linia: 100
+      sekcja_skryptu: whatb
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm, okay. And we -- I mean, the future humans -- don't like those guys?
+      pl: Hm, dobrze. A my — to znaczy ludzie z przyszłości — nie lubimy tamtych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab8c5583be4ef85bef43
+      kontekst: textscripts.cricketship_captain:line:101
+      linia: 101
+      sekcja_skryptu: whatb
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Nobody likes them, they suck.</i>
+      pl: <i>Nikt ich nie lubi, są do bani.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_50ba417583ad8269ae19
+      kontekst: textscripts.cricketship_captain:line:102
+      linia: 102
+      sekcja_skryptu: whatb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, great.
+      pl: Dobrze, świetnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: sol_817d1c2e5a0f7a3bb52e
+      kontekst: textscripts.cricketship_captain:line:108
+      linia: 108
+      sekcja_skryptu: take
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Transporting the crystal physically will take a lot of power. So, I can't give it to you until you're ready for us to send your mind
+        back. Do you have any other questions first?</i>
+      pl: <i>Fizyczne przeniesienie kryształu wymaga mnóstwa energii. Nie mogę więc oddać ci go, dopóki nie nadejdzie pora odesłać twój umysł.
+        Masz jeszcze jakieś pytania?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crystal
+    wpisy:
+    - id: sol_b4f4ea0598d58b11e980
+      kontekst: textscripts.cricketship_captain:line:115
+      linia: 115
+      sekcja_skryptu: crystal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Okay, here's the crystal.</i>
+      pl: <i>Dobrze, oto kryształ.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_218cda9789647560da1d
+      kontekst: textscripts.cricketship_captain:line:117
+      linia: 117
+      sekcja_skryptu: crystal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Keep it safe, don't put your tongue on it or look directly at it for too long, and don't forget to use it when the time comes!</i>
+      pl: <i>Dbaj o niego, nie przykładaj do niego języka, nie patrz na niego zbyt długo i nie zapomnij go użyć, gdy nadejdzie pora!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_715f680f2f786587580f
+      kontekst: textscripts.cricketship_captain:line:118
+      linia: 118
+      sekcja_skryptu: crystal
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Got it. No problem.
+      pl: Rozumiem. Żaden problem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3ddfc30d05c753a13c04
+      kontekst: textscripts.cricketship_captain:line:119
+      linia: 119
+      sekcja_skryptu: crystal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Promise?</i>
+      pl: <i>Obiecujesz?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8cf8de4c35264d3a046e
+      kontekst: textscripts.cricketship_captain:line:120
+      linia: 120
+      sekcja_skryptu: crystal
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Promise.
+      pl: Obiecuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_747a65883b94d12f0abc
+      kontekst: textscripts.cricketship_captain:line:121
+      linia: 121
+      sekcja_skryptu: crystal
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Promise. [lie]
+      pl: Obiecuję. [kłamstwo]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crystal2
+    wpisy:
+    - id: sol_61a7a7fb0f232dd2e252
+      kontekst: textscripts.cricketship_captain:line:126
+      linia: 126
+      sekcja_skryptu: crystal2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Prepare yourself for transferrence. My comrades visiting your spacetime have dispersed -- you will not see us again. Good luck!</i>
+      pl: <i>Przygotuj się do transferu. Moi towarzysze odwiedzający twoją czasoprzestrzeń już się rozproszyli — więcej nas nie zobaczysz. Powodzenia!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_15478b08222d2e055f33
+      kontekst: textscripts.cricketship_captain:line:127
+      linia: 127
+      sekcja_skryptu: crystal2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You feel your body -- or just your mind, I guess? -- being torn apart again.
+      pl: Czujesz, jak twoje ciało — a może tylko umysł? — ponownie rozpada się na kawałki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_59083ca27f3a3b9ed031
+      kontekst: textscripts.cricketship_captain:line:128
+      linia: 128
+      sekcja_skryptu: crystal2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Since you were ready for it this time, it's actually kind of fun!
+      pl: Tym razem wiesz, czego się spodziewać, więc jest to nawet całkiem przyjemne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_07a39c3444dd70948699
+      kontekst: textscripts.cricketship_captain:line:129
+      linia: 129
+      sekcja_skryptu: crystal2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whee!
+      pl: Juhu!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1082
+  skrypt: cricketship_createplayer
+  pomieszczenie:
+    id: cricketship
+    nazwa_en: A... Spaceship?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: oncreate
+    wpisy:
+    - id: sol_285de39889de09149157
+      kontekst: textscripts.cricketship_createplayer:line:5
+      linia: 5
+      sekcja_skryptu: oncreate
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: goto fadein_loop
+      pl: goto fadein_loop
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna instrukcja skoku, niewidoczna dla gracza; pozostawiono bez zmian.'

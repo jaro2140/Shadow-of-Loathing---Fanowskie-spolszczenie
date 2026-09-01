@@ -1,0 +1,2456 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: lighthouse
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 13
+liczba_wpisow: 147
+sceny:
+- kolejnosc_w_danych_gry: 2433
+  skrypt: lighthouse_exitpopup
+  pomieszczenie:
+    id: lighthouse
+    nazwa_en: Crystaldream Lake Lighthouse
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dd919b97d3fe06ba63b9
+      kontekst: textscripts.lighthouse_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Light out from this house?
+      pl: Zgasić się z tej latarni?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.lighthouse_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2439
+  skrypt: lighthouse_pump
+  pomieszczenie:
+    id: lighthouse
+    nazwa_en: Crystaldream Lake Lighthouse
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a896a9765e029f0e4c30
+      kontekst: textscripts.lighthouse_pump:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's some kind of funky pump contraption.
+      pl: Jakaś dziwaczna pompowa machina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_eca57fe9ef30266a5f0b
+      kontekst: textscripts.lighthouse_pump:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fortunately, the place where it slots in is clearly labelled.
+      pl: Na szczęście miejsce montażu wyraźnie oznaczono.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2428
+  skrypt: lighthouse_bed
+  pomieszczenie:
+    id: lighthouse_house
+    nazwa_en: Crystaldream Lighthouse (Keeper's House)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6e5ea302d3e275afec85
+      kontekst: textscripts.lighthouse_bed:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lighthouse keeper's bed is simple, but very tidy.
+      pl: Łóżko latarnika jest proste, ale bardzo schludne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: f
+    wpisy:
+    - id: sol_1a6aed1eeafc566c4623
+      kontekst: textscripts.lighthouse_bed:line:7
+      linia: 7
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You probably ought to introduce yourself before you start poking at his stuff.
+      pl: Powinieneś się najpierw przedstawić, zanim zaczniesz grzebać w jego rzeczach.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 2430
+  skrypt: lighthouse_chesstable
+  pomieszczenie:
+    id: lighthouse_house
+    nazwa_en: Crystaldream Lighthouse (Keeper's House)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 22
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8eea5ef8b0460f01566e
+      kontekst: textscripts.lighthouse_chesstable:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A dusty chess set.
+      pl: Zakurzony zestaw szachowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b208e3a175922ffe2408
+      kontekst: textscripts.lighthouse_chesstable:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about it
+      pl: Zapytaj o to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id003 []
+  - etykieta: f
+    wpisy:
+    - id: sol_c82c56933e601707eb99
+      kontekst: textscripts.lighthouse_chesstable:line:9
+      linia: 9
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You probably ought to introduce youself before you start poking at his stuff.
+      pl: Powinieneś się najpierw przedstawić, zanim zaczniesz grzebać w jego rzeczach.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id004 []
+  - etykieta: already
+    wpisy:
+    - id: sol_a4fe52ae1defd48fc43f
+      kontekst: textscripts.lighthouse_chesstable:line:12
+      linia: 12
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lighthouse keeper hasn't taken his turn yet.
+      pl: Latarnik jeszcze nie wykonał swojego ruchu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_5a036216cffb8f4d4c1d
+      kontekst: textscripts.lighthouse_chesstable:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This is a nice chess set. Did you whittle the pieces yourself?
+      pl: Ładny zestaw szachowy. Sam wystrugałeś figury?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4a9430fb889a93c2270e
+      kontekst: textscripts.lighthouse_chesstable:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. Took me sixteen years.
+      pl: Ano. Zajęło mi to szesnaście lat.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_3abebf5ad66e29d9735b
+      kontekst: textscripts.lighthouse_chesstable:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It took you six months to carve each piece??
+      pl: Rzeźbienie każdej figury trwało pół roku??
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_5f0fc872621725412c1f
+      kontekst: textscripts.lighthouse_chesstable:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pawns went quicker'n the tall ones, but more or less, ayuh. The horses were particularly tricky. No sense in rushing it.
+      pl: Pionki szły szybciej niż wysokie figury, ale mniej więcej tak. Konie były wyjątkowo trudne. Nie ma sensu się spieszyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d5f0326875a3f13416ae
+      kontekst: textscripts.lighthouse_chesstable:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I guess not.
+      pl: Chyba nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_c802131f7d7a3f23b50b
+      kontekst: textscripts.lighthouse_chesstable:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Want to play a game?
+      pl: Chcesz zagrać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: play
+    wpisy:
+    - id: sol_9216afd14569df6d2554
+      kontekst: textscripts.lighthouse_chesstable:line:30
+      linia: 30
+      sekcja_skryptu: play
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Can't, already got a game in progress.
+      pl: Nie mogę, partia już trwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_9bc6b56ad816c524a9c0
+      kontekst: textscripts.lighthouse_chesstable:line:31
+      linia: 31
+      sekcja_skryptu: play
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The only piece that's been moved is a single white pawn.
+      pl: Przesunięto tylko jednego białego pionka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4b1b0fa2e7ab0352db8b
+      kontekst: textscripts.lighthouse_chesstable:line:32
+      linia: 32
+      sekcja_skryptu: play
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. I went first. That was about two years ago.
+      pl: Ano. Ruszałem pierwszy. Jakieś dwa lata temu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_478c14e61dc863d7f1f3
+      kontekst: textscripts.lighthouse_chesstable:line:33
+      linia: 33
+      sekcja_skryptu: play
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Who are you playing with?
+      pl: Z kim grasz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_eaf140c9c3a9475c1b8f
+      kontekst: textscripts.lighthouse_chesstable:line:34
+      linia: 34
+      sekcja_skryptu: play
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nobody.
+      pl: Z nikim.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_a258dab8dcb5c91d7366
+      kontekst: textscripts.lighthouse_chesstable:line:35
+      linia: 35
+      sekcja_skryptu: play
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, good luck.
+      pl: Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_35858b5baa69a500ceca
+      kontekst: textscripts.lighthouse_chesstable:line:36
+      linia: 36
+      sekcja_skryptu: play
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, here -- I'll play you.
+      pl: W takim razie zagram z tobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: play2
+    wpisy:
+    - id: sol_6f866e9609fe590b9bff
+      kontekst: textscripts.lighthouse_chesstable:line:41
+      linia: 41
+      sekcja_skryptu: play2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push one of the black pawns forward.
+      pl: Przesuwasz jeden z czarnych pionków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_12967ce1990a3993a24a
+      kontekst: textscripts.lighthouse_chesstable:line:42
+      linia: 42
+      sekcja_skryptu: play2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm. Interestin'.
+      pl: Hm. Ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_1fee191858a8a537df45
+      kontekst: textscripts.lighthouse_chesstable:line:47
+      linia: 47
+      sekcja_skryptu: play2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...It''s your turn.'
+      pl: '...Twój ruch.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_2a6148ba571158a29c1c
+      kontekst: textscripts.lighthouse_chesstable:line:48
+      linia: 48
+      sekcja_skryptu: play2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't rush me, I wanna consider all the possibilities. Come back in three or four months.
+      pl: Nie poganiaj mnie, muszę rozważyć wszystkie możliwości. Wróć za trzy albo cztery miesiące.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_cada61e1e4ae072437a6
+      kontekst: textscripts.lighthouse_chesstable:line:50
+      linia: 50
+      sekcja_skryptu: play2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Right.'
+      pl: '...Racja.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2431
+  skrypt: lighthouse_doorup
+  pomieszczenie:
+    id: lighthouse_house
+    nazwa_en: Crystaldream Lighthouse (Keeper's House)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: f
+    wpisy:
+    - id: sol_4ff36872c9394b79f82e
+      kontekst: textscripts.lighthouse_doorup:line:12
+      linia: 12
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have a hard time understanding what you're seeing when you look through the window in the door. An aquarium, maybe?
+      pl: Trudno zrozumieć widok przez okno w drzwiach. Może akwarium?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: draining
+    wpisy:
+    - id: sol_a9d0d491e298136ae70a
+      kontekst: textscripts.lighthouse_doorup:line:15
+      linia: 15
+      sekcja_skryptu: draining
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Through the window you can see the water level in the lighthouse rapidly receding.
+      pl: Przez okno widać, jak poziom wody w latarni szybko opada.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: sol_bb7c1156e1a295b799e2
+      kontekst: textscripts.lighthouse_doorup:line:18
+      linia: 18
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Through the window you can see that the lighthouse tower is entirely filled with water.
+      pl: Przez okno widać, że wieża latarni jest całkowicie wypełniona wodą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53802bd93f5a669777ee
+      kontekst: textscripts.lighthouse_doorup:line:19
+      linia: 19
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lighthouse keeper has put a little cork in the keyhole.
+      pl: Latarnik umieścił w dziurce od klucza mały korek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2436
+  skrypt: lighthouse_keeper_stage1
+  pomieszczenie:
+    id: lighthouse_house
+    nazwa_en: Crystaldream Lighthouse (Keeper's House)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 58
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.lighthouse_keeper_stage1:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+  - etykieta: convostart
+    wpisy:
+    - id: sol_8fe2774252dc9e264e46
+      kontekst: textscripts.lighthouse_keeper_stage1:line:15
+      linia: 15
+      sekcja_skryptu: convostart
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi.
+      pl: Cześć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5fea3a77f6a02fb324f8
+      kontekst: textscripts.lighthouse_keeper_stage1:line:17
+      linia: 17
+      sekcja_skryptu: convostart
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: H'lo again.
+      pl: Znów cześć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_b56be28cfe7a6eff155c
+      kontekst: textscripts.lighthouse_keeper_stage1:line:23
+      linia: 23
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Excuse me, are you the lighthouse keeper?
+      pl: Przepraszam, jesteś latarnikiem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5bc56a686fee21bda9cf
+      kontekst: textscripts.lighthouse_keeper_stage1:line:26
+      linia: 26
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sorry to bother you, my name's @firstname@ @lastname@.
+      pl: Wybacz, że przeszkadzam. Nazywam się @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7a5b1f62991ded5d91fa
+      kontekst: textscripts.lighthouse_keeper_stage1:line:27
+      linia: 27
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I uh... er... <i>ahem</i>
+      pl: Ja, eee... yyy... <i>ekhm</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dfb5a40931500904471b
+      kontekst: textscripts.lighthouse_keeper_stage1:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Red leather, yellow leather. Red leather, yellow leather.
+      pl: Król Karol kupił królowej Karolinie korale koloru koralowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_121a7c900b586b606981
+      kontekst: textscripts.lighthouse_keeper_stage1:line:29
+      linia: 29
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Are you okay?'
+      pl: '...Wszystko w porządku?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intwo
+    wpisy:
+    - id: sol_b119873c2b26b98be9ae
+      kontekst: textscripts.lighthouse_keeper_stage1:line:34
+      linia: 34
+      sekcja_skryptu: intwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. I just... ain't talked out loud in a while. I get rusty.
+      pl: Ano. Po prostu... dawno nie mówiłem na głos. Wychodzę z wprawy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_12cd8c79d8969b9b8e31
+      kontekst: textscripts.lighthouse_keeper_stage1:line:35
+      linia: 35
+      sekcja_skryptu: intwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I see. Lighthouse keeping's a lonely job, huh?
+      pl: Rozumiem. Praca latarnika jest samotna, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_785e5ceb2b6e53348238
+      kontekst: textscripts.lighthouse_keeper_stage1:line:36
+      linia: 36
+      sekcja_skryptu: intwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, it's solitary, that's for sure. I ain't mind it, though. Ain't 'zactly a "people person."
+      pl: Na pewno odludna. Ale nie przeszkadza mi to. Nie jestem szczególnie »towarzyski«.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0514898223f8dfa424d2
+      kontekst: textscripts.lighthouse_keeper_stage1:line:37
+      linia: 37
+      sekcja_skryptu: intwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What can I do fer ya?
+      pl: Co mogę dla ciebie zrobić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: keeping
+    wpisy:
+    - id: sol_d18d34e2406925d8686b
+      kontekst: textscripts.lighthouse_keeper_stage1:line:55
+      linia: 55
+      sekcja_skryptu: keeping
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, used to be I had to light the lamp every sundown, and then douse it again at sunrise, to save on fuel.
+      pl: Dawniej musiałem zapalać lampę o zachodzie i gasić o wschodzie, żeby oszczędzać paliwo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ce80674e3bded1653023
+      kontekst: textscripts.lighthouse_keeper_stage1:line:56
+      linia: 56
+      sekcja_skryptu: keeping
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Used to be?
+      pl: Dawniej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b36f41ec2e2fc4a59d36
+      kontekst: textscripts.lighthouse_keeper_stage1:line:57
+      linia: 57
+      sekcja_skryptu: keeping
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: When it was an oil lamp. We got a hookup to the electrical grid a couple'a years ago though, so now I just leave it on all the time.
+        'Bout all I have to do now is change the bulb once in a while.
+      pl: Kiedy była olejowa. Parę lat temu podłączyli nas do sieci elektrycznej, więc teraz zostawiam ją włączoną cały czas. Muszę tylko od czasu
+        do czasu zmienić żarówkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_910f14ab40c38ecb53e4
+      kontekst: textscripts.lighthouse_keeper_stage1:line:58
+      linia: 58
+      sekcja_skryptu: keeping
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It sounds very peaceful.
+      pl: Brzmi bardzo spokojnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ddee75d32617e438460
+      kontekst: textscripts.lighthouse_keeper_stage1:line:59
+      linia: 59
+      sekcja_skryptu: keeping
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It sounds very boring.
+      pl: Brzmi bardzo nudno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: peaceful
+    wpisy:
+    - id: sol_316487447e54640d53e7
+      kontekst: textscripts.lighthouse_keeper_stage1:line:64
+      linia: 64
+      sekcja_skryptu: peaceful
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh, that it is. Nice and quiet, and plenty a' time on my hands.
+      pl: Ano, jest. Miło, cicho i mnóstwo czasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c6b857aa22f5e462813b
+      kontekst: textscripts.lighthouse_keeper_stage1:line:65
+      linia: 65
+      sekcja_skryptu: peaceful
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You must have a bunch of hobbies.
+      pl: Musisz mieć sporo hobby.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: boring
+    wpisy:
+    - id: sol_49521c9891f521369c0a
+      kontekst: textscripts.lighthouse_keeper_stage1:line:71
+      linia: 71
+      sekcja_skryptu: boring
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah, I never get bored. Always plenty to do.
+      pl: Nie, nigdy się nie nudzę. Zawsze jest co robić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c6b857aa22f5e462813b
+      kontekst: textscripts.lighthouse_keeper_stage1:line:72
+      linia: 72
+      sekcja_skryptu: boring
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You must have a bunch of hobbies.
+      pl: Musisz mieć sporo hobby.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: hobbies
+    wpisy:
+    - id: sol_0030d115e45e89aad43a
+      kontekst: textscripts.lighthouse_keeper_stage1:line:78
+      linia: 78
+      sekcja_skryptu: hobbies
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. Got a book. An' a whittlin' knife. An' plenty a' middle distance to stare into.
+      pl: Ano. Mam książkę. I nóż do strugania. I mnóstwo półdali, w którą można się wpatrywać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ee8873523e25da8a5d34
+      kontekst: textscripts.lighthouse_keeper_stage1:line:79
+      linia: 79
+      sekcja_skryptu: hobbies
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How'd you get into this line of work?
+      pl: Jak trafiłeś do tej pracy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8e1025840f073223ead9
+      kontekst: textscripts.lighthouse_keeper_stage1:line:80
+      linia: 80
+      sekcja_skryptu: hobbies
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well anyway, I have a more important question.
+      pl: Tak czy inaczej mam ważniejsze pytanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: family
+    wpisy:
+    - id: sol_e77703f95b1862dca38c
+      kontekst: textscripts.lighthouse_keeper_stage1:line:85
+      linia: 85
+      sekcja_skryptu: family
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, my family's always been lighthouse keepers. On both sides -- ma and pa kept lighthouses within sight of each other. Used to wink
+        the lights back an' forth, once in a while.
+      pl: Moja rodzina od zawsze zajmowała się latarniami. Z obu stron — mama i tata pilnowali latarni stojących w zasięgu wzroku. Czasami mrugali
+        do siebie światłami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6e7420b31eaed7e1734d
+      kontekst: textscripts.lighthouse_keeper_stage1:line:86
+      linia: 86
+      sekcja_skryptu: family
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aw, that's kind of romantic.
+      pl: Och, to dość romantyczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d0d036653c18458e22bc
+      kontekst: textscripts.lighthouse_keeper_stage1:line:87
+      linia: 87
+      sekcja_skryptu: family
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You know, I never did find out how I was actually born.
+      pl: Wiesz, nigdy nie udało mi się dowiedzieć, jak właściwie się urodziłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a1fdd1ed5e49d8a709e
+      kontekst: textscripts.lighthouse_keeper_stage1:line:88
+      linia: 88
+      sekcja_skryptu: family
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What?
+      pl: Co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_293b968e8f53f5d1f6ab
+      kontekst: textscripts.lighthouse_keeper_stage1:line:89
+      linia: 89
+      sekcja_skryptu: family
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway, was there somethin' ya needed?
+      pl: Tak czy inaczej, czegoś potrzebujesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prehub
+    wpisy:
+    - id: sol_ba7c60b2d24ef280a857
+      kontekst: textscripts.lighthouse_keeper_stage1:line:95
+      linia: 95
+      sekcja_skryptu: prehub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure. What do ya need?
+      pl: Pewnie. Czego potrzebujesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askaboutcompass
+    wpisy:
+    - id: sol_b2576977094bcab8e3b3
+      kontekst: textscripts.lighthouse_keeper_stage1:line:102
+      linia: 102
+      sekcja_skryptu: askaboutcompass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The directions kind, or the circles kind?
+      pl: Taką z kierunkami czy taką z kręgami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_612fcfb3c9d95be1cbfe
+      kontekst: textscripts.lighthouse_keeper_stage1:line:103
+      linia: 103
+      sekcja_skryptu: askaboutcompass
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Directions.
+      pl: Z kierunkami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f0f8c158c2f053b8338f
+      kontekst: textscripts.lighthouse_keeper_stage1:line:104
+      linia: 104
+      sekcja_skryptu: askaboutcompass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. Got an old one I picked up at an estate sale about... oh, twenty-odd years ago, I reckon. I'd show it to ya, but it's upstairs
+        and the lighthouse is flooded.
+      pl: Ano. Mam stary egzemplarz kupiony na wyprzedaży majątku jakieś... dwadzieścia parę lat temu. Pokazałbym, ale jest na górze, a latarnia
+        została zalana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_47152c726feb08e8c962
+      kontekst: textscripts.lighthouse_keeper_stage1:line:105
+      linia: 105
+      sekcja_skryptu: askaboutcompass
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Flooded?
+      pl: Zalana?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aa06c7345f9b97522b9a
+      kontekst: textscripts.lighthouse_keeper_stage1:line:106
+      linia: 106
+      sekcja_skryptu: askaboutcompass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. Filled right up to the top. Have a look through the window there an' ya might see a fish pass by.
+      pl: Ano. Po sam dach. Popatrz przez tamto okno, może zobaczysz przepływającą rybę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eb498839f42dfb68d515
+      kontekst: textscripts.lighthouse_keeper_stage1:line:107
+      linia: 107
+      sekcja_skryptu: askaboutcompass
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How did that even happen?
+      pl: Jak to się w ogóle stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: asktwo
+    wpisy:
+    - id: sol_60ee182e76eaeceb51f5
+      kontekst: textscripts.lighthouse_keeper_stage1:line:112
+      linia: 112
+      sekcja_skryptu: asktwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pump broke.
+      pl: Pompa się zepsuła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bdd4b2f349a6809151f9
+      kontekst: textscripts.lighthouse_keeper_stage1:line:113
+      linia: 113
+      sekcja_skryptu: asktwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No I mean, how does a lighthouse just fill up with water? We aren't even below sea level here.
+      pl: Nie, chodzi mi o to, jak latarnia może się po prostu wypełnić wodą. Nie jesteśmy nawet poniżej poziomu morza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2813c4e6add872d8840a
+      kontekst: textscripts.lighthouse_keeper_stage1:line:114
+      linia: 114
+      sekcja_skryptu: asktwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Somethin' to do with the tides, I reckon.
+      pl: Pewnie coś z pływami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_25f56900d83ca57c2e47
+      kontekst: textscripts.lighthouse_keeper_stage1:line:115
+      linia: 115
+      sekcja_skryptu: asktwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This is a <i>lake.</i>
+      pl: To jest <i>jezioro</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6493451380fc10d9ca20
+      kontekst: textscripts.lighthouse_keeper_stage1:line:116
+      linia: 116
+      sekcja_skryptu: asktwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyhow, I need a Glaxton valve to fix the pump. There's a hardware store down the road apiece, if you've a mind to help out.
+      pl: Tak czy inaczej do naprawy pompy potrzebuję zaworu Glaxtona. Kawałek dalej jest sklep z narzędziami, jeśli zechcesz pomóc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b55230e09884bc059816
+      kontekst: textscripts.lighthouse_keeper_stage1:line:119
+      linia: 119
+      sekcja_skryptu: asktwo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askvalve
+    wpisy:
+    - id: sol_c7f1e2e37c4a94cdc36b
+      kontekst: textscripts.lighthouse_keeper_stage1:line:125
+      linia: 125
+      sekcja_skryptu: askvalve
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A Glaxton valve.
+      pl: Zaworu Glaxtona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8110fdfc3494e8a9b3a7
+      kontekst: textscripts.lighthouse_keeper_stage1:line:126
+      linia: 126
+      sekcja_skryptu: askvalve
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Will any other kind work?
+      pl: Inny rodzaj nie zadziała?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_603b7785e1becc66704d
+      kontekst: textscripts.lighthouse_keeper_stage1:line:127
+      linia: 127
+      sekcja_skryptu: askvalve
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope. It's a Glaxton pump, needs a Glaxton valve.
+      pl: Nie. To pompa Glaxtona, potrzebuje zaworu Glaxtona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6690acc56a141872e2d1
+      kontekst: textscripts.lighthouse_keeper_stage1:line:128
+      linia: 128
+      sekcja_skryptu: askvalve
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wait, is that a style of valve, or a brand name?
+      pl: Chwila, to typ zaworu czy marka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a0b9bd379cd40aeb645
+      kontekst: textscripts.lighthouse_keeper_stage1:line:129
+      linia: 129
+      sekcja_skryptu: askvalve
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Both.
+      pl: Jedno i drugie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_998859cc37518b99d769
+      kontekst: textscripts.lighthouse_keeper_stage1:line:130
+      linia: 130
+      sekcja_skryptu: askvalve
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ugh. Proprietary hardware is the worst.
+      pl: Uch. Firmowe części na wyłączność są najgorsze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f0266cd2084e41395513
+      kontekst: textscripts.lighthouse_keeper_stage1:line:131
+      linia: 131
+      sekcja_skryptu: askvalve
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh.
+      pl: Ano.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.lighthouse_keeper_stage1:line:132
+      linia: 132
+      sekcja_skryptu: askvalve
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+  - etykieta: gotvalve
+    wpisy:
+    - id: sol_4ab78d745f381812abe2
+      kontekst: textscripts.lighthouse_keeper_stage1:line:139
+      linia: 139
+      sekcja_skryptu: gotvalve
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you install it?
+      pl: Zamontowałeś go?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2d25aeea5248ef3e1aa0
+      kontekst: textscripts.lighthouse_keeper_stage1:line:140
+      linia: 140
+      sekcja_skryptu: gotvalve
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I have it right here.
+      pl: Nie, mam go tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7178b08a80df90db6437
+      kontekst: textscripts.lighthouse_keeper_stage1:line:141
+      linia: 141
+      sekcja_skryptu: gotvalve
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Won't do us much good in yer hands like that. Go hook it up to the pump outside.
+      pl: W twoich rękach na niewiele nam się zda. Idź podłączyć go do pompy na zewnątrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_56f04d55326b3a591d8f
+      kontekst: textscripts.lighthouse_keeper_stage1:line:142
+      linia: 142
+      sekcja_skryptu: gotvalve
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, fine.
+      pl: Dobrze, dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: donevalve
+    wpisy:
+    - id: sol_993a2b4ae0ae4a0478df
+      kontekst: textscripts.lighthouse_keeper_stage1:line:149
+      linia: 149
+      sekcja_skryptu: donevalve
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. I been watchin' the water level through the window here. Should be dry enough for our purposes now.
+      pl: Ano. Obserwuję poziom wody przez okno. Powinno już być dość sucho na nasze potrzeby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_96628f2a5fcfa493b3d2
+      kontekst: textscripts.lighthouse_keeper_stage1:line:150
+      linia: 150
+      sekcja_skryptu: donevalve
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: C'mon upstairs.
+      pl: Chodź na górę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0f950fa21f544b03367b
+      kontekst: textscripts.lighthouse_keeper_stage1:line:151
+      linia: 151
+      sekcja_skryptu: donevalve
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He disappears through the door behind him.
+      pl: Znika za drzwiami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bb4f7e58a3bca7b3d028
+      kontekst: textscripts.lighthouse_keeper_stage1:line:153
+      linia: 153
+      sekcja_skryptu: donevalve
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Follow him
+      pl: Idź za nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2438
+  skrypt: lighthouse_oven
+  pomieszczenie:
+    id: lighthouse_house
+    nazwa_en: Crystaldream Lighthouse (Keeper's House)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: f
+    wpisy:
+    - id: sol_1a6aed1eeafc566c4623
+      kontekst: textscripts.lighthouse_oven:line:7
+      linia: 7
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You probably ought to introduce yourself before you start poking at his stuff.
+      pl: Powinieneś się najpierw przedstawić, zanim zaczniesz grzebać w jego rzeczach.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 2442
+  skrypt: lighthouse_table
+  pomieszczenie:
+    id: lighthouse_house
+    nazwa_en: Crystaldream Lighthouse (Keeper's House)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fc832a9c707f39dff685
+      kontekst: textscripts.lighthouse_table:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A single book sits on the table.
+      pl: Na stole leży jedna książka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b208e3a175922ffe2408
+      kontekst: textscripts.lighthouse_table:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about it
+      pl: Zapytaj o to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: f
+    wpisy:
+    - id: sol_1a6aed1eeafc566c4623
+      kontekst: textscripts.lighthouse_table:line:8
+      linia: 8
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You probably ought to introduce yourself before you start poking at his stuff.
+      pl: Powinieneś się najpierw przedstawić, zanim zaczniesz grzebać w jego rzeczach.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: convo
+    wpisy:
+    - id: sol_db17f2b7fa54f935fb7e
+      kontekst: textscripts.lighthouse_table:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '"War and Peace", huh? That''s a hefty one.'
+      pl: »Wojna i pokój«, co? Pokaźna cegła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87265f3d665c58a08769
+      kontekst: textscripts.lighthouse_table:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mind the bookmark, now.
+      pl: Uważaj na zakładkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1baae99bd8d70d7c0f0a
+      kontekst: textscripts.lighthouse_table:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Of course. ...Oh, looks like you just started.
+      pl: Oczywiście. ...Och, wygląda, jakby lektura dopiero się zaczęła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3f47b1f9aabfb3bd8538
+      kontekst: textscripts.lighthouse_table:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Been readin' it 'bout five an' a half years.
+      pl: Czytam od jakichś pięciu i pół roku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d0fe880bc678fcc3a48f
+      kontekst: textscripts.lighthouse_table:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Your bookmark is still in Chapter One.
+      pl: Zakładka nadal tkwi w pierwszym rozdziale.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9592857aa052ec191903
+      kontekst: textscripts.lighthouse_table:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I just about got up to the last sentence of it. I been readin' one word every day.
+      pl: Prawie udało mi się dojść do ostatniego zdania. Czytam jedno słowo dziennie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1e970bc25f810f4b3fc
+      kontekst: textscripts.lighthouse_table:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '"War and Peace" is almost six hundred thousand words long.'
+      pl: »Wojna i pokój« ma prawie sześćset tysięcy słów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_58bfc7a2f71cfa6b1704
+      kontekst: textscripts.lighthouse_table:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayuh. Don't tell me how it ends.
+      pl: Ano. Nie zdradzaj zakończenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6d1dd18e68c7b67cf5c5
+      kontekst: textscripts.lighthouse_table:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...I won''t.'
+      pl: '...Nie zdradzę.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2443
+  skrypt: lighthouse_vanity
+  pomieszczenie:
+    id: lighthouse_house
+    nazwa_en: Crystaldream Lighthouse (Keeper's House)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_926603f3f84e43a0c333
+      kontekst: textscripts.lighthouse_vanity:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A simple vanity for a simple man.
+      pl: Prosta toaletka dla prostego człowieka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e2a79b5530e9bbf48e02
+      kontekst: textscripts.lighthouse_vanity:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check the mirror
+      pl: Sprawdź lustro
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: f
+    wpisy:
+    - id: sol_c82c56933e601707eb99
+      kontekst: textscripts.lighthouse_vanity:line:11
+      linia: 11
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You probably ought to introduce youself before you start poking at his stuff.
+      pl: Powinieneś się najpierw przedstawić, zanim zaczniesz grzebać w jego rzeczach.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+- kolejnosc_w_danych_gry: 5212
+  skrypt: autoscript__lighthouse_top__books__popup
+  pomieszczenie:
+    id: lighthouse_top
+    nazwa_en: Crystaldream Lighthouse (Tippy Top)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8827f73ce30993d7ed9a
+      kontekst: textscripts.autoscript__lighthouse_top__books__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An empty (and wet) bookshelf. Good thing he had his book downstairs.
+      pl: Pusty (i mokry) regał. Dobrze, że trzymał książkę na dole.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5213
+  skrypt: autoscript__lighthouse_top__lamp__popup
+  pomieszczenie:
+    id: lighthouse_top
+    nazwa_en: Crystaldream Lighthouse (Tippy Top)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3007e6b6988d0a4883cc
+      kontekst: textscripts.autoscript__lighthouse_top__lamp__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. Most lighthouses have a somewhat bigger lamp.
+      pl: Hmm. Większość latarni morskich ma nieco większą lampę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2429
+  skrypt: lighthouse_bulbs
+  pomieszczenie:
+    id: lighthouse_top
+    nazwa_en: Crystaldream Lighthouse (Tippy Top)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9843316fe0b91803ee8b
+      kontekst: textscripts.lighthouse_bulbs:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A box of spare 60-watt light bulbs.
+      pl: Pudełko zapasowych żarówek 60-watowych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5b9038e276912a440279
+      kontekst: textscripts.lighthouse_bulbs:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about them
+      pl: Zapytaj o nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ask
+    wpisy:
+    - id: sol_1be71168efbca9785e34
+      kontekst: textscripts.lighthouse_bulbs:line:12
+      linia: 12
+      sekcja_skryptu: ask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You only use 60-watt lightbulbs?
+      pl: Używasz tylko żarówek 60-watowych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bab05575c316106228a3
+      kontekst: textscripts.lighthouse_bulbs:line:14
+      linia: 14
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't need much. Ain't that big a lake.
+      pl: Więcej nie trzeba. Jezioro nie jest takie wielkie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6e16434baed25a7a1102
+      kontekst: textscripts.lighthouse_bulbs:line:15
+      linia: 15
+      sekcja_skryptu: ask
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2437
+  skrypt: lighthouse_keeper_stage2
+  pomieszczenie:
+    id: lighthouse_top
+    nazwa_en: Crystaldream Lighthouse (Tippy Top)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 34
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f5e7ab06662b9138c930
+      kontekst: textscripts.lighthouse_keeper_stage2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lighthouse keeper.
+      pl: Latarnik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.lighthouse_keeper_stage2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: finished
+    wpisy:
+    - id: sol_37d4bdd47fff3d675505
+      kontekst: textscripts.lighthouse_keeper_stage2:line:12
+      linia: 12
+      sekcja_skryptu: finished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He gives you a polite nod, but doesn't seem to have anything else to say.
+      pl: Uprzejmie kiwa głową, ale najwyraźniej nie ma nic więcej do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convostart
+    wpisy:
+    - id: sol_da86361a7c580bc3b0a1
+      kontekst: textscripts.lighthouse_keeper_stage2:line:21
+      linia: 21
+      sekcja_skryptu: convostart
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, here we are. Welcome to where the magic happens.
+      pl: No, jesteśmy. Witaj w miejscu, gdzie dzieje się magia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_56da150139afc5b9cad9
+      kontekst: textscripts.lighthouse_keeper_stage2:line:23
+      linia: 23
+      sekcja_skryptu: convostart
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Magic?
+      pl: Magia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_24313226b6e2b0423be4
+      kontekst: textscripts.lighthouse_keeper_stage2:line:24
+      linia: 24
+      sekcja_skryptu: convostart
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure. <i>Fiat lux!</i> Heh... old lighthouse keeper joke.
+      pl: Oczywiście. <i>Fiat lux!</i> He, he... stary dowcip latarników.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convohub
+    wpisy:
+    - id: sol_66f2cd816556fcf3d13f
+      kontekst: textscripts.lighthouse_keeper_stage2:line:30
+      linia: 30
+      sekcja_skryptu: convohub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him be
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askcompass
+    wpisy:
+    - id: sol_caa69c60bf42cbf0dfb3
+      kontekst: textscripts.lighthouse_keeper_stage2:line:36
+      linia: 36
+      sekcja_skryptu: askcompass
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: What? No, certainly not. I need that.
+      pl: Co? Nie, oczywiście, że nie. Potrzebuję go.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e1ad46b86ebc75ef0a57
+      kontekst: textscripts.lighthouse_keeper_stage2:line:37
+      linia: 37
+      sekcja_skryptu: askcompass
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: But...
+      pl: Ale...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_400ec4860dc034ca97a4
+      kontekst: textscripts.lighthouse_keeper_stage2:line:38
+      linia: 38
+      sekcja_skryptu: askcompass
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You asked if I had an old compass, an' I said I did an' that I'd show it to you. Never said nothin' about <i>giving</i> it to you.
+      pl: Pytałeś, czy mam stary kompas, a ja powiedziałem, że tak i że ci go pokażę. Nie mówiłem nic o <i>oddawaniu</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3b17a4766e07e3860b29
+      kontekst: textscripts.lighthouse_keeper_stage2:line:39
+      linia: 39
+      sekcja_skryptu: askcompass
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh. Well, I really need it...
+      pl: Aha. Ale naprawdę go potrzebuję...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_658d67f0e009ec7675c4
+      kontekst: textscripts.lighthouse_keeper_stage2:line:40
+      linia: 40
+      sekcja_skryptu: askcompass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So do I. I gotta calibrate this lamp to the north star every so often, and I need a good compass to show me which one is the north one.
+      pl: Ja też. Co jakiś czas muszę kalibrować lampę według Gwiazdy Polarnej, a dobry kompas pokazuje, która z nich jest północna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cd25ca90c017b6beae69
+      kontekst: textscripts.lighthouse_keeper_stage2:line:41
+      linia: 41
+      sekcja_skryptu: askcompass
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What if I get you a new one?
+      pl: A jeśli zdobędę nowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: asktwo
+    wpisy:
+    - id: sol_43061fdf23436d7acffb
+      kontekst: textscripts.lighthouse_keeper_stage2:line:46
+      linia: 46
+      sekcja_skryptu: asktwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope, I said a <i>good</i> one. The new ones ain't any use at all.
+      pl: Nie. Mówię o <i>dobrym</i>. Nowe są zupełnie bezużyteczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4c1aee3a9bb2bd1eab04
+      kontekst: textscripts.lighthouse_keeper_stage2:line:47
+      linia: 47
+      sekcja_skryptu: asktwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Why not?
+      pl: Dlaczego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fa63fc8f3ef37d259a0a
+      kontekst: textscripts.lighthouse_keeper_stage2:line:48
+      linia: 48
+      sekcja_skryptu: asktwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '''Coz of how they changed ''em.'
+      pl: Bo je zmienili.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e31b7992ecf73e1f6e1c
+      kontekst: textscripts.lighthouse_keeper_stage2:line:49
+      linia: 49
+      sekcja_skryptu: asktwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What? Changed the compasses?
+      pl: Co? Zmienili kompasy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41cda845cff376953ced
+      kontekst: textscripts.lighthouse_keeper_stage2:line:50
+      linia: 50
+      sekcja_skryptu: asktwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They didn't teach you that in school? Folks got short memories, it was only 'round about the turn of the century. Some atlas company
+        bought the patent on west an' rebranded it as New North. Then they did a recall on all the compasses and issued new ones. They all point
+        <i>west</i> now, an' that's useless for my purposes.
+      pl: Nie uczono tego w szkole? Ludzie mają krótką pamięć, to było dopiero na przełomie wieków. Jakaś firma produkująca atlasy kupiła patent na zachód i przemianowała go na Nową Północ. Potem wydawnictwo wycofało wszystkie kompasy i wydali nowe. Wszystkie wskazują teraz <i>zachód</i>, a do moich celów to bezużyteczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_849a567bc7c21e999e21
+      kontekst: textscripts.lighthouse_keeper_stage2:line:51
+      linia: 51
+      sekcja_skryptu: asktwo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay...
+      pl: Dobrze...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askthree
+    wpisy:
+    - id: sol_afe8d1776b260dd8bd99
+      kontekst: textscripts.lighthouse_keeper_stage2:line:55
+      linia: 55
+      sekcja_skryptu: askthree
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay... well, how about I find you another old one then?
+      pl: Dobrze... a jeśli znajdę ci inny stary kompas?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_08c0c5dea7cf1fecba56
+      kontekst: textscripts.lighthouse_keeper_stage2:line:56
+      linia: 56
+      sekcja_skryptu: askthree
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If you can find another pre-New North compass in at least as good a condition as mine, then sure, I'll swap you. Don't really get what
+        the point of that would be though, since you'd already have one.
+      pl: Jeśli znajdziesz kompas sprzed Nowej Północy w stanie nie gorszym niż mój, możemy się zamienić. Nie bardzo widzę w tym sens, bo wtedy
+        już będziesz mieć jeden.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4f0ffadf87330ba550c4
+      kontekst: textscripts.lighthouse_keeper_stage2:line:57
+      linia: 57
+      sekcja_skryptu: askthree
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, it's a long story.
+      pl: To długa historia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8582c30200e33d4f63a5
+      kontekst: textscripts.lighthouse_keeper_stage2:line:58
+      linia: 58
+      sekcja_skryptu: askthree
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Never mind, then.
+      pl: W takim razie nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f0c6300da0eacdba05c3
+      kontekst: textscripts.lighthouse_keeper_stage2:line:59
+      linia: 59
+      sekcja_skryptu: askthree
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, maybe this'll help you -- most've the old compasses got radium paint on the dials so you can read 'em at night. This ol' geiger
+        counter oughta be able to pick up the radiation from that.
+      pl: Może to pomoże — większość starych kompasów miała na tarczach farbę radową, żeby można je było odczytać nocą. Ten stary licznik Geigera
+        powinien wychwycić promieniowanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8e41b25a704f4bbda07f
+      kontekst: textscripts.lighthouse_keeper_stage2:line:61
+      linia: 61
+      sekcja_skryptu: askthree
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Where should I start?
+      pl: Od czego zacząć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askfour
+    wpisy:
+    - id: sol_8ea1b6c345d39fb06ec1
+      kontekst: textscripts.lighthouse_keeper_stage2:line:65
+      linia: 65
+      sekcja_skryptu: askfour
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, most folks consider the old kind of compass to be trash nowadays, and if I was trash, I'd probably be at the old junkyard.
+      pl: Większość ludzi uważa dziś stare kompasy za śmieci, a gdybym był śmieciem, pewnie trafiłbym na stare wysypisko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d393ab62c3e379ca5b24
+      kontekst: textscripts.lighthouse_keeper_stage2:line:67
+      linia: 67
+      sekcja_skryptu: askfour
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Neat, thanks.
+      pl: Świetnie, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: compassyet
+    wpisy:
+    - id: sol_6e975fd8ff1e0efce53d
+      kontekst: textscripts.lighthouse_keeper_stage2:line:72
+      linia: 72
+      sekcja_skryptu: compassyet
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: H'lo again. You find that old compass you were lookin' for?
+      pl: Znów cześć. Udało ci się znaleźć ten stary kompas?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ccd6f2e967170def02f4
+      kontekst: textscripts.lighthouse_keeper_stage2:line:74
+      linia: 74
+      sekcja_skryptu: compassyet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope, I'm still looking.
+      pl: Nie, nadal szukam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givecompass
+    wpisy:
+    - id: sol_74185aee7e6bfe961288
+      kontekst: textscripts.lighthouse_keeper_stage2:line:80
+      linia: 80
+      sekcja_skryptu: givecompass
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I sure did! Here, what do you think?
+      pl: Pewnie! Proszę, co myślisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_550db2ed5aa8f26c0ade
+      kontekst: textscripts.lighthouse_keeper_stage2:line:81
+      linia: 81
+      sekcja_skryptu: givecompass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm. Could use a polish, but it seems to be in good condition. All right, I'll swap you. Lemme get that ol' geiger counter back from
+        ya, too.
+      pl: Hm. Przydałoby się polerowanie, ale wygląda na dobry stan. Zgoda, zamienimy się. Oddaj też ten stary licznik Geigera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6aa1af7720e919c2e131
+      kontekst: textscripts.lighthouse_keeper_stage2:line:85
+      linia: 85
+      sekcja_skryptu: givecompass
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b99e5feacc3b2b0fa342
+      kontekst: textscripts.lighthouse_keeper_stage2:line:86
+      linia: 86
+      sekcja_skryptu: givecompass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayup, no problem. Get along now, I got a lotta important nothin' to take care of.
+      pl: Ano, bez problemu. Ruszaj już, mam mnóstwo ważnego nicnierobienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.lighthouse_keeper_stage2:line:87
+      linia: 87
+      sekcja_skryptu: givecompass
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006

@@ -1,0 +1,1031 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: faerielair
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 11
+liczba_wpisow: 57
+sceny:
+- kolejnosc_w_danych_gry: 1367
+  skrypt: faerielair_exitpopup
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_983311445e78002d8f5d
+      kontekst: textscripts.faerielair_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Get the heck away from this awful place?
+      pl: Wydostać się z tego okropnego miejsca?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_108fe3305b3cd848090d
+      kontekst: textscripts.faerielair_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, please
+      pl: Tak, poproszę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1368
+  skrypt: faerielair_fetish
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_67a2321f93a258fedc6d
+      kontekst: textscripts.faerielair_fetish:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, this thing is horrible.  Must be meant to scare humans away.
+      pl: O rety, to coś jest potworne. Pewnie ma odstraszać ludzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fe1c8893408c00385f5f
+      kontekst: textscripts.faerielair_fetish:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it back to your room!
+      pl: Zabierz ją do swojego pokoju!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: check
+    wpisy:
+    - id: sol_962645f85a7763471653
+      kontekst: textscripts.faerielair_fetish:line:9
+      linia: 9
+      sekcja_skryptu: check
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wait, seriously?  You want to take this obviously evil, obviously extremely ugly statue back to your room.
+      pl: Chwila, poważnie? Chcesz zabrać tę ewidentnie złą i ewidentnie potwornie brzydką rzeźbę do swojego pokoju?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53ff80353248f4e9a8d6
+      kontekst: textscripts.faerielair_fetish:line:10
+      linia: 10
+      sekcja_skryptu: check
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The room where you sleep.
+      pl: Pokój, w którym śpisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.faerielair_fetish:line:11
+      linia: 11
+      sekcja_skryptu: check
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0f18cd821f681c380f8a
+      kontekst: textscripts.faerielair_fetish:line:12
+      linia: 12
+      sekcja_skryptu: check
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, no
+      pl: Dobrze, nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: sol_78d3f932ef2b4f60840b
+      kontekst: textscripts.faerielair_fetish:line:16
+      linia: 16
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're not going to be able to drag it out of here with faeries still running loose in the area.
+      pl: Nie uda się stąd tego wyciągnąć, dopóki w okolicy wałęsają się wróżki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ebaf5cfce4980e5c45dd
+      kontekst: textscripts.faerielair_fetish:line:17
+      linia: 17
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ah, good point
+      pl: Słuszna uwaga
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a624c9b16ae6e10a80a
+      kontekst: textscripts.faerielair_fetish:line:20
+      linia: 20
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drag the horrible sculpture to the bus stop.  A bus arrives, but refuses to pick you up.  Because of the horrible sculpture, I mean.
+      pl: 'Ciągniesz potworną rzeźbę na przystanek. Nadjeżdża autobus, ale nie chce cię zabrać. To znaczy: z powodu potwornej rzeźby.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_df441ad8298f97e38200
+      kontekst: textscripts.faerielair_fetish:line:21
+      linia: 21
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You spend the next several hours dragging it back to your room.
+      pl: Przez kilka kolejnych godzin wleczesz ją do swojego pokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e3a8b9fc5d7283d15838
+      kontekst: textscripts.faerielair_fetish:line:22
+      linia: 22
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Huff puff
+      pl: Sap, sap.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1369
+  skrypt: faerielair_fight1
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_823b32c89ec0dae3d712
+      kontekst: textscripts.faerielair_fight1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The faeries put up their tiny dukes as you approach.
+      pl: Na twój widok wróżki unoszą maleńkie piąstki do walki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_09ef6974a59f1f3188c1
+      kontekst: textscripts.faerielair_fight1:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You showed those faeries who's bigger and tougher than a faerie.
+      pl: Pokazałeś tym wróżkom, kto jest od nich większy i twardszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.faerielair_fight1:line:22
+      linia: 22
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id002 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_af5b0626087beec31fd4
+      kontekst: textscripts.faerielair_fight1:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You just got thumped and/or stabbed into a state of unconsciousness.
+      pl: Właśnie obito cię i/lub pobito i/lub podźgano aż do utraty przytomności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_00045965874bab4f3841
+      kontekst: textscripts.faerielair_fight1:line:29
+      linia: 29
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch and/or dangit
+      pl: Auć i/lub kurczę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1370
+  skrypt: faerielair_fight2
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d591a24e6c1dd7a3a946
+      kontekst: textscripts.faerielair_fight2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: More belligerent faeries.  Not more belligerent than usual, just more <i>of</i> them.
+      pl: Kolejne wojownicze wróżki. Nie bardziej wojownicze niż zwykle — jest ich po prostu <i>więcej</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_149b5188c1fbb7a73b4d
+      kontekst: textscripts.faerielair_fight2:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You showed those faeries who's the faerest of them all.
+      pl: Pokazałeś tym wróżkom, kto jest najwróżniejszy z nich wszystkich.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_80b11b68767ae4901279
+      kontekst: textscripts.faerielair_fight2:line:21
+      linia: 21
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It's me, I'm the faerest
+      pl: To ja jestem najwróżniejszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_30b9c87d628d42ad6c90
+      kontekst: textscripts.faerielair_fight2:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You just got beaten up by things that are a quarter your size.
+      pl: Dostajesz lanie od istot cztery razy mniejszych od ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_502f5d7534762054b494
+      kontekst: textscripts.faerielair_fight2:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: There were four of them
+      pl: Były cztery
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1371
+  skrypt: faerielair_fight3
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7293c569440fb28d1dbd
+      kontekst: textscripts.faerielair_fight3:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  There are a <i>lot</i> of faeries guarding that nest.  Must be something good inside!
+      pl: Hm. Tego gniazda pilnuje <i>mnóstwo</i> wróżek. W środku musi być coś dobrego!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id001 []
+  - etykieta: win
+    wpisy:
+    - id: sol_d47ffcb80d29f16ed1b0
+      kontekst: textscripts.faerielair_fight3:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won!  Access to that undoubtedly wonderful nest is now yours!
+      pl: Wygrałeś! Dostęp do niewątpliwie cudownego gniazda należy teraz do ciebie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_83229d49596d5c4d3fb9
+      kontekst: textscripts.faerielair_fight3:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I am vibrating with nest-related excitement
+      pl: Aż drżę z ekscytacji na myśl o gnieździe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_d074206b8fe4286a818c
+      kontekst: textscripts.faerielair_fight3:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You got the crap beaten out of you, and you <i>still</i> don't know what's in that amazing nest.
+      pl: Obito cię na kwaśne jabłko, a <i>nadal</i> nie wiesz, co jest w tym wspaniałym gnieździe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_95b2093fcdfc8256f096
+      kontekst: textscripts.faerielair_fight3:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's two bad things
+      pl: Dwie złe rzeczy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1372
+  skrypt: faerielair_fight4
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7293c569440fb28d1dbd
+      kontekst: textscripts.faerielair_fight4:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  There are a <i>lot</i> of faeries guarding that nest.  Must be something good inside!
+      pl: Hm. Tego gniazda pilnuje <i>mnóstwo</i> wróżek. W środku musi być coś dobrego!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id001
+  - etykieta: win
+    wpisy:
+    - id: sol_b19419294c33ccfb9460
+      kontekst: textscripts.faerielair_fight4:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick through the pile of loose wings and limbs to see if the faeries had anything worth taking.
+      pl: Przeszukujesz stertę luźnych skrzydeł i kończyn, sprawdzając, czy wróżki miały coś wartościowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.faerielair_fight4:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: lose
+    wpisy:
+    - id: sol_4088b10fb7276b7cd8fc
+      kontekst: textscripts.faerielair_fight4:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost that fight against those faeries.  You might say it was "unfaer."
+      pl: Przegrałeś walkę z wróżkami. Można powiedzieć, że to było wróżnie niesprawiedliwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_cb6b5bffab3c2f4f6ae1
+      kontekst: textscripts.faerielair_fight4:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I would certainly not say that
+      pl: Z całą pewnością bym tego nie powiedział
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_c18eef362dc52713f5bc
+      kontekst: textscripts.faerielair_fight4:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, I guess I might say that
+      pl: Tak, chyba mogę tak powiedzieć
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1373
+  skrypt: faerielair_nest1
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6279e04442db3aa43538
+      kontekst: textscripts.faerielair_nest1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This mess of twigs and sap is a faerie nest.
+      pl: Ta plątanina gałązek i soku to gniazdo wróżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_25b53fe370d8c3139f3a
+      kontekst: textscripts.faerielair_nest1:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach inside
+      pl: Sięgnij do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c369428a4323b31682bf
+      kontekst: textscripts.faerielair_nest1:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You fumble blindly in the nest, and find a knife.  You pull the knife out of your hand flesh and stick it in your pocket.
+      pl: Macasz po omacku wewnątrz gniazda i znajdujesz nóż. Wyciągasz go z dłoni i wkładasz do kieszeni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1374
+  skrypt: faerielair_nest2
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_99bcb1a62fc040881901
+      kontekst: textscripts.faerielair_nest2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Another faerie nest.
+      pl: Kolejne gniazdo wróżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_399028877b03a844b666
+      kontekst: textscripts.faerielair_nest2:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig around in it
+      pl: Pogrzeb w nim
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_2a886bc91638238f4424
+      kontekst: textscripts.faerielair_nest2:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This nest contains nothing but garbage and a mousetrap, which snaps shut on your hand.
+      pl: W gnieździe są tylko śmieci i pułapka na myszy, która zaciska się na twojej dłoni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1375
+  skrypt: faerielair_nest3
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2f499876da06713d80ea
+      kontekst: textscripts.faerielair_nest3:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yet another faerie nest.
+      pl: Jeszcze jedno gniazdo wróżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.faerielair_nest3:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_df90b6ea815a2d2b055d
+      kontekst: textscripts.faerielair_nest3:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be the home of one of one of the wealthier faerie families.
+      pl: To musi być dom jednej z zamożniejszych wróżkowych rodzin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1376
+  skrypt: faerielair_nest4
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4757716de279eb45f537
+      kontekst: textscripts.faerielair_nest4:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Another faerie nest.  What horrors must await within?
+      pl: Kolejne gniazdo wróżek. Jakie okropności mogą czekać w środku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_00bf4a02e34ae2cb1924
+      kontekst: textscripts.faerielair_nest4:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach inside and find out
+      pl: Sięgnij do środka i sprawdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_2820a87b8a9058d53982
+      kontekst: textscripts.faerielair_nest4:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Eww, it's full of grubs!
+      pl: Fuj, jest pełne pędraków!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_58cfa1d1538f4d89f8af
+      kontekst: textscripts.faerielair_nest4:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Harvest them [Insectologist]
+      pl: Zbierz je [Insektolog]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_26710157674ad4ca549e
+      kontekst: textscripts.faerielair_nest4:line:15
+      linia: 15
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  It's full of rocks.
+      pl: Hm. Jest pełne kamieni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8b3cf6bd4d4d82e34de7
+      kontekst: textscripts.faerielair_nest4:line:16
+      linia: 16
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Inspect them [Psychogeologist]
+      pl: Zbadaj je [Psychogeolog]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_83509c267f217ae250a7
+      kontekst: textscripts.faerielair_nest4:line:20
+      linia: 20
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Curious.  The inside is totally overgrown with sweat moss.  It's uncomfortably warm <i>and</i> uncomfortably moist.
+      pl: Ciekawe. Wnętrze całkowicie zarosło mchem potowym. Jest nieznośnie ciepłe <i>i</i> nieznośnie wilgotne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46846927e9ed82e92eac
+      kontekst: textscripts.faerielair_nest4:line:21
+      linia: 21
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Scrape it out [Cryptobotanist]
+      pl: Zeskrob go [Kryptobotanik]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e1
+    wpisy:
+    - id: sol_b677fcf36683ccd9cd0b
+      kontekst: textscripts.faerielair_nest4:line:27
+      linia: 27
+      sekcja_skryptu: e1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect all of the useful fluids from the grubs.
+      pl: Zbierasz wszystkie użyteczne płyny z pędraków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: sol_a140000f4d43fbcfb61c
+      kontekst: textscripts.faerielair_nest4:line:35
+      linia: 35
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You extract all of the useful compounds from the rocks.
+      pl: Wydobywasz z kamieni wszystkie użyteczne związki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e3
+    wpisy:
+    - id: sol_d8ff596103589724ccff
+      kontekst: textscripts.faerielair_nest4:line:43
+      linia: 43
+      sekcja_skryptu: e3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect all of the useful ingredients from the sweat moss.  Now go wash your hands.
+      pl: Zbierasz wszystkie użyteczne składniki mchu potowego. A teraz idź umyć ręce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1377
+  skrypt: faerielair_nest5
+  pomieszczenie:
+    id: faerielair
+    nazwa_en: Faerie Lair
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_35a3be0a79f509030d2c
+      kontekst: textscripts.faerielair_nest5:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This better be worth it.
+      pl: Lepiej, żeby było warto.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cf21c494c68a6415af8a
+      kontekst: textscripts.faerielair_nest5:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach inside and see
+      pl: Sięgnij do środka i zobacz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_564d4755d15ac38b72d2
+      kontekst: textscripts.faerielair_nest5:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, a ring!  One of the faeries was probably using it as a crown.
+      pl: Hej, pierścień! Któraś wróżka pewnie używała go jako korony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

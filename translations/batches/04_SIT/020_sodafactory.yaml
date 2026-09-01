@@ -1,0 +1,507 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: sodafactory
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 8
+liczba_wpisow: 26
+sceny:
+- kolejnosc_w_danych_gry: 5565
+  skrypt: autoscript__sodafactory__rightblocker__popup
+  pomieszczenie:
+    id: sodafactory
+    nazwa_en: Old Relaxa-Cola Factory
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2d5716985e40271c53b7
+      kontekst: textscripts.autoscript__sodafactory__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing over there but lemon-scented industrial waste.
+      pl: Nie ma tam nic poza przemysłowymi odpadami o zapachu cytryny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4112
+  skrypt: sodafactory_barrel
+  pomieszczenie:
+    id: sodafactory
+    nazwa_en: Old Relaxa-Cola Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_30d7575e609a0b3b354e
+      kontekst: textscripts.sodafactory_barrel:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big barrel of tonic water.
+      pl: Wielka beczka toniku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.sodafactory_barrel:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_812cac98299e0015f9b9
+      kontekst: textscripts.sodafactory_barrel:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Thankfully, the bubbles make it quite a bit lighter than a barrel of regular water.
+      pl: Na szczęście bąbelki sprawiają, że jest znacznie lżejsza od beczki zwykłej wody.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4116
+  skrypt: sodafactory_leave
+  pomieszczenie:
+    id: sodafactory
+    nazwa_en: Old Relaxa-Cola Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2fdd3544bc392e0d0eaa
+      kontekst: textscripts.sodafactory_leave:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wanna blow this pop stand and head back to town?
+      pl: Zwinąć się z tej rozlewni i wrócić do miasta?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.sodafactory_leave:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5566
+  skrypt: autoscript__sodafactory_inside__crate2__popup
+  pomieszczenie:
+    id: sodafactory_inside
+    nazwa_en: Old Relaxa-Cola Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_793d7727707774663726
+      kontekst: textscripts.autoscript__sodafactory_inside__crate2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This open crate is full of empty soda bottles. Or rather, half-full -- it has two cases of bottles left in it.
+      pl: Ta otwarta skrzynia jest pełna pustych butelek po napojach. A właściwie w połowie pełna — zostały w niej dwie kratki butelek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5567
+  skrypt: autoscript__sodafactory_inside__crate3__popup
+  pomieszczenie:
+    id: sodafactory_inside
+    nazwa_en: Old Relaxa-Cola Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bc31503134394c877b57
+      kontekst: textscripts.autoscript__sodafactory_inside__crate3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This crate is nailed shut, but it feels full.
+      pl: Ta skrzynia jest zabita gwoździami, ale wydaje się pełna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5568
+  skrypt: autoscript__sodafactory_inside__cratestack__popup
+  pomieszczenie:
+    id: sodafactory_inside
+    nazwa_en: Old Relaxa-Cola Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_87785c62314ab66aadbe
+      kontekst: textscripts.autoscript__sodafactory_inside__cratestack__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: More crates of empty bottles. They're pretty heavy, it would be a pain to have to carry one.
+      pl: Kolejne skrzynie pustych butelek. Są dość ciężkie; noszenie jednej byłoby udręką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4115
+  skrypt: sodafactory_insonenter
+  pomieszczenie:
+    id: sodafactory_inside
+    nazwa_en: Old Relaxa-Cola Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_9b650b20474b6edfa11c
+      kontekst: textscripts.sodafactory_insonenter:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This place is pretty abandoned, all right -- all that's left is a metal storage cabinet and a few crates of empty soda bottles.
+      pl: To miejsce zdecydowanie jest opuszczone — zostały tylko metalowa szafa i kilka skrzynek pustych butelek po napojach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_47ee28b8c9dc6034d9a0
+      kontekst: textscripts.sodafactory_insonenter:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not even any bottlecaps left. Phooey.
+      pl: Nie ma nawet kapsli. Phi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_004263cca723757ad53e
+      kontekst: textscripts.sodafactory_insonenter:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4117
+  skrypt: sodafactory_lithiumpuzzle
+  pomieszczenie:
+    id: sodafactory_inside
+    nazwa_en: Old Relaxa-Cola Factory (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e2490454c5da3345ec1e
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is where you got that lithium.
+      pl: Stąd wziąłeś ten lit.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dfc94d3f197ec75a89d2
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This metal cabinet seems like the only thing of substance left.
+      pl: Ta metalowa szafa wydaje się jedyną konkretną rzeczą, jaka tu została.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a9ce60b899814ba3a202
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Probably because it's bolted to the floor and locked with a combination lock.
+      pl: Pewnie dlatego, że przykręcono ją do podłogi i zabezpieczono zamkiem szyfrowym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2201e1db659ded4d1682
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Have a look
+      pl: Przyjrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: look
+    wpisy:
+    - id: sol_8eee4d3505fc6ee6d838
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:17
+      linia: 17
+      sekcja_skryptu: look
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It looks like a pretty standard four-digit combination.
+      pl: Wygląda na całkiem zwykłą czterocyfrową kombinację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87d6fbe53475df9fcbbe
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:18
+      linia: 18
+      sekcja_skryptu: look
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter a combination
+      pl: Wpisz szyfr
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_995713e560e2c309dcd7
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:25
+      linia: 25
+      sekcja_skryptu: look
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it
+      pl: Zostaw ją
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: sol_20af09071270577f2f98
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:31
+      linia: 31
+      sekcja_skryptu: unlock
+      typ: prompt
+      mowca_lub_kanal: pole_wprowadzania
+      en: What do you want to set the dials to?
+      pl: Jak ustawić pokrętła?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkdials
+    wpisy:
+    - id: sol_3d6a4e0f9430452d6216
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:38
+      linia: 38
+      sekcja_skryptu: checkdials
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You got it! And you got this too!
+      pl: Udało się! A to też trafia do ciebie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31085de559ce5ed1b1e6
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:41
+      linia: 41
+      sekcja_skryptu: checkdials
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nope, still locked.
+      pl: Nie, nadal zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: brag
+    wpisy:
+    - id: sol_aac609f3858a637d5a0e
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:46
+      linia: 46
+      sekcja_skryptu: brag
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You smash the lock open with your weapon or whatever. This whole Chemicals class was puzzley enough already without adding to your problems.
+      pl: Rozwalasz zamek bronią czy czym tam. Zajęcia z Chemikaliów miały już dość zagadek i bez dokładania ci kolejnych problemów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bewitch
+    wpisy:
+    - id: sol_9483f85bd112c6ec188c
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:51
+      linia: 51
+      sekcja_skryptu: bewitch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You solve the lock with magic. More specifically, you conjure a small cheese elemental to try every possible combination for you while
+        you take a short nap.
+      pl: 'Rozwiązujesz problem zamka za pomocą magii. Dokładniej: przywołujesz małego serowego żywiołaka, który sprawdza za ciebie wszystkie
+        możliwe kombinacje, podczas gdy ty urządzasz sobie krótką drzemkę.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bamboozle
+    wpisy:
+    - id: sol_ab6ea01e1c6e96e7d330
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:56
+      linia: 56
+      sekcja_skryptu: bamboozle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a pretty cheap lock, so you "solve" it through the simple process of pulling on it real hard while you spin the dials, so you can
+        feel when the mechanism inside releases on each digit. Easy-peasy.
+      pl: To dość tani zamek, więc „rozwiązujesz” go, po prostu mocno ciągnąc i obracając pokrętłami. Dzięki temu czujesz, kiedy mechanizm zwalnia
+        przy każdej cyfrze. Bułka z masłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opened
+    wpisy:
+    - id: sol_a4af798abf42f6c07b99
+      kontekst: textscripts.sodafactory_lithiumpuzzle:line:63
+      linia: 63
+      sekcja_skryptu: opened
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet
+      pl: Super
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

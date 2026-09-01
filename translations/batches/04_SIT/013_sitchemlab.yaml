@@ -1,0 +1,3364 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: sitchemlab
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 12
+liczba_wpisow: 204
+sceny:
+- kolejnosc_w_danych_gry: 5452
+  skrypt: autoscript__sitchemlab__lamp__popup
+  pomieszczenie:
+    id: sitchemlab
+    nazwa_en: S.I.T. (Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7b5b7f76f216ab3305a4
+      kontekst: textscripts.autoscript__sitchemlab__lamp__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A steam-powered lamppost. We truly live in the future.
+      pl: Latarnia napędzana parą. Naprawdę żyjemy w przyszłości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5453
+  skrypt: autoscript__sitchemlab__sphere__popup
+  pomieszczenie:
+    id: sitchemlab
+    nazwa_en: S.I.T. (Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5f23e69a6a26d1471628
+      kontekst: textscripts.autoscript__sitchemlab__sphere__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This perfect sphere is carved from Mother Nature''s favorite chemical: the rock.'
+      pl: 'Tę idealną kulę wyrzeźbiono z ulubionej substancji chemicznej Matki Natury: kamienia.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3981
+  skrypt: sit_exteriorexit
+  pomieszczenie:
+    id: sitchemlab
+    nazwa_en: S.I.T. (Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0cdac5f70a9b0dad8a63
+      kontekst: textscripts.sit_exteriorexit:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Go somewhere else on campus?
+      pl: Przejść do innej części kampusu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_95416791527a21311288
+      kontekst: textscripts.sit_exteriorexit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure!
+      pl: Jasne!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3822
+  skrypt: sitgreenhouse_athena
+  pomieszczenie:
+    id: sitchemlab
+    nazwa_en: S.I.T. (Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_337c7d3875ae9f84530e
+      kontekst: textscripts.sitgreenhouse_athena:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"<i>Welcome to the S.I.T. Chemicals Department. You may be interested to know that this entire building is made of solid copper, which
+        the Federal Treasury donated to S.I.T. because they couldn't think of a use for it.</i>"
+      pl: \"<i>Witamy na Wydziale Chemikaliów S.I.T. Być może zainteresuje cię fakt, że cały ten budynek wykonano z litej miedzi przekazanej S.I.T.
+        przez Skarb Federalny, który nie potrafił wymyślić dla niej żadnego zastosowania.</i>"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5454
+  skrypt: autoscript__sitchemlab_classroom__blackboard__popup
+  pomieszczenie:
+    id: sitchemlab_classroom
+    nazwa_en: S.I.T. (Chemicals Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e567c38d40c31b180d28
+      kontekst: textscripts.autoscript__sitchemlab_classroom__blackboard__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sure hope there won't be a test on this, cause you don't understand any of it.
+      pl: Oby nie było z tego sprawdzianu, bo nie rozumiesz ani słowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3777
+  skrypt: sitchemlab_alchtable
+  pomieszczenie:
+    id: sitchemlab_classroom
+    nazwa_en: S.I.T. (Chemicals Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 45
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1e970dac0d0e9176e171
+      kontekst: textscripts.sitchemlab_alchtable:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't know what any of this equipment is for. Looks old, though.
+      pl: Nie masz pojęcia, do czego służy ten sprzęt. Wygląda jednak staro.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d056775c308d8e2397d3
+      kontekst: textscripts.sitchemlab_alchtable:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This counter is set up with a bunch of antique alchemy equipment.
+      pl: Na blacie ustawiono mnóstwo zabytkowego sprzętu alchemicznego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72d6c1a5209d870178d7
+      kontekst: textscripts.sitchemlab_alchtable:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Archaically experiment
+      pl: Eksperymentuj archaicznie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alcho
+    wpisy:
+    - id: sol_c6260ee98bb849b1915b
+      kontekst: textscripts.sitchemlab_alchtable:line:32
+      linia: 32
+      sekcja_skryptu: alcho
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are four hoppers, each of which has a weird symbol on it.
+      pl: Są tu cztery zasobniki, każdy oznaczony dziwnym symbolem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cdc9fde84434c1acbb25
+      kontekst: textscripts.sitchemlab_alchtable:line:42
+      linia: 42
+      sekcja_skryptu: alcho
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make something
+      pl: Zrób coś
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sitchemlab_alchtable:line:43
+      linia: 43
+      sekcja_skryptu: alcho
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: unlockalch1
+    wpisy:
+    - id: sol_4ccb271a03a16b639322
+      kontekst: textscripts.sitchemlab_alchtable:line:49
+      linia: 49
+      sekcja_skryptu: unlockalch1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully empty the jar of arsenic into the third hopper. Should be plenty.
+      pl: Ostrożnie opróżniasz słoik arszeniku do trzeciego zasobnika. Powinno wystarczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cdc9fde84434c1acbb25
+      kontekst: textscripts.sitchemlab_alchtable:line:50
+      linia: 50
+      sekcja_skryptu: unlockalch1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make something
+      pl: Zrób coś
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sitchemlab_alchtable:line:51
+      linia: 51
+      sekcja_skryptu: unlockalch1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: unlockalch2
+    wpisy:
+    - id: sol_b78b131c09ef3b7ea03b
+      kontekst: textscripts.sitchemlab_alchtable:line:57
+      linia: 57
+      sekcja_skryptu: unlockalch2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, the fourth hopper is now full of lithium.
+      pl: Dobrze, czwarty zasobnik jest teraz pełen litu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cdc9fde84434c1acbb25
+      kontekst: textscripts.sitchemlab_alchtable:line:58
+      linia: 58
+      sekcja_skryptu: unlockalch2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make something
+      pl: Zrób coś
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sitchemlab_alchtable:line:59
+      linia: 59
+      sekcja_skryptu: unlockalch2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: adams
+    wpisy:
+    - id: sol_e453078d30d6e448c0a4
+      kontekst: textscripts.sitchemlab_alchtable:line:64
+      linia: 64
+      sekcja_skryptu: adams
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A Stradellini Multi-Alembic! Are theſe ſtill in uſe in modern times? I would have thought the technology would be much more advanced
+        by now.
+      pl: Wielokrotny Alembik Stradelliniego! Czy nadal używa się takich w czasach współczesnych? Sądziłem, że technika będzie już znacznie bardziej
+        zaawansowana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6ddfe400798ba19b8b09
+      kontekst: textscripts.sitchemlab_alchtable:line:66
+      linia: 66
+      sekcja_skryptu: adams
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The class I'm taking is pretty introductory, the professor said he was starting with the basics.
+      pl: To dość podstawowe zajęcia. Profesor mówił, że zaczynamy od podstaw.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_70e33ecc363cd446e3a0
+      kontekst: textscripts.sitchemlab_alchtable:line:67
+      linia: 67
+      sekcja_skryptu: adams
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, I ſee. Well, that is quite reaſonable. What ſeems to be the trouble?
+      pl: Ach, rozumiem. To nader rozsądne. Na czym polega trudność?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_198164d6deb06e33e5d0
+      kontekst: textscripts.sitchemlab_alchtable:line:68
+      linia: 68
+      sekcja_skryptu: adams
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The last hopper's empty, and I don't know what's supposed to go in there -- the book here doesn't list that symbol.
+      pl: Ostatni zasobnik jest pusty i nie wiem, co powinno do niego trafić. Książka nie wymienia tego symbolu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a298a943dd934e9e5ddf
+      kontekst: textscripts.sitchemlab_alchtable:line:69
+      linia: 69
+      sekcja_skryptu: adams
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Does it not? How embarraſsing! Pray allow me to correct it.
+      pl: Doprawdy? Cóż za wstyd! Pozwól, proszę, że to poprawię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69d4f2ac756b601f667c
+      kontekst: textscripts.sitchemlab_alchtable:line:70
+      linia: 70
+      sekcja_skryptu: adams
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He pulls a quill pen and a small inkpot out of his pockets and starts writing in the book.
+      pl: Wyciąga z kieszeni gęsie pióro i mały kałamarz, po czym zaczyna pisać w książce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3fe30ed947411e1ac202
+      kontekst: textscripts.sitchemlab_alchtable:line:71
+      linia: 71
+      sekcja_skryptu: adams
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Er... should you be doing that?
+      pl: Eee... wolno ci to robić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: adams2
+    wpisy:
+    - id: sol_2eba3ca18518bec032bc
+      kontekst: textscripts.sitchemlab_alchtable:line:76
+      linia: 76
+      sekcja_skryptu: adams2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why not? It is <i>my</i> Book, after all. Still in good condition, I'm pleaſed to ſee. That is the advantage of a proper vellum page
+        over paper, of courſe. And my Colleagues made fun of me for being old-faſhioned. Well, I don't ſee their ſhoddy paper Books in this Claſsroom,
+        hah!
+      pl: Dlaczego nie? Wszak to <i>moja</i> Księga. Rad jestem widzieć ją w tak dobrym stanie. Oto przewaga porządnego pergaminu nad papierem.
+        A Koledzy wyśmiewali mą staroświeckość. Nie widzę ich lichych papierowych Ksiąg w tej Sali, ha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_21b512aaabc3581cfc06
+      kontekst: textscripts.sitchemlab_alchtable:line:77
+      linia: 77
+      sekcja_skryptu: adams2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He blows gently on the ink to dry it, and gestures grandly toward the book.
+      pl: Delikatnie dmucha na atrament, żeby go wysuszyć, i wykonuje uroczysty gest w stronę książki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_84efc149e011c9c9f15b
+      kontekst: textscripts.sitchemlab_alchtable:line:79
+      linia: 79
+      sekcja_skryptu: adams2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There you are! Duly corrected!
+      pl: Proszę! Należycie poprawione!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.sitchemlab_alchtable:line:80
+      linia: 80
+      sekcja_skryptu: adams2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+  - etykieta: step1
+    wpisy:
+    - id: sol_9c5ae876bb7c388d48bc
+      kontekst: textscripts.sitchemlab_alchtable:line:87
+      linia: 87
+      sekcja_skryptu: step1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name1$
+      pl: $name1$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name1$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Nazwa składnika jest wstawiana dynamicznie; sprawdzić źródła zmiennej.'
+    - id: sol_caae5f236d0ea639f2ed
+      kontekst: textscripts.sitchemlab_alchtable:line:88
+      linia: 88
+      sekcja_skryptu: step1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name2$
+      pl: $name2$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name2$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Nazwa składnika jest wstawiana dynamicznie; sprawdzić źródła zmiennej.'
+  - etykieta: step2
+    wpisy:
+    - id: sol_fc65ba948a78d288a34d
+      kontekst: textscripts.sitchemlab_alchtable:line:110
+      linia: 110
+      sekcja_skryptu: step2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Alrighty. What's next?
+      pl: Dobrze. Co dalej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9c5ae876bb7c388d48bc
+      kontekst: textscripts.sitchemlab_alchtable:line:111
+      linia: 111
+      sekcja_skryptu: step2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name1$
+      pl: $name1$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name1$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_caae5f236d0ea639f2ed
+      kontekst: textscripts.sitchemlab_alchtable:line:112
+      linia: 112
+      sekcja_skryptu: step2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name2$
+      pl: $name2$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name2$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: step3
+    wpisy:
+    - id: sol_a7a8a377d238e0d80d74
+      kontekst: textscripts.sitchemlab_alchtable:line:135
+      linia: 135
+      sekcja_skryptu: step3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay. And third?
+      pl: Dobrze. A trzecie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9c5ae876bb7c388d48bc
+      kontekst: textscripts.sitchemlab_alchtable:line:136
+      linia: 136
+      sekcja_skryptu: step3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name1$
+      pl: $name1$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name1$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_caae5f236d0ea639f2ed
+      kontekst: textscripts.sitchemlab_alchtable:line:137
+      linia: 137
+      sekcja_skryptu: step3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name2$
+      pl: $name2$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name2$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: step4
+    wpisy:
+    - id: sol_2609c6a3d591ad66a617
+      kontekst: textscripts.sitchemlab_alchtable:line:159
+      linia: 159
+      sekcja_skryptu: step4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay. And fourth?
+      pl: Dobrze. A czwarte?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9c5ae876bb7c388d48bc
+      kontekst: textscripts.sitchemlab_alchtable:line:160
+      linia: 160
+      sekcja_skryptu: step4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name1$
+      pl: $name1$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name1$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_caae5f236d0ea639f2ed
+      kontekst: textscripts.sitchemlab_alchtable:line:161
+      linia: 161
+      sekcja_skryptu: step4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $name2$
+      pl: $name2$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne:
+      - $name2$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: realfinish
+    wpisy:
+    - id: sol_d5727b849b0d8fe904ef
+      kontekst: textscripts.sitchemlab_alchtable:line:202
+      linia: 202
+      sekcja_skryptu: realfinish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You decant the mixture into a vial and run some tests on various sample materials at the workbench.
+      pl: Przelewasz mieszaninę do fiolki i przeprowadzasz przy stole kilka prób na różnych materiałach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbb48a77cd40143e5c9b
+      kontekst: textscripts.sitchemlab_alchtable:line:203
+      linia: 203
+      sekcja_skryptu: realfinish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It appears that you've made some sort of @sitchem_noun@ @sitchem_verbing@ juice.
+      pl: 'Wygląda na to, że zrobiłeś jakiś sok: @sitchem_noun@ @sitchem_verbing@.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@sitchem_noun@'
+      - '@sitchem_verbing@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Dynamiczne człony mogą wymagać odmiany lub innego szyku; zastosowano konstrukcję po dwukropku i należy przetestować
+        wszystkie kombinacje.'
+    - id: sol_68ff4e980ed295ae91c9
+      kontekst: textscripts.sitchemlab_alchtable:line:234
+      linia: 234
+      sekcja_skryptu: realfinish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That doesn't seem very useful. At least, not for any circumstance you're likely to be in any time soon.
+      pl: Nie wygląda to szczególnie użytecznie. Przynajmniej nie w sytuacjach, które mogą cię spotkać w najbliższym czasie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a15512c59a89fd1b8b40
+      kontekst: textscripts.sitchemlab_alchtable:line:235
+      linia: 235
+      sekcja_skryptu: realfinish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fortunately, the workbench has a handy drain, and it's probably perfectly safe to dump this stuff into the municipal sewer system.
+      pl: Na szczęście stół ma wygodny odpływ, a wylanie tego do miejskiej kanalizacji prawdopodobnie jest całkowicie bezpieczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19d17d4385da23601f49
+      kontekst: textscripts.sitchemlab_alchtable:line:237
+      linia: 237
+      sekcja_skryptu: realfinish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it
+      pl: Wylej to do odpływu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60c41618f8a05fac0c4c
+      kontekst: textscripts.sitchemlab_alchtable:line:238
+      linia: 238
+      sekcja_skryptu: realfinish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep it
+      pl: Zachowaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: keep
+    wpisy:
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sitchemlab_alchtable:line:243
+      linia: 243
+      sekcja_skryptu: keep
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: discard
+    wpisy:
+    - id: sol_6c19a0567be25b55b983
+      kontekst: textscripts.sitchemlab_alchtable:line:247
+      linia: 247
+      sekcja_skryptu: discard
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>Floosh!</i> And with that your mistake is erased, as though it never even happened.
+      pl: <i>Chluuup!</i> I tak twój błąd zostaje wymazany, jakby nigdy się nie wydarzył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b66295c5c1e1bfc54492
+      kontekst: textscripts.sitchemlab_alchtable:line:248
+      linia: 248
+      sekcja_skryptu: discard
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try again
+      pl: Spróbuj ponownie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_358d4059a695909cbf34
+      kontekst: textscripts.sitchemlab_alchtable:line:249
+      linia: 249
+      sekcja_skryptu: discard
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Review the equipment
+      pl: Obejrzyj sprzęt jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sitchemlab_alchtable:line:250
+      linia: 250
+      sekcja_skryptu: discard
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 3778
+  skrypt: sitchemlab_book
+  pomieszczenie:
+    id: sitchemlab_classroom
+    nazwa_en: S.I.T. (Chemicals Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8b70f7672cd46ea7425a
+      kontekst: textscripts.sitchemlab_book:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This book must be pretty ancient -- the pages are made of vellum.
+      pl: Ta książka musi być bardzo stara — strony zrobiono z pergaminu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_953f7b9de7979f59709c
+      kontekst: textscripts.sitchemlab_book:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flip through it
+      pl: Przekartkuj ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_b965b211a7caa2c4b67c
+      kontekst: textscripts.sitchemlab_book:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The book is titled "A Complete and Practical Guide to the Various Alchemical Subſtances & Their Properties, For the Uſe of Students
+        in a Claſsroom Setting."
+      pl: Księga nosi tytuł „Kompletny y Praktyczny Przewodnik po Rozmaitych Substancyach Alchemicznych y Ich Właściwościach, Ku Użytkowi Uczniów
+        w Sali Lekcyjnej”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d0acc530974274448ef
+      kontekst: textscripts.sitchemlab_book:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, the pages are so old and stiff, you can't even turn them. Well, shucks.
+      pl: Niestety strony są tak stare i sztywne, że nie da się ich nawet przewrócić. No masz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: soften
+    wpisy:
+    - id: sol_19e6bae75cdeb7c29448
+      kontekst: textscripts.sitchemlab_book:line:23
+      linia: 23
+      sekcja_skryptu: soften
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully drizzle the vellum softener on the book, rendering its pages as soft and supple as the day they were born. I mean bound.
+      pl: Ostrożnie skrapiasz książkę zmiękczaczem do pergaminu, dzięki czemu strony stają się miękkie i giętkie jak w dniu narodzin. To znaczy
+        oprawienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46b2cfbb00b3accb71a5
+      kontekst: textscripts.sitchemlab_book:line:24
+      linia: 24
+      sekcja_skryptu: soften
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read it
+      pl: Przeczytaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 37
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: sol_fbdcbad2b0cf4fb9e667
+      kontekst: textscripts.sitchemlab_book:line:29
+      linia: 29
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Someone's left a bookmark at a list of alchemical symbols, and the various substances they represent.
+      pl: Ktoś zostawił zakładkę przy liście symboli alchemicznych i substancji, które oznaczają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b6bd2dcfbbbcf2635121
+      kontekst: textscripts.sitchemlab_book:line:32
+      linia: 32
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dr. Adams has added a new entry to the list, indicating that the fourth symbol stands for lithium.
+      pl: Doktor Adams dopisał nową pozycję, według której czwarty symbol oznacza lit.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3783
+  skrypt: sitchemlab_teacher
+  pomieszczenie:
+    id: sitchemlab_classroom
+    nazwa_en: S.I.T. (Chemicals Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 96
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ffc255412bfe7ff432e1
+      kontekst: textscripts.sitchemlab_teacher:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to them
+      pl: Porozmawiaj z nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step1
+    wpisy:
+    - id: sol_802636d51c84faac2fe1
+      kontekst: textscripts.sitchemlab_teacher:line:17
+      linia: 17
+      sekcja_skryptu: step1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Hello! How can Professor Gilbert to helping you?
+      pl: Och! Cześć! Jak profesor Gilbert móc ci pomagać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8cecff1cd55b57a5746e
+      kontekst: textscripts.sitchemlab_teacher:line:19
+      linia: 19
+      sekcja_skryptu: step1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Is it 'formulas' or 'formulae'?
+      pl: Mówi się „formuły” czy „formulae”?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Oryginał żartuje wariantami liczby mnogiej formulas/formulae; polski nie ma analogicznej pary. Rozważyć
+        mocniejszy odpowiednik funkcjonalny.'
+    - id: sol_afe487ecef69b75a1368
+      kontekst: textscripts.sitchemlab_teacher:line:20
+      linia: 20
+      sekcja_skryptu: step1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Formulae! ...Was that the only question to having?
+      pl: Formuły! ...To jedyne pytanie, które mieć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5abc177efe38e2744f5b
+      kontekst: textscripts.sitchemlab_teacher:line:21
+      linia: 21
+      sekcja_skryptu: step1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, no. I'm also supposed to be taking a class here.
+      pl: Och, nie. Mam też chodzić tutaj na zajęcia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_196c6ef188d4a1cfc506
+      kontekst: textscripts.sitchemlab_teacher:line:22
+      linia: 22
+      sekcja_skryptu: step1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aha! Good! Good, yes! Very exciting with a new student to having! So much chemicals will Professor Gilbert to teaching you!
+      pl: Aha! Dobrze! Dobrze, tak! Bardzo ekscytująco nowego ucznia mieć! Tak wiele chemikaliów profesor Gilbert będzie ci uczyć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e114043a67a119e64b69
+      kontekst: textscripts.sitchemlab_teacher:line:23
+      linia: 23
+      sekcja_skryptu: step1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Great! Where do I start?
+      pl: Świetnie! Od czego zaczynam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step1b
+    wpisy:
+    - id: sol_c1997041c7c1d674abb2
+      kontekst: textscripts.sitchemlab_teacher:line:28
+      linia: 28
+      sekcja_skryptu: step1b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The professor digs around in a box under his desk and pulls out a large lump of yellow crystals.
+      pl: Profesor grzebie w pudle pod biurkiem i wyciąga wielką bryłę żółtych kryształów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5e2c158ec1fbe389035f
+      kontekst: textscripts.sitchemlab_teacher:line:29
+      linia: 29
+      sekcja_skryptu: step1b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, to looking at it! To knowing which element that is, are you?
+      pl: Tutaj, patrzeć na to! Wiedzieć, jaki to pierwiastek, czy ty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e13f7308fa6a50baa119
+      kontekst: textscripts.sitchemlab_teacher:line:31
+      linia: 31
+      sekcja_skryptu: step1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, from the color, I'm guessing sulfur?
+      pl: Sądząc po kolorze, chyba siarka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5a0937d00c99f77ce296
+      kontekst: textscripts.sitchemlab_teacher:line:32
+      linia: 32
+      sekcja_skryptu: step1b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha! Yes! You to knowing a thing already, it's good!
+      pl: Ha, ha! Tak! Już jedną rzecz wiedzieć, to dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6aa1af7720e919c2e131
+      kontekst: textscripts.sitchemlab_teacher:line:33
+      linia: 33
+      sekcja_skryptu: step1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+    - id: sol_41e325b61a0a2527b868
+      kontekst: textscripts.sitchemlab_teacher:line:35
+      linia: 35
+      sekcja_skryptu: step1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Umm... lemonite?
+      pl: Eee... cytrynit?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_914c526500eed5fb6f50
+      kontekst: textscripts.sitchemlab_teacher:line:36
+      linia: 36
+      sekcja_skryptu: step1b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha! That is not even a thing! To guessing won't even near getting you! That's sulfur!
+      pl: Ha, ha! To nawet nie być rzecz! Zgadywanie nawet blisko nie doprowadzić! To siarka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4bca0ed981e81d7f1459
+      kontekst: textscripts.sitchemlab_teacher:line:37
+      linia: 37
+      sekcja_skryptu: step1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Shucks.
+      pl: Kurczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dcf3e2328367d1f31479
+      kontekst: textscripts.sitchemlab_teacher:line:39
+      linia: 39
+      sekcja_skryptu: step1b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sulfur is a diamagnetic, orthorhombic crystal to being! Also multivalent, and an elemental macronutrient!
+      pl: Siarka diamagnetycznym, rombowym kryształem być! Także wielowartościowa i makroskładnikiem odżywczym!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_66619fc112e12a4b6e42
+      kontekst: textscripts.sitchemlab_teacher:line:40
+      linia: 40
+      sekcja_skryptu: step1b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Should I be writing this down?
+      pl: Mam to zapisywać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step1c
+    wpisy:
+    - id: sol_7d520bff8049062ee4e0
+      kontekst: textscripts.sitchemlab_teacher:line:45
+      linia: 45
+      sekcja_skryptu: step1c
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here! An experiment to doing with it!
+      pl: Tutaj! Eksperyment z tym robić!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4c8d32cf51be6a4a9c42
+      kontekst: textscripts.sitchemlab_teacher:line:47
+      linia: 47
+      sekcja_skryptu: step1c
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: An experiment?
+      pl: Eksperyment?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53ec2d1b7da76b468972
+      kontekst: textscripts.sitchemlab_teacher:line:48
+      linia: 48
+      sekcja_skryptu: step1c
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: To throwing it in the river, and back to coming with telling me the observation!
+      pl: Wrzucić do rzeki i wrócić z powiedzeniem mi obserwacji!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2094d05589a1f8290f01
+      kontekst: textscripts.sitchemlab_teacher:line:50
+      linia: 50
+      sekcja_skryptu: step1c
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Back to... okay, got it. I think.
+      pl: Wrócić z... dobrze, rozumiem. Chyba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_36a4e1da87b987ef6b2c
+      kontekst: textscripts.sitchemlab_teacher:line:58
+      linia: 58
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi hello! To going your experiment, how is it?
+      pl: Cześć, dzień dobry! Jak iść twój eksperyment?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6ced6b9e830b0ec563fb
+      kontekst: textscripts.sitchemlab_teacher:line:69
+      linia: 69
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bye for now.
+      pl: Na razie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: adams
+    wpisy:
+    - id: sol_5a61becbdf72046f98fc
+      kontekst: textscripts.sitchemlab_teacher:line:75
+      linia: 75
+      sekcja_skryptu: adams
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cool
+      pl: Chłodno
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reiterate
+    wpisy:
+    - id: sol_657929ea13007d4d114e
+      kontekst: textscripts.sitchemlab_teacher:line:85
+      linia: 85
+      sekcja_skryptu: reiterate
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ah, right. Thanks.
+      pl: Ach, tak. Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin1
+    wpisy:
+    - id: sol_f44498049bd7dfd5ef73
+      kontekst: textscripts.sitchemlab_teacher:line:91
+      linia: 91
+      sekcja_skryptu: turnin1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes good! And what did it?
+      pl: Tak, dobrze! I co ona robić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3c4fb050185c72354e4f
+      kontekst: textscripts.sitchemlab_teacher:line:92
+      linia: 92
+      sekcja_skryptu: turnin1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, not much really. It got wet and sank.
+      pl: Właściwie niewiele. Zamokła i zatonęła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0b554a784438b385dec8
+      kontekst: textscripts.sitchemlab_teacher:line:93
+      linia: 93
+      sekcja_skryptu: turnin1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha yes! Sulfur has density about twice as much of water, and nonreactive to being with a normal circumstance!
+      pl: Ha, ha, tak! Siarka gęstość około dwa razy większą od wody mieć i niereaktywna być w normalnych warunkach!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e84487f87ed25ea5945
+      kontekst: textscripts.sitchemlab_teacher:line:94
+      linia: 94
+      sekcja_skryptu: turnin1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They look in the box again, and pull out a lump of metal with a structure of weird spiraling squares and an iridescent rainbow sheen.
+      pl: Profesor ponownie zagląda do pudła i wyciąga kawałek metalu o strukturze dziwnie skręconych kwadratów oraz opalizującym tęczowym połysku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3a54748d2aa78d139b6d
+      kontekst: textscripts.sitchemlab_teacher:line:95
+      linia: 95
+      sekcja_skryptu: turnin1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How about that? To knowing what this are you?
+      pl: A to? Wiedzieć, co to być?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_23936a50f4a8c1ba907e
+      kontekst: textscripts.sitchemlab_teacher:line:96
+      linia: 96
+      sekcja_skryptu: turnin1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bisquick?
+      pl: Bizkwit?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d3d29677e405c5c0d12
+      kontekst: textscripts.sitchemlab_teacher:line:97
+      linia: 97
+      sekcja_skryptu: turnin1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bibsmoth?
+      pl: Bizmot?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b2d1c66770d8e423fb8
+      kontekst: textscripts.sitchemlab_teacher:line:98
+      linia: 98
+      sekcja_skryptu: turnin1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bipsmith?
+      pl: Bismak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin1b
+    wpisy:
+    - id: sol_3ec0525ad962b85226b5
+      kontekst: textscripts.sitchemlab_teacher:line:103
+      linia: 103
+      sekcja_skryptu: turnin1b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Close! <i>Bismuth!</i>
+      pl: Blisko! <i>Bizmut!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7e50cdeea699648822e2
+      kontekst: textscripts.sitchemlab_teacher:line:104
+      linia: 104
+      sekcja_skryptu: turnin1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ah, right.
+      pl: Ach, tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_01d9b47aba08949bf411
+      kontekst: textscripts.sitchemlab_teacher:line:105
+      linia: 105
+      sekcja_skryptu: turnin1b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: This one is rhombihedral structure of crystals, and is the most diamagnetic of all to being! Also, it is very much less of poisonous
+        than other ones like it!
+      pl: Ten romboedryczną strukturę kryształów mieć i najbardziej diamagnetyczny ze wszystkich być! Także dużo mniej trujący niż inne podobne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1c06cb2e20838e1f8a4
+      kontekst: textscripts.sitchemlab_teacher:line:106
+      linia: 106
+      sekcja_skryptu: turnin1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's very pretty.
+      pl: Jest bardzo ładny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_20c47b50c8731f558b00
+      kontekst: textscripts.sitchemlab_teacher:line:107
+      linia: 107
+      sekcja_skryptu: turnin1b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That colors from thickness variation in the oxide layer being! Here! Go in the river to putting it!
+      pl: Kolory od różnej grubości warstwy tlenku być! Tutaj! Do rzeki go włożyć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5596bbb78bd8a3d9c4f7
+      kontekst: textscripts.sitchemlab_teacher:line:109
+      linia: 109
+      sekcja_skryptu: turnin1b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Er, all right.
+      pl: Eee, dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin2
+    wpisy:
+    - id: sol_1f06d968cb357152fff6
+      kontekst: textscripts.sitchemlab_teacher:line:116
+      linia: 116
+      sekcja_skryptu: turnin2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes yes! And?
+      pl: Tak, tak! I?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e9100f72376ea8fefff
+      kontekst: textscripts.sitchemlab_teacher:line:117
+      linia: 117
+      sekcja_skryptu: turnin2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, it sank faster than the sulfur.
+      pl: Zatonął szybciej niż siarka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4da40a7e32273690932b
+      kontekst: textscripts.sitchemlab_teacher:line:118
+      linia: 118
+      sekcja_skryptu: turnin2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Correct! Bismuth nearly to sulfur five times the density to having! Anything other?
+      pl: Poprawnie! Bizmut prawie pięć razy gęstość siarki mieć! Coś jeszcze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c337f6631c090623cdd
+      kontekst: textscripts.sitchemlab_teacher:line:119
+      linia: 119
+      sekcja_skryptu: turnin2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Not that I noticed?
+      pl: Nic, co bym zauważył?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_129c065c676ad57024b3
+      kontekst: textscripts.sitchemlab_teacher:line:120
+      linia: 120
+      sekcja_skryptu: turnin2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, bismuth only when very hot in water to reacting. Good job!
+      pl: Tak, bizmut tylko z bardzo gorącą wodą reagować. Dobra robota!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.sitchemlab_teacher:line:121
+      linia: 121
+      sekcja_skryptu: turnin2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: turnin2b
+    wpisy:
+    - id: sol_7d8daa91207f0892b5bf
+      kontekst: textscripts.sitchemlab_teacher:line:126
+      linia: 126
+      sekcja_skryptu: turnin2b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Professor Gilbert looks in the box again, and this time holds up a lump of silvery-gray metal.
+      pl: Profesor Gilbert ponownie zagląda do pudła i tym razem unosi kawałek srebrzystoszarego metalu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2c5f5704d8accb8c768b
+      kontekst: textscripts.sitchemlab_teacher:line:127
+      linia: 127
+      sekcja_skryptu: turnin2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's, umm...
+      pl: To jest, eee...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1bd6b441be41f5e17c7b
+      kontekst: textscripts.sitchemlab_teacher:line:128
+      linia: 128
+      sekcja_skryptu: turnin2b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha! Do not to worrying, Professor Gilbert not to guessing you this one. Practically <i>everything</i> a silver-gray metal to being!
+      pl: Ha, ha! Nie martwić się, profesor Gilbert nie oczekiwać zgadnięcia tego. Praktycznie <i>wszystko</i> srebrzystoszarym metalem być!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_410aaac5f099189562b3
+      kontekst: textscripts.sitchemlab_teacher:line:129
+      linia: 129
+      sekcja_skryptu: turnin2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whew.
+      pl: Uff.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f3c9b90949c9d616b94a
+      kontekst: textscripts.sitchemlab_teacher:line:130
+      linia: 130
+      sekcja_skryptu: turnin2b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: This to being magnesium. The other ones unlike, this <i>para</i>magnetic a one! With hexagonal crystals close-packed. Also there is
+        <i>so much</i> of it! Thirteen percent of this whole planet is that to making of!
+      pl: To magnez być. Inaczej niż poprzednie ten <i>para</i>magnetyczny być! Z ciasno upakowanymi sześciokątnymi kryształami. I jest go <i>tak
+        dużo!</i> Trzynaście procent całej planety z niego zrobione być!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_15be3917629bc3db75d9
+      kontekst: textscripts.sitchemlab_teacher:line:131
+      linia: 131
+      sekcja_skryptu: turnin2b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh!
+      pl: Hm!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin2c
+    wpisy:
+    - id: sol_61e5f700727316a59366
+      kontekst: textscripts.sitchemlab_teacher:line:136
+      linia: 136
+      sekcja_skryptu: turnin2c
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now you have it!
+      pl: Teraz go mieć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e88192b1784fac391e9
+      kontekst: textscripts.sitchemlab_teacher:line:138
+      linia: 138
+      sekcja_skryptu: turnin2c
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This one goes in the river too?
+      pl: Ten też trafia do rzeki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8b05fbe18a61164505fc
+      kontekst: textscripts.sitchemlab_teacher:line:139
+      linia: 139
+      sekcja_skryptu: turnin2c
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes yes! To watching closely!
+      pl: Tak, tak! Uważnie patrzeć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37a3985b34d402b9e682
+      kontekst: textscripts.sitchemlab_teacher:line:140
+      linia: 140
+      sekcja_skryptu: turnin2c
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin3
+    wpisy:
+    - id: sol_324599be884e61d59241
+      kontekst: textscripts.sitchemlab_teacher:line:147
+      linia: 147
+      sekcja_skryptu: turnin3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Good yes! And so?
+      pl: Dobrze, tak! I co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_57c0b925fc9958aa1e8c
+      kontekst: textscripts.sitchemlab_teacher:line:148
+      linia: 148
+      sekcja_skryptu: turnin3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: It seemed to be about as dense as the sulfur.
+      pl: Wyglądał na mniej więcej tak gęsty jak siarka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e9a070b0b6b6bf822803
+      kontekst: textscripts.sitchemlab_teacher:line:149
+      linia: 149
+      sekcja_skryptu: turnin3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: True yes! Less slightly, but close. Are you to learning so much to drawing a conclusion?
+      pl: Prawda, tak! Trochę mniej, ale blisko. Uczyć się tak dużo, żeby wniosek wyciągać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_55baf3aa5fb44bbf9cea
+      kontekst: textscripts.sitchemlab_teacher:line:150
+      linia: 150
+      sekcja_skryptu: turnin3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: My conclusion is that you've basically tricked me into throwing away a bunch of trash for you.
+      pl: Mój wniosek jest taki, że właściwie podstępem kazałeś mi wyrzucić za ciebie śmieci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c1033b1dd287264fdd2f
+      kontekst: textscripts.sitchemlab_teacher:line:151
+      linia: 151
+      sekcja_skryptu: turnin3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha! This is astute!
+      pl: Ha, ha! To spostrzegawcze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea4c79a7b7592803ac3f
+      kontekst: textscripts.sitchemlab_teacher:line:153
+      linia: 153
+      sekcja_skryptu: turnin3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A what?
+      pl: Co takiego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alchphase
+    wpisy:
+    - id: sol_7e8ddb0696c2582cdd61
+      kontekst: textscripts.sitchemlab_teacher:line:157
+      linia: 157
+      sekcja_skryptu: alchphase
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A time for the next lesson of you!
+      pl: Czas na następną lekcję twoją!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_79627c290928c69a6897
+      kontekst: textscripts.sitchemlab_teacher:line:158
+      linia: 158
+      sekcja_skryptu: alchphase
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm not throwing anything else into the river.
+      pl: Nie wrzucę już niczego do rzeki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_776add4f41523e584a9f
+      kontekst: textscripts.sitchemlab_teacher:line:159
+      linia: 159
+      sekcja_skryptu: alchphase
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No no! A box is empty. The next lesson will figuring out how complex chemical to producing!
+      pl: Nie, nie! Pudło puste. Następna lekcja będzie ustalać, jak złożony związek chemiczny produkować!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_db83e2c2846a390d0b76
+      kontekst: textscripts.sitchemlab_teacher:line:160
+      linia: 160
+      sekcja_skryptu: alchphase
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ooh, okay. That sounds interesting.
+      pl: Ooo, dobrze. To brzmi ciekawie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c78b2e36c496bae04890
+      kontekst: textscripts.sitchemlab_teacher:line:161
+      linia: 161
+      sekcja_skryptu: alchphase
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Good yes! A mind of inquiring scientific is very important to having! The equipment over there, you are to seeing it?
+      pl: Dobrze, tak! Dociekliwy umysł naukowy bardzo ważny mieć! Sprzęt tam, widzieć go?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2067da58a28aebc8c3c2
+      kontekst: textscripts.sitchemlab_teacher:line:162
+      linia: 162
+      sekcja_skryptu: alchphase
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah. It looks... really antiquated.
+      pl: Tak. Wygląda... naprawdę staroświecko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alchphase2
+    wpisy:
+    - id: sol_95392e67ae495d5c270d
+      kontekst: textscripts.sitchemlab_teacher:line:167
+      linia: 167
+      sekcja_skryptu: alchphase2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes! Back to a basic! Not just <i>some</i> chemical but <i>all</i> chemical!
+      pl: Tak! Powrót do zasady! Nie tylko <i>jakiegoś</i> związku chemicznego, ale <i>każdego</i> związku!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_29fcf18cdd79e12f1e69
+      kontekst: textscripts.sitchemlab_teacher:line:168
+      linia: 168
+      sekcja_skryptu: alchphase2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha. That's a pretty good pun.
+      pl: Ha, ha. Całkiem niezła gra słów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_939ef53bd274cbd1e07f
+      kontekst: textscripts.sitchemlab_teacher:line:169
+      linia: 169
+      sekcja_skryptu: alchphase2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha! What?
+      pl: Ha, ha! Co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_625a8263b3e6336bcce8
+      kontekst: textscripts.sitchemlab_teacher:line:170
+      linia: 170
+      sekcja_skryptu: alchphase2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway, go to figuring those out, and a chrome polish to synthesizing!
+      pl: W każdym razie ustalić je i pastę do chromu zsyntetyzować!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b77843b04d796482274e
+      kontekst: textscripts.sitchemlab_teacher:line:171
+      linia: 171
+      sekcja_skryptu: alchphase2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Chrome polish, got it.
+      pl: Pasta do chromu, rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: arse
+    wpisy:
+    - id: sol_3d4e200db9a4ff177446
+      kontekst: textscripts.sitchemlab_teacher:line:177
+      linia: 177
+      sekcja_skryptu: arse
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no! Are we arsenic to having out of?
+      pl: Och nie! Czy arszenik nam się skończyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16a856b3a0475dcbf6f8
+      kontekst: textscripts.sitchemlab_teacher:line:178
+      linia: 178
+      sekcja_skryptu: arse
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, the hopper is empty.
+      pl: Tak, zasobnik jest pusty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_439158762c02978053bb
+      kontekst: textscripts.sitchemlab_teacher:line:179
+      linia: 179
+      sekcja_skryptu: arse
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that's not to doing! Professor Gilbert will of our records to checking, a moment.
+      pl: No, tak być nie może! Profesor Gilbert sprawdzić nasze rejestry, chwila.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6184d7c92e096c6f23b1
+      kontekst: textscripts.sitchemlab_teacher:line:180
+      linia: 180
+      sekcja_skryptu: arse
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They pull out a binder labelled "VERY POISONS LOG" and flip to the back.
+      pl: Wyciąga segregator opisany „REJESTR BARDZO TRUCIZN” i otwiera go na końcu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_32c5f31c8be4f6391e41
+      kontekst: textscripts.sitchemlab_teacher:line:181
+      linia: 181
+      sekcja_skryptu: arse
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah! Ha! It is that Cratchles again!
+      pl: Ach! Ha! Znowu ten Cratchles!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c7d5b8dc2b16106a551d
+      kontekst: textscripts.sitchemlab_teacher:line:182
+      linia: 182
+      sekcja_skryptu: arse
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The what now?
+      pl: Ten kto znowu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: arse2
+    wpisy:
+    - id: sol_8cbca39aceefc8c2c46d
+      kontekst: textscripts.sitchemlab_teacher:line:187
+      linia: 187
+      sekcja_skryptu: arse2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'Blevin Cratchles, a student. A very much arsenic fan, of some reason. Maybe if he any left is to having, you are to going and to asking?
+        His address here it is: Hilbert House, room 3A.'
+      pl: 'Blevin Cratchles, student. Wielkim fanem arszeniku być, z jakiegoś powodu. Może jeśli jeszcze jakiś mieć, pójść i zapytać? Tutaj jego
+        adres być: Hilbert House, pokój 3A.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0514f05db7b37364f13f
+      kontekst: textscripts.sitchemlab_teacher:line:190
+      linia: 190
+      sekcja_skryptu: arse2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hilbert House? Where's that?
+      pl: Hilbert House? Gdzie to jest?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4a8fe7d55547d3618d48
+      kontekst: textscripts.sitchemlab_teacher:line:191
+      linia: 191
+      sekcja_skryptu: arse2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It will better if Professor Gilbert just to marking it on your map.
+      pl: Lepiej będzie, jeśli profesor Gilbert po prostu zaznaczyć na twojej mapie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_78b42cd1d514abaeb520
+      kontekst: textscripts.sitchemlab_teacher:line:194
+      linia: 194
+      sekcja_skryptu: arse2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 26
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: arsklith
+    wpisy:
+    - id: sol_39e835448b4eb3f37d45
+      kontekst: textscripts.sitchemlab_teacher:line:199
+      linia: 199
+      sekcja_skryptu: arsklith
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Lithium? Hmmm! That is tricky for to getting! But you to knowing, Professor Gilbert did to hearing about a soda company that to putting
+        lithium in the sodas was a year previous!
+      pl: Lit? Hmmm! To trudne do zdobywania! Ale wiesz, profesor Gilbert słyszeć o wytwórni napojów, która rok temu dodawać lit do napojów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b525a56ff24ef60cc4c0
+      kontekst: textscripts.sitchemlab_teacher:line:200
+      linia: 200
+      sekcja_skryptu: arsklith
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What? Why?
+      pl: Co? Po co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7a6f42ddf22215d1f55d
+      kontekst: textscripts.sitchemlab_teacher:line:201
+      linia: 201
+      sekcja_skryptu: arsklith
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Lithium to making you thirsty! A feedback loop of very profit! Unfortunately lithium also you very <i>confused</i> to making, and your
+        bowels either none at all or way too much. The business, they to going out of.
+      pl: Lit sprawiać, że chce ci się pić! Sprzężenie zwrotne bardzo dochodowe! Niestety lit także robić cię bardzo <i>zdezorientowanym</i>,
+        a jelita albo wcale, albo o wiele za bardzo. Interes upaść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8834e619a546d1f25577
+      kontekst: textscripts.sitchemlab_teacher:line:202
+      linia: 202
+      sekcja_skryptu: arsklith
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, rats.
+      pl: No to klops.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: arsklith2
+    wpisy:
+    - id: sol_31dd1d47e440e4d42986
+      kontekst: textscripts.sitchemlab_teacher:line:206
+      linia: 206
+      sekcja_skryptu: arsklith2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, rats. That's not much help, then.
+      pl: No to klops. Czyli niewiele nam to daje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_db7a4690759004701ebe
+      kontekst: textscripts.sitchemlab_teacher:line:207
+      linia: 207
+      sekcja_skryptu: arsklith2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah! But! Their factory in Ocean City, is still where it is! So perhaps a quantity of lithium there you are to finding?
+      pl: Ach! Ale! Ich fabryka w Ocean City nadal być tam, gdzie była! Więc może trochę litu tam znaleźć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5e5daea827e3f51aaa8b
+      kontekst: textscripts.sitchemlab_teacher:line:212
+      linia: 212
+      sekcja_skryptu: arsklith2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh huh! Okay, I'll check it out
+      pl: O, proszę! Dobrze, sprawdzę to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: polish
+    wpisy:
+    - id: sol_4801f7f0371821efa2fa
+      kontekst: textscripts.sitchemlab_teacher:line:225
+      linia: 225
+      sekcja_skryptu: polish
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh ho! Professor Gilbert will be a judge of that!
+      pl: Oho! Profesor Gilbert sam to ocenić!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a74f3da95f9e4d0f4787
+      kontekst: textscripts.sitchemlab_teacher:line:226
+      linia: 226
+      sekcja_skryptu: polish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They take a rag and a sample of chromed metal out of a desk drawer, and test out your polish.
+      pl: Wyciąga z szuflady biurka szmatkę i próbkę chromowanego metalu, po czym sprawdza twoją pastę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b155e863ef07925bc363
+      kontekst: textscripts.sitchemlab_teacher:line:227
+      linia: 227
+      sekcja_skryptu: polish
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes yes! This is very good of a polish! Well to doing!
+      pl: Tak, tak! To bardzo dobra pasta! Dobrze zrobione!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6aa1af7720e919c2e131
+      kontekst: textscripts.sitchemlab_teacher:line:228
+      linia: 228
+      sekcja_skryptu: polish
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_f1cd4d84bd8cf945a174
+      kontekst: textscripts.sitchemlab_teacher:line:229
+      linia: 229
+      sekcja_skryptu: polish
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You have to passing this class with colorful flight! Professor Gilbert will to signing a transcript of yours and gladness!
+      pl: Zdawać te zajęcia śpiewająco, i to we wszystkich barwach! Profesor Gilbert podpisać twój wykaz zaliczeń z radością!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Funkcjonalna adaptacja żartu „with flying colors”; sprawdzić w pełnym rejestrze postaci Gilberta.'
+    - id: sol_9d8a9ae7910aa5a7984e
+      kontekst: textscripts.sitchemlab_teacher:line:230
+      linia: 230
+      sekcja_skryptu: polish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They sign your transcript with a flourish, then leave the room chattering excitedly about how great their motorcycle fenders are going
+        to look.
+      pl: Zamaszyście podpisuje twój wykaz zaliczeń, po czym wychodzi z sali, trajkocząc z zachwytem o tym, jak wspaniale będą wyglądały błotniki jego motocykla.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a4af798abf42f6c07b99
+      kontekst: textscripts.sitchemlab_teacher:line:237
+      linia: 237
+      sekcja_skryptu: polish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet
+      pl: Super
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5455
+  skrypt: autoscript__sitchemlab_inside__chart__popup
+  pomieszczenie:
+    id: sitchemlab_inside
+    nazwa_en: S.I.T. (Inside the Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8105e391f67c7203d93d
+      kontekst: textscripts.autoscript__sitchemlab_inside__chart__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Only 88 of the boxes on this chart have been filled in.
+      pl: W tej tabeli wypełniono zaledwie 88 pól.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3779
+  skrypt: sitchemlab_classdoor
+  pomieszczenie:
+    id: sitchemlab_inside
+    nazwa_en: S.I.T. (Inside the Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_305831237c8ab0c135bd
+      kontekst: textscripts.sitchemlab_classdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The door to the chemistry classroom.
+      pl: Drzwi do sali chemicznej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_739b298bbe635af84280
+      kontekst: textscripts.sitchemlab_classdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to ATHENA
+      pl: Porozmawiaj z ATHENĄ
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_b315d18b5337c01333d9
+      kontekst: textscripts.sitchemlab_classdoor:line:11
+      linia: 11
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: ATHENA, can I go in here?
+      pl: ATHENO, mogę tędy wejść?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a7459d3f483774ce2ff
+      kontekst: textscripts.sitchemlab_classdoor:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '<i>Student ID: @firstname@ @lastname@ identified.</i>'
+      pl: '<i>Zidentyfikowano legitymację studencką: @firstname@ @lastname@.</i>'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne:
+      - <i>
+      - '@firstname@'
+      - '@lastname@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_17a101ecf45c4eb8f9bf
+      kontekst: textscripts.sitchemlab_classdoor:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Access to this doorway is limited to students and faculty in the Chemicals department.</i>
+      pl: <i>Dostęp przez te drzwi mają wyłącznie studenci i pracownicy Wydziału Chemikaliów.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: sol_d89048281a2cdd01306e
+      kontekst: textscripts.sitchemlab_classdoor:line:20
+      linia: 20
+      sekcja_skryptu: open
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Authorization verified. Access granted.</i>
+      pl: <i>Uprawnienia potwierdzone. Dostęp przyznany.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_75bd328a6f3c458258e0
+      kontekst: textscripts.sitchemlab_classdoor:line:21
+      linia: 21
+      sekcja_skryptu: open
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_08e64b8a8e995cea480f
+      kontekst: textscripts.sitchemlab_classdoor:line:22
+      linia: 22
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a thump as the door's internal lock disengages.
+      pl: Słyszysz łomot — wewnętrzny zamek drzwi właśnie się zwolnił.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46901d2361e1b5921898
+      kontekst: textscripts.sitchemlab_classdoor:line:25
+      linia: 25
+      sekcja_skryptu: open
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ebae5e1d1f3684a0203
+      kontekst: textscripts.sitchemlab_classdoor:line:26
+      linia: 26
+      sekcja_skryptu: open
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't go in
+      pl: Nie wchodź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3781
+  skrypt: sitchemlab_statue
+  pomieszczenie:
+    id: sitchemlab_inside
+    nazwa_en: S.I.T. (Inside the Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 28
+  sekcje:
+  - etykieta: getadams
+    wpisy:
+    - id: sol_6c5b3c11adb9e5d9cc21
+      kontekst: textscripts.sitchemlab_statue:line:11
+      linia: 11
+      sekcja_skryptu: getadams
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You splash revivifier on the statue, and gradually the metallic bronze color turns into more regular flesh tones. Oh and also clothes.
+        Clothes tones.
+      pl: Chlapiesz ożywiaczem na posąg. Metaliczny brąz stopniowo ustępuje zwyczajniejszym odcieniom skóry. A także ubraniom. Odcieniom ubrań.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Adaptacja urwanego żartu „flesh tones / clothes tones”; ocenić timing w grze.'
+    - id: sol_3c748ac934fa48880bb7
+      kontekst: textscripts.sitchemlab_statue:line:13
+      linia: 13
+      sekcja_skryptu: getadams
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, goodneſs me. Is it Monday already?
+      pl: Wielkie nieba. Czyżby już był poniedziałek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f81ded9c62ab91ce729b
+      kontekst: textscripts.sitchemlab_statue:line:15
+      linia: 15
+      sekcja_skryptu: getadams
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's Thursday, sir. Thursday, 1928.
+      pl: Jest czwartek, proszę pana. Czwartek, rok 1928.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3f4dec879caf55e0da6a
+      kontekst: textscripts.sitchemlab_statue:line:16
+      linia: 16
+      sekcja_skryptu: getadams
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well daſh it all! I knew I ſhould have ſet an alarm. Ah, do forgive me for not introducing myſelf. I am Dr. Ambroſe Adams.
+      pl: A niech to licho! Wiedziałem, że należało nastawić budzik. Ach, proszę mi wybaczyć, żem się nie przedstawił. Jestem dr Ambrose Adams.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a7cc62ae6a75fd1611a
+      kontekst: textscripts.sitchemlab_statue:line:17
+      linia: 17
+      sekcja_skryptu: getadams
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I know, I read it on your plaque.
+      pl: Wiem. Przeczytałem na pańskiej tabliczce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bb108dd8452fc1dc6b36
+      kontekst: textscripts.sitchemlab_statue:line:18
+      linia: 18
+      sekcja_skryptu: getadams
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Plaque?
+      pl: Tabliczce?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d5dbaeae6a74e63748f4
+      kontekst: textscripts.sitchemlab_statue:line:19
+      linia: 19
+      sekcja_skryptu: getadams
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He steps down off of his plinth and looks at it.
+      pl: Schodzi z cokołu i przygląda się tabliczce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d593ba9047a4bd42dd0d
+      kontekst: textscripts.sitchemlab_statue:line:20
+      linia: 20
+      sekcja_skryptu: getadams
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Marvelous! How very kind of them.
+      pl: Wspaniale! Jakże uprzejmie z ich strony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cec54f084226e7609d01
+      kontekst: textscripts.sitchemlab_statue:line:21
+      linia: 21
+      sekcja_skryptu: getadams
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: My name's @firstname@ @lastname@.
+      pl: Nazywam się @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_8a36f851461ad3085c3b
+      kontekst: textscripts.sitchemlab_statue:line:26
+      linia: 26
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A pleaſure indeed. 1928, you ſay? That would make it, hmm... 205 years. So much for the Faculty Luncheon.
+      pl: Niezmiernie mi miło. Rok 1928, powiadasz? To by znaczyło... hm... 205 lat. A więc nici z Wydziałowego Luncheonu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ef1aa3018d618f83b5e6
+      kontekst: textscripts.sitchemlab_statue:line:27
+      linia: 27
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Did you... bronze yourself? Deliberately?
+      pl: Czy pan... sam pokrył się brązem? Umyślnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8ca163133716c080df13
+      kontekst: textscripts.sitchemlab_statue:line:28
+      linia: 28
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, quite ſo. My new Formula required teſting, you ſee, and as I had no plans of particular import for the Week-end, I thought perhaps
+        I would ſkip ahead a bit.
+      pl: Owszem, właśnie tak. Moja nowa Formuła wymagała próby, rozumiesz, a jako że na Week-end nie miałem planów szczególnej wagi, pomyślałem,
+        iż przeskoczę nieco naprzód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8de079de3ca8235e11bb
+      kontekst: textscripts.sitchemlab_statue:line:29
+      linia: 29
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A graduate ſtudent was inſtructed to awaken me. If he comes aſking me for a Letter of Recommendation, I ſhall have ſome rather ſtern
+        words for him.
+      pl: Poleciłem pewnemu magistrantowi, by mnie obudził. Jeśli zgłosi się po List Polecający, czeka go z mej strony nader surowa reprymenda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69526ffd087d3a04a98c
+      kontekst: textscripts.sitchemlab_statue:line:30
+      linia: 30
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: He's... probably dead.
+      pl: On... prawdopodobnie nie żyje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_211177b1d6b73b93b709
+      kontekst: textscripts.sitchemlab_statue:line:31
+      linia: 31
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, of courſe. Well then, I ſhall call that his Juſt Deſserts.
+      pl: Ach, naturalnie. W takim razie uznam to za jego Zasłużoną Odpłatę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5332a83ffd82f9b568bb
+      kontekst: textscripts.sitchemlab_statue:line:32
+      linia: 32
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Anyway, welcome to the future!
+      pl: Tak czy inaczej — witamy w przyszłości!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: sol_5953b238fa4fe37e0bc1
+      kontekst: textscripts.sitchemlab_statue:line:37
+      linia: 37
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thank you, yes indeed! I find myſelf rather excited for the proſpect, you know. Has anything good been invented?
+      pl: Dziękuję, doprawdy! Muszę przyznać, że perspektywa ta wielce mnie ekscytuje. Wynaleziono coś dobrego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab0fc0a0d19cd2c35af4
+      kontekst: textscripts.sitchemlab_statue:line:38
+      linia: 38
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: They're working on something called 'television.' Apparently it's like the moving pictures, except you'll be able to have one in your
+        own home?
+      pl: Pracują nad czymś, co nazywa się „telewizją”. Podobno to coś jak ruchome obrazy, tylko każdy będzie mógł mieć taki we własnym domu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_400639a386eb3b56812c
+      kontekst: textscripts.sitchemlab_statue:line:39
+      linia: 39
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I muſt ſay that ſounds ridiculous. Who-ever heard of a moving picture?
+      pl: Muszę przyznać, że brzmi to niedorzecznie. Któż słyszał o ruchomym obrazie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a5910aa5a590744735f3
+      kontekst: textscripts.sitchemlab_statue:line:40
+      linia: 40
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow, yeah, you've missed a lot.
+      pl: No tak. Sporo pana ominęło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e7c99c98cdc69c44dc56
+      kontekst: textscripts.sitchemlab_statue:line:41
+      linia: 41
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I ſuppoſe I am in need of a Guide. Might I impoſe to accompany you?
+      pl: Przypuszczam, iż potrzebuję Przewodnika. Czy mógłbym się narzucić i ci towarzyszyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e73deaef46a8e78521ec
+      kontekst: textscripts.sitchemlab_statue:line:42
+      linia: 42
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: sol_52d6f798e6fc0cbfecb2
+      kontekst: textscripts.sitchemlab_statue:line:46
+      linia: 46
+      sekcja_skryptu: four
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure. In fact, there's something I think you might be able to help me with.
+      pl: Jasne. Właściwie jest coś, w czym może mi pan pomóc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b5e92a0ea1aa386468ee
+      kontekst: textscripts.sitchemlab_statue:line:47
+      linia: 47
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh? Pray tell!
+      pl: Doprawdy? Zamieniam się w słuch!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c7ff2e19f81c6a951dec
+      kontekst: textscripts.sitchemlab_statue:line:48
+      linia: 48
+      sekcja_skryptu: four
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I've got a chemicals assignment that's giving me some trouble. Are you familiar with old alchemy symbols?
+      pl: Mam kłopot z zadaniem z Chemikaliów. Zna pan dawne symbole alchemiczne?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8fa2b7c01611590d69d8
+      kontekst: textscripts.sitchemlab_statue:line:49
+      linia: 49
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hah! Young @p|man,lady,friend@, is a Feline acquainted with its own Anus?
+      pl: Ha! @p|man,lady,friend@, czyż kot zna własny Odbyt?
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|man,lady,friend@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Chroniony token @p|man,lady,friend@ zawiera angielskie warianty; sprawdzić, czy silnik obsługuje lokalizację
+        wartości tokenu.'
+    - id: sol_019245158dc004d37465
+      kontekst: textscripts.sitchemlab_statue:line:52
+      linia: 52
+      sekcja_skryptu: four
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Dr. Adams has joined you as a companion</b>
+      pl: <b>Dr Adams dołącza do ciebie jako towarzysz</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2fc63649e10f3202fc5f
+      kontekst: textscripts.sitchemlab_statue:line:54
+      linia: 54
+      sekcja_skryptu: four
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Great! Follow me, Prof.
+      pl: Świetnie! Za mną, profesorze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3782
+  skrypt: sitchemlab_takeachem
+  pomieszczenie:
+    id: sitchemlab_inside
+    nazwa_en: S.I.T. (Inside the Chemicals Building)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a470431553cc3aae795e
+      kontekst: textscripts.sitchemlab_takeachem:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "Leave a chemical, take a chemical."
+      pl: 'Na tabliczce napisano: „Zostaw związek chemiczny, weź związek chemiczny”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fc28588b415619a88b11
+      kontekst: textscripts.sitchemlab_takeachem:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a swap
+      pl: Dokonaj wymiany
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: swap
+    wpisy:
+    - id: sol_0ed66db3b4c7ed347ab8
+      kontekst: textscripts.sitchemlab_takeachem:line:15
+      linia: 15
+      sekcja_skryptu: swap
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You haven't got any chemicals to leave, so you can't take any chemicals without disobeying a direct order from a very important sign.
+      pl: Nie masz żadnego związku chemicznego do zostawienia, więc nie możesz żadnego zabrać bez sprzeciwienia się bezpośredniemu rozkazowi bardzo
+        ważnej tabliczki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4ec30dce7ee2b69abbc5
+      kontekst: textscripts.sitchemlab_takeachem:line:16
+      linia: 16
+      sekcja_skryptu: swap
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Aw
+      pl: Ech.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickedgive
+    wpisy:
+    - id: sol_66c9b57aa1ce2f27c636
+      kontekst: textscripts.sitchemlab_takeachem:line:34
+      linia: 34
+      sekcja_skryptu: pickedgive
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You leave your @items:$give$.name@ on the shelf.
+      pl: Zostawiasz @items:$give$.name@ na półce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@items:$give$.name@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_af1ad2ca6e1cb79405e4
+      kontekst: textscripts.sitchemlab_takeachem:line:36
+      linia: 36
+      sekcja_skryptu: pickedgive
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wanna trade something else?
+      pl: Chcesz wymienić coś jeszcze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41979eccf2b1efbef5ca
+      kontekst: textscripts.sitchemlab_takeachem:line:37
+      linia: 37
+      sekcja_skryptu: pickedgive
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_81bdefbb2aed58957ce7
+      kontekst: textscripts.sitchemlab_takeachem:line:38
+      linia: 38
+      sekcja_skryptu: pickedgive
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nah
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cancel
+    wpisy:
+    - id: sol_9267916d28a6238e9dfc
+      kontekst: textscripts.sitchemlab_takeachem:line:41
+      linia: 41
+      sekcja_skryptu: cancel
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You change your mind about the whole chemical process.
+      pl: Rozmyślasz się w kwestii całej tej chemii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_03401792b29af2abb232
+      kontekst: textscripts.sitchemlab_takeachem:line:42
+      linia: 42
+      sekcja_skryptu: cancel
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

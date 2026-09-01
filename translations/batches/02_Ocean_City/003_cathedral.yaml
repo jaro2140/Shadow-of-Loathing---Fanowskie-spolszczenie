@@ -1,0 +1,2717 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: cathedral
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 28
+liczba_wpisow: 152
+sceny:
+- kolejnosc_w_danych_gry: 702
+  skrypt: cathedral_exitpopup
+  pomieszczenie:
+    id: cathedral
+    nazwa_en: St. Polycarp's Cathedral
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e275332324ff48138ffe
+      kontekst: textscripts.cathedral_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Get away from these bells?
+      pl: Odejść od tych dzwonów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_108fe3305b3cd848090d
+      kontekst: textscripts.cathedral_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, please
+      pl: Tak, poproszę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 714
+  skrypt: cathedral_hobocode
+  pomieszczenie:
+    id: cathedral
+    nazwa_en: St. Polycarp's Cathedral
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4551ff61b4b78229f461
+      kontekst: textscripts.cathedral_hobocode:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: MEAT STASH, FOURTH TREE TO LEFT OF CHURCH, BACK ROW.
+      pl: SKRYTKA Z MIĘSEM, CZWARTE DRZEWO NA LEWO OD KOŚCIOŁA, W TYLNYM RZĘDZIE.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fb4700f31c82acb778d7
+      kontekst: textscripts.cathedral_hobocode:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already translated this hobo code.  It says $message$
+      pl: 'Ten kod włóczęgów już przetłumaczyłeś. Mówi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e426dad85b752513a4f
+      kontekst: textscripts.cathedral_hobocode:line:12
+      linia: 12
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Someone has carved some strange symbols onto this plinth.
+      pl: Ktoś wyrył na tym cokole dziwne symbole.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ff80ef4d0724af291e03
+      kontekst: textscripts.cathedral_hobocode:line:14
+      linia: 14
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, this looks like hobo code!
+      pl: Hej, to wygląda jak kod włóczęgów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d3d748cdb4fa0582571f
+      kontekst: textscripts.cathedral_hobocode:line:21
+      linia: 21
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The code says $message$  Interesting...
+      pl: 'Kod mówi: $message$ Ciekawe...'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 715
+  skrypt: cathedral_hobostash
+  pomieszczenie:
+    id: cathedral
+    nazwa_en: St. Polycarp's Cathedral
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.cathedral_hobostash:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 724
+  skrypt: cathedral_shadowtest
+  pomieszczenie:
+    id: cathedral
+    nazwa_en: St. Polycarp's Cathedral
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: borp
+    wpisy:
+    - id: sol_a5ea2fab10cfe812cc4c
+      kontekst: textscripts.cathedral_shadowtest:line:7
+      linia: 7
+      sekcja_skryptu: borp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Shadow is @shadow@
+      pl: 'Cień: @shadow@'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@shadow@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_670fde530553d757aeb5
+      kontekst: textscripts.cathedral_shadowtest:line:8
+      linia: 8
+      sekcja_skryptu: borp
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Increase
+      pl: Zwiększ
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4920
+  skrypt: autoscript__cathedral_catacomb__emptypedestal__popup
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7c86edf9f3a712766d91
+      kontekst: textscripts.autoscript__cathedral_catacomb__emptypedestal__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fancy pedestal with nothing on it.
+      pl: Ozdobny postument, na którym nic nie stoi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4921
+  skrypt: autoscript__cathedral_catacomb__urnpedestal2__popup
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_06c5fd5309d36db32dca
+      kontekst: textscripts.autoscript__cathedral_catacomb__urnpedestal2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fancy pedestal with an old urn on it.
+      pl: Ozdobny postument ze starą urną.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+- kolejnosc_w_danych_gry: 4922
+  skrypt: autoscript__cathedral_catacomb__urnpedestal3__popup
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_06c5fd5309d36db32dca
+      kontekst: textscripts.autoscript__cathedral_catacomb__urnpedestal3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fancy pedestal with an old urn on it.
+      pl: Ozdobny postument ze starą urną.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 700
+  skrypt: cathedral_candletable
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d00c611605b19baa6944
+      kontekst: textscripts.cathedral_candletable:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's one candle left unlit.
+      pl: Została jedna niezapalona świeca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d669936f443a08d0c2c6
+      kontekst: textscripts.cathedral_candletable:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hopefully this doesn't preclude you cursing the darkness later, if you feel like it.
+      pl: Miejmy nadzieję, że nie wyklucza to późniejszego przeklinania ciemności, jeśli najdzie cię ochota.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_34a109360b31e6f0bd1b
+      kontekst: textscripts.cathedral_candletable:line:14
+      linia: 14
+      sekcja_skryptu: e
+      typ: changeelementproperty
+      mowca_lub_kanal: kanal_changeelementproperty
+      en: candleFlame,19,72
+      pl: candleFlame,19,72
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Parametr właściwości elementu, niewidoczny dla gracza; pozostawiono bez zmian.'
+- kolejnosc_w_danych_gry: 713
+  skrypt: cathedral_guestbook
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4716ef0184d302f7698c
+      kontekst: textscripts.cathedral_guestbook:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the guestbook.
+      pl: Księga gości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46b2cfbb00b3accb71a5
+      kontekst: textscripts.cathedral_guestbook:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read it
+      pl: Przeczytaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 37
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reading
+    wpisy:
+    - id: sol_fc695c521a6e9a0e618e
+      kontekst: textscripts.cathedral_guestbook:line:10
+      linia: 10
+      sekcja_skryptu: reading
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The last three visitors were:'
+      pl: 'Trzej ostatni goście to:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b610e98d71b86b21ef8d
+      kontekst: textscripts.cathedral_guestbook:line:11
+      linia: 11
+      sekcja_skryptu: reading
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Donk Hufferby, visiting from Saskatoon</b>
+      pl: <b>Donk Hufferby, przybyły z Saskatoon</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_778535536b023933f5e0
+      kontekst: textscripts.cathedral_guestbook:line:13
+      linia: 13
+      sekcja_skryptu: reading
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Charles Wallace, 111 Plunkett Street</b>
+      pl: <b>Charles Wallace, ulica Plunkett 111</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_42098803b983ed128c14
+      kontekst: textscripts.cathedral_guestbook:line:16
+      linia: 16
+      sekcja_skryptu: reading
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  That's the address of the antique store.  You'll have to ask Charles about that next time you see him.
+      pl: Hm. To adres antykwariatu. Przy następnym spotkaniu będziesz musiał o to zapytać Charlesa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b8bceb717f977f10bc16
+      kontekst: textscripts.cathedral_guestbook:line:18
+      linia: 18
+      sekcja_skryptu: reading
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Captain Augustus Durch, 23 Curwen Ave.</b>
+      pl: <b>Kapitan Augustus Durch, aleja Curwen 23</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.cathedral_guestbook:line:26
+      linia: 26
+      sekcja_skryptu: reading
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: signit
+    wpisy:
+    - id: sol_f8893c99b67474c163b0
+      kontekst: textscripts.cathedral_guestbook:line:30
+      linia: 30
+      sekcja_skryptu: signit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sign your name and address after all the others.
+      pl: Pod wszystkimi wpisami dopisujesz swoje imię, nazwisko i adres.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.cathedral_guestbook:line:33
+      linia: 33
+      sekcja_skryptu: signit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 719
+  skrypt: cathedral_manhole
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d6f1ff4d8c494adacd6f
+      kontekst: textscripts.cathedral_manhole:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a very old manhole cover.
+      pl: Bardzo stara pokrywa włazu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 720
+  skrypt: cathedral_manhole_open
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1558081f348e17dabe53
+      kontekst: textscripts.cathedral_manhole_open:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A ladder leads down through this open manhole.
+      pl: Przez otwarty właz prowadzi w dół drabina.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b5e4b090c6f10bb7abe
+      kontekst: textscripts.cathedral_manhole_open:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 721
+  skrypt: cathedral_moss
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ec6ffad9a67fdb6b27c6
+      kontekst: textscripts.cathedral_moss:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a patch of tomb moss growing on the wall here.
+      pl: Na ścianie rośnie płat grobowego mchu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_b661c36a96e8fe05499d
+      kontekst: textscripts.cathedral_moss:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You scrape the moss from the wall.  It sublimates with an eerie wail.
+      pl: Zeskrobujesz mech ze ściany. Sublimuje z upiornym zawodzeniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 727
+  skrypt: cathedral_urncrate
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_19a19d013fb6c8968177
+      kontekst: textscripts.cathedral_urncrate:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big crate full of identical empty burial urns. Must be spares.
+      pl: Wielka skrzynia pełna identycznych pustych urn pogrzebowych. Chyba zapasowych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_644631686cf5ed4cd937
+      kontekst: textscripts.cathedral_urncrate:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's plenty in here, so the vicar won't miss just one. Besides, you've earned it.
+      pl: Jest ich tu mnóstwo, więc wikariusz nie zauważy jednej mniej. Poza tym sobie na nią zasługujesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 728
+  skrypt: cathedral_urnpedestal
+  pomieszczenie:
+    id: cathedral_catacomb
+    nazwa_en: St. Polycarp's (Catacomb)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ba1f88433237bb66fc9b
+      kontekst: textscripts.cathedral_urnpedestal:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fancy pedestal with an old urn on it. What a weird little adventure that was.
+      pl: Ozdobny postument ze starą urną. Co za dziwna mała przygoda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ef4b1bc4a2d1271f2b63
+      kontekst: textscripts.cathedral_urnpedestal:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to the urn
+      pl: Porozmawiaj z urną
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: sol_51222faf9ec3e2d94ff2
+      kontekst: textscripts.cathedral_urnpedestal:line:12
+      linia: 12
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ahoy there. Everything shipshape?
+      pl: Ahoj. Wszystko na pokładzie w porządku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4d56696a855a6769f028
+      kontekst: textscripts.cathedral_urnpedestal:line:13
+      linia: 13
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Need any smokes?
+      pl: Potrzebujesz fajek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a671311307abd25fba15
+      kontekst: textscripts.cathedral_urnpedestal:line:16
+      linia: 16
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heh. Guess I shouldn't mess around.
+      pl: Heh. Chyba nie powinienem się wygłupiać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.cathedral_urnpedestal:line:19
+      linia: 19
+      sekcja_skryptu: talk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 4923
+  skrypt: autoscript__cathedral_fishcasino__fishman__popup
+  pomieszczenie:
+    id: cathedral_fishcasino
+    nazwa_en: Fishman Casino
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a11bceb8f06a66be572a
+      kontekst: textscripts.autoscript__cathedral_fishcasino__fishman__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the second-drunkest fishman you've ever seen.
+      pl: To drugi najbardziej pijany rybolud, jakiego zdarzyło ci się widzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4924
+  skrypt: autoscript__cathedral_fishcasino__pot1__popup
+  pomieszczenie:
+    id: cathedral_fishcasino
+    nazwa_en: Fishman Casino
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7a259f081fda4d1508ca
+      kontekst: textscripts.autoscript__cathedral_fishcasino__pot1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Somebody has tried to class up the joint with some dead ferns.
+      pl: Ktoś próbował dodać temu miejscu klasy za pomocą kilku martwych paproci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 705
+  skrypt: cathedral_fishcasino_bar
+  pomieszczenie:
+    id: cathedral_fishcasino
+    nazwa_en: Fishman Casino
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d9077d2b9b36abfddfab
+      kontekst: textscripts.cathedral_fishcasino_bar:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bartender nods politely.
+      pl: Barman uprzejmie kiwa głową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_14a9e7175ce0b2a2b67d
+      kontekst: textscripts.cathedral_fishcasino_bar:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Order a drink
+      pl: Zamów drinka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drink
+    wpisy:
+    - id: sol_94896346dc5cbac57b4a
+      kontekst: textscripts.cathedral_fishcasino_bar:line:12
+      linia: 12
+      sekcja_skryptu: drink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Blurgleglurgleglub?
+      pl: Blurgleglurgleglub?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c72221e44219c4697f9b
+      kontekst: textscripts.cathedral_fishcasino_bar:line:13
+      linia: 13
+      sekcja_skryptu: drink
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He holds up a bottle of some kind of greenish-brown liquid that you assume is probably mostly kelp juice and sewer moss squeezings.
+      pl: Podnosi butelkę zielonobrązowego płynu, który zapewne składa się głównie z soku z wodorostów i wyciśniętego mchu kanalizacyjnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_23534794ddb981b6400a
+      kontekst: textscripts.cathedral_fishcasino_bar:line:16
+      linia: 16
+      sekcja_skryptu: drink
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No thanks.
+      pl: Nie, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy
+    wpisy:
+    - id: sol_9160eaa40d56382b393d
+      kontekst: textscripts.cathedral_fishcasino_bar:line:20
+      linia: 20
+      sekcja_skryptu: buy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bartender pours some of the liquid into a battered cocktail shaker and shakes it up with a handful of gravel, then pours it into
+        an empty tin can.
+      pl: Wlewa płyn do poobijanego shakera, potrząsa nim z garścią żwiru, a następnie przelewa do pustej puszki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a00e96dde6c5fd1951bb
+      kontekst: textscripts.cathedral_fishcasino_bar:line:23
+      linia: 23
+      sekcja_skryptu: buy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Neat?
+      pl: Bez dodatków?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 706
+  skrypt: cathedral_fishcasino_plant
+  pomieszczenie:
+    id: cathedral_fishcasino
+    nazwa_en: Fishman Casino
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cf9131943d5cd351e010
+      kontekst: textscripts.cathedral_fishcasino_plant:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plant in this pot looks very... greasy.
+      pl: Roślina w tej doniczce wygląda bardzo... tłusto.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_123fdf5225e534731ac2
+      kontekst: textscripts.cathedral_fishcasino_plant:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully wring out each leaf.
+      pl: Ostrożnie wykręcasz każdy liść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 707
+  skrypt: cathedral_fishcasino_tablegame
+  pomieszczenie:
+    id: cathedral_fishcasino
+    nazwa_en: Fishman Casino
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_aef2ea54e664ab26753e
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It looks like the fishmen have set up a little casino. Fun!
+      pl: Wygląda na to, że ryboludzie urządzili małe kasyno. Fajnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_8787916736de5ae2b7ed
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already won their game, though.
+      pl: Ale ich grę już wygrałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_06bbee33b4f9b6e94d67
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Play a game
+      pl: Zagraj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: game
+    wpisy:
+    - id: sol_aa78bf109c2439f6fb34
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:19
+      linia: 19
+      sekcja_skryptu: game
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The game seems to consist of throwing a handful of pebbles and rusty nails on the table. It's both very simple and very vague.
+      pl: Gra polega chyba na rzucaniu na stół garści kamyków i zardzewiałych gwoździ. Jest zarazem bardzo prosta i bardzo niejasna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_35597a7a80a2ef8a0419
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:20
+      linia: 20
+      sekcja_skryptu: game
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Watch for a while
+      pl: Popatrz przez chwilę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:24
+      linia: 24
+      sekcja_skryptu: game
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: watch
+    wpisy:
+    - id: sol_25b398557f785377d59a
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:28
+      linia: 28
+      sekcja_skryptu: watch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The player next to you puts some fishman eggs on the table. The croupier picks up the pebbles and nails and hands them to the player,
+        who shakes them up and scatters them across the table.
+      pl: Gracz obok kładzie na stole jaja ryboludzi. Krupier podnosi kamyki i gwoździe, podaje je graczowi, a ten potrząsa nimi i rozsypuje po stole.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d3268bf71f4ff2813bb7
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:31
+      linia: 31
+      sekcja_skryptu: watch
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep watching
+      pl: Patrz dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id003 []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:34
+      linia: 34
+      sekcja_skryptu: watch
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: rewatch
+    wpisy:
+    - id: sol_d3268bf71f4ff2813bb7
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:42
+      linia: 42
+      sekcja_skryptu: rewatch
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep watching
+      pl: Patrz dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id003
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:45
+      linia: 45
+      sekcja_skryptu: rewatch
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: play
+    wpisy:
+    - id: sol_e1719258de6348baf8a3
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:51
+      linia: 51
+      sekcja_skryptu: play
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put some Meat on the table -- the croupier blinks at it, but doesn't object. He picks up the nails and pebbles and hands them to
+        you.
+      pl: Kładziesz na stole trochę Mięsa — krupier mruga, ale nie protestuje. Podnosi gwoździe i kamyki, po czym ci je podaje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_f1eede3bd65bfd2036cd
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:52
+      linia: 52
+      sekcja_skryptu: play
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake them up and drop them on the table. They bounce and roll a little, but quickly come to rest.
+      pl: Potrząsasz nimi i rzucasz na stół. Odbijają się i trochę toczą, ale szybko się zatrzymują.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_5c1665ae6fb4e7ca04fa
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:56
+      linia: 56
+      sekcja_skryptu: play
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The croupier looks at them and nods at you.
+      pl: Krupier patrzy na nie i kiwa do ciebie głową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_1c8e5ee3270debe9adfc
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:67
+      linia: 67
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The croupier shakes his head and takes your Meat.
+      pl: Krupier kręci głową i zabiera twoje Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: push
+    wpisy:
+    - id: sol_63a172c6b1815dd3797c
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:73
+      linia: 73
+      sekcja_skryptu: push
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the nail comes to rest, the croupier shrugs and pushes your Meat back toward you. Looks like you got a tie, or a push, or whatever
+        they call it.
+      pl: Gdy gwóźdź się zatrzymuje, krupier wzrusza ramionami i odsuwa Mięso z powrotem w twoją stronę. Chyba remis albo zwrot, czy jak to nazywają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: replay
+    wpisy:
+    - id: sol_f6bf4d762dd621aede00
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:80
+      linia: 80
+      sekcja_skryptu: replay
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Watch the other player for a bit
+      pl: Poobserwuj drugiego gracza
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:81
+      linia: 81
+      sekcja_skryptu: replay
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: win
+    wpisy:
+    - id: sol_065de01490198876a6fa
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:85
+      linia: 85
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the nail comes to rest, the croupier looks impressed. He adds a pile of fishman eggs to your Meat, and pushes them toward you.
+        You won, apparently!
+      pl: Kiedy gwóźdź się zatrzymuje, krupier jest wyraźnie pod wrażeniem. Dokłada do twojego Mięsa stos jaj ryboludzi i przesuwa wszystko w twoją stronę. Najwyraźniej wygrałeś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_51dfa66bd7cce527d696
+      kontekst: textscripts.cathedral_fishcasino_tablegame:line:88
+      linia: 88
+      sekcja_skryptu: win
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Spiffy!
+      pl: Elegancko!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1505
+  skrypt: fishman_gambler
+  pomieszczenie:
+    id: cathedral_fishcasino
+    nazwa_en: Fishman Casino
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_28e84ea3a28b9febbef5
+      kontekst: textscripts.fishman_gambler:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This fishguy is too focused on his gambling to talk.
+      pl: Ten rybolud jest zbyt pochłonięty hazardem, by rozmawiać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4925
+  skrypt: autoscript__cathedral_fishsewer3__stain__popup
+  pomieszczenie:
+    id: cathedral_fishsewer3
+    nazwa_en: Old Sewer (Under St. Polycarp's)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_98f0d80b35b1d6776191
+      kontekst: textscripts.autoscript__cathedral_fishsewer3__stain__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is an old stain, but a big one.
+      pl: Ta plama jest stara, ale za to wielka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 709
+  skrypt: cathedral_fishsewerladder
+  pomieszczenie:
+    id: cathedral_fishsewer3
+    nazwa_en: Old Sewer (Under St. Polycarp's)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6c72b36adf72af0207a0
+      kontekst: textscripts.cathedral_fishsewerladder:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This ladder leads back up to the catacombs.
+      pl: Ta drabina prowadzi z powrotem do katakumb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_26d9c8b34995a429c15e
+      kontekst: textscripts.cathedral_fishsewerladder:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb up
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 723
+  skrypt: cathedral_sewerdrain
+  pomieszczenie:
+    id: cathedral_fishsewer3
+    nazwa_en: Old Sewer (Under St. Polycarp's)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_682911e0506fef97bce7
+      kontekst: textscripts.cathedral_sewerdrain:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This narrow pipe leads to a different part of the sewers.
+      pl: Ta wąska rura prowadzi do innej części kanałów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_08a3947bc064f992ee9f
+      kontekst: textscripts.cathedral_sewerdrain:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yell into it
+      pl: Krzyknij do środka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_5b4e9161c5f0710a5916
+      kontekst: textscripts.cathedral_sewerdrain:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Thankfully, nobody answers.
+      pl: Na szczęście nikt nie odpowiada.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 698
+  skrypt: cathedral_altar
+  pomieszczenie:
+    id: cathedral_inside
+    nazwa_en: St. Polycarp's (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_17a613a5b7a0ab0f53c9
+      kontekst: textscripts.cathedral_altar:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: speechbubble
+      mowca_lub_kanal: dymek
+      en: (vicar,20,77,left) "Please don't disturb the altar."
+      pl: (vicar,20,77,left) "Proszę nie ruszać ołtarza."
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 710
+  skrypt: cathedral_font
+  pomieszczenie:
+    id: cathedral_inside
+    nazwa_en: St. Polycarp's (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_31973d7f30fa2296db07
+      kontekst: textscripts.cathedral_font:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the cathedral's font -- or, more properly, "typeface."
+      pl: 'To chrzcielnica katedry. W drukarni powiedzieliby: font.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 716
+  skrypt: cathedral_hymnalpew
+  pomieszczenie:
+    id: cathedral_inside
+    nazwa_en: St. Polycarp's (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_40cf9c969ca256e21404
+      kontekst: textscripts.cathedral_hymnalpew:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a hymnal in the back of this pew.
+      pl: Z tyłu ławki leży śpiewnik kościelny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.cathedral_hymnalpew:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_f8c4cb2a80f40c4f0a47
+      kontekst: textscripts.cathedral_hymnalpew:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: playsound(wol_attack_male_spooky,200)
+      pl: playsound(wol_attack_male_spooky,200)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne wywołanie dźwięku, niewidoczne dla gracza; pozostawiono bez zmian.'
+    - id: sol_dc93b85dc427da4a1d23
+      kontekst: textscripts.cathedral_hymnalpew:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (200) playsound(wol_attack_whisper,200,200)
+      pl: (200) playsound(wol_attack_whisper,200,200)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne wywołanie dźwięku, niewidoczne dla gracza; pozostawiono bez zmian.'
+    - id: sol_b6f5f304012c0ac45811
+      kontekst: textscripts.cathedral_hymnalpew:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (1000) playsound(wol_noise_male_spooky,200)
+      pl: (1000) playsound(wol_noise_male_spooky,200)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne wywołanie dźwięku, niewidoczne dla gracza; pozostawiono bez zmian.'
+    - id: sol_cb15670cea1aa6a80e1c
+      kontekst: textscripts.cathedral_hymnalpew:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (1200) playsound(wol_attack_whisper,200,200)
+      pl: (1200) playsound(wol_attack_whisper,200,200)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne wywołanie dźwięku, niewidoczne dla gracza; pozostawiono bez zmian.'
+    - id: sol_a3322f9059624c5862fa
+      kontekst: textscripts.cathedral_hymnalpew:line:15
+      linia: 15
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yikes!
+      pl: O rety!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 725
+  skrypt: cathedral_stairsdown
+  pomieszczenie:
+    id: cathedral_inside
+    nazwa_en: St. Polycarp's (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_da82897fbe1fd44faec2
+      kontekst: textscripts.cathedral_stairsdown:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The door down to the catacombs is locked, presumably so the cat doesn't get out.
+      pl: Drzwi do katakumb są zamknięte, zapewne po to, żeby kat nie uciekł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ec79c7458187ed6489e8
+      kontekst: textscripts.cathedral_stairsdown:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Vicar has unlocked this door for you.
+      pl: Wikariusz otworzył ci te drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_93bc5b11154014415a88
+      kontekst: textscripts.cathedral_stairsdown:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head down
+      pl: Zejdź na dół
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 729
+  skrypt: cathedral_vicar
+  pomieszczenie:
+    id: cathedral_inside
+    nazwa_en: St. Polycarp's (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 63
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.cathedral_vicar:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convostart
+    wpisy:
+    - id: sol_7a2cb19bb5d072d052ba
+      kontekst: textscripts.cathedral_vicar:line:17
+      linia: 17
+      sekcja_skryptu: convostart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The vicar is still beside himself about something or other.
+      pl: Wikariusz nadal odchodzi od zmysłów z takiego czy innego powodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5a128d761dbd8412a7ba
+      kontekst: textscripts.cathedral_vicar:line:18
+      linia: 18
+      sekcja_skryptu: convostart
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's the matter?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_6935f24aa18719af300b
+      kontekst: textscripts.cathedral_vicar:line:19
+      linia: 19
+      sekcja_skryptu: convostart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it
+      pl: Zostaw go z tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_0131c97b85e84a15b6f9
+      kontekst: textscripts.cathedral_vicar:line:24
+      linia: 24
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hello there.
+      pl: Dzień dobry.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8382dceabe5a354f2099
+      kontekst: textscripts.cathedral_vicar:line:26
+      linia: 26
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no, oh no, what am I going to do?
+      pl: O nie, o nie, co ja teraz zrobię?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c663040dd6dabfc9ab5e
+      kontekst: textscripts.cathedral_vicar:line:27
+      linia: 27
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I was going to ask if everything's okay, but... plainly not.
+      pl: Chciałem zapytać, czy wszystko w porządku, ale... najwyraźniej nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_112b9207d3d1eb74467f
+      kontekst: textscripts.cathedral_vicar:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! I'm sorry, I didn't see you there. Er, services are cancelled for the moment.
+      pl: Och! Wybacz, nie zauważyłem cię. Eee, nabożeństwa są chwilowo odwołane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5a128d761dbd8412a7ba
+      kontekst: textscripts.cathedral_vicar:line:31
+      linia: 31
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's the matter?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_ca945f5b84ffac6abac8
+      kontekst: textscripts.cathedral_vicar:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's a shame. Bye!
+      pl: Szkoda. Do widzenia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: sol_e448e2d12ef8f5b3dbbe
+      kontekst: textscripts.cathedral_vicar:line:39
+      linia: 39
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: One of the urns has been stolen from our catacombs! Stolen!
+      pl: Jedną z urn skradziono z naszych katakumb! Skradziono!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf26e6760f11201843d4
+      kontekst: textscripts.cathedral_vicar:line:40
+      linia: 40
+      sekcja_skryptu: takequest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This tiny cathedral has a catacombs?
+      pl: Ta maleńka katedra ma katakumby?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6bf5392acedf9cf46d58
+      kontekst: textscripts.cathedral_vicar:line:41
+      linia: 41
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Well, it sounds nicer than ''basement''.'
+      pl: '...Brzmi lepiej niż „piwnica”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3d8a2556549defc3bf0a
+      kontekst: textscripts.cathedral_vicar:line:42
+      linia: 42
+      sekcja_skryptu: takequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are they particularly important ashes?
+      pl: To szczególnie ważne prochy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tq2
+    wpisy:
+    - id: sol_4916f3d2f92f1a8659c3
+      kontekst: textscripts.cathedral_vicar:line:46
+      linia: 46
+      sekcja_skryptu: tq2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Are they particularly important ashes? A saint or someone?
+      pl: To szczególnie ważne prochy? Świętego czy kogoś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f3dca3f5d92ad858c9e3
+      kontekst: textscripts.cathedral_vicar:line:47
+      linia: 47
+      sekcja_skryptu: tq2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh my goodness, we wouldn't keep the relics of a saint in a little cathedral like this. Our urns are just the ashes of former vicars
+        and community leaders and so on. But they're all important in their own way! And the Bishop is due to arrive for an inspection soon!
+      pl: Wielkie nieba, nie trzymalibyśmy relikwii świętego w tak małej katedrze. To tylko prochy byłych wikariuszy, przywódców społeczności
+        i tak dalej. Ale wszystkie są ważne na swój sposób! A biskup ma niebawem przybyć na inspekcję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6c5d2a16db833a58e9ff
+      kontekst: textscripts.cathedral_vicar:line:48
+      linia: 48
+      sekcja_skryptu: tq2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Funny how bishops always seem to be just about to arrive for an inspection somewhere.
+      pl: Zabawne, jak biskupi zawsze mają zaraz przybyć gdzieś na inspekcję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19169240035e474f1c0c
+      kontekst: textscripts.cathedral_vicar:line:49
+      linia: 49
+      sekcja_skryptu: tq2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What?
+      pl: Co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2d0806854ca1fc085b49
+      kontekst: textscripts.cathedral_vicar:line:50
+      linia: 50
+      sekcja_skryptu: tq2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll look into it for you. [side quest]
+      pl: Zajmę się tym. [zadanie poboczne]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1e6605d7d60fff0b8c58
+      kontekst: textscripts.cathedral_vicar:line:51
+      linia: 51
+      sekcja_skryptu: tq2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, the lord helps those who help themselves.
+      pl: No cóż, Pan Bóg pomaga tym, którzy sami sobie pomagają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takereal
+    wpisy:
+    - id: sol_0c2eb6f2aa13129a66e0
+      kontekst: textscripts.cathedral_vicar:line:57
+      linia: 57
+      sekcja_skryptu: takereal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, thank you so much! Here, I'll unlock the door so you can have a look. Mind your step on the way down, please -- those stairs are
+        old and steep.
+      pl: Och, bardzo dziękuję! Otworzę drzwi, żebyś mógł się rozejrzeć. Proszę uważać przy schodzeniu — schody są stare i strome.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e6b8b53c9c2f6063f121
+      kontekst: textscripts.cathedral_vicar:line:58
+      linia: 58
+      sekcja_skryptu: takereal
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All right
+      pl: Dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hasquest
+    wpisy:
+    - id: sol_9bcfdadd7b740fd9d6bd
+      kontekst: textscripts.cathedral_vicar:line:63
+      linia: 63
+      sekcja_skryptu: hasquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, it's you! Have you found our missing ashes yet?
+      pl: Och, to znowu ty! Znalazłeś już nasze zaginione prochy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ef1e5975484c51c8525a
+      kontekst: textscripts.cathedral_vicar:line:65
+      linia: 65
+      sekcja_skryptu: hasquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin
+    wpisy:
+    - id: sol_a5c757090150b1db15c2
+      kontekst: textscripts.cathedral_vicar:line:72
+      linia: 72
+      sekcja_skryptu: turnin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wonderful! I'll get this polished and reinstalled right away. Blessings upon you, my child!
+      pl: Wspaniale! Natychmiast ją wypoleruję i ustawię na miejscu. Niech cię Bóg błogosławi, moje dziecko!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_44d8858aaf0f2c4616d4
+      kontekst: textscripts.cathedral_vicar:line:73
+      linia: 73
+      sekcja_skryptu: turnin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: In fact, let me make that blessing literal. I have some holy water of Saint Polycarp here somewhere... ah, here we go.
+      pl: Właściwie uczynię to błogosławieństwo dosłownym. Gdzieś tutaj mam wodę święconą świętego Polikarpa... o, jest.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a15a5588eb9c6fcc4bb3
+      kontekst: textscripts.cathedral_vicar:line:74
+      linia: 74
+      sekcja_skryptu: turnin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes out a little bottle of water and splashes some on your forehead.
+      pl: Wyciąga małą buteleczkę i chlapie ci wodą na czoło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.cathedral_vicar:line:78
+      linia: 78
+      sekcja_skryptu: turnin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_6fd09833fe338e3ad733
+      kontekst: textscripts.cathedral_vicar:line:79
+      linia: 79
+      sekcja_skryptu: turnin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Aieee, it burns! Nah, just kidding.
+      pl: Aaaa, parzy! Nie, tylko żart.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin2
+    wpisy:
+    - id: sol_f550d47e4e4e7567dcb3
+      kontekst: textscripts.cathedral_vicar:line:85
+      linia: 85
+      sekcja_skryptu: turnin2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Say... whose ashes are in that urn, anyway?
+      pl: A tak właściwie, czyje prochy są w tej urnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_797082120d6451579c18
+      kontekst: textscripts.cathedral_vicar:line:86
+      linia: 86
+      sekcja_skryptu: turnin2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Unfortunately we don't know his name, but he was a sailor who washed ashore near here after a shipwreck. Some of the locals took him
+        in, but he didn't survive the night, poor fellow. He was interred here as an act of charity.
+      pl: Niestety nie znamy jego imienia. Był marynarzem wyrzuconym na brzeg po katastrofie statku. Miejscowi go przygarnęli, ale biedak nie
+        przeżył nocy. Pochowano go tutaj w akcie miłosierdzia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_587cc3fbd782f76dba92
+      kontekst: textscripts.cathedral_vicar:line:87
+      linia: 87
+      sekcja_skryptu: turnin2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Was that about fifty years ago, give or take?
+      pl: Jakieś pięćdziesiąt lat temu, plus minus?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_67135887a7eee15c0269
+      kontekst: textscripts.cathedral_vicar:line:88
+      linia: 88
+      sekcja_skryptu: turnin2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no, it was more like three hundred years ago.
+      pl: Och nie, raczej trzysta lat temu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_71d940c29779dcb125a9
+      kontekst: textscripts.cathedral_vicar:line:90
+      linia: 90
+      sekcja_skryptu: turnin2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh. Interesting.
+      pl: Hm. Ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnout
+    wpisy:
+    - id: sol_aa3db25230b7ca4020c9
+      kontekst: textscripts.cathedral_vicar:line:95
+      linia: 95
+      sekcja_skryptu: turnout
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Please hurry, the Bishop will be here any minute!
+      pl: Proszę się pospieszyć, biskup zjawi się lada chwila!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f6204dec65ab1c35da71
+      kontekst: textscripts.cathedral_vicar:line:96
+      linia: 96
+      sekcja_skryptu: turnout
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, don't get your rosary in a knot.
+      pl: Dobrze, tylko niech ojciec nie zaplącze się w różaniec.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goodboy
+    wpisy:
+    - id: sol_f845c6cf7bc3834a38ed
+      kontekst: textscripts.cathedral_vicar:line:102
+      linia: 102
+      sekcja_skryptu: goodboy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thank you again for your help, my child.
+      pl: Jeszcze raz dziękuję za pomoc, moje dziecko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: holywater
+    wpisy:
+    - id: sol_56520bae0606aebf0763
+      kontekst: textscripts.cathedral_vicar:line:109
+      linia: 109
+      sekcja_skryptu: holywater
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Speaking of help, Father, I've got some vampires to deal with, and I was wondering if you could spare some holy water?
+      pl: Skoro mowa o pomocy, ojcze, mam problem z wampirami i przydałoby mi się trochę wody święconej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_730021ce5bb05d55612d
+      kontekst: textscripts.cathedral_vicar:line:110
+      linia: 110
+      sekcja_skryptu: holywater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Certainly! Our font is right over there, please help yourself!
+      pl: Oczywiście! Nasza chrzcielnica jest tuż obok, częstuj się!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2259bc463c4bc6aac860
+      kontekst: textscripts.cathedral_vicar:line:111
+      linia: 111
+      sekcja_skryptu: holywater
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, the thing is, I need a <i>whole lot</i> of it. Enough to fill an industrial boiler. So like... about a hundred gallons?
+      pl: Rzecz w tym, że potrzeba jej <i>bardzo dużo</i>. Tyle, by napełnić przemysłowy kocioł. Czyli... jakieś sto galonów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ccd410ca2a928a961472
+      kontekst: textscripts.cathedral_vicar:line:112
+      linia: 112
+      sekcja_skryptu: holywater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My goodness me. Well, if you can provide the water, I can bless it for you? I can also do ice, if that's more convenient. I believe
+        it would work out to... about fifteen cubic feet?
+      pl: Wielkie nieba. Cóż, jeśli dostarczysz wodę, mogę ją poświęcić. Lód również, jeśli tak będzie wygodniej. To byłoby chyba... około piętnastu
+        stóp sześciennych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a96b6129adc8e0c34d2a
+      kontekst: textscripts.cathedral_vicar:line:114
+      linia: 114
+      sekcja_skryptu: holywater
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm. A hundred gallons of water or fifteen cubic feet of ice.
+      pl: Hm. Sto galonów wody albo piętnaście stóp sześciennych lodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8cec5e0a070b992aac38
+      kontekst: textscripts.cathedral_vicar:line:116
+      linia: 116
+      sekcja_skryptu: holywater
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Guess I'll start looking.
+      pl: Pora zacząć szukać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: funeral
+    wpisy:
+    - id: sol_18c4cfc4a1941f041f40
+      kontekst: textscripts.cathedral_vicar:line:120
+      linia: 120
+      sekcja_skryptu: funeral
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This might be a weird question, Father, but I was reading about a funeral that happened here, eleven years ago -- could I ask you about
+        it?
+      pl: To może dziwne pytanie, ojcze, ale czytałem o pogrzebie, który odbył się tutaj jedenaście lat temu. Mogę o niego zapytać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2e30bba9ee338d762255
+      kontekst: textscripts.cathedral_vicar:line:121
+      linia: 121
+      sekcja_skryptu: funeral
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm sorry, I hardly think I'd be able to tell you much about one from so long ago.
+      pl: Wybacz, ale wątpię, bym pamiętał wiele o pogrzebie sprzed tak dawna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8ff5e9944ee243d49c4e
+      kontekst: textscripts.cathedral_vicar:line:122
+      linia: 122
+      sekcja_skryptu: funeral
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This one was distinctive, there was a strange barn explosion...
+      pl: Ten był charakterystyczny. Doszło do dziwnego wybuchu stodoły...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b05b9343596298740297
+      kontekst: textscripts.cathedral_vicar:line:123
+      linia: 123
+      sekcja_skryptu: funeral
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! I <i>do</i> know the one you mean! I got into an argument with the man who printed the memorial cards for me. They all came out
+        smudged, but he swore his type was in perfect condition. "You'd better stick to <i>fonts</i>, Father, and leave the <i>fonts</i> to me,"
+        he said. I nearly succumbed to the cardinal sin of Wrath.
+      pl: Och! <i>Wiem</i>, o który chodzi! Pokłóciłem się z drukarzem kart pamiątkowych. Wszystkie wyszły rozmazane, ale zarzekał się, że jego
+        czcionki są w idealnym stanie. „Niech ojciec trzyma się <i>chrzcielnic</i>, a <i>czcionki</i> zostawi mnie”, powiedział. O mało nie uległem
+        kardynalnemu grzechowi Gniewu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3db303f58405c86b4e18
+      kontekst: textscripts.cathedral_vicar:line:124
+      linia: 124
+      sekcja_skryptu: funeral
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you still have any of those cards?
+      pl: Zostały ojcu jakieś karty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: funeral2
+    wpisy:
+    - id: sol_d8f22c788c5d8b567d2e
+      kontekst: textscripts.cathedral_vicar:line:129
+      linia: 129
+      sekcja_skryptu: funeral2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why yes, I believe so. One moment, please...
+      pl: Tak, chyba tak. Chwileczkę...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_964a91ea28f8c2285272
+      kontekst: textscripts.cathedral_vicar:line:130
+      linia: 130
+      sekcja_skryptu: funeral2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He leaves, then returns after a while and hands you one of the cards.
+      pl: Odchodzi, a po pewnym czasie wraca i wręcza ci kartę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e974348da7b4098a186c
+      kontekst: textscripts.cathedral_vicar:line:132
+      linia: 132
+      sekcja_skryptu: funeral2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It was a nice funeral, though quite small -- only a few neighbors. I heard someone grumble about the couple's daughter not attending,
+        but that isn't so unusual. Poor girl must have been distraught, I assume.
+      pl: Pogrzeb był ładny, choć niewielki — przyszło tylko kilku sąsiadów. Ktoś narzekał, że córka zmarłych się nie zjawiła, ale to nic niezwykłego. Biedna dziewczyna musiała być zdruzgotana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.cathedral_vicar:line:134
+      linia: 134
+      sekcja_skryptu: funeral2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: icereturn
+    wpisy:
+    - id: sol_e51df623135b05b9a534
+      kontekst: textscripts.cathedral_vicar:line:138
+      linia: 138
+      sekcja_skryptu: icereturn
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, hello again, my child. Were you able to find that large quantity of water you were looking for?
+      pl: Ach, witaj ponownie, moje dziecko. Udało ci się znaleźć tę wielką ilość wody?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goticealready
+    wpisy:
+    - id: sol_67489454d6db9ce4c07f
+      kontekst: textscripts.cathedral_vicar:line:144
+      linia: 144
+      sekcja_skryptu: goticealready
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I just so happen to have a block of ice...
+      pl: Tak się składa, że mam blok lodu...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goticenow
+    wpisy:
+    - id: sol_d2999063a89b5e6da653
+      kontekst: textscripts.cathedral_vicar:line:150
+      linia: 150
+      sekcja_skryptu: goticenow
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yep, I've got a fifteen cubic foot block of ice with me right here, Father.
+      pl: Tak, mam tutaj blok lodu o objętości piętnastu stóp sześciennych, ojcze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ceremony
+    wpisy:
+    - id: sol_c90da2ac6a1eb437d183
+      kontekst: textscripts.cathedral_vicar:line:156
+      linia: 156
+      sekcja_skryptu: ceremony
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You set the block of ice down with a <i>thud.</i>
+      pl: Stawiasz blok lodu z głośnym <i>łup.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_34f01e81a32a6d798661
+      kontekst: textscripts.cathedral_vicar:line:157
+      linia: 157
+      sekcja_skryptu: ceremony
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why, so you do! All right, I'll be happy to bless this for you.
+      pl: Faktycznie! Dobrze, chętnie go pobłogosławię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eb3135aa64e8577b8da2
+      kontekst: textscripts.cathedral_vicar:line:158
+      linia: 158
+      sekcja_skryptu: ceremony
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He mumbles under his breath and makes some religious gestures at the huge block of ice.
+      pl: Mamrocze coś pod nosem i wykonuje religijne gesty nad ogromnym blokiem lodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_503c94d65de6b3325374
+      kontekst: textscripts.cathedral_vicar:line:159
+      linia: 159
+      sekcja_skryptu: ceremony
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There you go. As holy a block of ice as I've ever seen.
+      pl: Proszę bardzo. Świętszego bloku lodu w życiu nie widziałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c820cc815f88006b8da0
+      kontekst: textscripts.cathedral_vicar:line:162
+      linia: 162
+      sekcja_skryptu: ceremony
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Father!
+      pl: Dzięki, ojcze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: noticenow
+    wpisy:
+    - id: sol_c1de7edee01722069e55
+      kontekst: textscripts.cathedral_vicar:line:167
+      linia: 167
+      sekcja_skryptu: noticenow
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I'm still looking. I just stopped back in here to see if I got lucky and some happened to show up unexpectedly.
+      pl: Nie, nadal szukam. Wpadam tylko sprawdzić, czy przypadkiem nie pojawiła się sama.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_45c7cc701ff5ebb37186
+      kontekst: textscripts.cathedral_vicar:line:168
+      linia: 168
+      sekcja_skryptu: noticenow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mmm, I'm afraid not.
+      pl: Hm, obawiam się, że nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c73b536ea83a82516e4c
+      kontekst: textscripts.cathedral_vicar:line:169
+      linia: 169
+      sekcja_skryptu: noticenow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Darn.
+      pl: Kurczę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

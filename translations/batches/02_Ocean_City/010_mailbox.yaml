@@ -1,0 +1,1028 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: mailbox
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 3
+liczba_wpisow: 63
+sceny:
+- kolejnosc_w_danych_gry: 2460
+  skrypt: mailbox_exitpopup
+  pomieszczenie:
+    id: mailbox
+    nazwa_en: '@map1_name_mailbox@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8ef0eb4405331025fa03
+      kontekst: textscripts.mailbox_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Neither snow nor rain nor heat nor gloom of night will keep you from leaving here, if you want to.
+      pl: Ani śnieg, ani deszcz, ani upał, ani mrok nocy nie powstrzymają cię przed odejściem, jeśli chcesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_77cd8e13e8745c378bf7
+      kontekst: textscripts.mailbox_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I do
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2461
+  skrypt: mailbox_marvin
+  pomieszczenie:
+    id: mailbox
+    nazwa_en: '@map1_name_mailbox@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 44
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_836a1362a514c39b582c
+      kontekst: textscripts.mailbox_marvin:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Marvin is still on the mailbox, but thanks to you, he's no longer hungry.
+      pl: Marvin nadal siedzi na skrzynce pocztowej, ale dzięki tobie nie jest już głodny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.mailbox_marvin:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_cab5c4bd8b891ad7d5e0
+      kontekst: textscripts.mailbox_marvin:line:19
+      linia: 19
+      sekcja_skryptu: intro
+      typ: addproperty
+      mowca_lub_kanal: kanal_addproperty
+      en: Marvin's Mailbox
+      pl: Skrzynka pocztowa Marvina
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7d7b23a92ca27de7b79d
+      kontekst: textscripts.mailbox_marvin:line:21
+      linia: 21
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guy reaches down from his perch to shake your hand.
+      pl: Facet wychyla się ze swojej grzędy, żeby uścisnąć ci dłoń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f788e742cf1af9c74fab
+      kontekst: textscripts.mailbox_marvin:line:23
+      linia: 23
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi, I'm Marvin.
+      pl: Cześć, jestem Marvin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5e2ce720ef0fe7e505d1
+      kontekst: textscripts.mailbox_marvin:line:25
+      linia: 25
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi Marvin, I'm @firstname@. What are you doing up there?
+      pl: Cześć, Marvin. Jestem @firstname@. Co robisz tam na górze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad88677c8f0421a29c35
+      kontekst: textscripts.mailbox_marvin:line:26
+      linia: 26
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A stunt!
+      pl: Wyczyn!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_036d2f5070615d5e295d
+      kontekst: textscripts.mailbox_marvin:line:27
+      linia: 27
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: A stunt? It doesn't seem particularly stunty, you're just sitting there.
+      pl: Wyczyn? Niezbyt to wyczynowate, po prostu tam siedzisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_47a401b86bf151ecb97b
+      kontekst: textscripts.mailbox_marvin:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, but I've been sitting here for--
+      pl: Tak, ale siedzę tutaj od...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_459c50ad4c37cfe20d36
+      kontekst: textscripts.mailbox_marvin:line:29
+      linia: 29
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks at his watch.
+      pl: Patrzy na zegarek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c7e8be93bb0d1153896e
+      kontekst: textscripts.mailbox_marvin:line:30
+      linia: 30
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: --seven months, fifteen days, nine hours, aaaaaand... forty-one minutes!
+      pl: '...siedmiu miesięcy, piętnastu dni, dziewięciu godzin iiiii... czterdziestu jeden minut!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e012723ce4c293ce53a2
+      kontekst: textscripts.mailbox_marvin:line:31
+      linia: 31
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Why?'
+      pl: '...Dlaczego?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_02b396db3429af8309d0
+      kontekst: textscripts.mailbox_marvin:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Bye.'
+      pl: '...Cześć.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_2c7c8591b9045c491ee5
+      kontekst: textscripts.mailbox_marvin:line:37
+      linia: 37
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why? It's a stunt!
+      pl: Dlaczego? To wyczyn!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b05b2a4b7d5c28ae4e8f
+      kontekst: textscripts.mailbox_marvin:line:38
+      linia: 38
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, but... are you protesting something, or trying to attract attention to some kind of cause?
+      pl: Dobrze, ale... protestujesz przeciwko czemuś albo próbujesz zwrócić uwagę na jakąś sprawę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ec589973992c00291fb
+      kontekst: textscripts.mailbox_marvin:line:39
+      linia: 39
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_12cf1010664710037abf
+      kontekst: textscripts.mailbox_marvin:line:40
+      linia: 40
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you have money riding on this? Is it for a bet, or a contest?
+      pl: Założyłeś się o pieniądze? To zakład albo konkurs?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ec589973992c00291fb
+      kontekst: textscripts.mailbox_marvin:line:41
+      linia: 41
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_7c0ed7c38e71caf2c7ff
+      kontekst: textscripts.mailbox_marvin:line:43
+      linia: 43
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I feel like you don't really get the concept of a stunt.
+      pl: Chyba nie rozumiesz koncepcji wyczynu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d5f0326875a3f13416ae
+      kontekst: textscripts.mailbox_marvin:line:44
+      linia: 44
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I guess not.
+      pl: Chyba nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_eae17b943d5539b1f44e
+      kontekst: textscripts.mailbox_marvin:line:54
+      linia: 54
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Say, would you mind helping me out with something?
+      pl: Hej, możesz mi w czymś pomóc?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b74ba8763a246565bd98
+      kontekst: textscripts.mailbox_marvin:line:55
+      linia: 55
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, what's up? [side quest]
+      pl: Pewnie, o co chodzi? [zadanie poboczne]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b2842d465e7a1d04b4a
+      kontekst: textscripts.mailbox_marvin:line:58
+      linia: 58
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Any luck getting those Snackle Cakes? I'm really jonesing for... whatever it is they used for frosting.
+      pl: Udało ci się zdobyć Chrup-Babeczki? Naprawdę marzę o... czymkolwiek, z czego robili polewę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4803c04758878ebfb53e
+      kontekst: textscripts.mailbox_marvin:line:65
+      linia: 65
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I have to go. See you around.
+      pl: Muszę iść. Do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: sol_7c4861699e6a35afbf9e
+      kontekst: textscripts.mailbox_marvin:line:71
+      linia: 71
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I've mainly been eating Snackle Cakes while I've been up here, and I'm out. Can you go grab some more for me?
+      pl: Siedząc tutaj, żywię się głównie Chrup-Babeczkami, a zapasy się skończyły. Możesz przynieść więcej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab6e582b28a46f13c32a
+      kontekst: textscripts.mailbox_marvin:line:72
+      linia: 72
+      sekcja_skryptu: takequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Snackle Cakes? Ugh, are you serious?
+      pl: Chrup-Babeczki? Uch, poważnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest2
+    wpisy:
+    - id: sol_b2133f8ff80b375a576c
+      kontekst: textscripts.mailbox_marvin:line:76
+      linia: 76
+      sekcja_skryptu: takequest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'll admit, they're an acquired taste.
+      pl: Przyznaję, trzeba się do nich przekonać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a25222469b8230ad6e2
+      kontekst: textscripts.mailbox_marvin:line:77
+      linia: 77
+      sekcja_skryptu: takequest2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And I guess nobody other than you wanted to acquire the taste of powdered milk mixed with sawdust with the nails still in it, because
+        Snackle Mills went out of business years ago.
+      pl: I chyba poza tobą nikt nie chciał przekonywać się do smaku mleka w proszku zmieszanego z trocinami, w których nadal są gwoździe, bo Młyny Chrup-Chrup upadły lata temu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a7d4ea5bd8c58af58d8e
+      kontekst: textscripts.mailbox_marvin:line:78
+      linia: 78
+      sekcja_skryptu: takequest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, but the shelf-life on those things is incredible. It's what makes them so good for stunt rations. I got my supply from Hiram's
+        Grocery down the street, could you go pick me up some more?
+      pl: Tak, ale termin przydatności tych rzeczy jest niesamowity. Dlatego świetnie nadają się na prowiant do wyczynów. Kupowałem je w sklepie
+        Hirama kawałek dalej. Możesz przynieść mi więcej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_56350c60ac2fb3c64a9f
+      kontekst: textscripts.mailbox_marvin:line:81
+      linia: 81
+      sekcja_skryptu: takequest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, okay. I'll be right back.
+      pl: Dobrze, zaraz wrócę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: closed
+    wpisy:
+    - id: sol_6be0830d94a320f9cc00
+      kontekst: textscripts.mailbox_marvin:line:86
+      linia: 86
+      sekcja_skryptu: closed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did... did you look around inside? There must still be some Snackle Cakes in there!
+      pl: Czy... zajrzałeś do środka? Muszą tam jeszcze być jakieś Chrup-Babeczki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b8949aca760c6f1db73d
+      kontekst: textscripts.mailbox_marvin:line:87
+      linia: 87
+      sekcja_skryptu: closed
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well...
+      pl: Cóż...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6af6cf10aedaaf00ce22
+      kontekst: textscripts.mailbox_marvin:line:88
+      linia: 88
+      sekcja_skryptu: closed
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He starts to scratch at his arms.
+      pl: Zaczyna drapać się po ramionach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2d4eeeabc01e3f8eaa23
+      kontekst: textscripts.mailbox_marvin:line:89
+      linia: 89
+      sekcja_skryptu: closed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Look, I don't want to come off as... <i>obsessed</i> or anything, but I really need some Snackle Cakes.
+      pl: Słuchaj, nie chcę zabrzmieć na... <i>obsesyjnego</i>, ale naprawdę potrzebuję Chrup-Babeczek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37838cd1cc6c03bca7e9
+      kontekst: textscripts.mailbox_marvin:line:90
+      linia: 90
+      sekcja_skryptu: closed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, stay calm. I'll be back.
+      pl: Dobrze, zachowaj spokój. Wrócę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: factory
+    wpisy:
+    - id: sol_17a4502de83fb8b5df55
+      kontekst: textscripts.mailbox_marvin:line:95
+      linia: 95
+      sekcja_skryptu: factory
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah?
+      pl: Naprawdę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6fb506bf11dd569f73ae
+      kontekst: textscripts.mailbox_marvin:line:96
+      linia: 96
+      sekcja_skryptu: factory
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, an invoice from the Snackle Mills factory. There might be some over there, I guess?
+      pl: Tak, faktura z fabryki Młynów Chrup-Chrup. Może jakieś tam zostały?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_049a0fea292fd4c3e06a
+      kontekst: textscripts.mailbox_marvin:line:97
+      linia: 97
+      sekcja_skryptu: factory
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He just stares at you wide-eyed as if the next step should be obvious.
+      pl: Tylko patrzy szeroko otwartymi oczami, jakby następny krok był oczywisty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_67a9d20446d6127b8d94
+      kontekst: textscripts.mailbox_marvin:line:98
+      linia: 98
+      sekcja_skryptu: factory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, all right. I'll be back.
+      pl: Dobrze już, dobrze. Wrócę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin
+    wpisy:
+    - id: sol_48d5fd784b03a4a042f2
+      kontekst: textscripts.mailbox_marvin:line:103
+      linia: 103
+      sekcja_skryptu: turnin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks a million! Here, take some Meat for the cakes, and also I'll give you some sitting tips.
+      pl: Wielkie dzięki! Masz trochę Mięsa za ciastka, a do tego parę porad dotyczących siedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_476c41dedbf7883f4d28
+      kontekst: textscripts.mailbox_marvin:line:108
+      linia: 108
+      sekcja_skryptu: turnin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Marvin. See you around.
+      pl: Dzięki, Marvin. Do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnout
+    wpisy:
+    - id: sol_511c1d2ebbf253f7c9c2
+      kontekst: textscripts.mailbox_marvin:line:113
+      linia: 113
+      sekcja_skryptu: turnout
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks disappointed.
+      pl: Wygląda na rozczarowanego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f288a5c30a9ed88c05a7
+      kontekst: textscripts.mailbox_marvin:line:115
+      linia: 115
+      sekcja_skryptu: turnout
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw jeez, I'm gonna get the Snackle Cake Shakes before long.
+      pl: O rany, niedługo dopadną mnie Dreszcze po Chrup-Babeczkach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea42f22a6477a71dc86c
+      kontekst: textscripts.mailbox_marvin:line:116
+      linia: 116
+      sekcja_skryptu: turnout
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll keep looking.
+      pl: Będę szukać dalej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4631
+  skrypt: world_randomdoor
+  pomieszczenie:
+    id: mailbox
+    nazwa_en: '@map1_name_mailbox@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_74d6dc1d2599d07dee91
+      kontekst: textscripts.world_randomdoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a random stranger's door.
+      pl: To drzwi jakiegoś nieznajomego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d3fc5931eeec28f28d2b
+      kontekst: textscripts.world_randomdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock on it
+      pl: Zapukaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knockknock
+    wpisy:
+    - id: sol_d33611d38d3e2fbe988c
+      kontekst: textscripts.world_randomdoor:line:13
+      linia: 13
+      sekcja_skryptu: knockknock
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Who's there?
+      pl: Kto tam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:17
+      linia: 17
+      sekcja_skryptu: knockknock
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie losujące pierwszy człon dowcipu „puk, puk”; pozostawiono bez zmian. Sprawdzić polskie warianty
+        danych generatora.'
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:18
+      linia: 18
+      sekcja_skryptu: knockknock
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:19
+      linia: 19
+      sekcja_skryptu: knockknock
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:20
+      linia: 20
+      sekcja_skryptu: knockknock
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:21
+      linia: 21
+      sekcja_skryptu: knockknock
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: who
+    wpisy:
+    - id: sol_9e524ae574f6940bf914
+      kontekst: textscripts.world_randomdoor:line:28
+      linia: 28
+      sekcja_skryptu: who
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: $lastoption$ who?
+      pl: $lastoption$ kto?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Konstrukcja zależy od losowego członu dowcipu „puk, puk”; sprawdzić składnię wszystkich wygenerowanych wariantów.'
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:31
+      linia: 31
+      sekcja_skryptu: who
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:32
+      linia: 32
+      sekcja_skryptu: who
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:33
+      linia: 33
+      sekcja_skryptu: who
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:34
+      linia: 34
+      sekcja_skryptu: who
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_34a185334905b8d44c3f
+      kontekst: textscripts.world_randomdoor:line:35
+      linia: 35
+      sekcja_skryptu: who
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: poprandom()
+      pl: poprandom()
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: thatswho
+    wpisy:
+    - id: sol_ca2266ce2eb518d82612
+      kontekst: textscripts.world_randomdoor:line:38
+      linia: 38
+      sekcja_skryptu: thatswho
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: $first$ $lastoption$.
+      pl: $first$ $lastoption$.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $first$
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Puenta jest składana z dwóch tokenów. Sprawdzić komplet losowanych wariantów i szyk PL.'
+    - id: sol_594c996d6afa80535170
+      kontekst: textscripts.world_randomdoor:line:39
+      linia: 39
+      sekcja_skryptu: thatswho
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, I don't know anyone named $first$ $lastoption$.
+      pl: Przykro mi, nie znam nikogo, kto nazywa się $first$ $lastoption$.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $first$
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Wypowiedź zależy od dwóch losowanych tokenów; sprawdzić wszystkie kombinacje w silniku.'
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.world_randomdoor:line:40
+      linia: 40
+      sekcja_skryptu: thatswho
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

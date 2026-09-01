@@ -1,0 +1,3062 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: frat1
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 41
+liczba_wpisow: 166
+sceny:
+- kolejnosc_w_danych_gry: 5060
+  skrypt: autoscript__frat1__trashcan__popup
+  pomieszczenie:
+    id: frat1
+    nazwa_en: Zeta Omega Omicron
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_00d0d10202cd30091f09
+      kontekst: textscripts.autoscript__frat1__trashcan__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This trash can is sparklingly clean, probably from years of disuse.
+      pl: Ten kosz lśni czystością, zapewne dlatego, że od lat nikt go nie używał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1592
+  skrypt: frat1_bugnode
+  pomieszczenie:
+    id: frat1
+    nazwa_en: Zeta Omega Omicron
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_39bfab04e7f2f7180eba
+      kontekst: textscripts.frat1_bugnode:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some very muscular flies are buzzing around a pile of discarded protein powder.
+      pl: Bardzo umięśnione muchy bzyczą wokół sterty wyrzuconej odżywki białkowej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_7f0f8c67cffca6eb5115
+      kontekst: textscripts.frat1_bugnode:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Impressed by your grit, the flies give you some of theirs.
+      pl: Pod wrażeniem twojego hartu muchy oddają ci trochę własnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1596
+  skrypt: frat1_entrance
+  pomieszczenie:
+    id: frat1
+    nazwa_en: Zeta Omega Omicron
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f00468456a8656488c95
+      kontekst: textscripts.frat1_entrance:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It sounds like a raucous party is happening inside here.
+      pl: Ze środka dobiegają odgłosy hucznej imprezy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0773da427e04082a2a56
+      kontekst: textscripts.frat1_entrance:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Join it
+      pl: Dołącz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1598
+  skrypt: frat1_exitpopup
+  pomieszczenie:
+    id: frat1
+    nazwa_en: Zeta Omega Omicron
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_687574f9e7d3b751f291
+      kontekst: textscripts.frat1_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Leave this trash heap of a fraternity house?
+      pl: Opuścić ten śmietnik udający dom bractwa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_108fe3305b3cd848090d
+      kontekst: textscripts.frat1_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, please
+      pl: Tak, poproszę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1607
+  skrypt: frat1_goright
+  pomieszczenie:
+    id: frat1
+    nazwa_en: Zeta Omega Omicron
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f4eacb61feb987e34d5b
+      kontekst: textscripts.frat1_goright:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check it out
+      pl: Obejrzyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5061
+  skrypt: autoscript__frat1_basement__barrels__popup
+  pomieszczenie:
+    id: frat1_basement
+    nazwa_en: Zeta Omega Omicron (Basement)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0ce485dc83330635b384
+      kontekst: textscripts.autoscript__frat1_basement__barrels__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't trust any organization that stockpiles this much margarine.
+      pl: Nie ufasz żadnej organizacji, która gromadzi takie zapasy margaryny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5062
+  skrypt: autoscript__frat1_basement__fusebox__popup
+  pomieszczenie:
+    id: frat1_basement
+    nazwa_en: Zeta Omega Omicron (Basement)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5d032eb28211ff1b8f63
+      kontekst: textscripts.autoscript__frat1_basement__fusebox__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The fuse box has been stuffed full of celery.
+      pl: Skrzynka bezpiecznikowa jest wypchana selerem po brzegi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1587
+  skrypt: frat1_basementexit
+  pomieszczenie:
+    id: frat1_basement
+    nazwa_en: Zeta Omega Omicron (Basement)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ecf36a2528f0441240c1
+      kontekst: textscripts.frat1_basementexit:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Head back upstairs?
+      pl: Wrócić na górę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_03401792b29af2abb232
+      kontekst: textscripts.frat1_basementexit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1610
+  skrypt: frat1_junkshelf
+  pomieszczenie:
+    id: frat1_basement
+    nazwa_en: Zeta Omega Omicron (Basement)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_de49e880902ef6bb7f37
+      kontekst: textscripts.frat1_junkshelf:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Shelves of miscellaneous basement junk.
+      pl: Półki z przypadkowymi gratami z piwnicy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_ee7b3b6630252e0a29e1
+      kontekst: textscripts.frat1_junkshelf:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Score!
+      pl: Jest!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1611
+  skrypt: frat1_manhole
+  pomieszczenie:
+    id: frat1_basement
+    nazwa_en: Zeta Omega Omicron (Basement)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d6f1ff4d8c494adacd6f
+      kontekst: textscripts.frat1_manhole:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a very old manhole cover.
+      pl: Bardzo stara pokrywa włazu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1612
+  skrypt: frat1_manhole_open
+  pomieszczenie:
+    id: frat1_basement
+    nazwa_en: Zeta Omega Omicron (Basement)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1558081f348e17dabe53
+      kontekst: textscripts.frat1_manhole_open:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A ladder leads down through this open manhole.
+      pl: Przez otwarty właz prowadzi w dół drabina.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b5e4b090c6f10bb7abe
+      kontekst: textscripts.frat1_manhole_open:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1620
+  skrypt: frat1_vermouth
+  pomieszczenie:
+    id: frat1_basement
+    nazwa_en: Zeta Omega Omicron (Basement)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ce5365aba555250df5c3
+      kontekst: textscripts.frat1_vermouth:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This drum smells like vermouth.
+      pl: Ta beczka pachnie wermutem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b3142b537fe652b06525
+      kontekst: textscripts.frat1_vermouth:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a closer sniff
+      pl: Powąchaj dokładniej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c082fb560378f54025cc
+      kontekst: textscripts.frat1_vermouth:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yep, it's vermouth.  And you're keeping it.
+      pl: Tak, to wermut. I od teraz należy do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5063
+  skrypt: autoscript__frat1_bathroom__toilet2__popup
+  pomieszczenie:
+    id: frat1_bathroom
+    nazwa_en: Zeta Omega Omicron (Terrible Bathroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_274255c4689ffe969e27
+      kontekst: textscripts.autoscript__frat1_bathroom__toilet2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is just a pile of toilet shards.
+      pl: To tylko sterta odłamków toalety.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5064
+  skrypt: autoscript__frat1_bathroom__toilet3__popup
+  pomieszczenie:
+    id: frat1_bathroom
+    nazwa_en: Zeta Omega Omicron (Terrible Bathroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e9b0bc8b6a8025557f92
+      kontekst: textscripts.autoscript__frat1_bathroom__toilet3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is either a special toilet for a really tall guy named Art, or a toilet hung by a genius.
+      pl: 'To albo specjalna toaleta dla bardzo wysokiego faceta imieniem Art, albo toaleta zawieszona przez geniusza. Tak czy inaczej: wysoka
+        sztuka.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1601
+  skrypt: frat1_fishmenfight
+  pomieszczenie:
+    id: frat1_fishchurch
+    nazwa_en: Fishman Church
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9a8481fc705e036d8b52
+      kontekst: textscripts.frat1_fishmenfight:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These fishmen are acting kind of strange. Well, stranger than usual. Well, as far as you can tell given your limited experience with
+        fishman behavior patterns.
+      pl: Ci ryboludzie zachowują się trochę dziwnie. To znaczy dziwniej niż zwykle. A przynajmniej na tyle, na ile możesz to ocenić przy swojej ograniczonej znajomości wzorców zachowań ryboludzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_38a7418be65a8f2e983c
+      kontekst: textscripts.frat1_fishmenfight:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe it has something to do with that weird altar over there.
+      pl: Może ma to związek z tamtym dziwnym ołtarzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_5929751b420d65d4507f
+      kontekst: textscripts.frat1_fishmenfight:line:15
+      linia: 15
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! That's one... triangle... that won't be bothering any more fishmen!
+      pl: Wygrałeś! Ten... trójkąt... nie będzie już niepokoił ryboludzi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.frat1_fishmenfight:line:19
+      linia: 19
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id002 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_8073f8830a77216fb9d1
+      kontekst: textscripts.frat1_fishmenfight:line:24
+      linia: 24
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Fortunately, if the fishmen are looking for a sacrifice, you don't match their qualifications.
+      pl: Przegrałeś. Na szczęście, jeśli ryboludzie szukają ofiary, nie spełniasz wymagań.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.frat1_fishmenfight:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1604
+  skrypt: frat1_font
+  pomieszczenie:
+    id: frat1_fishchurch
+    nazwa_en: Fishman Church
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2f4bf91ed88d0426085e
+      kontekst: textscripts.frat1_font:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An offering bowl full of jiggly, glistening fishman eggs.
+      pl: Misa ofiarna pełna trzęsących się, lśniących jaj ryboludzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_24dd98a7978c00cb2b1c
+      kontekst: textscripts.frat1_font:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab 'em
+      pl: Zabierz je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_e8664bc2035a20f06bea
+      kontekst: textscripts.frat1_font:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Blech.
+      pl: Blee.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1606
+  skrypt: frat1_glowshroom
+  pomieszczenie:
+    id: frat1_fishchurch
+    nazwa_en: Fishman Church
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5d931b39f2632bf2c3aa
+      kontekst: textscripts.frat1_glowshroom:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You derive some smug satisfaction from recognizing these mushrooms as <i>amanita luminosita</i>.
+      pl: Czerpiesz zadufane zadowolenie z rozpoznania tych grzybów jako <i>amanita luminosita</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1603
+  skrypt: frat1_fishsewerexit
+  pomieszczenie:
+    id: frat1_fishsewer6
+    nazwa_en: Old Sewer (Under Zeta Omega Omicron)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_72c36907450b96c6c405
+      kontekst: textscripts.frat1_fishsewerexit:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A ladder out of this nasty place.
+      pl: Drabina wyprowadzająca z tego paskudnego miejsca.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7a0a146e9f21e6703164
+      kontekst: textscripts.frat1_fishsewerexit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb it
+      pl: Wespnij się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1619
+  skrypt: frat1_toolbox
+  pomieszczenie:
+    id: frat1_fishsewer6
+    nazwa_en: Old Sewer (Under Zeta Omega Omicron)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3341cfdb7c9102bbb07b
+      kontekst: textscripts.frat1_toolbox:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A toolbox abandoned by some sewer worker in the distant past.
+      pl: Skrzynka narzędziowa porzucona w zamierzchłej przeszłości przez pracownika kanalizacji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d3e9dd41a4e0b759cfa1
+      kontekst: textscripts.frat1_toolbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See if it contains presents
+      pl: Sprawdź, czy zawiera prezenty
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_8eecb8e8b2bde93b2341
+      kontekst: textscripts.frat1_toolbox:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Old tools, presumably useful for various sewer-related purposes.
+      pl: Stare narzędzia, zapewne przydatne do różnych prac kanalizacyjnych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5065
+  skrypt: autoscript__frat1_inside__dancer2__popup
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_11ae4a04455e02f209be
+      kontekst: textscripts.autoscript__frat1_inside__dancer2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy is certainly cutting a rug.
+      pl: Ten gość z pewnością tnie dywan. Na szczęście tylko w przenośni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 5066
+  skrypt: autoscript__frat1_inside__dancer3__popup
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3189931ed812b8db9bfb
+      kontekst: textscripts.autoscript__frat1_inside__dancer3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy is still dancing in spite of obvious nausea.
+      pl: Ten gość nadal tańczy mimo wyraźnych mdłości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 5067
+  skrypt: autoscript__frat1_inside__dancer4__popup
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bc681714ad87f8d9727c
+      kontekst: textscripts.autoscript__frat1_inside__dancer4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ahead of his time.
+      pl: Wyprzedza swoje czasy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 5068
+  skrypt: autoscript__frat1_inside__door1__popup
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_725f427a31f1cd67e975
+      kontekst: textscripts.autoscript__frat1_inside__door1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a necktie hanging on the knob of this door, and you refuse to find out what that means.
+      pl: Na klamce tych drzwi wisi krawat, a ty odmawiasz sprawdzenia, co to oznacza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5069
+  skrypt: autoscript__frat1_inside__door2__popup
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e42c157278ebd04c4477
+      kontekst: textscripts.autoscript__frat1_inside__door2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is stuck shut with dried pudding.
+      pl: Te drzwi skleił zaschnięty budyń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1586
+  skrypt: frat1_basementdoor
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7a2f56a216d5498e3dcf
+      kontekst: textscripts.frat1_basementdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The knob of this door is slathered with bacon grease.
+      pl: Klamkę tych drzwi wysmarowano tłuszczem z bekonu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1591
+  skrypt: frat1_breadguy
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1ab541d9a53cf425936f
+      kontekst: textscripts.frat1_breadguy:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just a frat guy doin' a little @frat2_barbecue|grillin',cuein'@. Indoors.
+      pl: Zwykły gość z bractwa oddaje się małemu @frat2_barbecue|grillin',cuein'@. W domu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@frat2_barbecue|grillin'',cuein''@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_cd4f8e94f5bf47561758
+      kontekst: textscripts.frat1_breadguy:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, uh... is it safe to @frat2_barbecue|grill,cue@ indoors like that?
+      pl: Cześć, eee... czy bezpiecznie jest tak @frat2_barbecue|grill,cue@ w pomieszczeniu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@frat2_barbecue|grill,cue@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f5a9c02c5f1b0111479f
+      kontekst: textscripts.frat1_breadguy:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I mean, it's not <i>my</i> house, so... whatever?
+      pl: To nie jest <i>mój</i> dom, więc... wszystko jedno?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b301715c250184fe2f6f
+      kontekst: textscripts.frat1_breadguy:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Fair enough.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eda7bc3c378423502b9c
+      kontekst: textscripts.frat1_breadguy:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Can't really get the taste I'm looking for, though. Say, can I getcha to do me a favor?
+      pl: Tylko nie mogę uzyskać odpowiedniego smaku. Hej, wyświadczysz mi przysługę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_09758cb8b015cd3a5e08
+      kontekst: textscripts.frat1_breadguy:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, what? [side quest]
+      pl: Jasne, jaką? [zadanie poboczne]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_10c1497069d217eb406e
+      kontekst: textscripts.frat1_breadguy:line:26
+      linia: 26
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sure
+    wpisy:
+    - id: sol_8fba09a4c12333102a40
+      kontekst: textscripts.frat1_breadguy:line:31
+      linia: 31
+      sekcja_skryptu: sure
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I got a buddy over at Phi Upsilon Tau, his burgs always come out super good. Some kinda special wood chips or something. Could you go
+        over there and get some for me? I gotta stay here and watch the 'cue.
+      pl: Mam kumpla w Phi Upsilon Tau, którego burgery zawsze wychodzą świetnie. Jakieś specjalne zrębki czy coś. Możesz tam pójść i trochę mi
+        przynieść? Muszę zostać i pilnować grilla.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b55230e09884bc059816
+      kontekst: textscripts.frat1_breadguy:line:34
+      linia: 34
+      sekcja_skryptu: sure
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin
+    wpisy:
+    - id: sol_106a108772c36a751908
+      kontekst: textscripts.frat1_breadguy:line:41
+      linia: 41
+      sekcja_skryptu: turnin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, fantastic! Thanks, @p|bro,babe,pal@!
+      pl: Hej, fantastycznie! Dzięki, @p|bro,babe,pal@!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0b5ec163d0ff305e686c
+      kontekst: textscripts.frat1_breadguy:line:44
+      linia: 44
+      sekcja_skryptu: turnin
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Those are probably gonna make it real smoky in here, though.
+      pl: Ale przez nie zrobi się tutaj naprawdę dużo dymu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_64978efc2b565f8721fa
+      kontekst: textscripts.frat1_breadguy:line:45
+      linia: 45
+      sekcja_skryptu: turnin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha, yeah! That's how you know it's a <i>party!</i> Woooo!
+      pl: Ha, ha, tak! Wtedy wiadomo, że jest <i>impreza!</i> Juhuuu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.frat1_breadguy:line:46
+      linia: 46
+      sekcja_skryptu: turnin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: return
+    wpisy:
+    - id: sol_725d4a238545c33db621
+      kontekst: textscripts.frat1_breadguy:line:51
+      linia: 51
+      sekcja_skryptu: return
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How's your @frat2_barbecue|grillin',cuein'@?
+      pl: Jak idzie @frat2_barbecue|grillin',cuein'@?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@frat2_barbecue|grillin'',cuein''@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7bf7c4cc276faea4a308
+      kontekst: textscripts.frat1_breadguy:line:53
+      linia: 53
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay I guess, but it'll be a lot better if you can get me those wood chips from my buddy at Phi Upsilon Tau.
+      pl: Chyba nieźle, ale pójdzie znacznie lepiej, jeśli przyniesiesz mi te zrębki od kumpla z Phi Upsilon Tau.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4b74b08db9b22f5f2ba2
+      kontekst: textscripts.frat1_breadguy:line:54
+      linia: 54
+      sekcja_skryptu: return
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, right.
+      pl: No tak.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1594
+  skrypt: frat1_dancer
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0ea38b97be05fb98d2a9
+      kontekst: textscripts.frat1_dancer:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: S.I.T. kids dance to a different beat.
+      pl: Dzieciaki z S.I.T. tańczą w innym rytmie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1595
+  skrypt: frat1_dessertcart
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_de921898605676877dcb
+      kontekst: textscripts.frat1_dessertcart:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This dessert cart is cleaner than most of the things near it.
+      pl: Ten wózek z deserami jest czystszy niż większość rzeczy w pobliżu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1c4d3f34d4570c6f4cab
+      kontekst: textscripts.frat1_dessertcart:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check under the cover
+      pl: Zajrzyj pod pokrywę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_25c1b1ca4cea5b62f8d6
+      kontekst: textscripts.frat1_dessertcart:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find some baklava wrapped in a balaklava.
+      pl: Znajdujesz baklawę owiniętą w balaklawę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1605
+  skrypt: frat1_glordo
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 44
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.frat1_glordo:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_7a01b60b01d6039f63e3
+      kontekst: textscripts.frat1_glordo:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How's it going, Glordo?
+      pl: Jak leci, Glordo?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_90eb4c2b39bc4cac9eeb
+      kontekst: textscripts.frat1_glordo:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, y'know. Another day, another flashback to the atrocities of war.
+      pl: Wiesz, kolejny dzień, kolejne wspomnienie wojennych okropności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_7dc3af319788364ee77b
+      kontekst: textscripts.frat1_glordo:line:26
+      linia: 26
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, I'm @firstname@.
+      pl: Cześć, jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d18fec7222c0dc307aa2
+      kontekst: textscripts.frat1_glordo:line:29
+      linia: 29
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '''Sup @p|bro,babe,pal@, I''m Glordo.'
+      pl: Siema, @p|bro,babe,pal@, jestem Glordo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_48173d51fd98d18da0b0
+      kontekst: textscripts.frat1_glordo:line:30
+      linia: 30
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi Glordo. You're really going to town on that training dummy.
+      pl: Cześć, Glordo. Naprawdę ostro traktujesz ten manekin treningowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c360f8b4b3da181463c9
+      kontekst: textscripts.frat1_glordo:line:31
+      linia: 31
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I picked this up in the army.
+      pl: Tak, nauczyłem się tego w wojsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_369b7a90b34ea33273a4
+      kontekst: textscripts.frat1_glordo:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You were in the army?
+      pl: Służyłeś w wojsku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: teamcap
+    wpisy:
+    - id: sol_45fe812c7a31f67fe29e
+      kontekst: textscripts.frat1_glordo:line:36
+      linia: 36
+      sekcja_skryptu: teamcap
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '''Sup @p|bro,babe,pal@, I''m Glordo. ...Hey, wait, did you say @firstname@? You''re the new captain of the Food Fight team!'
+      pl: Siema, @p|bro,babe,pal@, jestem Glordo. ...Hej, chwila, powiedziałeś @firstname@? To ty jesteś nowym kapitanem drużyny Bitwy na Jedzenie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_02778fc9ac8855d14381
+      kontekst: textscripts.frat1_glordo:line:37
+      linia: 37
+      sekcja_skryptu: teamcap
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh, yeah. Yeah, that's true.
+      pl: Eee, tak. To prawda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a5130f5bc873a4a56ed
+      kontekst: textscripts.frat1_glordo:line:38
+      linia: 38
+      sekcja_skryptu: teamcap
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, congrats @p|bro,babe,pal@. I was gonna coach this year, but couldn't handle it 'coz of the flashbacks.
+      pl: Łał, gratulacje, @p|bro,babe,pal@. Miałem w tym roku trenować zespół, ale nie dałem rady przez wspomnienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9cca069315e4f9eda2bd
+      kontekst: textscripts.frat1_glordo:line:39
+      linia: 39
+      sekcja_skryptu: teamcap
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Flashbacks?
+      pl: Wspomnienia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: army
+    wpisy:
+    - id: sol_53be8f26341fedbe908a
+      kontekst: textscripts.frat1_glordo:line:44
+      linia: 44
+      sekcja_skryptu: army
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I was in the Cola Wars. Saw things you wouldn't believe. True horror.
+      pl: Tak, walczyłem w Wojnach Coli. Widziałem rzeczy, w które nie uwierzysz. Prawdziwy koszmar.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9caa7b0deb3e85c3cd56
+      kontekst: textscripts.frat1_glordo:line:45
+      linia: 45
+      sekcja_skryptu: army
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Wait, how old are you?'
+      pl: '...Chwila, ile masz lat?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c2806abc646b89b55e9e
+      kontekst: textscripts.frat1_glordo:line:46
+      linia: 46
+      sekcja_skryptu: army
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thirty-one.
+      pl: Trzydzieści jeden.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_15be3917629bc3db75d9
+      kontekst: textscripts.frat1_glordo:line:47
+      linia: 47
+      sekcja_skryptu: army
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh!
+      pl: Hm!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: army2
+    wpisy:
+    - id: sol_3c328b182f9212b5751c
+      kontekst: textscripts.frat1_glordo:line:51
+      linia: 51
+      sekcja_skryptu: army2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh! Well, I guess that explains your skill with... thrown food. You learned that in the army?
+      pl: Hm! To chyba wyjaśnia twoją biegłość w... rzucaniu jedzeniem. Nauczyłeś się tego w wojsku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e7f5a3b2d25c137e3ce0
+      kontekst: textscripts.frat1_glordo:line:52
+      linia: 52
+      sekcja_skryptu: army2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, 'cept it wasn't so much learning as being experimented on by military scientists with highly dubious ethics, @p|bro,babe,pal@.
+      pl: Tak, choć nie tyle się uczyłem, ile byłem obiektem eksperymentów wojskowych naukowców o wyjątkowo wątpliwej etyce, @p|bro,babe,pal@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2f8f823e66ee2dd0b23d
+      kontekst: textscripts.frat1_glordo:line:53
+      linia: 53
+      sekcja_skryptu: army2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh wow, what'd they do?
+      pl: O rany, co ci zrobili?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d9e6ee3d9bb340586e91
+      kontekst: textscripts.frat1_glordo:line:54
+      linia: 54
+      sekcja_skryptu: army2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Made me drink a bunch of experimental super-soldier syrup. Crazy stuff. I barely remember any of what happened to me, but the nightmares
+        will follow me forever.
+      pl: Kazali mi pić mnóstwo eksperymentalnego syropu superżołnierza. Szalona rzecz. Prawie nie pamiętam, co mi się działo, ale koszmary zostaną
+        ze mną na zawsze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_77c03705bdf8912081c0
+      kontekst: textscripts.frat1_glordo:line:55
+      linia: 55
+      sekcja_skryptu: army2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Jeez.
+      pl: Rany.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lohub
+    wpisy:
+    - id: sol_d1c4cc4b60f47505f26f
+      kontekst: textscripts.frat1_glordo:line:61
+      linia: 61
+      sekcja_skryptu: lohub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So...
+      pl: Więc...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_4607dc0edea8de1beb69
+      kontekst: textscripts.frat1_glordo:line:66
+      linia: 66
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Didja bring my treat, @p|bro,babe,pal@?
+      pl: Przyniosłeś mój smakołyk, @p|bro,babe,pal@?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d03d3130c2c1faa7b7d8
+      kontekst: textscripts.frat1_glordo:line:79
+      linia: 79
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him
+      pl: Zostaw go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: brochure
+    wpisy:
+    - id: sol_a034b9e01c6f724e75fd
+      kontekst: textscripts.frat1_glordo:line:84
+      linia: 84
+      sekcja_skryptu: brochure
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Just practice. I don't compete in the varsity food-fight tournaments any more, but it didn't feel right just letting my skills go to
+        rust, you know?
+      pl: Tylko ćwiczę. Nie startuję już w uniwersyteckich turniejach Bitwy na Jedzenie, ale głupio byłoby pozwolić umiejętnościom zardzewieć, wiesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd42cdec2426d2898d2e
+      kontekst: textscripts.frat1_glordo:line:86
+      linia: 86
+      sekcja_skryptu: brochure
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh huh! You were on the food fighting team?
+      pl: Och! Byłeś w drużynie Bitwy na Jedzenie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ce6ec3f0146ed6a97406
+      kontekst: textscripts.frat1_glordo:line:87
+      linia: 87
+      sekcja_skryptu: brochure
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah @p|bro,babe,pal@, not the team -- I was in the one-versus-one division. I was the national champion two years ago!
+      pl: Nie, @p|bro,babe,pal@, nie w drużynie — w kategorii jeden na jednego. Dwa lata temu zdobyłem mistrzostwo kraju!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_922ead10a90f543f837f
+      kontekst: textscripts.frat1_glordo:line:89
+      linia: 89
+      sekcja_skryptu: brochure
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The varsity whatnow?
+      pl: W uniwersyteckich czym?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c6bdfef204a4a18b871d
+      kontekst: textscripts.frat1_glordo:line:90
+      linia: 90
+      sekcja_skryptu: brochure
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Food fighting! I was in the one-versus-one division. I was the national champion two years ago!
+      pl: Bitwa na Jedzenie! Walczyłem w kategorii jeden na jednego. Dwa lata temu zdobyłem mistrzostwo kraju!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_beede3ac2671d6cc6038
+      kontekst: textscripts.frat1_glordo:line:92
+      linia: 92
+      sekcja_skryptu: brochure
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You don't say!
+      pl: No proszę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a72ca426c4151497f67f
+      kontekst: textscripts.frat1_glordo:line:93
+      linia: 93
+      sekcja_skryptu: brochure
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heck yeah @p|bro,babe,pal@. They stopped doing one-V-one after that. Kinda my fault, actually. Rules didn't say nothin' about coconuts,
+        though.
+      pl: Pewnie, @p|bro,babe,pal@. Potem wycofali kategorię jeden na jednego. Trochę przeze mnie. Ale w regulaminie nie było nic o kokosach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b64b1fdc4d3df4780085
+      kontekst: textscripts.frat1_glordo:line:94
+      linia: 94
+      sekcja_skryptu: brochure
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Jeez.
+      pl: Rety.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: sol_8c96184cbe22e49902f4
+      kontekst: textscripts.frat1_glordo:line:102
+      linia: 102
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The super-soldier syrup? Yeah, I stole a whole case of it on my way out.
+      pl: Syrop superżołnierza? Tak, po drodze ukradłem całą skrzynkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_416895302e13c5d75b7b
+      kontekst: textscripts.frat1_glordo:line:104
+      linia: 104
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why, you thinking of feeding it to the Food Fight team?
+      pl: Dlaczego, chcesz nim nakarmić drużynę Bitwy na Jedzenie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f8b8b3502185bf2dc783
+      kontekst: textscripts.frat1_glordo:line:105
+      linia: 105
+      sekcja_skryptu: takequest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Mmmmmaybe.
+      pl: Mmmmmmoże.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ec21fbb7adde5bf0878a
+      kontekst: textscripts.frat1_glordo:line:107
+      linia: 107
+      sekcja_skryptu: takequest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can I have some?
+      pl: Mogę trochę dostać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dose
+    wpisy:
+    - id: sol_5210dd4c01452f1427ab
+      kontekst: textscripts.frat1_glordo:line:114
+      linia: 114
+      sekcja_skryptu: dose
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heh. Yeah, I can give ya a dose. But not for free, @p|bro,babe,pal@. You gotta bring me... a treat.
+      pl: He. Jasne, dam ci dawkę. Ale nie za darmo, @p|bro,babe,pal@. Musisz przynieść mi... smakołyk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bro,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c895cea9a807be05cfec
+      kontekst: textscripts.frat1_glordo:line:115
+      linia: 115
+      sekcja_skryptu: dose
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: A treat? What kind of treat?
+      pl: Smakołyk? Jaki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fdc78ab79d5cc42df26f
+      kontekst: textscripts.frat1_glordo:line:125
+      linia: 125
+      sekcja_skryptu: dose
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I need $glordowants$ -- $glordonote$
+      pl: Potrzebuję $glordowants$ — $glordonote$
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $glordowants$
+      - $glordonote$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f7c7213edeb67738e5a0
+      kontekst: textscripts.frat1_glordo:line:129
+      linia: 129
+      sekcja_skryptu: dose
+      typ: mapunlock
+      mowca_lub_kanal: odblokowanie_mapy
+      en: Ocean City Boardwalk
+      pl: Promenada w Ocean City
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_38e3b44dd36c477caaa3
+      kontekst: textscripts.frat1_glordo:line:135
+      linia: 135
+      sekcja_skryptu: dose
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Got it.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninquest
+    wpisy:
+    - id: sol_6aa1af7720e919c2e131
+      kontekst: textscripts.frat1_glordo:line:173
+      linia: 173
+      sekcja_skryptu: turninquest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31a06e39e94374ea663b
+      kontekst: textscripts.frat1_glordo:line:174
+      linia: 174
+      sekcja_skryptu: turninquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't mention it. Unless you decide you want more later, in which case... mention it.
+      pl: Nie ma o czym mówić. Chyba że później zechcesz więcej — wtedy jest o czym mówić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d393bad0a33697a6558
+      kontekst: textscripts.frat1_glordo:line:175
+      linia: 175
+      sekcja_skryptu: turninquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You got it.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1613
+  skrypt: frat1_mossysofa
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3de70dd33267b9da2c33
+      kontekst: textscripts.frat1_mossysofa:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This couch has some moss growing on it.
+      pl: Na tej kanapie rośnie mech.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_6353f19a890b39540c60
+      kontekst: textscripts.frat1_mossysofa:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You squeeze the moss and extract some of the hidden nutrients within.
+      pl: Wyciskasz mech i wydobywasz część ukrytych składników odżywczych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1614
+  skrypt: frat1_radio
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: aspopup
+    wpisy:
+    - id: sol_949fefa70d132e1aeb1a
+      kontekst: textscripts.frat1_radio:line:2
+      linia: 2
+      sekcja_skryptu: aspopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The volume on this radio is turned up to an irresponsible level.
+      pl: Głośność tego radia ustawiono na nieodpowiedzialnym poziomie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1615
+  skrypt: frat1_recliner
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ea0bddfb607169fb3293
+      kontekst: textscripts.frat1_recliner:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This recliner has a sign on it that says "FREE" which you assume means something other than it being free of stains.
+      pl: Na tym fotelu wisi tabliczka „WOLNY”, co zapewne oznacza coś innego niż to, że jest wolny od plam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1617
+  skrypt: frat1_stairsup
+  pomieszczenie:
+    id: frat1_inside
+    nazwa_en: Zeta Omega Omicron (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2f9e78e6cbe2a19bac3a
+      kontekst: textscripts.frat1_stairsup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Eurgh, someone's spilled cantaloupe all over the stairs. How does that even happen?
+      pl: Blee, ktoś rozlał po schodach kantalupę. Jak w ogóle do tego dochodzi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_43b2cb9910fbdd84655a
+      kontekst: textscripts.frat1_stairsup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go upstairs
+      pl: Wejdź na górę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1588
+  skrypt: frat1_bathroomdoor
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5ab7bb1bfa40cba597f4
+      kontekst: textscripts.frat1_bathroomdoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can tell from five feet away that this door leads to the bathroom.
+      pl: Już z pięciu stóp wiesz, że te drzwi prowadzą do łazienki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1590
+  skrypt: frat1_bookshelf
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e414b5bec1fb079c6637
+      kontekst: textscripts.frat1_bookshelf:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Most of the books on this shelf have been ruined.
+      pl: Większość książek na tej półce jest zniszczona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_b3db0c1c0b916678064b
+      kontekst: textscripts.frat1_bookshelf:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No, not all of them.  One of them is still good.  Here you go.
+      pl: Nie, nie wszystkie. Jedna nadal jest dobra. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1593
+  skrypt: frat1_chaddoor
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fb200da319b3d94bdad5
+      kontekst: textscripts.frat1_chaddoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This gold-plated door has a sign on it that says "C. Chutney."
+      pl: Na tych pozłacanych drzwiach widnieje tabliczka „C. Chutney”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.frat1_chaddoor:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fishitup
+    wpisy:
+    - id: sol_cc6ed898eb43c87e4768
+      kontekst: textscripts.frat1_chaddoor:line:21
+      linia: 21
+      sekcja_skryptu: fishitup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sneak into Chad's room and dump the rotting fish out into his bed. After tonight's inevitable rager, he'll stagger back to his room
+        and pass out without even noticing them! The perfect crime.
+      pl: Zakradzasz się do pokoju Chada i wysypujesz gnijące ryby do jego łóżka. Po nieuniknionej nocnej imprezie zatoczy się do pokoju i padnie
+        nieprzytomny, nawet ich nie zauważając! Zbrodnia doskonała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9e73c6f7431840392945
+      kontekst: textscripts.frat1_chaddoor:line:22
+      linia: 22
+      sekcja_skryptu: fishitup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bada-bing, bada-boom
+      pl: Bada-bing, bada-bum
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1608
+  skrypt: frat1_hobo
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 33
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c9839b43862fb9732392
+      kontekst: textscripts.frat1_hobo:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to her
+      pl: Porozmawiaj z nią
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 47
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_40ffcc05298896e7e7c2
+      kontekst: textscripts.frat1_hobo:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, no.  I've seen some crazy stuff here, but you?  No way I'm dealing with you.
+      pl: Łał, nie. Widziałam tu już niejedną szaloną rzecz, ale ty? Nie ma mowy, żebym się w to mieszała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.frat1_hobo:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Token pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_d2c9a12b816bbd4f0da6
+      kontekst: textscripts.frat1_hobo:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She makes a point of looking behind you.
+      pl: Ostentacyjnie spogląda za twoje plecy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c0f095b6e58abe4f3ed9
+      kontekst: textscripts.frat1_hobo:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Next!
+      pl: Następny!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.frat1_hobo:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: intro
+    wpisy:
+    - id: sol_3e9e318e3a6d948a5a75
+      kontekst: textscripts.frat1_hobo:line:29
+      linia: 29
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You must be a Chemicals student, right?
+      pl: Studiujesz Chemikalia, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0915bf8dfe05aa2ff9f4
+      kontekst: textscripts.frat1_hobo:line:30
+      linia: 30
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Good guess, but nope. I'm basically a hobo. I've been renting out my services and this portable still to make ends meet.
+      pl: Niezły strzał, ale nie. Właściwie jestem włóczęgą. Wynajmuję siebie i tę przenośną aparaturę destylacyjną, żeby związać koniec z końcem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f5b2a94755446e671ca5
+      kontekst: textscripts.frat1_hobo:line:31
+      linia: 31
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That still doesn't look very portable.
+      pl: Ta aparatura nie wygląda zbyt przenośnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2f33e6916885bb2952b6
+      kontekst: textscripts.frat1_hobo:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, it's much lighter than you'd expect.
+      pl: Och, jest znacznie lżejsza, niż się wydaje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c1cb2e1ff3726615667
+      kontekst: textscripts.frat1_hobo:line:33
+      linia: 33
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I see. Well, that still doesn't look very portable.
+      pl: Rozumiem. Ale ta aparatura nadal nie wygląda zbyt przenośnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.frat1_hobo:line:50
+      linia: 50
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: tellcamp
+    wpisy:
+    - id: sol_b91a826f439e55ba538f
+      kontekst: textscripts.frat1_hobo:line:53
+      linia: 53
+      sekcja_skryptu: tellcamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You know, there's a big hobo camp over near Ocean City. I bet your skills would be really popular there.
+      pl: Wiesz, niedaleko Ocean City jest duży obóz włóczęgów. Założę się, że twoje umiejętności byłyby tam bardzo popularne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ef0f805125f4bad06682
+      kontekst: textscripts.frat1_hobo:line:54
+      linia: 54
+      sekcja_skryptu: tellcamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I heard about that! I'm saving up to buy a new hat first, though. I want to put my best foot forward, you know?
+      pl: Tak, słyszałam o nim! Najpierw odkładam jednak na nowy kapelusz. Chcę zrobić dobre pierwsze wrażenie, rozumiesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_857fc56b6359715bcd3d
+      kontekst: textscripts.frat1_hobo:line:55
+      linia: 55
+      sekcja_skryptu: tellcamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I seriously don't think they'd mind.
+      pl: Naprawdę nie sądzę, żeby im to przeszkadzało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8fe03780dc334c779919
+      kontekst: textscripts.frat1_hobo:line:56
+      linia: 56
+      sekcja_skryptu: tellcamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I know, but it's for my own self-confidence.
+      pl: Wiem, ale chodzi o moją pewność siebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b9337888774d6ecf0ae
+      kontekst: textscripts.frat1_hobo:line:57
+      linia: 57
+      sekcja_skryptu: tellcamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I wouldn't expect a woman who owns her own still to have issues with self-confidence.
+      pl: Nie spodziewałbym się problemów z pewnością siebie u kobiety, która ma własny aparat destylacyjny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7f51be1c27970cd22efa
+      kontekst: textscripts.frat1_hobo:line:58
+      linia: 58
+      sekcja_skryptu: tellcamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, I don't drink this stuff! You could use it to de-grease industrial machinery.
+      pl: Och, nie piję tego! Można tym odtłuszczać maszyny przemysłowe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_469c7c1edd77a6151678
+      kontekst: textscripts.frat1_hobo:line:59
+      linia: 59
+      sekcja_skryptu: tellcamp
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How much do you need for your hat?
+      pl: Ile potrzebujesz na kapelusz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tellcamp2
+    wpisy:
+    - id: sol_8ce0736d785e4a59d284
+      kontekst: textscripts.frat1_hobo:line:64
+      linia: 64
+      sekcja_skryptu: tellcamp2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Umm... %misc_numwords/$meatcost$% Meat.
+      pl: Eee... %misc_numwords/$meatcost$% Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%misc_numwords/$meatcost$%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2aa5926e0966cbe7a3b2
+      kontekst: textscripts.frat1_hobo:line:68
+      linia: 68
+      sekcja_skryptu: tellcamp2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck!
+      pl: Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fuelo
+    wpisy:
+    - id: sol_e01334be5701c94f3e67
+      kontekst: textscripts.frat1_hobo:line:73
+      linia: 73
+      sekcja_skryptu: fuelo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh sure, that's easy. It'll probably improve the flavor of my booze, too.
+      pl: Jasne, to łatwe. Pewnie poprawi też smak mojego alkoholu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2906658db6b7a6dc9156
+      kontekst: textscripts.frat1_hobo:line:74
+      linia: 74
+      sekcja_skryptu: fuelo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She runs the fuel through her still and hands the can back to you.
+      pl: Przepuszcza paliwo przez aparat i oddaje ci kanister.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.frat1_hobo:line:77
+      linia: 77
+      sekcja_skryptu: fuelo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sendtocamp
+    wpisy:
+    - id: sol_3c2a22c9add006857757
+      kontekst: textscripts.frat1_hobo:line:86
+      linia: 86
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh wow, are you sure?
+      pl: O rany, na pewno?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_646e2daf9b9a00c9015e
+      kontekst: textscripts.frat1_hobo:line:87
+      linia: 87
+      sekcja_skryptu: sendtocamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, it's no problem.
+      pl: Tak, żaden problem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3648dc52ac6fbdfa8094
+      kontekst: textscripts.frat1_hobo:line:88
+      linia: 88
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thank you so much! Come see me at the camp later and I'll pay you back.
+      pl: Ogromnie dziękuję! Odwiedź mnie później w obozie, a wszystko oddam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b11cbeee95df7185d29
+      kontekst: textscripts.frat1_hobo:line:95
+      linia: 95
+      sekcja_skryptu: sendtocamp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She packs up her still, hefts it onto her back, and leaves with a wave.
+      pl: Pakuje aparaturę, zarzuca ją na plecy, macha ci i odchodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e0fcc3e925aebf602d2d
+      kontekst: textscripts.frat1_hobo:line:97
+      linia: 97
+      sekcja_skryptu: sendtocamp
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bye!
+      pl: Pa!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 11
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getcode
+    wpisy:
+    - id: sol_48166d31b136a91fbd77
+      kontekst: textscripts.frat1_hobo:line:101
+      linia: 101
+      sekcja_skryptu: getcode
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you know any hobo code you could teach me?
+      pl: Nauczysz mnie jakichś znaków kodu włóczęgów?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c4e23dec8e5f91270db6
+      kontekst: textscripts.frat1_hobo:line:102
+      linia: 102
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh sure! Some say the booze-related glyphs are the most useful ones.
+      pl: Pewnie! Niektórzy twierdzą, że glify związane z alkoholem są najbardziej przydatne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53f6687bc26f92dc9edb
+      kontekst: textscripts.frat1_hobo:line:105
+      linia: 105
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about something else
+      pl: Zapytaj o coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 50
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.frat1_hobo:line:106
+      linia: 106
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 1609
+  skrypt: frat1_jocklinfight
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_107f5184577ee7fb8540
+      kontekst: textscripts.frat1_jocklinfight:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: From the grunting and shouting, there's either a brawl or a sporting event taking place in this room.  Possibly both.
+      pl: Sądząc po chrząkaniu i krzykach, w tym pokoju odbywa się bójka albo zawody sportowe. Możliwe, że jedno i drugie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_f6024330e500531b9130
+      kontekst: textscripts.frat1_jocklinfight:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You held your own pretty well in there, and as such, you're now holding some of theirs as well.
+      pl: Nieźle się tam trzymałeś — a teraz trzymasz też część ich rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.frat1_jocklinfight:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: lose
+    wpisy:
+    - id: sol_150ae345c2450f810eb0
+      kontekst: textscripts.frat1_jocklinfight:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your attempts at bullying those talented college athletes really backfired.
+      pl: Próba zastraszenia utalentowanych sportowców uniwersyteckich naprawdę obróciła się przeciw tobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_6b1f00dc0f1ddf3eba18
+      kontekst: textscripts.frat1_jocklinfight:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hey, they were asking for it
+      pl: Hej, sami się prosili
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1616
+  skrypt: frat1_stairsdown
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_936bab6abe48088e3ce1
+      kontekst: textscripts.frat1_stairsdown:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Filth-encrusted stairs to the ground floor.
+      pl: Oblepione brudem schody prowadzą na parter.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c37a8fa88e90605ae68b
+      kontekst: textscripts.frat1_stairsdown:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1618
+  skrypt: frat1_still
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_276f6f781ca9d8fc477e
+      kontekst: textscripts.frat1_still:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Calendula is gone, but the still is here.  Still.
+      pl: Calenduli już nie ma, ale destylator stoi. Stale.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_141fe98ae13eef6ba909
+      kontekst: textscripts.frat1_still:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, maybe you could use this thing to fix Rasmussen's fuel.
+      pl: Hej, może tym urządzeniem da się naprawić paliwo Rasmussena.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c19251494b6f6cb25e3d
+      kontekst: textscripts.frat1_still:line:16
+      linia: 16
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You light the fire and run the still for long enough to fix the fuel.
+      pl: Rozpalasz ogień i uruchamiasz aparaturę na tyle długo, by naprawić paliwo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1621
+  skrypt: frat1_wardrobe
+  pomieszczenie:
+    id: frat1_upstairs
+    nazwa_en: Zeta Omega Omicron (Upstairs)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4754de6fecb0afcc6913
+      kontekst: textscripts.frat1_wardrobe:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the fraternity's communal wardrobe.
+      pl: Wspólna garderoba bractwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_213e5dc9519048537e3c
+      kontekst: textscripts.frat1_wardrobe:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_a2ecb330791b93463892
+      kontekst: textscripts.frat1_wardrobe:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Beneath your standards, you find some clothes.  Just barely above them, you find a coat hanger.
+      pl: Poniżej swoich standardów znajdujesz ubrania. Tuż powyżej — wieszak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

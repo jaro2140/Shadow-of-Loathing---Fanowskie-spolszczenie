@@ -1,0 +1,949 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: crystalstore
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 2
+liczba_wpisow: 56
+sceny:
+- kolejnosc_w_danych_gry: 1086
+  skrypt: crystalstore_exitpopup
+  pomieszczenie:
+    id: crystalstore
+    nazwa_en: Crystal's Crystaldream Lake Crystal Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_29e1a87b298cf470bd4d
+      kontekst: textscripts.crystalstore_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You want to make like a crystal and clear out?
+      pl: Chcesz się stąd wykrysztalić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d345cc236948503f9fdc
+      kontekst: textscripts.crystalstore_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, sure
+      pl: Eee, jasne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1085
+  skrypt: crystalstore_crystal
+  pomieszczenie:
+    id: crystalstore_inside
+    nazwa_en: Crystal's Crystaldream Lake Crystal Store (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 54
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_54fd8a32909de3fce64a
+      kontekst: textscripts.crystalstore_crystal:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Crystal still isn't speaking to you.
+      pl: Crystal nadal się do ciebie nie odzywa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c9839b43862fb9732392
+      kontekst: textscripts.crystalstore_crystal:line:14
+      linia: 14
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to her
+      pl: Porozmawiaj z nią
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 47
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest
+    wpisy:
+    - id: sol_247de893987426b5e753
+      kontekst: textscripts.crystalstore_crystal:line:49
+      linia: 49
+      sekcja_skryptu: checkquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How's that mine of mine? Break off anything expensive?
+      pl: Co w mojej kopalni? Wykopałeś dla mnie coś kosztownego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_665dc24d6581dade58ac
+      kontekst: textscripts.crystalstore_crystal:line:54
+      linia: 54
+      sekcja_skryptu: checkquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I haven't even been there yet.
+      pl: Jeszcze nawet tam nie byłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: not_visited
+    wpisy:
+    - id: sol_61c9047015df7e229462
+      kontekst: textscripts.crystalstore_crystal:line:59
+      linia: 59
+      sekcja_skryptu: not_visited
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, sure, okay. Getting ahead of myself here.
+      pl: Och, jasne. Trochę się zagalopowałam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest
+    wpisy:
+    - id: sol_80e0fcffbbaed69be18d
+      kontekst: textscripts.crystalstore_crystal:line:64
+      linia: 64
+      sekcja_skryptu: finishquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ya did? Well, that's just great! Hang on a minute.
+      pl: Udało się? No to wspaniale! Zaczekaj chwilkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_28a51a5d8bf071369db4
+      kontekst: textscripts.crystalstore_crystal:line:65
+      linia: 65
+      sekcja_skryptu: finishquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She leaves and comes back an hour later with two big armloads of crystals.
+      pl: Wychodzi i godzinę później wraca z dwoma naręczami kryształów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_701292c1af18d6a77c95
+      kontekst: textscripts.crystalstore_crystal:line:66
+      linia: 66
+      sekcja_skryptu: finishquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You just give me a couple of hours, and I'll give you a fully-functional crystal shop, now, okay?
+      pl: Daj mi parę godzin, a dostaniesz w pełni sprawny sklep z kryształami, dobrze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f1efadc7472143b5c211
+      kontekst: textscripts.crystalstore_crystal:line:67
+      linia: 67
+      sekcja_skryptu: finishquest
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What should I do in the meantime?
+      pl: Co mam robić w międzyczasie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e6f87716e711cf7ac0ab
+      kontekst: textscripts.crystalstore_crystal:line:68
+      linia: 68
+      sekcja_skryptu: finishquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Got some old magazines here somewhere. Ah, yeah. Here they are.
+      pl: Gdzieś tu mam stare czasopisma. O, są.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b4d3e03c2de1d8994984
+      kontekst: textscripts.crystalstore_crystal:line:69
+      linia: 69
+      sekcja_skryptu: finishquest
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read magazines for a couple of hours
+      pl: Czytaj czasopisma przez kilka godzin
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest2
+    wpisy:
+    - id: sol_372c557be86ad57b48e7
+      kontekst: textscripts.crystalstore_crystal:line:75
+      linia: 75
+      sekcja_skryptu: finishquest2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You spend a while reading. It's mostly op-ed pieces about political scandals from 20 years ago, but you manage to learn a thing or two.
+      pl: Spędzasz trochę czasu na czytaniu. To głównie artykuły publicystyczne o skandalach politycznych sprzed 20 lat, ale udaje ci się nauczyć tego i owego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_543bb7525c7a4aa36a70
+      kontekst: textscripts.crystalstore_crystal:line:79
+      linia: 79
+      sekcja_skryptu: finishquest2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: All set now. Don't suppose you want to make a purchase?
+      pl: Wszystko gotowe. Może zechcesz coś kupić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5f52da31a79d25fbc3f9
+      kontekst: textscripts.crystalstore_crystal:line:80
+      linia: 80
+      sekcja_skryptu: finishquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You know, this magazine's fascinating...
+      pl: Wiesz, to czasopismo jest fascynujące...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest3
+    wpisy:
+    - id: sol_fca4759c6a637f73c8ef
+      kontekst: textscripts.crystalstore_crystal:line:84
+      linia: 84
+      sekcja_skryptu: finishquest3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: You know, this magazine's fascinating. Say, did you hear about those sketchy land grants up in Oregon?
+      pl: Wiesz, to czasopismo jest fascynujące. Słyszałaś o tych podejrzanych nadaniach ziemi w Oregonie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_28aa00b360d8144d9391
+      kontekst: textscripts.crystalstore_crystal:line:85
+      linia: 85
+      sekcja_skryptu: finishquest3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I... remember my grandparents talking about it...
+      pl: Ja... pamiętam, jak dziadkowie o tym rozmawiali...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_63f95ebc7d7c2e9df99e
+      kontekst: textscripts.crystalstore_crystal:line:86
+      linia: 86
+      sekcja_skryptu: finishquest3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Boy, that Mitchell.  What a sneaky snake.
+      pl: Ten Mitchell. Co za podstępny wąż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3b1b020ffdc6a21d826d
+      kontekst: textscripts.crystalstore_crystal:line:87
+      linia: 87
+      sekcja_skryptu: finishquest3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Uhh... Yeah. Anyway. Got you a little something to say thanks. When I was going through the crystals I found a small one that I really
+        can't sell for very much, and I just thought of you.
+      pl: Eee... tak. W każdym razie mam mały drobiazg w podziękowaniu. Podczas przeglądania kryształów znalazłam jeden tak mały, że wiele za
+        niego nie dostanę, i od razu przyszła mi do głowy twoja osoba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_363e9e14e36f01413148
+      kontekst: textscripts.crystalstore_crystal:line:89
+      linia: 89
+      sekcja_skryptu: finishquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, thanks. What else have you got in stock?
+      pl: Eee, dzięki. Co jeszcze masz na stanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2c9e54e9f90428a5c614
+      kontekst: textscripts.crystalstore_crystal:line:90
+      linia: 90
+      sekcja_skryptu: finishquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll check out the good stuff later, maybe.
+      pl: Może później obejrzę te dobre rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convohub
+    wpisy:
+    - id: sol_675a6ad51d87d9b3c20c
+      kontekst: textscripts.crystalstore_crystal:line:96
+      linia: 96
+      sekcja_skryptu: convohub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your leave
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: sol_9105abf77310fffbf23d
+      kontekst: textscripts.crystalstore_crystal:line:101
+      linia: 101
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, and break me off a couple crystals, you were thinking?
+      pl: No i odłamać dla mnie parę kryształów — to właśnie masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a3b113ea2be20606b4ad
+      kontekst: textscripts.crystalstore_crystal:line:102
+      linia: 102
+      sekcja_skryptu: takequest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7e0fa9a376408e7eaf28
+      kontekst: textscripts.crystalstore_crystal:line:103
+      linia: 103
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Not asking you to clear out the whole mine, @p|man,lady,pal@, but with just a few crystals I can afford to send my whole sorority down
+        there.
+      pl: Nie proszę o oczyszczenie całej kopalni, @p|man,lady,pal@. Wystarczy kilka kryształów, żebym mogła posłać tam całe moje kobieca korporacja studencka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|man,lady,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2bc1eb7b6daffa2421d5
+      kontekst: textscripts.crystalstore_crystal:line:106
+      linia: 106
+      sekcja_skryptu: takequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll see what I can do.
+      pl: Zobaczę, co da się zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stillquest
+    wpisy:
+    - id: sol_8bb7207d133e437dd4bf
+      kontekst: textscripts.crystalstore_crystal:line:110
+      linia: 110
+      sekcja_skryptu: stillquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's all right. The important thing is that you're alive, and it doesn't matter that I forgot to send a canary down there first.
+      pl: Nic nie szkodzi. Najważniejsze, że żyjesz, a to, że zapomniałam najpierw wysłać tam kanarka, nie ma znaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_96534c000d8d00c3994f
+      kontekst: textscripts.crystalstore_crystal:line:116
+      linia: 116
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What do you sell here?
+      pl: Co tu sprzedajesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_115b477aa19319e99d08
+      kontekst: textscripts.crystalstore_crystal:line:118
+      linia: 118
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What do <i>you</i> think?
+      pl: A jak <i>myślisz?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3ec84105e0b14a79c403
+      kontekst: textscripts.crystalstore_crystal:line:119
+      linia: 119
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Crystals.
+      pl: Kryształy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cc969d02e42630315359
+      kontekst: textscripts.crystalstore_crystal:line:120
+      linia: 120
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing.
+      pl: Nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c75056c5ee0a6fe0bcd
+      kontekst: textscripts.crystalstore_crystal:line:121
+      linia: 121
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't know.
+      pl: Nie wiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro_a
+    wpisy:
+    - id: sol_5270bc867fa1c12cc3a8
+      kontekst: textscripts.crystalstore_crystal:line:125
+      linia: 125
+      sekcja_skryptu: intro_a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You'd sure think so, wouldn't you! Huh! You'd sure think a <i>crystal</i> store next to a <i>crystal</i> mine would sell <i>crystals</i>!
+        Wouldn't ya?
+      pl: Można by tak pomyśleć, prawda! Ha! Można by pomyśleć, że sklep z <i>kryształami</i> obok kopalni <i>kryształów</i> sprzedaje <i>kryształy</i>!
+        No nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro_b
+    wpisy:
+    - id: sol_2519bae6572dccd45275
+      kontekst: textscripts.crystalstore_crystal:line:130
+      linia: 130
+      sekcja_skryptu: intro_b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You're dead right, aren't ya? And that's funny, don't ya think? 'Cause you'd really think that a <i>crystal</i> store next to a <i>crystal</i>
+        mine would sell <i>crystals</i>! Wouldn't ya?
+      pl: Masz całkowitą rację! I to zabawne, nie sądzisz? Bo naprawdę można by pomyśleć, że sklep z <i>kryształami</i> obok kopalni <i>kryształów</i>
+        sprzedaje <i>kryształy</i>! No nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro_c
+    wpisy:
+    - id: sol_c280840481d2eb42d89a
+      kontekst: textscripts.crystalstore_crystal:line:135
+      linia: 135
+      sekcja_skryptu: intro_c
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, if you had to guess. Wouldn't you think that a <i>crystal</i> store next to a <i>crystal</i> mine would sell <i>crystals</i>!
+        Wouldn't ya think that?
+      pl: No, gdybyś miał zgadywać. Czy nie można by pomyśleć, że sklep z <i>kryształami</i> obok kopalni <i>kryształów</i> sprzedaje <i>kryształy</i>! Nie wydaje ci się?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro_d
+    wpisy:
+    - id: sol_27b6e822d178f7ff59f9
+      kontekst: textscripts.crystalstore_crystal:line:139
+      linia: 139
+      sekcja_skryptu: intro_d
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I would, yes.
+      pl: Owszem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ef485a282be7b641b6b
+      kontekst: textscripts.crystalstore_crystal:line:140
+      linia: 140
+      sekcja_skryptu: intro_d
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Please, you're using too many italics, I can't focus.
+      pl: Proszę, za często używasz kursywy, nie mogę się skupić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro_e
+    wpisy:
+    - id: sol_a1f0c3a212db0be2465b
+      kontekst: textscripts.crystalstore_crystal:line:144
+      linia: 144
+      sekcja_skryptu: intro_e
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Let me tell you a little story, about a young woman whose name is me.
+      pl: Opowiem ci krótką historię o młodej kobiecie, która nazywa się ja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_73b5e71ef778a7090bc3
+      kontekst: textscripts.crystalstore_crystal:line:145
+      linia: 145
+      sekcja_skryptu: intro_e
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ooh, I love little stories.
+      pl: Uuu, uwielbiam krótkie historie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6efa239f83e6ac266813
+      kontekst: textscripts.crystalstore_crystal:line:146
+      linia: 146
+      sekcja_skryptu: intro_e
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Please don't.
+      pl: Proszę, nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro_f
+    wpisy:
+    - id: sol_8b074ea290ee6923dfd0
+      kontekst: textscripts.crystalstore_crystal:line:150
+      linia: 150
+      sekcja_skryptu: intro_f
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My parents wanted me to go straight into college, so that's what I did. But college girls, they're only thinkin' about one thing. Getting
+        a degree so they can work in a mine. I'm not like regular girls, @p|guy,lady,pal@. I want to <i>sell</i> the things that come <i>out</i>
+        of a mine.
+      pl: Rodzice chcieli, żebym poszła prosto na studia, więc tak zrobiłam. Ale studentki myślą tylko o jednym. O zdobyciu dyplomu, żeby móc
+        pracować w kopalni. Nie jestem jak zwykłe dziewczyny, @p|guy,lady,pal@. Chcę <i>sprzedawać</i> rzeczy, które się z kopalni <i>wydobywa</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|guy,lady,pal@'
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7fb018394eea985fc592
+      kontekst: textscripts.crystalstore_crystal:line:151
+      linia: 151
+      sekcja_skryptu: intro_f
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, gases and such.
+      pl: Jasne, gazy i tym podobne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5501bf16eea7103b7755
+      kontekst: textscripts.crystalstore_crystal:line:152
+      linia: 152
+      sekcja_skryptu: intro_f
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So I dropped out and moved across thirteen states to the best crystal mine in the country. But when I arrived the mine was outta business.
+        And now so am I, 'fore I even got started.
+      pl: Rzuciłam więc studia i przeprowadziłam się trzynaście stanów dalej, do najlepszej kopalni kryształów w kraju. Ale kiedy dotarłam na
+        miejsce, kopalnia była zamknięta. A teraz mój interes też jest zamknięty, zanim w ogóle go otworzyłam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6d0081ed8d6d0d323266
+      kontekst: textscripts.crystalstore_crystal:line:153
+      linia: 153
+      sekcja_skryptu: intro_f
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So what are you still doing here?
+      pl: To co jeszcze tutaj robisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: still_doing_here
+    wpisy:
+    - id: sol_cff24a8e65a7cdea6900
+      kontekst: textscripts.crystalstore_crystal:line:164
+      linia: 164
+      sekcja_skryptu: still_doing_here
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I ain't sellin' crystals, so it's Plan B.
+      pl: Skoro nie sprzedaję kryształów, zostaje mi plan B.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_151b437af4fa8917a1e0
+      kontekst: textscripts.crystalstore_crystal:line:165
+      linia: 165
+      sekcja_skryptu: still_doing_here
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Which is?
+      pl: Czyli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f295e1e24479d6a2103f
+      kontekst: textscripts.crystalstore_crystal:line:166
+      linia: 166
+      sekcja_skryptu: still_doing_here
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Frowning.
+      pl: Naburmuszanie się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: why_crystals
+    wpisy:
+    - id: sol_dd427b82997975bf7cf4
+      kontekst: textscripts.crystalstore_crystal:line:172
+      linia: 172
+      sekcja_skryptu: why_crystals
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My name is Crystal.
+      pl: Mam na imię Crystal.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_90377f03492acdf48e09
+      kontekst: textscripts.crystalstore_crystal:line:173
+      linia: 173
+      sekcja_skryptu: why_crystals
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That doesn't mean you have to sell crystals.
+      pl: To nie znaczy, że musisz sprzedawać kryształy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_132b126f03957f12222f
+      kontekst: textscripts.crystalstore_crystal:line:174
+      linia: 174
+      sekcja_skryptu: why_crystals
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, but it just means I got fewer nouns to keep in my head.
+      pl: Tak, ale dzięki temu mam o jeden rzeczownik mniej do zapamiętania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: shadowstop
+    wpisy:
+    - id: sol_ff6ac2aa996762413df8
+      kontekst: textscripts.crystalstore_crystal:line:182
+      linia: 182
+      sekcja_skryptu: shadowstop
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi there, how can I... oh.
+      pl: Dzień dobry, w czym mogę... och.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.crystalstore_crystal:line:184
+      linia: 184
+      sekcja_skryptu: shadowstop
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Token pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_e5201a23c9a58241f58c
+      kontekst: textscripts.crystalstore_crystal:line:185
+      linia: 185
+      sekcja_skryptu: shadowstop
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I, umm.  Sorry, we're not open right now.  Come back tomorrow.
+      pl: Ja, yyy. Przepraszam, teraz mamy zamknięte. Wróć jutro.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_333c54b57f1d452fa1be
+      kontekst: textscripts.crystalstore_crystal:line:186
+      linia: 186
+      sekcja_skryptu: shadowstop
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She makes a point of looking anywhere but at you.
+      pl: Z rozmysłem patrzy wszędzie, tylko nie na ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.crystalstore_crystal:line:188
+      linia: 188
+      sekcja_skryptu: shadowstop
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

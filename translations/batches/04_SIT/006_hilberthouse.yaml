@@ -1,0 +1,551 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: hilberthouse
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 16
+liczba_wpisow: 24
+sceny:
+- kolejnosc_w_danych_gry: 5150
+  skrypt: autoscript__hilberthouse_room_spiders __bed__popup
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9d6a840de9fe39b7e50b
+      kontekst: textscripts.autoscript__hilberthouse_room_spiders __bed__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bed seems to have escaped serious damage.
+      pl: Wygląda na to, że to łóżko uniknęło poważniejszych uszkodzeń.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1883
+  skrypt: hilberthouse_exitpopup
+  pomieszczenie:
+    id: hilberthouse
+    nazwa_en: S.I.T. (Hilbert House)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b6a6bdf013f3122f9837
+      kontekst: textscripts.hilberthouse_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wander elsewhere on campus?
+      pl: Powędrować w inne miejsce kampusu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.hilberthouse_exitpopup:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1892
+  skrypt: hilberthouse_inforack
+  pomieszczenie:
+    id: hilberthouse_hallway
+    nazwa_en: Hilbert Hall Floor @hilberthall@
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ce8a610e68b35af3d71e
+      kontekst: textscripts.hilberthouse_inforack:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You are in hall @hilberthall@, room @hilbertroom@ and the seed is $seedo$
+      pl: Jesteś w korytarzu @hilberthall@, pokoju @hilbertroom@, a ziarno to $seedo$
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@hilberthall@'
+      - '@hilbertroom@'
+      - $seedo$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1895
+  skrypt: hilberthouse_nexthall
+  pomieszczenie:
+    id: hilberthouse_hallway
+    nazwa_en: Hilbert Hall Floor @hilberthall@
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_3d06d4f57507c27b2a07
+      kontekst: textscripts.hilberthouse_nexthall:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These stairs go up to... upstairs.
+      pl: Te schody prowadzą w górę... na górę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7dc7f6e817bf3282c4ee
+      kontekst: textscripts.hilberthouse_nexthall:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use them
+      pl: Użyj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_646c3dfa7b061ec6ebee
+      kontekst: textscripts.hilberthouse_nexthall:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay here
+      pl: Zostań tutaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 1904
+  skrypt: hilberthouse_prevhall
+  pomieszczenie:
+    id: hilberthouse_hallway
+    nazwa_en: Hilbert Hall Floor @hilberthall@
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_c43587f1d3cd19af78a4
+      kontekst: textscripts.hilberthouse_prevhall:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These stairs go down to... downstairs.
+      pl: Te schody prowadzą w dół... na dół.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7dc7f6e817bf3282c4ee
+      kontekst: textscripts.hilberthouse_prevhall:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use them
+      pl: Użyj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_646c3dfa7b061ec6ebee
+      kontekst: textscripts.hilberthouse_prevhall:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay here
+      pl: Zostań tutaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 5144
+  skrypt: autoscript__hilberthouse_room_acoustics__bed__popup
+  pomieszczenie:
+    id: hilberthouse_room_acoustics
+    nazwa_en: Hilbert House (Room 2B)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b5a6b0182bf5f558a749
+      kontekst: textscripts.autoscript__hilberthouse_room_acoustics__bed__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like a perfectly normal bed.
+      pl: Wygląda na zupełnie zwyczajne łóżko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5145
+  skrypt: autoscript__hilberthouse_room_acoustics__desk__popup
+  pomieszczenie:
+    id: hilberthouse_room_acoustics
+    nazwa_en: Hilbert House (Room 2B)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c109cb879505b9516310
+      kontekst: textscripts.autoscript__hilberthouse_room_acoustics__desk__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The only interesting thing on this desk is a lamp that doesn't work, and even that isn't particularly interesting.
+      pl: Jedyną ciekawą rzeczą na tym biurku jest zepsuta lampka, a nawet ona nie jest szczególnie ciekawa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5146
+  skrypt: autoscript__hilberthouse_room_acoustics__shelf__popup
+  pomieszczenie:
+    id: hilberthouse_room_acoustics
+    nazwa_en: Hilbert House (Room 2B)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e2130f6a2f1188496462
+      kontekst: textscripts.autoscript__hilberthouse_room_acoustics__shelf__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bookshelf looks nice, but the books are all painted on.
+      pl: Ten regał wygląda ładnie, ale wszystkie książki są namalowane.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1851
+  skrypt: hilberthouse_acousticmacguffin
+  pomieszczenie:
+    id: hilberthouse_room_acoustics
+    nazwa_en: Hilbert House (Room 2B)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: gotit
+    wpisy:
+    - id: sol_ebb95bfd8ee6a238fd30
+      kontekst: textscripts.hilberthouse_acousticmacguffin:line:10
+      linia: 10
+      sekcja_skryptu: gotit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing else in there.
+      pl: Nie ma tam niczego więcej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5147
+  skrypt: autoscript__hilberthouse_room_chemicals__bed__popup
+  pomieszczenie:
+    id: hilberthouse_room_chemicals
+    nazwa_en: Hilbert House (Room 3A)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8041b91ddd74405a27d0
+      kontekst: textscripts.autoscript__hilberthouse_room_chemicals__bed__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gross, just gross.
+      pl: Ohyda, po prostu ohyda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5148
+  skrypt: autoscript__hilberthouse_room_chemicals__desk__popup
+  pomieszczenie:
+    id: hilberthouse_room_chemicals
+    nazwa_en: Hilbert House (Room 3A)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ce72ca9f5ce58fe21fd5
+      kontekst: textscripts.autoscript__hilberthouse_room_chemicals__desk__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Lots of Chemicals equipment, almost all of it ruined.
+      pl: Mnóstwo aparatury z Wydziału Chemikaliów, niemal całkowicie zniszczonej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5149
+  skrypt: autoscript__hilberthouse_room_chemicals__fridge__popup
+  pomieszczenie:
+    id: hilberthouse_room_chemicals
+    nazwa_en: Hilbert House (Room 3A)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a20f7453d12cce235ff1
+      kontekst: textscripts.autoscript__hilberthouse_room_chemicals__fridge__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the fridge and find that it was storing stale air.
+      pl: Otwierasz lodówkę i odkrywasz, że przechowywała zwietrzałe powietrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1871
+  skrypt: hilberthouse_chemicalsmaguffin
+  pomieszczenie:
+    id: hilberthouse_room_chemicals
+    nazwa_en: Hilbert House (Room 3A)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_67826e9b893fa63c5e8d
+      kontekst: textscripts.hilberthouse_chemicalsmaguffin:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This nightstand has the telltale stench of arsenic about it.
+      pl: Ta szafka nocna wydziela charakterystyczny odór arszeniku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_25a6502dd8a2ac9419f1
+      kontekst: textscripts.hilberthouse_chemicalsmaguffin:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look in the drawer
+      pl: Zajrzyj do szuflady
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_0f6801946419e049f358
+      kontekst: textscripts.hilberthouse_chemicalsmaguffin:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh good, there's nearly a whole jar of arsenic left in Blevin's nightstand. At least, you assume this is Blevin's room and not some
+        other Chemicals student who is super into arsenic for some reason.
+      pl: O, dobrze, w szafce Blevina została prawie cały słoik arszeniku. Przynajmniej zakładasz, że to pokój Blevina, a nie innego studenta Chemikaliów, który z jakiegoś powodu uwielbia arszenik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gotit
+    wpisy:
+    - id: sol_05341a106cea65412a9a
+      kontekst: textscripts.hilberthouse_chemicalsmaguffin:line:15
+      linia: 15
+      sekcja_skryptu: gotit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing else in here.
+      pl: Nie ma tu niczego więcej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5151
+  skrypt: autoscript__hilberthouse_room_spiders__desk__popup
+  pomieszczenie:
+    id: hilberthouse_room_spiders
+    nazwa_en: Hilbert House (Room 1C)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_230dbe160a095e594491
+      kontekst: textscripts.autoscript__hilberthouse_room_spiders__desk__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a book on this desk, but all the pages are blank.
+      pl: Na biurku leży książka, ale wszystkie jej strony są puste.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5152
+  skrypt: autoscript__hilberthouse_room_spiders__shelf__popup
+  pomieszczenie:
+    id: hilberthouse_room_spiders
+    nazwa_en: Hilbert House (Room 1C)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e9a7babe1492dfb28074
+      kontekst: textscripts.autoscript__hilberthouse_room_spiders__shelf__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The "books" on these shelves are actually just empty boxes decorated to look like tomes.
+      pl: „Książki” na tych półkach to tak naprawdę puste pudełka udekorowane tak, by wyglądały jak tomiszcza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1924
+  skrypt: hilberthouse_spidermacguffin
+  pomieszczenie:
+    id: hilberthouse_room_spiders
+    nazwa_en: Hilbert House (Room 1C)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: gotit
+    wpisy:
+    - id: sol_d877b7c8241a749cce35
+      kontekst: textscripts.hilberthouse_spidermacguffin:line:10
+      linia: 10
+      sekcja_skryptu: gotit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There isn't anything else in there.
+      pl: Nie ma tam niczego więcej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

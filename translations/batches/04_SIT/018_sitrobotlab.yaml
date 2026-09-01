@@ -1,0 +1,2994 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: sitrobotlab
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 19
+liczba_wpisow: 173
+sceny:
+- kolejnosc_w_danych_gry: 5490
+  skrypt: autoscript__sitrobotlab__gag__popup
+  pomieszczenie:
+    id: sitrobotlab
+    nazwa_en: S.I.T. (Robotectronics Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8b249212a45fec97dc6a
+      kontekst: textscripts.autoscript__sitrobotlab__gag__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If art is just a bunch of shapes combined, then this is art.
+      pl: Jeśli sztuka to tylko zbiór połączonych kształtów, to jest to sztuka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5491
+  skrypt: autoscript__sitrobotlab__lamppost__popup
+  pomieszczenie:
+    id: sitrobotlab
+    nazwa_en: S.I.T. (Robotectronics Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f05abe361ca448bfee37
+      kontekst: textscripts.autoscript__sitrobotlab__lamppost__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A steam-powered lamppost, in case you want your light to be hot and wet.
+      pl: Latarnia napędzana parą, na wypadek gdyby twoje światło miało być gorące i mokre.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3854
+  skrypt: sitrobotlab_athenaoutside
+  pomieszczenie:
+    id: sitrobotlab
+    nazwa_en: S.I.T. (Robotectronics Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_226ab8dabe46a41d8499
+      kontekst: textscripts.sitrobotlab_athenaoutside:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"<i>Welcome to the S.I.T. Department of Robotechtronics -- Future home of the Great Robot Uprising of 2390.</i>"
+      pl: \"<i>Witamy na Wydziale Robotechtroniki S.I.T. — przyszłym miejscu Wielkiego Powstania Robotów w 2390 roku.</i>"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3858
+  skrypt: sitrobotlab_buildcourse
+  pomieszczenie:
+    id: sitrobotlab
+    nazwa_en: S.I.T. (Robotectronics Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_6f7da391dbf00ff82266
+      kontekst: textscripts.sitrobotlab_buildcourse:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$) call sitrobotlab_functions.updateobstacle($x$,0)
+      pl: ($del$) call sitrobotlab_functions.updateobstacle($x$,0)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $del$
+      - $x$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+  - etykieta: newguys
+    wpisy:
+    - id: sol_e6a5faae54a2e247a6d4
+      kontekst: textscripts.sitrobotlab_buildcourse:line:17
+      linia: 17
+      sekcja_skryptu: newguys
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$) call sitrobotlab_functions.updateobstacle($x$,$obs$)
+      pl: ($del$) call sitrobotlab_functions.updateobstacle($x$,$obs$)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $del$
+      - $x$
+      - $obs$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+    - id: sol_8ee84a69cb1a0650ed95
+      kontekst: textscripts.sitrobotlab_buildcourse:line:22
+      linia: 22
+      sekcja_skryptu: newguys
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$+100) refreshwaa
+      pl: ($del$+100) refreshwaa
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $del$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+- kolejnosc_w_danych_gry: 3863
+  skrypt: sitrobotlab_exitpopup
+  pomieszczenie:
+    id: sitrobotlab
+    nazwa_en: S.I.T. (Robotectronics Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0c8a291b3ed915521635
+      kontekst: textscripts.sitrobotlab_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Couldn't they have automated the sidewalks around here to take you where you want to go? Sheesh.
+      pl: Nie mogli zautomatyzować tutejszych chodników, żeby woziły cię, dokąd zechcesz? No ludzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_129f0189b07954a88394
+      kontekst: textscripts.sitrobotlab_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away in protest
+      pl: Odejdź pieszo na znak protestu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3864
+  skrypt: sitrobotlab_functions
+  pomieszczenie:
+    id: sitrobotlab
+    nazwa_en: S.I.T. (Robotectronics Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: poczatek_skryptu
+    wpisy:
+    - id: sol_7d6af30d1375ce9ccba9
+      kontekst: textscripts.sitrobotlab_functions:line:42
+      linia: 42
+      sekcja_skryptu: poczatek_skryptu
+      typ: changeelementproperty
+      mowca_lub_kanal: kanal_changeelementproperty
+      en: fire_01,0,10,-10
+      pl: fire_01,0,10,-10
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Parametry changeelementproperty; skopiowano bez zmian.'
+    - id: sol_0d79e61ad1342beaf076
+      kontekst: textscripts.sitrobotlab_functions:line:44
+      linia: 44
+      sekcja_skryptu: poczatek_skryptu
+      typ: changeelementproperty
+      mowca_lub_kanal: kanal_changeelementproperty
+      en: fire_01,-20,0,-10
+      pl: fire_01,-20,0,-10
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Parametry changeelementproperty; skopiowano bez zmian.'
+    - id: sol_6cc8db68e184830e414d
+      kontekst: textscripts.sitrobotlab_functions:line:47
+      linia: 47
+      sekcja_skryptu: poczatek_skryptu
+      typ: changeelementproperty
+      mowca_lub_kanal: kanal_changeelementproperty
+      en: fire_01,20,5,-10
+      pl: fire_01,20,5,-10
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Parametry changeelementproperty; skopiowano bez zmian.'
+  - etykieta: clearcourse
+    wpisy:
+    - id: sol_b40a94916abeb0fd367f
+      kontekst: textscripts.sitrobotlab_functions:line:204
+      linia: 204
+      sekcja_skryptu: clearcourse
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$) removeelementproperty(obstacle$x$,prop)
+      pl: ($del$) removeelementproperty(obstacle$x$,prop)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $del$
+      - $x$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+    - id: sol_622332df4021d0fe67f9
+      kontekst: textscripts.sitrobotlab_functions:line:205
+      linia: 205
+      sekcja_skryptu: clearcourse
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$) removeelementproperty(obstacle$x$,prop2)
+      pl: ($del$) removeelementproperty(obstacle$x$,prop2)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $del$
+      - $x$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+    - id: sol_27b4aff5ae228ac11c0c
+      kontekst: textscripts.sitrobotlab_functions:line:206
+      linia: 206
+      sekcja_skryptu: clearcourse
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$) removeelementproperty(obstacle$x$,prop3)
+      pl: ($del$) removeelementproperty(obstacle$x$,prop3)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $del$
+      - $x$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+    - id: sol_48cedf826fe271447d0a
+      kontekst: textscripts.sitrobotlab_functions:line:207
+      linia: 207
+      sekcja_skryptu: clearcourse
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$) changeelementproperty(obstacle$x$,asset,none)
+      pl: ($del$) changeelementproperty(obstacle$x$,asset,none)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $del$
+      - $x$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+  - etykieta: stampcourse
+    wpisy:
+    - id: sol_e6a5faae54a2e247a6d4
+      kontekst: textscripts.sitrobotlab_functions:line:219
+      linia: 219
+      sekcja_skryptu: stampcourse
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$) call sitrobotlab_functions.updateobstacle($x$,$obs$)
+      pl: ($del$) call sitrobotlab_functions.updateobstacle($x$,$obs$)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $del$
+      - $x$
+      - $obs$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_8ee84a69cb1a0650ed95
+      kontekst: textscripts.sitrobotlab_functions:line:224
+      linia: 224
+      sekcja_skryptu: stampcourse
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: ($del$+100) refreshwaa
+      pl: ($del$+100) refreshwaa
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $del$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 3874
+  skrypt: sitrobotlab_runrobot
+  pomieszczenie:
+    id: sitrobotlab
+    nazwa_en: S.I.T. (Robotectronics Lab)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_3934608b8d77487b8e23
+      kontekst: textscripts.sitrobotlab_runrobot:line:14
+      linia: 14
+      sekcja_skryptu: start
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: goto holdplayer
+      pl: goto holdplayer
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie sterujące; skopiowano bez zmian.'
+- kolejnosc_w_danych_gry: 5492
+  skrypt: autoscript__sitrobotlab_classroom__bottomblocker__popup
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1f3732f187efc962ae1f
+      kontekst: textscripts.autoscript__sitrobotlab_classroom__bottomblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those stripes mean EXTREME DANGER.  Do not cross this line.
+      pl: Te pasy oznaczają SKRAJNE NIEBEZPIECZEŃSTWO. Nie przekraczaj tej linii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3862
+  skrypt: sitrobotlab_courseterminal
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b2a94fb0c1b02f0ae6d4
+      kontekst: textscripts.sitrobotlab_courseterminal:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't mess with this thing, you don't know what it does.
+      pl: Nie powinieneś przy tym majstrować, skoro nie wiesz, do czego służy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id003 []
+    - id: sol_bbe33db2770907494e72
+      kontekst: textscripts.sitrobotlab_courseterminal:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the obstacle course terminal.
+      pl: To terminal toru przeszkód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fedef2f57885a5fe2fdd
+      kontekst: textscripts.sitrobotlab_courseterminal:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use it
+      pl: Użyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: coursehub
+    wpisy:
+    - id: sol_9a1756f8bcb8d7759329
+      kontekst: textscripts.sitrobotlab_courseterminal:line:19
+      linia: 19
+      sekcja_skryptu: coursehub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>Course @robot_course@ is currently loaded.</i>
+      pl: '<i>Obecnie wczytany tor: @robot_course@.</i>'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '@robot_course@'
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_66412d024a260b82f7ab
+      kontekst: textscripts.sitrobotlab_courseterminal:line:20
+      linia: 20
+      sekcja_skryptu: coursehub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>Course status:</i>
+      pl: <i>Stan toru:</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fcef0fb538524b6de782
+      kontekst: textscripts.sitrobotlab_courseterminal:line:50
+      linia: 50
+      sekcja_skryptu: coursehub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Load a course
+      pl: Wczytaj tor
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_909c1ec70d1f1c942cc7
+      kontekst: textscripts.sitrobotlab_courseterminal:line:51
+      linia: 51
+      sekcja_skryptu: coursehub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Run robot through course
+      pl: Uruchom robota na torze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sitrobotlab_courseterminal:line:53
+      linia: 53
+      sekcja_skryptu: coursehub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id011 []
+  - etykieta: load
+    wpisy:
+    - id: sol_eeac630559e5533304a6
+      kontekst: textscripts.sitrobotlab_courseterminal:line:56
+      linia: 56
+      sekcja_skryptu: load
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the list of robot obstacle courses.
+      pl: Przeglądasz listę robotycznych torów przeszkód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e2ad8fc051186145a4d7
+      kontekst: textscripts.sitrobotlab_courseterminal:line:57
+      linia: 57
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 1
+      pl: Tor 1
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_54d0d19e4cdfdd096342
+      kontekst: textscripts.sitrobotlab_courseterminal:line:58
+      linia: 58
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 2
+      pl: Tor 2
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b23bb2a0ff3c7d86363b
+      kontekst: textscripts.sitrobotlab_courseterminal:line:59
+      linia: 59
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 3
+      pl: Tor 3
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ac18bb01349c57ffab00
+      kontekst: textscripts.sitrobotlab_courseterminal:line:60
+      linia: 60
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 4
+      pl: Tor 4
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c248ecfcb1a806c19d51
+      kontekst: textscripts.sitrobotlab_courseterminal:line:61
+      linia: 61
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 5
+      pl: Tor 5
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3a2cfc0c70ce64f689ac
+      kontekst: textscripts.sitrobotlab_courseterminal:line:62
+      linia: 62
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 6
+      pl: Tor 6
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9361df338de22c7f2fda
+      kontekst: textscripts.sitrobotlab_courseterminal:line:63
+      linia: 63
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 7
+      pl: Tor 7
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69070b4bd67a893ca2e0
+      kontekst: textscripts.sitrobotlab_courseterminal:line:64
+      linia: 64
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Course 8 [randomized, for fun only]
+      pl: Tor 8 [losowy, wyłącznie dla zabawy]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: runrobot
+    wpisy:
+    - id: sol_90360f480488ca590bfd
+      kontekst: textscripts.sitrobotlab_courseterminal:line:108
+      linia: 108
+      sekcja_skryptu: runrobot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The robot doesn't currently have a program installed. Apparently the other gizmo is for programming?
+      pl: Robot nie ma obecnie zainstalowanego programu. Najwyraźniej to drugie ustrojstwo służy do programowania?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3bf22ee1d2b976bdac01
+      kontekst: textscripts.sitrobotlab_courseterminal:line:109
+      linia: 109
+      sekcja_skryptu: runrobot
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, okay
+      pl: Ach, dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finished
+    wpisy:
+    - id: sol_1051e4177e70f42fb708
+      kontekst: textscripts.sitrobotlab_courseterminal:line:116
+      linia: 116
+      sekcja_skryptu: finished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A little flag pops up out of the top of the console and waves as a jaunty little congratulatory tune plays.
+      pl: Z górnej części konsoli wyskakuje mała chorągiewka i powiewa przy akompaniamencie skocznej melodyjki gratulacyjnej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c1a26f301e55704d9bde
+      kontekst: textscripts.sitrobotlab_courseterminal:line:117
+      linia: 117
+      sekcja_skryptu: finished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>All courses passed. Congratulations!</i>
+      pl: <i>Wszystkie tory zaliczone. Gratulacje!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e8b3c256407d6744064d
+      kontekst: textscripts.sitrobotlab_courseterminal:line:118
+      linia: 118
+      sekcja_skryptu: finished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>Team members, please insert your transcripts for signing.</i>
+      pl: <i>Członkowie zespołu proszeni są o włożenie wykazów zaliczeń do podpisu.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_131b1f5023b79e964693
+      kontekst: textscripts.sitrobotlab_courseterminal:line:119
+      linia: 119
+      sekcja_skryptu: finished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You call Simone over, and the two of you feed your transcripts into the machine, which spits them back out with a serial number printed
+        onto them.
+      pl: Wołasz Simone i wspólnie wsuwacie wykazy zaliczeń do maszyny, która wypluwa je z nadrukowanym numerem seryjnym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dcb0e9a07cc9f6a584fb
+      kontekst: textscripts.sitrobotlab_courseterminal:line:121
+      linia: 121
+      sekcja_skryptu: finished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great job! An extremely suitable win!
+      pl: Świetna robota! Nadzwyczaj stosowne zwycięstwo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b1894ce3522963ca0cd
+      kontekst: textscripts.sitrobotlab_courseterminal:line:122
+      linia: 122
+      sekcja_skryptu: finished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She gives you a high-five.
+      pl: Przybija ci piątkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5bdd032e5969699f4c3d
+      kontekst: textscripts.sitrobotlab_courseterminal:line:129
+      linia: 129
+      sekcja_skryptu: finished
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hooray!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3869
+  skrypt: sitrobotlab_leftarmlever
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b2a94fb0c1b02f0ae6d4
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't mess with this thing, you don't know what it does.
+      pl: Nie powinieneś przy tym majstrować, skoro nie wiesz, do czego służy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: starto
+    wpisy:
+    - id: sol_711e03aedb3afc8064ba
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:10
+      linia: 10
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The machine makes an annoyed noise, and a red light flashes:'
+      pl: 'Maszyna wydaje poirytowany dźwięk, a czerwona lampka zaczyna migać:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_678490eb972e2aa22b35
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:13
+      linia: 13
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: GYROTHOPTER FRAME WEIGHT TOLERANCES FORBID ATTACHMENT OF SECONDARY ARM.
+      pl: TOLERANCJA MASY RAMY GIROTOPTERA UNIEMOŻLIWIA MONTAŻ DRUGIEGO RAMIENIA.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1f9bd53962b694225f33
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:17
+      linia: 17
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You scan the machine's blinky-lights interface...
+      pl: Omiatasz wzrokiem interfejs migających lampek...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+    - id: sol_abcb73384b585157a230
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:18
+      linia: 18
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'CURRENT LEFT ARM ATTACHMENT:'
+      pl: 'OBECNE WYPOSAŻENIE LEWEGO RAMIENIA:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4993984d5d9659e1501f
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:25
+      linia: 25
+      sekcja_skryptu: starto
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the SWAP button
+      pl: Naciśnij przycisk ZAMIEŃ
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_ad73c283728e3e583c1a
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:30
+      linia: 30
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: RECONFIGURING...
+      pl: REKONFIGURACJA...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+    - id: sol_edc40fc5d57bd1fc6001
+      kontekst: textscripts.sitrobotlab_leftarmlever:line:34
+      linia: 34
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (300) call sitrobotlab_buildrobot
+      pl: (300) call sitrobotlab_buildrobot
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id008
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Polecenie silnika; skopiowano bez zmian.'
+- kolejnosc_w_danych_gry: 3871
+  skrypt: sitrobotlab_program
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 19
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b2a94fb0c1b02f0ae6d4
+      kontekst: textscripts.sitrobotlab_program:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't mess with this thing, you don't know what it does.
+      pl: Nie powinieneś przy tym majstrować, skoro nie wiesz, do czego służy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_7ae60ce52b3b76e10154
+      kontekst: textscripts.sitrobotlab_program:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the robot programming console.
+      pl: To konsola programowania robota.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7cec636472608230f92b
+      kontekst: textscripts.sitrobotlab_program:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Adjust the program
+      pl: Popraw program
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: proggo
+    wpisy:
+    - id: sol_2238b0759dd4223064f6
+      kontekst: textscripts.sitrobotlab_program:line:21
+      linia: 21
+      sekcja_skryptu: proggo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Add a program
+      pl: Dodaj program
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_68be3b329e484deb22ba
+      kontekst: textscripts.sitrobotlab_program:line:27
+      linia: 27
+      sekcja_skryptu: proggo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Change the program
+      pl: Zmień program
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: showprogram
+    wpisy:
+    - id: sol_d8b7f6380e58ac359392
+      kontekst: textscripts.sitrobotlab_program:line:33
+      linia: 33
+      sekcja_skryptu: showprogram
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'CURRENT PROGRAM:'
+      pl: 'OBECNY PROGRAM:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nextnode
+    wpisy:
+    - id: sol_21c4deba55eba983ebc3
+      kontekst: textscripts.sitrobotlab_program:line:91
+      linia: 91
+      sekcja_skryptu: nextnode
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'INPUT COMMAND #$node$/$length$:'
+      pl: 'WPROWADŹ POLECENIE NR $node$/$length$:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $node$
+      - $length$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_ff67d1fadd8acda68614
+      kontekst: textscripts.sitrobotlab_program:line:118
+      linia: 118
+      sekcja_skryptu: nextnode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: END PROGRAM
+      pl: ZAKOŃCZ PROGRAM
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_4ff13acf71bae4a381dc
+      kontekst: textscripts.sitrobotlab_program:line:119
+      linia: 119
+      sekcja_skryptu: nextnode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: RESET
+      pl: RESET
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nextnode_text
+    wpisy:
+    - id: sol_21c4deba55eba983ebc3
+      kontekst: textscripts.sitrobotlab_program:line:129
+      linia: 129
+      sekcja_skryptu: nextnode_text
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'INPUT COMMAND #$node$/$length$:'
+      pl: 'WPROWADŹ POLECENIE NR $node$/$length$:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $node$
+      - $length$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_3d248d5c52d632c3fa80
+      kontekst: textscripts.sitrobotlab_program:line:130
+      linia: 130
+      sekcja_skryptu: nextnode_text
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: FORWARD
+      pl: NAPRZÓD
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e8419cd72ffbe32feadd
+      kontekst: textscripts.sitrobotlab_program:line:131
+      linia: 131
+      sekcja_skryptu: nextnode_text
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: LEFT
+      pl: W LEWO
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ae11733afb6ada690235
+      kontekst: textscripts.sitrobotlab_program:line:132
+      linia: 132
+      sekcja_skryptu: nextnode_text
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: RIGHT
+      pl: W PRAWO
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ff67d1fadd8acda68614
+      kontekst: textscripts.sitrobotlab_program:line:148
+      linia: 148
+      sekcja_skryptu: nextnode_text
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: END PROGRAM
+      pl: ZAKOŃCZ PROGRAM
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_f1659b68dad99d36f284
+      kontekst: textscripts.sitrobotlab_program:line:149
+      linia: 149
+      sekcja_skryptu: nextnode_text
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reset and start over
+      pl: Zresetuj i zacznij od początku
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endnode
+    wpisy:
+    - id: sol_6e3838cf24aa6e5c4f6f
+      kontekst: textscripts.sitrobotlab_program:line:153
+      linia: 153
+      sekcja_skryptu: endnode
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: $tempprog$ @robot_program$node$@
+      pl: $tempprog$ @robot_program$node$@
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $tempprog$
+      - '@robot_program$node$@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Stan programu robota; skopiowano bez zmian.'
+  - etykieta: end
+    wpisy:
+    - id: sol_da65625937ed753468c9
+      kontekst: textscripts.sitrobotlab_program:line:179
+      linia: 179
+      sekcja_skryptu: end
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: $tempprog$ END
+      pl: $tempprog$ END
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $tempprog$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Stan programu robota; skopiowano bez zmian.'
+  - etykieta: done0
+    wpisy:
+    - id: sol_d0aba94e0b13c2ed5f25
+      kontekst: textscripts.sitrobotlab_program:line:185
+      linia: 185
+      sekcja_skryptu: done0
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine spits out a card with a bunch of holes punched into it, which you feed into a slot on the back of the robot.
+      pl: Maszyna wypluwa kartę pełną wybitych otworów. Wsuwasz ją do szczeliny z tyłu robota.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9bcc0fc33228591e7792
+      kontekst: textscripts.sitrobotlab_program:line:186
+      linia: 186
+      sekcja_skryptu: done0
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Neat!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3872
+  skrypt: sitrobotlab_propulsionlever
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b2a94fb0c1b02f0ae6d4
+      kontekst: textscripts.sitrobotlab_propulsionlever:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't mess with this thing, you don't know what it does.
+      pl: Nie powinieneś przy tym majstrować, skoro nie wiesz, do czego służy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: starto
+    wpisy:
+    - id: sol_1f9bd53962b694225f33
+      kontekst: textscripts.sitrobotlab_propulsionlever:line:11
+      linia: 11
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You scan the machine's blinky-lights interface...
+      pl: Omiatasz wzrokiem interfejs migających lampek...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_67f15f87cb5c5d44efcf
+      kontekst: textscripts.sitrobotlab_propulsionlever:line:12
+      linia: 12
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'CURRENT PROPULSION MODE:'
+      pl: 'OBECNY TRYB NAPĘDU:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3b3a4b5a5d880ce77aa5
+      kontekst: textscripts.sitrobotlab_propulsionlever:line:16
+      linia: 16
+      sekcja_skryptu: starto
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push the SWAP button
+      pl: Naciśnij przycisk ZAMIEŃ
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id009 []
+  - etykieta: e
+    wpisy:
+    - id: sol_ad73c283728e3e583c1a
+      kontekst: textscripts.sitrobotlab_propulsionlever:line:21
+      linia: 21
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: RECONFIGURING...
+      pl: REKONFIGURACJA...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+    - id: sol_edc40fc5d57bd1fc6001
+      kontekst: textscripts.sitrobotlab_propulsionlever:line:26
+      linia: 26
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (300) call sitrobotlab_buildrobot
+      pl: (300) call sitrobotlab_buildrobot
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+- kolejnosc_w_danych_gry: 3873
+  skrypt: sitrobotlab_rightarmlever
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b2a94fb0c1b02f0ae6d4
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't mess with this thing, you don't know what it does.
+      pl: Nie powinieneś przy tym majstrować, skoro nie wiesz, do czego służy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_323053d2ea3b3d3cbcb7
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This looks like the machine to configure the robot's right arm, but it looks broken. You tap the buttons a few times, but nothing happens.
+        Well, you hear kind of a sizzling, grinding noise inside the machine, but nothing <i>visible</i> happens.
+      pl: Wygląda na to, że ta maszyna konfiguruje prawe ramię robota, ale jest zepsuta. Kilka razy stukasz w przyciski, lecz nic się nie dzieje.
+        To znaczy ze środka dobiega skwierczenie i chrobot, ale nic <i>widocznego</i> się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9bcdae0c73ac5507b7b5
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask Simone about it
+      pl: Zapytaj o to Simone
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3f900023f1479018d2c6
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's unlikely that anyone else has fixed this machine since the last time you tried it.
+      pl: Mało prawdopodobne, by ktoś naprawił tę maszynę od czasu twojej ostatniej próby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5605a9758d39e1eadb50
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:12
+      linia: 12
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Install the phlogistic thermistor
+      pl: Zamontuj termistor flogistonowy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b78ba0f37d655586500f
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:14
+      linia: 14
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should go to the roof and find that part Simone told you about.
+      pl: Powinieneś wejść na dach i znaleźć część, o której mówiła Simone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: starto
+    wpisy:
+    - id: sol_1f9bd53962b694225f33
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:22
+      linia: 22
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You scan the machine's blinky-lights interface...
+      pl: Omiatasz wzrokiem interfejs migających lampek...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_0e0b41bf5dda9c0ed9df
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:23
+      linia: 23
+      sekcja_skryptu: starto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'CURRENT RIGHT ARM ATTACHMENT:'
+      pl: 'OBECNE WYPOSAŻENIE PRAWEGO RAMIENIA:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3b3a4b5a5d880ce77aa5
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:30
+      linia: 30
+      sekcja_skryptu: starto
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push the SWAP button
+      pl: Naciśnij przycisk ZAMIEŃ
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+  - etykieta: e
+    wpisy:
+    - id: sol_ad73c283728e3e583c1a
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:35
+      linia: 35
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: RECONFIGURING...
+      pl: REKONFIGURACJA...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+    - id: sol_edc40fc5d57bd1fc6001
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:39
+      linia: 39
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (300) call sitrobotlab_buildrobot
+      pl: (300) call sitrobotlab_buildrobot
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+  - etykieta: efix2
+    wpisy:
+    - id: sol_3be5ec90f041c8126010
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:50
+      linia: 50
+      sekcja_skryptu: efix2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Umm... how does this phlogithingy doohickey go in?
+      pl: Eee... jak się montuje to flogistonowe cosiowisko?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f50e2253f6415f3aad78
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:52
+      linia: 52
+      sekcja_skryptu: efix2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, it's trivial. Just pop open the little panel on the side and you'll see a slot for it. It's like replacing a fuse.
+      pl: Och, to banalne. Otwórz mały panel z boku, a zobaczysz odpowiednie gniazdo. Zupełnie jak wymiana bezpiecznika.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ec5bdc96d0a6e58613c
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:53
+      linia: 53
+      sekcja_skryptu: efix2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the panel, toss the burned-out doohickey, and replace it with the fresh doohickey.
+      pl: Otwierasz panel, wyrzucasz przepalone cosiowisko i zastępujesz je świeżym cosiowiskiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d4a659eb213a5b60ca11
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:56
+      linia: 56
+      sekcja_skryptu: efix2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All right, done
+      pl: Dobrze, gotowe
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_457da3afee3f5ff1825f
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:66
+      linia: 66
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey Simone, this RIGHT ARM machine is busted.
+      pl: Hej, Simone, ta maszyna od PRAWEGO RAMIENIA jest zepsuta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a7e7dbe07db19b3c0351
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:68
+      linia: 68
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, bogus. Probably the phlogistic thermistor's fried again.
+      pl: Ech, lipa. Pewnie znowu spalił się termistor flogistonowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4485893ff5f897063529
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:69
+      linia: 69
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What are the odds you have one on hand that you can just give to me? Zero, right?
+      pl: Jakie są szanse, że akurat masz jeden pod ręką i możesz mi go dać? Zerowe, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0209ddc80c062e0f2c54
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:70
+      linia: 70
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Correct. I had to scavenge that last one from one of the air-conditioning units on the roof.
+      pl: Zgadza się. Poprzedni musiałam wygrzebać z jednego z klimatyzatorów na dachu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_06b77705db1737ac429e
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:71
+      linia: 71
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Swell.
+      pl: Świetnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo2
+    wpisy:
+    - id: sol_19459817eb288c148563
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:76
+      linia: 76
+      sekcja_skryptu: convo2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Those AC units use several of them, though. You can just go grab another one.
+      pl: Te klimatyzatory używają jednak po kilka sztuk. Możesz po prostu pójść i zabrać następny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a55555a74dcf11d6aae9
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:77
+      linia: 77
+      sekcja_skryptu: convo2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How do I get there?
+      pl: Jak się tam dostać?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aac6451ebeb826e3a0bc
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:78
+      linia: 78
+      sekcja_skryptu: convo2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Roof access is through the Spider Wing.
+      pl: Na dach wchodzi się przez Skrzydło Pająka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_214faf833f38f8c8fe99
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:79
+      linia: 79
+      sekcja_skryptu: convo2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Spiders don't typically have--
+      pl: Pająki zwykle nie mają skrzy—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6acd33a6f7ec716846c2
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:80
+      linia: 80
+      sekcja_skryptu: convo2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I hacked the ATHENA monitor, so you'll be able to go straight up.
+      pl: Włamałam się do monitora ATHENY, więc wejdziesz prosto na górę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37a3985b34d402b9e682
+      kontekst: textscripts.sitrobotlab_rightarmlever:line:82
+      linia: 82
+      sekcja_skryptu: convo2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3875
+  skrypt: sitrobotlab_simone
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 45
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c9839b43862fb9732392
+      kontekst: textscripts.sitrobotlab_simone:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to her
+      pl: Porozmawiaj z nią
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 47
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_eacc0648146cd7c7ebe2
+      kontekst: textscripts.sitrobotlab_simone:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi! What's up?
+      pl: Cześć! Co słychać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aa32e9021042f327565a
+      kontekst: textscripts.sitrobotlab_simone:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing, nevermind.
+      pl: Nic, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_f91cda1364ee4238bf35
+      kontekst: textscripts.sitrobotlab_simone:line:25
+      linia: 25
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, are you taking this class? I'm new and I don't know what I'm supposed to be doing.
+      pl: Cześć, chodzisz na te zajęcia? Dopiero zaczynam i nie mam pojęcia, co mam robić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ca1df82c992213f9353
+      kontekst: textscripts.sitrobotlab_simone:line:27
+      linia: 27
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, it's pretty straightforward. You just have to build a robot from scratch, and then program it to successfully run a series of obstacle
+        courses.
+      pl: Och, to całkiem proste. Musisz zbudować robota od zera, a potem zaprogramować go tak, by pomyślnie pokonał serię torów przeszkód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_45d53567078ccd42280e
+      kontekst: textscripts.sitrobotlab_simone:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That sounds fun!
+      pl: Brzmi fajnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_25d836a273fd462a3d88
+      kontekst: textscripts.sitrobotlab_simone:line:29
+      linia: 29
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That sounds... hard.
+      pl: Brzmi... trudno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fun
+    wpisy:
+    - id: sol_577d01582b042c9d3905
+      kontekst: textscripts.sitrobotlab_simone:line:34
+      linia: 34
+      sekcja_skryptu: fun
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I love it! Unfortunately, you got here pretty late, and all the parts have been used up.
+      pl: Tak, uwielbiam to! Niestety trochę późno tu trafiłeś i wszystkie części zostały już wykorzystane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2d031539907e5d522606
+      kontekst: textscripts.sitrobotlab_simone:line:35
+      linia: 35
+      sekcja_skryptu: fun
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well... shoot!
+      pl: No... kurczę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_52682ab3172a15972221
+      kontekst: textscripts.sitrobotlab_simone:line:36
+      linia: 36
+      sekcja_skryptu: fun
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a real frog, all right. Budget cuts are munging the department's lab resources pretty badly.
+      pl: No, prawdziwa żaba. Cięcia budżetowe paskudnie kaszanią zasoby laboratoryjne wydziału.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Simone używa celowo dziwnego slangu („real frog”, „munging”); zachowano absurd, lecz rejestr wymaga oceny
+        z całością jej dialogów.'
+    - id: sol_18e16bdc5f7ed4478318
+      kontekst: textscripts.sitrobotlab_simone:line:37
+      linia: 37
+      sekcja_skryptu: fun
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I need to pass this course, though. What should I do?
+      pl: Muszę jednak zaliczyć ten przedmiot. Co mam zrobić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hard
+    wpisy:
+    - id: sol_4774bad13808ed739abc
+      kontekst: textscripts.sitrobotlab_simone:line:43
+      linia: 43
+      sekcja_skryptu: hard
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, it's a breeze! Are you not the technical sort?
+      pl: Ech, to pestka! Technika nie jest twoją mocną stroną?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d67a6f42e5d29e937cf4
+      kontekst: textscripts.sitrobotlab_simone:line:44
+      linia: 44
+      sekcja_skryptu: hard
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Not especially. I pretty much just picked this class out of curiosity.
+      pl: Nieszczególnie. Wybrałem te zajęcia głównie z ciekawości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: luck
+    wpisy:
+    - id: sol_69d546dfbc916f7d22a4
+      kontekst: textscripts.sitrobotlab_simone:line:49
+      linia: 49
+      sekcja_skryptu: luck
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, you've hit a moby stroke of luck. We're supposed to work in pairs, but I was the odd one out. That's why I'm still here -- building
+        the robot alone took ages.
+      pl: Cóż, trafił ci się wielorybi łut szczęścia. Mamy pracować parami, ale dla mnie zabrakło partnera. Dlatego nadal tu jestem — samodzielna budowa robota trwała całe wieki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Zachowano osobliwy slang Simone: „moby stroke of luck” → „wielorybi łut szczęścia”.'
+    - id: sol_0a101da5c5fa5aa380d6
+      kontekst: textscripts.sitrobotlab_simone:line:50
+      linia: 50
+      sekcja_skryptu: luck
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh! So we can partner up?
+      pl: Och! Czyli możemy pracować razem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_4a393e5aa4b4a1c78fe9
+      kontekst: textscripts.sitrobotlab_simone:line:55
+      linia: 55
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yup! I've finished all the construction and back-end stuff, so you can take over on programming and running the obstacle course. My
+        name's Simone, by the way.
+      pl: Tak! Cała konstrukcja i zaplecze są gotowe, więc możesz przejąć programowanie i obsługę toru przeszkód. A tak w ogóle, jestem Simone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c6940b9fdc0e54816fe5
+      kontekst: textscripts.sitrobotlab_simone:line:56
+      linia: 56
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Pleased to meet you! My name's @firstname@.
+      pl: Miło cię poznać! Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_22c050430154e92b95d2
+      kontekst: textscripts.sitrobotlab_simone:line:57
+      linia: 57
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So where do I start with this programming business?
+      pl: Od czego zacząć całe to programowanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e7e017092af0943576f6
+      kontekst: textscripts.sitrobotlab_simone:line:58
+      linia: 58
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: See the two machines over in front of the obstacle course? The one on the left is a punchcard printer -- just tell it what you want
+        the robot to do, and it'll spit out a card for you to feed into the robot. The other machine sets up the courses and starts the robot's
+        program.
+      pl: Widzisz te dwie maszyny przed torem przeszkód? Ta po lewej to drukarka kart perforowanych — powiedz jej, co robot ma zrobić, a wypluje
+        kartę, którą wsuniesz do robota. Druga maszyna ustawia tory i uruchamia program robota.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1eb5ea3d5bda6a693a9
+      kontekst: textscripts.sitrobotlab_simone:line:59
+      linia: 59
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What are these three big machines here?
+      pl: Do czego służą te trzy wielkie maszyny?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: sol_2dde6cf23d6e9cc5d2a9
+      kontekst: textscripts.sitrobotlab_simone:line:64
+      linia: 64
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Those are for changing what arms or legs the robot is using -- you'll need to use different parts to solve different courses. The idea
+        is to get the robot to the "GOAL" flag for each course.
+      pl: Służą do zmiany ramion albo nóg robota — różne tory wymagają różnych części. Chodzi o to, by na każdym torze robot dotarł do flagi „META”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a11d0c70d3c9a41591c3
+      kontekst: textscripts.sitrobotlab_simone:line:65
+      linia: 65
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dd6d1fcb8a76293a0809
+      kontekst: textscripts.sitrobotlab_simone:line:66
+      linia: 66
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't be intimidated, you don't have to get them first try or anything. Just mess around with it, and you'll figure it out.
+      pl: Nie zniechęcaj się, nie musisz zaliczyć ich za pierwszym razem. Poeksperymentuj, a wszystko stanie się jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Sprawdzić, czy grafika flagi nadal pokazuje angielskie GOAL; w takim wypadku w tekście należy pozostawić
+        „GOAL” albo podmienić grafikę.'
+    - id: sol_8d6cd9df3d2751f9d10f
+      kontekst: textscripts.sitrobotlab_simone:line:68
+      linia: 68
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reiterate
+    wpisy:
+    - id: sol_50015d2803f8c664bfc3
+      kontekst: textscripts.sitrobotlab_simone:line:73
+      linia: 73
+      sekcja_skryptu: reiterate
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The phlogistic thermistor? You should be able to "borrow" one from one of the rooftop air conditioner units on the roof. Access is via
+        the Spider Wing, at the far end of the hall.
+      pl: Termistor flogistonowy? Jeden powinien dać się „pożyczyć” z klimatyzatora na dachu. Wejście prowadzi przez Skrzydło Pająka na końcu
+        korytarza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_38e3b44dd36c477caaa3
+      kontekst: textscripts.sitrobotlab_simone:line:74
+      linia: 74
+      sekcja_skryptu: reiterate
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Got it.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reminisce
+    wpisy:
+    - id: sol_d79bc01121a10f6503e2
+      kontekst: textscripts.sitrobotlab_simone:line:80
+      linia: 80
+      sekcja_skryptu: reminisce
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Really? I doubt we've met before, I grew up on a tiny little farm outside of Ocean City.
+      pl: Naprawdę? Wątpię, żebyśmy się wcześniej spotkali. Dorastałam na maleńkiej farmie pod Ocean City.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f9427048611fefb05603
+      kontekst: textscripts.sitrobotlab_simone:line:81
+      linia: 81
+      sekcja_skryptu: reminisce
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, that was it! I met your dad the other day.
+      pl: Och, już wiem! Ostatnio poznałem twojego tatę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b6880d8354efb7d35db7
+      kontekst: textscripts.sitrobotlab_simone:line:82
+      linia: 82
+      sekcja_skryptu: reminisce
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What, really?
+      pl: Co, naprawdę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_45d299d20937e4c269b8
+      kontekst: textscripts.sitrobotlab_simone:line:83
+      linia: 83
+      sekcja_skryptu: reminisce
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, my bus stalled out on the way to the city, and I met him while I was looking for gas.
+      pl: Tak, autobus zepsuł się w drodze do miasta i spotkaliśmy się podczas poszukiwań benzyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cc310569d2a6397ce707
+      kontekst: textscripts.sitrobotlab_simone:line:84
+      linia: 84
+      sekcja_skryptu: reminisce
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Small world! That reminds me, I've got to get back home and pick up the last of my stuff soon.
+      pl: Mały świat! Właśnie, muszę niedługo wrócić do domu i zabrać resztę swoich rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_10d8ef24849a4faa6b64
+      kontekst: textscripts.sitrobotlab_simone:line:85
+      linia: 85
+      sekcja_skryptu: reminisce
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Tell your dad I said hi.
+      pl: Pozdrów ode mnie tatę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: recruit
+    wpisy:
+    - id: sol_8937620d42b76d9865e1
+      kontekst: textscripts.sitrobotlab_simone:line:98
+      linia: 98
+      sekcja_skryptu: recruit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah! Some real cuspy winnitude has been demonstrated today.
+      pl: Tak! Dziś zaprezentowano prawdziwie szczytową zwycięskość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] „cuspy winnitude” oddano celowym neologizmem zgodnym ze slangiem Simone.'
+    - id: sol_72199f753b81f7e0a88e
+      kontekst: textscripts.sitrobotlab_simone:line:99
+      linia: 99
+      sekcja_skryptu: recruit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Have you got plans for the break?
+      pl: Masz jakieś plany na przerwę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_67aa4a21c6b25ed39d18
+      kontekst: textscripts.sitrobotlab_simone:line:100
+      linia: 100
+      sekcja_skryptu: recruit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Other than stopping in to see my dad and grab my stuff at some point, not really. Just punting.
+      pl: Poza odwiedzeniem taty i zabraniem swoich rzeczy — nie bardzo. Będę sobie dryfować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0378af73893154693a14
+      kontekst: textscripts.sitrobotlab_simone:line:101
+      linia: 101
+      sekcja_skryptu: recruit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I've landed myself in an extremely weird situation, and I could really use someone smart on my team. Would you be interested in a bizarre
+        and dangerous adventure?
+      pl: Wplątałem się w wyjątkowo dziwną sytuację i naprawdę przydałby mi się w zespole ktoś bystry. Masz ochotę na osobliwą i niebezpieczną przygodę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ca00c307db7e8fc9fa24
+      kontekst: textscripts.sitrobotlab_simone:line:102
+      linia: 102
+      sekcja_skryptu: recruit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's my preference to avoid danger, but otherwise that's a very tasty sales pitch. ...Okay, I'm in!
+      pl: Wolę unikać niebezpieczeństw, ale poza tym oferta brzmi bardzo smakowicie. ...Dobrze, wchodzę w to!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fa4391408ccb94e0bece
+      kontekst: textscripts.sitrobotlab_simone:line:103
+      linia: 103
+      sekcja_skryptu: recruit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Simone has joined you as a companion.</b>
+      pl: <b>Simone dołącza do ciebie jako towarzyszka.</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d4f8f20f6c3a1169ef3e
+      kontekst: textscripts.sitrobotlab_simone:line:104
+      linia: 104
+      sekcja_skryptu: recruit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take her with you now
+      pl: Zabierz ją ze sobą
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d252dbf78a2ee74e8098
+      kontekst: textscripts.sitrobotlab_simone:line:105
+      linia: 105
+      sekcja_skryptu: recruit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Send her to wait at the Speakeasy
+      pl: Wyślij ją do speakeasy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: sol_63da4bf2419b35a16cfd
+      kontekst: textscripts.sitrobotlab_simone:line:109
+      linia: 109
+      sekcja_skryptu: take
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great! Let's hit the road, I'll do my best to explain on the way.
+      pl: Świetnie! Ruszajmy, postaram się wszystko wyjaśnić po drodze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c5ea241379f0a7530e5
+      kontekst: textscripts.sitrobotlab_simone:line:111
+      linia: 111
+      sekcja_skryptu: take
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head out
+      pl: Wyrusz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id010 []
+  - etykieta: send
+    wpisy:
+    - id: sol_211f5a54db8b2abb4eff
+      kontekst: textscripts.sitrobotlab_simone:line:114
+      linia: 114
+      sekcja_skryptu: send
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There's a speakeasy in Ocean City that I'm kind of using as a base of operations. I'll meet you there.
+      pl: W Ocean City jest speakeasy, którego używam jako bazy operacyjnej. Spotkamy się tam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3aa646cf85a45c7e48b9
+      kontekst: textscripts.sitrobotlab_simone:line:115
+      linia: 115
+      sekcja_skryptu: send
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ooh, "base of operations"! Ten-four, Mission Control!
+      pl: Uuu, „baza operacyjna”! Przyjęłam, Centrala Misji!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c5ea241379f0a7530e5
+      kontekst: textscripts.sitrobotlab_simone:line:117
+      linia: 117
+      sekcja_skryptu: send
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head out
+      pl: Wyrusz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+- kolejnosc_w_danych_gry: 3876
+  skrypt: sitrobotlab_testotron
+  pomieszczenie:
+    id: sitrobotlab_classroom
+    nazwa_en: S.I.T. (Robotechtronics Classroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a5bf25c73d2d2a17de3a
+      kontekst: textscripts.sitrobotlab_testotron:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Test button.
+      pl: Przycisk testowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8feb76f385d7f990f994
+      kontekst: textscripts.sitrobotlab_testotron:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press it
+      pl: Naciśnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3861
+  skrypt: sitrobotlab_classroomdoor
+  pomieszczenie:
+    id: sitrobotlab_inside
+    nazwa_en: S.I.T. (Robotechtronics Lab Showroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8d3dd9f9d0e822b4fde0
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The door is sealed.
+      pl: Drzwi są szczelnie zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_09187a810a8654964145
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the ATHENA button
+      pl: Naciśnij przycisk ATHENY
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_6612d2ec42f5e668285d
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:10
+      linia: 10
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You speak into the microphone in your best robot voice.
+      pl: Mówisz do mikrofonu swoim najlepszym robotycznym głosem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_787e643832d241815369
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: May. I. Enter. Please.
+      pl: Czy. Mogę. Wejść. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a7459d3f483774ce2ff
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '<i>Student ID: @firstname@ @lastname@ identified.</i>'
+      pl: '<i>Zidentyfikowano legitymację studencką: @firstname@ @lastname@.</i>'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne:
+      - <i>
+      - '@firstname@'
+      - '@lastname@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_63a0f2ace67d0859f183
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Access to this doorway is limited to students and faculty in the Robotechtronics department.</i>
+      pl: <i>Dostęp przez te drzwi mają wyłącznie studenci i pracownicy Wydziału Robotechtroniki.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: sol_d89048281a2cdd01306e
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:23
+      linia: 23
+      sekcja_skryptu: 'yes'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Authorization verified. Access granted.</i>
+      pl: <i>Uprawnienia potwierdzone. Dostęp przyznany.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_695f1041af6c73b2f61e
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:24
+      linia: 24
+      sekcja_skryptu: 'yes'
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thank. You.
+      pl: Dzię. Ku. Ję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cc66cd5417ff32281861
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:25
+      linia: 25
+      sekcja_skryptu: 'yes'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>I love you.</i>
+      pl: <i>Kocham cię.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a1fdd1ed5e49d8a709e
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:26
+      linia: 26
+      sekcja_skryptu: 'yes'
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What?
+      pl: Co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_50bd039b34b0e67f9291
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:27
+      linia: 27
+      sekcja_skryptu: 'yes'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Nothing.</i>
+      pl: <i>Nic.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e762d89ee05b3bbe2362
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:30
+      linia: 30
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go on in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sitrobotlab_classroomdoor:line:31
+      linia: 31
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+- kolejnosc_w_danych_gry: 3865
+  skrypt: sitrobotlab_info1
+  pomieszczenie:
+    id: sitrobotlab_inside
+    nazwa_en: S.I.T. (Robotechtronics Lab Showroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_34edcdea78fe6116a44a
+      kontekst: textscripts.sitrobotlab_info1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An information terminal.
+      pl: Terminal informacyjny.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id012 []
+    - id: sol_b5b52d6027a4859256cb
+      kontekst: textscripts.sitrobotlab_info1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the button
+      pl: Naciśnij przycisk
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id013 []
+  - etykieta: e
+    wpisy:
+    - id: sol_7f8e0d641273ef6c036c
+      kontekst: textscripts.sitrobotlab_info1:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"<i>S.I.T.'s Robotechtronics lab produces the finest in automated human-analogue technology.  Our Robotechtronic Assistants, or "robots"
+        for short, have multiply-articulated limbs and are capable of a wide range of motion.</i>"
+      pl: \"<i>Laboratorium Robotechtroniki S.I.T. wytwarza najdoskonalsze zautomatyzowane technologie analogiczne do człowieka. Nasi Robotechtroniczni
+        Asystenci, w skrócie „roboty”, mają wieloprzegubowe kończyny i dysponują szerokim zakresem ruchów.</i>"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3866
+  skrypt: sitrobotlab_info2
+  pomieszczenie:
+    id: sitrobotlab_inside
+    nazwa_en: S.I.T. (Robotechtronics Lab Showroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_34edcdea78fe6116a44a
+      kontekst: textscripts.sitrobotlab_info2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An information terminal.
+      pl: Terminal informacyjny.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+    - id: sol_b5b52d6027a4859256cb
+      kontekst: textscripts.sitrobotlab_info2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the button
+      pl: Naciśnij przycisk
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+  - etykieta: e
+    wpisy:
+    - id: sol_d1ad9c4f38c1afe446b9
+      kontekst: textscripts.sitrobotlab_info2:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"<i>S.I.T.'s Robots, when properly equipped, can keep your floor clean enough to eat off of, even on rough terrain!</i>"
+      pl: \"<i>Odpowiednio wyposażone Roboty S.I.T. potrafią utrzymać podłogę w czystości pozwalającej z niej jeść, nawet w trudnym terenie!</i>"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3867
+  skrypt: sitrobotlab_info3
+  pomieszczenie:
+    id: sitrobotlab_inside
+    nazwa_en: S.I.T. (Robotechtronics Lab Showroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_34edcdea78fe6116a44a
+      kontekst: textscripts.sitrobotlab_info3:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An information terminal.
+      pl: Terminal informacyjny.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+    - id: sol_b5b52d6027a4859256cb
+      kontekst: textscripts.sitrobotlab_info3:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the button
+      pl: Naciśnij przycisk
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+  - etykieta: e
+    wpisy:
+    - id: sol_3bb65bd32177d8414b9d
+      kontekst: textscripts.sitrobotlab_info3:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"<i>The most advanced S.I.T. robots are even capable of sustained flight. With one of these at your disposal, you could send a package
+        to anywhere in the world in just a few short months!</i>"
+      pl: \"<i>Najbardziej zaawansowane roboty S.I.T. potrafią nawet odbywać długotrwałe loty. Mając takiego robota, można wysłać paczkę w dowolne
+        miejsce na świecie w zaledwie kilka krótkich miesięcy!</i>"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

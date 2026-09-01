@@ -1,0 +1,2089 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: mine
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 42
+liczba_wpisow: 103
+sceny:
+- kolejnosc_w_danych_gry: 2472
+  skrypt: mine_dontleave
+  pomieszczenie:
+    id: mine
+    nazwa_en: Gumbuckle Mine
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e447520b7604e9efe166
+      kontekst: textscripts.mine_dontleave:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wander off into the woods?
+      pl: Zapuścić się do lasu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.mine_dontleave:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2475
+  skrypt: mine_elevator
+  pomieszczenie:
+    id: mine
+    nazwa_en: Gumbuckle Mine
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_647edf5a9e484d81e8f2
+      kontekst: textscripts.mine_elevator:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This elevator has rusted into a state of total functionlessness.
+      pl: Ta winda zardzewiała do stanu kompletnej bezużyteczności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_3c61b7433a7e95fa7e2e
+      kontekst: textscripts.mine_elevator:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's too far gone for grease to help at this point. You really hope somebody got fired for doing such a terrible job of taking care
+        of this elevator.
+      pl: Na tym etapie nie pomoże już żaden smar. Masz nadzieję, że ktoś za to wyleciał z pracy za tak okropną konserwację windy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: functional
+    wpisy:
+    - id: sol_82aef13b87f4eeabf9d9
+      kontekst: textscripts.mine_elevator:line:11
+      linia: 11
+      sekcja_skryptu: functional
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This elevator has been remarkably well-maintained.  Nice work.
+      pl: Ta winda jest niezwykle dobrze utrzymana. Świetna robota.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_62a93368d90965e274d7
+      kontekst: textscripts.mine_elevator:line:12
+      linia: 12
+      sekcja_skryptu: functional
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ride it down
+      pl: Zjedź nią
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2483
+  skrypt: mine_officedoor
+  pomieszczenie:
+    id: mine
+    nazwa_en: Gumbuckle Mine
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0c8d573beb6d5c5dff3c
+      kontekst: textscripts.mine_officedoor:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is comprehensively boarded shut.
+      pl: Te drzwi są zabite deskami od A do Z.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_9e7613ab61f376c7fe14
+      kontekst: textscripts.mine_officedoor:line:16
+      linia: 16
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your crowbar makes short work of the long boards.
+      pl: Twój łom szybko rozprawia się z długimi deskami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.mine_officedoor:line:19
+      linia: 19
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: e2
+    wpisy:
+    - id: sol_de7302e5bb35201f11c2
+      kontekst: textscripts.mine_officedoor:line:26
+      linia: 26
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You trivially yank the boards from their mooring.
+      pl: Bez trudu wyrywasz deski z mocowania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.mine_officedoor:line:27
+      linia: 27
+      sekcja_skryptu: e2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 5215
+  skrypt: autoscript__mine_office__coatrack__popup
+  pomieszczenie:
+    id: mine_office
+    nazwa_en: Gumbuckle Mine (Foreman's Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5a09783d4e2ae4b952dd
+      kontekst: textscripts.autoscript__mine_office__coatrack__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The coatrack is bare.
+      pl: Wieszak na płaszcze jest pusty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2463
+  skrypt: mine_cabinet
+  pomieszczenie:
+    id: mine_office
+    nazwa_en: Gumbuckle Mine (Foreman's Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_10b98ed399a86aa33082
+      kontekst: textscripts.mine_cabinet:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cabinet is securely locked.
+      pl: Ta szafka jest solidnie zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: sol_fb2aaa187a00ccbb6773
+      kontekst: textscripts.mine_cabinet:line:11
+      linia: 11
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Click!
+      pl: Klik!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_745b7cda07a903690056
+      kontekst: textscripts.mine_cabinet:line:12
+      linia: 12
+      sekcja_skryptu: unlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open the cabinet
+      pl: Otwórz szafkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: sol_c817f4358ca3e00d37b7
+      kontekst: textscripts.mine_cabinet:line:15
+      linia: 15
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cabinet is unlocked.
+      pl: Szafka jest odblokowana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9f3e88ea382d71bb5fe9
+      kontekst: textscripts.mine_cabinet:line:16
+      linia: 16
+      sekcja_skryptu: open
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open it
+      pl: Otwórz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 35
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loot
+    wpisy:
+    - id: sol_93b9223cad1c5c23adfd
+      kontekst: textscripts.mine_cabinet:line:22
+      linia: 22
+      sekcja_skryptu: loot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cabinet is empty except for one can of elevator grease.
+      pl: Szafka jest pusta poza jedną puszką smaru do wind.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2470
+  skrypt: mine_desk
+  pomieszczenie:
+    id: mine_office
+    nazwa_en: Gumbuckle Mine (Foreman's Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f622f26c7e9a170e3ecc
+      kontekst: textscripts.mine_desk:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing on this desk except a very old pink slip.
+      pl: Na biurku nie ma nic poza bardzo starym wypowiedzeniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46b2cfbb00b3accb71a5
+      kontekst: textscripts.mine_desk:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read it
+      pl: Przeczytaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 37
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_0f674ff74e6e5cd51b35
+      kontekst: textscripts.mine_desk:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The reason for termination is listed as "shirking of elevator maintenance duties."
+      pl: Jako powód zwolnienia podano »uchylanie się od obowiązków konserwacji windy«.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fixed
+    wpisy:
+    - id: sol_fae023a2f6db81c18fad
+      kontekst: textscripts.mine_desk:line:13
+      linia: 13
+      sekcja_skryptu: fixed
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing of interest left on this desk.
+      pl: Na biurku nie zostało nic ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_acea62c5bdc7c1ad542c
+      kontekst: textscripts.mine_desk:line:16
+      linia: 16
+      sekcja_skryptu: fixed
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing on this desk except an old Employee-of-the-Month award certificate.
+      pl: Na biurku nie ma nic poza starym dyplomem Pracownika Miesiąca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_229bf9dd501439e0708b
+      kontekst: textscripts.mine_desk:line:17
+      linia: 17
+      sekcja_skryptu: fixed
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ee
+    wpisy:
+    - id: sol_21c2a9ceed9090a702a2
+      kontekst: textscripts.mine_desk:line:21
+      linia: 21
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're the only one who's even been in here this month, so you definitely deserve this.
+      pl: W tym miesiącu tylko ty w ogóle tu zaglądasz, więc zdecydowanie ci się należy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2477
+  skrypt: mine_filingcabinet
+  pomieszczenie:
+    id: mine_office
+    nazwa_en: Gumbuckle Mine (Foreman's Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.mine_filingcabinet:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+  - etykieta: e
+    wpisy:
+    - id: sol_e5990689c1cce9c9446b
+      kontekst: textscripts.mine_filingcabinet:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just some shoes.  That probably made sense to somebody at some point.
+      pl: Tylko buty. Kiedyś zapewne miało to dla kogoś sens.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: desc
+    wpisy:
+    - id: sol_5f0e08874837f2ec59f3
+      kontekst: textscripts.mine_filingcabinet:line:15
+      linia: 15
+      sekcja_skryptu: desc
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This filing cabinet is newer than the rest of the furniture, but it's still pretty wrecked.
+      pl: Ta szafka kartotekowa jest nowsza niż pozostałe meble, ale wciąż mocno zniszczona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2488
+  skrypt: mine_radio
+  pomieszczenie:
+    id: mine_office
+    nazwa_en: Gumbuckle Mine (Foreman's Office)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a01f5d4b13a478ec3676
+      kontekst: textscripts.mine_radio:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This little radio is playing some big band music.
+      pl: Małe radio gra muzykę bigbandową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2496
+  skrypt: mine_timedoor
+  pomieszczenie:
+    id: mine_office
+    nazwa_en: Gumbuckle Mine (Foreman's Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ad155a78c2c7ef7ea98d
+      kontekst: textscripts.mine_timedoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Another one of those weird doors.
+      pl: Kolejne dziwne drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_06ade79279a206887bc6
+      kontekst: textscripts.mine_timedoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Step through
+      pl: Przejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 5216
+  skrypt: autoscript__mine_office_past__birdcage__popup
+  pomieszczenie:
+    id: mine_office_past
+    nazwa_en: Gumbuckle Mine (Foreman's Office, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_83123952383950b630b3
+      kontekst: textscripts.autoscript__mine_office_past__birdcage__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An empty birdcage.  They must've run out of canaries.
+      pl: Pusta klatka. Musiały im się skończyć kanarki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2464
+  skrypt: mine_cabinetpast
+  pomieszczenie:
+    id: mine_office_past
+    nazwa_en: Gumbuckle Mine (Foreman's Office, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1e611a662160d6cd0930
+      kontekst: textscripts.mine_cabinetpast:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This version of the cabinet is unlocked!
+      pl: Ta wersja szafki jest otwarta!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0333b891587344028278
+      kontekst: textscripts.mine_cabinetpast:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_bb89cd7ea0a599b1e0ab
+      kontekst: textscripts.mine_cabinetpast:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, this version of the cabinet is empty.
+      pl: Niestety ta wersja szafki jest pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2467
+  skrypt: mine_coatrackpast
+  pomieszczenie:
+    id: mine_office_past
+    nazwa_en: Gumbuckle Mine (Foreman's Office, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5f9eb862a4e37b1648d9
+      kontekst: textscripts.mine_coatrackpast:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a jacket hanging on the coatrack, which I guess makes it technically a jacketrack.
+      pl: Na wieszaku wisi kurtka, co technicznie czyni go kurtkowieszakiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c6751fba1d9a5b2f1074
+      kontekst: textscripts.mine_coatrackpast:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a key in the pocket!
+      pl: W kieszeni jest klucz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2471
+  skrypt: mine_deskpast
+  pomieszczenie:
+    id: mine_office_past
+    nazwa_en: Gumbuckle Mine (Foreman's Office, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ccb1f273a87940328373
+      kontekst: textscripts.mine_deskpast:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A desk with nothing on or in or under or behind it. A huge disappointment, really.
+      pl: Biurko, na którym, w którym, pod którym ani za którym niczego nie ma. Ogromne rozczarowanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2487
+  skrypt: mine_pastcalendar
+  pomieszczenie:
+    id: mine_office_past
+    nazwa_en: Gumbuckle Mine (Foreman's Office, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c1ff8db8db7cc785b4ba
+      kontekst: textscripts.mine_pastcalendar:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a 1906 calendar.
+      pl: Kalendarz z 1906 roku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2497
+  skrypt: mine_timedoor2
+  pomieszczenie:
+    id: mine_office_past
+    nazwa_en: Gumbuckle Mine (Foreman's Office, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5432c7214e9cfd6a9e07
+      kontekst: textscripts.mine_timedoor2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Another one of those weird doors, but sepia toned on this side.
+      pl: Kolejne dziwne drzwi, ale po tej stronie w sepii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_06ade79279a206887bc6
+      kontekst: textscripts.mine_timedoor2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Step through
+      pl: Przejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 5218
+  skrypt: autoscript__mine_past__leftblocker__popup
+  pomieszczenie:
+    id: mine_past
+    nazwa_en: Gumbuckle Mine (in the past)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4635f4e82d2a4fcfee60
+      kontekst: textscripts.autoscript__mine_past__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you go too far into that abyss, you might never come back.
+      pl: Jeśli zapuścisz się za daleko w tę otchłań, możesz już nie wrócić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5219
+  skrypt: autoscript__mine_past__rightblocker__popup
+  pomieszczenie:
+    id: mine_past
+    nazwa_en: Gumbuckle Mine (in the past)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bdf3ea5e5fabf605e224
+      kontekst: textscripts.autoscript__mine_past__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't know what (or when) would happen to you if you wander into that stuff.
+      pl: Nie wiesz, co (ani kiedy) by ci się stało po wejściu w to coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2476
+  skrypt: mine_elevatorpast
+  pomieszczenie:
+    id: mine_past
+    nazwa_en: Gumbuckle Mine (in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b974cd8c0288d72d3e39
+      kontekst: textscripts.mine_elevatorpast:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's an elevator that leads down to the main shaft.
+      pl: Winda prowadząca na dół, do głównego szybu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: sol_9018b5dd64f4e5ef11d1
+      kontekst: textscripts.mine_elevatorpast:line:10
+      linia: 10
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A squirt here, a dollop there, and kapow!  This thing'll run like a charm for at least 22 years.
+      pl: Trysk tu, kleks tam i bum! Przez co najmniej 22 lata będzie chodzić jak marzenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69876e563ad24865e7a1
+      kontekst: textscripts.mine_elevatorpast:line:11
+      linia: 11
+      sekcja_skryptu: e2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it for a spin
+      pl: Wypróbuj ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5220
+  skrypt: autoscript__mine_shaft__cavein1__popup
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a4d08e7238c0749779e5
+      kontekst: textscripts.autoscript__mine_shaft__cavein1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A massive cave-in.  Actually, I suppose it's technically a mine-in.
+      pl: Potężny zawał. W kopalni to chyba technicznie wkopał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5221
+  skrypt: autoscript__mine_shaft__leftblocker__popup
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_10fe7a668d992215346b
+      kontekst: textscripts.autoscript__mine_shaft__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That way is completely blocked off with fallen debris.
+      pl: Tamta droga jest całkowicie zagrodzona rumowiskiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5222
+  skrypt: autoscript__mine_shaft__rightblocker__popup
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2c9b04324bde22f89f71
+      kontekst: textscripts.autoscript__mine_shaft__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This tunnel saw how all the others were blocked off and caved in to peer pressure.
+      pl: Ten tunel zobaczył, że wszystkie pozostałe są zablokowane, uległ presji otoczenia i też się zawalił.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5223
+  skrypt: autoscript__mine_shaft__supportcollider__popup
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8291ef0b03848cdf33a6
+      kontekst: textscripts.autoscript__mine_shaft__supportcollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This support beam may be old, but at least it's not full of termites.
+      pl: Ta belka podporowa może być stara, ale przynajmniej nie jest pełna termitów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2469
+  skrypt: mine_crack
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8fbb44c4768cf7606652
+      kontekst: textscripts.mine_crack:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a big crack in the wall here.
+      pl: W ścianie znajduje się wielkie pęknięcie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2473
+  skrypt: mine_dynamitecabinet
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_011686e7cb13852f9c2c
+      kontekst: textscripts.mine_dynamitecabinet:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're nervous enough about carrying one stick of dynamite around.  No way are you grabbing another one.
+      pl: Noszenie jednej laski dynamitu już wystarczająco stresuje. Nie ma mowy o kolejnej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b150cbfcc9a7e4004539
+      kontekst: textscripts.mine_dynamitecabinet:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't need any more dynamite right now.
+      pl: Nie potrzebujesz teraz więcej dynamitu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_91eb784a4e0690d87a37
+      kontekst: textscripts.mine_dynamitecabinet:line:12
+      linia: 12
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An extremely enthusiastic rat has chewed a hole in this solidly-locked solid steel cabinet.
+      pl: Niezwykle entuzjastyczny szczur wygryzł dziurę w solidnie zamkniętej szafce z litej stali.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dae12403a5ef6ac0b77a
+      kontekst: textscripts.mine_dynamitecabinet:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach in
+      pl: Sięgnij do środka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_0e559d6d07ce2fb2cc80
+      kontekst: textscripts.mine_dynamitecabinet:line:18
+      linia: 18
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You root around in the cabinet.  You manage to find one stick of dynamite within arm's reach.
+      pl: Grzebiesz w szafce. W zasięgu ręki udaje się znaleźć jedną laskę dynamitu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2479
+  skrypt: mine_hugegeode
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3e4cab6d3aa0a9a71b3f
+      kontekst: textscripts.mine_hugegeode:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a huge, weirdly spherical rock.  It's got a hole drilled in it.
+      pl: Ogromny, dziwnie kulisty kamień z wywierconym otworem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: desc
+    wpisy:
+    - id: sol_8fe640ec665470b66156
+      kontekst: textscripts.mine_hugegeode:line:12
+      linia: 12
+      sekcja_skryptu: desc
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a huge, weirdly spherical rock.
+      pl: Ogromny, dziwnie kulisty kamień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: see
+    wpisy:
+    - id: sol_502acf2e2ec20c612f51
+      kontekst: textscripts.mine_hugegeode:line:18
+      linia: 18
+      sekcja_skryptu: see
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shine your flashlight in the hole, revealing a bunch of colorful sparkly crystals.  It's a geode!
+      pl: Świecisz latarką w otwór, odsłaniając mnóstwo barwnych, lśniących kryształów. To geoda!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pre
+    wpisy:
+    - id: sol_a3b5a3836c44114d57f8
+      kontekst: textscripts.mine_hugegeode:line:22
+      linia: 22
+      sekcja_skryptu: pre
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully place the stick of dynamite into the hole.
+      pl: Ostrożnie umieszczasz laskę dynamitu w otworze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: blowoptionbad
+    wpisy:
+    - id: sol_b49e4d426980028002e6
+      kontekst: textscripts.mine_hugegeode:line:29
+      linia: 29
+      sekcja_skryptu: blowoptionbad
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is an old stick of dynamite in a hole in this thing.
+      pl: W otworze tkwi stara laska dynamitu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: blowoption
+    wpisy:
+    - id: sol_793485222f0c0f225a20
+      kontekst: textscripts.mine_hugegeode:line:38
+      linia: 38
+      sekcja_skryptu: blowoption
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is an extremely old stick of dynamite in a hole in this thing.  It's practically squirting nitroglycerin.
+      pl: W otworze tkwi niezwykle stara laska dynamitu. Praktycznie tryska nitrogliceryną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_7682945d0ff664fff7f8
+      kontekst: textscripts.mine_hugegeode:line:47
+      linia: 47
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (2500) goto blammojammo
+      pl: (2500) goto blammojammo
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna instrukcja opóźnionego skoku, niewidoczna dla gracza; pozostawiono bez zmian.'
+- kolejnosc_w_danych_gry: 2490
+  skrypt: mine_shaftexit
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_89c402468ab51b3a65df
+      kontekst: textscripts.mine_shaftexit:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the elevator back to the surface.
+      pl: Winda z powrotem na powierzchnię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7c0c0c00c332d84b7f32
+      kontekst: textscripts.mine_shaftexit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ride it up
+      pl: Wjedź nią
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2495
+  skrypt: mine_table
+  pomieszczenie:
+    id: mine_shaft
+    nazwa_en: Gumbuckle Mine (Main Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6dcacd797d1175440ac9
+      kontekst: textscripts.mine_table:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's one of those fancy mining helmets on this table.
+      pl: Na stole leży jeden z tych wymyślnych hełmów górniczych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.mine_table:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d54236cdc40898979fd1
+      kontekst: textscripts.mine_table:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What was the mine's is now yours.
+      pl: Co należało do kopalni, teraz należy do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5224
+  skrypt: autoscript__mine_shaft_past__leftblocker__popup
+  pomieszczenie:
+    id: mine_shaft_past
+    nazwa_en: Gumbuckle Mine (Main Shaft, in the past)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_771863fbb88e68cb89e5
+      kontekst: textscripts.autoscript__mine_shaft_past__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No way are you wandering off into that temporal abyss.
+      pl: Nie ma mowy, żeby zapuszczać się w tę czasową otchłań.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5225
+  skrypt: autoscript__mine_shaft_past__rightblocker__popup
+  pomieszczenie:
+    id: mine_shaft_past
+    nazwa_en: Gumbuckle Mine (Main Shaft, in the past)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8defdd62e27243685498
+      kontekst: textscripts.autoscript__mine_shaft_past__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing past this point in the past.
+      pl: Za tym punktem w przeszłości nie ma już niczego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5226
+  skrypt: autoscript__mine_shaft_past__table__popup
+  pomieszczenie:
+    id: mine_shaft_past
+    nazwa_en: Gumbuckle Mine (Main Shaft, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_42e73f9107fa76d39682
+      kontekst: textscripts.autoscript__mine_shaft_past__table__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This table is bare except for a note reading "IOU: 1 helmet."'
+      pl: 'Na stole nie ma nic poza kartką z napisem „DŁUG: 1 hełm”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2474
+  skrypt: mine_dynamitecabinetpast
+  pomieszczenie:
+    id: mine_shaft_past
+    nazwa_en: Gumbuckle Mine (Main Shaft, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f628c6ed0ee92023298a
+      kontekst: textscripts.mine_dynamitecabinetpast:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cabinet is labeled DYNAMITE STORAGE, and it is <i>extremely</i> locked.
+      pl: Szafka ma napis MAGAZYN DYNAMITU i jest <i>nadzwyczaj</i> zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2480
+  skrypt: mine_hugegeodepast
+  pomieszczenie:
+    id: mine_shaft_past
+    nazwa_en: Gumbuckle Mine (Main Shaft, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_09075b703a17f42ab02c
+      kontekst: textscripts.mine_hugegeodepast:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A very large, oddly spherical rock.  It has a hole drilled into it.
+      pl: Bardzo duży, dziwnie kulisty kamień z wywierconym otworem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontmess
+    wpisy:
+    - id: sol_58bdb2c3fb8e8a2f98f9
+      kontekst: textscripts.mine_hugegeodepast:line:11
+      linia: 11
+      sekcja_skryptu: dontmess
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should leave this exactly as it is so that you don't screw anything up for your time-travelling self.
+      pl: Należy zostawić wszystko dokładnie tak, jak jest, żeby niczego nie zepsuć swojemu podróżującemu w czasie „ja” z przyszłości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: desc
+    wpisy:
+    - id: sol_15d0c80551389855dbc3
+      kontekst: textscripts.mine_hugegeodepast:line:15
+      linia: 15
+      sekcja_skryptu: desc
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a very large, oddly spherical rock.
+      pl: Bardzo duży, dziwnie kulisty kamień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: see
+    wpisy:
+    - id: sol_ffd95e8f87065aa302e5
+      kontekst: textscripts.mine_hugegeodepast:line:19
+      linia: 19
+      sekcja_skryptu: see
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your flashlight reveals sparkly colored crystals inside.  It's a geode!
+      pl: Światło latarki odsłania lśniące kolorowe kryształy. To geoda!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_a3b5a3836c44114d57f8
+      kontekst: textscripts.mine_hugegeodepast:line:24
+      linia: 24
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully place the stick of dynamite into the hole.
+      pl: Ostrożnie umieszczasz laskę dynamitu w otworze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: dynamited
+    wpisy:
+    - id: sol_8377d3c5a92961591fef
+      kontekst: textscripts.mine_hugegeodepast:line:30
+      linia: 30
+      sekcja_skryptu: dynamited
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rock is ready to be blown wide open.
+      pl: Skała jest gotowa do wysadzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: g
+    wpisy:
+    - id: sol_09c13a50fba3f5277778
+      kontekst: textscripts.mine_hugegeodepast:line:47
+      linia: 47
+      sekcja_skryptu: g
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (2000) goto poof
+      pl: (2000) goto poof
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna instrukcja opóźnionego skoku, niewidoczna dla gracza; pozostawiono bez zmian.'
+  - etykieta: thatdidntmodalwork
+    wpisy:
+    - id: sol_50edd3fa4bb9bf80dc2a
+      kontekst: textscripts.mine_hugegeodepast:line:64
+      linia: 64
+      sekcja_skryptu: thatdidntmodalwork
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've seen some disappointing explosions in your life, but that one really failed to even make a dent in the cake.
+      pl: W życiu zdarzały ci się rozczarowujące eksplozje, ale ta nie zdołała nawet wgnieść ciasta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_507e96baf07001b96142
+      kontekst: textscripts.mine_hugegeodepast:line:65
+      linia: 65
+      sekcja_skryptu: thatdidntmodalwork
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This rock must be made of tougher stuff than a relatively fresh stick of dynamite can handle.
+      pl: Ta skała musi być zbyt twarda dla stosunkowo świeżej laski dynamitu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87b5cbb7aaf019065e13
+      kontekst: textscripts.mine_hugegeodepast:line:66
+      linia: 66
+      sekcja_skryptu: thatdidntmodalwork
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2491
+  skrypt: mine_shaftexitpast
+  pomieszczenie:
+    id: mine_shaft_past
+    nazwa_en: Gumbuckle Mine (Main Shaft, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ff68048cec448d3448eb
+      kontekst: textscripts.mine_shaftexitpast:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the elevator back up to the surface.
+      pl: Winda prowadząca z powrotem na powierzchnię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a77a411815a7fca40c8e
+      kontekst: textscripts.mine_shaftexitpast:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ride it
+      pl: Jedź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2494
+  skrypt: mine_support
+  pomieszczenie:
+    id: mine_shaft_past
+    nazwa_en: Gumbuckle Mine (Main Shaft, in the past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b2ccfb369e5633dc895c
+      kontekst: textscripts.mine_support:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The support beam is now termite-free.
+      pl: Belka podporowa jest teraz wolna od termitów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_192ad81f5b797e6b5229
+      kontekst: textscripts.mine_support:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This support beam is lousy with termites.
+      pl: Ta belka podporowa aż roi się od termitów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5227
+  skrypt: autoscript__mine_sidetunnel__door1__popup
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fcbfcaa9cab88938db56
+      kontekst: textscripts.autoscript__mine_sidetunnel__door1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wherever this tunnel used to lead, it goes nowhere now.
+      pl: Dokądkolwiek prowadził kiedyś ten tunel, teraz nie prowadzi donikąd.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5228
+  skrypt: autoscript__mine_sidetunnel__door2__popup
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_130a08d5b159f8f1491c
+      kontekst: textscripts.autoscript__mine_sidetunnel__door2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is either a rubble storage room, or a collapsed shaft.
+      pl: To albo skład gruzu, albo zawalony szyb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5229
+  skrypt: autoscript__mine_sidetunnel__leftblocker__popup
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3227ba3bba38bb2f1072
+      kontekst: textscripts.autoscript__mine_sidetunnel__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shaft abruptly ends in a giant pile of rocks.
+      pl: Ten szyb nagle kończy się gigantyczną stertą kamieni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5230
+  skrypt: autoscript__mine_sidetunnel__rightblocker__popup
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_01f0797ff84b2cd68a0b
+      kontekst: textscripts.autoscript__mine_sidetunnel__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This passage is blocked by boulders of all shapes and sizes.
+      pl: To przejście blokują głazy wszystkich kształtów i rozmiarów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2465
+  skrypt: mine_cart1
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ce59b62126c77b9208f3
+      kontekst: textscripts.mine_cart1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a cart full of mine tailings.
+      pl: Wózek pełen odpadów kopalnianych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_038e1a54f6e0288886f8
+      kontekst: textscripts.mine_cart1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sift through it
+      pl: Przesiej zawartość
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+  - etykieta: e
+    wpisy:
+    - id: sol_a5cf8f213b3622565157
+      kontekst: textscripts.mine_cart1:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a good amount of usable Meat in the rubble.
+      pl: W rumowisku znajdujesz sporą ilość użytecznego Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2466
+  skrypt: mine_cart2
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d4d815dad9a066ba1be7
+      kontekst: textscripts.mine_cart2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a cart full of rubble.
+      pl: Wózek pełen gruzu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_038e1a54f6e0288886f8
+      kontekst: textscripts.mine_cart2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sift through it
+      pl: Przesiej zawartość
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: e
+    wpisy:
+    - id: sol_7ca2f837cc1e06ba6fdf
+      kontekst: textscripts.mine_cart2:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, one of the miners must have lost a ring in here!
+      pl: Hej, któryś górnik musiał zgubić tu pierścień!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2468
+  skrypt: mine_coldrock
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: e
+    wpisy:
+    - id: sol_1a703a32a13454de4750
+      kontekst: textscripts.mine_coldrock:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You compliment the basalt until it warms up to you.
+      pl: Komplementujesz bazalt, aż zaczyna pałać do ciebie ciepłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2481
+  skrypt: mine_knapsack
+  pomieszczenie:
+    id: mine_sidetunnel
+    nazwa_en: Gumbuckle Mine (Side Shaft)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_82dbc739a26254419256
+      kontekst: textscripts.mine_knapsack:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing left but the sack.
+      pl: Nie zostało nic poza workiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4c1c4919ec8f7bd9677a
+      kontekst: textscripts.mine_knapsack:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the sack
+      pl: Weź worek
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0b9d42a32f926c25a988
+      kontekst: textscripts.mine_knapsack:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An old knapsack leans against the support beam thing.
+      pl: Stary plecak opiera się o tę podporową belkopodobną rzecz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.mine_knapsack:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: e
+    wpisy:
+    - id: sol_d97e1f502946da4bcd36
+      kontekst: textscripts.mine_knapsack:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's pants!  Pants and a book.
+      pl: Spodnie! Spodnie i książka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ee
+    wpisy:
+    - id: sol_8c6586a4e40ab63b2457
+      kontekst: textscripts.mine_knapsack:line:19
+      linia: 19
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're the boss!
+      pl: Ty tu rządzisz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

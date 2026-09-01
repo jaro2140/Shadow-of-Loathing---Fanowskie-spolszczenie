@@ -1,0 +1,1785 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: snacklemills
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 23
+liczba_wpisow: 96
+sceny:
+- kolejnosc_w_danych_gry: 5561
+  skrypt: autoscript__snacklemills__drums__popup
+  pomieszczenie:
+    id: snacklemills
+    nazwa_en: Snackle Mills
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3bdff1818e2d10158dde
+      kontekst: textscripts.autoscript__snacklemills__drums__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Empty vegetable oil drums.
+      pl: Puste beczki po oleju roślinnym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5562
+  skrypt: autoscript__snacklemills__tarpcrate__popup
+  pomieszczenie:
+    id: snacklemills
+    nazwa_en: Snackle Mills
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_72e17ef6185fbec7906d
+      kontekst: textscripts.autoscript__snacklemills__tarpcrate__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This crate is full of baking soda.  The tarp is there to keep vinegar from getting into it.
+      pl: Ta skrzynia jest pełna sody oczyszczonej. Plandeka chroni ją przed octem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4093
+  skrypt: snacklemills_caketruck
+  pomieszczenie:
+    id: snacklemills
+    nazwa_en: Snackle Mills
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_13c4afcd84f37a9ded4d
+      kontekst: textscripts.snacklemills_caketruck:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This truck is laden with crates of Snackle Cakes, the worst snack food ever developed.
+      pl: Ta ciężarówka jest załadowana skrzyniami Chrup-Babeczek — najgorszej przekąski, jaką kiedykolwiek opracowano.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c37a6235e6a2164210f6
+      kontekst: textscripts.snacklemills_caketruck:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really take the cakes.
+      pl: Naprawdę bierzesz wszystko jak leci. Zwłaszcza babeczki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id008 []
+- kolejnosc_w_danych_gry: 4096
+  skrypt: snacklemills_exitpopup
+  pomieszczenie:
+    id: snacklemills
+    nazwa_en: Snackle Mills
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_687e2f6b12a898c48ba8
+      kontekst: textscripts.snacklemills_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wanna head somewhere else?
+      pl: Ruszyć gdzie indziej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.snacklemills_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4105
+  skrypt: snacklemills_frontdoor
+  pomieszczenie:
+    id: snacklemills
+    nazwa_en: Snackle Mills
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d77337a1061715c7d71a
+      kontekst: textscripts.snacklemills_frontdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be the front door to the factory. Wait, is this the front of the factory or the back?
+      pl: To chyba frontowe drzwi fabryki. Zaraz, to jest front fabryki czy jej tył?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_43f8b8516dfb7801f06b
+      kontekst: textscripts.snacklemills_frontdoor:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 11
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: poptwo
+    wpisy:
+    - id: sol_a08dc7364527634bae61
+      kontekst: textscripts.snacklemills_frontdoor:line:9
+      linia: 9
+      sekcja_skryptu: poptwo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be either the front door or the back door to the factory.
+      pl: To chyba frontowe albo tylne drzwi fabryki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_43f8b8516dfb7801f06b
+      kontekst: textscripts.snacklemills_frontdoor:line:10
+      linia: 10
+      sekcja_skryptu: poptwo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 11
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: tryit2
+    wpisy:
+    - id: sol_0f29cd6b4a6a5cab6d4d
+      kontekst: textscripts.snacklemills_frontdoor:line:19
+      linia: 19
+      sekcja_skryptu: tryit2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The door doesn't appear to be locked, but it sure doesn't open. On closer inspection, it seems to be rusted shut.
+      pl: Drzwi nie wyglądają na zamknięte na klucz, ale ani drgną. Bliższe oględziny wykazują, że zamknęła je rdza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31ca8b5aeb9b4f852984
+      kontekst: textscripts.snacklemills_frontdoor:line:22
+      linia: 22
+      sekcja_skryptu: tryit2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind
+      pl: Nieważne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4106
+  skrypt: snacklemills_garagedoor
+  pomieszczenie:
+    id: snacklemills
+    nazwa_en: Snackle Mills
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7c5fbecae83c3cd7f6ac
+      kontekst: textscripts.snacklemills_garagedoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The loading dock door is slightly ajar.
+      pl: Drzwi rampy załadunkowej są lekko uchylone.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+- kolejnosc_w_danych_gry: 4110
+  skrypt: snacklemills_similith
+  pomieszczenie:
+    id: snacklemills
+    nazwa_en: Snackle Mills
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6dce4996cfc693a6c8ce
+      kontekst: textscripts.snacklemills_similith:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a similith -- a spire of petrified flour.
+      pl: To symilit — iglica ze skamieniałej mąki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5564
+  skrypt: autoscript__snacklemills_bossoffice__shelf1__popup
+  pomieszczenie:
+    id: snacklemills_bossoffice
+    nazwa_en: Snackle Mills (Boss' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_37abd09abfd9bd5877a9
+      kontekst: textscripts.autoscript__snacklemills_bossoffice__shelf1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you were interested in the history of the Ocean City baking industry, this shelf of receipts would be a treasure trove.  You are
+        not.
+      pl: Gdyby interesowała cię historia piekarnictwa w Ocean City, ta półka z rachunkami byłaby skarbnicą wiedzy. Nie interesuje cię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4091
+  skrypt: snacklemills_bossoffice_onenter
+  pomieszczenie:
+    id: snacklemills_bossoffice
+    nazwa_en: Snackle Mills (Boss' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_6e99858cd9c65927827c
+      kontekst: textscripts.snacklemills_bossoffice_onenter:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The leader of the Doughboys -- identifiable by the fact that he has a greasier hat and more rivets on his jacket than the other Doughboys,
+        if not by the fact that he's in the manager's office -- doesn't notice you when you enter. He appears to be focused on several large piles
+        of wet bread dough lying on the ground around him.
+      pl: Przywódca Ciastochłopców — można go poznać po bardziej zatłuszczonej czapce i większej liczbie nitów na kurtce niż u pozostałych Ciastochłopców,
+        jeśli nie po samym fakcie, że siedzi w gabinecie kierownika — nie zauważa twojego wejścia. Całą uwagę poświęca kilku wielkim kupom mokrego
+        ciasta chlebowego leżącym wokół niego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9bcc01c28ab37d12ed16
+      kontekst: textscripts.snacklemills_bossoffice_onenter:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Weird
+      pl: Dziwne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4092
+  skrypt: snacklemills_bossstash
+  pomieszczenie:
+    id: snacklemills_bossoffice
+    nazwa_en: Snackle Mills (Boss' Office)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_32570ca90c0161b21b68
+      kontekst: textscripts.snacklemills_bossstash:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The boss' desk.
+      pl: Biurko szefa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5de012e72c1bd4f0b017
+      kontekst: textscripts.snacklemills_bossstash:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rifle through it
+      pl: Splądruj je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_b2963b5700ea27eb253e
+      kontekst: textscripts.snacklemills_bossstash:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pilfer everything of value from the Doughman's desk.
+      pl: Podkradasz z biurka Ciastoluda wszystko, co ma jakąkolwiek wartość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4101
+  skrypt: snacklemills_fightboss
+  pomieszczenie:
+    id: snacklemills_bossoffice
+    nazwa_en: Snackle Mills (Boss' Office)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 34
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_67a0344de4cfab4381c1
+      kontekst: textscripts.snacklemills_fightboss:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Approach him
+      pl: Podejdź do niego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_21c43f1939bac54713e1
+      kontekst: textscripts.snacklemills_fightboss:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What the-- who the halva are you?
+      pl: Co do... chałwy, kim ty jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_26d3e52188451e33dd18
+      kontekst: textscripts.snacklemills_fightboss:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Introduce yourself
+      pl: Przedstaw się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d3d6eda0e773fdf73dc8
+      kontekst: textscripts.snacklemills_fightboss:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Halva isn't really bread.
+      pl: Chałwa właściwie nie jest pieczywem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: introduce
+    wpisy:
+    - id: sol_a45ae923b913a71ca66d
+      kontekst: textscripts.snacklemills_fightboss:line:24
+      linia: 24
+      sekcja_skryptu: introduce
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi there, I'm @firstname@ @lastname@. And you are?
+      pl: Cześć, jestem @firstname@ @lastname@. A ty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_88fdd4556b48272a7729
+      kontekst: textscripts.snacklemills_fightboss:line:25
+      linia: 25
+      sekcja_skryptu: introduce
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He scowls angrily, trying to decide between yelling at you to get out, or bragging about himself.
+      pl: Patrzy spode łba, próbując wybrać między wrzaskiem, żeby wynosić się precz, a przechwalaniem się własną osobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4f0ff3a5ce1ca9628e3d
+      kontekst: textscripts.snacklemills_fightboss:line:26
+      linia: 26
+      sekcja_skryptu: introduce
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...I''m Ross "Doughman" Ciabatta, the best baker in this city!'
+      pl: '...Jestem Ross „Ciastolud” Ciabatta, najlepszy piekarz w tym mieście!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_77618ba41376da3320d9
+      kontekst: textscripts.snacklemills_fightboss:line:27
+      linia: 27
+      sekcja_skryptu: introduce
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nice to meet--
+      pl: Miło pozna...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_916e748b0002c9ede714
+      kontekst: textscripts.snacklemills_fightboss:line:28
+      linia: 28
+      sekcja_skryptu: introduce
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now get out!
+      pl: A teraz wynocha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_e1300cfc46de192237c9
+      kontekst: textscripts.snacklemills_fightboss:line:29
+      linia: 29
+      sekcja_skryptu: introduce
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep chatting with him
+      pl: Dalej z nim rozmawiaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.snacklemills_fightboss:line:30
+      linia: 30
+      sekcja_skryptu: introduce
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id002 []
+  - etykieta: halva
+    wpisy:
+    - id: sol_a1ef19a10cb092ed8964
+      kontekst: textscripts.snacklemills_fightboss:line:36
+      linia: 36
+      sekcja_skryptu: halva
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ugh, fine, get the <i>hallulla</i> out of here, then!
+      pl: Uch, dobra, to wynoś się stąd do <i>hallulli</i>!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_a4be404ba82bc6cca375
+      kontekst: textscripts.snacklemills_fightboss:line:37
+      linia: 37
+      sekcja_skryptu: halva
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's hallulla?
+      pl: Co to jest hallulla?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d8d96b803d4393b8ac2f
+      kontekst: textscripts.snacklemills_fightboss:line:38
+      linia: 38
+      sekcja_skryptu: halva
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a sort of Chilean flatbread.
+      pl: Taki chilijski płaski chleb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0605b7f1ab046bb8eea6
+      kontekst: textscripts.snacklemills_fightboss:line:39
+      linia: 39
+      sekcja_skryptu: halva
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I feel like you're really scraping the bottom of the biscuit barrel with that one.
+      pl: Mam wrażenie, że przy tym tekście naprawdę sięgasz dna… beczki z sucharami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_6a4a7cb8c527f5010429
+      kontekst: textscripts.snacklemills_fightboss:line:40
+      linia: 40
+      sekcja_skryptu: halva
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Get out of here right now, or I'm going to beat the crêpe out of you.
+      pl: Wynoś się natychmiast, bo wytłukę z ciebie naleśniki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b73fea8ed950f1da691e
+      kontekst: textscripts.snacklemills_fightboss:line:42
+      linia: 42
+      sekcja_skryptu: halva
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, that's much better.
+      pl: O, to dużo lepsze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.snacklemills_fightboss:line:43
+      linia: 43
+      sekcja_skryptu: halva
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: return
+    wpisy:
+    - id: sol_89732fdba3aba5a93958
+      kontekst: textscripts.snacklemills_fightboss:line:50
+      linia: 50
+      sekcja_skryptu: return
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What are you doing with all these piles of dough?
+      pl: Co robisz z tymi wszystkimi kupami ciasta?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_177f4947e9aa8abfd9fd
+      kontekst: textscripts.snacklemills_fightboss:line:52
+      linia: 52
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Not that it's any business of yours, but I'm perfecting my recipe for bread golems. Soon I'm gonna be running this town!
+      pl: Nie żeby to był twój interes, ale udoskonalam przepis na chlebowe golemy. Wkrótce całe miasto będzie moje!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_bc68ae1fa24d4a91d546
+      kontekst: textscripts.snacklemills_fightboss:line:53
+      linia: 53
+      sekcja_skryptu: return
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh yeah? You and what army?
+      pl: Tak? Ty i jaka armia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_222ed3696fbae7287c47
+      kontekst: textscripts.snacklemills_fightboss:line:54
+      linia: 54
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Me and... me and an army of bread golems. Were you not listening?
+      pl: Ja i... ja i armia chlebowych golemów. Nie słuchałeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.snacklemills_fightboss:line:62
+      linia: 62
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: snackle
+    wpisy:
+    - id: sol_373cb4777f55781c9e44
+      kontekst: textscripts.snacklemills_fightboss:line:67
+      linia: 67
+      sekcja_skryptu: snackle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ugh! Those things are an insult to baking!
+      pl: Uch! Te paskudztwa obrażają sztukę piekarską!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_8bfed3c5474f1d6f7dc4
+      kontekst: textscripts.snacklemills_fightboss:line:68
+      linia: 68
+      sekcja_skryptu: snackle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, they're pretty gross. They aren't for me.
+      pl: No, są dość obrzydliwe. Nie dla mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ce3feba7f3ec005dffe1
+      kontekst: textscripts.snacklemills_fightboss:line:69
+      linia: 69
+      sekcja_skryptu: snackle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There's some on the truck outside.  And also hundreds of cases on the main production floor.  They're plentiful and of extremely little
+        value.  Help yourself. And get out!
+      pl: Trochę leży w ciężarówce na zewnątrz. A na głównej hali produkcyjnej są jeszcze setki skrzyń. Jest ich zatrzęsienie i nie są warte prawie
+        nic. Częstuj się. I wynocha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.snacklemills_fightboss:line:70
+      linia: 70
+      sekcja_skryptu: snackle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: prefight
+    wpisy:
+    - id: sol_7e1cdef7544df85ea31f
+      kontekst: textscripts.snacklemills_fightboss:line:76
+      linia: 76
+      sekcja_skryptu: prefight
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You'll be lucky to get away with all your arms and legs. Rise, my minions! <i>Riiiiise!</i>
+      pl: Będzie szczęście, jeśli ujdziesz stąd w jednym kawałku. Powstańcie, moje sługi! <i>Powstaaaańcie!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_dad87ada2a73d20d2c8e
+      kontekst: textscripts.snacklemills_fightboss:line:77
+      linia: 77
+      sekcja_skryptu: prefight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He waves his arms wildly, and the bread dough around him congeals into two large bread golems.
+      pl: Wymachuje dziko rękami, a leżące wokół ciasto zlepia się w dwa wielkie chlebowe golemy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_1b719f55e8cab7ff154a
+      kontekst: textscripts.snacklemills_fightboss:line:79
+      linia: 79
+      sekcja_skryptu: prefight
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh oh
+      pl: Oho.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_72d3f27e43a0f76b1912
+      kontekst: textscripts.snacklemills_fightboss:line:91
+      linia: 91
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Looks like those golems were only half-baked.
+      pl: Wygrałeś! Najwyraźniej te golemy były jeszcze niedopieczone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.snacklemills_fightboss:line:97
+      linia: 97
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_b7b3112fd1e7ff50a9cd
+      kontekst: textscripts.snacklemills_fightboss:line:102
+      linia: 102
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Those golems weren't just loafing around.
+      pl: Przegrałeś. Te golemy wcale nie zamierzały bezczynnie rosnąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.snacklemills_fightboss:line:104
+      linia: 104
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id003 []
+- kolejnosc_w_danych_gry: 4090
+  skrypt: snacklemills_bossdoor
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ca12ebac20408cebafad
+      kontekst: textscripts.snacklemills_bossdoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be the boss' office, since it's the <i>only</i> office.
+      pl: To musi być gabinet szefa, skoro jest to <i>jedyny</i> gabinet.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d51a83e87f9a19be70cf
+      kontekst: textscripts.snacklemills_bossdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go into the boss' office
+      pl: Wejdź do gabinetu szefa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'no'
+    wpisy:
+    - id: sol_37744efaeccc84fb32b0
+      kontekst: textscripts.snacklemills_bossdoor:line:13
+      linia: 13
+      sekcja_skryptu: 'no'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"Hey!" shouts one of the remaining Doughboys. "Get away from that door, ya muffin-forker!\"
+      pl: „Hej!” — krzyczy jeden z pozostałych Ciastochłopców. „Odsuń się od tych drzwi, ty zakalcu!”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4094
+  skrypt: snacklemills_chemicalshelf
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_470b052e1e477688ca58
+      kontekst: textscripts.snacklemills_chemicalshelf:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already divested this shelf of its chemicals.
+      pl: Ta półka została już pozbawiona chemikaliów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d593ee361a3d804c90b6
+      kontekst: textscripts.snacklemills_chemicalshelf:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf contains a lot of chemicals that don't seem like they should be in food.
+      pl: Na tej półce stoi mnóstwo chemikaliów, które raczej nie powinny trafiać do żywności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f2a6e210ac2d4855cb16
+      kontekst: textscripts.snacklemills_chemicalshelf:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take some
+      pl: Weź trochę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+  - etykieta: e
+    wpisy:
+    - id: sol_436673aff3c7f764706b
+      kontekst: textscripts.snacklemills_chemicalshelf:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pour all of the chemicals into one jar, shake it up, and pocket it.
+      pl: Wlewasz wszystkie chemikalia do jednego słoika, potrząsasz nim i chowasz go do kieszeni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4097
+  skrypt: snacklemills_fight1
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_524bd6d6eaffb474edd6
+      kontekst: textscripts.snacklemills_fight1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Doughboys are clearly less aggressive than other street gangs, in that they're glaring at you and muttering angrily to each other
+        instead of already having attacked you. However, it's also clear that you aren't getting past them without a fight.
+      pl: Ciastochłopcy są wyraźnie mniej agresywni niż inne uliczne gangi — zamiast od razu zaatakować, tylko łypią spode łba i mamroczą coś
+        gniewnie między sobą. Równie wyraźnie widać jednak, że bez walki się obok nich nie przejdzie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id004 []
+  - etykieta: win
+    wpisy:
+    - id: sol_73d02579ec49b0617352
+      kontekst: textscripts.snacklemills_fight1:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! You've defeated some Doughboys on their home turf.
+      pl: Wygrałeś! Ciastochłopcy dostali łomot na własnym terenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_52b0e451788022b5371a
+      kontekst: textscripts.snacklemills_fight1:line:21
+      linia: 21
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It's my turf now
+      pl: Teraz to mój teren
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_8f01465f5e7412737589
+      kontekst: textscripts.snacklemills_fight1:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. You crawl away before they can chuck you in the dumptser with the day-olds.
+      pl: Przegrałeś. Odpełzasz, zanim wrzucą cię do śmietnika razem z wczorajszymi wypiekami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.snacklemills_fight1:line:29
+      linia: 29
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 4098
+  skrypt: snacklemills_fight1b
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7c4878e7d75d3ac2229a
+      kontekst: textscripts.snacklemills_fight1b:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a little strange that this group of Doughboys didn't immediately attack you when you were roughing up the other group of them.
+        Maybe they don't like each other very much.
+      pl: Trochę dziwne, że ta grupa Ciastochłopców nie zaatakowała od razu, kiedy lała się poprzednia grupa. Może niezbyt się lubią.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id005 []
+  - etykieta: win
+    wpisy:
+    - id: sol_bfd84129ab95242d14e2
+      kontekst: textscripts.snacklemills_fight1b:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You left those doughboys in the dust.
+      pl: Ciastochłopcy gryzą pył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_5df1accc51173c9787f9
+      kontekst: textscripts.snacklemills_fight1b:line:17
+      linia: 17
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I think it's flour
+      pl: To chyba mąka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_6eb701c6713d127b55ff
+      kontekst: textscripts.snacklemills_fight1b:line:22
+      linia: 22
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those doughboys left you in the dust.
+      pl: Ciastochłopcy rzucają cię w pył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_c68844ce34671072379c
+      kontekst: textscripts.snacklemills_fight1b:line:24
+      linia: 24
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm pretty sure it's flour
+      pl: Prawie na pewno to mąka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 4099
+  skrypt: snacklemills_fight2
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_524bd6d6eaffb474edd6
+      kontekst: textscripts.snacklemills_fight2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Doughboys are clearly less aggressive than other street gangs, in that they're glaring at you and muttering angrily to each other
+        instead of already having attacked you. However, it's also clear that you aren't getting past them without a fight.
+      pl: Ciastochłopcy są wyraźnie mniej agresywni niż inne uliczne gangi — zamiast od razu zaatakować, tylko łypią spode łba i mamroczą coś
+        gniewnie między sobą. Równie wyraźnie widać jednak, że bez walki się obok nich nie przejdzie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id004
+  - etykieta: win
+    wpisy:
+    - id: sol_c44adc39778d3a3a51c8
+      kontekst: textscripts.snacklemills_fight2:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! They should call you "too much soup," because you just spoiled those cooks.
+      pl: Wygrałeś! Powinni mówić na ciebie „szósta kucharka”, bo przez ciebie tym kucharzom nie ma już co jeść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_c02b3b91ec30756b599e
+      kontekst: textscripts.snacklemills_fight2:line:22
+      linia: 22
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait, what?
+      pl: Chwila, co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_ee24357c19d5243a6c9d
+      kontekst: textscripts.snacklemills_fight2:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. The Doughboys dusted you in flour and pounded you flat.
+      pl: Przegrałeś. Ciastochłopcy obsypali cię mąką i rozwałkowali na płasko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.snacklemills_fight2:line:29
+      linia: 29
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 4100
+  skrypt: snacklemills_fight2b
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7c4878e7d75d3ac2229a
+      kontekst: textscripts.snacklemills_fight2b:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a little strange that this group of Doughboys didn't immediately attack you when you were roughing up the other group of them.
+        Maybe they don't like each other very much.
+      pl: Trochę dziwne, że ta grupa Ciastochłopców nie zaatakowała od razu, kiedy lała się poprzednia grupa. Może niezbyt się lubią.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id005
+  - etykieta: win
+    wpisy:
+    - id: sol_5a076a4155387df14c84
+      kontekst: textscripts.snacklemills_fight2b:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those doughboys couldn't stand your heat.
+      pl: Ciastochłopcy nie wytrzymali żaru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_5977f4ba34311f262c18
+      kontekst: textscripts.snacklemills_fight2b:line:17
+      linia: 17
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I do bring a lot of heat
+      pl: Robię gorącą atmosferę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_3209f3630ddad1b4c9b5
+      kontekst: textscripts.snacklemills_fight2b:line:22
+      linia: 22
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those guys really beat the stuffing out of your turkey.
+      pl: Naprawdę wybili z ciebie farsz jak z indyka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b92f9d7fcc9d6178e80c
+      kontekst: textscripts.snacklemills_fight2b:line:24
+      linia: 24
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gobble gobble
+      pl: Gul, gul
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 4103
+  skrypt: snacklemills_floor_garageexit
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7c5fbecae83c3cd7f6ac
+      kontekst: textscripts.snacklemills_floor_garageexit:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The loading dock door is slightly ajar.
+      pl: Drzwi rampy załadunkowej są lekko uchylone.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_4aa0097466db80ba9405
+      kontekst: textscripts.snacklemills_floor_garageexit:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Squirm through [$diff$ Moxie]
+      pl: Przeciśnij się [$diff$ Fasonu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $diff$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4104
+  skrypt: snacklemills_flourshelf
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8ae4142deb7a6994120a
+      kontekst: textscripts.snacklemills_flourshelf:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf is not worth any more of your time.  It was barely worth the time you already spent on it.
+      pl: Ta półka nie jest warta ani chwili więcej. Ledwie zasłużyła na czas już na nią zmarnowany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cb660133c45a2df99cb6
+      kontekst: textscripts.snacklemills_flourshelf:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf is laden with bags of expired flour.
+      pl: Półka ugina się pod workami przeterminowanej mąki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f2a6e210ac2d4855cb16
+      kontekst: textscripts.snacklemills_flourshelf:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take some
+      pl: Weź trochę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: e
+    wpisy:
+    - id: sol_e69775070e49d152bc7d
+      kontekst: textscripts.snacklemills_flourshelf:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You painstakingly collect the least stale grains of flour from each bag and make one bag of good flour.
+      pl: Mozolnie wybierasz z każdego worka najmniej zwietrzałą mąkę i składasz z niej jeden worek całkiem dobrej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4107
+  skrypt: snacklemills_interiorpile
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9d6e74ed900492c16a9e
+      kontekst: textscripts.snacklemills_interiorpile:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A mountain of unsold Snackle Cakes.
+      pl: Góra niesprzedanych Chrup-Babeczek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c37a6235e6a2164210f6
+      kontekst: textscripts.snacklemills_interiorpile:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really take the cakes.
+      pl: Naprawdę bierzesz wszystko jak leci. Zwłaszcza babeczki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+- kolejnosc_w_danych_gry: 4108
+  skrypt: snacklemills_interiorpile2
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_46067a22513c5b1671f5
+      kontekst: textscripts.snacklemills_interiorpile2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They really bet everything on these terrible Snackle Cakes.
+      pl: Naprawdę postawili wszystko na te koszmarne Chrup-Babeczki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c37a6235e6a2164210f6
+      kontekst: textscripts.snacklemills_interiorpile2:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really take the cakes.
+      pl: Naprawdę bierzesz wszystko jak leci. Zwłaszcza babeczki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+- kolejnosc_w_danych_gry: 4109
+  skrypt: snacklemills_onenter
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_0ef47173260879767666
+      kontekst: textscripts.snacklemills_onenter:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It looks like the abandoned factory has been occupied by one of Ocean City's various gangs of street hoodlums, namely the Doughboys.
+        They're hanging out here in their leather jackets and white aprons, bragging about their sourdough starters and using rude words like
+        "foccacia" and "son of a brioche."
+      pl: Wygląda na to, że opuszczoną fabrykę zajął jeden z licznych gangów ulicznych opryszków Ocean City, a konkretnie Ciastochłopcy. Kręcą
+        się tu w skórzanych kurtkach i białych fartuchach, przechwalają zakwasami i rzucają ordynarnymi słowami w rodzaju „focaccia” oraz „syn
+        drożdżówki”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dd952f708bd4cf69a493
+      kontekst: textscripts.snacklemills_onenter:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Or they were, until you made that huge racket getting in here. Now they're staring knives at you, and also pointing knives at you. And
+        they're <i>bread</i> knives, which are serrated, so you really don't want to get stabbed with one.
+      pl: A raczej kręcili się, dopóki nie narobiłeś przy wejściu takiego rumoru. Teraz przeszywają cię wzrokiem jak nożami — a do tego mierzą w ciebie prawdziwymi. I to nożami <i>do chleba</i>, czyli ząbkowanymi, więc naprawdę nie chcesz oberwać którymś z nich.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9f30480842bd34738532
+      kontekst: textscripts.snacklemills_onenter:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whoops
+      pl: Ups
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4111
+  skrypt: snacklemills_sugar
+  pomieszczenie:
+    id: snacklemills_floor
+    nazwa_en: Snackle Mills (Production Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b0874f71abba95aed60e
+      kontekst: textscripts.snacklemills_sugar:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A huge mound of loose sugar.
+      pl: Ogromna góra cukru luzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_409286bbf75c3a7c7536
+      kontekst: textscripts.snacklemills_sugar:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a burlap sack and put 150 lbs. of the sugar into it.
+      pl: Znajdujesz jutowy worek i wsypujesz do niego 150 funtów cukru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

@@ -1,0 +1,3378 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: botanyprof
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 28
+liczba_wpisow: 189
+sceny:
+- kolejnosc_w_danych_gry: 4908
+  skrypt: autoscript__botanyprof__car__popup
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_02350fde032361a17c11
+      kontekst: textscripts.autoscript__botanyprof__car__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is an expensive car, but it has been tragically neglected.
+      pl: To drogi samochód, ale tragicznie zaniedbany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4909
+  skrypt: autoscript__botanyprof__doorcollider__popup
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_28cda13a3527c1e9e75b
+      kontekst: textscripts.autoscript__botanyprof__doorcollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The door won't budge.
+      pl: Drzwi ani drgną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4911
+  skrypt: autoscript__botanyprof__fenceleft0__popup
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b75c05c733d4e6a27c4c
+      kontekst: textscripts.autoscript__botanyprof__fenceleft0__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This fence is too tall to see or jump or cry over.
+      pl: Ten płot jest za wysoki, żeby ponad nim cokolwiek zobaczyć, przeskoczyć go albo nad nim zapłakać.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+- kolejnosc_w_danych_gry: 4910
+  skrypt: autoscript__botanyprof__fenceleft__popup
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b75c05c733d4e6a27c4c
+      kontekst: textscripts.autoscript__botanyprof__fenceleft__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This fence is too tall to see or jump or cry over.
+      pl: Ten płot jest za wysoki, żeby ponad nim cokolwiek zobaczyć, przeskoczyć go albo nad nim zapłakać.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 4912
+  skrypt: autoscript__botanyprof__fenceright2__popup
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a1ab8d58910ec2ba4b40
+      kontekst: textscripts.autoscript__botanyprof__fenceright2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This fence is impassable until they invent something that can cut through wood.
+      pl: Ten płot pozostanie nie do przejścia, dopóki ktoś nie wynajdzie czegoś, co potrafi ciąć drewno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4913
+  skrypt: autoscript__botanyprof__windowcollider__popup
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f833c03d43cb08b6efeb
+      kontekst: textscripts.autoscript__botanyprof__windowcollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Based on what you can see through this window, the entire house is full of potting soil.
+      pl: Z tego, co widać przez okno, cały dom jest wypełniony ziemią doniczkową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 673
+  skrypt: botanyprof_exitpopup
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fbd886319207bdf5a2c9
+      kontekst: textscripts.botanyprof_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Take a holiday from this home?
+      pl: Zrobić sobie wolne od tego domku letniskowego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ef84664bf24ac743fc46
+      kontekst: textscripts.botanyprof_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Indeed
+      pl: Owszem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 674
+  skrypt: botanyprof_fencehole
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_db62fe4e2ea8f91dfaf8
+      kontekst: textscripts.botanyprof_fencehole:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's an ironic opening in the fence where that sign used to be.
+      pl: W płocie pozostało ironiczne przejście po zerwanej tabliczce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.botanyprof_fencehole:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+  - etykieta: signstillthere
+    wpisy:
+    - id: sol_13eda409bdb4da7b27c2
+      kontekst: textscripts.botanyprof_fencehole:line:10
+      linia: 10
+      sekcja_skryptu: signstillthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sign is being very curt with you.
+      pl: Ta tabliczka odzywa się do ciebie bardzo oschle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9cd75ca66ba003d989f2
+      kontekst: textscripts.botanyprof_fencehole:line:11
+      linia: 11
+      sekcja_skryptu: signstillthere
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tear it down
+      pl: Zerwij ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: sol_5c5b8d315835bb0a7852
+      kontekst: textscripts.botanyprof_fencehole:line:18
+      linia: 18
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Aha.  A big hole.
+      pl: Aha. Wielka dziura.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e056b0e8f7f6d85e395a
+      kontekst: textscripts.botanyprof_fencehole:line:19
+      linia: 19
+      sekcja_skryptu: e2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through
+      pl: Przejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 675
+  skrypt: botanyprof_fight1
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cd9f24852d546ca52942
+      kontekst: textscripts.botanyprof_fight1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hellebore fight
+      pl: walka z ciemiernikiem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0bff5d646ce5e5ba0082
+      kontekst: textscripts.botanyprof_fight1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: fake win
+      pl: fałszywe zwycięstwo
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 682
+  skrypt: botanyprof_intropop
+  pomieszczenie:
+    id: botanyprof
+    nazwa_en: Professor Kalos' Holiday Home
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f82a3e3bade370870fda
+      kontekst: textscripts.botanyprof_intropop:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The professor's holiday home looks like it could use a holiday of its own, to be honest.
+      pl: Szczerze mówiąc, dom letniskowy profesora sam wygląda, jakby potrzebował urlopu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 668
+  skrypt: botanyprof_bossdown
+  pomieszczenie:
+    id: botanyprof_greenhouse
+    nazwa_en: Professor Kalos' Greenhouse
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_48a089bd1f7bcaa0928c
+      kontekst: textscripts.botanyprof_bossdown:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The crumpled remains of Professor Kalos. He's already starting to wither and smell bad. Gross.
+      pl: Zmięte szczątki profesora Kalosa. Już zaczyna więdnąć i brzydko pachnieć. Fuj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8132c33ade38220769bc
+      kontekst: textscripts.botanyprof_bossdown:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Aw dang it, <i>now</i> how are you gonna get your transcript signed?
+      pl: O rany, <i>jak teraz</i> zdobędziesz podpis na wykazie zaliczeń?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c80a44582c8f4eb2d34e
+      kontekst: textscripts.botanyprof_bossdown:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search him
+      pl: Przeszukaj go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: begin
+    wpisy:
+    - id: sol_7655379d8ab09bf9f27c
+      kontekst: textscripts.botanyprof_bossdown:line:13
+      linia: 13
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@dogname@ sniffs at Professor Kalos'' body.'
+      pl: '@dogname@ obwąchuje ciało profesora Kalosa.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@dogname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16a627acdba15150c6ca
+      kontekst: textscripts.botanyprof_bossdown:line:15
+      linia: 15
+      sekcja_skryptu: begin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Whimper...</i>
+      pl: <i>Skomlenie...</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_43a4ec8c305efc1ce10b
+      kontekst: textscripts.botanyprof_bossdown:line:17
+      linia: 17
+      sekcja_skryptu: begin
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm sorry, boy. I know it's hard, but we did what we had to do.
+      pl: Przykro mi, piesku. Wiem, że to trudne, ale zrobiliśmy to, co musieliśmy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e2813612271dec5cc7ae
+      kontekst: textscripts.botanyprof_bossdown:line:18
+      linia: 18
+      sekcja_skryptu: begin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Woof.'
+      pl: '...Hau.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f60cd6f7b65f6a5f2053
+      kontekst: textscripts.botanyprof_bossdown:line:19
+      linia: 19
+      sekcja_skryptu: begin
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And what we have to do <i>now</i>, is loot his weird corpse.
+      pl: A <i>teraz</i> musimy ograbić jego dziwne zwłoki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72bd2a7a83952fdb91a8
+      kontekst: textscripts.botanyprof_bossdown:line:20
+      linia: 20
+      sekcja_skryptu: begin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Arf!
+      pl: Hau!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_f03e72387f89fe143872
+      kontekst: textscripts.botanyprof_bossdown:line:21
+      linia: 21
+      sekcja_skryptu: begin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Heck yeah
+      pl: No pewnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: signo
+    wpisy:
+    - id: sol_72537d87dabf9d29dffb
+      kontekst: textscripts.botanyprof_bossdown:line:25
+      linia: 25
+      sekcja_skryptu: signo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick through the tattered remnants of the professor's lab coat, and find his faculty ID and pen.
+      pl: Przeszukujesz strzępy fartucha laboratoryjnego profesora i znajdujesz jego legitymację pracowniczą oraz pióro.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_be4eac3f44eddd8f39ad
+      kontekst: textscripts.botanyprof_bossdown:line:27
+      linia: 27
+      sekcja_skryptu: signo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. Well, a signature written with the professor's pen should be just as good as if it was signed by the professor himself, right?
+        Nobody could possibly dispute that. You sign your transcript with a reasonable approximation of the signature on his ID.
+      pl: Hm. Podpis złożony piórem profesora powinien być równie dobry jak podpis samego profesora, prawda? Nikt nie zdoła tego podważyć. Podpisujesz wykaz zaliczeń rozsądną imitacją podpisu z legitymacji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72ba73afd238250d0b71
+      kontekst: textscripts.botanyprof_bossdown:line:32
+      linia: 32
+      sekcja_skryptu: signo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You also find a pair of pants discarded in the corner -- guess the professor grew out of them. You take them for good measure, by which
+        I mean you measure them and they fit you, which is good.
+      pl: W kącie znajdujesz też porzucone spodnie — profesor najwyraźniej z nich wyrósł. Zabierasz je na miarę — to znaczy przymierzasz. Pasują, i dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a4af798abf42f6c07b99
+      kontekst: textscripts.botanyprof_bossdown:line:34
+      linia: 34
+      sekcja_skryptu: signo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet
+      pl: Super
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 669
+  skrypt: botanyprof_bossfight
+  pomieszczenie:
+    id: botanyprof_greenhouse
+    nazwa_en: Professor Kalos' Greenhouse
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: sol_53fa9ae8250ad885d39f
+      kontekst: textscripts.botanyprof_bossfight:line:32
+      linia: 32
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Looks like people who live in glass houses shouldn't, uh, be plants?
+      pl: Wygrałeś! Wygląda na to, że mieszkańcy szklarni nie powinni, eee, być roślinami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_951e251983ba471d0329
+      kontekst: textscripts.botanyprof_bossfight:line:33
+      linia: 33
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's right
+      pl: Właśnie tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_075e45f36cbc330734f5
+      kontekst: textscripts.botanyprof_bossfight:line:37
+      linia: 37
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. I hope that won't affect your final grade.
+      pl: Przegrałeś. Oby ta porażka nie wpłynęła na twoją ocenę końcową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_c296629a5f304f6ba85d
+      kontekst: textscripts.botanyprof_bossfight:line:38
+      linia: 38
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ugh
+      pl: Uch
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: examine
+    wpisy:
+    - id: sol_f19d033aa2649e7afa2c
+      kontekst: textscripts.botanyprof_bossfight:line:42
+      linia: 42
+      sekcja_skryptu: examine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The creature has long, thin green limbs like flower stems, and is clothed (sort of) in ragged white petals. Its head is... some kind
+        of plant pod?
+      pl: Stworzenie ma długie, cienkie, zielone kończyny podobne do łodyg i jest ubrane (mniej więcej) w postrzępione białe płatki. Jego głowa
+        to... jakiś roślinny pąk?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b4379792345855fce353
+      kontekst: textscripts.botanyprof_bossfight:line:43
+      linia: 43
+      sekcja_skryptu: examine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You inch just a <i>little</i> bit closer to get a better look, and realize that the white 'petals' are actually the torn and frayed
+        scraps of a white lab coat.
+      pl: Podchodzisz jeszcze <i>odrobinkę</i>, by lepiej się przyjrzeć, i odkrywasz, że białe „płatki” to tak naprawdę podarte, wystrzępione
+        resztki białego fartucha laboratoryjnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_1a538b506161a61278f3
+      kontekst: textscripts.botanyprof_bossfight:line:45
+      linia: 45
+      sekcja_skryptu: examine
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: P...Professor Kalos?
+      pl: P... profesor Kalos?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_8835843d3ffef9894a0c
+      kontekst: textscripts.botanyprof_bossfight:line:46
+      linia: 46
+      sekcja_skryptu: examine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The creature spins around and hisses angrily.
+      pl: Stworzenie gwałtownie się odwraca i wściekle syczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_bc296f2d484cc37e45dd
+      kontekst: textscripts.botanyprof_bossfight:line:48
+      linia: 48
+      sekcja_skryptu: examine
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hissss!</i>
+      pl: <i>Sssss!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_757baca580645f25890b
+      kontekst: textscripts.botanyprof_bossfight:line:49
+      linia: 49
+      sekcja_skryptu: examine
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...I need you to sign my course transcript.'
+      pl: ...Potrzebuję podpisu na wykazie zaliczeń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_efc9eb0e88940a7da2dd
+      kontekst: textscripts.botanyprof_bossfight:line:50
+      linia: 50
+      sekcja_skryptu: examine
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Graaaaaaaaagh!</i>
+      pl: <i>Grrrrrrrrr!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0062faa6b3be7dfec667
+      kontekst: textscripts.botanyprof_bossfight:line:51
+      linia: 51
+      sekcja_skryptu: examine
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Run away
+      pl: Uciekaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: barker
+    wpisy:
+    - id: sol_e40a24cc5df30635fbd3
+      kontekst: textscripts.botanyprof_bossfight:line:61
+      linia: 61
+      sekcja_skryptu: barker
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@dogname@ jumps in front of you and barks at the Professor.'
+      pl: '@dogname@ wskakuje przed ciebie i oszczekuje profesora.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@dogname@'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_6c0ae717091268e6db7a
+      kontekst: textscripts.botanyprof_bossfight:line:63
+      linia: 63
+      sekcja_skryptu: barker
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Arf! Arf!
+      pl: Hau! Hau!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_86e695524b41dd7652db
+      kontekst: textscripts.botanyprof_bossfight:line:66
+      linia: 66
+      sekcja_skryptu: barker
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: <i>whine?</i>
+      pl: <i>skomlenie?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_af0259d482011a1bbe89
+      kontekst: textscripts.botanyprof_bossfight:line:67
+      linia: 67
+      sekcja_skryptu: barker
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>...Graaaaaaagh!</i>
+      pl: <i>...Grrrrrrrr!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_8de77e6b9ddce9b46dcb
+      kontekst: textscripts.botanyprof_bossfight:line:68
+      linia: 68
+      sekcja_skryptu: barker
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The professor swipes at @dogname@, knocking him back. @dogname@ yelps and whimpers, but quickly returns to defend you, growling angrily
+        at his former master.
+      pl: Profesor zamachuje się na @dogname@ i odrzuca go do tyłu. @dogname@ skowycze i popiskuje, ale szybko wraca cię bronić, warcząc ze złością
+        na byłego pana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@dogname@'
+      - '@dogname@'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_18d9d0fde342bcb4d3e5
+      kontekst: textscripts.botanyprof_bossfight:line:69
+      linia: 69
+      sekcja_skryptu: barker
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good boy!
+      pl: Dobry piesek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: run
+    wpisy:
+    - id: sol_00e58071c7468fa43751
+      kontekst: textscripts.botanyprof_bossfight:line:73
+      linia: 73
+      sekcja_skryptu: run
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The crazed plantfessor leaps at you, but you dive for the door and escape. Fortunately, he doesn't seem inclined to leave the greenhouse.
+      pl: Oszalały roślinofesor rzuca się na ciebie, ale dajesz nura w stronę drzwi i uciekasz. Na szczęście najwyraźniej nie chce opuszczać szklarni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_fd0b7e4cd5805b816f62
+      kontekst: textscripts.botanyprof_bossfight:line:75
+      linia: 75
+      sekcja_skryptu: run
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Whew.
+      pl: Uff.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 676
+  skrypt: botanyprof_fightplanter
+  pomieszczenie:
+    id: botanyprof_greenhouse
+    nazwa_en: Professor Kalos' Greenhouse
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7a7c39f53140638ff9dd
+      kontekst: textscripts.botanyprof_fightplanter:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's pull some weeds [fight]
+      pl: Wyrwijmy trochę chwastów [walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_34e7a7c3b1668fc3671d
+      kontekst: textscripts.botanyprof_fightplanter:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's pull <i>a</i> weed [easy fight]
+      pl: Wyrwijmy <i>jeden</i> chwast [łatwa walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d751c63fde55f1064af8
+      kontekst: textscripts.botanyprof_fightplanter:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Let's pull some weeds [%pacifist_label%]
+      pl: Wyrwijmy trochę chwastów [%pacifist_label%]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%pacifist_label%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_0cb9c1594be5a7c59f3a
+      kontekst: textscripts.botanyprof_fightplanter:line:43
+      linia: 43
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! People don't usually take pride in being able to beat up plants, but you've earned it.
+      pl: Wygrałeś! Ludzie zwykle nie szczycą się biciem roślin, ale ty sobie na tę dumę zasłużyłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d2f235b59ff975335938
+      kontekst: textscripts.botanyprof_fightplanter:line:52
+      linia: 52
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_d2ce92bd58ee21c1c3d4
+      kontekst: textscripts.botanyprof_fightplanter:line:55
+      linia: 55
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. At least you're leaving with new-found respect for vines.
+      pl: Przegrałeś. Przynajmniej odchodzisz z nowym szacunkiem do pnączy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_03401792b29af2abb232
+      kontekst: textscripts.botanyprof_fightplanter:line:56
+      linia: 56
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 4914
+  skrypt: autoscript__botanyprof_house__door__popup
+  pomieszczenie:
+    id: botanyprof_house
+    nazwa_en: Professor Kalos' Kitchen
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0a3a7e3a3f62c57ec112
+      kontekst: textscripts.autoscript__botanyprof_house__door__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This leads to the dirt room.  There's no space in there for you.
+      pl: Tędy wchodzi się do pokoju z ziemią. Nie ma tam już dla ciebie miejsca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 671
+  skrypt: botanyprof_dish
+  pomieszczenie:
+    id: botanyprof_house
+    nazwa_en: Professor Kalos' Kitchen
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_46224e2cd736c9adef3d
+      kontekst: textscripts.botanyprof_dish:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a dog dish with the name BARKER stencilled on the side.
+      pl: Psia miska z wyszablonowanym z boku imieniem SZCZEKORA.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.botanyprof_dish:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz ją.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_65d88e3eca8181dd00fa
+      kontekst: textscripts.botanyprof_dish:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You never know when a gross dish will come in handy.
+      pl: Nigdy nie wiadomo, kiedy obrzydliwa miska okaże się przydatna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 678
+  skrypt: botanyprof_fridge
+  pomieszczenie:
+    id: botanyprof_house
+    nazwa_en: Professor Kalos' Kitchen
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 46
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ee7b892c873f6c1df53d
+      kontekst: textscripts.botanyprof_fridge:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shudder quietly as you remember your experiences with this fridge.
+      pl: Wzdrygasz się cicho na wspomnienie doświadczeń z tą lodówką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b345510cc215dea0e676
+      kontekst: textscripts.botanyprof_fridge:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is almost certainly nothing good in this fridge.
+      pl: Prawie na pewno w tej lodówce nie ma niczego dobrego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_769c2cc1033be8862daa
+      kontekst: textscripts.botanyprof_fridge:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, but check it anyway
+      pl: Tak, ale i tak sprawdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getit
+    wpisy:
+    - id: sol_e226c7a62bd9b1ed870d
+      kontekst: textscripts.botanyprof_fridge:line:13
+      linia: 13
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oooof. It's even wilder in here than expected. Half of the vegetables have rotted and turned into muck and mold, and the other half
+        appear to be mutated experimental plants that have rapidly acclimated themselves to the environment and are using the rot as fertilizer.
+        It's like a small foul-smelling alien jungle in this fridge.
+      pl: Ufff. Jest tu jeszcze dziczej, niż można było oczekiwać. Połowa warzyw zgniła i zmieniła się w breję oraz pleśń, a druga połowa to chyba
+        zmutowane rośliny eksperymentalne, które błyskawicznie przystosowały się do środowiska i używają zgnilizny jako nawozu. To jak mała, cuchnąca,
+        obca dżungla w lodówce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dcf4e27a62ee80b75304
+      kontekst: textscripts.botanyprof_fridge:line:14
+      linia: 14
+      sekcja_skryptu: getit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a salad
+      pl: Zrób sałatkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+    - id: sol_18e151bd3a267075e068
+      kontekst: textscripts.botanyprof_fridge:line:15
+      linia: 15
+      sekcja_skryptu: getit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Close the door
+      pl: Zamknij drzwi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad
+    wpisy:
+    - id: sol_3a77667c4a69d9bb49ee
+      kontekst: textscripts.botanyprof_fridge:line:20
+      linia: 20
+      sekcja_skryptu: salad
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '...What?'
+      pl: '...Co?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b873332b8f0af2947767
+      kontekst: textscripts.botanyprof_fridge:line:21
+      linia: 21
+      sekcja_skryptu: salad
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I said "Make a salad"
+      pl: 'Powiedziałem: „Zrób sałatkę”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0f1b6f3a15cf0dfaee17
+      kontekst: textscripts.botanyprof_fridge:line:22
+      linia: 22
+      sekcja_skryptu: salad
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing, never mind
+      pl: Nic, nieważne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad2
+    wpisy:
+    - id: sol_9c1d19112299fe682ad1
+      kontekst: textscripts.botanyprof_fridge:line:26
+      linia: 26
+      sekcja_skryptu: salad2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe I wasn't clear, we're talking about a selection of plants that is half rotted glop and half pulsating veins. This isn't the salad
+        bar down at the Outback Sizzler.
+      pl: 'Może nie wyraziłem się jasno: mowa o zestawie roślin, który w połowie jest zgniłą breją, a w połowie pulsującymi żyłami. To nie bar sałatkowy w Outback Sizzler.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e940a47b6c19b86cf91b
+      kontekst: textscripts.botanyprof_fridge:line:27
+      linia: 27
+      sekcja_skryptu: salad2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you make me do this, there's no backing out halfway. You're gonna have to read the whole thing.
+      pl: Jeśli zmusisz mnie do zrobienia tego, nie ma odwrotu w połowie. Będziesz musiał przeczytać całość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dcf4e27a62ee80b75304
+      kontekst: textscripts.botanyprof_fridge:line:28
+      linia: 28
+      sekcja_skryptu: salad2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a salad
+      pl: Zrób sałatkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_53f0766ae59037ca66a1
+      kontekst: textscripts.botanyprof_fridge:line:29
+      linia: 29
+      sekcja_skryptu: salad2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Forget it
+      pl: Zapomnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad3
+    wpisy:
+    - id: sol_cf510b22d9e0deb926da
+      kontekst: textscripts.botanyprof_fridge:line:33
+      linia: 33
+      sekcja_skryptu: salad3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>Sigh...</i> All right, well, I guess there's no point in fighting you on it. I know how this goes.
+      pl: <i>Ech...</i> No dobrze, chyba nie ma sensu z tobą walczyć. Wiem, jak to się kończy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8277a100046692cceb03
+      kontekst: textscripts.botanyprof_fridge:line:34
+      linia: 34
+      sekcja_skryptu: salad3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You poke around the ruins of the kitchen until you find an intact salad bowl, and wipe it off with your sleeve.
+      pl: Grzebiesz w ruinach kuchni, aż znajdujesz całą miskę na sałatkę, i wycierasz ją rękawem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd4921fc65e894158a0d
+      kontekst: textscripts.botanyprof_fridge:line:35
+      linia: 35
+      sekcja_skryptu: salad3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Let's see. A salad would typically start with a bed of lettuce. The nearest equivalent you see here would be either some glistening
+        green-brown sludge that is just barely holding together into leaf-like sheets, or some broad, shiny green leaves dotted with blood-red
+        splotches.
+      pl: Zobaczmy. Sałatka zwykle zaczyna się od warstwy sałaty. Najbliższy odpowiednik tutaj to lśniąca zielonobrązowa maź, ledwie trzymająca
+        się w kształcie liści, albo szerokie, błyszczące zielone liście upstrzone krwistoczerwonymi plamami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1b520addd38f3614aa5
+      kontekst: textscripts.botanyprof_fridge:line:36
+      linia: 36
+      sekcja_skryptu: salad3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The gross brown sludge
+      pl: Obrzydliwa brązowa maź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e00d28f65ec549d9e27a
+      kontekst: textscripts.botanyprof_fridge:line:37
+      linia: 37
+      sekcja_skryptu: salad3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The weird splotchy leaves
+      pl: Dziwne plamiste liście
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad3a
+    wpisy:
+    - id: sol_f9d9e9d789c8c48f1049
+      kontekst: textscripts.botanyprof_fridge:line:41
+      linia: 41
+      sekcja_skryptu: salad3a
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You fish a handful of rotting leaves out of the bottom of the fridge and splap them into your bowl. That's the sound it makes, <i>splap</i>.
+        The slime sticks to your hand like a thick coat of vaseline and motor oil, which is also more or less what it smells like.
+      pl: 'Wyławiasz garść gnijących liści z dna lodówki i wślapujesz je do miski. Właśnie taki wydają dźwięk: <i>ślap</i>. Szlam przylega do dłoni jak gruba warstwa wazeliny z olejem silnikowym i mniej więcej tak samo pachnie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad3b
+    wpisy:
+    - id: sol_da1a13efc81c2aca93d1
+      kontekst: textscripts.botanyprof_fridge:line:46
+      linia: 46
+      sekcja_skryptu: salad3b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick a handful of the leaves and arrange them in the bottom of your bowl. It seems like the red spots are migrating toward where
+        your hands touched the leaves, so you try not to do that too much, or let the spots actually touch your skin.
+      pl: Zrywasz garść liści i układasz je na dnie miski. Czerwone plamy chyba wędrują ku miejscom dotkniętym przez dłonie, więc starasz się
+        ograniczyć kontakt i nie pozwolić im dotknąć skóry.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad4
+    wpisy:
+    - id: sol_8bf290d6f73d5c6b81f9
+      kontekst: textscripts.botanyprof_fridge:line:51
+      linia: 51
+      sekcja_skryptu: salad4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What next... maybe some sliced cucumber? You do see something in here that looks like maybe it used to be a cucumber, but it's mostly
+        dissolved and leaked away, leaving behind a long blob of empty and blackened cucumber skin -- like a deflated, slime-leaking party balloon.
+      pl: Co dalej... może plasterki ogórka? Jest tu coś, co chyba kiedyś było ogórkiem, ale w większości rozpuściło się i wyciekło, zostawiając
+        długi płat pustej, poczerniałej skórki — jak sflaczały imprezowy balon ociekający śluzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_65d79b397a6572f07994
+      kontekst: textscripts.botanyprof_fridge:line:52
+      linia: 52
+      sekcja_skryptu: salad4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Alternately, you could take a vegetable that is sort of long and round like a cucumber, but it's yellow like a squash, with rippling
+        and bulging bright-green veins.
+      pl: Można też wziąć warzywo podłużne i okrągłe jak ogórek, ale żółte jak kabaczek i pokryte falującymi, nabrzmiałymi, jaskrawozielonymi
+        żyłami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c5c0df994c0a0c38816f
+      kontekst: textscripts.botanyprof_fridge:line:53
+      linia: 53
+      sekcja_skryptu: salad4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The cucumber skin
+      pl: Skórka ogórka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_573bffee0dcd38b90c41
+      kontekst: textscripts.botanyprof_fridge:line:54
+      linia: 54
+      sekcja_skryptu: salad4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The weird vegetable
+      pl: Dziwne warzywo
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad4a
+    wpisy:
+    - id: sol_413819d7e9c39db4f75a
+      kontekst: textscripts.botanyprof_fridge:line:58
+      linia: 58
+      sekcja_skryptu: salad4a
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cucumber skin makes a damp slurping sound as you peel it off of the fridge shelf. It probably doesn't make any sense to slice it,
+        so you just drape it along the edge of the bowl as a horrible garnish.
+      pl: Skórka ogórka wydaje wilgotne siorbnięcie, gdy odklejasz ją od półki. Krojenie chyba nie ma sensu, więc po prostu przewieszasz ją przez
+        brzeg miski jako upiorną dekorację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad4b
+    wpisy:
+    - id: sol_96256e9bf67e02482d21
+      kontekst: textscripts.botanyprof_fridge:line:63
+      linia: 63
+      sekcja_skryptu: salad4b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take the weird squash-like thing and find a rusty kitchen knife to slice it with. Neon green juice spritzes out with surprising
+        force as you do, narrowly missing your eyes and tingling fiercely where it gets on your skin. The inner flesh of the vegetable is black
+        with an oily purple sheen, and it smells like a brand-new car tire. That a cat peed on.
+      pl: Bierzesz dziwne kabaczkowate coś i znajdujesz zardzewiały nóż. Podczas krojenia neonowozielony sok tryska z zaskakującą siłą, ledwie
+        omijając oczy i dotkliwie szczypiąc skórę. Miąższ jest czarny, oleiście fioletowy i pachnie jak nowa opona samochodowa. Obsikana przez
+        kota.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ec73d4fca83c5a257c1
+      kontekst: textscripts.botanyprof_fridge:line:64
+      linia: 64
+      sekcja_skryptu: salad4b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You arrange the slices neatly in your bowl.
+      pl: Równo układasz plasterki w misce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad5
+    wpisy:
+    - id: sol_db956a99e04621a89ec9
+      kontekst: textscripts.botanyprof_fridge:line:69
+      linia: 69
+      sekcja_skryptu: salad5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The next thing you find while rooting around in the fridge is a surprisingly intact-looking onion. Next to it is a thing of similar
+        shape and size, but more of a puce color. And twitching slightly.
+      pl: Następną rzeczą znalezioną podczas grzebania w lodówce jest zaskakująco zdrowo wyglądająca cebula. Obok leży coś o podobnym kształcie i rozmiarze, ale raczej w kolorze brunatnofioletowym. I lekko drga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a2347bf4446b348e3ac0
+      kontekst: textscripts.botanyprof_fridge:line:70
+      linia: 70
+      sekcja_skryptu: salad5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The onion
+      pl: Cebula
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ade5282618f4f1cc5a80
+      kontekst: textscripts.botanyprof_fridge:line:71
+      linia: 71
+      sekcja_skryptu: salad5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The... other thing
+      pl: '...To drugie'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad5a
+    wpisy:
+    - id: sol_990c0c857eda55df381b
+      kontekst: textscripts.botanyprof_fridge:line:75
+      linia: 75
+      sekcja_skryptu: salad5a
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When you go to slice the onion, it turns out to be entirely hollow, having rotted from the inside-out as onions sometimes do. Brown
+        juice squirts out everywhere, and although I was trying to avoid an explicit callback here, I can't think of any way to describe the juice
+        except as being exactly like the contents of a spittoon in every way. You shake the juice off of the remains of the onion, and add it
+        to your salad.
+      pl: Przy próbie krojenia okazuje się, że cebula jest całkiem pusta, bo jak to czasem bywa, zgniła od środka. Brązowy sok tryska wszędzie
+        i choć próbowano uniknąć jawnego nawiązania, nie da się go opisać inaczej niż jako identyczny pod każdym względem z zawartością spluwaczki.
+        Strząsasz sok z resztek cebuli i dodajesz je do sałatki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad5b
+    wpisy:
+    - id: sol_c377eaf59478c4af177c
+      kontekst: textscripts.botanyprof_fridge:line:80
+      linia: 80
+      sekcja_skryptu: salad5b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As soon as your knife pierces the skin of the puce-colored vegetable, it bursts open, and thousands of tiny pink mites pour out of it,
+        scampering everywhere on long spiderlike legs. They vanish quickly, finding various crevices throughout the kitchen to hide in. Hopefully,
+        none of those crevices belong to you. You calmly slice what's left of the vegetable, and add it to your salad.
+      pl: Gdy nóż przebija skórę brunatnofioletowego warzywa, ono pęka, wypuszczając tysiące maleńkich różowych roztoczy, które rozbiegają się na długich, pajęczych nogach. Szybko znikają w kuchennych szczelinach. Oby żadna z nich nie należała do ciebie. Spokojnie kroisz pozostałość warzywa i dodajesz ją do sałatki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad6
+    wpisy:
+    - id: sol_e6e3b454473b341e2455
+      kontekst: textscripts.botanyprof_fridge:line:85
+      linia: 85
+      sekcja_skryptu: salad6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The perfect thing to top off a salad is, in my opinion, some nice fresh cherry tomatoes. You do find a small bowl of round things that
+        might be grayish-green cherry tomatoes? Or rotting grapes. Or old pickled quail eggs? Or maybe just green olives? Ugh, I hate green olives.
+      pl: Idealnym zwieńczeniem sałatki są moim zdaniem świeże pomidorki koktajlowe. Znajdujesz małą miskę szarozielonych kulek, które mogą być
+        pomidorkami? Albo gnijącymi winogronami. Albo starymi jajkami przepiórczymi w zalewie? Albo po prostu zielonymi oliwkami? Uch, nie znoszę
+        zielonych oliwek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a55cedca425fb2d79b12
+      kontekst: textscripts.botanyprof_fridge:line:86
+      linia: 86
+      sekcja_skryptu: salad6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's also a plant that has sprouted some berries of similar size and shape, except they're white. Well, not exactly white. Sort of
+        off-white, except the 'off' part isn't quite the same color you get in normal off-white.
+      pl: Jest też roślina z jagodami podobnej wielkości i kształtu, tyle że białymi. No, nie całkiem białymi. Raczej złamaną bielą, tylko część
+        odpowiedzialna za „złamanie” ma inny kolor niż zwykle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_be8c28c4e8ee3746157f
+      kontekst: textscripts.botanyprof_fridge:line:87
+      linia: 87
+      sekcja_skryptu: salad6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The bowl of round things
+      pl: Miska okrągłych rzeczy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a07d501f57b7af264140
+      kontekst: textscripts.botanyprof_fridge:line:88
+      linia: 88
+      sekcja_skryptu: salad6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The whitish berries
+      pl: Białawe jagody
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad6a
+    wpisy:
+    - id: sol_3e7df1da39000faad044
+      kontekst: textscripts.botanyprof_fridge:line:92
+      linia: 92
+      sekcja_skryptu: salad6a
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You tip the bowl to pour the things onto your salad. It takes a little while -- they stick together and slowly ooze out of the bowl,
+        tumbling and landing on your salad <i>plop plop plop</i>, trailing thin threads of clear slime that stick to the bowl's rim.
+      pl: Przechylasz miskę, by wysypać zawartość na sałatkę. Trochę to trwa — kulki są posklejane i powoli wyciekają, spadając <i>plask, plask,
+        plask</i> oraz ciągnąc za sobą cienkie nitki przezroczystego śluzu przywierające do brzegu miski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad6b
+    wpisy:
+    - id: sol_89fba4f7f9c8253958e7
+      kontekst: textscripts.botanyprof_fridge:line:97
+      linia: 97
+      sekcja_skryptu: salad6b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It turns out that the berries are firmly attached to the stem, and as you pull on them the skins slide off of the berry cores with thin
+        slurping sounds, leaving behind wet round nodules like peeled grapes, each with a large circular black spot at the end. These spots weep
+        milky-white fluid as the nodules deflate. You arrange the skins on your salad in an aesthetically-pleasing pattern.
+      pl: Jagody są mocno przytwierdzone do łodygi, a przy pociągnięciu skórki zsuwają się z rdzeni z cichym siorbaniem, odsłaniając mokre, okrągłe
+        guzki podobne do obranych winogron, każdy z wielką czarną plamą na końcu. Plamy sączą mlecznobiały płyn, gdy guzki wiotczeją. Układasz
+        skórki na sałatce w estetyczny wzór.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad7
+    wpisy:
+    - id: sol_4b15a69fb18e4f5f7ee2
+      kontekst: textscripts.botanyprof_fridge:line:102
+      linia: 102
+      sekcja_skryptu: salad7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Now you just need some kind of dressing to top this all off. Luckily, there''s two bottles in the fridge door: one filled with something
+        gray and labelled "Blue Cheese Dressing", and one filled with a bright pink liquid and a handwritten label that says "#3" with a skull
+        and crossbones.'
+      pl: 'Potrzebny już tylko sos wieńczący dzieło. Na szczęście w drzwiach lodówki są dwie butelki: jedna z szarą substancją, opisana „Sos z
+        sera pleśniowego”, druga z jaskraworóżowym płynem i odręczną etykietą „Nr 3” z czaszką i piszczelami.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_045984d19e7656d844e1
+      kontekst: textscripts.botanyprof_fridge:line:103
+      linia: 103
+      sekcja_skryptu: salad7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Blue cheese dressing
+      pl: Sos z sera pleśniowego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b6223a6f20dbbb05aff
+      kontekst: textscripts.botanyprof_fridge:line:104
+      linia: 104
+      sekcja_skryptu: salad7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pirate dressing
+      pl: Sos piracki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad7a
+    wpisy:
+    - id: sol_fac1a8242ecfeffde8be
+      kontekst: textscripts.botanyprof_fridge:line:108
+      linia: 108
+      sekcja_skryptu: salad7a
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The blue cheese dressing has completely solidified, but you manage to pry a handful of slightly-fuzzy lumps out of the bottle with the
+        handle of a spoon. If you squint a little, you can pretend that they're feta crumbles. That's nice.
+      pl: Sos z sera pleśniowego całkowicie zastygł, ale rączką łyżki udaje ci się wydłubać z butelki garść lekko włochatych grudek. Po zmrużeniu
+        oczu można udawać, że to pokruszona feta. Miło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: salad7b
+    wpisy:
+    - id: sol_28ce0834325eef7c0a45
+      kontekst: textscripts.botanyprof_fridge:line:113
+      linia: 113
+      sekcja_skryptu: salad7b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You open the bottle and pour a generous helping of hot pink #3 onto your salad. It''s thin and oily -- maybe it''s a sort of raspberry
+        vinaigrette? Maybe you could pretend that?'
+      pl: Otwierasz butelkę i hojnie polewasz sałatkę jaskraworóżowym sosem nr 3. Jest rzadki i oleisty — może to jakiś malinowy winegret? Może
+        da się tak udawać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_351e005b9f17932025e2
+      kontekst: textscripts.botanyprof_fridge:line:114
+      linia: 114
+      sekcja_skryptu: salad7b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It smells like chemicals, which I admit is vague, but I can't think of any other way to describe it. The smell you thought of when I
+        said it smells like chemicals, that's what it smells like.
+      pl: Pachnie chemikaliami. Przyznaję, to mało precyzyjne, ale nie znajduję lepszego określenia. Pachnie dokładnie tym, co przyszło ci na
+        myśl po słowach „pachnie chemikaliami”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: saladdone
+    wpisy:
+    - id: sol_6e98b99bc7a6b46dba34
+      kontekst: textscripts.botanyprof_fridge:line:119
+      linia: 119
+      sekcja_skryptu: saladdone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, I guess congratulations are in order. You have successfully created something that, technically, could be called a salad. Bon
+        appétit.
+      pl: Cóż, chyba należą się gratulacje. Udało ci się stworzyć coś, co technicznie można nazwać sałatką. Bon appétit.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fdb0b37136a9618fc5d5
+      kontekst: textscripts.botanyprof_fridge:line:122
+      linia: 122
+      sekcja_skryptu: saladdone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yay
+      pl: Hurra
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 686
+  skrypt: botanyprof_sink
+  pomieszczenie:
+    id: botanyprof_house
+    nazwa_en: Professor Kalos' Kitchen
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2329d1d9d1c12fd9b2f6
+      kontekst: textscripts.botanyprof_sink:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If there's anything else in that nasty sink, you don't need it.
+      pl: Jeśli w tym paskudnym zlewie zostało coś jeszcze, nie jest ci potrzebne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_55a8ffbf7cbfab20cde5
+      kontekst: textscripts.botanyprof_sink:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Everything in this kitchen is ruined, including the kitchen sink. Which is full of thick, nasty-smelling mud.
+      pl: W tej kuchni zrujnowane jest wszystko, łącznie ze zlewem. Wypełnionym gęstym, cuchnącym błotem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_32ab7b08db38d9fa1627
+      kontekst: textscripts.botanyprof_sink:line:15
+      linia: 15
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You glorp your hand into the sink and schlorp around until you find something.
+      pl: Glorpiesz dłonią w zlew i szlorpiesz nią dookoła, aż coś znajdujesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 667
+  skrypt: botanyprof_beveragebarrel
+  pomieszczenie:
+    id: botanyprof_shed
+    nazwa_en: Professor Kalos' Science Shed
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5cbb0d7739e828f55a1e
+      kontekst: textscripts.botanyprof_beveragebarrel:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A big urn labeled "PLANT BEVERAGES."
+      pl: Wielka urna z napisem „NAPOJE ROŚLINNE”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_52243f61b986721e7afb
+      kontekst: textscripts.botanyprof_beveragebarrel:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You fill the dish up with... some kind of green liquid. Presumably it has whatever plants crave.
+      pl: Napełniasz miskę... jakimś zielonym płynem. Zapewne zawiera to, czego pragną rośliny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: f
+    wpisy:
+    - id: sol_d23a52c3abea976fecc1
+      kontekst: textscripts.botanyprof_beveragebarrel:line:15
+      linia: 15
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already filled it. You can't fill it again, it would spill.
+      pl: Miska jest już pełna. Drugie napełnienie wszystko by rozlało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 670
+  skrypt: botanyprof_desk
+  pomieszczenie:
+    id: botanyprof_shed
+    nazwa_en: Professor Kalos' Science Shed
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d09355b4e0212c8c7921
+      kontekst: textscripts.botanyprof_desk:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A leather-bound journal sits on this wood-bound desk.
+      pl: Na oprawionym w drewno biurku leży oprawiony w skórę dziennik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46b2cfbb00b3accb71a5
+      kontekst: textscripts.botanyprof_desk:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read it
+      pl: Przeczytaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 37
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read
+    wpisy:
+    - id: sol_6f12658c34e51be5fb81
+      kontekst: textscripts.botanyprof_desk:line:11
+      linia: 11
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You flip the journal open to the last page:'
+      pl: 'Otwierasz dziennik na ostatniej stronie:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b3c31c9ae20651f63dfa
+      kontekst: textscripts.botanyprof_desk:line:12
+      linia: 12
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>"alsjkd fho; als,dnfSDL;FKsl kfs;ojkef alsjdfn jdfl;KSjn lKNs;'oifj[0q9i 3k;nsdO :UDh oKAHSNEFDGV psdijfos ;IEFHJA'isfjn fhjwptogj"</i>
+      pl: <i>„alsjkd fho; als,dnfSDL;FKsl kfs;ojkef alsjdfn jdfl;KSjn lKNs;'oifj[0q9i 3k;nsdO :UDh oKAHSNEFDGV psdijfos ;IEFHJA'isfjn fhjwptogj”</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7cdc9e84c68e994cb8c8
+      kontekst: textscripts.botanyprof_desk:line:13
+      linia: 13
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. Okay, it seems to have devolved into madness by the end.  Let's try a few pages back.
+      pl: Hm. Dobrze, pod koniec najwyraźniej popadł w obłęd. Cofnijmy się o kilka stron.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c537ae3228569dc6546a
+      kontekst: textscripts.botanyprof_desk:line:14
+      linia: 14
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>"Success! I have bred a tomato that can produce a seemingly-infinite amount of juice! This could totally revolutionize the juice
+        industry! And they said I was crazy for trying to transplant human bone marrow into a tomato!"</i>
+      pl: <i>„Sukces! Udało mi się wyhodować pomidora wytwarzającego pozornie nieskończoną ilość soku! To może całkowicie odmienić przemysł sokowniczy!
+        A mówili, że przeszczepianie ludzkiego szpiku kostnego do pomidora to szaleństwo!”</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_02f78691219ba08a1bcf
+      kontekst: textscripts.botanyprof_desk:line:16
+      linia: 16
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, that's intriguing. And a little disturbing.
+      pl: Cóż, to intrygujące. I trochę niepokojące.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_75da0e1e7d33104e30cd
+      kontekst: textscripts.botanyprof_desk:line:17
+      linia: 17
+      sekcja_skryptu: read
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep reading
+      pl: Czytaj dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+    - id: sol_3534b9e3c7dc5f95c366
+      kontekst: textscripts.botanyprof_desk:line:18
+      linia: 18
+      sekcja_skryptu: read
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop
+      pl: Przestań
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read2
+    wpisy:
+    - id: sol_2b1f1babf2b99e2ed59f
+      kontekst: textscripts.botanyprof_desk:line:22
+      linia: 22
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '<i>"New idea: the successful tomato/bone marrow transplant implies the possibility of the reverse procedure: transplanting plant organ
+        structures into a mammalian subject. Must investigate."</i>'
+      pl: '<i>„Nowy pomysł: udany przeszczep pomidor–szpik kostny sugeruje możliwość odwrócenia procedury, czyli przeszczepiania struktur organów
+        roślinnych ssakowi. Koniecznie zbadać”.</i>'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ad321f142bf463b21ac
+      kontekst: textscripts.botanyprof_desk:line:23
+      linia: 23
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You skip over a lot of technical mumbo-jumbo and analysis of experimental results until you get to the next readable bit:'
+      pl: 'Pomijasz mnóstwo technicznego bełkotu i analiz wyników, aż docierasz do kolejnego czytelnego fragmentu:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_13973529a1dff357df84
+      kontekst: textscripts.botanyprof_desk:line:24
+      linia: 24
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>"I'm certain that I've finally got this right, but the woman at the pet store refuses to sell me any more rats until I explain what
+        I've done with the last dozen, and I don't think she'll like the answer. I hesitate to use my loyal companion Barker for this purpose,
+        but he's all that I've got left. Anyway, there's nothing to worry about. It will definitely work this time."</i>
+      pl: <i>„Mam pewność, że tym razem wszystko będzie dobrze, ale kobieta ze sklepu zoologicznego nie chce sprzedać mi kolejnych szczurów, dopóki nie wyjaśnię, co stało się z poprzednim tuzinem, a odpowiedź raczej jej się nie spodoba. Nie chcę wykorzystywać do tego mojego wiernego Szczekory, lecz nic innego mi nie zostało. Zresztą nie ma powodów do obaw. Tym razem na pewno się uda”.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_75da0e1e7d33104e30cd
+      kontekst: textscripts.botanyprof_desk:line:25
+      linia: 25
+      sekcja_skryptu: read2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep reading
+      pl: Czytaj dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: read3
+    wpisy:
+    - id: sol_5ffa938a68b6b0dceeed
+      kontekst: textscripts.botanyprof_desk:line:29
+      linia: 29
+      sekcja_skryptu: read3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>"The operation was a complete success! Barker appears to be in perfectly good health, and is acclimating to the changes marvelously!
+        I've created the world's first plant-animal hybrid!"</i>
+      pl: <i>„Operacja zakończyła się pełnym sukcesem! Szczekora jest w idealnym zdrowiu i wspaniale przystosowuje się do zmian! Udało mi się stworzyć pierwszą na świecie hybrydę rośliny i zwierzęcia!”</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_355321eb3230b6253fc9
+      kontekst: textscripts.botanyprof_desk:line:30
+      linia: 30
+      sekcja_skryptu: read3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>"...But why stop there? The next step is perfectly obvious..."</i>
+      pl: <i>„...Ale dlaczego na tym poprzestać? Następny krok jest zupełnie oczywisty...”</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c3117a6fdf74c9dcbe5f
+      kontekst: textscripts.botanyprof_desk:line:31
+      linia: 31
+      sekcja_skryptu: read3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That's the last page. Well, the last page that's words instead of scribbles and gibberish.
+      pl: To ostatnia strona. A przynajmniej ostatnia zawierająca słowa zamiast bazgrołów i bredni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_deae36b8a13c6371e981
+      kontekst: textscripts.botanyprof_desk:line:32
+      linia: 32
+      sekcja_skryptu: read3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 677
+  skrypt: botanyprof_foodbarrel
+  pomieszczenie:
+    id: botanyprof_shed
+    nazwa_en: Professor Kalos' Science Shed
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4ec47c260cb8033040c4
+      kontekst: textscripts.botanyprof_foodbarrel:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A big barrel labeled "PLANT FOOD."
+      pl: Wielka beczka z napisem „NAWÓZ DLA ROŚLIN”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 688
+  skrypt: botanyprof_tomatomachine
+  pomieszczenie:
+    id: botanyprof_shed
+    nazwa_en: Professor Kalos' Science Shed
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bd9422559c468af3b32d
+      kontekst: textscripts.botanyprof_tomatomachine:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The tomato-juicing machine is too heavy to lug around with you. Fancy Dan's gonna have to figure out that part for himself.
+      pl: Maszyna do wyciskania pomidorów jest zbyt ciężka, żeby ją ze sobą taszczyć. Wytworny Dan będzie musiał sam rozwiązać tę część.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_faf1fae76bf318cb9fa2
+      kontekst: textscripts.botanyprof_tomatomachine:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A complicated machine hooked up to a huge tomato.
+      pl: Skomplikowana maszyna podłączona do olbrzymiego pomidora.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_df97e6e65eba550e8bd6
+      kontekst: textscripts.botanyprof_tomatomachine:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Examine it
+      pl: Zbadaj ją
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: check
+    wpisy:
+    - id: sol_1509dd51b981ccf6d176
+      kontekst: textscripts.botanyprof_tomatomachine:line:15
+      linia: 15
+      sekcja_skryptu: check
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be the special infinite-juice tomato the Professor made with human bone marrow.
+      pl: To musi być specjalny pomidor wytwarzający nieskończoną ilość soku, który profesor stworzył z ludzkiego szpiku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c3560223106f3fe156de
+      kontekst: textscripts.botanyprof_tomatomachine:line:16
+      linia: 16
+      sekcja_skryptu: check
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the tomato
+      pl: Weź pomidora
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0183a6aaef1b917a0f7a
+      kontekst: textscripts.botanyprof_tomatomachine:line:17
+      linia: 17
+      sekcja_skryptu: check
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: why
+    wpisy:
+    - id: sol_61c53a703486aa8ac54e
+      kontekst: textscripts.botanyprof_tomatomachine:line:21
+      linia: 21
+      sekcja_skryptu: why
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It appears to be a juicing machine. Maybe the Professor was doing some kind of tomato juice experiment? Or maybe he just liked tomato
+        juice.
+      pl: To chyba sokowirówka. Może profesor prowadził eksperyment z sokiem pomidorowym? Albo po prostu go lubił.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87b5cbb7aaf019065e13
+      kontekst: textscripts.botanyprof_tomatomachine:line:22
+      linia: 22
+      sekcja_skryptu: why
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: sol_3e6da295e4e292779c5c
+      kontekst: textscripts.botanyprof_tomatomachine:line:28
+      linia: 28
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This will come in handy over at the speakeasy -- they'll be able to mix a whole dynasty of Bloody Marys. In a kind of literal sense.
+      pl: Przyda się w tajnym barze — będą mogli zmiksować całą dynastię Krwawych Mary. W dość dosłownym sensie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.botanyprof_tomatomachine:line:30
+      linia: 30
+      sekcja_skryptu: take
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 689
+  skrypt: botanyprof_toolbox
+  pomieszczenie:
+    id: botanyprof_shed
+    nazwa_en: Professor Kalos' Science Shed
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_413ef6503a76d5c77119
+      kontekst: textscripts.botanyprof_toolbox:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A disused and misused toolbox.
+      pl: Nieużywana i źle używana skrzynka narzędziowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_55984dfe2c452dfd4780
+      kontekst: textscripts.botanyprof_toolbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See if there's anything of use inside
+      pl: Sprawdź, czy w środku jest coś użytecznego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_8f0fcde91f22eabe20f5
+      kontekst: textscripts.botanyprof_toolbox:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A few things seem useful.
+      pl: Kilka rzeczy wygląda przydatnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4917
+  skrypt: autoscript__botanyprof_yard__leftblocker__popup
+  pomieszczenie:
+    id: botanyprof_yard
+    nazwa_en: Professor Kalos' Backyard
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ce9535220370cdac2c45
+      kontekst: textscripts.autoscript__botanyprof_yard__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a fence over there, just off camera.
+      pl: Tam, tuż poza kadrem, stoi płot.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4918
+  skrypt: autoscript__botanyprof_yard__rightblocker__popup
+  pomieszczenie:
+    id: botanyprof_yard
+    nazwa_en: Professor Kalos' Backyard
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d95a3050b0a34bd125a8
+      kontekst: textscripts.autoscript__botanyprof_yard__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The yard is fully fenced in, and there's nothing over that way except a few more trees.
+      pl: Podwórko jest z każdej strony ogrodzone, a w tamtym kierunku nie ma nic poza kilkoma kolejnymi drzewami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 665
+  skrypt: botanyprof_backyardhole
+  pomieszczenie:
+    id: botanyprof_yard
+    nazwa_en: Professor Kalos' Backyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_259975e829dd251ee9e7
+      kontekst: textscripts.botanyprof_backyardhole:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the fencehole you climbed in through.
+      pl: To dziura w płocie, przez którą tu wszedłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e9aa897fc5282f349465
+      kontekst: textscripts.botanyprof_backyardhole:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb back out
+      pl: Wyjdź z powrotem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 666
+  skrypt: botanyprof_barkercollider
+  pomieszczenie:
+    id: botanyprof_yard
+    nazwa_en: Professor Kalos' Backyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 36
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_60b9b6d1cff42e96f2be
+      kontekst: textscripts.botanyprof_barkercollider:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Um. Well, this appears to be more-or-less a dog, except for being green and having some kind of plant pod for a head?
+      pl: Eee. Cóż, wygląda to mniej więcej jak pies, tylko jest zielone i ma zamiast głowy jakiś roślinny pąk?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b5abfe90bc339232c8ff
+      kontekst: textscripts.botanyprof_barkercollider:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It seems agitated, like it's guarding something.
+      pl: Wygląda na wzburzonego, jakby czegoś pilnowało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tame
+    wpisy:
+    - id: sol_f856eb2ba74eb00863d6
+      kontekst: textscripts.botanyprof_barkercollider:line:15
+      linia: 15
+      sekcja_skryptu: tame
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey uh, hey there buddy. Is this yours? Are you Barker?
+      pl: Hej, eee, cześć, kolego. To twoje? Jesteś Szczekora?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e8a49a05c539cd310870
+      kontekst: textscripts.botanyprof_barkercollider:line:16
+      linia: 16
+      sekcja_skryptu: tame
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>whine?</i>
+      pl: <i>skomlenie?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b98f27dbabdae4ada03
+      kontekst: textscripts.botanyprof_barkercollider:line:17
+      linia: 17
+      sekcja_skryptu: tame
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Are you thirsty? Here you go.
+      pl: Chce ci się pić? Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_18883ccb3c2807f64216
+      kontekst: textscripts.botanyprof_barkercollider:line:18
+      linia: 18
+      sekcja_skryptu: tame
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the dish down. Barker sniffs at it, and then the pod opens, revealing a fleshy pink flower with a circle of sharp white teeth
+        at the center. A red vine-like tongue snakes out of it and starts lapping up the plant beverage.
+      pl: Stawiasz miskę. Szczekora ją obwąchuje, po czym pąk się otwiera, odsłaniając mięsisty różowy kwiat z kręgiem ostrych białych zębów pośrodku. Wysuwa się z niego czerwony, pnączowaty język i zaczyna chłeptać roślinny napój.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9cd1b3b2a8879d278842
+      kontekst: textscripts.botanyprof_barkercollider:line:19
+      linia: 19
+      sekcja_skryptu: tame
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Holy jeez.
+      pl: Rany boskie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_54ac01826bd684798939
+      kontekst: textscripts.botanyprof_barkercollider:line:24
+      linia: 24
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Having finished his drink, Barker closes his... head... and then sniffs at you and tentatively wags his tail.
+      pl: Po wypiciu wszystkiego Szczekora zamyka swoją... głowę... po czym cię obwąchuje i nieśmiało merda ogonem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ed8ea1b1e5b6130160e
+      kontekst: textscripts.botanyprof_barkercollider:line:25
+      linia: 25
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Good, um, good boy?
+      pl: Dobry, eee, piesek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72bd2a7a83952fdb91a8
+      kontekst: textscripts.botanyprof_barkercollider:line:26
+      linia: 26
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Arf!
+      pl: Hau!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_f795bcabd0d44de22438
+      kontekst: textscripts.botanyprof_barkercollider:line:27
+      linia: 27
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pat him on the head and he wags his tail harder. Looks like you made a friend.
+      pl: Głaszczesz go po głowie, a on merda jeszcze mocniej. Chyba masz nowego przyjaciela.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_89dfdcf33045c84ea37b
+      kontekst: textscripts.botanyprof_barkercollider:line:30
+      linia: 30
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Barker has joined you as a companion.</b>
+      pl: <b>Szczekora dołącza jako towarzysz.</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_88929d234fb00f4a9e93
+      kontekst: textscripts.botanyprof_barkercollider:line:34
+      linia: 34
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Do you want to change his name?
+      pl: Zmienić mu imię?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.botanyprof_barkercollider:line:35
+      linia: 35
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7109226fd311ec24695b
+      kontekst: textscripts.botanyprof_barkercollider:line:36
+      linia: 36
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rename
+    wpisy:
+    - id: sol_31789df7f9a71ff53962
+      kontekst: textscripts.botanyprof_barkercollider:line:40
+      linia: 40
+      sekcja_skryptu: rename
+      typ: prompt
+      mowca_lub_kanal: pole_wprowadzania
+      en: What will you change Barker's name to?
+      pl: Jak od teraz ma się nazywać Szczekora?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bingowashisnameo
+    wpisy:
+    - id: sol_3b5110ad83b73b793f37
+      kontekst: textscripts.botanyprof_barkercollider:line:43
+      linia: 43
+      sekcja_skryptu: bingowashisnameo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, so his new name is $promptvalue$? This is what you will want to yell across a crowded park of people to get him to come running
+        back to you?
+      pl: Czyli nowe imię to $promptvalue$? Właśnie to chcesz wykrzykiwać w zatłoczonym parku, żeby przybiegł z powrotem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4d56decda6e8e77b9498
+      kontekst: textscripts.botanyprof_barkercollider:line:45
+      linia: 45
+      sekcja_skryptu: bingowashisnameo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2571840de18f079222ea
+      kontekst: textscripts.botanyprof_barkercollider:line:46
+      linia: 46
+      sekcja_skryptu: bingowashisnameo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, no
+      pl: Właściwie nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesrename
+    wpisy:
+    - id: sol_fe2d7679ae6ca3cecc8e
+      kontekst: textscripts.botanyprof_barkercollider:line:53
+      linia: 53
+      sekcja_skryptu: yesrename
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm gonna call you @dogname@, okay?
+      pl: Będziesz się nazywać @dogname@, dobrze?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@dogname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72bd2a7a83952fdb91a8
+      kontekst: textscripts.botanyprof_barkercollider:line:54
+      linia: 54
+      sekcja_skryptu: yesrename
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Arf!
+      pl: Hau!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_dc0a807f7f7434d2096c
+      kontekst: textscripts.botanyprof_barkercollider:line:55
+      linia: 55
+      sekcja_skryptu: yesrename
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You give @dogname@ another pat.
+      pl: Jeszcze raz głaszczesz @dogname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@dogname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nopre
+    wpisy:
+    - id: sol_b481b369fc582f5e0236
+      kontekst: textscripts.botanyprof_barkercollider:line:60
+      linia: 60
+      sekcja_skryptu: nopre
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You decide that "Barker" will be just fine, and give him another pat.
+      pl: Postanawiasz, że „Szczekora” jest w sam raz, i jeszcze raz go głaszczesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takeorno
+    wpisy:
+    - id: sol_fe7e1eee0ba29a26dcce
+      kontekst: textscripts.botanyprof_barkercollider:line:64
+      linia: 64
+      sekcja_skryptu: takeorno
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take him with you now
+      pl: Zabierz go teraz ze sobą
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_33e211197e6b9122d2cb
+      kontekst: textscripts.botanyprof_barkercollider:line:65
+      linia: 65
+      sekcja_skryptu: takeorno
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Send him to the Speakeasy for now
+      pl: Na razie odeślij go do Tajnego Baru
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: send
+    wpisy:
+    - id: sol_98c479a1ed5ff2493259
+      kontekst: textscripts.botanyprof_barkercollider:line:69
+      linia: 69
+      sekcja_skryptu: send
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@dogname@ sniffs at your clothes as you try to explain to him how to get to the speakeasy. Probably he''ll just follow the smell of
+        bathtub gin.'
+      pl: '@dogname@ obwąchuje twoje ubranie, gdy próbujesz wyjaśnić mu drogę do tajnego baru. Pewnie po prostu pójdzie za zapachem dżinu z wanny.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@dogname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2963df16e02877a9fa4e
+      kontekst: textscripts.botanyprof_barkercollider:line:71
+      linia: 71
+      sekcja_skryptu: send
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good boy!
+      pl: Dobry piesek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: keep
+    wpisy:
+    - id: sol_72bd2a7a83952fdb91a8
+      kontekst: textscripts.botanyprof_barkercollider:line:79
+      linia: 79
+      sekcja_skryptu: keep
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Arf!
+      pl: Hau!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_8cc422a525234b8cd979
+      kontekst: textscripts.botanyprof_barkercollider:line:80
+      linia: 80
+      sekcja_skryptu: keep
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@dogname@ flaps open his head and licks your face with his vine-tongue.'
+      pl: '@dogname@ otwiera głowę i liże cię po twarzy pnączowym językiem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@dogname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a0680b65b6c125327163
+      kontekst: textscripts.botanyprof_barkercollider:line:81
+      linia: 81
+      sekcja_skryptu: keep
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha, well, <i>that's</i> gonna take some getting used to.
+      pl: Ha, ha, cóż, do <i>tego</i> trzeba będzie przywyknąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_564bcae8a55acd7ff0bd
+      kontekst: textscripts.botanyprof_barkercollider:line:82
+      linia: 82
+      sekcja_skryptu: keep
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good boy
+      pl: Dobry piesek
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fight
+    wpisy:
+    - id: sol_9640f4baa327d50753aa
+      kontekst: textscripts.botanyprof_barkercollider:line:89
+      linia: 89
+      sekcja_skryptu: fight
+      typ: addproperty
+      mowca_lub_kanal: kanal_addproperty
+      en: What remains of Barker
+      pl: To, co zostało z Szczekory
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_6934f09e6ad356e83e2a
+      kontekst: textscripts.botanyprof_barkercollider:line:93
+      linia: 93
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won. The weird dog creature runs away with a sad whine.
+      pl: Wygrałeś. Dziwne psowate stworzenie ucieka ze smutnym skomleniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_49168288c1de76c733e4
+      kontekst: textscripts.botanyprof_barkercollider:line:97
+      linia: 97
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_3b29501463dd28b50bc7
+      kontekst: textscripts.botanyprof_barkercollider:line:102
+      linia: 102
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. The dog-thing barks and growls as you drag yourself away, but doesn't leave its spot.
+      pl: Przegrałeś. Psowate stworzenie szczeka i warczy, gdy się wycofujesz, ale nie opuszcza swojego stanowiska.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.botanyprof_barkercollider:line:104
+      linia: 104
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 672
+  skrypt: botanyprof_enterhouse
+  pomieszczenie:
+    id: botanyprof_yard
+    nazwa_en: Professor Kalos' Backyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fd6068d062fc330d182d
+      kontekst: textscripts.botanyprof_enterhouse:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As it turns out, it's just the front room of the house that is full of dirt.
+      pl: Jak się okazuje, ziemią wypełniony jest tylko pokój od frontu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_93dd540262e6b33321d4
+      kontekst: textscripts.botanyprof_enterhouse:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk through the busted-out door
+      pl: Przejdź przez wyważone drzwi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 679
+  skrypt: botanyprof_greenhousedoor
+  pomieszczenie:
+    id: botanyprof_yard
+    nazwa_en: Professor Kalos' Backyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9ddb0f692ead4b693c1c
+      kontekst: textscripts.botanyprof_greenhousedoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This greenhouse was clearly built by a botanist and not a carpenter.
+      pl: Tę szklarnię najwyraźniej zbudował botanik, a nie cieśla.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.botanyprof_greenhousedoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005

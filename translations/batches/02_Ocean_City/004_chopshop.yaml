@@ -1,0 +1,3633 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: chopshop
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 22
+liczba_wpisow: 214
+sceny:
+- kolejnosc_w_danych_gry: 4934
+  skrypt: autoscript__chopshop__car2__popup
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d9a254d0f12ce1dce6a1
+      kontekst: textscripts.autoscript__chopshop__car2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: More like a picked-apart truck.
+      pl: To raczej rozebrana na części ciężarówka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4935
+  skrypt: autoscript__chopshop__rightcollider__popup
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0036cb7f087ecff15682
+      kontekst: textscripts.autoscript__chopshop__rightcollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing in that direction except tetanus.
+      pl: W tamtym kierunku nie ma nic poza tężcem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 733
+  skrypt: chopshop_carcass
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4e5818a2b09ba21918a3
+      kontekst: textscripts.chopshop_carcass:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really ought to put it out of its misery.
+      pl: Naprawdę wypada skrócić jego cierpienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_815be3bb1c3bdb41f595
+      kontekst: textscripts.chopshop_carcass:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay
+      pl: Dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 62
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: a
+    wpisy:
+    - id: sol_4e103e16bf3be2796cd4
+      kontekst: textscripts.chopshop_carcass:line:8
+      linia: 8
+      sekcja_skryptu: a
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. Maybe that's worse.
+      pl: Hm. Może tak jest gorzej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 734
+  skrypt: chopshop_exitpopup
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6e5feba3a04ab4c7d00f
+      kontekst: textscripts.chopshop_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Leave the chop shop?
+      pl: Opuścić dziuplę samochodową?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5f4e2d032e1d881adb07
+      kontekst: textscripts.chopshop_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Chop chop
+      pl: Raz-dwa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 735
+  skrypt: chopshop_fight1
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cd1f2947810b69415216
+      kontekst: textscripts.chopshop_fight1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A couple of Tin Lizzies are busy trying to dismantle a car that is already pretty thorougly mantleless.
+      pl: Dwie Blaszane Lizzie próbują rozebrać samochód, który jest już rozebrany do naga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_2448cb72f2b9b1f541d8
+      kontekst: textscripts.chopshop_fight1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's like watching someone try to scrape just one more sandwich worth of meat out of a leftover turkey carcass.
+      pl: To jak oglądanie kogoś, kto próbuje wyskrobać z resztek indyczego szkieletu mięso na jeszcze jedną kanapkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_c4245aeac6211a494ca4
+      kontekst: textscripts.chopshop_fight1:line:14
+      linia: 14
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You successfully got revenge for that poor car.
+      pl: Udało ci się pomścić ten biedny samochód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.chopshop_fight1:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id001 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_4bc719fc6239b2d4002c
+      kontekst: textscripts.chopshop_fight1:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Good thing they're only interested in harvesting car parts, not human ones.
+      pl: Przegrałeś. Dobrze, że interesują je części samochodowe, nie ludzkie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.chopshop_fight1:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 736
+  skrypt: chopshop_fight2
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4634520fc9dc0657bbb7
+      kontekst: textscripts.chopshop_fight2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A bunch of Tin Lizzies are hanging out here. Their attention is mainly focused on something further to the right, but the camera doesn't
+        move far enough for you to see what it is.
+      pl: Kręci się tu banda Blaszanych Lizzie. Ich uwaga skupia się głównie na czymś dalej po prawej, ale kamera nie przesuwa się na tyle daleko,
+        by to pokazać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_247206a03c01f5620fbf
+      kontekst: textscripts.chopshop_fight2:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won. Time to see what all the hoopla was about.
+      pl: Wygrałeś. Pora sprawdzić, o co było tyle hałasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.chopshop_fight2:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id001
+  - etykieta: lose
+    wpisy:
+    - id: sol_d9321329a4ae7764268a
+      kontekst: textscripts.chopshop_fight2:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Now you'll never know what they were looking at!
+      pl: Przegrałeś. Teraz już nigdy nie dowiesz się, na co patrzyły!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_70e3e767ccca50dad9de
+      kontekst: textscripts.chopshop_fight2:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, unless you try again.
+      pl: Chyba że spróbujesz ponownie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.chopshop_fight2:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 737
+  skrypt: chopshop_forge
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9308b3a3310b53992b05
+      kontekst: textscripts.chopshop_forge:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An old-school blacksmith's anvil.  This must be where they work on the really vintage cars.
+      pl: Staroświeckie kowalskie kowadło. To tutaj muszą pracować nad naprawdę zabytkowymi samochodami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_5f4107be88793b6328e3
+      kontekst: textscripts.chopshop_forge:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab a nearby hammer and pound on the documents for a while.
+      pl: Chwytasz pobliski młotek i przez chwilę kujesz dokumenty.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ee
+    wpisy:
+    - id: sol_f4a51a225b47405def31
+      kontekst: textscripts.chopshop_forge:line:15
+      linia: 15
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You divert some assets from infrastructure to warfare.
+      pl: Przekierowujesz część środków z infrastruktury na działania wojenne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 738
+  skrypt: chopshop_freshcar
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_38c220cc45ce88aa5f42
+      kontekst: textscripts.chopshop_freshcar:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This car looks terrible, but it smells great!
+      pl: Ten samochód wygląda okropnie, ale pachnie świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c89ed792f8459ee0e2d0
+      kontekst: textscripts.chopshop_freshcar:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate
+      pl: Zbadaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_4bfbfcb4c91ee41cbca3
+      kontekst: textscripts.chopshop_freshcar:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You isolate and then confiscate the source of the freshness.
+      pl: Izolujesz, a następnie konfiskujesz źródło świeżości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: still
+    wpisy:
+    - id: sol_d2794b7a6f196e7770ef
+      kontekst: textscripts.chopshop_freshcar:line:13
+      linia: 13
+      sekcja_skryptu: still
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The freshener is gone but the freshness remains.
+      pl: Odświeżacz zniknął, ale świeżość pozostała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 739
+  skrypt: chopshop_intro
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_71452b0d465d461404dc
+      kontekst: textscripts.chopshop_intro:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to sneak up to the Tin Lizzies' hideout without anyone noticing.
+      pl: Udaje ci się podkraść do kryjówki Blaszanych Lizzie bez zwracania uwagi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e66caf1f464e1379b81d
+      kontekst: textscripts.chopshop_intro:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You aren't going to stay unnoticed for long, though -- this place is crawling with Lizzies!
+      pl: Długo jednak niezauważony nie pozostaniesz — roi się tu od Lizzie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ca534e5bcc9ca27ad0db
+      kontekst: textscripts.chopshop_intro:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unless your first move is to turn tail and run, I guess.
+      pl: Chyba że pierwszym ruchem będzie podwinięcie ogona i ucieczka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_deae36b8a13c6371e981
+      kontekst: textscripts.chopshop_intro:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 740
+  skrypt: chopshop_lizzy
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 139
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2c7d015cf73f0ced9332
+      kontekst: textscripts.chopshop_lizzy:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz gives you a slight nod of recognition.
+      pl: Wielka Liz lekko kiwa głową na powitanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_81ee6da904085468a300
+      kontekst: textscripts.chopshop_lizzy:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz is glaring at you with a mix of anger and disdain.
+      pl: Wielka Liz spogląda na ciebie z mieszaniną gniewu i pogardy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0958d039874d86417267
+      kontekst: textscripts.chopshop_lizzy:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz watches you approach, with a slightly quizzical look on her face.
+      pl: Wielka Liz obserwuje twoje podejście z lekko pytającą miną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_d4e3c2cf3750f774cc80
+      kontekst: textscripts.chopshop_lizzy:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The woman gives you the traditional slow, sarcastic clap as you step forward.
+      pl: Kobieta urządza ci tradycyjne powolne, sarkastyczne oklaski, gdy robisz krok naprzód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b8a22784fe494664df7
+      kontekst: textscripts.chopshop_lizzy:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nice entrance.
+      pl: Niezłe wejście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7b06328f51a4c5b69522
+      kontekst: textscripts.chopshop_lizzy:line:27
+      linia: 27
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks! Nice chair.
+      pl: Dzięki! Ładny fotel.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0b6d8b00e6628c48ff91
+      kontekst: textscripts.chopshop_lizzy:line:28
+      linia: 28
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks. Now, who the hell are you?
+      pl: Dzięki. A teraz kim ty, do diabła, jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0fb0449949dbb16b7b18
+      kontekst: textscripts.chopshop_lizzy:line:29
+      linia: 29
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Introduce yourself politely
+      pl: Przedstaw się grzecznie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9496f41316f099b1fce8
+      kontekst: textscripts.chopshop_lizzy:line:30
+      linia: 30
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Introduce yourself aggressively
+      pl: Przedstaw się agresywnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: polite
+    wpisy:
+    - id: sol_42ae4a87cfbec2321072
+      kontekst: textscripts.chopshop_lizzy:line:35
+      linia: 35
+      sekcja_skryptu: polite
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm @firstname@ @lastname@, nice to meet you. And you are?
+      pl: Jestem @firstname@ @lastname@, miło mi. A ty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e84b3028892d1667b95
+      kontekst: textscripts.chopshop_lizzy:line:36
+      linia: 36
+      sekcja_skryptu: polite
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, ain't you sweet. I'm Big Liz -- Big Liz Studebaker. I'm the boss of this gang.
+      pl: Ależ słodziak. Jestem Wielka Liz — Wielka Liz Studebaker. Szefowa tego gangu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e64b1a2e4da86613397e
+      kontekst: textscripts.chopshop_lizzy:line:38
+      linia: 38
+      sekcja_skryptu: polite
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That makes sense.
+      pl: To ma sens.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aggro
+    wpisy:
+    - id: sol_158996d33248282dead5
+      kontekst: textscripts.chopshop_lizzy:line:43
+      linia: 43
+      sekcja_skryptu: aggro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm @firstname@ @lastname@! And you better remember that name, or it'll be the last one you ever forget!
+      pl: Jestem @firstname@ @lastname@! Lepiej zapamiętaj to nazwisko, bo będzie ostatnim, jakie kiedykolwiek zapomnisz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8dfed30d07140f9c2a3a
+      kontekst: textscripts.chopshop_lizzy:line:44
+      linia: 44
+      sekcja_skryptu: aggro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You got some high-carbon steel bearings, coming in here and talking to Big Liz Studebaker like that, kiddo. I'm the boss of this gang,
+        and I don't have to take that kind of crap from anyone.
+      pl: Trzeba mieć zamiast jaj łożyska z wysokowęglowej stali, żeby wejść tutaj i tak odzywać się do Wielkiej Liz Studebaker, dzieciaku. Jestem szefową tego gangu i nie muszę znosić takich bzdur od nikogo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d1b219af862c7583d286
+      kontekst: textscripts.chopshop_lizzy:line:45
+      linia: 45
+      sekcja_skryptu: aggro
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Narrow your eyes
+      pl: Zmruż oczy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_4babdc20cd12b8235c77
+      kontekst: textscripts.chopshop_lizzy:line:51
+      linia: 51
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now, considering that you just busted into my scrapyard and beat up five of my girls, plus however many on the way here, I figure you
+        got something on your mind -- so what is it you want, exactly?
+      pl: Skoro wpadłeś na moje złomowisko i spuściłeś łomot pięciu moim dziewczynom oraz nie wiadomo ile po drodze, pewnie coś ci chodzi po głowie. Czego właściwie chcesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_56264c6ac9d91a945811
+      kontekst: textscripts.chopshop_lizzy:line:54
+      linia: 54
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I want your gang to stop attacking me in the street!
+      pl: Chcę, żeby twój gang przestał atakować mnie na ulicy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+    - id: sol_629cf44c7caa71212245
+      kontekst: textscripts.chopshop_lizzy:line:55
+      linia: 55
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I want to join your gang.
+      pl: Chcę dołączyć do gangu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_05daceaea667548beee3
+      kontekst: textscripts.chopshop_lizzy:line:56
+      linia: 56
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Umm... I didn't really have any particular goal in mind.
+      pl: Eee... właściwie nie miałem żadnego konkretnego celu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_80bdb648304c6d82f815
+      kontekst: textscripts.chopshop_lizzy:line:57
+      linia: 57
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll come back when I've decided.
+      pl: Wrócę po podjęciu decyzji.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+  - etykieta: tworeturn
+    wpisy:
+    - id: sol_c9ec40e8f2547adcf947
+      kontekst: textscripts.chopshop_lizzy:line:62
+      linia: 62
+      sekcja_skryptu: tworeturn
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You again? What do you want?
+      pl: Znowu ty? Czego chcesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_56264c6ac9d91a945811
+      kontekst: textscripts.chopshop_lizzy:line:65
+      linia: 65
+      sekcja_skryptu: tworeturn
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I want your gang to stop attacking me in the street!
+      pl: Chcę, żeby twój gang przestał atakować mnie na ulicy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_629cf44c7caa71212245
+      kontekst: textscripts.chopshop_lizzy:line:66
+      linia: 66
+      sekcja_skryptu: tworeturn
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I want to join your gang.
+      pl: Chcę dołączyć do gangu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_05daceaea667548beee3
+      kontekst: textscripts.chopshop_lizzy:line:67
+      linia: 67
+      sekcja_skryptu: tworeturn
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Umm... I didn't really have any particular goal in mind.
+      pl: Eee... właściwie nie miałem żadnego konkretnego celu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_80bdb648304c6d82f815
+      kontekst: textscripts.chopshop_lizzy:line:68
+      linia: 68
+      sekcja_skryptu: tworeturn
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll come back when I've decided.
+      pl: Wrócę po podjęciu decyzji.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: prefight
+    wpisy:
+    - id: sol_0a4316ab10bad44749e0
+      kontekst: textscripts.chopshop_lizzy:line:73
+      linia: 73
+      sekcja_skryptu: prefight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz cracks her knuckles loudly and stands up.
+      pl: Wielka Liz głośno strzela knykciami i wstaje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9bfedf4e7105a6c72de9
+      kontekst: textscripts.chopshop_lizzy:line:74
+      linia: 74
+      sekcja_skryptu: prefight
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, you've come to the right place, @p|bucko,girlie,pally@.
+      pl: Dobrze trafiłeś, @p|bucko,girlie,pally@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bucko,girlie,pally@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b4c53c54db476fa47717
+      kontekst: textscripts.chopshop_lizzy:line:75
+      linia: 75
+      sekcja_skryptu: prefight
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight!
+      pl: Walcz!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id009 []
+  - etykieta: selfdef
+    wpisy:
+    - id: sol_caf1673970bb8e94d2e4
+      kontekst: textscripts.chopshop_lizzy:line:80
+      linia: 80
+      sekcja_skryptu: selfdef
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heh. The girls do get a bit rowdy. Sorry about that.
+      pl: Heh. Dziewczyny czasem trochę ponosi. Wybacz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: joingang
+    wpisy:
+    - id: sol_e5adfe5cf265306f9370
+      kontekst: textscripts.chopshop_lizzy:line:86
+      linia: 86
+      sekcja_skryptu: joingang
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, kiddo. This ain't just a gang, it's a business -- and I can tell just by looking at you that you don't know a crankcase from
+        a manifold.
+      pl: Wybacz, dzieciaku. To nie tylko gang, ale i firma — a na pierwszy rzut oka widać, że nie odróżniasz skrzyni korbowej od kolektora.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+    - id: sol_0f52dd911058854df350
+      kontekst: textscripts.chopshop_lizzy:line:87
+      linia: 87
+      sekcja_skryptu: joingang
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um... the crankcase is the one with cranks in it?
+      pl: Eee... skrzynia korbowa to ta z korbami?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id008 []
+  - etykieta: nogoal
+    wpisy:
+    - id: sol_8c59151e4c72392e2b9a
+      kontekst: textscripts.chopshop_lizzy:line:94
+      linia: 94
+      sekcja_skryptu: nogoal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...You just wandered in here and beat up my girls for no reason?'
+      pl: ...Po prostu wszedłeś tu i bez powodu spuściłeś łomot moim dziewczynom?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_714bf2b113000977a541
+      kontekst: textscripts.chopshop_lizzy:line:95
+      linia: 95
+      sekcja_skryptu: nogoal
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, it seemed like the only way to get to the other side of the room.
+      pl: Wyglądało to na jedyny sposób, by dostać się na drugi koniec pomieszczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boon
+    wpisy:
+    - id: sol_75781ab6832a30dc980b
+      kontekst: textscripts.chopshop_lizzy:line:101
+      linia: 101
+      sekcja_skryptu: boon
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'll tell you what -- you got this far, and my girls ain't no slouches. That's worth some respect. So I'll grant you a boon.
+      pl: 'Powiem tak: udało ci się dotrzeć aż tutaj, a moje dziewczyny nie są mięczakami. To zasługuje na szacunek. Dlatego przyznam ci łaskę.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1017ca78f4749a68c6c2
+      kontekst: textscripts.chopshop_lizzy:line:102
+      linia: 102
+      sekcja_skryptu: boon
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A boon? Like a favor?
+      pl: Łaskę? W sensie przysługę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boon2
+    wpisy:
+    - id: sol_17f054cd0a5679849832
+      kontekst: textscripts.chopshop_lizzy:line:107
+      linia: 107
+      sekcja_skryptu: boon2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah. Within reason.
+      pl: Tak. W granicach rozsądku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_682122bd8d1be64b803e
+      kontekst: textscripts.chopshop_lizzy:line:108
+      linia: 108
+      sekcja_skryptu: boon2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How do I know this isn't some kind of a trick?
+      pl: Skąd mam wiedzieć, że to nie podstęp?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_74cf5bfd39261539fcf9
+      kontekst: textscripts.chopshop_lizzy:line:109
+      linia: 109
+      sekcja_skryptu: boon2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's no trick. You can trust me, because I'm sitting on the Crescent Throne. That means everything I say is automatically true.
+      pl: Żaden podstęp. Możesz mi ufać, bo siedzę na Półksiężycowym Tronie. To oznacza, że wszystko, co mówię, automatycznie staje się prawdą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_51774e0c6bccf6382aba
+      kontekst: textscripts.chopshop_lizzy:line:110
+      linia: 110
+      sekcja_skryptu: boon2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow! Like the Pope?
+      pl: Łał! Jak papież?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d9947959bd9a9946a71b
+      kontekst: textscripts.chopshop_lizzy:line:111
+      linia: 111
+      sekcja_skryptu: boon2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Kinda, yeah. We're real into hierarchy and chain of command around here.
+      pl: Coś w tym rodzaju. Bardzo cenimy tu hierarchię i drogę służbową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9bcc0fc33228591e7792
+      kontekst: textscripts.chopshop_lizzy:line:112
+      linia: 112
+      sekcja_skryptu: boon2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Neat!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boon3
+    wpisy:
+    - id: sol_8142e612b98ffee82d27
+      kontekst: textscripts.chopshop_lizzy:line:117
+      linia: 117
+      sekcja_skryptu: boon3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway,
+      pl: Tak czy inaczej,
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cca3687a131f77a49361
+      kontekst: textscripts.chopshop_lizzy:line:118
+      linia: 118
+      sekcja_skryptu: boon3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What if you say you have a million Meat?
+      pl: A jeśli powiesz, że masz milion Mięsa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19169240035e474f1c0c
+      kontekst: textscripts.chopshop_lizzy:line:119
+      linia: 119
+      sekcja_skryptu: boon3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What?
+      pl: Co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 13
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a0eab17c2a13b082d2a1
+      kontekst: textscripts.chopshop_lizzy:line:120
+      linia: 120
+      sekcja_skryptu: boon3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What if you say black is white?
+      pl: A jeśli powiesz, że czarne jest białe?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ca218045d795baad4625
+      kontekst: textscripts.chopshop_lizzy:line:121
+      linia: 121
+      sekcja_skryptu: boon3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It isn't <i>magic</i>, it just... Look, part of being a good leader is not trying to use your powers in stupid ways.
+      pl: To nie <i>magia</i>, tylko... Słuchaj, dobry przywódca nie próbuje używać swojej władzy w głupi sposób.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72f0d6c7e14fc2041e09
+      kontekst: textscripts.chopshop_lizzy:line:122
+      linia: 122
+      sekcja_skryptu: boon3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Aww.
+      pl: Ooo.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boon4
+    wpisy:
+    - id: sol_2316a6694ae0d2492679
+      kontekst: textscripts.chopshop_lizzy:line:127
+      linia: 127
+      sekcja_skryptu: boon4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Anyway,</i> you get one wish. What'll it be?
+      pl: <i>Tak czy inaczej</i>, masz jedno życzenie. Czego chcesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7d67e1d6b8e359acbd66
+      kontekst: textscripts.chopshop_lizzy:line:128
+      linia: 128
+      sekcja_skryptu: boon4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: More--
+      pl: Więcej...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d49363b8b3a41998b8eb
+      kontekst: textscripts.chopshop_lizzy:line:129
+      linia: 129
+      sekcja_skryptu: boon4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You can <i>not</i> wish for more wishes.
+      pl: <i>Nie możesz</i> życzyć sobie kolejnych życzeń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_65440de983a7a370fee6
+      kontekst: textscripts.chopshop_lizzy:line:131
+      linia: 131
+      sekcja_skryptu: boon4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nuts!
+      pl: Kurczę!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boonlist
+    wpisy:
+    - id: sol_18332fbe3b721ede4436
+      kontekst: textscripts.chopshop_lizzy:line:139
+      linia: 139
+      sekcja_skryptu: boonlist
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I wish for you to call off your girls.
+      pl: Chcę, żebyś odwołała swoje dziewczyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b260295ab02bd820b48
+      kontekst: textscripts.chopshop_lizzy:line:140
+      linia: 140
+      sekcja_skryptu: boonlist
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I wish for prizes!
+      pl: Chcę nagród!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a14736cbcfbbd7b1e38
+      kontekst: textscripts.chopshop_lizzy:line:142
+      linia: 142
+      sekcja_skryptu: boonlist
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I wish to fight you!
+      pl: Chcę z tobą walczyć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a1f739686fda30e3b2b
+      kontekst: textscripts.chopshop_lizzy:line:143
+      linia: 143
+      sekcja_skryptu: boonlist
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: I wish to sit in your swell chair!
+      pl: Chcę usiąść w twoim świetnym fotelu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72ca859eb4baa10b1fbb
+      kontekst: textscripts.chopshop_lizzy:line:151
+      linia: 151
+      sekcja_skryptu: boonlist
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...I need to think about it for a bit.'
+      pl: '...Muszę się chwilę zastanowić.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bnofights
+    wpisy:
+    - id: sol_7aa12477ebbda6b67a26
+      kontekst: textscripts.chopshop_lizzy:line:155
+      linia: 155
+      sekcja_skryptu: bnofights
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I wish for you to call off your girls. I've got enough problems without dealing with lady hooligans trying to put me up on cinderblocks.
+      pl: Chcę, żebyś odwołała swoje dziewczyny. Mam dość problemów bez chuliganek, które chcą mnie rozebrać na części i postawić na pustakach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2baced9e49381fd159b7
+      kontekst: textscripts.chopshop_lizzy:line:156
+      linia: 156
+      sekcja_skryptu: bnofights
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hah! All right, from now on the Tin Lizzies have officially got a non-aggression pact with @firstname@ @lastname@. And considering the
+        fight you put up already, I don't think that'll be hard to enforce.
+      pl: Ha! Dobrze, od tej pory Blaszane Lizzie mają oficjalny pakt o nieagresji z @firstname@ @lastname@. Po walce, jaką im już urządziłeś, egzekwowanie go nie będzie trudne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_01a5a94c5f817d680448
+      kontekst: textscripts.chopshop_lizzy:line:159
+      linia: 159
+      sekcja_skryptu: bnofights
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Great, thanks.
+      pl: Świetnie, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bprizes
+    wpisy:
+    - id: sol_013d2d81b0e469a22c99
+      kontekst: textscripts.chopshop_lizzy:line:164
+      linia: 164
+      sekcja_skryptu: bprizes
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that's easy enough. There's a shed over there where we keep spare tools and parts. Help yourself.
+      pl: To akurat proste. W tamtej szopie trzymamy zapasowe narzędzia i części. Częstuj się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b7c4de882821250ce53c
+      kontekst: textscripts.chopshop_lizzy:line:165
+      linia: 165
+      sekcja_skryptu: bprizes
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She tosses you a key.
+      pl: Rzuca ci klucz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7df9ba964c7b2af01e5f
+      kontekst: textscripts.chopshop_lizzy:line:168
+      linia: 168
+      sekcja_skryptu: bprizes
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Neat, thanks!
+      pl: Super, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bjoin
+    wpisy:
+    - id: sol_e5adfe5cf265306f9370
+      kontekst: textscripts.chopshop_lizzy:line:173
+      linia: 173
+      sekcja_skryptu: bjoin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, kiddo. This ain't just a gang, it's a business -- and I can tell just by looking at you that you don't know a crankcase from
+        a manifold.
+      pl: Wybacz, dzieciaku. To nie tylko gang, ale i firma — a na pierwszy rzut oka widać, że nie odróżniasz skrzyni korbowej od kolektora.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+    - id: sol_0f52dd911058854df350
+      kontekst: textscripts.chopshop_lizzy:line:174
+      linia: 174
+      sekcja_skryptu: bjoin
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um... the crankcase is the one with cranks in it?
+      pl: Eee... skrzynia korbowa to ta z korbami?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+    - id: sol_054d45b7c53466c27f42
+      kontekst: textscripts.chopshop_lizzy:line:175
+      linia: 175
+      sekcja_skryptu: bjoin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pick something else.
+      pl: Wybierz coś innego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_de4858e30f0733a8386a
+      kontekst: textscripts.chopshop_lizzy:line:178
+      linia: 178
+      sekcja_skryptu: bjoin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm...
+      pl: Hm...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bfight
+    wpisy:
+    - id: sol_5a3ac017374002560e47
+      kontekst: textscripts.chopshop_lizzy:line:183
+      linia: 183
+      sekcja_skryptu: bfight
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's some real fire you got in your engine, kid. I like that. I'll warn ya though, I didn't get to where I am just by bein' a pretty
+        face. You sure about this?
+      pl: 'Masz prawdziwy ogień w silniku, dzieciaku. To mi się podoba. Ale ostrzegam: nie dotarłam tu tylko dzięki ładnej buzi. Na pewno tego
+        chcesz?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_81f556f3ed639e130387
+      kontekst: textscripts.chopshop_lizzy:line:187
+      linia: 187
+      sekcja_skryptu: bfight
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm, lemme think about it.
+      pl: Hm, muszę się zastanowić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bfightgo
+    wpisy:
+    - id: sol_db33868a01aa13266aee
+      kontekst: textscripts.chopshop_lizzy:line:192
+      linia: 192
+      sekcja_skryptu: bfightgo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz cracks her knuckles and stands up.
+      pl: Wielka Liz strzela knykciami i wstaje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3efcb834e79c77c0b69a
+      kontekst: textscripts.chopshop_lizzy:line:193
+      linia: 193
+      sekcja_skryptu: bfightgo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Everybody always gotta play the tough guy. Have it your way.
+      pl: Każdy zawsze musi zgrywać twardziela. Jak sobie chcesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b4c53c54db476fa47717
+      kontekst: textscripts.chopshop_lizzy:line:194
+      linia: 194
+      sekcja_skryptu: bfightgo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight!
+      pl: Walcz!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+  - etykieta: bchair
+    wpisy:
+    - id: sol_b48d42d9ecae842cc926
+      kontekst: textscripts.chopshop_lizzy:line:198
+      linia: 198
+      sekcja_skryptu: bchair
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_98f1bade1d2333be7e61
+      kontekst: textscripts.chopshop_lizzy:line:199
+      linia: 199
+      sekcja_skryptu: bchair
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aww, c'mon! Just for a second?
+      pl: Ooo, no weź! Tylko na sekundę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1ca1e2c9f200da58fb99
+      kontekst: textscripts.chopshop_lizzy:line:200
+      linia: 200
+      sekcja_skryptu: bchair
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Only the boss of the Tin Lizzies can sit on the Crescent Throne. Sorry, kid.
+      pl: Na Półksiężycowym Tronie może siedzieć tylko szef Blaszanych Lizzie. Wybacz, dzieciaku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e9311fb6a39b77291c7f
+      kontekst: textscripts.chopshop_lizzy:line:203
+      linia: 203
+      sekcja_skryptu: bchair
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That stinks.
+      pl: Kiepsko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: brag
+    wpisy:
+    - id: sol_fa910f428e66ac313e36
+      kontekst: textscripts.chopshop_lizzy:line:207
+      linia: 207
+      sekcja_skryptu: brag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: C'mon, let me sit in your chair! Check out the muscles on these thighs! I can crack a walnut with my glutes! I can handle <i>any</i>
+        chair! There won't be any problems, I promise.
+      pl: No daj usiąść! Spójrz na mięśnie tych ud! Pośladkami łupię orzechy! Dam sobie radę z <i>każdym</i> fotelem! Obiecuję, że nie będzie
+        problemów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_80a2b286ddb0f7d0dbc5
+      kontekst: textscripts.chopshop_lizzy:line:208
+      linia: 208
+      sekcja_skryptu: brag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's not... <i>sigh.</i>
+      pl: To nie... <i>wzdycha</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3bae2021ed3854201974
+      kontekst: textscripts.chopshop_lizzy:line:209
+      linia: 209
+      sekcja_skryptu: brag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right, fine. You can try it out, just for a second.
+      pl: No dobrze. Możesz spróbować, ale tylko przez sekundę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bbf7914582919dd6aeb2
+      kontekst: textscripts.chopshop_lizzy:line:210
+      linia: 210
+      sekcja_skryptu: brag
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wicked!
+      pl: Czad!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id010 []
+  - etykieta: bewitch
+    wpisy:
+    - id: sol_9fccf241bf1f508adf89
+      kontekst: textscripts.chopshop_lizzy:line:214
+      linia: 214
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: C'mon, let me sit in your chair!
+      pl: No daj usiąść w tym fotelu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1e684c3934a1cd0986bc
+      kontekst: textscripts.chopshop_lizzy:line:215
+      linia: 215
+      sekcja_skryptu: bewitch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You waggle your fingers at her and do that trick where your pupils go all swirly.
+      pl: Poruszasz przed nią palcami i robisz tę sztuczkę, w której źrenice zaczynają wirować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_32ea3125714fb01f7379
+      kontekst: textscripts.chopshop_lizzy:line:216
+      linia: 216
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's perfectly safe, and couldn't possibly result in any problems. I promise.
+      pl: To całkowicie bezpieczne i w żaden sposób nie może doprowadzić do problemów. Słowo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f193256b8b941e59f302
+      kontekst: textscripts.chopshop_lizzy:line:217
+      linia: 217
+      sekcja_skryptu: bewitch
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... all right, fine. But just for a second.
+      pl: Cóż... no dobrze. Ale tylko na sekundę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id011 []
+    - id: sol_bbf7914582919dd6aeb2
+      kontekst: textscripts.chopshop_lizzy:line:218
+      linia: 218
+      sekcja_skryptu: bewitch
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wicked!
+      pl: Czad!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+  - etykieta: bamboozle
+    wpisy:
+    - id: sol_7b924711380672d473f0
+      kontekst: textscripts.chopshop_lizzy:line:222
+      linia: 222
+      sekcja_skryptu: bamboozle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: C'mon, let me sit in your chair! I've never seen a chair like that before, the workmanship is amazing!
+      pl: No daj usiąść! Nigdy nie widziałem takiego fotela, wykonanie jest niesamowite!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f42cacf4376c8e0a23e7
+      kontekst: textscripts.chopshop_lizzy:line:224
+      linia: 224
+      sekcja_skryptu: bamboozle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I just want to see how it feels, I promise I won't cause any problems.
+      pl: Chcę tylko sprawdzić, jakie to uczucie. Obiecuję, że nie będzie problemów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f193256b8b941e59f302
+      kontekst: textscripts.chopshop_lizzy:line:225
+      linia: 225
+      sekcja_skryptu: bamboozle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... all right, fine. But just for a second.
+      pl: Cóż... no dobrze. Ale tylko na sekundę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+    - id: sol_bbf7914582919dd6aeb2
+      kontekst: textscripts.chopshop_lizzy:line:226
+      linia: 226
+      sekcja_skryptu: bamboozle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wicked!
+      pl: Czad!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+  - etykieta: fedora
+    wpisy:
+    - id: sol_2ca6f9eecfc4a1506951
+      kontekst: textscripts.chopshop_lizzy:line:231
+      linia: 231
+      sekcja_skryptu: fedora
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz lurches forward, as if she'd been punched in the gut.
+      pl: Wielka Liz pochyla się gwałtownie, jak po ciosie w brzuch.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cff7ee250cc6314d6005
+      kontekst: textscripts.chopshop_lizzy:line:232
+      linia: 232
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hnng! What the... ugh. Yeah, jeez, where are my manners? Sure, you can try out the chair. Just for a second though. I don't feel well.
+      pl: Hnng! Co do... uch. No tak, rany, gdzie moje maniery? Jasne, możesz wypróbować fotel. Tylko przez sekundę. Źle się czuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bbf7914582919dd6aeb2
+      kontekst: textscripts.chopshop_lizzy:line:235
+      linia: 235
+      sekcja_skryptu: fedora
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wicked!
+      pl: Czad!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+  - etykieta: sitting
+    wpisy:
+    - id: sol_428582151fb248184f04
+      kontekst: textscripts.chopshop_lizzy:line:239
+      linia: 239
+      sekcja_skryptu: sitting
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz stands up, and you take her seat on the Crescent Throne. It's cold, and not very comfortable, but it does make you feel pretty
+        powerful.
+      pl: Wielka Liz wstaje, a ty zajmujesz jej miejsce na Półksiężycowym Tronie. Jest zimny i niezbyt wygodny, ale daje poczucie sporej władzy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5cc0638db789f23e6fb6
+      kontekst: textscripts.chopshop_lizzy:line:240
+      linia: 240
+      sekcja_skryptu: sitting
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow! This is great!
+      pl: Łał! Ale świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4431868765d852c5a504
+      kontekst: textscripts.chopshop_lizzy:line:241
+      linia: 241
+      sekcja_skryptu: sitting
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Glad you like it. Now, get up.
+      pl: Cieszę się, że ci się podoba. A teraz wstawaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a07ffb15beccca3400a
+      kontekst: textscripts.chopshop_lizzy:line:242
+      linia: 242
+      sekcja_skryptu: sitting
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nah -- seeing as how I'm the boss of the gang now, I think I'll enjoy it a little longer.
+      pl: Nie — jako nowy szef gangu chyba jeszcze trochę się nim nacieszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b4cfba8f7622fbb22f63
+      kontekst: textscripts.chopshop_lizzy:line:243
+      linia: 243
+      sekcja_skryptu: sitting
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>What</i> did you just say?
+      pl: <i>Co</i> ty właśnie powiedziałeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3170b441a3b512f45f68
+      kontekst: textscripts.chopshop_lizzy:line:244
+      linia: 244
+      sekcja_skryptu: sitting
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I said, I'm the boss of the Tin Lizzies now. And I said it while sitting on the Crescent Throne. Twice.
+      pl: Powiedziałem, że jestem teraz szefem Blaszanych Lizzie. I powiedziałem to, siedząc na Półksiężycowym Tronie. Dwa razy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a817b4bcf0f1e9008827
+      kontekst: textscripts.chopshop_lizzy:line:245
+      linia: 245
+      sekcja_skryptu: sitting
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nice try, dipstick, but the power of the throne doesn't apply unless you already are the boss!
+      pl: Niezła próba, bagnecie olejowy, ale moc tronu działa tylko wtedy, gdy już jesteś szefem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a36b7c77361f1bc8e947
+      kontekst: textscripts.chopshop_lizzy:line:246
+      linia: 246
+      sekcja_skryptu: sitting
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I was the boss as soon as I sat down.
+      pl: Zostałem szefem w chwili, gdy usiadłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sittingtwo
+    wpisy:
+    - id: sol_e05e8d7256fe6001375f
+      kontekst: textscripts.chopshop_lizzy:line:250
+      linia: 250
+      sekcja_skryptu: sittingtwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I was the boss as soon as I sat down. You said -- while sitting here! -- that only the boss of the Tin Lizzies can sit on the Crescent
+        Throne. And here I am, sitting on it. <i>Ipso facto</i>, I'm the boss.
+      pl: Zostałem szefem w chwili, gdy usiadłem. Powiedziałaś — siedząc tutaj! — że na Półksiężycowym Tronie może siedzieć tylko szef Blaszanych Lizzie. A oto siedzę. <i>Ipso facto</i> jestem szefem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3265319db010a6ea8b25
+      kontekst: textscripts.chopshop_lizzy:line:251
+      linia: 251
+      sekcja_skryptu: sittingtwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why you little--!
+      pl: Ty mały...!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_42d90c92e6dc13f5ec91
+      kontekst: textscripts.chopshop_lizzy:line:252
+      linia: 252
+      sekcja_skryptu: sittingtwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And the first change I'm making is that from now on, changes in gang leadership can only occur via <i>written</i> agreement from the
+        current boss. Which is me.
+      pl: 'A moja pierwsza zmiana brzmi: od tej pory zmiana przywództwa gangu może nastąpić tylko za <i>pisemną</i> zgodą obecnego szefa. Czyli
+        mnie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_45c784ddf55ed7705a2a
+      kontekst: textscripts.chopshop_lizzy:line:255
+      linia: 255
+      sekcja_skryptu: sittingtwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Grrr...
+      pl: Grrr...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b06827cde4a6fe6efc15
+      kontekst: textscripts.chopshop_lizzy:line:256
+      linia: 256
+      sekcja_skryptu: sittingtwo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha, take it easy, Big Liz.
+      pl: Ha, ha, spokojnie, Wielka Liz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sittingthree
+    wpisy:
+    - id: sol_403adf1609f8b1795f17
+      kontekst: textscripts.chopshop_lizzy:line:260
+      linia: 260
+      sekcja_skryptu: sittingthree
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha, take it easy, Big Liz. I'm just messing with you.
+      pl: Ha, ha, spokojnie, Wielka Liz. Tylko się z tobą droczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f4bb46c60ca3ee62991a
+      kontekst: textscripts.chopshop_lizzy:line:261
+      linia: 261
+      sekcja_skryptu: sittingthree
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh?
+      pl: Hę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ff53913b3440ebe098ff
+      kontekst: textscripts.chopshop_lizzy:line:262
+      linia: 262
+      sekcja_skryptu: sittingthree
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't have time to run a gang, I'm busy. But I'm busy with something kind of weird, and I think I might need your resources. So, you
+        can run the gang same as always. All I need is for you gals to help me out if I need backup.
+      pl: Nie mam czasu prowadzić gangu, mam zajęcie. Dość dziwne zajęcie, przy którym mogą mi się przydać wasze zasoby. Możesz więc prowadzić
+        gang jak zawsze. Chcę tylko, żebyście wsparły mnie, gdy potrzebna będzie pomoc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ea689f77e826ef6cd3b
+      kontekst: textscripts.chopshop_lizzy:line:264
+      linia: 264
+      sekcja_skryptu: sittingthree
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I swear on the Crescent Throne that as soon as I'm done with this whole crazy mess I've fallen into, I'll make you full official boss
+        of the Tin Lizzies again.
+      pl: Przysięgam na Półksiężycowy Tron, że gdy tylko skończę z całym tym szalonym bałaganem, ponownie mianuję cię pełnoprawną szefową Blaszanych
+        Lizzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dd6f34c94a9c509b80a9
+      kontekst: textscripts.chopshop_lizzy:line:265
+      linia: 265
+      sekcja_skryptu: sittingthree
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...<i>sigh</i>. All right. I guess I deserve it for falling for that trick. You win... boss.'
+      pl: ...<i>wzdycha</i>. Dobrze. Chyba sama sobie na to zasłużyłam, dając się nabrać. Wygrywasz... szefie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ac1519425b62039506ec
+      kontekst: textscripts.chopshop_lizzy:line:266
+      linia: 266
+      sekcja_skryptu: sittingthree
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sittingfour
+    wpisy:
+    - id: sol_f284a51e01171ff5946b
+      kontekst: textscripts.chopshop_lizzy:line:270
+      linia: 270
+      sekcja_skryptu: sittingfour
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great! Here, you can sit back down, if you want. This thing is uncomfortable.
+      pl: Świetnie! Możesz znowu usiąść, jeśli chcesz. To cholerstwo jest niewygodne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_77ed752ab43887e5d36f
+      kontekst: textscripts.chopshop_lizzy:line:271
+      linia: 271
+      sekcja_skryptu: sittingfour
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'll stand, thanks. So, what do you need from me?
+      pl: Postoję, dzięki. Czego potrzebujesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c7bdfa8dbc3dfc27605
+      kontekst: textscripts.chopshop_lizzy:line:272
+      linia: 272
+      sekcja_skryptu: sittingfour
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I could use some supplies?
+      pl: Przydałyby mi się zapasy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_49554da18ca062487bff
+      kontekst: textscripts.chopshop_lizzy:line:273
+      linia: 273
+      sekcja_skryptu: sittingfour
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Supply shed's over there. Here's the key.
+      pl: Szopa z zapasami jest tam. Oto klucz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c48a4f8d1f31220cef62
+      kontekst: textscripts.chopshop_lizzy:line:275
+      linia: 275
+      sekcja_skryptu: sittingfour
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And if you get into any trouble in town, just give a whistle and one of the girls'll come to help out.
+      pl: A jeśli w mieście wpakujesz się w kłopoty, zagwiżdż, a jedna z dziewczyn przyjdzie z pomocą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d2f235b59ff975335938
+      kontekst: textscripts.chopshop_lizzy:line:279
+      linia: 279
+      sekcja_skryptu: sittingfour
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leave
+    wpisy:
+    - id: sol_073334c11e61754bfd36
+      kontekst: textscripts.chopshop_lizzy:line:287
+      linia: 287
+      sekcja_skryptu: leave
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If you think you can just cruise in here and cruise back out easy as you please, you got another think coming, @p|buster,girlie,buster@.
+      pl: Jeśli myślisz, że możesz tak po prostu wjechać i wyjechać, czeka cię niespodzianka, @p|buster,girlie,buster@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|buster,girlie,buster@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e1fce56eb084f11fa
+      kontekst: textscripts.chopshop_lizzy:line:288
+      linia: 288
+      sekcja_skryptu: leave
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz knocks you on the head with a wrench and then summons a minion from somewhere to drag you away.
+      pl: Wielka Liz wali cię kluczem francuskim w głowę, po czym przywołuje skądś sługę, który cię odciąga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.chopshop_lizzy:line:289
+      linia: 289
+      sekcja_skryptu: leave
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: bleave
+    wpisy:
+    - id: sol_b0e7bda94295b4f97576
+      kontekst: textscripts.chopshop_lizzy:line:299
+      linia: 299
+      sekcja_skryptu: bleave
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right, well, it's an open offer. Don't try my patience, though, @p|bud,kiddo,pal@.
+      pl: No dobrze, oferta pozostaje otwarta. Tylko nie wystawiaj mojej cierpliwości na próbę, @p|bud,kiddo,pal@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bud,kiddo,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37a3985b34d402b9e682
+      kontekst: textscripts.chopshop_lizzy:line:301
+      linia: 301
+      sekcja_skryptu: bleave
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: breturn
+    wpisy:
+    - id: sol_d67550e39b93f8e9fca5
+      kontekst: textscripts.chopshop_lizzy:line:306
+      linia: 306
+      sekcja_skryptu: breturn
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You're back, eh? Did you decide what you want for a boon?
+      pl: Wracasz, co? Zdecydowałeś już, o jaką łaskę prosisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0dad83b17fdb5d4c0510
+      kontekst: textscripts.chopshop_lizzy:line:308
+      linia: 308
+      sekcja_skryptu: breturn
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ummm...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fightback
+    wpisy:
+    - id: sol_11b56d018f5fc08e473b
+      kontekst: textscripts.chopshop_lizzy:line:315
+      linia: 315
+      sekcja_skryptu: fightback
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz sneers at you.
+      pl: Wielka Liz szyderczo się uśmiecha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ddfa236f3c540fb1d680
+      kontekst: textscripts.chopshop_lizzy:line:317
+      linia: 317
+      sekcja_skryptu: fightback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thought you'd come back and take another swing at me, didja?
+      pl: Wracasz spróbować jeszcze raz, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87d8a07b41952cefd9b5
+      kontekst: textscripts.chopshop_lizzy:line:320
+      linia: 320
+      sekcja_skryptu: fightback
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, I came back to apologize.
+      pl: Właściwie wróciłem, żeby przeprosić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9fbe75484fa674c6bab5
+      kontekst: textscripts.chopshop_lizzy:line:321
+      linia: 321
+      sekcja_skryptu: fightback
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, Never mind, I was just leaving.
+      pl: Eee, nieważne, już wychodzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: apolo
+    wpisy:
+    - id: sol_9c26edd44720a209da8a
+      kontekst: textscripts.chopshop_lizzy:line:327
+      linia: 327
+      sekcja_skryptu: apolo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Not interested!
+      pl: Nie interesuje mnie to!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6a95cd51616252a8e1f6
+      kontekst: textscripts.chopshop_lizzy:line:328
+      linia: 328
+      sekcja_skryptu: apolo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She clocks you across the skull with a wrench and summons a minion to drag you away.
+      pl: Wali cię kluczem francuskim w czaszkę i przywołuje sługę, który cię odciąga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.chopshop_lizzy:line:329
+      linia: 329
+      sekcja_skryptu: apolo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: doneback
+    wpisy:
+    - id: sol_c832aa9ae11a546e8905
+      kontekst: textscripts.chopshop_lizzy:line:334
+      linia: 334
+      sekcja_skryptu: doneback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Back, are you? You've gotten all the favors you're gonna get outta me, @p|bud,kid,pal@.
+      pl: Wracasz? Więcej przysług już ode mnie nie wyciągniesz, @p|bud,kid,pal@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bud,kid,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ccd02226b32ab8a12aa7
+      kontekst: textscripts.chopshop_lizzy:line:336
+      linia: 336
+      sekcja_skryptu: doneback
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I was just in the neighborhood and thought I'd say hi.
+      pl: Było mi po drodze, więc wpadam się przywitać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_acc5f30291e4751d877e
+      kontekst: textscripts.chopshop_lizzy:line:337
+      linia: 337
+      sekcja_skryptu: doneback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi. Also, bye.
+      pl: Cześć. I do widzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_90830d4b75dd09f2fc8b
+      kontekst: textscripts.chopshop_lizzy:line:338
+      linia: 338
+      sekcja_skryptu: doneback
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bye.
+      pl: Do widzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_bb24e0c731092dcc2202
+      kontekst: textscripts.chopshop_lizzy:line:348
+      linia: 348
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! A key falls out of Big Liz's pocket as one of her minions glumly drags her unconscious body away. Now that the Tin Lizzies
+        know who they're messing with, you shouldn't have to worry about them anymore.
+      pl: Wygrałeś! Z kieszeni Wielkiej Liz wypada klucz, gdy jeden ze sług ponuro odciąga jej nieprzytomne ciało. Blaszane Lizzie wiedzą już, z kim zadarły, więc nie powinny sprawiać więcej problemów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.chopshop_lizzy:line:354
+      linia: 354
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: lose
+    wpisy:
+    - id: sol_cc642c0a99396dd550b2
+      kontekst: textscripts.chopshop_lizzy:line:359
+      linia: 359
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Big Liz has one of her minions drag your sorry carcass back to the exit.
+      pl: Przegrałeś. Wielka Liz każe jednemu ze sług wywlec twój żałosny wrak do wyjścia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_829ee29af4832729246d
+      kontekst: textscripts.chopshop_lizzy:line:360
+      linia: 360
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Get it? <i>Car</i>cass?
+      pl: Rozumiesz? <i>Wrak</i>?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea00752197e6b12b87af
+      kontekst: textscripts.chopshop_lizzy:line:363
+      linia: 363
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof, and also <i>oof</i>
+      pl: Auć, i jeszcze raz <i>auć</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 741
+  skrypt: chopshop_ltbigliz
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7dbd65b31a0135d77b34
+      kontekst: textscripts.chopshop_ltbigliz:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Big Liz gives you an annoyed but resigned look.
+      pl: Wielka Liz spogląda z irytacją, ale i rezygnacją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c9839b43862fb9732392
+      kontekst: textscripts.chopshop_ltbigliz:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to her
+      pl: Porozmawiaj z nią
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 47
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_0321aae495b2d0c67e02
+      kontekst: textscripts.chopshop_ltbigliz:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>sigh</i> Whaddya need, boss?
+      pl: <i>wzdycha</i> Czego ci trzeba, szefie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ae7bd93d7a5a41b9ff7f
+      kontekst: textscripts.chopshop_ltbigliz:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sorry I tricked you out of your gang.
+      pl: Wybacz, że podstępem odebrałem ci gang.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a8798449e186f77a3252
+      kontekst: textscripts.chopshop_ltbigliz:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing, thanks.
+      pl: Niczego, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: apolo
+    wpisy:
+    - id: sol_49af9cab5ff6f861ac06
+      kontekst: textscripts.chopshop_ltbigliz:line:20
+      linia: 20
+      sekcja_skryptu: apolo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It was a dirty trick, but it was by the book. I shoulda been more careful, that's all.
+      pl: To był brudny podstęp, ale zgodny z zasadami. Powinnam była bardziej uważać, i tyle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a6ed3cef68aa1c96b6f
+      kontekst: textscripts.chopshop_ltbigliz:line:21
+      linia: 21
+      sekcja_skryptu: apolo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: See you later.
+      pl: Do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 742
+  skrypt: chopshop_newcar
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_44a6f7f7c3d41f09f06d
+      kontekst: textscripts.chopshop_newcar:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This car has not been chopped, but you have emptied it of valuables.
+      pl: Samochód nie został rozebrany, ale opróżniłeś go już z kosztowności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6dc64009b9e7738b2476
+      kontekst: textscripts.chopshop_newcar:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This car has not been noticeably chopped yet.
+      pl: Samochód nie został jeszcze zauważalnie rozebrany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0333b891587344028278
+      kontekst: textscripts.chopshop_newcar:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id015 []
+  - etykieta: e
+    wpisy:
+    - id: sol_76326a5327633e0a9f10
+      kontekst: textscripts.chopshop_newcar:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The doors are locked.  Dangit.
+      pl: Drzwi są zamknięte. Kurczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: curseunlock
+    wpisy:
+    - id: sol_3751ee38d9183c64359e
+      kontekst: textscripts.chopshop_newcar:line:19
+      linia: 19
+      sekcja_skryptu: curseunlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That seems like a bad idea.  Are you sure?
+      pl: To wygląda na kiepski pomysł. Na pewno?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 26
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id012 []
+    - id: sol_7c8a12eab373e6fbe42b
+      kontekst: textscripts.chopshop_newcar:line:20
+      linia: 20
+      sekcja_skryptu: curseunlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, I'm sure [cursed key]
+      pl: Tak, na pewno [przeklęty klucz]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id013 []
+  - etykieta: jimmy
+    wpisy:
+    - id: sol_434426e7e56911b1b288
+      kontekst: textscripts.chopshop_newcar:line:31
+      linia: 31
+      sekcja_skryptu: jimmy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the car, ruining both the lock and the hanger in the process.
+      pl: Otwierasz samochód, niszcząc przy okazji zarówno zamek, jak i wieszak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loot
+    wpisy:
+    - id: sol_5feb49378cbe603aba19
+      kontekst: textscripts.chopshop_newcar:line:36
+      linia: 36
+      sekcja_skryptu: loot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The glove compartment is full of Meat!
+      pl: Schowek na rękawiczki jest pełen Mięsa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 744
+  skrypt: chopshop_sheddoor
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d341bbf33613e027ca74
+      kontekst: textscripts.chopshop_sheddoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The shed door is locked.
+      pl: Drzwi szopy są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_fb2aaa187a00ccbb6773
+      kontekst: textscripts.chopshop_sheddoor:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Click!
+      pl: Klik!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_51afcff0becc3137dc77
+      kontekst: textscripts.chopshop_sheddoor:line:15
+      linia: 15
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go on inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: curseunlock
+    wpisy:
+    - id: sol_3751ee38d9183c64359e
+      kontekst: textscripts.chopshop_sheddoor:line:26
+      linia: 26
+      sekcja_skryptu: curseunlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That seems like a bad idea.  Are you sure?
+      pl: To wygląda na kiepski pomysł. Na pewno?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 26
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+    - id: sol_7c8a12eab373e6fbe42b
+      kontekst: textscripts.chopshop_sheddoor:line:27
+      linia: 27
+      sekcja_skryptu: curseunlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, I'm sure [cursed key]
+      pl: Tak, na pewno [przeklęty klucz]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+  - etykieta: yescurseunlock
+    wpisy:
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.chopshop_sheddoor:line:35
+      linia: 35
+      sekcja_skryptu: yescurseunlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 747
+  skrypt: chopshop_throne
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1c0f94e278fe2dac4712
+      kontekst: textscripts.chopshop_throne:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, the Crescent Throne is yours now.  You could drag it back to your room if you wanted to.
+      pl: Cóż, Półksiężycowy Tron należy teraz do ciebie. Możesz go zaciągnąć do swojego pokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_71058e07f0d3d4ee010c
+      kontekst: textscripts.chopshop_throne:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, do that
+      pl: Dobrze, zrób to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 749
+  skrypt: chopshop_toolboxoutside
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cd2298dba654a1d23d6a
+      kontekst: textscripts.chopshop_toolboxoutside:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing left in there but residue.
+      pl: Zostały tam tylko resztki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ae94c71e7142e069ba13
+      kontekst: textscripts.chopshop_toolboxoutside:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A greasy toolbox.
+      pl: Tłusta skrzynka narzędziowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.chopshop_toolboxoutside:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_51f4bd8795e970a2c1cc
+      kontekst: textscripts.chopshop_toolboxoutside:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy gloves!  And some other stuff.
+      pl: Tłuste rękawice! I trochę innych rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 750
+  skrypt: chopshop_weldingbench
+  pomieszczenie:
+    id: chopshop
+    nazwa_en: The Tin Lizzies' Chop Shop
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_32a3c734950bb97ba81f
+      kontekst: textscripts.chopshop_weldingbench:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A welding bench.
+      pl: Stanowisko spawalnicze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4a9ea8d775a0ca3ecb57
+      kontekst: textscripts.chopshop_weldingbench:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a welding mask on top of it.
+      pl: Leży na nim maska spawalnicza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.chopshop_weldingbench:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id014 []
+  - etykieta: e
+    wpisy:
+    - id: sol_c865b4ca5ea74e771cbd
+      kontekst: textscripts.chopshop_weldingbench:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your face will be a better home for it than this dirty bench.
+      pl: Na twojej twarzy będzie mu lepiej niż na tym brudnym stole.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4937
+  skrypt: autoscript__chopshop_shed__art__popup
+  pomieszczenie:
+    id: chopshop_shed
+    nazwa_en: The Tin Lizzies' Chop Shop (Shed)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b64df44f586fffc20b50
+      kontekst: textscripts.autoscript__chopshop_shed__art__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The poster says, "Antifreeze is delicious but it's POISON!"
+      pl: 'Na plakacie napisano: „Płyn przeciw zamarzaniu jest pyszny, ale to TRUCIZNA!”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4938
+  skrypt: autoscript__chopshop_shed__calendar__popup
+  pomieszczenie:
+    id: chopshop_shed
+    nazwa_en: The Tin Lizzies' Chop Shop (Shed)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_60206ce66e9709e6dc81
+      kontekst: textscripts.autoscript__chopshop_shed__calendar__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Every day on this calendar just says "CRIMES."
+      pl: Przy każdym dniu w tym kalendarzu napisano po prostu „PRZESTĘPSTWA”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 732
+  skrypt: chopshop_bookshelf
+  pomieszczenie:
+    id: chopshop_shed
+    nazwa_en: The Tin Lizzies' Chop Shop (Shed)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4a9793c3febd5f1d0f7b
+      kontekst: textscripts.chopshop_bookshelf:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A bunch of repair manuals for cars you've never heard of.
+      pl: Sterta instrukcji napraw samochodów, o których nigdy nie słyszałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_66ddf8460f8b56406b1e
+      kontekst: textscripts.chopshop_bookshelf:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: One of these books is about weapons instead of cars.
+      pl: Jedna z tych książek dotyczy broni zamiast samochodów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 743
+  skrypt: chopshop_partshelf
+  pomieszczenie:
+    id: chopshop_shed
+    nazwa_en: The Tin Lizzies' Chop Shop (Shed)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f8574a1632ec5081d811
+      kontekst: textscripts.chopshop_partshelf:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All of the greasy metal objects left on this shelf are too safe and boring for you to be interested in them.
+      pl: Pozostałe na półce tłuste metalowe przedmioty są zbyt bezpieczne i nudne, żeby cię zainteresować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6c9bef0a58ed4dc8ca43
+      kontekst: textscripts.chopshop_partshelf:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A shelf covered with various greasy metal objects.
+      pl: Półka pokryta różnymi tłustymi metalowymi przedmiotami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c2884ec315471895c7da
+      kontekst: textscripts.chopshop_partshelf:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See if there's anything useful
+      pl: Sprawdź, czy jest coś użytecznego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_c76dbf72f4a80762a160
+      kontekst: textscripts.chopshop_partshelf:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You select the most dangerous-looking pieces of metal and pocket them.
+      pl: Wybierasz najniebezpieczniej wyglądające kawałki metalu i chowasz je do kieszeni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 746
+  skrypt: chopshop_shield
+  pomieszczenie:
+    id: chopshop_shed
+    nazwa_en: The Tin Lizzies' Chop Shop (Shed)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_847b4922dbbac7ce9452
+      kontekst: textscripts.chopshop_shield:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a car door leaning against the wall.
+      pl: O ścianę oparto drzwi samochodowe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.chopshop_shield:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id014
+  - etykieta: e
+    wpisy:
+    - id: sol_5c3c6526f7b6ac3bce7e
+      kontekst: textscripts.chopshop_shield:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  It's been converted into a shield.
+      pl: Hm. Przerobiono je na tarczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 748
+  skrypt: chopshop_toolbox
+  pomieszczenie:
+    id: chopshop_shed
+    nazwa_en: The Tin Lizzies' Chop Shop (Shed)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_61d6b650e0569ec5de30
+      kontekst: textscripts.chopshop_toolbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing interesting left in the toolbox.
+      pl: W skrzynce nie zostało nic ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_754b6db4e15b5d492f91
+      kontekst: textscripts.chopshop_toolbox:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a battered toolbox.
+      pl: Poobijana skrzynka narzędziowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0333b891587344028278
+      kontekst: textscripts.chopshop_toolbox:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id015

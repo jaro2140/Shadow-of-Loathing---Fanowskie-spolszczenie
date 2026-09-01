@@ -1,0 +1,755 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: mushcave
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 14
+liczba_wpisow: 38
+sceny:
+- kolejnosc_w_danych_gry: 2570
+  skrypt: mushcave_exitpopup
+  pomieszczenie:
+    id: mushcave
+    nazwa_en: Mushroom Mountain
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41f92b947a48dda03c2b
+      kontekst: textscripts.mushcave_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Want to go look for a fun guy somewhere else?
+      pl: Poszukać gdzie indziej jakiegoś fajnego grzybka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.mushcave_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2575
+  skrypt: mushcave_outhouse
+  pomieszczenie:
+    id: mushcave
+    nazwa_en: Mushroom Mountain
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5d18462b29dac9492240
+      kontekst: textscripts.mushcave_outhouse:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This outhouse is both from and leads to a simpler time.
+      pl: Ten wychodek pochodzi z prostszych czasów i do nich prowadzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e056b0e8f7f6d85e395a
+      kontekst: textscripts.mushcave_outhouse:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through
+      pl: Przejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+- kolejnosc_w_danych_gry: 2579
+  skrypt: mushcave_shroommass
+  pomieszczenie:
+    id: mushcave
+    nazwa_en: Mushroom Mountain
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_619d3914c60d5dbe9db7
+      kontekst: textscripts.mushcave_shroommass:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ah, this huge writhing mass of fungus must be the reason they call this place Mushroom Mountain.
+      pl: Ta ogromna wijąca się masa grzybni musi być powodem nazwy Grzybowa Góra.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_026efc258845d54d74df
+      kontekst: textscripts.mushcave_shroommass:line:17
+      linia: 17
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've reduced the amount of fungus in the mountain by a small amount.  There's still a <i>lot</i> of fungus remaining.
+      pl: Nieznacznie zmniejszasz ilość grzybni na Grzybowej Górze. Nadal pozostało ich <i>mnóstwo</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.mushcave_shroommass:line:24
+      linia: 24
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_15006e2aff3899bd09ca
+      kontekst: textscripts.mushcave_shroommass:line:29
+      linia: 29
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your eyes were bigger than your stomach when it came to those mushrooms, who repeatedly punch you in the stomach and blacken your eyes.
+      pl: Porwałeś się na grzyby z oczami większymi niż żołądek; w odpowiedzi walą cię w żołądek i podbijają oczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.mushcave_shroommass:line:31
+      linia: 31
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+- kolejnosc_w_danych_gry: 2567
+  skrypt: mushcave_chest
+  pomieszczenie:
+    id: mushcave_interior
+    nazwa_en: Mushroom Cave (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b1022ad3670a217f4060
+      kontekst: textscripts.mushcave_chest:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's an old rusty axe!  Hooray!
+      pl: Stara zardzewiała siekiera! Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.mushcave_chest:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz ją.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+- kolejnosc_w_danych_gry: 2574
+  skrypt: mushcave_glowy
+  pomieszczenie:
+    id: mushcave_interior
+    nazwa_en: Mushroom Cave (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_df8db6df7fa26f8bf60a
+      kontekst: textscripts.mushcave_glowy:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, these fungi are all glowy!
+      pl: Ooo, wszystkie te grzyby świecą!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1e5f14b719bcc2244bdb
+      kontekst: textscripts.mushcave_glowy:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You relieve the fungus of some of its excess glow.
+      pl: Uwalniasz grzyba od nadmiaru blasku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5265
+  skrypt: autoscript__mushcave_interior_past__leftblocker__popup
+  pomieszczenie:
+    id: mushcave_interior_past
+    nazwa_en: Mushroom Cave (Inside, In the Past)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cb153a90c020c99b3ca4
+      kontekst: textscripts.autoscript__mushcave_interior_past__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That temporal anomaly does not look inviting at all.
+      pl: Ta anomalia czasowa nie wygląda ani trochę zachęcająco.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5266
+  skrypt: autoscript__mushcave_interior_past__rightblocker__popup
+  pomieszczenie:
+    id: mushcave_interior_past
+    nazwa_en: Mushroom Cave (Inside, In the Past)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_80f894f7fba95d25e263
+      kontekst: textscripts.autoscript__mushcave_interior_past__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Best avoid the void.
+      pl: Tę pustkę lepiej opuścić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2568
+  skrypt: mushcave_chestpast
+  pomieszczenie:
+    id: mushcave_interior_past
+    nazwa_en: Mushroom Cave (Inside, In the Past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b4c8a71ec72ea57ee2dc
+      kontekst: textscripts.mushcave_chestpast:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoever misplaced this axe apparently did not know that trees do not generally grow in caves.
+      pl: Kto zgubił siekierę, najwyraźniej nie wiedział, że drzewa zwykle nie rosną w jaskiniach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.mushcave_chestpast:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz ją.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2571
+  skrypt: mushcave_fight1
+  pomieszczenie:
+    id: mushcave_interior_past
+    nazwa_en: Mushroom Cave (Inside, In the Past)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2862984bc96fd9970daf
+      kontekst: textscripts.mushcave_fight1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nonviolence appears to be a non-option here.
+      pl: Pokojowe rozwiązanie najwyraźniej nie wchodzi w grę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_d549d7f6dd594467e684
+      kontekst: textscripts.mushcave_fight1:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You taught those mushrooms a lesson you're not certain they ever actually had the capacity to remember or forget.
+      pl: Te grzyby dostają lekcję, której zapewne nigdy nie miały zdolności zapamiętać ani zapomnieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.mushcave_fight1:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: lose
+    wpisy:
+    - id: sol_fa7bea4d7238ee779d08
+      kontekst: textscripts.mushcave_fight1:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some days you eat the mushrooms, some days the mushrooms eat you.
+      pl: Czasem ty jesz grzyby, czasem grzyby jedzą ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0ffc445afba227d60f65
+      kontekst: textscripts.mushcave_fight1:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Today was the second kind
+      pl: Dziś przypadł ten drugi dzień
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2572
+  skrypt: mushcave_fight2
+  pomieszczenie:
+    id: mushcave_interior_past
+    nazwa_en: Mushroom Cave (Inside, In the Past)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d1e758ac6af0c4a341db
+      kontekst: textscripts.mushcave_fight2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: More malevolent moving mushroom men.
+      pl: Więcej groźnych, gniewnych grzyboludzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_85d4edebcd428c895c85
+      kontekst: textscripts.mushcave_fight2:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have once again asserted the superiority of mammals over mushrooms.
+      pl: Po raz kolejny dowodzisz wyższości ssaków nad grzybami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.mushcave_fight2:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: lose
+    wpisy:
+    - id: sol_3a721d7f8b7caf2afca0
+      kontekst: textscripts.mushcave_fight2:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those mushrooms hit a little harder than the first... flock?  Herd?  Casserole?
+      pl: Te grzyby biją mocniej niż pierwsze... stado? Rój? Zapiekanka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.mushcave_fight2:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 2573
+  skrypt: mushcave_fight3
+  pomieszczenie:
+    id: mushcave_interior_past
+    nazwa_en: Mushroom Cave (Inside, In the Past)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_76957b4f8cd77cda2b81
+      kontekst: textscripts.mushcave_fight3:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The third and final group of hostile fungi.
+      pl: Trzecia i ostatnia grupa wrogich grzybów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_542ae787fbb74114ed08
+      kontekst: textscripts.mushcave_fight3:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There we go.  You have reduced the number of ambulatory mushrooms in this cave to zero.
+      pl: Gotowe. Liczba chodzących grzybów w jaskini spada do zera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ba461c3253205f17c5e7
+      kontekst: textscripts.mushcave_fight3:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zero is the proper number
+      pl: Zero to właściwa liczba
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_85fb608db9ca0126e0bc
+      kontekst: textscripts.mushcave_fight3:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You got crushroomed by those mushrooms.
+      pl: Grzyby zrobiły z ciebie grzyzgę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_90c8c9970bc977ad180d
+      kontekst: textscripts.mushcave_fight3:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: No sense adding nonsense to injury
+      pl: Nie dolewaj absurdu do obrażeń
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2580
+  skrypt: mushcave_shroomprime
+  pomieszczenie:
+    id: mushcave_interior_past
+    nazwa_en: Mushroom Cave (Inside, In the Past)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9b2da1e767f82c0e7f90
+      kontekst: textscripts.mushcave_shroomprime:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Based on its unnatural appearance and aura, you'd say this is the source of the bad mushroom magic.
+      pl: Sądząc po nienaturalnym wyglądzie i aurze, to źródło złej grzybowej magii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_135f0496f4a8b7b94c87
+      kontekst: textscripts.mushcave_shroomprime:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Destroy it
+      pl: Zniszcz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_804509853da5ca91f26b
+      kontekst: textscripts.mushcave_shroomprime:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There we go.
+      pl: No, gotowe.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5267
+  skrypt: autoscript__mushcave_past__leftblocker__popup
+  pomieszczenie:
+    id: mushcave_past
+    nazwa_en: Mushroom Mountain
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fd78085f79b4cf42ba45
+      kontekst: textscripts.autoscript__mushcave_past__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wandering off into a creepy void is not on today's agenda.
+      pl: Zapuszczanie się w upiorną pustkę nie figuruje w dzisiejszym planie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2576
+  skrypt: mushcave_outhouse_past
+  pomieszczenie:
+    id: mushcave_past
+    nazwa_en: Mushroom Mountain
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ce3a10d64ee365a35453
+      kontekst: textscripts.mushcave_outhouse_past:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The toilet to the future.
+      pl: Toaleta do przyszłości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e056b0e8f7f6d85e395a
+      kontekst: textscripts.mushcave_outhouse_past:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through
+      pl: Przejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004

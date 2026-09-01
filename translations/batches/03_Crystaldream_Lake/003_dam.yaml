@@ -1,0 +1,1976 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: dam
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 30
+liczba_wpisow: 104
+sceny:
+- kolejnosc_w_danych_gry: 1099
+  skrypt: dam_exitpopup
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6a4a5bc9109231fb7113
+      kontekst: textscripts.dam_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Leave this dam thing behind?
+      pl: Zostawić tę tamę w cholerę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.dam_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1100
+  skrypt: dam_fishdrain
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5b932419f15d7bd83225
+      kontekst: textscripts.dam_fishdrain:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The watery pipe has been fished of all life.
+      pl: Wyłowiłeś już z wodnej rury wszystko, co żyło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8aceb11a9cccaa8e3fac
+      kontekst: textscripts.dam_fishdrain:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a lot of lake water in this pipe.
+      pl: W tej rurze jest mnóstwo wody z jeziora.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_074e80a06f90c16de7ef
+      kontekst: textscripts.dam_fishdrain:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go fishing [@fishingrod.name@]
+      pl: Łów ryby [@fishingrod.name@]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@fishingrod.name@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1101
+  skrypt: dam_flower
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4501465b7244701c59fc
+      kontekst: textscripts.dam_flower:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A beautiful flower stands in defiance of the reining-in of nature.
+      pl: Piękny kwiat stoi tu na przekór ujarzmianiu natury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e6094de6b25eed46ad8c
+      kontekst: textscripts.dam_flower:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smell it
+      pl: Powąchaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_77913b9d75f38b0184f1
+      kontekst: textscripts.dam_flower:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It smells as good as it looks.
+      pl: Pachnie równie dobrze, jak wygląda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1103
+  skrypt: dam_hobocode
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e6ae83947356ad749d59
+      kontekst: textscripts.dam_hobocode:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: MEAT HIDDEN IN PIPE.
+      pl: MIĘSO SCHOWANE W RURZE.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_735f995cfca78107e3ca
+      kontekst: textscripts.dam_hobocode:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already translated this code.  It says $message$
+      pl: 'Ten kod już przetłumaczyłeś. Brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 20
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6f58c816749d599c73ee
+      kontekst: textscripts.dam_hobocode:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange marks have been drawn on the dam in what looks like charcoal.
+      pl: Na tamie narysowano węglem jakieś dziwne znaki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_646f12066af99d26bcf0
+      kontekst: textscripts.dam_hobocode:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a hobo code next to this pipe...
+      pl: Obok tej rury znajduje się kod włóczęgów...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d45e16150a2c4a0da59b
+      kontekst: textscripts.dam_hobocode:line:22
+      linia: 22
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The code reads $message$  Ooh!  You reach into the pipe and snag the concealed (and congealed) wealth.
+      pl: 'Kod głosi: $message$ Uuu! Sięgasz do rury i wyciągasz ukryty (oraz skrzepnięty) majątek.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1105
+  skrypt: dam_machine1
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_de1d5c228f274c2cfaf8
+      kontekst: textscripts.dam_machine1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pump is missing its Glaxton valve.
+      pl: W tej pompie brakuje zaworu Glaxtona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d43e9fb99bccf19509d4
+      kontekst: textscripts.dam_machine1:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've gone through too much for this stupid valve to just give it to the government.
+      pl: Zbyt wiele kosztowało cię zdobycie tego głupiego zaworu, żeby tak po prostu oddać go rządowi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1106
+  skrypt: dam_machine2
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_59e37d1f9ba1ac86e727
+      kontekst: textscripts.dam_machine2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pump has a Glaxton valve on it.
+      pl: Ta pompa ma zawór Glaxtona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.dam_machine2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz go.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: e
+    wpisy:
+    - id: sol_a79d5b9a79ad2325eadf
+      kontekst: textscripts.dam_machine2:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The valve is held in place by decades of corrosion. Even if you could detach it, it'd get wrecked in the process.
+      pl: Zawór jest zapieczony przez dziesięciolecia korozji. Nawet gdybyś zdołał go odczepić, zniszczyłbyś go przy tym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1108
+  skrypt: dam_nastyhole
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3e4791e9b66360a1056b
+      kontekst: textscripts.dam_nastyhole:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've extracted all of the valuable slime the pipe had to offer.
+      pl: Wydobyłeś już z rury cały wartościowy szlam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b5c950e966f7a4038903
+      kontekst: textscripts.dam_nastyhole:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This drainpipe has some nasty goo coming out of it.
+      pl: Z tej rury odpływowej wypływa paskudna maź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_7f509f20719c0ef271df
+      kontekst: textscripts.dam_nastyhole:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Shlorp!
+      pl: Szlorp!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1109
+  skrypt: dam_noticesize
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a359852b5f7e6aa7b6a8
+      kontekst: textscripts.dam_noticesize:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This whaddyacallit is huge! Dam!
+      pl: Ten jakmutam jest ogromny! Tama mać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1114
+  skrypt: dam_timedoor
+  pomieszczenie:
+    id: dam
+    nazwa_en: Crystaldream Dam
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d8418bea61df735492ea
+      kontekst: textscripts.dam_timedoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Another one of those... time doors.
+      pl: Kolejne z tych... drzwi czasowe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5a930ce8a0520d991abd
+      kontekst: textscripts.dam_timedoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through it
+      pl: Przejdź przez nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1097
+  skrypt: dam_almanac
+  pomieszczenie:
+    id: dam_bathroom
+    nazwa_en: Construction Site Bathroom
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dc581fc055b821edfa91
+      kontekst: textscripts.dam_almanac:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a book on the floor.
+      pl: Na podłodze leży książka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.dam_almanac:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz go.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: e
+    wpisy:
+    - id: sol_6d6cf831e20f086732d7
+      kontekst: textscripts.dam_almanac:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ah.  Somebody was trying to relieve their boredom by reading lists of numbers.
+      pl: A. Ktoś próbował zabić nudę, czytając listy liczb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1113
+  skrypt: dam_sink
+  pomieszczenie:
+    id: dam_bathroom
+    nazwa_en: Construction Site Bathroom
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5e09055d60071cfded8c
+      kontekst: textscripts.dam_sink:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The taps don't work, but there's still a bunch of water pooled in the basin.
+      pl: Krany nie działają, ale w umywalce wciąż stoi mnóstwo wody.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4942
+  skrypt: autoscript__dam_past__cementtruck__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_186a655cf29acdf3a846
+      kontekst: textscripts.autoscript__dam_past__cementtruck__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I guess it stands to reason that a structure this big would need more than one truck's worth of concrete.  This one is empty.
+      pl: W sumie to logiczne, że konstrukcja tej wielkości wymaga więcej betonu, niż mieści jedna ciężarówka. Ta jest pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4943
+  skrypt: autoscript__dam_past__crate1__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_70b0a153285a619953d9
+      kontekst: textscripts.autoscript__dam_past__crate1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"KLAXMAN SCREWS\"
+      pl: \"ŚRUBY KLAXMANA\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4944
+  skrypt: autoscript__dam_past__crate2__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bf35c9ddbf15b0455b21
+      kontekst: textscripts.autoscript__dam_past__crate2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"WAXMAN DISKS\"
+      pl: \"TARCZE WAXMANA\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4945
+  skrypt: autoscript__dam_past__crate3__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_699a6db19c2e4e71c6fb
+      kontekst: textscripts.autoscript__dam_past__crate3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"GRAFTON NUTS\"
+      pl: \"NAKRĘTKI GRAFTONA\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4946
+  skrypt: autoscript__dam_past__crate4__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_daa92ef83d7a77eb9939
+      kontekst: textscripts.autoscript__dam_past__crate4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"DAXTON SHAFTS\"
+      pl: \"WAŁY DAXTONA\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4947
+  skrypt: autoscript__dam_past__crate5__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5bc9271bdf5a155a6631
+      kontekst: textscripts.autoscript__dam_past__crate5__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"BRAXTON CORDS\"
+      pl: \"PRZEWODY BRAXTONA\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4948
+  skrypt: autoscript__dam_past__crate6__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2b28e66209a3415f8724
+      kontekst: textscripts.autoscript__dam_past__crate6__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"FRAMPTON PICKS\"
+      pl: \"KILOFY FRAMPTONA\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4949
+  skrypt: autoscript__dam_past__damcollider__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c514cd45a9d2996f6800
+      kontekst: textscripts.autoscript__dam_past__damcollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The first draft of the dam was made of wood.  Neat!
+      pl: Pierwszą wersję tamy zbudowano z drewna. Fajnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4950
+  skrypt: autoscript__dam_past__leftblocker__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e985ec9141859131418e
+      kontekst: textscripts.autoscript__dam_past__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't go past the edge of this window to the past.
+      pl: Nie możesz wyjść poza krawędź tego okna na przeszłość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4951
+  skrypt: autoscript__dam_past__miniboss_sleeping__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ef202c2b4392b8b4ed4f
+      kontekst: textscripts.autoscript__dam_past__miniboss_sleeping__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy is in a well-deserved food coma.
+      pl: Ten gość zapadł w zasłużoną śpiączkę po jedzeniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4952
+  skrypt: autoscript__dam_past__rightblocker__popup
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c0850d1c40f28f89a94b
+      kontekst: textscripts.autoscript__dam_past__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's good that they're building a dam. It'd be a shame if future generations got to enjoy this beautiful forest.
+      pl: Dobrze, że budują tamę. Byłoby szkoda, gdyby przyszłe pokolenia mogły cieszyć się tym pięknym lasem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1102
+  skrypt: dam_guardblocker
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 51
+  sekcje:
+  - etykieta: begin
+    wpisy:
+    - id: sol_f4720d6389d5c6325e33
+      kontekst: textscripts.dam_guardblocker:line:10
+      linia: 10
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the guard again.
+      pl: Ponownie podchodzisz do strażnika.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convohub
+    wpisy:
+    - id: sol_d11e3c6fff38c0bddf87
+      kontekst: textscripts.dam_guardblocker:line:20
+      linia: 20
+      sekcja_skryptu: convohub
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: nothing
+      pl: nic
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4b37ef9ea0a0e37346
+      kontekst: textscripts.dam_guardblocker:line:38
+      linia: 38
+      sekcja_skryptu: convohub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: offer
+    wpisy:
+    - id: sol_777cd6815b1f42290600
+      kontekst: textscripts.dam_guardblocker:line:47
+      linia: 47
+      sekcja_skryptu: offer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You offer him the @item:$promptvalue$.name@.
+      pl: Proponujesz mu @item:$promptvalue$.name@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@item:$promptvalue$.name@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id002 []
+    - id: sol_3d82823657964f8834e0
+      kontekst: textscripts.dam_guardblocker:line:48
+      linia: 48
+      sekcja_skryptu: offer
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks, but I already had one of those. I can only eat one of a given thing each day -- doctor's orders.
+      pl: Dzięki, ale już dziś coś takiego jadłem. Każdego dnia mogę zjeść tylko jedną sztukę danej rzeczy — zalecenie lekarza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_777cd6815b1f42290600
+      kontekst: textscripts.dam_guardblocker:line:50
+      linia: 50
+      sekcja_skryptu: offer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You offer him the @item:$promptvalue$.name@.
+      pl: Proponujesz mu @item:$promptvalue$.name@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@item:$promptvalue$.name@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_d6812c722a704306f605
+      kontekst: textscripts.dam_guardblocker:line:51
+      linia: 51
+      sekcja_skryptu: offer
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No way.  Never again.
+      pl: Nie ma mowy. Nigdy więcej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_777cd6815b1f42290600
+      kontekst: textscripts.dam_guardblocker:line:56
+      linia: 56
+      sekcja_skryptu: offer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You offer him the @item:$promptvalue$.name@.
+      pl: Proponujesz mu @item:$promptvalue$.name@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@item:$promptvalue$.name@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_f5d3a2aefe4fd780de5e
+      kontekst: textscripts.dam_guardblocker:line:57
+      linia: 57
+      sekcja_skryptu: offer
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh wow, thank you!
+      pl: O rany, dziękuję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36f93f28b58c6fbe4779
+      kontekst: textscripts.dam_guardblocker:line:58
+      linia: 58
+      sekcja_skryptu: offer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He greedily devours it.
+      pl: Łapczywie wszystko pożera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sated
+    wpisy:
+    - id: sol_28a33d34daa966b353d6
+      kontekst: textscripts.dam_guardblocker:line:67
+      linia: 67
+      sekcja_skryptu: sated
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Finally satiated, he slumps to the ground and falls fast asleep.
+      pl: Wreszcie najedzony osuwa się na ziemię i natychmiast zasypia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bb1cf1713080477e1055
+      kontekst: textscripts.dam_guardblocker:line:69
+      linia: 69
+      sekcja_skryptu: sated
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Aww
+      pl: Ooo
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fight
+    wpisy:
+    - id: sol_10862f41d45a931e24f3
+      kontekst: textscripts.dam_guardblocker:line:74
+      linia: 74
+      sekcja_skryptu: fight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. Are you sure? I can think of two reasons not to fight this guy.
+      pl: Hm. Na pewno? Przychodzą mi do głowy dwa powody, żeby nie walczyć z tym facetem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea6a9dd764639ad70121
+      kontekst: textscripts.dam_guardblocker:line:75
+      linia: 75
+      sekcja_skryptu: fight
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What are the reasons?
+      pl: Jakie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_038514ac46a22e1ed771
+      kontekst: textscripts.dam_guardblocker:line:76
+      linia: 76
+      sekcja_skryptu: fight
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, I'm sure [fight]
+      pl: Tak, na pewno [walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fight2
+    wpisy:
+    - id: sol_e6b74146fdd6d095e626
+      kontekst: textscripts.dam_guardblocker:line:79
+      linia: 79
+      sekcja_skryptu: fight2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, the first reason is that he seems like a pretty decent guy.
+      pl: 'Pierwszy powód: wydaje się całkiem porządnym facetem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_95565a9a2a145ae93109
+      kontekst: textscripts.dam_guardblocker:line:80
+      linia: 80
+      sekcja_skryptu: fight2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And the second reason is that while you've been doing whatever it is you've been doing with your life, he's been swinging iron beams
+        around, driving posts into the ground with sledgehammers, lugging sacks of concrete, and stuff like that.
+      pl: 'A drugi: kiedy ty zajmujesz się tym, czym zajmujesz się w życiu, on wymachuje żelaznymi belkami, wbija młotami słupy w ziemię, nosi
+        worki cementu i robi inne takie rzeczy.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c6e75b425368842f60db
+      kontekst: textscripts.dam_guardblocker:line:81
+      linia: 81
+      sekcja_skryptu: fight2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: So?
+      pl: No i?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fight3
+    wpisy:
+    - id: sol_e984991b3572c5547d14
+      kontekst: textscripts.dam_guardblocker:line:84
+      linia: 84
+      sekcja_skryptu: fight3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: So he could probably crush you into a paste with a single finger.
+      pl: Mógłby cię pewnie jednym palcem rozgnieść na miazgę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e0746e7d13876082c5c9
+      kontekst: textscripts.dam_guardblocker:line:85
+      linia: 85
+      sekcja_skryptu: fight3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Probably not even a whole finger. Just one of the knuckles.
+      pl: Nawet nie całym palcem. Wystarczyłby jeden knykieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d49b6ea900d7d5f786c7
+      kontekst: textscripts.dam_guardblocker:line:86
+      linia: 86
+      sekcja_skryptu: fight3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, fine, you talked me out of it
+      pl: Dobrze, udało ci się mnie odwieść
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7c9051cd6112424add5f
+      kontekst: textscripts.dam_guardblocker:line:87
+      linia: 87
+      sekcja_skryptu: fight3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm not scared. Bring it on! [fight]
+      pl: Nie boję się. Dawaj! [walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_cc98feb178c4353bbae7
+      kontekst: textscripts.dam_guardblocker:line:96
+      linia: 96
+      sekcja_skryptu: win
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Alright, fine, ya nogoodnik. If you wanna look at the absence of a dam that bad, go ahead. $boss$ isn't paying me enough to deal with
+        this kinda malarkey.
+      pl: No dobra, ty nicponiu. Jeśli tak bardzo chcesz oglądać nieobecność tamy, proszę bardzo. $boss$ nie płaci mi dość, żebym użerał się z
+        takimi bzdurami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $boss$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab2cddb41dcd8c8c6806
+      kontekst: textscripts.dam_guardblocker:line:97
+      linia: 97
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He hops into one of the cement trucks and drives off.
+      pl: Wskakuje do jednej z betoniarek i odjeżdża.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_82067347ef46a69b1bb3
+      kontekst: textscripts.dam_guardblocker:line:102
+      linia: 102
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should feel bad for beating that guy up.
+      pl: Powinno ci być wstyd, że pobiłeś tego faceta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6d2a8e4c30fc23167d0b
+      kontekst: textscripts.dam_guardblocker:line:103
+      linia: 103
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I do feel bad
+      pl: Jest mi wstyd
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c44437f9764efa5d2db
+      kontekst: textscripts.dam_guardblocker:line:104
+      linia: 104
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I do not feel bad
+      pl: Nie jest mi wstyd
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_bd966248bbdea3df4553
+      kontekst: textscripts.dam_guardblocker:line:109
+      linia: 109
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Guard? More like huard, because of how huard he punched you.
+      pl: Strażnik? Raczej prażnik, bo nieźle cię sprał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.dam_guardblocker:line:111
+      linia: 111
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_d79b9249bfd8e2b25a42
+      kontekst: textscripts.dam_guardblocker:line:128
+      linia: 128
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey! $boss$ says nobody who ain't on the crew is allowed on the site.
+      pl: Hej! $boss$ mówi, że nikomu spoza ekipy nie wolno wchodzić na plac budowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $boss$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fa1ae37c8cae124b238d
+      kontekst: textscripts.dam_guardblocker:line:130
+      linia: 130
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: $boss$?
+      pl: $boss$?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $boss$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a2cca05f648a8f81fa50
+      kontekst: textscripts.dam_guardblocker:line:131
+      linia: 131
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, $boss$. The foreman. $longboss$. Aw, jeez.
+      pl: Tak, $boss$. Brygadzista. $longboss$. O rany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $boss$
+      - $longboss$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4e72e1275950b290d36e
+      kontekst: textscripts.dam_guardblocker:line:132
+      linia: 132
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man clutches his stomach.
+      pl: Mężczyzna łapie się za brzuch.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_58a46c23734133a550ae
+      kontekst: textscripts.dam_guardblocker:line:133
+      linia: 133
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are you all right?
+      pl: Wszystko w porządku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: sol_55188eb92025cb295218
+      kontekst: textscripts.dam_guardblocker:line:137
+      linia: 137
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Just starvin', is all. Rest of the crew went to lunch but somebody had to stay here and keep all the rubberneckers and looky-loos off
+        the site. I drew the short pants.
+      pl: Po prostu umieram z głodu. Reszta ekipy poszła na obiad, ale ktoś musiał zostać i trzymać z dala wszystkich gapiów i ciekawskich. Wyciągnąłem krótkie portki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a6df9a26f53d8bc73335
+      kontekst: textscripts.dam_guardblocker:line:138
+      linia: 138
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Short... pants? Do you mean 'straw'?
+      pl: Krótkie... portki? Masz na myśli „słomkę”?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_97a7138a20fc44ba625d
+      kontekst: textscripts.dam_guardblocker:line:139
+      linia: 139
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah, we've got these six little pairs of pants we found when we cleared out a nest of faeries.
+      pl: Nie, mamy sześć par małych portek, które znaleźliśmy przy usuwaniu gniazda wróżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5d99df68d7aabf535623
+      kontekst: textscripts.dam_guardblocker:line:140
+      linia: 140
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5809593b87f53aead859
+      kontekst: textscripts.dam_guardblocker:line:141
+      linia: 141
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see. Can I have them?
+      pl: Rozumiem. Mogę je dostać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro3b
+    wpisy:
+    - id: sol_7019259d658f86596b7f
+      kontekst: textscripts.dam_guardblocker:line:149
+      linia: 149
+      sekcja_skryptu: intro3b
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No, because then we'd have no way of picking who stands guard.  Oh man, I can't believe how hungry I am! Feels like I'm gonna turn inside-out!
+      pl: Nie, bo nie mielibyśmy jak wybierać, kto stoi na warcie. O rany, nie wierzę, jak bardzo chce mi się jeść! Czuję się, jakbym miał wywrócić się na lewą stronę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro3
+    wpisy:
+    - id: sol_1329a9ee9b169133a33a
+      kontekst: textscripts.dam_guardblocker:line:153
+      linia: 153
+      sekcja_skryptu: intro3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What about that table over there that says LUNCH?
+      pl: A tamten stół z napisem OBIAD?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bd574d1cd3ca1171b1d8
+      kontekst: textscripts.dam_guardblocker:line:154
+      linia: 154
+      sekcja_skryptu: intro3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: There's a reason everybody else left the site to eat, pal. You don't wanna eat what $boss$ considers lunch.
+      pl: Jest powód, dla którego wszyscy wyszli coś zjeść. Nie chcesz jeść tego, co $boss$ uważa za obiad.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $boss$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_14097dc9134d5752bc83
+      kontekst: textscripts.dam_guardblocker:line:155
+      linia: 155
+      sekcja_skryptu: intro3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How bad could it be?
+      pl: Jak złe może być?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro4
+    wpisy:
+    - id: sol_d18a530234d96266cbe3
+      kontekst: textscripts.dam_guardblocker:line:159
+      linia: 159
+      sekcja_skryptu: intro4
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: How bad could it be?  Is it jellied eels or something?
+      pl: Jak złe może być? Galaretowate węgorze czy coś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_12f8273bfafc849b4b64
+      kontekst: textscripts.dam_guardblocker:line:161
+      linia: 161
+      sekcja_skryptu: intro4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Man, I'd kill for a jellied eel. Nah, it's old Cola War MREs. More like MCWDWEs, if you ask me.
+      pl: Za galaretowatego węgorza dałbym się zabić. Nie, to stare racje polowe z Wojen Coli. Raczej BRTN-y, jeśli mam być szczery.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9efe281be5a9ce9f838e
+      kontekst: textscripts.dam_guardblocker:line:162
+      linia: 162
+      sekcja_skryptu: intro4
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: More like... what?
+      pl: Raczej... co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f866f5992c118294c33d
+      kontekst: textscripts.dam_guardblocker:line:163
+      linia: 163
+      sekcja_skryptu: intro4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Meals Construction Workers Don't Wanna Eat. Listen, these hunger pangs are making it hard to concentrate on my jokes, here.  Cut me
+        some slack, pal.
+      pl: Budowlane Racje, Tego Nie ruszę. Słuchaj, z głodu trudno mi się skupić na żartach. Odpuść mi trochę, kolego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e59a6f8c24dc2399a02d
+      kontekst: textscripts.dam_guardblocker:line:166
+      linia: 166
+      sekcja_skryptu: intro4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Man, I'd kill for a jellied eel. Noël brings these sandwiches that are just a bunch of peppermint sticks between two big bland sugar
+        cookies. You can get a stomachache just watching someone <i>else</i> eat one. Blech.
+      pl: Za galaretowatego węgorza dałbym się zabić. Noël przynosi kanapki złożone z garści lasek miętowych wsadzonych między dwa wielkie, mdłe
+        ciastka cukrowe. Można dostać bólu brzucha od samego patrzenia, jak ktoś <i>inny</i> je taką kanapkę. Ble.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9ff18a1fcbc85af155f1
+      kontekst: textscripts.dam_guardblocker:line:169
+      linia: 169
+      sekcja_skryptu: intro4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Man, I'd kill for a jellied eel. Poindexter brings these little bottles of sludge. He says -- how does it go? He says, "The point of
+        eating is nutrition. Making sustenance pleasurable is a pointless waste of time and resources." Sheesh. He's a real riot at parties, that
+        guy.
+      pl: Za galaretowatego węgorza dałbym się zabić. Poindexter przynosi małe buteleczki szlamu. Jak on to mówi? „Celem jedzenia jest odżywianie.
+        Czerpanie przyjemności z przyjmowania pokarmu stanowi bezcelowe marnotrawstwo czasu i zasobów”. Rany. Prawdziwa dusza towarzystwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7cd65b3645a163197396
+      kontekst: textscripts.dam_guardblocker:line:171
+      linia: 171
+      sekcja_skryptu: intro4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That sounds awful.
+      pl: Brzmi okropnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro5
+    wpisy:
+    - id: sol_5fcf59b02f5a8dd348e1
+      kontekst: textscripts.dam_guardblocker:line:176
+      linia: 176
+      sekcja_skryptu: intro5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's because it <i>is</i> awful.
+      pl: Bo <i>jest</i> okropne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1104
+  skrypt: dam_lunchtable
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6081090f042b601eff48
+      kontekst: textscripts.dam_lunchtable:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "LUNCH", but what's on the table isn't identifiable as anything you'd want to eat.
+      pl: Tabliczka głosi „OBIAD”, ale niczego na stole nie da się rozpoznać jako coś, co warto zjeść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1110
+  skrypt: dam_past_cementtruck
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9e509b1b7adeba5643e2
+      kontekst: textscripts.dam_past_cementtruck:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This truck is even heavier than a regular truck.
+      pl: Ta ciężarówka jest jeszcze cięższa od zwykłej ciężarówki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1111
+  skrypt: dam_restroom
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b035707ab4f7f2e2450a
+      kontekst: textscripts.dam_restroom:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This brick outhouse is extremely well-constructed.
+      pl: Ten ceglany wychodek został wyjątkowo solidnie zbudowany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_143ac3f1ed3756420feb
+      kontekst: textscripts.dam_restroom:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Step inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1112
+  skrypt: dam_shoecrate
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.dam_shoecrate:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_bf4a50837149851d99b5
+      kontekst: textscripts.dam_shoecrate:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  This is probably not what they meant to order.
+      pl: Hm. Pewnie nie to zamierzali zamówić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: desc
+    wpisy:
+    - id: sol_6f22893c880e9c31c23c
+      kontekst: textscripts.dam_shoecrate:line:15
+      linia: 15
+      sekcja_skryptu: desc
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A crate labeled "PIPE SHOES."
+      pl: Skrzynia z napisem „BUTY DO RUR”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1115
+  skrypt: dam_timedoorback
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9aa777d2ecbf9fdab9e3
+      kontekst: textscripts.dam_timedoorback:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A door is being delivered.
+      pl: Trwa dostawa drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_859795c4cd580c6e0d53
+      kontekst: textscripts.dam_timedoorback:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb up and go through
+      pl: Wespnij się i przejdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1116
+  skrypt: dam_toolbox
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5af0225290df7c968e55
+      kontekst: textscripts.dam_toolbox:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some careless dam worker has abandoned a toolbox here.
+      pl: Jakiś nieuważny pracownik tamy zostawił tu skrzynkę narzędziową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d4b85c5cd9a3e2621649
+      kontekst: textscripts.dam_toolbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Their loss is my gain
+      pl: Ich strata, mój zysk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_6dff48bdaea16b6bc65f
+      kontekst: textscripts.dam_toolbox:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You gain some tools.
+      pl: Zdobywasz trochę narzędzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1117
+  skrypt: dam_valvecrate
+  pomieszczenie:
+    id: dam_past
+    nazwa_en: Crystaldream Dam Construction Site
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f155ec011d91c7f71ab1
+      kontekst: textscripts.dam_valvecrate:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"GLAXTON VALVES\"
+      pl: „ZAWORY GLAXTONA”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_18dcd83be73d9f5b5547
+      kontekst: textscripts.dam_valvecrate:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's only one left. Good thing you got here when you did!
+      pl: Został tylko jeden. Dobrze, że udaje ci się tu dotrzeć na czas!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

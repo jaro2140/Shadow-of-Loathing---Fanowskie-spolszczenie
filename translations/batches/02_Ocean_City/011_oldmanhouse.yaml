@@ -1,0 +1,5457 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: oldmanhouse
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 23
+liczba_wpisow: 332
+sceny:
+- kolejnosc_w_danych_gry: 2739
+  skrypt: oldmanhouse_exitpopup
+  pomieszczenie:
+    id: oldmanhouse
+    nazwa_en: Captain Durch's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_17751f463ac1d6412109
+      kontekst: textscripts.oldmanhouse_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Amble away?
+      pl: Odejść?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.oldmanhouse_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2740
+  skrypt: oldmanhouse_fence
+  pomieszczenie:
+    id: oldmanhouse
+    nazwa_en: Captain Durch's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: used
+    wpisy:
+    - id: sol_c187abc973bb760f62a7
+      kontekst: textscripts.oldmanhouse_fence:line:7
+      linia: 7
+      sekcja_skryptu: used
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fence clean enough to eat off.
+      pl: Ogrodzenie dość czyste, by z niego jeść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2742
+  skrypt: oldmanhouse_frontdoor
+  pomieszczenie:
+    id: oldmanhouse
+    nazwa_en: Captain Durch's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a89faabd1f7908feb470
+      kontekst: textscripts.oldmanhouse_frontdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Probably shouldn't just barge in.
+      pl: Lepiej nie wpadać bez zaproszenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36045465155f685bb84a
+      kontekst: textscripts.oldmanhouse_frontdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock
+      pl: Zapukaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: known
+    wpisy:
+    - id: sol_5b464699b1e99e036743
+      kontekst: textscripts.oldmanhouse_frontdoor:line:14
+      linia: 14
+      sekcja_skryptu: known
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear the old man grumble "You again? Ain'tcha got nothin' better to <i>~snore~</i>"
+      pl: 'Słyszysz mamrotanie starca: „Znowu ty? Nie masz nic lepszego do <i>~chrrr~</i>”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_43f8b8516dfb7801f06b
+      kontekst: textscripts.oldmanhouse_frontdoor:line:15
+      linia: 15
+      sekcja_skryptu: known
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 11
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convostart
+    wpisy:
+    - id: sol_2af5e4dec1f5ec2e05f4
+      kontekst: textscripts.oldmanhouse_frontdoor:line:21
+      linia: 21
+      sekcja_skryptu: convostart
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>~snore~</i>... Hmm, wha? Whuzzit?
+      pl: <i>~chrrr~</i>... Hm, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a3b113ea2be20606b4ad
+      kontekst: textscripts.oldmanhouse_frontdoor:line:23
+      linia: 23
+      sekcja_skryptu: convostart
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convocontinue
+    wpisy:
+    - id: sol_dccf5f6f5f215c1f0237
+      kontekst: textscripts.oldmanhouse_frontdoor:line:27
+      linia: 27
+      sekcja_skryptu: convocontinue
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: I'm selling these fine leather jackets.
+      pl: Sprzedaję świetne skórzane kurtki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b24af544c5122132d37b
+      kontekst: textscripts.oldmanhouse_frontdoor:line:28
+      linia: 28
+      sekcja_skryptu: convocontinue
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: I'm from the municipal census bureau.
+      pl: Jestem z miejskiego biura spisowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6261c03db7038f6fe225
+      kontekst: textscripts.oldmanhouse_frontdoor:line:30
+      linia: 30
+      sekcja_skryptu: convocontinue
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: I'm the milk@p|man,"man-- er, milkwoman", delivery person@. Got your milk.
+      pl: Roznoszę mleko. Mam tu pańskie mleko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|man,"man-- er, milkwoman", delivery person@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d13ad6a326fa0aae054
+      kontekst: textscripts.oldmanhouse_frontdoor:line:31
+      linia: 31
+      sekcja_skryptu: convocontinue
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: Congratulations, you've won a sweepstakes!
+      pl: Gratulacje, wygrałeś w loterii!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_76e55b5efe892c12e5c7
+      kontekst: textscripts.oldmanhouse_frontdoor:line:32
+      linia: 32
+      sekcja_skryptu: convocontinue
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll come back later.
+      pl: Wrócę później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fail1
+    wpisy:
+    - id: sol_2c926654e4672ad98639
+      kontekst: textscripts.oldmanhouse_frontdoor:line:36
+      linia: 36
+      sekcja_skryptu: fail1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't wannany. Buzzoff!
+      pl: Nie chcę. Spadaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbb51ed8465b78f687d8
+      kontekst: textscripts.oldmanhouse_frontdoor:line:37
+      linia: 37
+      sekcja_skryptu: fail1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>~snore~</i>
+      pl: <i>~chrrr~</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: fail2
+    wpisy:
+    - id: sol_3875bf15fa1f03ad5a46
+      kontekst: textscripts.oldmanhouse_frontdoor:line:42
+      linia: 42
+      sekcja_skryptu: fail2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '''Znobody here but me and these four urns.'
+      pl: Nikogo tu nie ma oprócz mnie i tych czterech urn.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbb51ed8465b78f687d8
+      kontekst: textscripts.oldmanhouse_frontdoor:line:43
+      linia: 43
+      sekcja_skryptu: fail2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>~snore~</i>
+      pl: <i>~chrrr~</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_c022ed817b225ccfbf49
+      kontekst: textscripts.oldmanhouse_frontdoor:line:44
+      linia: 44
+      sekcja_skryptu: fail2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Urns?
+      pl: Urn?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60ea24f6848deb55e5b6
+      kontekst: textscripts.oldmanhouse_frontdoor:line:45
+      linia: 45
+      sekcja_skryptu: fail2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>snrk</i> Five. Five urns. Go 'way!
+      pl: <i>chrr</i> Pięć. Pięć urn. Odejdź!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fail3
+    wpisy:
+    - id: sol_36aa56919ad1513a15ee
+      kontekst: textscripts.oldmanhouse_frontdoor:line:50
+      linia: 50
+      sekcja_skryptu: fail3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I ain't drink that fatwater! Get lost!
+      pl: Nie piję tej tłustej wody! Wynocha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbb51ed8465b78f687d8
+      kontekst: textscripts.oldmanhouse_frontdoor:line:51
+      linia: 51
+      sekcja_skryptu: fail3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>~snore~</i>
+      pl: <i>~chrrr~</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: fail4
+    wpisy:
+    - id: sol_045188fff60e99d4eaa3
+      kontekst: textscripts.oldmanhouse_frontdoor:line:56
+      linia: 56
+      sekcja_skryptu: fail4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Fat chance. Never won nothin'. Didn't
+      pl: Nie ma szans. Nigdy nic nie wygrałem. Nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbb51ed8465b78f687d8
+      kontekst: textscripts.oldmanhouse_frontdoor:line:57
+      linia: 57
+      sekcja_skryptu: fail4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>~snore~</i>
+      pl: <i>~chrrr~</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_4c75e11b0cecbc35a4e4
+      kontekst: textscripts.oldmanhouse_frontdoor:line:58
+      linia: 58
+      sekcja_skryptu: fail4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hello?
+      pl: Halo?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c66fdc5decdea7967a11
+      kontekst: textscripts.oldmanhouse_frontdoor:line:59
+      linia: 59
+      sekcja_skryptu: fail4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hrmph. Didn't enter no sweepstakes nohow. Scram!
+      pl: Hmf. Nie biorę udziału w żadnej loterii. Zmykaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: sol_8f007542149e0c9a573c
+      kontekst: textscripts.oldmanhouse_frontdoor:line:64
+      linia: 64
+      sekcja_skryptu: goin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I...
+      pl: Ja...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2485e696e34e04000c00
+      kontekst: textscripts.oldmanhouse_frontdoor:line:65
+      linia: 65
+      sekcja_skryptu: goin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Alright. You''d better come in.'
+      pl: '...Dobrze. Wejdź.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46901d2361e1b5921898
+      kontekst: textscripts.oldmanhouse_frontdoor:line:67
+      linia: 67
+      sekcja_skryptu: goin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2747
+  skrypt: oldmanhouse_rock
+  pomieszczenie:
+    id: oldmanhouse
+    nazwa_en: Captain Durch's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: e
+    wpisy:
+    - id: sol_2a35b2f43583948f7341
+      kontekst: textscripts.oldmanhouse_rock:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You reassure the rock that everything is going to be okay, and it sloughs off some of its rage.
+      pl: Zapewniasz skałę, że wszystko będzie dobrze, a ona zrzuca trochę gniewu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2748
+  skrypt: oldmanhouse_rock1
+  pomieszczenie:
+    id: oldmanhouse
+    nazwa_en: Captain Durch's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dac8ca219069f66305bb
+      kontekst: textscripts.oldmanhouse_rock1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This rock has a date painted on it: 11/10/82.'
+      pl: 'Na skale widnieje data: 10.11.1882.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: jot
+    wpisy:
+    - id: sol_33f3b708e0fe85dd1d6b
+      kontekst: textscripts.oldmanhouse_rock1:line:9
+      linia: 9
+      sekcja_skryptu: jot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, got it.
+      pl: Dobrze, rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2749
+  skrypt: oldmanhouse_rockpopup
+  pomieszczenie:
+    id: oldmanhouse
+    nazwa_en: Captain Durch's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_94515335c6978e5680b4
+      kontekst: textscripts.oldmanhouse_rockpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Why do all the rocks in his yard have creepy glyphs painted on them? Weird.
+      pl: Czemu wszystkie skały w jego ogrodzie mają namalowane upiorne glify? Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5321
+  skrypt: autoscript__oldmanhouse_inside__commode__popup
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e848dd2e4e53d478d1aa
+      kontekst: textscripts.autoscript__oldmanhouse_inside__commode__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If Durch's career had been more successful, this would be a commodore's commode.
+      pl: Gdyby Durch odniósł większy sukces zawodowy, byłaby to komoda komandora.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2735
+  skrypt: oldmanhouse_basin
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5c94a9e16c094a77794b
+      kontekst: textscripts.oldmanhouse_basin:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The washbasin is full of salt water.  This guy is really committed to his whole deal.
+      pl: Miednica jest pełna słonej wody. Ten facet naprawdę mocno wchodzi w swoją rolę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2736
+  skrypt: oldmanhouse_bed
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8589b42a7a4ba81967db
+      kontekst: textscripts.oldmanhouse_bed:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cot smells like fitful old-man sleep.
+      pl: Łóżko pachnie niespokojnym snem starca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2737
+  skrypt: oldmanhouse_cat
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ec37484a02fb5f820673
+      kontekst: textscripts.oldmanhouse_cat:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's old %cat_names/2%.
+      pl: To stary %cat_names/2%.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_27d94f8850408d5f5c1d
+      kontekst: textscripts.oldmanhouse_cat:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet %cat_accusative/2%
+      pl: Pogłaszcz %cat_accusative/2%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a28d46292d6c4b10a16
+      kontekst: textscripts.oldmanhouse_cat:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try to pet it
+      pl: Spróbuj pogłaskać
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6ce92b646b5f77b3f557
+      kontekst: textscripts.oldmanhouse_cat:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try to pet %cat_accusative/2%
+      pl: Spróbuj pogłaskać %cat_accusative/2%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e_pre
+    wpisy:
+    - id: sol_71a33e6bb459029ff96a
+      kontekst: textscripts.oldmanhouse_cat:line:18
+      linia: 18
+      sekcja_skryptu: e_pre
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cat shies away from your touch.  You notice that %cat_nominative/2%'s wearing a collar that says "%cat_names/2%."
+      pl: Kot umyka przed twoim dotykiem. Zauważasz, że %cat_nominative/2% ma obrożę z napisem „%cat_names/2%”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_nominative/2%'
+      - '%cat_names/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e_post
+    wpisy:
+    - id: sol_ba1cea0b518343c0f9e3
+      kontekst: textscripts.oldmanhouse_cat:line:24
+      linia: 24
+      sekcja_skryptu: e_post
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%cat_names/2% shies away from your touch.  %cat_nominative/2,capitalize% must be nervous about the overall state of affairs in the
+        house.'
+      pl: '%cat_names/2% umyka przed twoim dotykiem. %cat_nominative/2,capitalize% musi się denerwować ogólnym stanem spraw w tym domu.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/2%'
+      - '%cat_nominative/2,capitalize%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: sol_7b84369e17c6dc742fe2
+      kontekst: textscripts.oldmanhouse_cat:line:27
+      linia: 27
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%cat_names/2% seems a lot calmer than %cat_nominative/2% did before.'
+      pl: '%cat_names/2% wygląda znacznie spokojniej niż wcześniej wyglądał %cat_nominative/2%.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/2%'
+      - '%cat_nominative/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f15ae6c710c0292c942a
+      kontekst: textscripts.oldmanhouse_cat:line:29
+      linia: 29
+      sekcja_skryptu: unlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet %cat_accusative/2% now
+      pl: Teraz pogłaszcz %cat_accusative/2%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_cat:line:30
+      linia: 30
+      sekcja_skryptu: unlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+  - etykieta: petmodal
+    wpisy:
+    - id: sol_9e8508aa512eb88c68b7
+      kontekst: textscripts.oldmanhouse_cat:line:36
+      linia: 36
+      sekcja_skryptu: petmodal
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: You give %cat_names/2% a good petting.
+      pl: Porządnie głaszczesz kota o imieniu %cat_names/2%.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_names/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+    - id: sol_0eb97b9dfd9ae7b5930f
+      kontekst: textscripts.oldmanhouse_cat:line:36
+      linia: 36
+      sekcja_skryptu: petmodal
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e_pet
+    wpisy:
+    - id: sol_9e8508aa512eb88c68b7
+      kontekst: textscripts.oldmanhouse_cat:line:42
+      linia: 42
+      sekcja_skryptu: e_pet
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: You give %cat_names/2% a good petting.
+      pl: Porządnie głaszczesz kota o imieniu %cat_names/2%.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_names/2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 2741
+  skrypt: oldmanhouse_fishingrod
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_eba3469103a7ff43e248
+      kontekst: textscripts.oldmanhouse_fishingrod:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The fishing rod is caked in salt. Either it hasn't been cleaned in a long time, or the captain uses it to catch horses.
+      pl: Wędka jest pokryta solą. Albo dawno jej nie czyszczono, albo kapitan łowi nią konie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_229bf9dd501439e0708b
+      kontekst: textscripts.oldmanhouse_fishingrod:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: sol_81451a50b854e81abad5
+      kontekst: textscripts.oldmanhouse_fishingrod:line:10
+      linia: 10
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The captain shrieks "HORSE" in his sleep.
+      pl: Kapitan krzyczy przez sen „KOŃ”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_a095d5379bfb1d36c36d
+      kontekst: textscripts.oldmanhouse_fishingrod:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Any chance I can just take this?
+      pl: Mogę to po prostu zabrać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0689a2e48135c7f6e8c1
+      kontekst: textscripts.oldmanhouse_fishingrod:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That ain't mine. Think th' cat dragged it in.
+      pl: To nie moje. Chyba kot to przywlókł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_54ad26ea3b1db4c2cb9e
+      kontekst: textscripts.oldmanhouse_fishingrod:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So is that a yes?
+      pl: Czyli mogę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_607e2f45ad137287b853
+      kontekst: textscripts.oldmanhouse_fishingrod:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't remember th' question.
+      pl: Nie pamiętam pytania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_bc3adae0741eecb6012f
+      kontekst: textscripts.oldmanhouse_fishingrod:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's a yes
+      pl: To znaczy tak
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2744
+  skrypt: oldmanhouse_nightstand
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f6998c7df82309f48d82
+      kontekst: textscripts.oldmanhouse_nightstand:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This nightstand looks like it was dredged up from an old shipwreck.  There's a blubber lamp on top.
+      pl: Ta nocna szafka wygląda, jakby wydobyto ją z jakiegoś starego wraku. Na wierzchu stoi lampa tranowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_63603386625d5c40298e
+      kontekst: textscripts.oldmanhouse_nightstand:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Examine the lamp
+      pl: Zbadaj lampę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lampoon
+    wpisy:
+    - id: sol_b6209bbe90ee4def8bd6
+      kontekst: textscripts.oldmanhouse_nightstand:line:9
+      linia: 9
+      sekcja_skryptu: lampoon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'It''s a simple device: a glass vessel filled with whale blubber with a wick stuck in it.'
+      pl: 'To proste urządzenie: szklane naczynie wypełnione wielorybim tranem z wetkniętym w środek knotem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4319503f60d6589a2b42
+      kontekst: textscripts.oldmanhouse_nightstand:line:10
+      linia: 10
+      sekcja_skryptu: lampoon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"Blubber lamp" really rolls off the tongue, though.'
+      pl: Za to „lampa tranowa” naprawdę pięknie spływa z języka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e1a82295e0b1ea0ed24a
+      kontekst: textscripts.oldmanhouse_nightstand:line:11
+      linia: 11
+      sekcja_skryptu: lampoon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just a really delightful phrase.
+      pl: Naprawdę cudowne wyrażenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_069dc501283a6fbf6d2d
+      kontekst: textscripts.oldmanhouse_nightstand:line:12
+      linia: 12
+      sekcja_skryptu: lampoon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Say it.
+      pl: Powiedz je.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_179e35cf7b18363c7195
+      kontekst: textscripts.oldmanhouse_nightstand:line:13
+      linia: 13
+      sekcja_skryptu: lampoon
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Blubber lamp.
+      pl: Lampa tranowa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+    - id: sol_7109226fd311ec24695b
+      kontekst: textscripts.oldmanhouse_nightstand:line:14
+      linia: 14
+      sekcja_skryptu: lampoon
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+  - etykieta: said
+    wpisy:
+    - id: sol_96442bf7311f1b821656
+      kontekst: textscripts.oldmanhouse_nightstand:line:20
+      linia: 20
+      sekcja_skryptu: said
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Say it again.
+      pl: Powiedz ponownie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_179e35cf7b18363c7195
+      kontekst: textscripts.oldmanhouse_nightstand:line:21
+      linia: 21
+      sekcja_skryptu: said
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Blubber lamp.
+      pl: Lampa tranowa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_7109226fd311ec24695b
+      kontekst: textscripts.oldmanhouse_nightstand:line:22
+      linia: 22
+      sekcja_skryptu: said
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: unsaid
+    wpisy:
+    - id: sol_59def1fdad8dd9c871d9
+      kontekst: textscripts.oldmanhouse_nightstand:line:26
+      linia: 26
+      sekcja_skryptu: unsaid
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Aww, you're no fun.
+      pl: Oj, zero zabawy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_34770f2669ee56a55d5c
+      kontekst: textscripts.oldmanhouse_nightstand:line:27
+      linia: 27
+      sekcja_skryptu: unsaid
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: We've got work to do
+      pl: Mamy pracę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2745
+  skrypt: oldmanhouse_offeringtable
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0f7be831705e692fc375
+      kontekst: textscripts.oldmanhouse_offeringtable:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A short wooden table. There's an old tarnished silver tray on top, but it's empty.
+      pl: Niski drewniany stolik. Na wierzchu stoi stara, zaśniedziała srebrna taca, ale jest pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leavecigs
+    wpisy:
+    - id: sol_15fce3df8d60f0592b34
+      kontekst: textscripts.oldmanhouse_offeringtable:line:13
+      linia: 13
+      sekcja_skryptu: leavecigs
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the cigarettes on the tray, and quickly hatch a plan.
+      pl: Kładziesz papierosy na tacy i błyskawicznie obmyślasz plan.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fe879535e90bd909dda4
+      kontekst: textscripts.oldmanhouse_offeringtable:line:14
+      linia: 14
+      sekcja_skryptu: leavecigs
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Approaching the fifth urn, you put on Captain Durch''s voice again:'
+      pl: 'Podchodząc do piątej urny, znów przybierasz głos kapitana Durcha:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_95b5c28374aecb2be058
+      kontekst: textscripts.oldmanhouse_offeringtable:line:16
+      linia: 16
+      sekcja_skryptu: leavecigs
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Arr matey, yer smokes be upon th' table as ya wanted.
+      pl: Arr, kamracie, fajki leżą na stole, jak chciałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f876465520c75984c883
+      kontekst: textscripts.oldmanhouse_offeringtable:line:18
+      linia: 18
+      sekcja_skryptu: leavecigs
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '''Preciate it, Cap''m.'
+      pl: Dzięki, kap'tanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7e33a99d8e75987e59ff
+      kontekst: textscripts.oldmanhouse_offeringtable:line:19
+      linia: 19
+      sekcja_skryptu: leavecigs
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Then you hide behind the Captain, who is snoring in his chair.
+      pl: Potem chowasz się za kapitanem, który chrapie w swoim fotelu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f5b3f3692bebdac82a6b
+      kontekst: textscripts.oldmanhouse_offeringtable:line:20
+      linia: 20
+      sekcja_skryptu: leavecigs
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After a time, the bookcase slides aside, and an unshaven, shifty-looking guy pokes his head out and glances around surreptitiously.
+        Then he tiptoes over to the table, picks up the pack of cigarettes, and returns to the secret door. The bookcase slides shut behind him.
+      pl: Po pewnym czasie regał odsuwa się na bok, a nieogolony, podejrzanie wyglądający facet wystawia głowę i ukradkiem się rozgląda. Potem na palcach podchodzi do stołu, zabiera paczkę papierosów i wraca do tajnych drzwi. Regał zasuwa się za nim.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5d9e4c96e9ffe469b79b
+      kontekst: textscripts.oldmanhouse_offeringtable:line:23
+      linia: 23
+      sekcja_skryptu: leavecigs
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well, whaddya know
+      pl: No proszę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2746
+  skrypt: oldmanhouse_oldman
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 40
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.oldmanhouse_oldman:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dozing
+    wpisy:
+    - id: sol_620eb60a9ba2884fcb60
+      kontekst: textscripts.oldmanhouse_oldman:line:14
+      linia: 14
+      sekcja_skryptu: dozing
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%oldman_mutter% <i>~snore~</i>" he mutters.'
+      pl: „%oldman_mutter% <i>~chrrr~</i>” — mamrocze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%oldman_mutter%'
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_cdff6962f15b9965fb3f
+      kontekst: textscripts.oldmanhouse_oldman:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmph! Whaddya want?
+      pl: Hmf! Czego chcesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_79c11b04a918e3ad926c
+      kontekst: textscripts.oldmanhouse_oldman:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well uh, I'm from the Ocean City Watchful Eye. You know, the newspaper?
+      pl: No więc, eee, jestem z Czujnego Oka Ocean City. No wiesz, z gazety?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_58e58dd38f0dff218102
+      kontekst: textscripts.oldmanhouse_oldman:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't trust newspapers. Nor newspaper reporters, neither.
+      pl: Nie ufam gazetom. Ani dziennikarzom gazetowym, jak już o tym mowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b8949aca760c6f1db73d
+      kontekst: textscripts.oldmanhouse_oldman:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well...
+      pl: Cóż...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f8040c3a6ccfce5c1ec7
+      kontekst: textscripts.oldmanhouse_oldman:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nor otters.
+      pl: Ani wydrom.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b6d5eeadf03f28fe85e8
+      kontekst: textscripts.oldmanhouse_oldman:line:26
+      linia: 26
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Fortunately, I'm only one of those three things.
+      pl: Na szczęście jestem tylko jedną z tych trzech rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_66ba74fa14bec14382a0
+      kontekst: textscripts.oldmanhouse_oldman:line:27
+      linia: 27
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can I ask you about the Porquod?
+      pl: Mogę zapytać o Porquoda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_af086b3c39fe12c2a84c
+      kontekst: textscripts.oldmanhouse_oldman:line:32
+      linia: 32
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ain't nothin' to say. Storm blew up unexpected, we hit a funny rock. All hands lost.
+      pl: Nie ma o czym mówić. Nagle zerwał się sztorm, uderzyliśmy w dziwną skałę. Wszyscy zginęli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_30678ac0ccb6da4242c9
+      kontekst: textscripts.oldmanhouse_oldman:line:33
+      linia: 33
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...That was decades ago, why you botherin'' me now?'
+      pl: ...To było dziesiątki lat temu, czemu zawracasz mi teraz głowę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_52a5bfacb15187e7eb5b
+      kontekst: textscripts.oldmanhouse_oldman:line:34
+      linia: 34
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, uh, it's a slow news day.
+      pl: Eee, mało wiadomości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: questions
+    wpisy:
+    - id: sol_937c924664abed59160b
+      kontekst: textscripts.oldmanhouse_oldman:line:39
+      linia: 39
+      sekcja_skryptu: questions
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: What was funny about the rock?
+      pl: Co było dziwnego w skale?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b42fa89125eee0ce7efc
+      kontekst: textscripts.oldmanhouse_oldman:line:41
+      linia: 41
+      sekcja_skryptu: questions
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: How many men were in your crew?
+      pl: Ilu ludzi liczyła załoga?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_89b1225854a1f9ac01c4
+      kontekst: textscripts.oldmanhouse_oldman:line:43
+      linia: 43
+      sekcja_skryptu: questions
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: You have a lot of... urns?
+      pl: Masz wiele... urn?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rock
+    wpisy:
+    - id: sol_2199719c1b5fc7fa3428
+      kontekst: textscripts.oldmanhouse_oldman:line:53
+      linia: 53
+      sekcja_skryptu: rock
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You ever see a thirty-foot black basalt obelisk stickin' straight up outta the ocean?
+      pl: Widziałeś kiedyś trzydziestostopowy czarny bazaltowy obelisk wystający prosto z oceanu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_85568491eaada45cc0ba
+      kontekst: textscripts.oldmanhouse_oldman:line:54
+      linia: 54
+      sekcja_skryptu: rock
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Can''t say I have.'
+      pl: '...Nie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69b9814c762b86be14b8
+      kontekst: textscripts.oldmanhouse_oldman:line:55
+      linia: 55
+      sekcja_skryptu: rock
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Me neither, an' I'd been sailin' that route for years.
+      pl: Ja też nie, a żeglowałem tą trasą przez lata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_68ab3482c06f49a6990d
+      kontekst: textscripts.oldmanhouse_oldman:line:56
+      linia: 56
+      sekcja_skryptu: rock
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So I guess when you said 'funny,' you didn't mean as in "ha ha."
+      pl: Czyli kiedy mówiłeś „dziwny”, nie miałeś na myśli „ha, ha”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: glyphs
+    wpisy:
+    - id: sol_87509ee7cb97c935589e
+      kontekst: textscripts.oldmanhouse_oldman:line:62
+      linia: 62
+      sekcja_skryptu: glyphs
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's with the rocks in your front yard?
+      pl: Skąd skały w ogrodzie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_91b9ef38fcd33e8c3cbc
+      kontekst: textscripts.oldmanhouse_oldman:line:63
+      linia: 63
+      sekcja_skryptu: glyphs
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I ain't know nothin' 'bout those. 'Cept fer the date marker I put.
+      pl: Nic o nich nie wiem. Poza znacznikiem daty, który postawiłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_64507a8a6d9cbf49074a
+      kontekst: textscripts.oldmanhouse_oldman:line:64
+      linia: 64
+      sekcja_skryptu: glyphs
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Did they just... come with the house?
+      pl: Po prostu... były przy domu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60eed6b37bcf4450c425
+      kontekst: textscripts.oldmanhouse_oldman:line:65
+      linia: 65
+      sekcja_skryptu: glyphs
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: New one pops up ever once in a while. What's that gotta do with anythin'?
+      pl: Co jakiś czas wyskakuje nowa. Co to ma do rzeczy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7f3a4a21cf46f827c560
+      kontekst: textscripts.oldmanhouse_oldman:line:66
+      linia: 66
+      sekcja_skryptu: glyphs
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well... nothing, I guess.
+      pl: Chyba nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crew
+    wpisy:
+    - id: sol_d334e6ec78f6b098b8d7
+      kontekst: textscripts.oldmanhouse_oldman:line:72
+      linia: 72
+      sekcja_skryptu: crew
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There was Pegleg, Handsome Jeff an' Less-Handsome Jeff, an' Ol' Barnacle Face.
+      pl: Byli Drewniana Noga, Przystojny Jeff, Mniej Przystojny Jeff i Stary Pąklotwarz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_39248c6c413d3983d733
+      kontekst: textscripts.oldmanhouse_oldman:line:73
+      linia: 73
+      sekcja_skryptu: crew
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks askance at the row of urns.
+      pl: Spogląda podejrzliwie na rząd urn.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e1da4bfda307678362b
+      kontekst: textscripts.oldmanhouse_oldman:line:74
+      linia: 74
+      sekcja_skryptu: crew
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And, uh, the other one. So five.
+      pl: I, eee, tamten. Czyli pięciu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fifth
+    wpisy:
+    - id: sol_698ac7de42702b60490d
+      kontekst: textscripts.oldmanhouse_oldman:line:80
+      linia: 80
+      sekcja_skryptu: fifth
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What was the fifth sailor's name?
+      pl: Jak nazywał się piąty marynarz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a5d6172b234b3e712916
+      kontekst: textscripts.oldmanhouse_oldman:line:81
+      linia: 81
+      sekcja_skryptu: fifth
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...I ain''t recall. He was new, just signed on afore that last voyage. Didn''t talk much. Eerie fella, to be honest.'
+      pl: '...Nie pamiętam. Był nowy, zaciągnął się tuż przed ostatnim rejsem. Małomówny. Upiorny facet.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a9ab413dc013c241486a
+      kontekst: textscripts.oldmanhouse_oldman:line:82
+      linia: 82
+      sekcja_skryptu: fifth
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Eerie?
+      pl: Upiorny?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b02f2a4756ad6a7bffc5
+      kontekst: textscripts.oldmanhouse_oldman:line:83
+      linia: 83
+      sekcja_skryptu: fifth
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Spooky. An' that's all I got to say about him.
+      pl: Straszny. I tyle mam o nim do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: urns
+    wpisy:
+    - id: sol_95a2aa9531e8656be2b0
+      kontekst: textscripts.oldmanhouse_oldman:line:89
+      linia: 89
+      sekcja_skryptu: urns
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Crew's bodies washed ashore after a time. Didn't figger they'd want a sea burial after what happened, so I had 'em cremated. Well, except...
+      pl: Ciała załogi po jakimś czasie wyrzuciło na brzeg. Uznałem, że po tym, co się stało, nie chcieliby morskiego pogrzebu, więc kazałem ich skremować. No, poza...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3c8c0f48a70056eeda3e
+      kontekst: textscripts.oldmanhouse_oldman:line:90
+      linia: 90
+      sekcja_skryptu: urns
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Except?'
+      pl: '...Poza?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b191f64fafbfd60de539
+      kontekst: textscripts.oldmanhouse_oldman:line:91
+      linia: 91
+      sekcja_skryptu: urns
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That fifth feller weren't never found. I ain't... I ain't recall how that urn got here.
+      pl: Piątego nigdy nie znaleziono. Nie... nie pamiętam, skąd się tu wzięła ta urna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: urns2
+    wpisy:
+    - id: sol_33f65cf7277927e96d98
+      kontekst: textscripts.oldmanhouse_oldman:line:97
+      linia: 97
+      sekcja_skryptu: urns2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He was a member of the crew right an' proper though, so he got as much right ta be here as any of em.
+      pl: Ale był członkiem załogi jak się patrzy, więc ma takie samo prawo tu być jak każdy z nich.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: church
+    wpisy:
+    - id: sol_a83f22d26a133e4444b7
+      kontekst: textscripts.oldmanhouse_oldman:line:104
+      linia: 104
+      sekcja_skryptu: church
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm? Sure, usedta go an' pay my respects once in a while. Back afore my knee started actin' up. Got plenty'a urns ta talk to right here
+        though, har!
+      pl: Hm? Jasne, kiedyś chadzałem tam co jakiś czas oddać cześć. Jeszcze zanim kolano zaczęło mi dokuczać. Ale tutaj też mam mnóstwo urn do gadania, har!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: sol_ccf45ea9466768cdcd63
+      kontekst: textscripts.oldmanhouse_oldman:line:111
+      linia: 111
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ayep, we shoot th' breeze. Relive old glories an' such.
+      pl: Ano, uciąć sobie pogawędkę. Powspominać dawne triumfy i takie tam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3728312ca06d902efc16
+      kontekst: textscripts.oldmanhouse_oldman:line:112
+      linia: 112
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You say that like they talk back.
+      pl: Mówisz, jakby odpowiadały.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f46105d374fc3e1d5a77
+      kontekst: textscripts.oldmanhouse_oldman:line:113
+      linia: 113
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They do. An' I can see from yer face that ya don't believe me, so you can ask 'em yerself, landlubber!
+      pl: Odpowiadają. A widzę po twojej minie, że mi nie wierzysz, więc zapytaj je sam, szczurze lądowy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finish
+    wpisy:
+    - id: sol_06e217fd0d11ac32381f
+      kontekst: textscripts.oldmanhouse_oldman:line:120
+      linia: 120
+      sekcja_skryptu: finish
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Fine. But if you got any more questions for me, ask 'em now. I'm tireda all this chit-chat.
+      pl: Dobra. Ale jeśli masz do mnie jeszcze jakieś pytania, zadawaj je teraz. Zmęczyła mnie ta cała gadanina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2750
+  skrypt: oldmanhouse_secretdoor
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2f6ec6730cb8f162cbea
+      kontekst: textscripts.oldmanhouse_secretdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a shelf full of nautical non-fiction. You are non-interested in it.
+      pl: Półka pełna marynistycznej literatury faktu. Fakt, że cię nie interesuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b97e58766fedbbfbadb1
+      kontekst: textscripts.oldmanhouse_secretdoor:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the shelf that guy came out from behind of.  Or rather, the shelf out of which from behind of which camest that guy.
+      pl: Regał, zza którego wyszedł facet. A raczej regał, z którego zza którego facet ów wyszedł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_15ff444930eef204df2b
+      kontekst: textscripts.oldmanhouse_secretdoor:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter the secret door
+      pl: Wejdź w tajne drzwi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: findit
+    wpisy:
+    - id: sol_1e1d0cc3194498d1d470
+      kontekst: textscripts.oldmanhouse_secretdoor:line:16
+      linia: 16
+      sekcja_skryptu: findit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Inspect the bookcase
+      pl: Zbadaj regał
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: searching
+    wpisy:
+    - id: sol_1a01f16089933435d405
+      kontekst: textscripts.oldmanhouse_secretdoor:line:24
+      linia: 24
+      sekcja_skryptu: searching
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You try to push the bookshelf aside, but it's locked in place. There must be a catch.
+      pl: Próbujesz go odsunąć, ale tkwi nieruchomo. Musi być jakiś haczyk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ddc8438b5b84075af94c
+      kontekst: textscripts.oldmanhouse_secretdoor:line:25
+      linia: 25
+      sekcja_skryptu: searching
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I mean, literally.
+      pl: 'Dosłownie: haczyk.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: searchhub
+    wpisy:
+    - id: sol_7b191eb3adb1ac4c0ecd
+      kontekst: textscripts.oldmanhouse_secretdoor:line:31
+      linia: 31
+      sekcja_skryptu: searchhub
+      typ: option_once
+      mowca_lub_kanal: opcja_gracza
+      en: Check "A Seaman's Manual of Ropes and Knots"
+      pl: Sprawdź „Podręcznik lin i węzłów dla marynarza”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9efcee7c39389d3ea196
+      kontekst: textscripts.oldmanhouse_secretdoor:line:32
+      linia: 32
+      sekcja_skryptu: searchhub
+      typ: option_once
+      mowca_lub_kanal: opcja_gracza
+      en: Check "Practical Secret Doors for the Home Handyman"
+      pl: Sprawdź „Praktyczne tajne drzwi domowego majsterkowicza”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31ca8b5aeb9b4f852984
+      kontekst: textscripts.oldmanhouse_secretdoor:line:33
+      linia: 33
+      sekcja_skryptu: searchhub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind
+      pl: Nieważne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book1
+    wpisy:
+    - id: sol_a4bc7ee4fb215b236eb1
+      kontekst: textscripts.oldmanhouse_secretdoor:line:37
+      linia: 37
+      sekcja_skryptu: book1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing happens when you pull the book off the shelf, so you flip it open and page through it a little.
+      pl: Kiedy zdejmujesz książkę z półki, nic się nie dzieje, więc otwierasz ją i trochę kartkujesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_1861cf69b7931210aab1
+      kontekst: textscripts.oldmanhouse_secretdoor:line:38
+      linia: 38
+      sekcja_skryptu: book1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: However, since you aren't a sea captain, the notes and charts don't mean much to you. And none of them have any big black X's marking
+        the site of buried treasure. Phooey.
+      pl: Ponieważ jednak nie jesteś kapitanem żeglugi, notatki i mapy niewiele ci mówią. Żadna z nich nie ma też wielkiego czarnego X-a oznaczającego miejsce zakopanego skarbu. Ech.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_faeb0e9527523a266b3b
+      kontekst: textscripts.oldmanhouse_secretdoor:line:39
+      linia: 39
+      sekcja_skryptu: book1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh wait, that's this? There's a little pamphlet stuffed in the back.
+      pl: Ach, chwila, a to co? Z tyłu wetknięto jakąś małą broszurkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2
+    wpisy:
+    - id: sol_a4bc7ee4fb215b236eb1
+      kontekst: textscripts.oldmanhouse_secretdoor:line:47
+      linia: 47
+      sekcja_skryptu: book2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing happens when you pull the book off the shelf, so you flip it open and page through it a little.
+      pl: Kiedy zdejmujesz książkę z półki, nic się nie dzieje, więc otwierasz ją i trochę kartkujesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_26505b23024ee7ab387d
+      kontekst: textscripts.oldmanhouse_secretdoor:line:48
+      linia: 48
+      sekcja_skryptu: book2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As advertised, it's a thorough guide to the various kinds of ropes and knots used on ships. With lots of diagrams, although none of
+        it is particularly useful to you personally.
+      pl: Zgodnie z zapowiedzią to szczegółowy przewodnik po rozmaitych rodzajach lin i węzłów używanych na statkach. Z mnóstwem schematów, choć żaden z nich nie jest ci osobiście do czegokolwiek potrzebny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b8cf20952d2dbe48837f
+      kontekst: textscripts.oldmanhouse_secretdoor:line:49
+      linia: 49
+      sekcja_skryptu: book2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And they say never to judge a book by its cover.
+      pl: A podobno nie należy oceniać książki po okładce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book3
+    wpisy:
+    - id: sol_90f334a977d8ecd0a237
+      kontekst: textscripts.oldmanhouse_secretdoor:line:54
+      linia: 54
+      sekcja_skryptu: book3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You tilt the book forward, and... nothing happens.
+      pl: Przechylasz książkę do przodu i... nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_74ddb2c7e87839a6cadd
+      kontekst: textscripts.oldmanhouse_secretdoor:line:55
+      linia: 55
+      sekcja_skryptu: book3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: So, you pull the book all the way off the shelf, and... nothing happens.
+      pl: Zdejmujesz więc książkę całkiem z półki i... nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9bb6ce0e2e8a621841af
+      kontekst: textscripts.oldmanhouse_secretdoor:line:56
+      linia: 56
+      sekcja_skryptu: book3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: So, you flip the book open and start riffling through the pages, until you find one with the page-corner turned down. A diagram on the
+        page shows the three most common unobtrusive latch mechanisms for bookshelf-based secret doors, and on closer inspection, this bookcase
+        is using the second one.
+      pl: Otwierasz więc książkę i zaczynasz kartkować, aż trafiasz na stronę z zagiętym rogiem. Schemat na tej stronie pokazuje trzy najpowszechniejsze dyskretne mechanizmy zatrzaskowe do tajnych drzwi ukrytych w regałach, a po bliższych oględzinach okazuje się, że ten regał korzysta z drugiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4dd3e7294926a5f0253d
+      kontekst: textscripts.oldmanhouse_secretdoor:line:58
+      linia: 58
+      sekcja_skryptu: book3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now you can open the secret door, whenever you're ready.
+      pl: Teraz możesz otworzyć tajne drzwi, kiedy tylko będziesz gotów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.oldmanhouse_secretdoor:line:59
+      linia: 59
+      sekcja_skryptu: book3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2754
+  skrypt: oldmanhouse_urn1
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 29
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c82c57c183f06dfa8813
+      kontekst: textscripts.oldmanhouse_urn1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A plaque above this urn says "Peg-Leg Johnny."
+      pl: Tabliczka nad urną głosi „Johnny Drewniana Noga”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkover
+    wpisy:
+    - id: sol_8a005180704728374d47
+      kontekst: textscripts.oldmanhouse_urn1:line:12
+      linia: 12
+      sekcja_skryptu: talkover
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not much point in talking to these, now that you know what's going on.
+      pl: Nie ma większego sensu z nimi rozmawiać, skoro już wiesz, o co tu chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+  - etykieta: convo
+    wpisy:
+    - id: sol_8bdc501eb1008cd6c0c3
+      kontekst: textscripts.oldmanhouse_urn1:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um. Hello?
+      pl: Eee. Cześć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id008 []
+    - id: sol_fc7c65558d1490d3f5d1
+      kontekst: textscripts.oldmanhouse_urn1:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The urn doesn't respond.
+      pl: Urna nie odpowiada.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id009 []
+    - id: sol_bdd6fafe4e8747cdd05e
+      kontekst: textscripts.oldmanhouse_urn1:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Anybody there?
+      pl: Jest tam ktoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id010 []
+    - id: sol_d9d93d794cdbd130914a
+      kontekst: textscripts.oldmanhouse_urn1:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Imitate the Captain's voice
+      pl: Naśladuj kapitana
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id011 []
+    - id: sol_53f0766ae59037ca66a1
+      kontekst: textscripts.oldmanhouse_urn1:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Forget it
+      pl: Zapomnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id012 []
+  - etykieta: mimic
+    wpisy:
+    - id: sol_f17c894657b2c15710e2
+      kontekst: textscripts.oldmanhouse_urn1:line:29
+      linia: 29
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You look around to make sure the Captain is asleep, then mutter gruffly to the urn:'
+      pl: 'Rozglądasz się, żeby się upewnić, że kapitan śpi, po czym szorstko mamroczesz do urny:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id013 []
+    - id: sol_884b9c3cd403bfd60f3e
+      kontekst: textscripts.oldmanhouse_urn1:line:30
+      linia: 30
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yarr there, Johnny. Ye can speak freely now, sailor, I got rid 'a that no-good landlubber.
+      pl: Arr, Johnny. Możesz teraz mówić swobodnie, marynarzu, pozbyłem się tego nicponia, szczura lądowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d5096be89d4e29729032
+      kontekst: textscripts.oldmanhouse_urn1:line:31
+      linia: 31
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A muffled, youthful-sounding voice replies:'
+      pl: 'Stłumiony młody głos odpowiada:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9112cd791b7565ce9e88
+      kontekst: textscripts.oldmanhouse_urn1:line:32
+      linia: 32
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yarr, Cap'm. What'd they want, anyhow?
+      pl: Arr, kapitanie. Czego chcieli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b125a67bc758f4298cc2
+      kontekst: textscripts.oldmanhouse_urn1:line:33
+      linia: 33
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Bah, nothin' of import. Yer basic landlubber prattle, tryin'a sell newspapers an' like that. Pay it no nevermind.
+      pl: Ba, nic ważnego. Zwykłe pierdoły szczura lądowego, próba wciśnięcia gazety i takie tam. Nie zaprzątaj sobie tym głowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id014 []
+    - id: sol_a45bccb91c543b43070f
+      kontekst: textscripts.oldmanhouse_urn1:line:34
+      linia: 34
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aye aye, Cap'm!
+      pl: Tak jest, kapitanie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id015 []
+    - id: sol_eec81fe006c3dcae3e97
+      kontekst: textscripts.oldmanhouse_urn1:line:36
+      linia: 36
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep talking to the urn
+      pl: Rozmawiaj dalej z urną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id016 []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn1:line:37
+      linia: 37
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: talkhub
+    wpisy:
+    - id: sol_cd2711b024bf2a5eddf6
+      kontekst: textscripts.oldmanhouse_urn1:line:42
+      linia: 42
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, uh, how are things?
+      pl: Więc jak tam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bba347d9506f16699440
+      kontekst: textscripts.oldmanhouse_urn1:line:43
+      linia: 43
+      sekcja_skryptu: talkhub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, no problems, Cap'm! Everything's ship-shape, ha ha.
+      pl: Bez problemów, kapitanie! Wszystko pod pełnymi żaglami, ha, ha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c15b713b42e357c95b1c
+      kontekst: textscripts.oldmanhouse_urn1:line:44
+      linia: 44
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha.
+      pl: Ha, ha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7ca46519bf4eb7130fc0
+      kontekst: textscripts.oldmanhouse_urn1:line:45
+      linia: 45
+      sekcja_skryptu: talkhub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Always happy to chew the seabiscuit with you, though!
+      pl: Zawsze chętnie utnę sobie z tobą pogawędkę… i suchara morskiego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_486ba08df7c54b44bd5d
+      kontekst: textscripts.oldmanhouse_urn1:line:46
+      linia: 46
+      sekcja_skryptu: talkhub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: Sure. Let's, uh, reminisce about old times.
+      pl: Pewnie. Powspominajmy dawne czasy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a727ccfeb0e958b355c8
+      kontekst: textscripts.oldmanhouse_urn1:line:47
+      linia: 47
+      sekcja_skryptu: talkhub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, maybe later. Yarr.
+      pl: Może później. Arr.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: sol_9a3a25ba6a01b04e2567
+      kontekst: textscripts.oldmanhouse_urn1:line:52
+      linia: 52
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! I love hearing your stories of nautical adventure.
+      pl: Świetnie! Uwielbiam słuchać twoich opowieści o morskich przygodach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6fd2271a32bc016ca1a8
+      kontekst: textscripts.oldmanhouse_urn1:line:53
+      linia: 53
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, umm... Instead of that, why don't you tell me how you got the name Peg-Leg Johnny?
+      pl: Może zamiast tego opowiesz, skąd przydomek Johnny Drewniana Noga?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_062147ecc871c75d0405
+      kontekst: textscripts.oldmanhouse_urn1:line:54
+      linia: 54
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, uh... it's... because of my leg. Right? Got a peg-leg?
+      pl: No... przez nogę, prawda? Mam drewnianą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f0fff11d4df2e2f50e6f
+      kontekst: textscripts.oldmanhouse_urn1:line:55
+      linia: 55
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure sure. How'd you get it?
+      pl: Jasne. Jak do tego doszło?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4441266955e9f7c6140e
+      kontekst: textscripts.oldmanhouse_urn1:line:56
+      linia: 56
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I got it... because I lost the original leg?
+      pl: Mam ją... bo straciłem prawdziwą?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_05dbfb46751b412b5041
+      kontekst: textscripts.oldmanhouse_urn1:line:57
+      linia: 57
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'd assume so, yeah. Yarr. But how?
+      pl: Zapewne. Arr. Ale jak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba5444e49e400dfcdeda
+      kontekst: textscripts.oldmanhouse_urn1:line:58
+      linia: 58
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Um, well... umm... wait, weren't you there when it happened?
+      pl: Eee, no... eee... chwila, a ciebie tam nie było, kiedy to się stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f79c0e9ac7c8768abb48
+      kontekst: textscripts.oldmanhouse_urn1:line:59
+      linia: 59
+      sekcja_skryptu: story
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Time for my nap! Talk to you later!'
+      pl: '...Pora na drzemkę! Do później!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2755
+  skrypt: oldmanhouse_urn2
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 25
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d2964f445b381a7fb1cb
+      kontekst: textscripts.oldmanhouse_urn2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plaque above this urn says "Handsome Jeff."
+      pl: Tabliczka nad urną głosi „Przystojny Jeff”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkover
+    wpisy:
+    - id: sol_8a005180704728374d47
+      kontekst: textscripts.oldmanhouse_urn2:line:12
+      linia: 12
+      sekcja_skryptu: talkover
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not much point in talking to these, now that you know what's going on.
+      pl: Nie ma większego sensu z nimi rozmawiać, skoro już wiesz, o co tu chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: convo
+    wpisy:
+    - id: sol_8bdc501eb1008cd6c0c3
+      kontekst: textscripts.oldmanhouse_urn2:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um. Hello?
+      pl: Eee. Cześć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+    - id: sol_fc7c65558d1490d3f5d1
+      kontekst: textscripts.oldmanhouse_urn2:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The urn doesn't respond.
+      pl: Urna nie odpowiada.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+    - id: sol_bdd6fafe4e8747cdd05e
+      kontekst: textscripts.oldmanhouse_urn2:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Anybody there?
+      pl: Jest tam ktoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+    - id: sol_d9d93d794cdbd130914a
+      kontekst: textscripts.oldmanhouse_urn2:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Imitate the Captain's voice
+      pl: Naśladuj kapitana
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+    - id: sol_53f0766ae59037ca66a1
+      kontekst: textscripts.oldmanhouse_urn2:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Forget it
+      pl: Zapomnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+  - etykieta: mimic
+    wpisy:
+    - id: sol_f17c894657b2c15710e2
+      kontekst: textscripts.oldmanhouse_urn2:line:28
+      linia: 28
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You look around to make sure the Captain is asleep, then mutter gruffly to the urn:'
+      pl: 'Rozglądasz się, żeby się upewnić, że kapitan śpi, po czym szorstko mamroczesz do urny:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+    - id: sol_c717d2fbcf3c43502299
+      kontekst: textscripts.oldmanhouse_urn2:line:29
+      linia: 29
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yarr there, Handsome Jeff. Ye can speak freely now, sailor, I got rid 'a that no-good landlubber.
+      pl: Arr, Przystojny Jeff. Możesz teraz mówić swobodnie, marynarzu, pozbyłem się tego nicponia, szczura lądowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab2af83ff1edd5e16ce5
+      kontekst: textscripts.oldmanhouse_urn2:line:30
+      linia: 30
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A muffled, manly-sounding voice replies:'
+      pl: 'Stłumiony męski głos odpowiada:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a9e1ff76d3adeb57ba42
+      kontekst: textscripts.oldmanhouse_urn2:line:31
+      linia: 31
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yarr, Cap'm. What was it they wanted?
+      pl: Arr, kapitanie. Czego chcieli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b125a67bc758f4298cc2
+      kontekst: textscripts.oldmanhouse_urn2:line:32
+      linia: 32
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Bah, nothin' of import. Yer basic landlubber prattle, tryin'a sell newspapers an' like that. Pay it no nevermind.
+      pl: Ba, nic ważnego. Zwykłe pierdoły szczura lądowego, próba wciśnięcia gazety i takie tam. Nie zaprzątaj sobie tym głowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id014
+    - id: sol_a45bccb91c543b43070f
+      kontekst: textscripts.oldmanhouse_urn2:line:33
+      linia: 33
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aye aye, Cap'm!
+      pl: Tak jest, kapitanie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id015
+    - id: sol_eec81fe006c3dcae3e97
+      kontekst: textscripts.oldmanhouse_urn2:line:35
+      linia: 35
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep talking to the urn
+      pl: Rozmawiaj dalej z urną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id016
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn2:line:36
+      linia: 36
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: talkhub
+    wpisy:
+    - id: sol_28748151416df785818b
+      kontekst: textscripts.oldmanhouse_urn2:line:40
+      linia: 40
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, how ye be doin' thar, Handsome Jeff?
+      pl: Jak się miewasz, Przystojny Jeff?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3eab722fc10cfc7eab6f
+      kontekst: textscripts.oldmanhouse_urn2:line:41
+      linia: 41
+      sekcja_skryptu: talkhub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Smooth sailin', cap'm. You feel like talkin' over old times?
+      pl: Spokojne wody, kapitanie. Masz ochotę powspominać dawne czasy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4b0455ddad1d42b98fb9
+      kontekst: textscripts.oldmanhouse_urn2:line:42
+      linia: 42
+      sekcja_skryptu: talkhub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure. I mean, yarr. Why not?
+      pl: Pewnie. Znaczy arr. Czemu nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2292bfde4934505a56b7
+      kontekst: textscripts.oldmanhouse_urn2:line:43
+      linia: 43
+      sekcja_skryptu: talkhub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh um, maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: sol_c5ff1d1ffeae0bc4078f
+      kontekst: textscripts.oldmanhouse_urn2:line:48
+      linia: 48
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Right then. Which partic'lar yarn from your past have ye got on your mind?
+      pl: No dobra. Która konkretnie opowieść z twojej przeszłości chodzi ci po głowie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dc4952f4ac16ef0b37ff
+      kontekst: textscripts.oldmanhouse_urn2:line:49
+      linia: 49
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, umm... Actually, let's talk about you.
+      pl: Właściwie porozmawiajmy o tobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b42576687d8e3bef1477
+      kontekst: textscripts.oldmanhouse_urn2:line:50
+      linia: 50
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Me?
+      pl: Ja?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_59f036d05ec705e33979
+      kontekst: textscripts.oldmanhouse_urn2:line:51
+      linia: 51
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The fella next to ya is "Less-Handsome Jeff," aye? So is this judgement of yer relative 'ppearances literal, or is it more of an ironic
+        reversal sort o' deal? Yarr?
+      pl: Facet obok ciebie to „Mniej Przystojny Jeff”, tak? Czy ta ocena waszego względnego wyglądu jest dosłowna, czy raczej chodzi o ironiczne odwrócenie? Arr?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_117bcadb5b139dc98007
+      kontekst: textscripts.oldmanhouse_urn2:line:52
+      linia: 52
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I... uh, you never... Wait, wait a minute. Don't you remember what we actually look like?
+      pl: No cóż, ja... eee, ty nigdy... Chwila, chwileczkę. Nie pamiętasz, jak naprawdę wyglądamy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aa15df90f56ff5bb505b
+      kontekst: textscripts.oldmanhouse_urn2:line:53
+      linia: 53
+      sekcja_skryptu: story
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, yes, of course I do! Gotta go, bye!
+      pl: Oczywiście, że pamiętam! Muszę iść, cześć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2756
+  skrypt: oldmanhouse_urn3
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 28
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9a9f9f0bdbb41f199833
+      kontekst: textscripts.oldmanhouse_urn3:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plaque above this urn says "Less-Handsome Jeff."
+      pl: Tabliczka nad urną głosi „Mniej Przystojny Jeff”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkover
+    wpisy:
+    - id: sol_8a005180704728374d47
+      kontekst: textscripts.oldmanhouse_urn3:line:12
+      linia: 12
+      sekcja_skryptu: talkover
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not much point in talking to these, now that you know what's going on.
+      pl: Nie ma większego sensu z nimi rozmawiać, skoro już wiesz, o co tu chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: convo
+    wpisy:
+    - id: sol_8bdc501eb1008cd6c0c3
+      kontekst: textscripts.oldmanhouse_urn3:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um. Hello?
+      pl: Eee. Cześć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+    - id: sol_fc7c65558d1490d3f5d1
+      kontekst: textscripts.oldmanhouse_urn3:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The urn doesn't respond.
+      pl: Urna nie odpowiada.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+    - id: sol_bdd6fafe4e8747cdd05e
+      kontekst: textscripts.oldmanhouse_urn3:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Anybody there?
+      pl: Jest tam ktoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+    - id: sol_d9d93d794cdbd130914a
+      kontekst: textscripts.oldmanhouse_urn3:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Imitate the Captain's voice
+      pl: Naśladuj kapitana
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+    - id: sol_53f0766ae59037ca66a1
+      kontekst: textscripts.oldmanhouse_urn3:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Forget it
+      pl: Zapomnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+  - etykieta: mimic
+    wpisy:
+    - id: sol_f17c894657b2c15710e2
+      kontekst: textscripts.oldmanhouse_urn3:line:28
+      linia: 28
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You look around to make sure the Captain is asleep, then mutter gruffly to the urn:'
+      pl: 'Rozglądasz się, żeby się upewnić, że kapitan śpi, po czym szorstko mamroczesz do urny:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+    - id: sol_a0124d4b2e5df064cfea
+      kontekst: textscripts.oldmanhouse_urn3:line:29
+      linia: 29
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yarr there, Less-Handsome Jeff. Ye can speak freely now, sailor, I got rid 'a that no-good landlubber.
+      pl: Arr, Mniej Przystojny Jeff. Możesz teraz mówić swobodnie, marynarzu, pozbyłem się tego nicponia, szczura lądowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b84d2ad890341c7874b
+      kontekst: textscripts.oldmanhouse_urn3:line:30
+      linia: 30
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A muffled, gravelly-sounding voice replies:'
+      pl: 'Stłumiony, chropowaty głos odpowiada:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ac58343e894e0a02abc5
+      kontekst: textscripts.oldmanhouse_urn3:line:31
+      linia: 31
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yarr, Cap'm. What was they after?
+      pl: Arr, kapitanie. Czego chcieli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b125a67bc758f4298cc2
+      kontekst: textscripts.oldmanhouse_urn3:line:32
+      linia: 32
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Bah, nothin' of import. Yer basic landlubber prattle, tryin'a sell newspapers an' like that. Pay it no nevermind.
+      pl: Ba, nic ważnego. Zwykłe pierdoły szczura lądowego, próba wciśnięcia gazety i takie tam. Nie zaprzątaj sobie tym głowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id014
+    - id: sol_a45bccb91c543b43070f
+      kontekst: textscripts.oldmanhouse_urn3:line:33
+      linia: 33
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aye aye, Cap'm!
+      pl: Tak jest, kapitanie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id015
+    - id: sol_eec81fe006c3dcae3e97
+      kontekst: textscripts.oldmanhouse_urn3:line:35
+      linia: 35
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep talking to the urn
+      pl: Rozmawiaj dalej z urną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id016
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn3:line:36
+      linia: 36
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: talkhub
+    wpisy:
+    - id: sol_a8d47aa3c1bd2d244623
+      kontekst: textscripts.oldmanhouse_urn3:line:40
+      linia: 40
+      sekcja_skryptu: talkhub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anythin' on yer mind, Cap'm?
+      pl: Coś ci leży na sercu, kapitanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2326eabd193dca47d0dc
+      kontekst: textscripts.oldmanhouse_urn3:line:41
+      linia: 41
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, um... like what?
+      pl: Eee... na przykład co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_47de826cb2c30fddb2cd
+      kontekst: textscripts.oldmanhouse_urn3:line:42
+      linia: 42
+      sekcja_skryptu: talkhub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Er, well, I dunno. Just if ye wanted t' wax nostalgic 'bout old times, or anything.
+      pl: Eee, no nie wiem. Tak po prostu, gdybyś chciał powspominać dawne czasy albo coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b55230e09884bc059816
+      kontekst: textscripts.oldmanhouse_urn3:line:43
+      linia: 43
+      sekcja_skryptu: talkhub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6884fd9bb922b857b4d6
+      kontekst: textscripts.oldmanhouse_urn3:line:44
+      linia: 44
+      sekcja_skryptu: talkhub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: sol_50ef1b5399d6523c2f62
+      kontekst: textscripts.oldmanhouse_urn3:line:49
+      linia: 49
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Right. So uh...
+      pl: Racja. Więc...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c730744ad70f98fdf683
+      kontekst: textscripts.oldmanhouse_urn3:line:50
+      linia: 50
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yarr.
+      pl: Arr.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e5179e6a0b637bc28ffa
+      kontekst: textscripts.oldmanhouse_urn3:line:51
+      linia: 51
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yarr, uh-huh. Um, so...
+      pl: Arr, mhm. Więc...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_edfdfb7c6728686f989b
+      kontekst: textscripts.oldmanhouse_urn3:line:52
+      linia: 52
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, right, uh... those old times, right?
+      pl: Och, racja... dawne czasy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cb61d00d819314543a19
+      kontekst: textscripts.oldmanhouse_urn3:line:53
+      linia: 53
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure, sure. Right you are, cap'm.
+      pl: Pewnie. Zgadza się, kapitanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3803e699d9d1290ef17e
+      kontekst: textscripts.oldmanhouse_urn3:line:54
+      linia: 54
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Those old times we had together.
+      pl: Te wspólne dawne czasy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_413dba7547a0183c02ec
+      kontekst: textscripts.oldmanhouse_urn3:line:55
+      linia: 55
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yarr. We sure did. ...Many of them.
+      pl: Arr. Było ich... wiele.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ef3075cefbca35e84b68
+      kontekst: textscripts.oldmanhouse_urn3:line:56
+      linia: 56
+      sekcja_skryptu: story
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yarr. Anyway, I'm glad we had this talk.
+      pl: Arr. Cieszę się z tej rozmowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2757
+  skrypt: oldmanhouse_urn4
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 30
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1edfad9e5c1f670befb4
+      kontekst: textscripts.oldmanhouse_urn4:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plaque above this urn says "Barnacle Face."
+      pl: Tabliczka nad urną głosi „Pąklotwarz”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkover
+    wpisy:
+    - id: sol_8a005180704728374d47
+      kontekst: textscripts.oldmanhouse_urn4:line:12
+      linia: 12
+      sekcja_skryptu: talkover
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not much point in talking to these, now that you know what's going on.
+      pl: Nie ma większego sensu z nimi rozmawiać, skoro już wiesz, o co tu chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: convo
+    wpisy:
+    - id: sol_8bdc501eb1008cd6c0c3
+      kontekst: textscripts.oldmanhouse_urn4:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um. Hello?
+      pl: Eee. Cześć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+    - id: sol_fc7c65558d1490d3f5d1
+      kontekst: textscripts.oldmanhouse_urn4:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The urn doesn't respond.
+      pl: Urna nie odpowiada.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+    - id: sol_bdd6fafe4e8747cdd05e
+      kontekst: textscripts.oldmanhouse_urn4:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Anybody there?
+      pl: Jest tam ktoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+    - id: sol_d9d93d794cdbd130914a
+      kontekst: textscripts.oldmanhouse_urn4:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Imitate the Captain's voice
+      pl: Naśladuj kapitana
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+    - id: sol_53f0766ae59037ca66a1
+      kontekst: textscripts.oldmanhouse_urn4:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Forget it
+      pl: Zapomnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+  - etykieta: mimic
+    wpisy:
+    - id: sol_f17c894657b2c15710e2
+      kontekst: textscripts.oldmanhouse_urn4:line:28
+      linia: 28
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You look around to make sure the Captain is asleep, then mutter gruffly to the urn:'
+      pl: 'Rozglądasz się, żeby się upewnić, że kapitan śpi, po czym szorstko mamroczesz do urny:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+    - id: sol_d11d37565ef960c15be6
+      kontekst: textscripts.oldmanhouse_urn4:line:29
+      linia: 29
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yarr there, Barnacle Face. Ye can speak freely now, sailor, I got rid 'a that no-good landlubber.
+      pl: Arr, Pąklotwarz. Możesz teraz mówić swobodnie, marynarzu, pozbyłem się tego nicponia, szczura lądowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b714a7b69b41ac6eff2b
+      kontekst: textscripts.oldmanhouse_urn4:line:30
+      linia: 30
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A muffled, raspy-sounding voice replies:'
+      pl: 'Stłumiony, chrapliwy głos odpowiada:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5a25f5e3c5d54efdaa1f
+      kontekst: textscripts.oldmanhouse_urn4:line:31
+      linia: 31
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yarr, Cap'm. What were they on about?
+      pl: Arr, kapitanie. Czego chcieli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b125a67bc758f4298cc2
+      kontekst: textscripts.oldmanhouse_urn4:line:32
+      linia: 32
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Bah, nothin' of import. Yer basic landlubber prattle, tryin'a sell newspapers an' like that. Pay it no nevermind.
+      pl: Ba, nic ważnego. Zwykłe pierdoły szczura lądowego, próba wciśnięcia gazety i takie tam. Nie zaprzątaj sobie tym głowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id014
+    - id: sol_a45bccb91c543b43070f
+      kontekst: textscripts.oldmanhouse_urn4:line:33
+      linia: 33
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aye aye, Cap'm!
+      pl: Tak jest, kapitanie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id015
+    - id: sol_eec81fe006c3dcae3e97
+      kontekst: textscripts.oldmanhouse_urn4:line:35
+      linia: 35
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep talking to the urn
+      pl: Rozmawiaj dalej z urną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id016
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn4:line:36
+      linia: 36
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: talkhub
+    wpisy:
+    - id: sol_05b0452bf74cc65f8ba6
+      kontekst: textscripts.oldmanhouse_urn4:line:40
+      linia: 40
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Everything going all right?
+      pl: Wszystko w porządku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_21bb0c460fedae5754cf
+      kontekst: textscripts.oldmanhouse_urn4:line:41
+      linia: 41
+      sekcja_skryptu: talkhub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aye Cap'm, nary a cloud in the sky.
+      pl: Tak, kapitanie. Ani chmurki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4973d82550265e13ec41
+      kontekst: textscripts.oldmanhouse_urn4:line:42
+      linia: 42
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Good. Great.
+      pl: Dobrze. Świetnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_787f91500c87ab635efa
+      kontekst: textscripts.oldmanhouse_urn4:line:43
+      linia: 43
+      sekcja_skryptu: talkhub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Are ye in a chattin' mood?
+      pl: Masz ochotę pogadać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4bf86f2c9b86f8119842
+      kontekst: textscripts.oldmanhouse_urn4:line:44
+      linia: 44
+      sekcja_skryptu: talkhub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, sure. Yarr.
+      pl: Pewnie. Arr.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_22d9c5486307bf723ce4
+      kontekst: textscripts.oldmanhouse_urn4:line:45
+      linia: 45
+      sekcja_skryptu: talkhub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, uh, maybe later. Belay that, or something.
+      pl: Och, eee, może później. Odbój czy jakoś tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: sol_7e17571bcb038cd22879
+      kontekst: textscripts.oldmanhouse_urn4:line:50
+      linia: 50
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, you know me, Cap'm, a man of few words an' all. Happy ta listen though.
+      pl: No wiesz, kapitanie, znasz mnie — małomówny ze mnie człowiek i te sprawy. Ale chętnie posłucham.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_370f7c5b25cd2192c374
+      kontekst: textscripts.oldmanhouse_urn4:line:51
+      linia: 51
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Right, well, actually I was wonderin' about yer name there. Thar.
+      pl: No dobra, właściwie zastanawiałem się nad tym twoim imieniem. Znaczy, arr.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b999b9c8ebe67d1c37c5
+      kontekst: textscripts.oldmanhouse_urn4:line:52
+      linia: 52
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: B-Barnacle Face? Umm. ...What about it?
+      pl: P-Pąklotwarz? Co z nim?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8cfbdb28f6330094db59
+      kontekst: textscripts.oldmanhouse_urn4:line:53
+      linia: 53
+      sekcja_skryptu: story
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, I was just wondering...
+      pl: Cóż, tak tylko się zastanawiałem...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story2
+    wpisy:
+    - id: sol_197680d0d460b69f136d
+      kontekst: textscripts.oldmanhouse_urn4:line:57
+      linia: 57
+      sekcja_skryptu: story2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I was just wondering why-- I mean, of course I <i>know</i> why, but, uh if you have any insight into...
+      pl: No, zastanawiałem się tylko, dlaczego... to znaczy oczywiście <i>wiem</i> dlaczego, ale, eee, gdybyś miał jakiś wgląd w...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8fa7e4f4f4f9d015c416
+      kontekst: textscripts.oldmanhouse_urn4:line:58
+      linia: 58
+      sekcja_skryptu: story2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I mean, uh, you've never actually said-- that is, you've never asked before so, uh, I'd've thought you already...
+      pl: Nigdy właściwie nie mówiłeś — to znaczy, wcześniej nie pytałeś, więc sądziłem, że już...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9efd2b01f812541a2dc0
+      kontekst: textscripts.oldmanhouse_urn4:line:59
+      linia: 59
+      sekcja_skryptu: story2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Right yeah, obviously I already... anyway if you're not comfortable discussing it, that's fine.
+      pl: No tak, jasne, przecież już... W każdym razie, jeśli nie czujesz się swobodnie, rozmawiając o tym, to w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eef7628c0b0d35ee591e
+      kontekst: textscripts.oldmanhouse_urn4:line:60
+      linia: 60
+      sekcja_skryptu: story2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay, yeah, good. Yarr.
+      pl: Dobrze. Arr.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_952796f63cb17b0a7a1e
+      kontekst: textscripts.oldmanhouse_urn4:line:61
+      linia: 61
+      sekcja_skryptu: story2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yarr.
+      pl: Arr.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id018 []
+- kolejnosc_w_danych_gry: 2758
+  skrypt: oldmanhouse_urn5
+  pomieszczenie:
+    id: oldmanhouse_inside
+    nazwa_en: Captain Durch's House (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 46
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_89c3585ec3513e242f8f
+      kontekst: textscripts.oldmanhouse_urn5:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plaque above this urn says "Fifth Sailor."
+      pl: Tabliczka nad urną głosi „Piąty Marynarz”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: replaceprompt
+    wpisy:
+    - id: sol_1be6343a0f2a3d13a874
+      kontekst: textscripts.oldmanhouse_urn5:line:9
+      linia: 9
+      sekcja_skryptu: replaceprompt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Replace the urn
+      pl: Podmień urnę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: replace
+    wpisy:
+    - id: sol_ea643ae2786aebdf17cc
+      kontekst: textscripts.oldmanhouse_urn5:line:14
+      linia: 14
+      sekcja_skryptu: replace
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You glance over to make sure Captain Durch is sleeping, and deftly swap the urns.
+      pl: Zerkasz w bok, żeby się upewnić, że kapitan Durch śpi, i zręcznie podmieniasz urny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: swapped
+    wpisy:
+    - id: sol_dff62d2fe6a281f8b97c
+      kontekst: textscripts.oldmanhouse_urn5:line:21
+      linia: 21
+      sekcja_skryptu: swapped
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the empty urn you swapped out for the stolen one.
+      pl: To pusta urna, którą podmieniłeś na tę skradzioną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkover
+    wpisy:
+    - id: sol_8a005180704728374d47
+      kontekst: textscripts.oldmanhouse_urn5:line:30
+      linia: 30
+      sekcja_skryptu: talkover
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not much point in talking to these, now that you know what's going on.
+      pl: Nie ma większego sensu z nimi rozmawiać, skoro już wiesz, o co tu chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: convo
+    wpisy:
+    - id: sol_8bdc501eb1008cd6c0c3
+      kontekst: textscripts.oldmanhouse_urn5:line:38
+      linia: 38
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um. Hello?
+      pl: Eee. Cześć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+    - id: sol_fc7c65558d1490d3f5d1
+      kontekst: textscripts.oldmanhouse_urn5:line:39
+      linia: 39
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The urn doesn't respond.
+      pl: Urna nie odpowiada.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+    - id: sol_bdd6fafe4e8747cdd05e
+      kontekst: textscripts.oldmanhouse_urn5:line:40
+      linia: 40
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Anybody there?
+      pl: Jest tam ktoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+    - id: sol_d9d93d794cdbd130914a
+      kontekst: textscripts.oldmanhouse_urn5:line:42
+      linia: 42
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Imitate the Captain's voice
+      pl: Naśladuj kapitana
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+    - id: sol_53f0766ae59037ca66a1
+      kontekst: textscripts.oldmanhouse_urn5:line:43
+      linia: 43
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Forget it
+      pl: Zapomnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+  - etykieta: mimic
+    wpisy:
+    - id: sol_f17c894657b2c15710e2
+      kontekst: textscripts.oldmanhouse_urn5:line:47
+      linia: 47
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You look around to make sure the Captain is asleep, then mutter gruffly to the urn:'
+      pl: 'Rozglądasz się, żeby się upewnić, że kapitan śpi, po czym szorstko mamroczesz do urny:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+    - id: sol_ec2694e0e80e43039280
+      kontekst: textscripts.oldmanhouse_urn5:line:48
+      linia: 48
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yarr there, uh, sailor. Ye can speak freely now, I got rid 'a that no-good landlubber.
+      pl: Arr, eee, marynarzu. Możesz teraz mówić swobodnie, pozbyłem się tego nicponia, szczura lądowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d575c2eaff0f766243d7
+      kontekst: textscripts.oldmanhouse_urn5:line:49
+      linia: 49
+      sekcja_skryptu: mimic
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A muffled, whispery-sounding voice replies:'
+      pl: 'Stłumiony, szeptliwy głos odpowiada:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1817e6db496aa5831308
+      kontekst: textscripts.oldmanhouse_urn5:line:51
+      linia: 51
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Yarr, Cap''m.'
+      pl: '...Arr, kapitanie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd52af7d17794c3fc894
+      kontekst: textscripts.oldmanhouse_urn5:line:52
+      linia: 52
+      sekcja_skryptu: mimic
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I reckon they was tryin'a sell me a newspaper. Pay it no nevermind.
+      pl: Zdaje mi się, że próbowali mi wcisnąć gazetę. Nie zaprzątaj sobie tym głowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60561ab4d60b29817670
+      kontekst: textscripts.oldmanhouse_urn5:line:53
+      linia: 53
+      sekcja_skryptu: mimic
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aye, Cap'm.
+      pl: Tak, kapitanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eec81fe006c3dcae3e97
+      kontekst: textscripts.oldmanhouse_urn5:line:55
+      linia: 55
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep talking to the urn
+      pl: Rozmawiaj dalej z urną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id016
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn5:line:56
+      linia: 56
+      sekcja_skryptu: mimic
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: talkhub
+    wpisy:
+    - id: sol_3bf947941dc42a11bc78
+      kontekst: textscripts.oldmanhouse_urn5:line:62
+      linia: 62
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, uh, sailor. How goes it?
+      pl: Jak leci, marynarzu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1e3382bc561f10be3ac0
+      kontekst: textscripts.oldmanhouse_urn5:line:64
+      linia: 64
+      sekcja_skryptu: talkhub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'd ask "what's new", but uh... arr?
+      pl: Zapytałbym, co nowego, ale... arr?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e5b89a290862ae12719f
+      kontekst: textscripts.oldmanhouse_urn5:line:66
+      linia: 66
+      sekcja_skryptu: talkhub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep talking
+      pl: Rozmawiaj dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id017 []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn5:line:67
+      linia: 67
+      sekcja_skryptu: talkhub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: talk2
+    wpisy:
+    - id: sol_5b897bb38f22ac2e52b8
+      kontekst: textscripts.oldmanhouse_urn5:line:71
+      linia: 71
+      sekcja_skryptu: talk2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yer not a talkative one, are ya matey?
+      pl: Niezbyt rozmowny z ciebie kamrat, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2ccaee812eaf31c3a7f8
+      kontekst: textscripts.oldmanhouse_urn5:line:73
+      linia: 73
+      sekcja_skryptu: talk2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I s'pose ya never were, come to that.
+      pl: Zresztą nigdy nie byłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e5b89a290862ae12719f
+      kontekst: textscripts.oldmanhouse_urn5:line:75
+      linia: 75
+      sekcja_skryptu: talk2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep talking
+      pl: Rozmawiaj dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id017
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn5:line:76
+      linia: 76
+      sekcja_skryptu: talk2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: talk3
+    wpisy:
+    - id: sol_88c87180f212011ea244
+      kontekst: textscripts.oldmanhouse_urn5:line:80
+      linia: 80
+      sekcja_skryptu: talk3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, uh... well. As ya were, then.
+      pl: No dobrze. Wracaj do zajęć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_62531873d677708b3fd6
+      kontekst: textscripts.oldmanhouse_urn5:line:81
+      linia: 81
+      sekcja_skryptu: talk3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I could use some smokes, Cap'm.
+      pl: Przydałyby się fajki, kapitanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9a1fdd1ed5e49d8a709e
+      kontekst: textscripts.oldmanhouse_urn5:line:82
+      linia: 82
+      sekcja_skryptu: talk3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What?
+      pl: Co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e3737589a9e8d513131e
+      kontekst: textscripts.oldmanhouse_urn5:line:83
+      linia: 83
+      sekcja_skryptu: talk3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Smokes.
+      pl: Fajki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cdc0fb3d4e8b1abb5414
+      kontekst: textscripts.oldmanhouse_urn5:line:84
+      linia: 84
+      sekcja_skryptu: talk3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Smokes? As in cigarettes?
+      pl: Fajki? Papierosy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk4
+    wpisy:
+    - id: sol_45f6a2795de7d1ef8b3e
+      kontekst: textscripts.oldmanhouse_urn5:line:89
+      linia: 89
+      sekcja_skryptu: talk4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aye.
+      pl: Tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_628c5e3d3d909fd0dae6
+      kontekst: textscripts.oldmanhouse_urn5:line:90
+      linia: 90
+      sekcja_skryptu: talk4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What does an... urn... want with cigarettes? Arr?
+      pl: Po co... urnie... papierosy? Arr?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a662e39fc36402e8a5c
+      kontekst: textscripts.oldmanhouse_urn5:line:92
+      linia: 92
+      sekcja_skryptu: talk4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, all right then.
+      pl: No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4bdfa49d0005539e97a1
+      kontekst: textscripts.oldmanhouse_urn5:line:93
+      linia: 93
+      sekcja_skryptu: talk4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Just leave them on the table like usual, please.
+      pl: Po prostu zostaw je na stole, jak zwykle, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_952796f63cb17b0a7a1e
+      kontekst: textscripts.oldmanhouse_urn5:line:95
+      linia: 95
+      sekcja_skryptu: talk4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yarr.
+      pl: Arr.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id018
+  - etykieta: waiting
+    wpisy:
+    - id: sol_335b2218d2399c8c3a8c
+      kontekst: textscripts.oldmanhouse_urn5:line:100
+      linia: 100
+      sekcja_skryptu: waiting
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yarr there, sailor.
+      pl: Arr, marynarzu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2cfc25ca61e426516898
+      kontekst: textscripts.oldmanhouse_urn5:line:101
+      linia: 101
+      sekcja_skryptu: waiting
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Yarr, Cap''m. Any word on those smokes?'
+      pl: '...Arr, kapitanie. Co z fajkami?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1254dc12bd0a9a987170
+      kontekst: textscripts.oldmanhouse_urn5:line:102
+      linia: 102
+      sekcja_skryptu: waiting
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, your smokes. Right. Aren't you worried about getting the ashes mixed up? Um, arr?
+      pl: Och, twoje fajki. No tak. Nie martwisz się, że popioły ci się pomieszają? Eee, arr?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a21cda4495a7d5b09fff
+      kontekst: textscripts.oldmanhouse_urn5:line:103
+      linia: 103
+      sekcja_skryptu: waiting
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Just leave 'em on the table there if ya please, Cap'm.
+      pl: Zostaw je tam na stole, jeśli łaska, kapitanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn5:line:104
+      linia: 104
+      sekcja_skryptu: waiting
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: delivered
+    wpisy:
+    - id: sol_4b96e8a6f0969ac83a30
+      kontekst: textscripts.oldmanhouse_urn5:line:109
+      linia: 109
+      sekcja_skryptu: delivered
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How goes it, sailor?
+      pl: Jak leci, marynarzu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a65bb98ccb620b6f80af
+      kontekst: textscripts.oldmanhouse_urn5:line:111
+      linia: 111
+      sekcja_skryptu: delivered
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um... yarr?
+      pl: Eee... arr?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c3ef7d3057e86133ab37
+      kontekst: textscripts.oldmanhouse_urn5:line:112
+      linia: 112
+      sekcja_skryptu: delivered
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Goin' fine, cap'm. Thanks fer th' smokes.
+      pl: Dobrze, kapitanie. Dzięki za fajki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2f47d82455209e41f39a
+      kontekst: textscripts.oldmanhouse_urn5:line:113
+      linia: 113
+      sekcja_skryptu: delivered
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure thing.
+      pl: Nie ma sprawy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.oldmanhouse_urn5:line:116
+      linia: 116
+      sekcja_skryptu: delivered
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+- kolejnosc_w_danych_gry: 5322
+  skrypt: autoscript__oldmanhouse_secretroom__trash1__popup
+  pomieszczenie:
+    id: oldmanhouse_secretroom
+    nazwa_en: Captain Durch's House (Secret Room)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fb6ac6bfe9c6ff338906
+      kontekst: textscripts.autoscript__oldmanhouse_secretroom__trash1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe this guy thinks it's treasure, but it looks like trash to you.
+      pl: Może ten gość uważa to za skarb, ale dla ciebie wygląda jak śmieci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5323
+  skrypt: autoscript__oldmanhouse_secretroom__trash2__popup
+  pomieszczenie:
+    id: oldmanhouse_secretroom
+    nazwa_en: Captain Durch's House (Secret Room)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b2a6825c0520839e85cc
+      kontekst: textscripts.autoscript__oldmanhouse_secretroom__trash2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You give a respectful salute to all these dead soldiers.
+      pl: Z szacunkiem salutujesz wszystkim tym poległym… butelkom.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2753
+  skrypt: oldmanhouse_thief
+  pomieszczenie:
+    id: oldmanhouse_secretroom
+    nazwa_en: Captain Durch's House (Secret Room)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 35
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_10630293e81df9191b3b
+      kontekst: textscripts.oldmanhouse_thief:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey! What are you doing in... um.
+      pl: Hej! Co robisz w... eee.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a403c343d3951ed35ee8
+      kontekst: textscripts.oldmanhouse_thief:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Were you seriously about to ask <i>me</i> what <i>I'm</i> doing in here?
+      pl: Naprawdę chciałeś zapytać <i>mnie</i>, co <i>ja</i> tu robię?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c4a4bef1495f22bc354c
+      kontekst: textscripts.oldmanhouse_thief:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, even as I was saying it, it sounded stupid. How did you find me?
+      pl: Tak, już podczas mówienia brzmiało głupio. Jak mnie znalazłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba262a63a7c780179cd4
+      kontekst: textscripts.oldmanhouse_thief:line:9
+      linia: 9
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I hid and watched when you came out for your smokes.
+      pl: Ukryłem się i patrzyłem, jak wychodziłeś po papierosy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a0d9e135030b137dc6a
+      kontekst: textscripts.oldmanhouse_thief:line:10
+      linia: 10
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ohh, that was you, huh? I thought the Cap'm's voice didn't sound quite right.
+      pl: Ooo, więc to byłeś ty, tak? Zdawało mi się, że głos kapitana brzmi jakoś nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_193ab9a41c218a4017dc
+      kontekst: textscripts.oldmanhouse_thief:line:11
+      linia: 11
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So what's the deal?
+      pl: O co chodzi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_ae9078c45e7ae591236c
+      kontekst: textscripts.oldmanhouse_thief:line:16
+      linia: 16
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, it's basically just what it looks like.
+      pl: W zasadzie wszystko jest takie, jak wygląda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9c230eb8c02bdcba8fc3
+      kontekst: textscripts.oldmanhouse_thief:line:17
+      linia: 17
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It looks like you're hiding in this old man's house to rob him while he sleeps.
+      pl: Wygląda, jakbyś ukrywał się w domu starca, żeby obrabować go podczas snu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_98d7ab1a79c18992321e
+      kontekst: textscripts.oldmanhouse_thief:line:18
+      linia: 18
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: In that case, it's not at all what it looks like.
+      pl: W takim razie nic nie jest takie, jak wygląda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0f418dff9ca4f326af5a
+      kontekst: textscripts.oldmanhouse_thief:line:19
+      linia: 19
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm listening.
+      pl: Słucham.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fab66ad7fb6ae1e402ec
+      kontekst: textscripts.oldmanhouse_thief:line:20
+      linia: 20
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'll admit, at first I was planning on robbing him. I figured an old sea captain must have a secret treasure, right?
+      pl: Przyznaję, na początku planowałem go okraść. Pomyślałem, że stary kapitan żeglugi musi mieć jakiś ukryty skarb, nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c674be3fd05fd4970f5b
+      kontekst: textscripts.oldmanhouse_thief:line:21
+      linia: 21
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: He wasn't a <i>pirate!</i>
+      pl: Nie był <i>piratem!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: sol_cd202b13b5c79eece04c
+      kontekst: textscripts.oldmanhouse_thief:line:26
+      linia: 26
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, it turned out he's just a lonely old man with nobody to talk to. Except, well, his old sailing buddies. So I started hanging out
+        back here and chatting with him through the wall.
+      pl: Nie, okazało się, że to po prostu samotny staruszek, który nie ma z kim rozmawiać. No, poza dawnymi kompanami z pokładu. Zacząłem więc przesiadywać tu z tyłu i gadać z nim przez ścianę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_928c35c2157257c12052
+      kontekst: textscripts.oldmanhouse_thief:line:27
+      linia: 27
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: He didn't find it strange?
+      pl: Nie wydało mu się to dziwne?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b41a0e986c8c75d3c0da
+      kontekst: textscripts.oldmanhouse_thief:line:28
+      linia: 28
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He was a little spooked at first, but once I'd gotten a handle on how the different voices should sound and learned enough to keep up
+        with the anecdotes, he relaxed. It's nice to have someone to talk to, even if the situation is kind of weird, right?
+      pl: Z początku trochę się spłoszył, ale kiedy już wyczułem, jak powinny brzmieć poszczególne głosy, i nauczyłem się dość, żeby nadążać za anegdotami, rozluźnił się. Miło mieć z kim porozmawiać, nawet jeśli sytuacja jest trochę dziwna, nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a0d5502bd77bf2f7691
+      kontekst: textscripts.oldmanhouse_thief:line:29
+      linia: 29
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So that's all? You do this just because you feel sorry for him?
+      pl: To wszystko? Robisz to tylko dlatego, że ci go żal?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: sol_7500084e183ccf9b82fe
+      kontekst: textscripts.oldmanhouse_thief:line:34
+      linia: 34
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, well, I won't pretend I don't like having somewhere to stay rent-free. And his pension from the shipping company is pretty good,
+        and his short-term memory is kinda bad, so he doesn't pay much attention to the fact that he's buying food for two people.
+      pl: No tak, ale nie będę udawał, że nie odpowiada mi miejsce do spania bez czynszu. A emeryturę z firmy żeglugowej ma całkiem niezłą i kiepską pamięć krótkotrwałą, więc nie zwraca specjalnie uwagi na to, że kupuje jedzenie dla dwóch osób.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a11d0c70d3c9a41591c3
+      kontekst: textscripts.oldmanhouse_thief:line:35
+      linia: 35
+      sekcja_skryptu: four
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9fedc97ffc483ac6c772
+      kontekst: textscripts.oldmanhouse_thief:line:36
+      linia: 36
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He's a good guy, and it's an easy life. Don't screw it up for us, okay?
+      pl: To dobry człowiek, a życie tu jest łatwe. Nie zepsuj nam tego, dobra?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0b5508cbf5d83fe83b07
+      kontekst: textscripts.oldmanhouse_thief:line:37
+      linia: 37
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Wait, what is it to you, anyway?'
+      pl: '...Chwila, co cię to obchodzi?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0bcea846e699440e573f
+      kontekst: textscripts.oldmanhouse_thief:line:38
+      linia: 38
+      sekcja_skryptu: four
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm here about the stolen urn.
+      pl: Chodzi o skradzioną urnę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: sol_f922a0961ce3ca3d272f
+      kontekst: textscripts.oldmanhouse_thief:line:43
+      linia: 43
+      sekcja_skryptu: five
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Yeah, that was probably a mistake. He'd mentioned the fifth sailor a few times, so I thought he might like to have the whole crew
+        together, you know? So I lifted a random urn from that little cathedral, to fill the spot. It seemed like a good idea at the time.
+      pl: Och. No tak, to był chyba błąd. Kilka razy wspominał o piątym marynarzu, więc pomyślałem, że może chciałby mieć całą załogę w komplecie, wiesz? Zwinąłem więc przypadkową urnę z tej małej katedry, żeby zapełnić puste miejsce. Wtedy wydawało mi się to dobrym pomysłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d08ef3e03a4f2624c51f
+      kontekst: textscripts.oldmanhouse_thief:line:44
+      linia: 44
+      sekcja_skryptu: five
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The vicar needs it back.
+      pl: Wikariusz chce ją odzyskać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_02a1243b8b729ffca835
+      kontekst: textscripts.oldmanhouse_thief:line:45
+      linia: 45
+      sekcja_skryptu: five
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay. It'll be weird if it just vanishes, though. Can you swap it for another one? The Cap'm doesn't open them, so he won't notice if
+        there's no ashes in it.
+      pl: Dobra. Ale będzie dziwnie, jeśli po prostu zniknie. Możesz ją podmienić na inną? Kapitan ich nie otwiera, więc nie zauważy, że w środku nie ma prochów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c89e86f261ac8cc1b696
+      kontekst: textscripts.oldmanhouse_thief:line:48
+      linia: 48
+      sekcja_skryptu: five
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, I'll see what I can do.
+      pl: Dobrze, coś wymyślę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: waiting
+    wpisy:
+    - id: sol_12e8fbf94a4626c1b253
+      kontekst: textscripts.oldmanhouse_thief:line:54
+      linia: 54
+      sekcja_skryptu: waiting
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you switch out that fifth urn yet?
+      pl: Podmieniłeś już piątą urnę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: switched
+    wpisy:
+    - id: sol_74b43efa50ae79ca0263
+      kontekst: textscripts.oldmanhouse_thief:line:62
+      linia: 62
+      sekcja_skryptu: switched
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great. So we're square, then? Everything's jake?
+      pl: Świetnie. Jesteśmy kwita? Wszystko klawo?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7f965250262072a5f291
+      kontekst: textscripts.oldmanhouse_thief:line:64
+      linia: 64
+      sekcja_skryptu: switched
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, no problem.
+      pl: Jasne, nie ma sprawy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_245593b4983d5dba9104
+      kontekst: textscripts.oldmanhouse_thief:line:65
+      linia: 65
+      sekcja_skryptu: switched
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, I suppose.
+      pl: Chyba tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b75bfa1c871fa76a8d0
+      kontekst: textscripts.oldmanhouse_thief:line:66
+      linia: 66
+      sekcja_skryptu: switched
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Look, this is really shady.
+      pl: To naprawdę podejrzane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: honest
+    wpisy:
+    - id: sol_de2b062c255c07a913d6
+      kontekst: textscripts.oldmanhouse_thief:line:70
+      linia: 70
+      sekcja_skryptu: honest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Look, this is really shady. And weird. You should just be honest with the guy.
+      pl: To podejrzane i dziwne. Powinieneś powiedzieć mu prawdę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e67ea367d4de743a27ea
+      kontekst: textscripts.oldmanhouse_thief:line:71
+      linia: 71
+      sekcja_skryptu: honest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Yeah, I guess you''re right. I gotta build up to it, though. If I just pop out of the bookshelf at him, he''s liable to have a heart
+        attack. Or try to kill me.'
+      pl: ...Tak, chyba masz rację. Muszę tylko powoli do tego dojść. Jeśli po prostu wyskoczę na niego z regału, gotów dostać zawału. Albo spróbować mnie zabić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5c0b37b2c81020148bc0
+      kontekst: textscripts.oldmanhouse_thief:line:72
+      linia: 72
+      sekcja_skryptu: honest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right. Well, good luck.
+      pl: Dobrze. Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftermath
+    wpisy:
+    - id: sol_d6ff6bc64c47f08cd038
+      kontekst: textscripts.oldmanhouse_thief:line:77
+      linia: 77
+      sekcja_skryptu: aftermath
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks for not blowing my cover, it means a lot to me. To the Cap'm too, even if he doesn't exactly know it.
+      pl: Dzięki za zachowanie tajemnicy. Wiele to znaczy dla mnie i dla kapitana, nawet jeśli o tym nie wie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8cd7a8648d596dd6007a
+      kontekst: textscripts.oldmanhouse_thief:line:78
+      linia: 78
+      sekcja_skryptu: aftermath
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh huh.
+      pl: Mhm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

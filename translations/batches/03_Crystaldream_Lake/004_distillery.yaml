@@ -1,0 +1,2066 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: distillery
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 19
+liczba_wpisow: 117
+sceny:
+- kolejnosc_w_danych_gry: 1220
+  skrypt: distillery_door
+  pomieszczenie:
+    id: distillery
+    nazwa_en: Grandpa Joe's Distillery
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a76ed8d2650843a084a3
+      kontekst: textscripts.distillery_door:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is locked with a government-issue combination lock. Must be a Prohibition thing.
+      pl: Drzwi są zamknięte na rządowy zamek szyfrowy. Pewnie chodzi o prohibicję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cd65ccf4d9a9d21418d4
+      kontekst: textscripts.distillery_door:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [mob combination]
+      pl: Otwórz [mafijny szyfr]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crack
+    wpisy:
+    - id: sol_a2134215bf7b6cfc7522
+      kontekst: textscripts.distillery_door:line:20
+      linia: 20
+      sekcja_skryptu: crack
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1223
+  skrypt: distillery_exitpopup
+  pomieszczenie:
+    id: distillery
+    nazwa_en: Grandpa Joe's Distillery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3828963405fe0abac7e6
+      kontekst: textscripts.distillery_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What even is a tillery? And why should you care about dis one?
+      pl: Co tu właściwie destylują? I czemu masz się z tym użerać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbbf201e2133186bec52
+      kontekst: textscripts.distillery_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ugh, terrible, just go
+      pl: Uch, okropne, po prostu idź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1231
+  skrypt: distillery_outsideguard
+  pomieszczenie:
+    id: distillery
+    nazwa_en: Grandpa Joe's Distillery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 62
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_05d7f23c48a2feb1ff76
+      kontekst: textscripts.distillery_outsideguard:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A spooky-looking lady is guarding the front of the old distillery.
+      pl: Przed starą destylarnią stoi upiornie wyglądająca kobieta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a26de3c07dfc4689a057
+      kontekst: textscripts.distillery_outsideguard:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Approach her
+      pl: Podejdź do niej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_cd344d652e76297cc230
+      kontekst: textscripts.distillery_outsideguard:line:20
+      linia: 20
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She glares at you as you approach, her eyes flashing blood-red.
+      pl: Gdy podchodzisz, mierzy cię wzrokiem, a jej oczy błyskają krwistą czerwienią.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_88dd420de4459a82cb3b
+      kontekst: textscripts.distillery_outsideguard:line:22
+      linia: 22
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Begone from zis place! You have no business here!
+      pl: Prrrecz z tego miejsca! Nie masz tu nic do roboty!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+    - id: sol_f30e03c08701b728952a
+      kontekst: textscripts.distillery_outsideguard:line:24
+      linia: 24
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I do actually, and I'd like for you to invite me inside.
+      pl: Właściwie mam i chcę, żebyś zaprosiła mnie do środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a7e4b6d109aa884fa782
+      kontekst: textscripts.distillery_outsideguard:line:25
+      linia: 25
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Vhat? No!
+      pl: Co? Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+    - id: sol_883782b9cdf20d50d4ef
+      kontekst: textscripts.distillery_outsideguard:line:26
+      linia: 26
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Don't you have to? I thought that was one of the big vampire things, that if someone asks you to invite them inside, you have to do
+        it.
+      pl: 'Nie musisz? Myślałem, że to jedna z tych ważnych wampirzych zasad: jeśli ktoś poprosi o zaproszenie do środka, trzeba go zaprosić.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_070ca653fdbfba15a6d5
+      kontekst: textscripts.distillery_outsideguard:line:27
+      linia: 27
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Zat is nearly ze most opposite of true zat it is possible for it to be!'
+      pl: ...To jest niemal najbardziej przeciwny prrrawdzie fałsz, jaki da się wypowiedzieć!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_5ef22bbbfa3796b7cf55
+      kontekst: textscripts.distillery_outsideguard:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh. Darn.
+      pl: Och. Szkoda.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+    - id: sol_cd344d652e76297cc230
+      kontekst: textscripts.distillery_outsideguard:line:30
+      linia: 30
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She glares at you as you approach, her eyes flashing blood-red.
+      pl: Gdy podchodzisz, mierzy cię wzrokiem, a jej oczy błyskają krwistą czerwienią.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_88dd420de4459a82cb3b
+      kontekst: textscripts.distillery_outsideguard:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Begone from zis place! You have no business here!
+      pl: Prrrecz z tego miejsca! Nie masz tu nic do roboty!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_88d28bb56dbdfd824ed2
+      kontekst: textscripts.distillery_outsideguard:line:34
+      linia: 34
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's true, but I'm the naturally curious sort, and I'd like for you to invite me inside.
+      pl: To prawda, ale mam z natury ciekawską duszę i chcę, żebyś zaprosiła mnie do środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a7e4b6d109aa884fa782
+      kontekst: textscripts.distillery_outsideguard:line:35
+      linia: 35
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Vhat? No!
+      pl: Co? Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_883782b9cdf20d50d4ef
+      kontekst: textscripts.distillery_outsideguard:line:36
+      linia: 36
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Don't you have to? I thought that was one of the big vampire things, that if someone asks you to invite them inside, you have to do
+        it.
+      pl: 'Nie musisz? Myślałem, że to jedna z tych ważnych wampirzych zasad: jeśli ktoś poprosi o zaproszenie do środka, trzeba go zaprosić.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_070ca653fdbfba15a6d5
+      kontekst: textscripts.distillery_outsideguard:line:37
+      linia: 37
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Zat is nearly ze most opposite of true zat it is possible for it to be!'
+      pl: ...To jest niemal najbardziej przeciwny prrrawdzie fałsz, jaki da się wypowiedzieć!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_5ef22bbbfa3796b7cf55
+      kontekst: textscripts.distillery_outsideguard:line:38
+      linia: 38
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh. Darn.
+      pl: Och. Szkoda.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_cd344d652e76297cc230
+      kontekst: textscripts.distillery_outsideguard:line:41
+      linia: 41
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She glares at you as you approach, her eyes flashing blood-red.
+      pl: Gdy podchodzisz, mierzy cię wzrokiem, a jej oczy błyskają krwistą czerwienią.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_88dd420de4459a82cb3b
+      kontekst: textscripts.distillery_outsideguard:line:43
+      linia: 43
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Begone from zis place! You have no business here!
+      pl: Prrrecz z tego miejsca! Nie masz tu nic do roboty!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_9d1b22c1c2bed7fbc17e
+      kontekst: textscripts.distillery_outsideguard:line:45
+      linia: 45
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Not really, no, I'm just the curious sort. How'd you make your eyes do that?
+      pl: Właściwie nie, po prostu jestem ciekawski. Jak robisz tę sztuczkę z oczami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b7e9e671a6c60076660e
+      kontekst: textscripts.distillery_outsideguard:line:46
+      linia: 46
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Do vhat?
+      pl: Jaką sztuczkę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_316896bc61eb7cb69c48
+      kontekst: textscripts.distillery_outsideguard:line:47
+      linia: 47
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Also I like your not-quite Romanian accent.
+      pl: Podoba mi się też twój nie całkiem rumuński akcent.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3da2bf7056a439a6a2b0
+      kontekst: textscripts.distillery_outsideguard:line:48
+      linia: 48
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Uh, sank you?
+      pl: Eee, dziękuję?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_108360e82f330c8fc373
+      kontekst: textscripts.distillery_outsideguard:line:49
+      linia: 49
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's with those huge vampire fangs, though?
+      pl: A o co chodzi z tymi ogromnymi wampirzymi kłami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19a2bb47fa9d614ee12f
+      kontekst: textscripts.distillery_outsideguard:line:50
+      linia: 50
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Wait a minute...'
+      pl: '...Chwileczkę...'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_11aea72cc9270ef2985c
+      kontekst: textscripts.distillery_outsideguard:line:51
+      linia: 51
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are you a <i>vampire?</i>
+      pl: Jesteś <i>wampirem?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: introb
+    wpisy:
+    - id: sol_8bd65ad48fb9f740b28d
+      kontekst: textscripts.distillery_outsideguard:line:58
+      linia: 58
+      sekcja_skryptu: introb
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...I feel like, if I said no, you''d actually believe me.'
+      pl: ...Mam wrrrażenie, że gdybym powiedziała „nie”, naprawdę byś mi uwierzył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_51dddb2b5ac5d90eba52
+      kontekst: textscripts.distillery_outsideguard:line:59
+      linia: 59
+      sekcja_skryptu: introb
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, not anymore!
+      pl: Już nie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e45d7a458c0ed88fff06
+      kontekst: textscripts.distillery_outsideguard:line:60
+      linia: 60
+      sekcja_skryptu: introb
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>sigh</i> Okay zen, yes, I <i>am</i> a vampire.
+      pl: <i>Ech...</i> Dobrrrze, więc tak, <i>jestem</i> wampirem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1291cbd0570c80739638
+      kontekst: textscripts.distillery_outsideguard:line:61
+      linia: 61
+      sekcja_skryptu: introb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gosh!
+      pl: Ojej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_65f93cbc5af9811b2f23
+      kontekst: textscripts.distillery_outsideguard:line:71
+      linia: 71
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Leave zis place at vonce, or the consequences vill be <i>most dire.</i>
+      pl: Opuść to miejsce natychmiast, bo konsekwencje będą <i>strrraszliwe.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7ab261d5ad05e366a752
+      kontekst: textscripts.distillery_outsideguard:line:73
+      linia: 73
+      sekcja_skryptu: hub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aw c'mon, don't be like that. What's eating you?
+      pl: No weź, nie zachowuj się tak. Co cię gryzie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_10ce08b773b8cb9915b5
+      kontekst: textscripts.distillery_outsideguard:line:74
+      linia: 74
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'If you do not leave, ze question vill be: vat is eating <i>you?</i> And ze answer vill be... <i>me!</i>'
+      pl: 'Jeśli nie odejdziesz, pytanie będzie brrrzmiało: kto grrryzie <i>ciebie?</i> Odpowiedź: <i>ja!</i>'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a63ca2f66fb2df632ea
+      kontekst: textscripts.distillery_outsideguard:line:75
+      linia: 75
+      sekcja_skryptu: hub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha, that was pretty good.
+      pl: Ha, ha, całkiem niezłe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_50cb6cedcafbcf950f4c
+      kontekst: textscripts.distillery_outsideguard:line:76
+      linia: 76
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha yeah, you really set me up for zat one.
+      pl: Ha, ha, tak, świetnie mi to podłożyłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ec5d9bfc722dd36e2cdf
+      kontekst: textscripts.distillery_outsideguard:line:87
+      linia: 87
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do as she says [leave]
+      pl: Zrób, co mówi [odejdź]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fedora
+    wpisy:
+    - id: sol_b692d2629cf3621d1642
+      kontekst: textscripts.distillery_outsideguard:line:93
+      linia: 93
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, vhat? Vhat is zis zat you are sayin<i>nnnnnnngh!</i>
+      pl: Prrrzepraszam, co? Co ty takiego mó<i>óóóóóóówisz!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4eb0429c98f25fb80219
+      kontekst: textscripts.distillery_outsideguard:line:94
+      linia: 94
+      sekcja_skryptu: fedora
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She collapses to her knees with her head in her hands.
+      pl: Pada na kolana, trzymając głowę w dłoniach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cd967944ed4d2aa8c3ac
+      kontekst: textscripts.distillery_outsideguard:line:95
+      linia: 95
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Gah! Vhat... vhat did you <i>do?</i>
+      pl: Ach! Co... co mi <i>zrrrobiłeś?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2fbbb0348d07f1b535e8
+      kontekst: textscripts.distillery_outsideguard:line:96
+      linia: 96
+      sekcja_skryptu: fedora
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I honestly have no idea.
+      pl: Szczerze mówiąc, nie mam pojęcia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3a05b687c6cc886b4f7e
+      kontekst: textscripts.distillery_outsideguard:line:97
+      linia: 97
+      sekcja_skryptu: fedora
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She crawls back into the distillery, moaning in pain.
+      pl: Jęcząc z bólu, wczołguje się z powrotem do destylarni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5df73758960822f5ad7a
+      kontekst: textscripts.distillery_outsideguard:line:99
+      linia: 99
+      sekcja_skryptu: fedora
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sorry!
+      pl: Przepraszam!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: braggo
+    wpisy:
+    - id: sol_f77135b8ec08f9a7ef3c
+      kontekst: textscripts.distillery_outsideguard:line:104
+      linia: 104
+      sekcja_skryptu: braggo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hah! You think you can beat me? My skin's so tough, you'll break your teeth on my neck! You puny vampires can't even handle a little
+        bit of sunlight!
+      pl: Ha! Myślisz, że możesz mnie pokonać? Mam tak twardą skórę, że połamiesz sobie zęby na mojej szyi! Wy, marne wampiry, nie wytrzymujecie
+        nawet odrobiny słońca!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e1348554eb5ac8d25457
+      kontekst: textscripts.distillery_outsideguard:line:105
+      linia: 105
+      sekcja_skryptu: braggo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sunlight? Oh jeez! I completely lost track of ze time!
+      pl: Słońca? O rrrany! Zupełnie straciłam rachubę czasu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d8b2fe064b11d6b6f160
+      kontekst: textscripts.distillery_outsideguard:line:106
+      linia: 106
+      sekcja_skryptu: braggo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She looks up at the midday sun, and her hair bursts into flames. With a screech she turns into a bat (which is still on fire), and escapes
+        into a hole in the side of the building.
+      pl: Spogląda na południowe słońce, a jej włosy stają w płomieniach. Z piskiem zmienia się w nietoperza (który nadal płonie) i ucieka do
+        dziury w ścianie budynku.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+    - id: sol_5c07f5c566b3bd9a80b3
+      kontekst: textscripts.distillery_outsideguard:line:108
+      linia: 108
+      sekcja_skryptu: braggo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh. Okay then.
+      pl: Hm. No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id008 []
+  - etykieta: bewitcho
+    wpisy:
+    - id: sol_dcefddb04dff2711b750
+      kontekst: textscripts.distillery_outsideguard:line:113
+      linia: 113
+      sekcja_skryptu: bewitcho
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You cannot frighten me, foul creature! For your power issues from the darkness of the night, and I...
+      pl: Nie przestraszysz mnie, plugawa istoto! Twoja moc pochodzi bowiem z mroku nocy, a ja...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eef6a47695080d2b25f4
+      kontekst: textscripts.distillery_outsideguard:line:114
+      linia: 114
+      sekcja_skryptu: bewitcho
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ze night? Oh jeez! I completely lost track of ze time!
+      pl: Nocy? O rrrany! Zupełnie straciłam rachubę czasu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d8b2fe064b11d6b6f160
+      kontekst: textscripts.distillery_outsideguard:line:115
+      linia: 115
+      sekcja_skryptu: bewitcho
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She looks up at the midday sun, and her hair bursts into flames. With a screech she turns into a bat (which is still on fire), and escapes
+        into a hole in the side of the building.
+      pl: Spogląda na południowe słońce, a jej włosy stają w płomieniach. Z piskiem zmienia się w nietoperza (który nadal płonie) i ucieka do
+        dziury w ścianie budynku.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+    - id: sol_5c07f5c566b3bd9a80b3
+      kontekst: textscripts.distillery_outsideguard:line:117
+      linia: 117
+      sekcja_skryptu: bewitcho
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh. Okay then.
+      pl: Hm. No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+  - etykieta: bamboozlo
+    wpisy:
+    - id: sol_00de0abc5064e92806bb
+      kontekst: textscripts.distillery_outsideguard:line:122
+      linia: 122
+      sekcja_skryptu: bamboozlo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, okay, I'll go. I have an appointment anyway. Oh hey, do you have the time?
+      pl: Dobrze, dobrze, pójdę. I tak mam spotkanie. Hej, masz może zegarek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_da8ab0d3303ebbde31ef
+      kontekst: textscripts.distillery_outsideguard:line:123
+      linia: 123
+      sekcja_skryptu: bamboozlo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I do not vear a vatch, but um...
+      pl: Nie noszę zegarka, ale yyy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f418a5f4d91248bf0c64
+      kontekst: textscripts.distillery_outsideguard:line:124
+      linia: 124
+      sekcja_skryptu: bamboozlo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She shades her eyes with one arm and looks up at the midday sun.
+      pl: Osłania oczy ramieniem i patrzy na południowe słońce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d4057902f56777fc8604
+      kontekst: textscripts.distillery_outsideguard:line:125
+      linia: 125
+      sekcja_skryptu: bamboozlo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Probably about tvelve, tvelve-sirty? <i>Aaagh!</i>
+      pl: Pewnie około dvunastej, może dvunastej trzydzieści? <i>Aaach!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4b3c58d2aa8e97f61e18
+      kontekst: textscripts.distillery_outsideguard:line:126
+      linia: 126
+      sekcja_skryptu: bamboozlo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her hair bursts into flames. With a screech she turns into a bat (which is still on fire), and escapes into a hole in the side of the
+        building.
+      pl: Jej włosy stają w płomieniach. Z piskiem zmienia się w nietoperza (który nadal płonie) i ucieka do dziury w ścianie budynku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5c07f5c566b3bd9a80b3
+      kontekst: textscripts.distillery_outsideguard:line:128
+      linia: 128
+      sekcja_skryptu: bamboozlo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh. Okay then.
+      pl: Hm. No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+  - etykieta: fight
+    wpisy:
+    - id: sol_a2a3a2f228a85920f5fe
+      kontekst: textscripts.distillery_outsideguard:line:132
+      linia: 132
+      sekcja_skryptu: fight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"Heck, she's just one vampire," you think to yourself as you crack your knuckles and/or ready your weapon. "How hard could this be?\"
+      pl: „Ech, to tylko jedna wampirzyca” — myślisz, strzelając knykciami lub szykując broń. „Jak trudne może to być?”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1db2d0a2fdfd38e37965
+      kontekst: textscripts.distillery_outsideguard:line:133
+      linia: 133
+      sekcja_skryptu: fight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As if she heard your thoughts, she snaps her fingers and a couple of slavering, not-quite-human creatures emerge from the shadows behind
+        her.
+      pl: Jakby słyszała twoje myśli, pstryka palcami, a z mroku za jej plecami wyłaniają się dwie śliniące, nie całkiem ludzkie istoty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2923e9b36f26d3efdee4
+      kontekst: textscripts.distillery_outsideguard:line:134
+      linia: 134
+      sekcja_skryptu: fight
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, great [fight]
+      pl: Och, świetnie [walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_e35916e4a363631698a4
+      kontekst: textscripts.distillery_outsideguard:line:147
+      linia: 147
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Unfortunately, there's almost certainly more of them inside.
+      pl: Wygrałeś! Niestety w środku niemal na pewno jest ich więcej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.distillery_outsideguard:line:151
+      linia: 151
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id010 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_46efeb71c8ae507c4c9e
+      kontekst: textscripts.distillery_outsideguard:line:156
+      linia: 156
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dang, she was tougher than she looked. Or rather, she and her two friends were tougher than she looked.
+      pl: Kurczę, była twardsza, niż wyglądała. A raczej ona i jej dwoje przyjaciół okazali się twardsi, niż ona wyglądała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.distillery_outsideguard:line:158
+      linia: 158
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id009 []
+- kolejnosc_w_danych_gry: 4977
+  skrypt: autoscript__distillery_inside__shelf2__popup
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dc2d4eaff84b296cd463
+      kontekst: textscripts.autoscript__distillery_inside__shelf2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I guess this is where Grandpa Joe kept all of his broken glass.
+      pl: To chyba tutaj dziadek Joe trzymał całe potłuczone szkło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4978
+  skrypt: autoscript__distillery_inside__shelf3__popup
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1bb3d8c471258ae66ae9
+      kontekst: textscripts.autoscript__distillery_inside__shelf3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The booze that used to be stored here is now in Booze Heaven.
+      pl: Alkohol, który kiedyś tu stał, jest teraz w Alkoholowym Niebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4979
+  skrypt: autoscript__distillery_inside__stash__popup
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_58b633201d70a9edd075
+      kontekst: textscripts.autoscript__distillery_inside__stash__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sofa is soaking wet. One of those mist vampires must have been sitting here.
+      pl: Ta sofa jest przemoczona. Musiał tu siedzieć jeden z tych mglistych wampirów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4980
+  skrypt: autoscript__distillery_inside__vat3__popup
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_01fd5c556f7c861caf7b
+      kontekst: textscripts.autoscript__distillery_inside__vat3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"This vat intentionally left empty.\"
+      pl: \"Tę kadź celowo pozostawiono pustą.\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4981
+  skrypt: autoscript__distillery_inside__vat4__popup
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9e2e89c9001effbb65d0
+      kontekst: textscripts.autoscript__distillery_inside__vat4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"UNFRIENDLY VAT.  DO NOT USE.\"
+      pl: \"NIEPRZYJAZNA KADŹ. NIE UŻYWAĆ.\"
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1221
+  skrypt: distillery_drum
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dfba5090135b76939a16
+      kontekst: textscripts.distillery_drum:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This drum is almost certainly empty.
+      pl: Ta beczka jest prawie na pewno pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0c52a92adc213f1f389b
+      kontekst: textscripts.distillery_drum:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bang on it
+      pl: Uderz w nią
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_e897cb0982003b75c5c4
+      kontekst: textscripts.distillery_drum:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The drum emits a hollow, sober clang.
+      pl: Beczka wydaje pusty, trzeźwy brzęk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1224
+  skrypt: distillery_exitwindow
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cce1e3f428a816abbc43
+      kontekst: textscripts.distillery_exitwindow:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can feel a breeze here through a gap in the boards.
+      pl: Przez szczelinę między deskami czujesz powiew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askout
+    wpisy:
+    - id: sol_c5c165d282474dac49b1
+      kontekst: textscripts.distillery_exitwindow:line:13
+      linia: 13
+      sekcja_skryptu: askout
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Squeeze through the hole
+      pl: Przeciśnij się przez dziurę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1225
+  skrypt: distillery_fight
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: begin
+    wpisy:
+    - id: sol_0bbb1a51dc08c64e451a
+      kontekst: textscripts.distillery_fight:line:6
+      linia: 6
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are a bunch of vampires hanging out in here, and it probably shouldn't be a surprise that they've noticed you.
+      pl: W środku przesiaduje grupa wampirów i raczej nie powinno dziwić, że cię zauważyła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_90a5bb5dd3430c7f8eba
+      kontekst: textscripts.distillery_fight:line:9
+      linia: 9
+      sekcja_skryptu: begin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: \"That's @p|him,her,them@!" the door-guard says, pointing at you. "That's @p|him,her,them@ right there!\"
+      pl: „To @p|him,her,them@!” — mówi strażniczka, wskazując na ciebie. „To @p|him,her,them@, właśnie tutaj!”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|him,her,them@'
+      - '@p|him,her,them@'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_88d47b089db6adee7e26
+      kontekst: textscripts.distillery_fight:line:10
+      linia: 10
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, now it <i>definitely</i> shouldn't be a surprise.
+      pl: Dobrze, <i>teraz</i> zdecydowanie nie powinno to być zaskoczeniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_ba7a4cb9653dd8603ac7
+      kontekst: textscripts.distillery_fight:line:26
+      linia: 26
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Unfortunately, a bunch more vampires that were lounging around in the rear of the building are now getting up to see what all
+        the fuss is about.
+      pl: Wygrałeś! Niestety z tyłu budynku wstaje kolejna grupa wampirów, żeby sprawdzić, o co ten cały hałas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_87b5cbb7aaf019065e13
+      kontekst: textscripts.distillery_fight:line:33
+      linia: 33
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_b6f0502adc351bfba6b7
+      kontekst: textscripts.distillery_fight:line:38
+      linia: 38
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Since it's daylight outside, the vampires don't want to open the door to throw you out, so they just shove your battered carcass
+        into the far corner of the room.
+      pl: Przegrałeś. Ponieważ na zewnątrz jest dzień, wampiry nie chcą otwierać drzwi, żeby cię wyrzucić, więc wpychają twoje poturbowane truchło
+        do najdalszego kąta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.distillery_fight:line:43
+      linia: 43
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id009
+- kolejnosc_w_danych_gry: 1226
+  skrypt: distillery_fight2
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_425e10b22192f8ce06b1
+      kontekst: textscripts.distillery_fight2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A whole bunch of vampires are here, glaring at you with glowing red eyes and/or grinning at you toothily and/or just generally giving
+        off bad vibes.
+      pl: 'Jest tu cała masa wampirów: mierzą cię świecącymi czerwonymi oczami lub szczerzą zęby, lub po prostu roztaczają ogólnie paskudną aurę.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_62c0ff22f7ef54aac042
+      kontekst: textscripts.distillery_fight2:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! They should call you Dr. Van Helsing, after the character in that book who also killed a bunch of vampires!
+      pl: Wygrałeś! Powinni nazywać cię doktorem Van Helsingiem, na cześć bohatera tej książki, który również zabił mnóstwo wampirów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ca7261a154b6b282cbd8
+      kontekst: textscripts.distillery_fight2:line:15
+      linia: 15
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As far as you can tell, the place is cleared out now. That should satisfy Don Toblerone and his boss.
+      pl: O ile możesz stwierdzić, miejsce jest już oczyszczone. To powinno zadowolić Dona Toblerone i jego szefa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.distillery_fight2:line:23
+      linia: 23
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id010
+  - etykieta: lose
+    wpisy:
+    - id: sol_50f06f7b7c4b424df128
+      kontekst: textscripts.distillery_fight2:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. The vampires kick your unconsious body for a while, then dump you in a corner in case they get hungry later.
+      pl: Przegrałeś. Wampiry przez chwilę kopią twoje nieprzytomne ciało, a potem rzucają je w kąt na wypadek, gdyby później zrobiły się głodne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.distillery_fight2:line:30
+      linia: 30
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id009
+- kolejnosc_w_danych_gry: 1227
+  skrypt: distillery_floorbooze
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8cef15e38ec0b563e11c
+      kontekst: textscripts.distillery_floorbooze:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those vampires left a crate of booze on the floor.
+      pl: Wampiry zostawiły na podłodze skrzynkę alkoholu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.distillery_floorbooze:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz ją.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id011 []
+- kolejnosc_w_danych_gry: 1228
+  skrypt: distillery_garlicvat
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2711983590a8f27d4001
+      kontekst: textscripts.distillery_garlicvat:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a label on this vat that reads "GRANDPA JOE'S EXTRA-FANCY GARLIC SCHNAPPS."
+      pl: 'Etykieta na kadzi głosi: „WYJĄTKOWO WYKWINTNY SZNAPS CZOSNKOWY DZIADKA JOE”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e504b5a83dd8b18ffc8c
+      kontekst: textscripts.distillery_garlicvat:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, maybe it wasn't Prohibition that put this place out of business.
+      pl: Rany, może to nie prohibicja doprowadziła to miejsce do ruiny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: garlicblast
+    wpisy:
+    - id: sol_3d0731880c554a31e7af
+      kontekst: textscripts.distillery_garlicvat:line:19
+      linia: 19
+      sekcja_skryptu: garlicblast
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You crank open the valve and dump about twelve gallons of pure distilled garlic juice on the floor. Wow! Even with stench protection,
+        it's a nasal experience you won't soon forget.
+      pl: Odkręcasz zawór i wylewasz na podłogę około dwunastu galonów czystego, destylowanego soku z czosnku. Rany! Nawet z ochroną przed smrodem
+        twoje nozdrza długo tego nie zapomną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b25acbb8c64ad63de1d
+      kontekst: textscripts.distillery_garlicvat:line:28
+      linia: 28
+      sekcja_skryptu: garlicblast
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The vampires completely flip their collective shinola. Some of them turn into bats and fight each other to be the first out of the hole
+        in the wall. Some turn into mist and shoot out of cracks in the ceiling. A couple of them just kick the front door until the lock breaks
+        and run out of the place.
+      pl: Wampiry dostają zbiorowego fioła. Niektóre zmieniają się w nietoperze i walczą o pierwszeństwo do dziury w ścianie. Inne zmieniają się
+        w mgłę i wylatują szczelinami w suficie. Kilka po prostu kopie w drzwi frontowe, aż zamek pęka, po czym wybiega z budynku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf4f6f9beab31ae2da3a
+      kontekst: textscripts.distillery_garlicvat:line:34
+      linia: 34
+      sekcja_skryptu: garlicblast
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After that, you hear several screams as they realize it's still daytime outside.
+      pl: Chwilę później słyszysz kilka krzyków, gdy dociera do nich, że na zewnątrz wciąż jest dzień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f77e140c862cff4647c2
+      kontekst: textscripts.distillery_garlicvat:line:37
+      linia: 37
+      sekcja_skryptu: garlicblast
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That should satisfy Don Toblerone and his boss. Hopefully they won't mind the smell.
+      pl: To powinno zadowolić Dona Toblerone i jego szefa. Oby nie przeszkadzał im zapach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1116db7b71775b90a4ec
+      kontekst: textscripts.distillery_garlicvat:line:40
+      linia: 40
+      sekcja_skryptu: garlicblast
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1229
+  skrypt: distillery_hobocode
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_03c3ca48c501143aad27
+      kontekst: textscripts.distillery_hobocode:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: BE CAREFUL NOT TO DROP YOUR HANDKERCHIEF IN THIS BARREL.
+      pl: UWAŻAJ, ŻEBY NIE UPUŚCIĆ CHUSTECZKI DO TEJ BECZKI.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_735f995cfca78107e3ca
+      kontekst: textscripts.distillery_hobocode:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already translated this code.  It says $message$
+      pl: 'Ten kod już przetłumaczyłeś. Brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 20
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_38a945874b07cb6d4c89
+      kontekst: textscripts.distillery_hobocode:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange symbols are painted on the side of this drum.
+      pl: Na boku beczki namalowano dziwne symbole.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8685c8a9665c452d3370
+      kontekst: textscripts.distillery_hobocode:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some hobo code is painted on the side of this barrel.
+      pl: Na boku beczki namalowano kod włóczęgów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_4dbcc79bb6307fedd7b6
+      kontekst: textscripts.distillery_hobocode:line:22
+      linia: 22
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The code reads $message$  Hmm.  You reach in the barrel to see if anybody ignored the advice.  They did!
+      pl: 'Kod głosi: $message$ Hm. Sięgasz do beczki, żeby sprawdzić, czy ktoś zignorował radę. Ktoś zignorował!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1233
+  skrypt: distillery_shelf1
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fe2525dc410755a114fc
+      kontekst: textscripts.distillery_shelf1:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Almost everything on this shelf is busted-up trash, but there's one unsmashed crate of booze!
+      pl: Prawie wszystko na półce to rozbite śmieci, ale została jedna nietknięta skrzynka alkoholu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.distillery_shelf1:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+  - etykieta: e
+    wpisy:
+    - id: sol_44f1b7bcf84aa8a56d3c
+      kontekst: textscripts.distillery_shelf1:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nice!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1234
+  skrypt: distillery_still
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ba9730cbc7170161e9db
+      kontekst: textscripts.distillery_still:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@context.message@'
+      pl: '@context.message@'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@context.message@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_141fe98ae13eef6ba909
+      kontekst: textscripts.distillery_still:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, maybe you could use this thing to fix Rasmussen's fuel.
+      pl: Hej, może tym urządzeniem da się naprawić paliwo Rasmussena.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1576d84e9a1eab1d51da
+      kontekst: textscripts.distillery_still:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You light the still and dry out the fuel.
+      pl: Rozpalasz aparat destylacyjny i osuszasz paliwo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1235
+  skrypt: distillery_vamptable
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1f5bdf64ae3bc39f5e25
+      kontekst: textscripts.distillery_vamptable:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This table is strewn with miscellaneous vampire stuff.
+      pl: Stół jest zasłany rozmaitymi wampirzymi rzeczami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_40dbd566ff04a6c66864
+      kontekst: textscripts.distillery_vamptable:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick through it
+      pl: Przejrzyj je.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_e342ca7ad06e3e9c420f
+      kontekst: textscripts.distillery_vamptable:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab everything that looks useful.
+      pl: Zabierasz wszystko, co wygląda użytecznie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1236
+  skrypt: distillery_vanity
+  pomieszczenie:
+    id: distillery_inside
+    nazwa_en: Grandpa Joe's Distillery (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c23e19ba98b4fa08ab6c
+      kontekst: textscripts.distillery_vanity:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mirror on this vanity has been broken, but the drawers still work.
+      pl: Lustro przy toaletce jest rozbite, ale szuflady nadal działają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_781b4ad3e42587a9f6db
+      kontekst: textscripts.distillery_vanity:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's in them
+      pl: Sprawdź, co w nich jest
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_e852d31a94a4dc279354
+      kontekst: textscripts.distillery_vanity:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's jewelry!
+      pl: Biżuteria!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: used
+    wpisy:
+    - id: sol_b6e1c5c52ce9fedc77b7
+      kontekst: textscripts.distillery_vanity:line:13
+      linia: 13
+      sekcja_skryptu: used
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mirror on this vanity has been broken, and the drawers ransacked.
+      pl: Lustro przy toaletce jest rozbite, a szuflady splądrowane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

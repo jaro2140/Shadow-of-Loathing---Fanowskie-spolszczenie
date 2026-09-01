@@ -1,0 +1,1082 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: rufuslab
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 8
+liczba_wpisow: 64
+sceny:
+- kolejnosc_w_danych_gry: 5415
+  skrypt: autoscript__rufuslab__zappercollider__popup
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4ccd70f86b7954e518b5
+      kontekst: textscripts.autoscript__rufuslab__zappercollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This machine looks dangerous.
+      pl: Ta maszyna wygląda niebezpiecznie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4050
+  skrypt: sit_rufus_arcanehotplate
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8c3cc4ddb158fba42436
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If the label is to be believed, this is a crate of arcane hot plates.
+      pl: Jeśli wierzyć etykiecie, to skrzynia magicznych płyt grzejnych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: sol_71868040f68415a33a14
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:10
+      linia: 10
+      sekcja_skryptu: take
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Can I have one of these hot plates?
+      pl: Mogę dostać jedną z tych płyt grzejnych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_995e393acece7afac35f
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:13
+      linia: 13
+      sekcja_skryptu: take
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Why would I give you, a complete stranger, a very expensive piece of technology?
+      pl: Dlaczego miałbym dawać tobie, zupełnie obcemu człowiekowi, bardzo drogi sprzęt?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_11436cfdb15631bdff46
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:14
+      linia: 14
+      sekcja_skryptu: take
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Because... charity begins at... the lab?
+      pl: Bo... dobroczynność zaczyna się w domu... albo w laboratorium?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffb5ca9bd727bc9a269b
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:15
+      linia: 15
+      sekcja_skryptu: take
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No, it does not.
+      pl: Nie, nie zaczyna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fa9c1bd7fdd969487b1c
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:16
+      linia: 16
+      sekcja_skryptu: take
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Darnit
+      pl: Kurczę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0effb2a68c55dd078070
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:18
+      linia: 18
+      sekcja_skryptu: take
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure, I've got plenty, and having access to that level of technology will increase the odds that you'll survive helping me.
+      pl: Jasne, mam ich dużo, a dostęp do takiej technologii zwiększy prawdopodobieństwo, że przeżyjesz pomaganie mi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3eede8df5d0d9b4df83c
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:19
+      linia: 19
+      sekcja_skryptu: take
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: That's... very kind of you.
+      pl: To... bardzo miłe z twojej strony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_360338789fc9078de78c
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:20
+      linia: 20
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab one of the hot plates before he does some more math and changes his mind.
+      pl: Łapiesz jedną z płyt, zanim policzy coś jeszcze i zmieni zdanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.sit_rufus_arcanehotplate:line:23
+      linia: 23
+      sekcja_skryptu: take
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4051
+  skrypt: sit_rufus_partspile
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e1d650d8ecfbd0199dd3
+      kontekst: textscripts.sit_rufus_partspile:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big pile, composed of 80% garbage and 20% miscellaneous electrical parts.
+      pl: Wielka sterta złożona w 80% ze śmieci i w 20% z różnych części elektrycznych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '% garbage and 20%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_584adcbe51ce457fef44
+      kontekst: textscripts.sit_rufus_partspile:line:17
+      linia: 17
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a few useful things.
+      pl: Znajdujesz kilka przydatnych rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72df9e72befaa7d5c5bf
+      kontekst: textscripts.sit_rufus_partspile:line:23
+      linia: 23
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a couple more useful bits and bobs.
+      pl: Znajdujesz jeszcze parę przydatnych drobiazgów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_77babb3cd279c9789b2f
+      kontekst: textscripts.sit_rufus_partspile:line:28
+      linia: 28
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a cool-looking helmet.
+      pl: Znajdujesz fajnie wyglądający hełm.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b729b4dd0027df7d97be
+      kontekst: textscripts.sit_rufus_partspile:line:32
+      linia: 32
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, this thing looks dangerous!
+      pl: Ooo, to wygląda niebezpiecznie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8fc0bcc1e3acd722bc2e
+      kontekst: textscripts.sit_rufus_partspile:line:36
+      linia: 36
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Holy cow.  Look at these!
+      pl: Wielkie nieba. Spójrz tylko na to!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4040
+  skrypt: sit_rufusbookshelf
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4b60a324f1e52e3491f5
+      kontekst: textscripts.sit_rufusbookshelf:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A bookcase full of strange science and math books.
+      pl: Regał pełen dziwnych książek naukowych i matematycznych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getbook
+    wpisy:
+    - id: sol_13064ea45049cd11381e
+      kontekst: textscripts.sit_rufusbookshelf:line:10
+      linia: 10
+      sekcja_skryptu: getbook
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow, these books are all way too advanced for me.
+      pl: O rany, wszystkie te książki są dla mnie zdecydowanie zbyt zaawansowane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_54fd90af428291fdb6a3
+      kontekst: textscripts.sit_rufusbookshelf:line:12
+      linia: 12
+      sekcja_skryptu: getbook
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Actually, there's one in there that's right up your alley.  Third shelf, third from the left.
+      pl: Właściwie jest tam jedna dokładnie dla ciebie. Trzecia półka, trzecia od lewej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b8f61376c12aa296d7c7
+      kontekst: textscripts.sit_rufusbookshelf:line:13
+      linia: 13
+      sekcja_skryptu: getbook
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: '...You have the order of your bookshelf memorized?'
+      pl: '...Pamiętasz kolejność wszystkich książek na regale?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_530bf0bf42956392918d
+      kontekst: textscripts.sit_rufusbookshelf:line:14
+      linia: 14
+      sekcja_skryptu: getbook
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I don't have to memorize it.  I understand the principles by which I arrange things, and I never deviate from them.
+      pl: Nie muszę jej pamiętać. Rozumiem zasady, według których układam rzeczy, i nigdy od nich nie odstępuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dd151a6e68fb001a0d34
+      kontekst: textscripts.sit_rufusbookshelf:line:15
+      linia: 15
+      sekcja_skryptu: getbook
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Gotcha.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72fd09c061ae92c03570
+      kontekst: textscripts.sit_rufusbookshelf:line:16
+      linia: 16
+      sekcja_skryptu: getbook
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab the book
+      pl: Weź książkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grab
+    wpisy:
+    - id: sol_49898ff1bc8a00bef851
+      kontekst: textscripts.sit_rufusbookshelf:line:19
+      linia: 19
+      sekcja_skryptu: grab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look on the third shelf and sure enough, the third book is eerily relevant to your interests.
+      pl: Zaglądasz na trzecią półkę i rzeczywiście trzecia książka jest niepokojąco zgodna z twoimi zainteresowaniami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_681f0e430935ff8bb364
+      kontekst: textscripts.sit_rufusbookshelf:line:24
+      linia: 24
+      sekcja_skryptu: grab
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Rufus.
+      pl: Dzięki, Rufusie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4041
+  skrypt: sit_rufusdewar
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dc69d954b0e109162729
+      kontekst: textscripts.sit_rufusdewar:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A scientific vessel of some kind.
+      pl: Jakieś naczynie naukowe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: asko
+    wpisy:
+    - id: sol_289d2912e229b406577f
+      kontekst: textscripts.sit_rufusdewar:line:12
+      linia: 12
+      sekcja_skryptu: asko
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What's this?
+      pl: Co to?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_74a601e0d66ac35bd4d3
+      kontekst: textscripts.sit_rufusdewar:line:13
+      linia: 13
+      sekcja_skryptu: asko
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: A dewar.
+      pl: Naczynie Dewara.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_08fbe90dc0352079d861
+      kontekst: textscripts.sit_rufusdewar:line:14
+      linia: 14
+      sekcja_skryptu: asko
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What's a dewar?
+      pl: A czym jest naczynie Dewara?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7e26d7a16fc507b56e0c
+      kontekst: textscripts.sit_rufusdewar:line:15
+      linia: 15
+      sekcja_skryptu: asko
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: A container for fluids.
+      pl: Pojemnikiem na płyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_081573ff4a51097ea47f
+      kontekst: textscripts.sit_rufusdewar:line:16
+      linia: 16
+      sekcja_skryptu: asko
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What kind of fluids?
+      pl: Jakie płyny?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: asko2
+    wpisy:
+    - id: sol_affbdbe64b2c6f7b33d3
+      kontekst: textscripts.sit_rufusdewar:line:20
+      linia: 20
+      sekcja_skryptu: asko2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Usually valuable scientific substances.  Not that one, though.
+      pl: Zwykle cenne substancje naukowe. Ale nie w tym egzemplarzu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e1ddc3c29668651db391
+      kontekst: textscripts.sit_rufusdewar:line:21
+      linia: 21
+      sekcja_skryptu: asko2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What's in this one?
+      pl: Co jest w tym?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_75b8f8f894a4bfee5424
+      kontekst: textscripts.sit_rufusdewar:line:22
+      linia: 22
+      sekcja_skryptu: asko2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Absinthe.
+      pl: Absynt.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0f1768f728b956918a15
+      kontekst: textscripts.sit_rufusdewar:line:23
+      linia: 23
+      sekcja_skryptu: asko2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh.  Can...  can I have it?
+      pl: Och. Mogę... mogę go dostać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a804cc804e4f65198115
+      kontekst: textscripts.sit_rufusdewar:line:24
+      linia: 24
+      sekcja_skryptu: asko2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: If you want, sure.
+      pl: Jeśli chcesz, jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.sit_rufusdewar:line:25
+      linia: 25
+      sekcja_skryptu: asko2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: sol_28c6a81eff3b130373c8
+      kontekst: textscripts.sit_rufusdewar:line:29
+      linia: 29
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully pack up the dewar for transit back to @speakeasyname@.
+      pl: Ostrożnie pakujesz naczynie Dewara do transportu z powrotem do @speakeasyname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@speakeasyname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sit_rufusdewar:line:31
+      linia: 31
+      sekcja_skryptu: get
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4046
+  skrypt: sit_rufusmetdet
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_edd8a0f40348c6099f05
+      kontekst: textscripts.sit_rufusmetdet:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: One of those newfangled metal detectors.
+      pl: Jeden z tych nowomodnych wykrywaczy metalu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_902d62913b0d725ade49
+      kontekst: textscripts.sit_rufusmetdet:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask Rufus if you can borrow it
+      pl: Zapytaj Rufusa, czy możesz go pożyczyć
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ask
+    wpisy:
+    - id: sol_f24aba07322919b6cf4f
+      kontekst: textscripts.sit_rufusmetdet:line:11
+      linia: 11
+      sekcja_skryptu: ask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey Rufus, can I borrow your metal detector?
+      pl: Hej, Rufusie, mogę pożyczyć twój wykrywacz metalu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_de76af0b5f3fd90c2a54
+      kontekst: textscripts.sit_rufusmetdet:line:12
+      linia: 12
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure, if you have a good and specific reason for needing it.
+      pl: Jasne, jeśli masz dobry i konkretny powód, żeby go potrzebować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9cce1c1dee8432a21e4d
+      kontekst: textscripts.sit_rufusmetdet:line:14
+      linia: 14
+      sekcja_skryptu: ask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I need it to find an old key, so I can stop a little girl's house from burning down two hundred and thirty-odd years ago.
+      pl: Potrzebuję go, żeby znaleźć stary klucz i ocalić dom małej dziewczynki przed pożarem sprzed ponad dwustu trzydziestu lat.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_80f5004d8b27dddd72b3
+      kontekst: textscripts.sit_rufusmetdet:line:15
+      linia: 15
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...That''s good enough for me. Knock yourself out.'
+      pl: '...Mnie wystarczy. Baw się dobrze.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.sit_rufusmetdet:line:18
+      linia: 18
+      sekcja_skryptu: ask
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ced40253bd10f1650853
+      kontekst: textscripts.sit_rufusmetdet:line:20
+      linia: 20
+      sekcja_skryptu: ask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Umm because I like things made of metal and would like to find more of them?
+      pl: Eee, bo lubię rzeczy z metalu i chcę znaleźć ich więcej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f21a3cb82122898c875c
+      kontekst: textscripts.sit_rufusmetdet:line:21
+      linia: 21
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope, not specific enough.
+      pl: Nie, zbyt ogólnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_13956b5309791cc58672
+      kontekst: textscripts.sit_rufusmetdet:line:22
+      linia: 22
+      sekcja_skryptu: ask
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Rats.
+      pl: Kurczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4047
+  skrypt: sit_rufusmirror
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a90683172b5bfe685ac3
+      kontekst: textscripts.sit_rufusmirror:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a weird set of mirrors mounted together here.  Must be part of some kind of optics experiment.
+      pl: Stoi tu dziwny zestaw luster zmontowanych razem. Pewnie część jakiegoś eksperymentu optycznego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7f3ac795bd680bb6e16c
+      kontekst: textscripts.sit_rufusmirror:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check your own optics
+      pl: Sprawdź własną optykę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4049
+  skrypt: sit_rufusrobotarena
+  pomieszczenie:
+    id: rufuslab
+    nazwa_en: '@sit_labname@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a2ddb11d14544ae313d3
+      kontekst: textscripts.sit_rufusrobotarena:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door says "ROBOT BATTLE ARENA" on it.
+      pl: Na drzwiach widnieje napis „ARENA WALK ROBOTÓW”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_ae6b54ea447caf2fc543
+      kontekst: textscripts.sit_rufusrobotarena:line:18
+      linia: 18
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What's this ROBOT BATTLE ARENA door all about?
+      pl: O co chodzi z drzwiami do ARENY WALK ROBOTÓW?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4065931f725ecad620a6
+      kontekst: textscripts.sit_rufusrobotarena:line:19
+      linia: 19
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's my... robot battle arena?
+      pl: To moja... arena walk robotów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_171f474c406513defac4
+      kontekst: textscripts.sit_rufusrobotarena:line:20
+      linia: 20
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Why do you have a robot battle arena?
+      pl: Po co ci arena walk robotów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1434e67f82e300782bb2
+      kontekst: textscripts.sit_rufusrobotarena:line:21
+      linia: 21
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The fact that you even asked that question makes me think you'd never understand the answer.
+      pl: Sam fakt, że w ogóle zadałeś to pytanie, każe mi sądzić, że nigdy nie zrozumiałbyś odpowiedzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ded696fbadaa5c2097f7
+      kontekst: textscripts.sit_rufusrobotarena:line:22
+      linia: 22
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: How many robots are in there?
+      pl: Ile jest tam robotów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b4538805e941476b4f5b
+      kontekst: textscripts.sit_rufusrobotarena:line:23
+      linia: 23
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: They're capable of self-assembly and replication, so it's hard to say, and it's also critical that you never accidentally leave the
+        door open.
+      pl: Potrafią samodzielnie się składać i powielać, więc trudno powiedzieć. Dlatego jest absolutnie kluczowe, żebyś nigdy przypadkiem nie zostawił otwartych drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f5ec74201fad0f434334
+      kontekst: textscripts.sit_rufusrobotarena:line:24
+      linia: 24
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gotcha.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_1744cba9e011b745324c
+      kontekst: textscripts.sit_rufusrobotarena:line:32
+      linia: 32
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! You successfully disassembled some of Rufus' self-assembling robots.
+      pl: Wygrałeś! Udało ci się rozmontować kilka samoskładających się robotów Rufusa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31325cbd44ef0c007af6
+      kontekst: textscripts.sit_rufusrobotarena:line:39
+      linia: 39
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: They'll get over it
+      pl: Pozbierają się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_681148e269d740dcbe06
+      kontekst: textscripts.sit_rufusrobotarena:line:44
+      linia: 44
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. You took one heck of a fully-automated beating.
+      pl: Przegrałeś. Zebrałeś diabelnie zautomatyzowane lanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d7acf3d2df9ba9b331c4
+      kontekst: textscripts.sit_rufusrobotarena:line:46
+      linia: 46
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A technological marvel
+      pl: Cud techniki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

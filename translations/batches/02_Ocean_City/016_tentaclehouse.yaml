@@ -1,0 +1,1997 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: tentaclehouse
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 34
+liczba_wpisow: 102
+sceny:
+- kolejnosc_w_danych_gry: 4184
+  skrypt: tentaclehouse_1onenter
+  pomieszczenie:
+    id: tentaclehouse
+    nazwa_en: '@map1_name_tentaclehouse@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e3292af167feb82539f2
+      kontekst: textscripts.tentaclehouse_1onenter:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Either someone's pet kraken escaped, or someone opened a portal to the Waggle Dimension. Ugh.
+      pl: Albo komuś uciekł domowy kraken, albo ktoś otworzył portal do Wymiaru Wiercipięt. Uch.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+- kolejnosc_w_danych_gry: 4200
+  skrypt: tentaclehouse_enter
+  pomieszczenie:
+    id: tentaclehouse
+    nazwa_en: '@map1_name_tentaclehouse@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_43f8b8516dfb7801f06b
+      kontekst: textscripts.tentaclehouse_enter:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 11
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstpopup
+    wpisy:
+    - id: sol_e3292af167feb82539f2
+      kontekst: textscripts.tentaclehouse_enter:line:9
+      linia: 9
+      sekcja_skryptu: firstpopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Either someone's pet kraken escaped, or someone opened a portal to the Waggle Dimension. Ugh.
+      pl: Albo komuś uciekł domowy kraken, albo ktoś otworzył portal do Wymiaru Wiercipięt. Uch.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.tentaclehouse_enter:line:10
+      linia: 10
+      sekcja_skryptu: firstpopup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_96bacb543bfb8f8d2472
+      kontekst: textscripts.tentaclehouse_enter:line:16
+      linia: 16
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh my god. <i>Really?</i>
+      pl: O mój Boże. <i>Naprawdę?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_471638f743d025a9d193
+      kontekst: textscripts.tentaclehouse_enter:line:17
+      linia: 17
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't judge me
+      pl: Nie oceniaj mnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4202
+  skrypt: tentaclehouse_exitpopup
+  pomieszczenie:
+    id: tentaclehouse
+    nazwa_en: '@map1_name_tentaclehouse@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.tentaclehouse_exitpopup:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4203
+  skrypt: tentaclehouse_facade
+  pomieszczenie:
+    id: tentaclehouse
+    nazwa_en: '@map1_name_tentaclehouse@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: rename
+    wpisy:
+    - id: sol_aff4f89222fbb41c6e11
+      kontekst: textscripts.tentaclehouse_facade:line:11
+      linia: 11
+      sekcja_skryptu: rename
+      typ: addproperty
+      mowca_lub_kanal: kanal_addproperty
+      en: Just a Regular House
+      pl: Zupełnie zwyczajny dom
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4217
+  skrypt: tentaclehouse_sink
+  pomieszczenie:
+    id: tentaclehouse_bathroom
+    nazwa_en: '@map1_name_tentaclehouse@ (Bathroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cfd1f57a81aa4df2b3f4
+      kontekst: textscripts.tentaclehouse_sink:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sink has a cracked bowl and a grubby tap.
+      pl: Ta umywalka ma pękniętą misę i brudny kran.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_986884d52ab60b450517
+      kontekst: textscripts.tentaclehouse_sink:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Look at that, somebody lost a ring in the drain! And fortunately, your fingers are just long enough to grab it.
+      pl: Proszę, ktoś zgubił pierścionek w odpływie! Na szczęście twoje palce są akurat dość długie, by go wyciągnąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4221
+  skrypt: tentaclehouse_tub
+  pomieszczenie:
+    id: tentaclehouse_bathroom
+    nazwa_en: '@map1_name_tentaclehouse@ (Bathroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4728b14be464bcaab373
+      kontekst: textscripts.tentaclehouse_tub:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bathtub is filled with a fluid you'd rather not consider.
+      pl: Wannę wypełnia ciecz, nad której naturą lepiej się nie zastanawiać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5587
+  skrypt: autoscript__tentaclehouse_bedroom1__armoire__popup
+  pomieszczenie:
+    id: tentaclehouse_bedroom1
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d4c5f29071291f7f9490
+      kontekst: textscripts.autoscript__tentaclehouse_bedroom1__armoire__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Termites have conspired to make it look like this wardrobe has had one giant bite taken out of it instead of thousands of tiny ones.
+      pl: Termity uknuły spisek, by szafa wyglądała, jakby odgryziono z niej jeden gigantyczny kęs zamiast tysięcy maleńkich.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5588
+  skrypt: autoscript__tentaclehouse_bedroom1__bed__popup
+  pomieszczenie:
+    id: tentaclehouse_bedroom1
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f91e646616f85b493da1
+      kontekst: textscripts.autoscript__tentaclehouse_bedroom1__bed__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bed must have fallen victim to especially hungry bedbugs.
+      pl: To łóżko musiało paść ofiarą wyjątkowo głodnych pluskiew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5589
+  skrypt: autoscript__tentaclehouse_bedroom1__trash1__popup
+  pomieszczenie:
+    id: tentaclehouse_bedroom1
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f1d8f7719005959fb8b3
+      kontekst: textscripts.autoscript__tentaclehouse_bedroom1__trash1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's hardly anything left of whatever this was.
+      pl: Czymkolwiek to było, prawie nic z tego nie zostało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5590
+  skrypt: autoscript__tentaclehouse_bedroom1__window__popup
+  pomieszczenie:
+    id: tentaclehouse_bedroom1
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f7eda5a6a1f9da10a81b
+      kontekst: textscripts.autoscript__tentaclehouse_bedroom1__window__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ironically, this house's backyard looks really nice.
+      pl: Jak na ironię, podwórko tego domu wygląda naprawdę ładnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4212
+  skrypt: tentaclehouse_mirror
+  pomieszczenie:
+    id: tentaclehouse_bedroom1
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_db949371cb0d4379d9fd
+      kontekst: textscripts.tentaclehouse_mirror:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This mirror has, to your great surprise, avoided damage.
+      pl: Ku twojemu ogromnemu zdziwieniu to lustro uniknęło zniszczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7a5b08148150f3e3683d
+      kontekst: textscripts.tentaclehouse_mirror:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look into it
+      pl: Przejrzyj się w nim
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4214
+  skrypt: tentaclehouse_nightstand2
+  pomieszczenie:
+    id: tentaclehouse_bedroom1
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_999aa4d76e2ed9178371
+      kontekst: textscripts.tentaclehouse_nightstand2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This nightstand is battered, but mostly intact.
+      pl: Ten stolik nocny jest poobijany, ale w większości cały.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_e706d1ea64785082008c
+      kontekst: textscripts.tentaclehouse_nightstand2:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bottom drawer is full of old horse track betting forms, but the top one contains a wallet and a creepy locket -- each with only
+        a minimal amount of crud on them.
+      pl: Dolna szuflada jest pełna starych kuponów z zakładów na wyścigi konne, ale w górnej leżą portfel i upiorny medalion — oba tylko minimalnie
+        oblepione świństwem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4192
+  skrypt: tentaclehouse_bedroomfight
+  pomieszczenie:
+    id: tentaclehouse_bedroom2
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_aa01734d35b1ce20063a
+      kontekst: textscripts.tentaclehouse_bedroomfight:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Even the second story is infested with tentacles.
+      pl: Macki zalęgły się nawet na piętrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_4266e70509a83fa38eec
+      kontekst: textscripts.tentaclehouse_bedroomfight:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have rendered this room very slightly less terrible.
+      pl: Udało ci się uczynić ten pokój odrobinę mniej koszmarnym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_6221e6c5a79e87354505
+      kontekst: textscripts.tentaclehouse_bedroomfight:line:19
+      linia: 19
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: As is my sworn duty
+      pl: Jak nakazuje mi przysięga
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_1fb38163d09af7d7ef1f
+      kontekst: textscripts.tentaclehouse_bedroomfight:line:24
+      linia: 24
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's too bad there's no bed left, it might have cushioned your fall.
+      pl: Szkoda, że nie zostało tu łóżko. Mogłoby zamortyzować upadek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.tentaclehouse_bedroomfight:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 4207
+  skrypt: tentaclehouse_guessinggame
+  pomieszczenie:
+    id: tentaclehouse_bedroom2
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_73e0c6db774b4e5ef1f1
+      kontekst: textscripts.tentaclehouse_guessinggame:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't even begin to guess what kind of furniture this was.
+      pl: Nie sposób nawet zacząć zgadywać, jakim meblem to kiedyś było.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_92e30586d29856295089
+      kontekst: textscripts.tentaclehouse_guessinggame:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure I can
+      pl: Właśnie że mogę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: guess
+    wpisy:
+    - id: sol_ca546b74958da37efa38
+      kontekst: textscripts.tentaclehouse_guessinggame:line:9
+      linia: 9
+      sekcja_skryptu: guess
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay then, smarty pants, what do you think it was?
+      pl: No dobrze, mądralo. Jakim meblem to było?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: sol_f9461b8b9adec0df6314
+      kontekst: textscripts.tentaclehouse_guessinggame:line:16
+      linia: 16
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give up
+      pl: Poddaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 20
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: done
+    wpisy:
+    - id: sol_3edfc861203a97ed19b2
+      kontekst: textscripts.tentaclehouse_guessinggame:line:25
+      linia: 25
+      sekcja_skryptu: done
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I told you you couldn't guess.
+      pl: Mówiłem, że nie zgadniesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_36af8a53df573d3d259c
+      kontekst: textscripts.tentaclehouse_guessinggame:line:26
+      linia: 26
+      sekcja_skryptu: done
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, yeah
+      pl: Dobra, dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 4222
+  skrypt: tentaclehouse_wardrobe
+  pomieszczenie:
+    id: tentaclehouse_bedroom2
+    nazwa_en: '@map1_name_tentaclehouse@ (Bedroom)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c6ff406d72411bbecfde
+      kontekst: textscripts.tentaclehouse_wardrobe:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A surprisingly clean wardrobe.
+      pl: Zaskakująco czysta szafa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_213e5dc9519048537e3c
+      kontekst: textscripts.tentaclehouse_wardrobe:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: check
+    wpisy:
+    - id: sol_2ff1c85d58df1de57acb
+      kontekst: textscripts.tentaclehouse_wardrobe:line:8
+      linia: 8
+      sekcja_skryptu: check
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Empty but for a single hanger.
+      pl: Pusta, jeśli nie liczyć jednego wieszaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5591
+  skrypt: autoscript__tentaclehouse_cellar__shelf1__popup
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_80cf35b5c4a8294b397d
+      kontekst: textscripts.autoscript__tentaclehouse_cellar__shelf1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A shelf full of long-expired cleaning products.
+      pl: Półka pełna dawno przeterminowanych środków czystości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4193
+  skrypt: tentaclehouse_broom
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_24d36cde75c87780ddc5
+      kontekst: textscripts.tentaclehouse_broom:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the dirtiest broom you've ever seen.
+      pl: To najbrudniejsza miotła, jaką zdarzyło ci się widzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.tentaclehouse_broom:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_76a6532b11d6ff0ade73
+      kontekst: textscripts.tentaclehouse_broom:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now it's the dirtiest broom you've ever owned!
+      pl: A teraz to najbrudniejsza miotła w twoim posiadaniu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4195
+  skrypt: tentaclehouse_cellarfight
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6d4dc4f2bdc9c3cc3c59
+      kontekst: textscripts.tentaclehouse_cellarfight:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Holy dang, what is <i>that</i> thing.
+      pl: O jasny gwint, co to <i>jest</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_8d53d7df7cb4bb1cdf75
+      kontekst: textscripts.tentaclehouse_cellarfight:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won -- those tentacles have wiggled their last waggle, and the giant mutant rat?  Probably in a better place now.
+      pl: Wygrałeś — te macki zawierciły się po raz ostatni, a wielki zmutowany szczur? Pewnie trafił w lepsze miejsce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.tentaclehouse_cellarfight:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id004 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_99b71591dc23bf96b2f8
+      kontekst: textscripts.tentaclehouse_cellarfight:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. The results are quite unpleasant.
+      pl: Przegrałeś. Skutki są nader nieprzyjemne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.tentaclehouse_cellarfight:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 4197
+  skrypt: tentaclehouse_cellarstairs
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b3d98977dcb840ad67ed
+      kontekst: textscripts.tentaclehouse_cellarstairs:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The stairs back to the main floor.
+      pl: Schody z powrotem na parter.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8edbfda6dc011fe2463a
+      kontekst: textscripts.tentaclehouse_cellarstairs:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go up
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+- kolejnosc_w_danych_gry: 4199
+  skrypt: tentaclehouse_darkstopper
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7cce4d8942b9fa9c594d
+      kontekst: textscripts.tentaclehouse_darkstopper:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cellar is way too dark for you to go any further. Yes, you have a flashlight, but you and I both know that flashlights are only
+        good for making dark places <i>visible,</i> not for making them any less <i>scary.</i>
+      pl: W piwnicy jest stanowczo za ciemno, by iść dalej. Owszem, masz latarkę, ale oboje wiemy, że latarka sprawia jedynie, że ciemne miejsca
+        stają się <i>widoczne</i>, a nie ani odrobinę mniej <i>straszne</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4205
+  skrypt: tentaclehouse_fusebox
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b11913d550c87b1ec3ce
+      kontekst: textscripts.tentaclehouse_fusebox:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fusebox.
+      pl: Skrzynka bezpieczników.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fuseme
+    wpisy:
+    - id: sol_a60e07ce80c393343627
+      kontekst: textscripts.tentaclehouse_fusebox:line:17
+      linia: 17
+      sekcja_skryptu: fuseme
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hooray, now it's slightly less dark!
+      pl: Hurra, teraz jest odrobinę mniej ciemno!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4216
+  skrypt: tentaclehouse_seedtable
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_178dd95a8ce569e06a8c
+      kontekst: textscripts.tentaclehouse_seedtable:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ah, here's the problem -- there's a hole in this bag of tentacle seeds.
+      pl: Aha, oto problem — worek z nasionami macek ma dziurę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_608d8f9f5282ed85a533
+      kontekst: textscripts.tentaclehouse_seedtable:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some of them must've fallen on the old dirt floor, and sprouted.
+      pl: Część musiała wypaść na stare klepisko i wykiełkować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_722af9d29d543b7c570a
+      kontekst: textscripts.tentaclehouse_seedtable:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Clean them up
+      pl: Posprzątaj je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_53bf4fb38c2ff0545e5e
+      kontekst: textscripts.tentaclehouse_seedtable:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dispose of the bag and pick up the handful of remaining seeds.
+      pl: Pozbywasz się worka i zbierasz garść pozostałych nasion.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4223
+  skrypt: tentaclehouse_washingmachine
+  pomieszczenie:
+    id: tentaclehouse_cellar
+    nazwa_en: '@map1_name_tentaclehouse@ (Cellar)'
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_26d9228c9f95d852f602
+      kontekst: textscripts.tentaclehouse_washingmachine:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This washing machine needs to be washed. And repaired. And completely replaced.
+      pl: Tę pralkę trzeba wyprać. I naprawić. I w całości wymienić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.tentaclehouse_washingmachine:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_9c35c52f6b1416f529d3
+      kontekst: textscripts.tentaclehouse_washingmachine:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You plunge your hands into the foul water left inside the machine, and find a pair of nasty old pants (referring to both their condition
+        and their style).
+      pl: Zanurzasz ręce w ohydnej wodzie zalegającej w pralce i wyławiasz paskudne stare spodnie — „paskudne” dotyczy zarówno ich stanu, jak
+        i fasonu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4185
+  skrypt: tentaclehouse_2onenter
+  pomieszczenie:
+    id: tentaclehouse_floor1
+    nazwa_en: '@map1_name_tentaclehouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_fec897d2e9f9b6b0508a
+      kontekst: textscripts.tentaclehouse_2onenter:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It seems like this house used to be quite nice -- tall ceilings, nice wallpaper, fancy molding everywhere. Now, however, the wallpaper
+        is peeling, the plaster is crumbling, and there's tentacles poking out everywhere.
+      pl: Wygląda na to, że kiedyś był to całkiem ładny dom — wysokie sufity, gustowne tapety, wszędzie ozdobne listwy. Teraz jednak tapeta odłazi,
+        tynk się kruszy, a ze wszystkiego wystają macki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_230a7cac56f6d6c7fe4d
+      kontekst: textscripts.tentaclehouse_2onenter:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a real fixer-upper.
+      pl: Prawdziwa okazja dla majsterkowicza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_98bc209441472b3603ca
+      kontekst: textscripts.tentaclehouse_2onenter:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hello! Anyone call for a tentacle exterminator?
+      pl: Dzień dobry! Ktoś zamawiał odmackowianie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a9307c679e2157da4324
+      kontekst: textscripts.tentaclehouse_2onenter:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '...I don''t think anyone called for a tentacle exterminator. But if you want to do some pro bono extermination anyway, I also don''t
+        think anyone''s going to stop you.'
+      pl: '...Raczej nikt nie zamawiał odmackowiania. Ale jeśli mimo to chcesz wykonać je pro bono, raczej nikt cię nie powstrzyma.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6209ab7e3f31c44bdc5b
+      kontekst: textscripts.tentaclehouse_2onenter:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, except maybe the tentacles.
+      pl: No, może poza mackami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2e32485fd4a3a88aa92d
+      kontekst: textscripts.tentaclehouse_2onenter:line:10
+      linia: 10
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Let's go.
+      pl: Do dzieła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4194
+  skrypt: tentaclehouse_cellardoor
+  pomieszczenie:
+    id: tentaclehouse_floor1
+    nazwa_en: '@map1_name_tentaclehouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_84d3e4fc4f11d6dab7a8
+      kontekst: textscripts.tentaclehouse_cellardoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is locked.
+      pl: Te drzwi są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: curseunlock
+    wpisy:
+    - id: sol_3751ee38d9183c64359e
+      kontekst: textscripts.tentaclehouse_cellardoor:line:10
+      linia: 10
+      sekcja_skryptu: curseunlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That seems like a bad idea.  Are you sure?
+      pl: To wygląda na kiepski pomysł. Na pewno?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 26
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7c8a12eab373e6fbe42b
+      kontekst: textscripts.tentaclehouse_cellardoor:line:11
+      linia: 11
+      sekcja_skryptu: curseunlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, I'm sure [cursed key]
+      pl: Tak, na pewno [przeklęty klucz]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yescurseunlock
+    wpisy:
+    - id: sol_561f466219c0c3fff0d7
+      kontekst: textscripts.tentaclehouse_cellardoor:line:17
+      linia: 17
+      sekcja_skryptu: yescurseunlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head down the stairs
+      pl: Zejdź po schodach
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: e
+    wpisy:
+    - id: sol_47af96c30b21ae60c9e1
+      kontekst: textscripts.tentaclehouse_cellardoor:line:24
+      linia: 24
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Click!  You leave the key in the lock for safekeeping.
+      pl: Klik! Klucz zostaje w zamku, żeby się nie zgubił.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_561f466219c0c3fff0d7
+      kontekst: textscripts.tentaclehouse_cellardoor:line:25
+      linia: 25
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head down the stairs
+      pl: Zejdź po schodach
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 4206
+  skrypt: tentaclehouse_groundfloorfight
+  pomieszczenie:
+    id: tentaclehouse_floor1
+    nazwa_en: '@map1_name_tentaclehouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_99397e02db93a6b4aaae
+      kontekst: textscripts.tentaclehouse_groundfloorfight:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Three tentacles have erupted from the floorboards here.
+      pl: Spod desek podłogowych wystrzeliły tu trzy macki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_57d0f9ca942793184919
+      kontekst: textscripts.tentaclehouse_groundfloorfight:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Three down, God knows how many to go.
+      pl: Trzy z głowy, a Bóg jeden wie, ile jeszcze zostało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.tentaclehouse_groundfloorfight:line:18
+      linia: 18
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id004
+  - etykieta: lose
+    wpisy:
+    - id: sol_33dde49b6359691056a8
+      kontekst: textscripts.tentaclehouse_groundfloorfight:line:23
+      linia: 23
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You got slapped silly.
+      pl: Macki wybiły ci z głowy wszystkie mądrości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.tentaclehouse_groundfloorfight:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 4219
+  skrypt: tentaclehouse_stairsup
+  pomieszczenie:
+    id: tentaclehouse_floor1
+    nazwa_en: '@map1_name_tentaclehouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_12ff2a4385d9c1bb82e7
+      kontekst: textscripts.tentaclehouse_stairsup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Rickety stairs lead to the second floor.
+      pl: Chwiejne schody prowadzą na piętro.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8edbfda6dc011fe2463a
+      kontekst: textscripts.tentaclehouse_stairsup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go up
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+- kolejnosc_w_danych_gry: 4190
+  skrypt: tentaclehouse_bedroomdoor1
+  pomieszczenie:
+    id: tentaclehouse_floor2
+    nazwa_en: '@map1_name_tentaclehouse@ (Second Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_097caa7dbf6cf824dc7e
+      kontekst: textscripts.tentaclehouse_bedroomdoor1:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is barred from the other side. If the bar is anything like the rest of this house though, it won't take much to break it.
+      pl: Drzwi są zaryglowane od drugiej strony. Jeśli rygiel trzyma się równie dobrze jak reszta domu, niewiele trzeba, żeby go złamać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_0c7bf396886f9b9b7f52
+      kontekst: textscripts.tentaclehouse_bedroomdoor1:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (500) playsound(bat_signbreak,90,90)
+      pl: (500) playsound(bat_signbreak,90,90)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne wywołanie dźwięku, niewidoczne dla gracza; pozostawiono bez zmian.'
+    - id: sol_85f929946c9117b5c156
+      kontekst: textscripts.tentaclehouse_bedroomdoor1:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (1000) playsound(bat_signbreak)
+      pl: (1000) playsound(bat_signbreak)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne wywołanie dźwięku, niewidoczne dla gracza; pozostawiono bez zmian.'
+    - id: sol_ef0f731175d72b7b8976
+      kontekst: textscripts.tentaclehouse_bedroomdoor1:line:14
+      linia: 14
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: THUD. THUD. CRUNCH!
+      pl: ŁUP. ŁUP. TRZASK!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_35a64c86db2e55755eb6
+      kontekst: textscripts.tentaclehouse_bedroomdoor1:line:15
+      linia: 15
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, it was a <i>little</i> harder than expected.
+      pl: Dobrze, było <i>odrobinę</i> trudniej, niż się zapowiadało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e762d89ee05b3bbe2362
+      kontekst: textscripts.tentaclehouse_bedroomdoor1:line:16
+      linia: 16
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go on in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4218
+  skrypt: tentaclehouse_stairsdown
+  pomieszczenie:
+    id: tentaclehouse_floor2
+    nazwa_en: '@map1_name_tentaclehouse@ (Second Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e38e957efda922199c73
+      kontekst: textscripts.tentaclehouse_stairsdown:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Precarious stairs to the first floor.
+      pl: Niepewne schody na parter.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c37a8fa88e90605ae68b
+      kontekst: textscripts.tentaclehouse_stairsdown:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4204
+  skrypt: tentaclehouse_fridge
+  pomieszczenie:
+    id: tentaclehouse_kitchen
+    nazwa_en: '@map1_name_tentaclehouse@ (Kitchen)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_58c7ff9241e65981ec7b
+      kontekst: textscripts.tentaclehouse_fridge:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cupboard is bare. Also it's a refrigerator, not a cupboard.
+      pl: Ta spiżarka świeci pustkami. Poza tym jest lodówką, nie spiżarką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_613c9431b01717ce8dbc
+      kontekst: textscripts.tentaclehouse_fridge:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This refrigerator almost certainly contains horrors beyond your reckoning.
+      pl: Ta lodówka niemal na pewno skrywa koszmary przekraczające ludzkie pojęcie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b72d9d7d16d5a612ec61
+      kontekst: textscripts.tentaclehouse_fridge:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give me them
+      pl: Dawaj je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_4be344747ac3d2218192
+      kontekst: textscripts.tentaclehouse_fridge:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ah, no, no horrors, just some <i>very</i> old food.
+      pl: Ach, nie. Żadnych koszmarów, tylko <i>bardzo</i> stare jedzenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4208
+  skrypt: tentaclehouse_junkdrawer
+  pomieszczenie:
+    id: tentaclehouse_kitchen
+    nazwa_en: '@map1_name_tentaclehouse@ (Kitchen)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1491625517fb5a99d909
+      kontekst: textscripts.tentaclehouse_junkdrawer:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There was almost nothing here to begin with, and there's nothing now.
+      pl: Od początku prawie nic tu nie było, a teraz nie ma już nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_150be7eee5fe1cab2e89
+      kontekst: textscripts.tentaclehouse_junkdrawer:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is exactly one drawer left intact.
+      pl: Ocalała dokładnie jedna szuflada.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d1be9ee3fdb85eb3f1ae
+      kontekst: textscripts.tentaclehouse_junkdrawer:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check it
+      pl: Sprawdź ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_dda5a3ab29f716e427df
+      kontekst: textscripts.tentaclehouse_junkdrawer:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Jackpot!  It was a junk drawer.  You grab the choicest bits.
+      pl: Jest! To była szuflada na szpargały. Zabierasz co smakowitsze kąski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4211
+  skrypt: tentaclehouse_kitchenfight
+  pomieszczenie:
+    id: tentaclehouse_kitchen
+    nazwa_en: '@map1_name_tentaclehouse@ (Kitchen)'
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_120e7a8e487b4a5d2a41
+      kontekst: textscripts.tentaclehouse_kitchenfight:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These tentacles must have been in the mood for a snack.
+      pl: Te macki najwyraźniej miały ochotę coś przekąsić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_1bdd85fd8fddd917c06c
+      kontekst: textscripts.tentaclehouse_kitchenfight:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sliced 'em and diced 'em.
+      pl: Pokroiłeś je w plasterki i posiekałeś w kostkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_16c56a269284a07cab16
+      kontekst: textscripts.tentaclehouse_kitchenfight:line:19
+      linia: 19
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Delicious
+      pl: Palce lizać
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_c9968f5095ca0a1529ff
+      kontekst: textscripts.tentaclehouse_kitchenfight:line:24
+      linia: 24
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Turns out the menu was you.
+      pl: Okazuje się, że to ty jesteś w karcie dań.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_9d90843726d14f1ba5ae
+      kontekst: textscripts.tentaclehouse_kitchenfight:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: And I got served
+      pl: I właśnie mnie podano
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 4215
+  skrypt: tentaclehouse_roaches
+  pomieszczenie:
+    id: tentaclehouse_kitchen
+    nazwa_en: '@map1_name_tentaclehouse@ (Kitchen)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b7887ceb7056d8363f49
+      kontekst: textscripts.tentaclehouse_roaches:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, swell. A massive colony of roaches in the walls. This house is a real peach.
+      pl: Och, cudownie. W ścianach mieszka olbrzymia kolonia karaluchów. Prawdziwa perełka wśród nieruchomości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_3c59168b753822adc869
+      kontekst: textscripts.tentaclehouse_roaches:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You what?
+      pl: Że co zrobisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e83fe3f3f79983fca8ec
+      kontekst: textscripts.tentaclehouse_roaches:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You heard me. Milk those bad boys
+      pl: Dobrze słyszysz. Wydoję te paskudy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: sol_ac7d787f41adb3614332
+      kontekst: textscripts.tentaclehouse_roaches:line:13
+      linia: 13
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All right, well, since you voluntarily took Insectology, I guess you aren't particularly grossed out by bugs, and roaches in particular.
+      pl: No dobrze. Skoro dobrowolnie wybrałeś Insektologię Stosowaną, robactwo — a zwłaszcza karaluchy — najwyraźniej nie budzi w tobie szczególnego obrzydzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6be61079a1217be8dafd
+      kontekst: textscripts.tentaclehouse_roaches:line:14
+      linia: 14
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I, however, didn't and <i>am</i>, so you can write the narration for it yourself.
+      pl: Ja jej jednak nie wybierałem i <i>budzi</i>, więc narrację do tej czynności napisz sobie samodzielnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4220
+  skrypt: tentaclehouse_stove
+  pomieszczenie:
+    id: tentaclehouse_kitchen
+    nazwa_en: '@map1_name_tentaclehouse@ (Kitchen)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2623f7b59a392116afa8
+      kontekst: textscripts.tentaclehouse_stove:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This stove is remarkably clean on the outside.
+      pl: Z zewnątrz ta kuchenka jest zdumiewająco czysta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_948f5bc5545eb8594d83
+      kontekst: textscripts.tentaclehouse_stove:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check the inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_5eb05b7146b6a4b41947
+      kontekst: textscripts.tentaclehouse_stove:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ah, yes.  All the filth is on the inside.  That makes sense I guess.
+      pl: Ach, tak. Cały brud jest w środku. W sumie ma to sens.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

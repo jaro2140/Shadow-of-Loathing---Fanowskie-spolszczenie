@@ -1,0 +1,850 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: frat3
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 21
+liczba_wpisow: 39
+sceny:
+- kolejnosc_w_danych_gry: 1637
+  skrypt: frat3_entrance
+  pomieszczenie:
+    id: frat3
+    nazwa_en: Lambda Iota Theta
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_77d060598beb2f486eb0
+      kontekst: textscripts.frat3_entrance:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, these frat guys are <i>super</i> into geology -- the entire frat house is carved from a single huge block of stone.
+      pl: Łał, ci goście są <i>naprawdę</i> zakręceni na punkcie geologii — cały dom bractwa wykuto w jednym ogromnym bloku kamienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e961c58e6085549769b4
+      kontekst: textscripts.frat3_entrance:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Really nice craftsmanship, too -- it must have taken forever.
+      pl: Rzemiosło też jest znakomite — to musiało trwać wieki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.frat3_entrance:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1638
+  skrypt: frat3_exitpopup
+  pomieszczenie:
+    id: frat3
+    nazwa_en: Lambda Iota Theta
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_29419803f8abdb8c9a93
+      kontekst: textscripts.frat3_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Campus is just a stone's throw away.  Throw a stone?
+      pl: Kampus jest o rzut kamieniem. Rzucić kamień?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.frat3_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1646
+  skrypt: frat3_left
+  pomieszczenie:
+    id: frat3
+    nazwa_en: Lambda Iota Theta
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f4eacb61feb987e34d5b
+      kontekst: textscripts.frat3_left:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check it out
+      pl: Obejrzyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1647
+  skrypt: frat3_mailbox
+  pomieszczenie:
+    id: frat3
+    nazwa_en: Lambda Iota Theta
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1e1d662e2db347d144cd
+      kontekst: textscripts.frat3_mailbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This mailbox is made of foreign stone, which means it's not a federal crime to steal mail from it.
+      pl: Ta skrzynka jest z zagranicznego kamienia, więc kradzież poczty nie stanowi przestępstwa federalnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab2de44bd3a41afeb553
+      kontekst: textscripts.frat3_mailbox:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's steal it then
+      pl: W takim razie ukradnij ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5074
+  skrypt: autoscript__frat3_floor1__hatrack__popup
+  pomieszczenie:
+    id: frat3_floor1
+    nazwa_en: Lambda Iota Theta (Ground Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f5b2a546aa42bbe374c6
+      kontekst: textscripts.autoscript__frat3_floor1__hatrack__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing on the hatrock.
+      pl: Na kapeluszokamieniu niczego nie ma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1634
+  skrypt: frat3_bar
+  pomieszczenie:
+    id: frat3_floor1
+    nazwa_en: Lambda Iota Theta (Ground Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b7dd44702644f3e99c3f
+      kontekst: textscripts.frat3_bar:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not only did they sculpt a stone bar, they even did stone bottles and cups. That's real dedication to an art!
+      pl: Nie tylko wyrzeźbili kamienny bar, ale zrobili nawet kamienne butelki i kubki. Prawdziwe oddanie sztuce!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_fe05dc7ef12afcf3176d
+      kontekst: textscripts.frat3_bar:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find it draped over one of the barstools. It was tricky to spot, because of being exactly the same color and shape as the stool
+        itself.
+      pl: Znajdujesz ją przewieszoną przez jeden ze stołków. Trudno ją dostrzec, bo ma dokładnie ten sam kolor i kształt co stołek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1636
+  skrypt: frat3_couch
+  pomieszczenie:
+    id: frat3_floor1
+    nazwa_en: Lambda Iota Theta (Ground Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2d1771f4be4fe955ed13
+      kontekst: textscripts.frat3_couch:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This solid stone couch looks uncomfortable, but it's still in your top five frat house couches.
+      pl: Ta kanapa z litego kamienia wygląda niewygodnie, ale nadal mieści się w pierwszej piątce kanap z domów bractw.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_a69e27ca5dc163fe6d4d
+      kontekst: textscripts.frat3_couch:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a real struggle to lift them up, but you manage it.
+      pl: Podniesienie ich to prawdziwa walka, ale w końcu ci się udaje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1648
+  skrypt: frat3_painting
+  pomieszczenie:
+    id: frat3_floor1
+    nazwa_en: Lambda Iota Theta (Ground Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_463437afa7d499026bf1
+      kontekst: textscripts.frat3_painting:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're not sure whether this counts as a painting or a sculpture.
+      pl: Nie wiesz, czy zalicza się to do malarstwa, czy rzeźby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_2f2a769c80ea44df7487
+      kontekst: textscripts.frat3_painting:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The artwork talks to you for about an hour without actually clarifying the question of its identity.  You ask where it gets all its
+        energy, and it shows you.
+      pl: Dzieło sztuki rozmawia z tobą przez mniej więcej godzinę, nie wyjaśniając własnej tożsamości. Pytasz, skąd czerpie tyle energii, a ono
+        ci pokazuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5075
+  skrypt: autoscript__frat3_floor2__bednotice__popup
+  pomieszczenie:
+    id: frat3_floor2
+    nazwa_en: Lambda Iota Theta (Second Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_872fbfa6ba9f6b8d8a60
+      kontekst: textscripts.autoscript__frat3_floor2__bednotice__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The members of this frat apparently don't care about comfort or privacy as much as they care about sticking to a theme.
+      pl: Członkowie tego bractwa najwyraźniej mniej cenią wygodę i prywatność niż trzymanie się motywu przewodniego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5076
+  skrypt: autoscript__frat3_floor2__fruits__popup
+  pomieszczenie:
+    id: frat3_floor2
+    nazwa_en: Lambda Iota Theta (Second Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_986f6e4771af8fa42635
+      kontekst: textscripts.autoscript__frat3_floor2__fruits__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A bowl of stone fruit. You know, like peaches and plums.
+      pl: Misa owoców pestkowych. W tym wypadku również kamiennych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1644
+  skrypt: frat3_fridge
+  pomieszczenie:
+    id: frat3_floor2
+    nazwa_en: Lambda Iota Theta (Second Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cf662e47758ee6e8ce21
+      kontekst: textscripts.frat3_fridge:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's hard to say what this is -- a fridge, maybe? Or an armoire?
+      pl: Trudno powiedzieć, co to jest — lodówka? A może szafa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9f3e88ea382d71bb5fe9
+      kontekst: textscripts.frat3_fridge:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open it
+      pl: Otwórz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 35
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d3ab76f8bc778f68e386
+      kontekst: textscripts.frat3_fridge:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It doesn't open, it's solid stone. Where do they keep their food and/or clothes?
+      pl: Nie otwiera się, to lity kamień. Gdzie trzymają jedzenie i/lub ubrania?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5077
+  skrypt: autoscript__frat3_floor3__guy1__popup
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a8f1812432ee0d401e26
+      kontekst: textscripts.autoscript__frat3_floor3__guy1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This statue looks like it's yelling something. They must take this one to football games, ha ha.
+      pl: Ta statua wygląda, jakby coś wykrzykiwała. Pewnie zabierają ją na mecze futbolowe, ha, ha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5078
+  skrypt: autoscript__frat3_floor3__guy2__popup
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bef531d65560960db8da
+      kontekst: textscripts.autoscript__frat3_floor3__guy2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This statue is praying. How traditional!
+      pl: Ta statua się modli. Jak tradycyjnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5079
+  skrypt: autoscript__frat3_floor3__guy3__popup
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dc26c6a002d4b82140e7
+      kontekst: textscripts.autoscript__frat3_floor3__guy3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This statue is doing some kind of crazy dance. They definitely bring this one downstairs for parties.
+      pl: Ta statua wykonuje jakiś szalony taniec. Zdecydowanie znoszą ją na dół podczas imprez.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5080
+  skrypt: autoscript__frat3_floor3__guy4__popup
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a239774e75713b557b66
+      kontekst: textscripts.autoscript__frat3_floor3__guy4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This statue has kind of a nervous expression. Maybe it represents the sculptor's academic stress.
+      pl: Ta statua ma trochę nerwową minę. Może przedstawia stres akademicki rzeźbiarza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5081
+  skrypt: autoscript__frat3_floor3__guy5__popup
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8f88d154c0ec3e7cf9ba
+      kontekst: textscripts.autoscript__frat3_floor3__guy5__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Aw, this statue fell apart. That's a shame.
+      pl: Och, ta statua się rozpadła. Jaka szkoda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5082
+  skrypt: autoscript__frat3_floor3__guy6__popup
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b01922fbcf2810e0b05f
+      kontekst: textscripts.autoscript__frat3_floor3__guy6__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This statue is covering its eyes with one hand. Some kind of political commentary, maybe?
+      pl: Ta statua zasłania oczy jedną ręką. Może to jakiś komentarz polityczny?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5083
+  skrypt: autoscript__frat3_floor3__guy7__popup
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8320cb89680d16ee74b0
+      kontekst: textscripts.autoscript__frat3_floor3__guy7__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This statue is holding its hands up in a desperate warding gesture. It must be symbolic of students' fears of leaving school and having
+        to join the workforce.
+      pl: Ta statua unosi ręce w rozpaczliwym geście obronnym. Musi symbolizować lęk studentów przed opuszczeniem uczelni i wejściem na rynek
+        pracy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1635
+  skrypt: frat3_cap
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d2e12eb1cf16dcf7428b
+      kontekst: textscripts.frat3_cap:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a stone hat on the floor here.
+      pl: Na podłodze leży kamienny kapelusz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_492da8a20657b222611f
+      kontekst: textscripts.frat3_cap:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oof.
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1639
+  skrypt: frat3_f3onenter
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_c73c902a9d1ac9a9e702
+      kontekst: textscripts.frat3_f3onenter:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, this is incredible -- not only did this fraternity chisel a whole frat house out of stone and carve furniture to match, they even
+        went so far as to sculpt a bunch of frat boy statues! Presumably they store them up here and haul them downstairs to fill out the space
+        for parties?
+      pl: Łał, niewiarygodne — bractwo nie tylko wykuło cały dom w kamieniu i wyrzeźbiło pasujące meble, ale stworzyło nawet mnóstwo posągów członków!
+        Pewnie przechowują je na górze i znoszą na imprezy, żeby zapełnić przestrzeń?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_860dc97d834aa919f7ef
+      kontekst: textscripts.frat3_f3onenter:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's also some kind of weird stone... thing? It looks a bit like one of those newfangled "televisions" you've read about, except
+        triangular. Somebody's science project, maybe.
+      pl: Jest tu też jakaś dziwna kamienna... rzecz? Trochę przypomina jedną z tych nowomodnych „telewizji”, o których czytałeś, ale jest trójkątna. Może czyjś projekt naukowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_004263cca723757ad53e
+      kontekst: textscripts.frat3_f3onenter:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1649
+  skrypt: frat3_quarryrock
+  pomieszczenie:
+    id: frat3_floor3
+    nazwa_en: Lambda Iota Theta (Third Floor)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b75be54677e2b65df048
+      kontekst: textscripts.frat3_quarryrock:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh hey, a hexrock! It looks just about the right size to run that elevator gizmo in the geology classroom.
+      pl: O, hekskamień! Wygląda na idealny rozmiar do zasilenia ustrojstwa z windą w sali geologicznej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_229bf9dd501439e0708b
+      kontekst: textscripts.frat3_quarryrock:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e8b248134b172e4afd14
+      kontekst: textscripts.frat3_quarryrock:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some kind of weird hovering rock? Pretty fancy.
+      pl: Jakiś dziwny lewitujący kamień? Całkiem wymyślny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dispo
+    wpisy:
+    - id: sol_7844cb58812c4f9000d6
+      kontekst: textscripts.frat3_quarryrock:line:16
+      linia: 16
+      sekcja_skryptu: dispo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The frat guys must all be on vacation, so they probably won't mind if you borrow this. They can always pick it up from the classroom
+        when they get back.
+      pl: Wszyscy członkowie bractwa są pewnie na wakacjach, więc nie będą mieć nic przeciw pożyczeniu tego. Po powrocie zawsze mogą odebrać przedmiot
+        z sali wykładowej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6a20e801eb283b60d431
+      kontekst: textscripts.frat3_quarryrock:line:17
+      linia: 17
+      sekcja_skryptu: dispo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You consider leaving them a note, but you don't have a chisel.
+      pl: Rozważasz zostawienie notatki, ale nie masz dłuta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_152f1c0eacdd147213eb
+      kontekst: textscripts.frat3_quarryrock:line:19
+      linia: 19
+      sekcja_skryptu: dispo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  A lot of stuff quit working when you took that.
+      pl: Hm. Kiedy to zabrałeś, sporo rzeczy przestało działać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_17969eb69c386d91e2f7
+      kontekst: textscripts.frat3_quarryrock:line:20
+      linia: 20
+      sekcja_skryptu: dispo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Eh, they'll figure it out
+      pl: Ech, poradzą sobie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

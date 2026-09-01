@@ -1293,7 +1293,7 @@ sceny:
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: You lean against the window and listen to the spattering rain. Uncle Murray's letter didn't sound nice. It sounded like he was in some
         kind of trouble.
-      pl: Opierasz się o okno i słuchasz deszczu. List wujka Murraya nie brzmiał dobrze. Wynikało z niego, że wujek wpadł w jakieś kłopoty.
+      pl: Opierasz się o okno i słuchasz deszczu. List wujka Murraya nie brzmiał dobrze. Wyglądało na to, że wpadł w jakieś kłopoty
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -1456,7 +1456,7 @@ sceny:
       typ: rightsay
       mowca_lub_kanal: postac_po_prawej
       en: Useta be. Don't work anymore, on account'a bein' haunted.
-      pl: Kiedyś była. Już nie działa, bo jest nawiedzona.
+      pl: Kiedyś był. Już nie działa, bo jest nawiedzony.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -1488,7 +1488,7 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: Yeah well, not haunted <i>exactly</i>. Buncha spiders got in there, and now it sounds all scary when you blow it.
-      pl: No, nie jest <i>dosłownie</i> nawiedzona. Wlazła tam masa pająków i teraz, kiedy w nią dmuchasz, brzmi upiornie.
+      pl: No, nie jest <i>dosłownie</i> nawiedzony. Wlazła tam masa pająków i teraz, kiedy w nią dmuchasz, brzmi upiornie.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -1520,7 +1520,7 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: If you want it, it's yours.
-      pl: Jeśli chcesz, jest twoja.
+      pl: Jeśli chcesz, jest twój.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -1623,7 +1623,7 @@ sceny:
       typ: rightsay
       mowca_lub_kanal: postac_po_prawej
       en: Hmm? What can I do fer ya?
-      pl: Hm? W czym pomóc?
+      pl: Hm? W czym mogę ci pomóc?
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -1918,7 +1918,7 @@ sceny:
       typ: rightsay
       mowca_lub_kanal: postac_po_prawej
       en: Well, technic'ly I should say "my daughter's monster."
-      pl: Technicznie z »potworem mojej córki«.
+      pl: Ściślej mówiąc, powinienem powiedzieć „potworem mojej córki”.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2012,8 +2012,7 @@ sceny:
       mowca_lub_kanal: postac_po_prawej
       en: Problem is, after she left it blew a whatsit tube and got violent. I'm pretty good with machinery, but when it comes to these newfangled
         electrics, I might as well be a dog tryin'a read Plato. So I locked it in the barn.
-      pl: Po jej wyjeździe pękła rurka czegośtam i zrobiło się agresywne. Znam się na maszynach, ale przy nowomodnej elektryce jestem jak pies
-        czytający Platona. Zamknąłem to w stodole.
+      pl: Po jej wyjeździe pękła rurka czegośtam i zrobiło się agresywne. Znam się na maszynach, ale przy nowomodnej elektryce równie dobrze mógłbym być psem próbującym czytać Platona. Zamknąłem to w stodole.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2111,7 +2110,7 @@ sceny:
         the junior varsity pig skinners. Had a li'l enchantment on 'em so the kids wouldn't get quite so many concussions, probably worn off by
         now.
       pl: Pierścień S.I.T. z rocznika 1917! Mam taki ze sztucznym szmaragdem, ale nie ze sztucznym szafirem. Te dostawali juniorzy ze Świńskoskórych.
-        Miały małe zaklęcie, żeby zawodnicy nie łapali tylu wstrząśnień mózgu, ale pewnie już wywietrzało.
+        Miał małe zaklęcie, żeby dzieciaki nie doznawały tylu wstrząśnień mózgu, ale pewnie już wywietrzało.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2470,7 +2469,7 @@ sceny:
       typ: rightsay
       mowca_lub_kanal: postac_po_prawej
       en: Well, I was leavin' it behind anyhow. But why'd ya go an' do a thing like that for?
-      pl: I tak go zostawiam. Ale po co to robić?
+      pl: I tak go zostawiam. Ale po co zrobiłeś coś takiego?
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2526,7 +2525,7 @@ sceny:
       typ: say
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: This pump is empty, which you already knew, because you're the one who emptied it.
-      pl: Dystrybutor jest pusty, co już wiesz, bo to twoja sprawka.
+      pl: Dystrybutor jest pusty, co już wiesz, bo to ty go opróżniłeś.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -3713,7 +3712,7 @@ sceny:
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: Before long, the bus arrives. The sky starts pouring rain as soon as you board. "Well now," the driver remarks, "looks like I made it
         just in time. Must be your lucky night, kiddo."
-      pl: Wkrótce przyjeżdża autobus. Deszcz zaczyna lać, gdy tylko wsiadasz. »No proszę — mówi kierowca — zdążam w samą porę. To musi być twoja
+      pl: Wkrótce przyjeżdża autobus. Deszcz zaczyna lać, gdy tylko wsiadasz. »No proszę — mówi kierowca — zdążyłem w samą porę. To musi być twoja
         szczęśliwa noc, dzieciaku«.
       status: zatwierdzono
       wspoldzielony_rekord: true
@@ -5734,7 +5733,7 @@ sceny:
       typ: option
       mowca_lub_kanal: opcja_gracza
       en: Open it
-      pl: Otwórz je
+      pl: Otwórz to
       status: zatwierdzono
       wspoldzielony_rekord: true
       liczba_wystapien: 35
@@ -5766,7 +5765,7 @@ sceny:
       typ: option
       mowca_lub_kanal: opcja_gracza
       en: Take it
-      pl: Weź go
+      pl: Zabierz to
       status: zatwierdzono
       wspoldzielony_rekord: true
       liczba_wystapien: 29
@@ -7152,7 +7151,7 @@ sceny:
       typ: option
       mowca_lub_kanal: opcja_gracza
       en: Take it
-      pl: Weź go
+      pl: Zabierz to
       status: zatwierdzono
       wspoldzielony_rekord: true
       liczba_wystapien: 29
@@ -9240,7 +9239,7 @@ sceny:
       typ: option
       mowca_lub_kanal: opcja_gracza
       en: Take it
-      pl: Weź go
+      pl: Zabierz to
       status: zatwierdzono
       wspoldzielony_rekord: true
       liczba_wystapien: 29
@@ -9475,7 +9474,7 @@ sceny:
       typ: option
       mowca_lub_kanal: opcja_gracza
       en: Open it
-      pl: Otwórz je
+      pl: Otwórz to
       status: zatwierdzono
       wspoldzielony_rekord: true
       liczba_wystapien: 35

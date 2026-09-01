@@ -1,0 +1,1197 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: spiderlair
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 7
+liczba_wpisow: 71
+sceny:
+- kolejnosc_w_danych_gry: 5569
+  skrypt: autoscript__spiderlair__leftblocker__popup
+  pomieszczenie:
+    id: spiderlair
+    nazwa_en: Beppo's Hole
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c814b51baee9c59be2c4
+      kontekst: textscripts.autoscript__spiderlair__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You swore long ago that you'd never deliberately walk into an impenetrable mass of spider webs.
+      pl: Dawno temu przysiągłeś, że nigdy z własnej woli nie wejdziesz w nieprzeniknioną masę pajęczyn.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id001 []
+- kolejnosc_w_danych_gry: 5570
+  skrypt: autoscript__spiderlair__rightblocker__popup
+  pomieszczenie:
+    id: spiderlair
+    nazwa_en: Beppo's Hole
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c814b51baee9c59be2c4
+      kontekst: textscripts.autoscript__spiderlair__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You swore long ago that you'd never deliberately walk into an impenetrable mass of spider webs.
+      pl: Dawno temu przysiągłeś, że nigdy z własnej woli nie wejdziesz w nieprzeniknioną masę pajęczyn.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 5571
+  skrypt: autoscript__spiderlair__sac1__popup
+  pomieszczenie:
+    id: spiderlair
+    nazwa_en: Beppo's Hole
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2776d5e1bc1b695035e7
+      kontekst: textscripts.autoscript__spiderlair__sac1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There aren't as many spider eggs in here as there could be, but there are still too many.
+      pl: Nie ma tu tylu pajęczych jaj, ile mogłoby być, ale nadal jest ich za dużo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5572
+  skrypt: autoscript__spiderlair__sac2__popup
+  pomieszczenie:
+    id: spiderlair
+    nazwa_en: Beppo's Hole
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5a51e33ee425054a31ab
+      kontekst: textscripts.autoscript__spiderlair__sac2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A wriggling mass of spider eggs.
+      pl: Wijąca się masa pajęczych jaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4137
+  skrypt: spiderlair_fight
+  pomieszczenie:
+    id: spiderlair
+    nazwa_en: Beppo's Hole
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d2d754e5eed1f453b8a1
+      kontekst: textscripts.spiderlair_fight:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You are absolutely not going to look in that hole.
+      pl: Za nic w świecie nie zajrzysz do tej dziury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_f448f07ddac70cd8f429
+      kontekst: textscripts.spiderlair_fight:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are definitely a lot of spiders in this hole.
+      pl: W tej dziurze zdecydowanie jest dużo pająków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_775c5b6548f67b1ed337
+      kontekst: textscripts.spiderlair_fight:line:18
+      linia: 18
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are now slightly fewer spiders in Beppo's Hole.
+      pl: W Dziurze Beppa jest teraz odrobinę mniej pająków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_5dc9b5baca78e0fd4441
+      kontekst: textscripts.spiderlair_fight:line:30
+      linia: 30
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fewer spiders is better spiders
+      pl: Mniej pająków to lepsza liczba pająków
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_6c94a0bdbb50d350c676
+      kontekst: textscripts.spiderlair_fight:line:35
+      linia: 35
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should have obeyed the instructions of the Crystaldream Lake Historical Society.  Or if you didn't read them, you should have read
+        them and <i>then</i> obeyed them.
+      pl: Powinieneś był posłuchać zaleceń Towarzystwa Historycznego Jeziora Kryształowych Snów. A jeśli ich nie przeczytałeś, powinieneś był je przeczytać, a <i>potem</i> ich posłuchać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b43673a7cff85e30f5cd
+      kontekst: textscripts.spiderlair_fight:line:37
+      linia: 37
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I guess so
+      pl: Chyba tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 4138
+  skrypt: spiderlair_hobo
+  pomieszczenie:
+    id: spiderlair
+    nazwa_en: Beppo's Hole
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 55
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e90beadfd0e9d9f0e388
+      kontekst: textscripts.spiderlair_hobo:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's Doc, the hobo doctor who doctors every hobo that doesn't doctor themselves.
+      pl: To Doc, lekarz włóczęgów, który leczy każdego włóczęgę, który nie leczy się sam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.spiderlair_hobo:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba00c7917b3cbeb82ca6
+      kontekst: textscripts.spiderlair_hobo:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This wriggling cocoon is roughly person-sized. So it's either a person who's been cocooned by a spider and is slowly suffocating to
+        death, or a person-sized mass of baby spiders.
+      pl: Ten wiercący się kokon jest mniej więcej wielkości człowieka. A zatem w środku powoli dusi się człowiek schwytany przez pająka albo kłębi się masa ludzkoformatowy kłąb małych pająków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1fc30ba8093e074a1ecc
+      kontekst: textscripts.spiderlair_hobo:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him/her/them
+      pl: Porozmawiaj z osobą w kokonie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_206e8aa98895a9a49b90
+      kontekst: textscripts.spiderlair_hobo:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, thank you.
+      pl: Nie, dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.spiderlair_hobo:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id002
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Token pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_e13ef1c3ab29eb911fa1
+      kontekst: textscripts.spiderlair_hobo:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm fine.
+      pl: Nic mi nie jest.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.spiderlair_hobo:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id003 []
+    - id: sol_c8b4fb8183d1e6cb5497
+      kontekst: textscripts.spiderlair_hobo:line:29
+      linia: 29
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks, and all, but...  I don't want to catch what you've got.
+      pl: Dzięki i w ogóle, ale... wolę się od ciebie nie zarazić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.spiderlair_hobo:line:31
+      linia: 31
+      sekcja_skryptu: convo
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_7d11228f0146873ac7e3
+      kontekst: textscripts.spiderlair_hobo:line:32
+      linia: 32
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, me neither.  Don't stand so close, please.
+      pl: Ja też. Odsuń się trochę, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.spiderlair_hobo:line:33
+      linia: 33
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id003
+    - id: sol_de2a832b83e0883f1801
+      kontekst: textscripts.spiderlair_hobo:line:39
+      linia: 39
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi there! Need any doctoring?
+      pl: Cześć! Potrzebna pomoc lekarska?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a63aa0e8b22493bcd73
+      kontekst: textscripts.spiderlair_hobo:line:40
+      linia: 40
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No thanks, I usually just go to bed, or splash some water on my face.
+      pl: Nie, dzięki. Zwykle wystarcza mi sen albo trochę wody na twarz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_f5cab552cf130ed28a9b
+      kontekst: textscripts.spiderlair_hobo:line:46
+      linia: 46
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh... hello in there?
+      pl: Eee... halo, tam w środku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f2deb55ae7817e55a4ed
+      kontekst: textscripts.spiderlair_hobo:line:47
+      linia: 47
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mmmff!
+      pl: Mmmff!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_09a1d4c073438dcdf6ac
+      kontekst: textscripts.spiderlair_hobo:line:48
+      linia: 48
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Are you a person? Or a mind-breaking quantity of baby spiders?
+      pl: Jesteś człowiekiem? Czy przyprawiającą o obłęd liczbą małych pająków?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c0a17ec66ee16d68634
+      kontekst: textscripts.spiderlair_hobo:line:49
+      linia: 49
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mmmmffff!
+      pl: Mmmmffff!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e00ac335a7ba7203ed52
+      kontekst: textscripts.spiderlair_hobo:line:50
+      linia: 50
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Is that the kind of noise that a whole lot of baby spiders would make?'
+      pl: '...Czy mnóstwo małych pająków wydawałoby właśnie taki odgłos?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e22a920c57dadbe43392
+      kontekst: textscripts.spiderlair_hobo:line:51
+      linia: 51
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: MMMMFFF!
+      pl: MMMMFFF!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c99349bc4b515ceb3ffd
+      kontekst: textscripts.spiderlair_hobo:line:52
+      linia: 52
+      sekcja_skryptu: intro
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cut them free
+      pl: Rozetnij kokon
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.spiderlair_hobo:line:53
+      linia: 53
+      sekcja_skryptu: intro
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: release
+    wpisy:
+    - id: sol_1c710a9c4f530dc7012a
+      kontekst: textscripts.spiderlair_hobo:line:58
+      linia: 58
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You cut apart the cocoon, assuming that -- since you checked the setting for "Arachnophobia" -- we wouldn't be so mean as to cover you
+        with a trillion baby spiders.
+      pl: Rozcinasz kokon, zakładając, że skoro zaznaczyłeś opcję „Arachnofobia”, nie zachowamy się tak podle, żeby obsypać cię bilionem małych pająków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19950f1f8e9742bddab5
+      kontekst: textscripts.spiderlair_hobo:line:59
+      linia: 59
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fortunately, your assumption was correct. It's just a guy.
+      pl: Na szczęście założenie okazuje się słuszne. To tylko facet.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_82d4be57a8aed9abf2c2
+      kontekst: textscripts.spiderlair_hobo:line:60
+      linia: 60
+      sekcja_skryptu: release
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh thank god
+      pl: O, dzięki Bogu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1cdc31920f38e22dd2b6
+      kontekst: textscripts.spiderlair_hobo:line:63
+      linia: 63
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You cut apart the cocoon, knowing that it's probably just a guy in there, but secretly hoping that it's a trillion baby spiders instead.
+      pl: Rozcinasz kokon. Wiesz, że w środku prawdopodobnie jest tylko facet, ale po cichu liczysz na bilion małych pająków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_df20bee4b1a8179c884a
+      kontekst: textscripts.spiderlair_hobo:line:64
+      linia: 64
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sadly, it is indeed a guy. But since you're so into spiders that you deliberately checked a setting to let us know, why not take a second
+        to close your eyes and imagine if it <i>had</i> been a trillion baby spiders? Just pouring out of there and covering you entirely?
+      pl: Niestety, faktycznie jest tam facet. Ale skoro pająki kręcą cię tak bardzo, że celowo dajesz nam o tym znać odpowiednim ustawieniem, zamknij na chwilę oczy i wyobraź sobie, jak by to było, gdyby <i>jednak</i> był tam bilion małych pająków. Wylewają się z kokonu i pokrywają cię całkowicie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d6730657fa5f44ebcccf
+      kontekst: textscripts.spiderlair_hobo:line:65
+      linia: 65
+      sekcja_skryptu: release
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wow!
+      pl: O rety!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f14ce33a6c214036674d
+      kontekst: textscripts.spiderlair_hobo:line:68
+      linia: 68
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You cut apart the cocoon, bracing yourself for true horror. Fortunately, it turns out to just be a guy in there.
+      pl: Rozcinasz kokon w gotowości na prawdziwą grozę. Na szczęście w środku okazuje się, że tylko facet.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: release2
+    wpisy:
+    - id: sol_0653db1027c931dc1e6b
+      kontekst: textscripts.spiderlair_hobo:line:74
+      linia: 74
+      sekcja_skryptu: release2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Whew! Thanks, friend. You had me worried there for a sec.
+      pl: Uff! Dzięki. Już zaczynałem się martwić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a17bff7ff04e41d70a6
+      kontekst: textscripts.spiderlair_hobo:line:75
+      linia: 75
+      sekcja_skryptu: release2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They call me Doc -- I came here to get some free gauze. Got a bit more than I bargained for.
+      pl: Mówią na mnie Doc. Przyszedłem tu po darmową gazę, a dostałem znacznie więcej, niż zamawiałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f7a732fd7a52ebcf5939
+      kontekst: textscripts.spiderlair_hobo:line:76
+      linia: 76
+      sekcja_skryptu: release2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi Doc, I'm @firstname@. I assume from your doctor hat thing that you're literally a doctor?
+      pl: Cześć, Doc. Jestem @firstname@. Po tej lekarskiej czapce wnioskuję, że naprawdę jesteś lekarzem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9136e5e507fc943b0ac9
+      kontekst: textscripts.spiderlair_hobo:line:77
+      linia: 77
+      sekcja_skryptu: release2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: In the sense that doctoring is my profession, yes. In the sense that I have a legal license for practicing it, no.
+      pl: W tym sensie, że leczenie jest moim zawodem — tak. W tym sensie, że mam na nie legalne uprawnienia — nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_4c76bc80d2303955d0ef
+      kontekst: textscripts.spiderlair_hobo:line:87
+      linia: 87
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: You were looking for gauze?
+      pl: Szukasz gazy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_965f94b1db3d577f6e19
+      kontekst: textscripts.spiderlair_hobo:line:92
+      linia: 92
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: See you later, Doc.
+      pl: Do zobaczenia, Doc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: evidence
+    wpisy:
+    - id: sol_3fb901e66787bc758230
+      kontekst: textscripts.spiderlair_hobo:line:97
+      linia: 97
+      sekcja_skryptu: evidence
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Let me see... Ooh, yeah, this is bad. You need a full crimectomy, or you're liable to have a real habeas corpus on your hands.
+      pl: Zobaczmy... Uuu, źle to wygląda. Potrzebujesz pełnej kryminalektomii, inaczej możesz skończyć z prawdziwym habeas corpus na rękach.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_139fd134329d81c0b6ee
+      kontekst: textscripts.spiderlair_hobo:line:98
+      linia: 98
+      sekcja_skryptu: evidence
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He dips a scalpel in a bottle of ink, and makes a few careful edits.
+      pl: Zanurza skalpel w butelce atramentu i dokonuje kilku ostrożnych poprawek.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3bf16a08ae6e70666df9
+      kontekst: textscripts.spiderlair_hobo:line:99
+      linia: 99
+      sekcja_skryptu: evidence
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There you go. Try to keep the heat off 'til the swelling goes down.
+      pl: Gotowe. Staraj się nie ściągać na siebie glin, dopóki opuchlizna nie zejdzie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.spiderlair_hobo:line:102
+      linia: 102
+      sekcja_skryptu: evidence
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gauze
+    wpisy:
+    - id: sol_4d86267ef481687c9e7e
+      kontekst: textscripts.spiderlair_hobo:line:106
+      linia: 106
+      sekcja_skryptu: gauze
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep! The webs from big spiders like this make really great surgical gauze. It's strong, self-adhesive, and even sterile if it's really
+        fresh!
+      pl: Tak! Pajęczyny tak wielkich pająków świetnie nadają się na gazę chirurgiczną. Są mocne, samoprzylepne, a gdy są naprawdę świeże, nawet
+        sterylne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aed15eaf5cd156ac3cb6
+      kontekst: textscripts.spiderlair_hobo:line:107
+      linia: 107
+      sekcja_skryptu: gauze
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Unfortunately, I kinda bit off more than I could chew.
+      pl: Niestety wziąłem na ząb więcej, niż mogłem przeżuć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_447ad99fe15d0251bc36
+      kontekst: textscripts.spiderlair_hobo:line:108
+      linia: 108
+      sekcja_skryptu: gauze
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You can chew it too?
+      pl: Można ją jeszcze żuć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dc2819bb85b17b3d2276
+      kontekst: textscripts.spiderlair_hobo:line:109
+      linia: 109
+      sekcja_skryptu: gauze
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, I meant metaphorically. One of the great big spiders that live in Beppo's Hole caught sight of me.
+      pl: Nie, to metafora. Wypatrzył mnie jeden z olbrzymich pająków mieszkających w Dziurze Beppa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_549691d384f019537b40
+      kontekst: textscripts.spiderlair_hobo:line:110
+      linia: 110
+      sekcja_skryptu: gauze
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I don't recommend messing around with that hole, especially if you're flush to the gills on "medicinal" alcohol.
+      pl: Nie radzę kręcić się przy tej dziurze, zwłaszcza gdy masz po skrzela „leczniczego” alkoholu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5d99df68d7aabf535623
+      kontekst: textscripts.spiderlair_hobo:line:111
+      linia: 111
+      sekcja_skryptu: gauze
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sendtocamp
+    wpisy:
+    - id: sol_338bd1c73c17149ebcd0
+      kontekst: textscripts.spiderlair_hobo:line:118
+      linia: 118
+      sekcja_skryptu: sendtocamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You know, there's a hobo camp just outside of Ocean City. They could probably use a doctor.
+      pl: Wiesz, tuż za Ocean City jest obóz włóczęgów. Lekarz pewnie by im się przydał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cad0eb62f5f1788237b7
+      kontekst: textscripts.spiderlair_hobo:line:119
+      linia: 119
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! I could use some patients! Because I'm <i>much too eager</i> to get doctoring!
+      pl: Świetnie! Przydadzą mi się pacjenci! Bo aż <i>lecę</i>, żeby ich leczyć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_30aa242406fc32ad8fef
+      kontekst: textscripts.spiderlair_hobo:line:120
+      linia: 120
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...That''s a joke that works better out loud than in print.'
+      pl: '...Ten żart lepiej brzmi, niż wygląda.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_58bb9a3024a77b045b70
+      kontekst: textscripts.spiderlair_hobo:line:121
+      linia: 121
+      sekcja_skryptu: sendtocamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '... But...'
+      pl: '...Ale...'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bd761d22cc126366825c
+      kontekst: textscripts.spiderlair_hobo:line:122
+      linia: 122
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway, see you there!
+      pl: W każdym razie do zobaczenia na miejscu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_005defb5446526645b73
+      kontekst: textscripts.spiderlair_hobo:line:124
+      linia: 124
+      sekcja_skryptu: sendtocamp
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, bye!
+      pl: Dobra, cześć!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getcode
+    wpisy:
+    - id: sol_826e2762125821b3ade7
+      kontekst: textscripts.spiderlair_hobo:line:128
+      linia: 128
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh sure, I can teach you the hobo code for all kinds of medical terms.
+      pl: Jasne, mogę nauczyć cię kodu włóczęgów dla wszelkich terminów medycznych.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_189f9fc92b919bf74c62
+      kontekst: textscripts.spiderlair_hobo:line:129
+      linia: 129
+      sekcja_skryptu: getcode
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He teaches you how to read his handwriting, and then teaches you some hobo code.
+      pl: Uczy cię odczytywać swoje pismo, a potem kilku znaków kodu włóczęgów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53f6687bc26f92dc9edb
+      kontekst: textscripts.spiderlair_hobo:line:133
+      linia: 133
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about something else
+      pl: Zapytaj o coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 50
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.spiderlair_hobo:line:134
+      linia: 134
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 4139
+  skrypt: spiderlair_plaque
+  pomieszczenie:
+    id: spiderlair
+    nazwa_en: Beppo's Hole
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_153585143fe89436b7de
+      kontekst: textscripts.spiderlair_plaque:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plaque says BEPPO'S HOLE at the top, and then there's some fine print.
+      pl: U góry tabliczki widnieje napis DZIURA BEPPA, a pod nim trochę drobnego druku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46b2cfbb00b3accb71a5
+      kontekst: textscripts.spiderlair_plaque:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read it
+      pl: Przeczytaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 37
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: readit
+    wpisy:
+    - id: sol_38fe2b8c868d18dd1d1e
+      kontekst: textscripts.spiderlair_plaque:line:9
+      linia: 9
+      sekcja_skryptu: readit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Beppo's Hole is named after Beppo P. Surricchio, who purchased this plot of land in 1903 with the stated intention of creating a "shark
+        sanctuary."
+      pl: Dziura Beppa nosi imię Beppa P. Surricchia, który kupił tę działkę w 1903 roku z deklarowanym zamiarem utworzenia „rezerwatu rekinów”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ae14e15402181bd9433f
+      kontekst: textscripts.spiderlair_plaque:line:10
+      linia: 10
+      sekcja_skryptu: readit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He managed to dig one decent-sized pit, but before he could fill it up with sharks, it filled itself up with spiders, or perhaps it
+        would be more accurate to say that spiders filled it up with themselves.  And their offspring.  Their teeming hordes of awful, venomous
+        offspring.
+      pl: Udało mu się wykopać dół przyzwoitych rozmiarów, lecz zanim zdążył napełnić go rekinami, dół sam napełnił się pająkami. A może trafniej
+        byłoby powiedzieć, że pająki napełniły go sobą. Oraz swoim potomstwem. Mrowiem okropnego, jadowitego potomstwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bb8f10483864429cda6b
+      kontekst: textscripts.spiderlair_plaque:line:11
+      linia: 11
+      sekcja_skryptu: readit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It is the opinion of the Crystaldream Lake Historical Society that Beppo's Hole should be avoided at all costs.  In fact, we probably
+        shouldn't have put this placard here, or included it on any of our maps.  May those you leave behind forgive us.
+      pl: Towarzystwo Historyczne Jeziora Kryształowych Snów stoi na stanowisku, że Dziury Beppa należy unikać za wszelką cenę. Właściwie to nie powinniśmy byli stawiać tej tablicy ani umieszczać jej na żadnej z map. Niech wybaczą nam ci, których po sobie zostawisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2f64be489ea00e780f67
+      kontekst: textscripts.spiderlair_plaque:line:12
+      linia: 12
+      sekcja_skryptu: readit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fascinating
+      pl: Fascynujące
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

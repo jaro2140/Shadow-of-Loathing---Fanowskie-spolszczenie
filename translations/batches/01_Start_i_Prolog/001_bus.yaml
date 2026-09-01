@@ -27,7 +27,6 @@ sceny:
       en: It's the bus driver.
       pl: To kierowca autobusu.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 2
       tokeny_techniczne: []
@@ -43,7 +42,6 @@ sceny:
       en: Talk to him
       pl: Porozmawiaj z nim
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 134
       tokeny_techniczne: []
@@ -61,7 +59,6 @@ sceny:
       en: Is it much further to Ocean City?
       pl: Daleko jeszcze do Ocean City?
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -76,10 +73,9 @@ sceny:
       mowca_lub_kanal: postac_po_prawej
       en: Not too far.  Say, why are you heading that way?  You on vacation or something?  Ocean City used to be a big tourist spot, but I don't
         get so many passengers these days.
-      pl: Niedaleko. Powiedz, po co tam jedziesz? Wakacje czy coś innego? Ocean City było kiedyś wielką atrakcją turystyczną, ale ostatnio nie mam wielu
+      pl: Niedaleko. Powiedz, po co tam jedziesz? Wakacje czy coś? Ocean City było kiedyś wielką atrakcją turystyczną, ale ostatnio nie mam wielu
         pasażerów.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -95,7 +91,6 @@ sceny:
       en: Kind of.  I'm visiting my uncle.
       pl: Coś w tym rodzaju. Jadę odwiedzić wujka.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -111,7 +106,6 @@ sceny:
       en: Must be nice, havin' an uncle.
       pl: Fajnie tak mieć wujka.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -127,7 +121,6 @@ sceny:
       en: The bus suddenly judders to a stop.
       pl: Autobus nagle zatrzymuje się z szarpnięciem.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -143,7 +136,6 @@ sceny:
       en: Uh oh
       pl: Oho.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 3
       tokeny_techniczne: []
@@ -170,7 +162,6 @@ sceny:
       en: You must've dropped the letter from Uncle Murray.
       pl: List od wujka Murraya musiał ci wypaść.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -186,7 +177,6 @@ sceny:
       en: Pick it up
       pl: Podnieś go
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 3
       tokeny_techniczne: []
@@ -204,7 +194,6 @@ sceny:
       en: Murray Morris
       pl: Murray Morris
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -218,9 +207,8 @@ sceny:
       typ: say
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: c/o Plunkett Street Antiques
-      pl: c/o Antyki przy Plunkett Street
+      pl: do odbioru w Antykwariacie przy ulicy Plunkett
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -234,9 +222,8 @@ sceny:
       typ: say
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: 111 Plunkett St.
-      pl: Plunkett Street 111
+      pl: ulica Plunkett 111
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -252,7 +239,6 @@ sceny:
       en: Ocean City
       pl: Ocean City
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -266,9 +252,8 @@ sceny:
       typ: say
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: Dear @firstname@,
-      pl: Drogi @firstname@,
+      pl: Witaj, @firstname@,
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 2
       tokeny_techniczne:
@@ -283,9 +268,8 @@ sceny:
       typ: say
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: I hope this letter finds you well, and I hope it finds you quickly.
-      pl: Mam nadzieję, że ten list zastanie cię w dobrym zdrowiu i że zrobi to szybko.
+      pl: Mam nadzieję, że ten list zastanie cię w dobrym zdrowiu i szybko do ciebie dotrze.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 2
       tokeny_techniczne: []
@@ -301,7 +285,6 @@ sceny:
       en: Please come and help me with the plot of this video game.
       pl: Proszę, przyjedź i pomóż mi z fabułą tej gry wideo.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -317,7 +300,6 @@ sceny:
       en: Your uncle,
       pl: Twój wujek
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 2
       tokeny_techniczne: []
@@ -333,7 +315,6 @@ sceny:
       en: Murray
       pl: Murray
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 2
       tokeny_techniczne: []
@@ -349,7 +330,6 @@ sceny:
       en: Put the letter away
       pl: Schowaj list
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 2
       tokeny_techniczne: []
@@ -367,7 +347,6 @@ sceny:
       en: You stuff the letter back into your luggage.
       pl: Wpychasz list z powrotem do bagażu.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -383,7 +362,6 @@ sceny:
       en: It'll be safe there
       pl: Tam będzie bezpieczny
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -410,7 +388,6 @@ sceny:
       en: It'd be way too awkward to talk to that guy again.
       pl: Ponowna rozmowa z tym facetem byłaby zdecydowanie zbyt niezręczna.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -426,7 +403,6 @@ sceny:
       en: It's Uncle Murray!
       pl: To wujek Murray!
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -442,7 +418,6 @@ sceny:
       en: Talk to him
       pl: Porozmawiaj z nim
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 134
       tokeny_techniczne: []
@@ -458,9 +433,8 @@ sceny:
       typ: leftsay
       mowca_lub_kanal: postac_po_lewej
       en: Uncle Murray!  I didn't expect to see you until I got to Ocean City!
-      pl: Wujku Murray! Nie spodziewałem się ciebie przed dotarciem do Ocean City!
+      pl: Wujku Murray! Mieliśmy się zobaczyć dopiero w Ocean City!
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -476,7 +450,6 @@ sceny:
       en: Murray smiles.
       pl: Murray się uśmiecha.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -492,7 +465,6 @@ sceny:
       en: Heya, @firstname@!  It's great to see you!  Hold on a minute...  What's this?
       pl: Cześć, @firstname@! Wspaniale cię widzieć! Chwileczkę... A to co?
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne:
@@ -509,7 +481,6 @@ sceny:
       en: He reaches behind your ear.
       pl: Sięga ci za ucho.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -525,7 +496,6 @@ sceny:
       en: Wait
       pl: Czekaj
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 4
       tokeny_techniczne: []
@@ -543,7 +513,6 @@ sceny:
       en: He produces a coin and hands it to you.
       pl: Wyciąga monetę i ci ją podaje.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -559,7 +528,6 @@ sceny:
       en: Haha, classic Uncle Murray.
       pl: Ha, ha, klasyczny wujek Murray.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -575,7 +543,6 @@ sceny:
       en: Listen, kid, I need your help.
       pl: Słuchaj, dzieciaku, potrzebuję twojej pomocy.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -591,7 +558,6 @@ sceny:
       en: With what?
       pl: W czym?
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -609,7 +575,6 @@ sceny:
       en: I'm in trouble.  I need you to come find me.
       pl: Mam kłopoty. Musisz mnie znaleźć.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -625,7 +590,6 @@ sceny:
       en: Find you?  But you're right here!
       pl: Znaleźć? Przecież tu jesteś!
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -639,9 +603,8 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: Jessica will know what to do.  Follow her lead.  Follow the signals.
-      pl: Jessica będzie wiedzieć, co robić. Idź za jej wskazówkami. Podążaj za sygnałami.
+      pl: Jessica będzie wiedzieć, co robić. Idź za jej śladem. Wypatruj sygnałów.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -655,9 +618,8 @@ sceny:
       typ: sayoption
       mowca_lub_kanal: opcja_gracza
       en: Signals?
-      pl: Sygnałami?
+      pl: Sygnały?
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -675,7 +637,6 @@ sceny:
       en: There's a flash of lightning, a crash of thunder, and a sudden torrential downpour outside.
       pl: Za oknem błyska, grzmi i nagle zaczyna lać jak z cebra.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -689,9 +650,8 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: Signals?  What are you talking about?
-      pl: Sygnałami? O czym ty mówisz?
+      pl: Sygnały? O czym ty mówisz?
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -707,7 +667,6 @@ sceny:
       en: This... isn't Murray.
       pl: To... nie jest Murray.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -721,15 +680,14 @@ sceny:
       typ: leftspeak
       mowca_lub_kanal: postac_po_lewej
       en: Uh, sorry.  I... thought you were somebody else...
-      pl: Eee, przepraszam. Ja... Myślałem że jesteś kimś innym...
+      pl: Eee, przepraszam. Myślałem, że jesteś kimś innym...
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
       zagadka: false
       minigra_lub_feature: false
-      uwagi: [Rozbudowa zdania]
+      uwagi: []
     - id: sol_ded22e300d293d89917a
       kontekst: textscripts.bus_murray:line:49
       linia: 49
@@ -737,9 +695,8 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: You thought I was somebody you could just walk up to and say 'Signals?' and it would make sense?
-      pl: Myślisz, że można po prostu podejść do kogoś, powiedzieć „Sygnały?” i że to będzie miało sens?
+      pl: Myślałeś, że jestem kimś, do kogo możesz tak po prostu podejść, palnąć „Sygnały?” i to będzie miało sens?
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -755,7 +712,6 @@ sceny:
       en: '... Yes.'
       pl: '...Tak.'
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -771,7 +727,6 @@ sceny:
       en: No.
       pl: Nie.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 18
       tokeny_techniczne: []
@@ -787,7 +742,6 @@ sceny:
       en: I don't know.
       pl: Nie wiem.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: true
       liczba_wystapien: 4
       tokeny_techniczne: []
@@ -805,7 +759,6 @@ sceny:
       en: The man looks at you quizzically and turns back to his newspaper.
       pl: Mężczyzna spogląda na ciebie ze zdziwieniem i wraca do gazety.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -821,7 +774,6 @@ sceny:
       en: What the heck is going on here?
       pl: Co tu się, do licha, dzieje?
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -848,7 +800,6 @@ sceny:
       en: This person looks just like you, only asleep.
       pl: Ta osoba wygląda zupełnie jak ty, tylko śpi.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -862,9 +813,8 @@ sceny:
       typ: option
       mowca_lub_kanal: opcja_gracza
       en: Pick their pocket
-      pl: Opróżnij jej kieszenie
+      pl: Okradnij go
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []
@@ -880,9 +830,8 @@ sceny:
       typ: say
       mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
       en: You grab everything that isn't nailed to them.
-      pl: Zabierasz wszystko, czego do nich nie przybito.
+      pl: Zabierasz wszystko, co nie jest przytwierdzone na stałe.
       status: zatwierdzono
-      zakres: wydaniowe_wysoka_pewnosc
       wspoldzielony_rekord: false
       liczba_wystapien: 1
       tokeny_techniczne: []

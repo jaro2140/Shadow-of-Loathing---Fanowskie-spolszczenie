@@ -1,0 +1,50 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: speakeasy
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 1
+liczba_wpisow: 2
+sceny:
+- kolejnosc_w_danych_gry: 4120
+  skrypt: speakeasy_bandleader
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_3279043d3421e80f1016
+      kontekst: textscripts.speakeasy_bandleader:line:2
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[This shouldn''t be in the game. If you see this, please report it! Placeholder conversation with the band leader.  He''s currently
+        standing here snapping his fingers because there are no musicians yet.]'
+      pl: '[Tego nie powinno być w grze. Jeśli to widzisz, zgłoś błąd! To zastępcza rozmowa z liderem zespołu. Stoi tutaj i pstryka palcami, bo
+        nie ma jeszcze żadnych muzyków.]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ca5bac393504085099f7
+      kontekst: textscripts.speakeasy_bandleader:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say goodbye
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

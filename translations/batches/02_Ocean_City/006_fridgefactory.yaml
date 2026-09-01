@@ -1,0 +1,2653 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: fridgefactory
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 23
+liczba_wpisow: 152
+sceny:
+- kolejnosc_w_danych_gry: 5084
+  skrypt: autoscript__fridgefactory__cans1__popup
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3bb9f3cfc166bb3f1ece
+      kontekst: textscripts.autoscript__fridgefactory__cans1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These barrels are rimed with frost, but they rhyme with carols.
+      pl: Te beczki pokrywa szron, ale rymują się z nimi świeczki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5086
+  skrypt: autoscript__fridgefactory__garagecollider__popup
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5045f78b25018e778500
+      kontekst: textscripts.autoscript__fridgefactory__garagecollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Opening this door would make a lot of noise and draw a lot of attention.  Also you don't actually know <i>how</i> to open it.
+      pl: Otwarcie tych drzwi narobiłoby mnóstwo hałasu i zwróciło mnóstwo uwagi. Poza tym właściwie nie wiesz, <i>jak</i> je otworzyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5087
+  skrypt: autoscript__fridgefactory__tollboothcollider__popup
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4dd69576256355c5a05a
+      kontekst: textscripts.autoscript__fridgefactory__tollboothcollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This tollbooth was obviously stolen and dragged here.
+      pl: Tę budkę poboru opłat najwyraźniej skradziono i przyciągnięto tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5088
+  skrypt: autoscript__fridgefactory__truck1collider__popup
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_999b8499349e7f714172
+      kontekst: textscripts.autoscript__fridgefactory__truck1collider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a refrigerator truck, but not the kind you're probably thinking of.
+      pl: To ciężarówka chłodnia, ale nie taka, o jakiej zapewne myślisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5089
+  skrypt: autoscript__fridgefactory__truck2collider__popup
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b573952d76a6e69e80ca
+      kontekst: textscripts.autoscript__fridgefactory__truck2collider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If two counts as a fleet, they have a whole fleet of these things!
+      pl: Jeśli dwa pojazdy wystarczą, żeby mówić o flocie, mają całą flotę tych rzeczy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1653
+  skrypt: fridgefactory_boxes
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a5b18bc16c1dd347f347
+      kontekst: textscripts.fridgefactory_boxes:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing left of any value here.
+      pl: Nie zostało tu nic wartościowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7bc5c2a2e6db6fbfe062
+      kontekst: textscripts.fridgefactory_boxes:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Boxes of miscellaneous discarded industrial junk.
+      pl: Pudła z przypadkowymi wyrzuconymi gratami przemysłowymi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c492db5b9ffb953bba3a
+      kontekst: textscripts.fridgefactory_boxes:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig through them
+      pl: Przekop je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_7521c06ec947b1af8816
+      kontekst: textscripts.fridgefactory_boxes:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm, one of these old coils is still in pretty good shape.
+      pl: Hm, jedna ze starych cewek jest nadal w całkiem dobrym stanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1654
+  skrypt: fridgefactory_coldblocker
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_192952d82054191fae98
+      kontekst: textscripts.fridgefactory_coldblocker:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, it's really cold over here!
+      pl: Łał, tutaj jest naprawdę zimno!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbcd072f6bd3c9d8e2ef
+      kontekst: textscripts.fridgefactory_coldblocker:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Forge ahead [requires 1 Cold Armor]
+      pl: Idź dalej [wymaga 1 Ochrony przed zimnem]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1658
+  skrypt: fridgefactory_exitpopup
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_19b25d934c8612ab7958
+      kontekst: textscripts.fridgefactory_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If this factory is leaving you cold, you could always leave.
+      pl: Jeśli ta fabryka przyprawia cię o dreszcze, zawsze możesz ją opuścić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5d7a631010d722e4b328
+      kontekst: textscripts.fridgefactory_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It is, and I'd like to
+      pl: Tak, i tego chcę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1659
+  skrypt: fridgefactory_flybarrel
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8a11efdd495ec285585c
+      kontekst: textscripts.fridgefactory_flybarrel:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cold temperatures here have attracted a swarm of <i>drosophila glacielicus</i>!
+      pl: Niskie temperatury przyciągają rój <i>drosophila glacielicus</i>!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1f4eed08f93d441d8490
+      kontekst: textscripts.fridgefactory_flybarrel:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Collect some droppings [Insectologist]
+      pl: Zbierz odchody [Insektolog]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_79473c20cd379bdd7119
+      kontekst: textscripts.fridgefactory_flybarrel:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are weird flies buzzing around this barrel of frigid industrial waste.
+      pl: Wokół beczki lodowatych odpadów przemysłowych bzyczą dziwne muchy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1661
+  skrypt: fridgefactory_iceflower
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e02f2ef5ab1805324021
+      kontekst: textscripts.fridgefactory_iceflower:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, a frost peony!
+      pl: Uuu, mroźna piwonia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b98c0c1b6d5e612e86f0
+      kontekst: textscripts.fridgefactory_iceflower:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it [Cryptobotanist]
+      pl: Zerwij ją [Kryptobotanik]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1670
+  skrypt: fridgefactory_stain
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dc1dbe5255995565c8ac
+      kontekst: textscripts.fridgefactory_stain:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A pool of chemicals.
+      pl: Kałuża chemikaliów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1671
+  skrypt: fridgefactory_tollmob
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 44
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e9eb87b76d33b5c982d0
+      kontekst: textscripts.fridgefactory_tollmob:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These folks look like they're here for some serious business.
+      pl: Ci ludzie wyglądają, jakby przybyli w bardzo poważnych interesach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_149cca884ab73ba6573e
+      kontekst: textscripts.fridgefactory_tollmob:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try to make a deal
+      pl: Spróbuj się targować
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mobtalk
+    wpisy:
+    - id: sol_971d80bb88a335201da4
+      kontekst: textscripts.fridgefactory_tollmob:line:12
+      linia: 12
+      sekcja_skryptu: mobtalk
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Whoa there, @p|buddy,kiddo,pally@. This is a private party -- club members only.
+      pl: Spokojnie, @p|buddy,kiddo,pally@. To prywatna impreza — tylko dla członków klubu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|buddy,kiddo,pally@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4d4e3cf19bb1a7f470ca
+      kontekst: textscripts.fridgefactory_tollmob:line:14
+      linia: 14
+      sekcja_skryptu: mobtalk
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, like he said! Club members only!
+      pl: Tak, jak mówi! Tylko dla członków klubu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f49404deb73a34e8c3fb
+      kontekst: textscripts.fridgefactory_tollmob:line:15
+      linia: 15
+      sekcja_skryptu: mobtalk
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What kind of club is it?
+      pl: Co to za klub?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bbeb0f5dc50754184ac7
+      kontekst: textscripts.fridgefactory_tollmob:line:16
+      linia: 16
+      sekcja_skryptu: mobtalk
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, okay, my mistake. Bye.
+      pl: Och, dobrze, mój błąd. Cześć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mobtalk2
+    wpisy:
+    - id: sol_0e06ee1a028882d76bd6
+      kontekst: textscripts.fridgefactory_tollmob:line:25
+      linia: 25
+      sekcja_skryptu: mobtalk2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's the Fraternal Order of People who Bribed Us More than we're Earnin' as Gate Guards.
+      pl: Formalne Ochotnicze Porozumienie Bramowych Urzędników Mających Ekstra Grosza Gwarantowanego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1de1ed01211ffbdfcdcd
+      kontekst: textscripts.fridgefactory_tollmob:line:26
+      linia: 26
+      sekcja_skryptu: mobtalk2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: FOP BUM EGG? I've never heard of it. How do I join?
+      pl: FOP BUM EGG? Nigdy o tym nie słyszałem. Jak dołączyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4aee54cf6dc64da57226
+      kontekst: textscripts.fridgefactory_tollmob:line:27
+      linia: 27
+      sekcja_skryptu: mobtalk2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: What are you, thick? I'd have thought it was obvious, pal. You give us Meat.
+      pl: Co z ciebie za tępak? To chyba oczywiste. Dajesz nam Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eefe4b1dd38748770820
+      kontekst: textscripts.fridgefactory_tollmob:line:28
+      linia: 28
+      sekcja_skryptu: mobtalk2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How much?
+      pl: Ile?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mobtalk3
+    wpisy:
+    - id: sol_4d93ee9d6bf8ab4f5213
+      kontekst: textscripts.fridgefactory_tollmob:line:33
+      linia: 33
+      sekcja_skryptu: mobtalk3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Five hundred.
+      pl: Pięćset.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a17b9853acc023e680b5
+      kontekst: textscripts.fridgefactory_tollmob:line:35
+      linia: 35
+      sekcja_skryptu: mobtalk3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah! Five hundred Meat!
+      pl: Tak! Pięćset Mięsa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_45f301663dd3e5fe91b3
+      kontekst: textscripts.fridgefactory_tollmob:line:37
+      linia: 37
+      sekcja_skryptu: mobtalk3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Clancy, I told ya to knock off that repeatin' business.
+      pl: Clancy, mówię ci, żebyś przestał powtarzać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: comeback
+    wpisy:
+    - id: sol_d79e0035cd10233d356a
+      kontekst: textscripts.fridgefactory_tollmob:line:42
+      linia: 42
+      sekcja_skryptu: comeback
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You again? So, you ready to join the party or what?
+      pl: Znowu ty? To jak, dołączasz do imprezy czy nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2c482763dc0f257b3738
+      kontekst: textscripts.fridgefactory_tollmob:line:44
+      linia: 44
+      sekcja_skryptu: comeback
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah! You ready to join the party, huh?
+      pl: Tak! Dołączasz do imprezy, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fce6c82acb87c3d4ec2b
+      kontekst: textscripts.fridgefactory_tollmob:line:46
+      linia: 46
+      sekcja_skryptu: comeback
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Clancy, quit it or I'm gonna slug ya one right in the mush.
+      pl: Clancy, przestań, bo dostaniesz prosto w gębę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_2d2685f198ed9ae4c442
+      kontekst: textscripts.fridgefactory_tollmob:line:71
+      linia: 71
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dang.  That was pretty impressive.
+      pl: Kurczę. To było imponujące.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_264500b2e5f4943b0569
+      kontekst: textscripts.fridgefactory_tollmob:line:74
+      linia: 74
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: On one of the goons you find a brochure for the local municipal park.
+      pl: Przy jednym z oprychów znajdujesz broszurę tutejszego parku miejskiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b8c676986ea7d53f0f2
+      kontekst: textscripts.fridgefactory_tollmob:line:75
+      linia: 75
+      sekcja_skryptu: win
+      typ: mapunlock
+      mowca_lub_kanal: odblokowanie_mapy
+      en: Goldthwait Park
+      pl: Park Goldthwaita
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+    - id: sol_8992a36047bafd8773f7
+      kontekst: textscripts.fridgefactory_tollmob:line:80
+      linia: 80
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'll say
+      pl: Jeszcze jak
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_aa74bba53c639fd98273
+      kontekst: textscripts.fridgefactory_tollmob:line:85
+      linia: 85
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I'm not really sure what you were expecting to have happen there.  Next time you decide to pick a fight against four huge mob goons,
+        maybe bring a little more firepower.
+      pl: Nie wiem, czego się właściwie spodziewałeś. Gdy następnym razem zechcesz sprowokować czterech potężnych mafijnych oprychów, zabierz trochę większą siłę ognia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4690fb08e55e9825613c
+      kontekst: textscripts.fridgefactory_tollmob:line:87
+      linia: 87
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fine
+      pl: Dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: learnpark
+    wpisy:
+    - id: sol_5e326a2b9138a6ef29ea
+      kontekst: textscripts.fridgefactory_tollmob:line:108
+      linia: 108
+      sekcja_skryptu: learnpark
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha! You could try panhandlin' with the other bums over in Goldthwait Park!
+      pl: Ha! Możesz próbować żebrać z innymi włóczęgami w Parku Goldthwaita!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e0c8d716efc3eaa58e86
+      kontekst: textscripts.fridgefactory_tollmob:line:110
+      linia: 110
+      sekcja_skryptu: learnpark
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Where's that?
+      pl: Gdzie to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d2d5ac8ec38421c6ffe0
+      kontekst: textscripts.fridgefactory_tollmob:line:111
+      linia: 111
+      sekcja_skryptu: learnpark
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Just north and west of here. You can't miss it.
+      pl: Na północny zachód stąd. Nie da się nie trafić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b49fc55f558ec24b745e
+      kontekst: textscripts.fridgefactory_tollmob:line:114
+      linia: 114
+      sekcja_skryptu: learnpark
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah! You can't miss it!
+      pl: Tak! Nie da się nie trafić!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1f42db10d38e8e703c51
+      kontekst: textscripts.fridgefactory_tollmob:line:116
+      linia: 116
+      sekcja_skryptu: learnpark
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: For the luvva Mike, Clancy, dry up!
+      pl: Na miłość boską, Clancy, zamknij się!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fridgefactory_tollmob:line:119
+      linia: 119
+      sekcja_skryptu: learnpark
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: payfull
+    wpisy:
+    - id: sol_9b54db2fcc6583e9876c
+      kontekst: textscripts.fridgefactory_tollmob:line:126
+      linia: 126
+      sekcja_skryptu: payfull
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the Meat.
+      pl: Przekazujesz Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: pay300
+    wpisy:
+    - id: sol_235a834db09e78e5b0a9
+      kontekst: textscripts.fridgefactory_tollmob:line:133
+      linia: 133
+      sekcja_skryptu: pay300
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm. Looks like I'm a little light. Would you take 300?
+      pl: Hm. Trochę mi brakuje. Weźmiecie 300?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7242fdacbe10bffe1e1c
+      kontekst: textscripts.fridgefactory_tollmob:line:135
+      linia: 135
+      sekcja_skryptu: pay300
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... all right. That sounds pretty fair.
+      pl: Cóż... dobrze. To brzmi uczciwie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9b54db2fcc6583e9876c
+      kontekst: textscripts.fridgefactory_tollmob:line:136
+      linia: 136
+      sekcja_skryptu: pay300
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the Meat.
+      pl: Przekazujesz Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: pay100
+    wpisy:
+    - id: sol_a3b49a7b081db1073d93
+      kontekst: textscripts.fridgefactory_tollmob:line:143
+      linia: 143
+      sekcja_skryptu: pay100
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Gee mister, I'd love to join, but I've <i>never</i> had that much scratch. Would you take 100?
+      pl: Proszę pana, chętnie dołączę, ale <i>nigdy</i> nie mam tyle forsy. Weźmiecie 100?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_842597b2b00a015f662a
+      kontekst: textscripts.fridgefactory_tollmob:line:145
+      linia: 145
+      sekcja_skryptu: pay100
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I... wouldn't normally agree ta that, but you seem like a good kid. Sure, why not.
+      pl: Ja... zwykle się na to nie zgadzam, ale wyglądasz na porządnego dzieciaka. Czemu nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9b54db2fcc6583e9876c
+      kontekst: textscripts.fridgefactory_tollmob:line:146
+      linia: 146
+      sekcja_skryptu: pay100
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the Meat.
+      pl: Przekazujesz Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: thanks
+    wpisy:
+    - id: sol_d480eb5bfcfa42c503f2
+      kontekst: textscripts.fridgefactory_tollmob:line:152
+      linia: 152
+      sekcja_skryptu: thanks
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks, and welcome to the club!
+      pl: Dzięki i witaj w klubie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bb842e89d096e9379a61
+      kontekst: textscripts.fridgefactory_tollmob:line:154
+      linia: 154
+      sekcja_skryptu: thanks
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, welcome!
+      pl: Tak, witaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cd3124a31da569ef51d1
+      kontekst: textscripts.fridgefactory_tollmob:line:155
+      linia: 155
+      sekcja_skryptu: thanks
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, I guess?
+      pl: Dzięki, chyba?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: thanks2
+    wpisy:
+    - id: sol_b33698da9b66f22dd48c
+      kontekst: textscripts.fridgefactory_tollmob:line:161
+      linia: 161
+      sekcja_skryptu: thanks2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here's your membership ring.
+      pl: Oto pierścień członkowski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6766bfbb8ff7c49b9d17
+      kontekst: textscripts.fridgefactory_tollmob:line:162
+      linia: 162
+      sekcja_skryptu: thanks2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He hands you a ring, and the whole group of mobsters wander off, divvying up your Meat as they go.
+      pl: Wręcza ci pierścień, a cała grupa mafiozów odchodzi, dzieląc po drodze twoje Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf5cd473ce4e75e67b97
+      kontekst: textscripts.fridgefactory_tollmob:line:164
+      linia: 164
+      sekcja_skryptu: thanks2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh. This organization is actually real? FOP BUM EGG?
+      pl: Hm. Ta organizacja naprawdę istnieje? FOP BUM EGG?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f0e459467d6fd5b80bb9
+      kontekst: textscripts.fridgefactory_tollmob:line:167
+      linia: 167
+      sekcja_skryptu: thanks2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh huh, one of the goons also dropped a brochure for the local municipal park.
+      pl: O, jeden z oprychów upuszcza także broszurę tutejszego parku miejskiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b8c676986ea7d53f0f2
+      kontekst: textscripts.fridgefactory_tollmob:line:168
+      linia: 168
+      sekcja_skryptu: thanks2
+      typ: mapunlock
+      mowca_lub_kanal: odblokowanie_mapy
+      en: Goldthwait Park
+      pl: Park Goldthwaita
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_103bc4d4662d9112672f
+      kontekst: textscripts.fridgefactory_tollmob:line:170
+      linia: 170
+      sekcja_skryptu: thanks2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Time to check out the factory
+      pl: Pora zbadać fabrykę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1672
+  skrypt: fridgefactory_toolbox
+  pomieszczenie:
+    id: fridgefactory
+    nazwa_en: Refrigerator Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a7495144950680928613
+      kontekst: textscripts.fridgefactory_toolbox:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An old toolbox has been left here to rust.
+      pl: Stara skrzynka narzędziowa rdzewieje w samotności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.fridgefactory_toolbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+  - etykieta: used
+    wpisy:
+    - id: sol_c0425acb716bc82cf68e
+      kontekst: textscripts.fridgefactory_toolbox:line:12
+      linia: 12
+      sekcja_skryptu: used
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing left in there but rust and dust.
+      pl: Nie ma tam już nic poza rdzą i kurzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5090
+  skrypt: autoscript__fridgefactory_mainfloor__bgfridgecollider1__popup
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2ae1d6ace21b3437a8de
+      kontekst: textscripts.autoscript__fridgefactory_mainfloor__bgfridgecollider1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These fridges are brand new and empty, and thus quite boring.
+      pl: Te lodówki są fabrycznie nowe i puste, a zatem dość nudne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+- kolejnosc_w_danych_gry: 5091
+  skrypt: autoscript__fridgefactory_mainfloor__bgfridgecollider2__popup
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2ae1d6ace21b3437a8de
+      kontekst: textscripts.autoscript__fridgefactory_mainfloor__bgfridgecollider2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These fridges are brand new and empty, and thus quite boring.
+      pl: Te lodówki są fabrycznie nowe i puste, a zatem dość nudne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 1651
+  skrypt: fridgefactory_bigfight
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 40
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_9750ab0fd1d08c44fe41
+      kontekst: textscripts.fridgefactory_bigfight:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Tussle with Gluck and the Shadows that surround him?
+      pl: Wdać się w bójkę z Gluckiem i otaczającymi go Cieniami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d052b2c01f4b6f5f44b9
+      kontekst: textscripts.fridgefactory_bigfight:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There seems to be a bit of a standoff between the mob guys and... the other ones.
+      pl: Wygląda na to, że między ludźmi Mafii a... tamtymi trwa impas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d4ceebf8c2e94c0392af
+      kontekst: textscripts.fridgefactory_bigfight:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cautiously approach
+      pl: Podejdź ostrożnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: startconvo
+    wpisy:
+    - id: sol_00b0ca9caa68124d4dee
+      kontekst: textscripts.fridgefactory_bigfight:line:22
+      linia: 22
+      sekcja_skryptu: startconvo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The square-jawed military creep notices you and starts yelling.
+      pl: Wojskowy typ o kwadratowej szczęce zauważa cię i zaczyna krzyczeć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b4167babe7f7da4b4089
+      kontekst: textscripts.fridgefactory_bigfight:line:24
+      linia: 24
+      sekcja_skryptu: startconvo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, you don't have clearance to be here! Who are you?
+      pl: Hej, nie masz uprawnień do przebywania tutaj! Kim jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_520e1336de52d62438bc
+      kontekst: textscripts.fridgefactory_bigfight:line:27
+      linia: 27
+      sekcja_skryptu: startconvo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lady in the weird Crimbo hat glares at you as you approach.
+      pl: Kobieta w dziwnym świątecznym kapeluszu spogląda na ciebie gniewnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d2d2d455097b46742623
+      kontekst: textscripts.fridgefactory_bigfight:line:29
+      linia: 29
+      sekcja_skryptu: startconvo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I don't recall inviting you to this party. Are you going to introduce yourself?
+      pl: Nie przypominam sobie zaproszenia na tę imprezę. Przedstawisz się?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_805979f60449f6c05341
+      kontekst: textscripts.fridgefactory_bigfight:line:32
+      linia: 32
+      sekcja_skryptu: startconvo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The scary tophat nerd stares at you with barely any expression on his face, apart from a faint sneer.
+      pl: Przerażający kujon w cylindrze patrzy niemal bez wyrazu, poza lekkim szyderstwem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_427b509f055aba60d61b
+      kontekst: textscripts.fridgefactory_bigfight:line:34
+      linia: 34
+      sekcja_skryptu: startconvo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It appears that we have an interloper. And you are?
+      pl: Wygląda na to, że mamy intruza. Kim jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_3d4cbdf741c2ce0834ab
+      kontekst: textscripts.fridgefactory_bigfight:line:40
+      linia: 40
+      sekcja_skryptu: startconvo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '@name@.'
+      pl: '@name@.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@name@'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_65ed20e98f97a426ee13
+      kontekst: textscripts.fridgefactory_bigfight:line:41
+      linia: 41
+      sekcja_skryptu: startconvo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '%namegen_either% $madeuplastname$.'
+      pl: '%namegen_either% $madeuplastname$.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%namegen_either%'
+      - $madeuplastname$
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_753c9d94a15644218e48
+      kontekst: textscripts.fridgefactory_bigfight:line:42
+      linia: 42
+      sekcja_skryptu: startconvo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Puddin' Tame.
+      pl: Jak-Cię-Zwał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: whathat
+    wpisy:
+    - id: sol_aed6cbd2aa55e12d379e
+      kontekst: textscripts.fridgefactory_bigfight:line:49
+      linia: 49
+      sekcja_skryptu: whathat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ What's wrong with your hat?
+      pl: $lastoption$ Co jest nie tak z twoim kapeluszem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_99c8dc35f894ca5aa326
+      kontekst: textscripts.fridgefactory_bigfight:line:56
+      linia: 56
+      sekcja_skryptu: whathat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's all spooky and like...
+      pl: Jest upiorny i jakby...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ed89e55b197e5de8f975
+      kontekst: textscripts.fridgefactory_bigfight:line:59
+      linia: 59
+      sekcja_skryptu: whathat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: you can see stars through it.
+      pl: widać przez niego gwiazdy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_a2d6001df33e43476e9a
+      kontekst: textscripts.fridgefactory_bigfight:line:60
+      linia: 60
+      sekcja_skryptu: whathat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: it's cutting a hole in the world.
+      pl: wycina dziurę w świecie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_1d444dbf8b5359a8ee28
+      kontekst: textscripts.fridgefactory_bigfight:line:61
+      linia: 61
+      sekcja_skryptu: whathat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: just super spooky...
+      pl: po prostu bardzo upiorny...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: afterhat
+    wpisy:
+    - id: sol_f90d16c1291bbeceb8fa
+      kontekst: textscripts.fridgefactory_bigfight:line:70
+      linia: 70
+      sekcja_skryptu: afterhat
+      typ: rightsayshadow
+      mowca_lub_kanal: postac_po_prawej_cien
+      en: (%sf_sentence1%%sf_sentence1%)
+      pl: (%sf_sentence1%%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      - '%sf_sentence1%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Tokeny pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_47195da0facd6550886d
+      kontekst: textscripts.fridgefactory_bigfight:line:81
+      linia: 81
+      sekcja_skryptu: afterhat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-oh.
+      pl: Oho.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: afterhat2
+    wpisy:
+    - id: sol_0226b357ef4f72811ddb
+      kontekst: textscripts.fridgefactory_bigfight:line:88
+      linia: 88
+      sekcja_skryptu: afterhat2
+      typ: rightsayshadow
+      mowca_lub_kanal: postac_po_prawej_cien
+      en: (%sf_sentence1%%sf_sentence1%%sf_sentence1%)
+      pl: (%sf_sentence1%%sf_sentence1%%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      - '%sf_sentence1%'
+      - '%sf_sentence1%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Tokeny pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_b941970e8c61ddfaeb6d
+      kontekst: textscripts.fridgefactory_bigfight:line:93
+      linia: 93
+      sekcja_skryptu: afterhat2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The weird shadow monster that was once a person turns to face you.
+      pl: Dziwny potwór Cienia, który był kiedyś człowiekiem, odwraca się w twoją stronę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_2897d9cea72565e37405
+      kontekst: textscripts.fridgefactory_bigfight:line:94
+      linia: 94
+      sekcja_skryptu: afterhat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hello.
+      pl: Cześć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_403a611c650062b9e688
+      kontekst: textscripts.fridgefactory_bigfight:line:95
+      linia: 95
+      sekcja_skryptu: afterhat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hello?
+      pl: Halo?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_9fa9faebe5c4e64a7b9f
+      kontekst: textscripts.fridgefactory_bigfight:line:96
+      linia: 96
+      sekcja_skryptu: afterhat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hello!
+      pl: Cześć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: mobhelp
+    wpisy:
+    - id: sol_a4ee8b2c383a93e18ffa
+      kontekst: textscripts.fridgefactory_bigfight:line:114
+      linia: 114
+      sekcja_skryptu: mobhelp
+      typ: rightsayshadow
+      mowca_lub_kanal: postac_po_prawej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Token pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_941280bd9a7cb0815963
+      kontekst: textscripts.fridgefactory_bigfight:line:116
+      linia: 116
+      sekcja_skryptu: mobhelp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Shadows begin to gather around him -- abstract, menacing shapes.
+      pl: Wokół niego zaczynają gromadzić się Cienie — abstrakcyjne, groźne kształty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4f593330343b16438e7b
+      kontekst: textscripts.fridgefactory_bigfight:line:119
+      linia: 119
+      sekcja_skryptu: mobhelp
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back away and look for some other solution
+      pl: Wycofaj się i poszukaj innego rozwiązania
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: getready
+    wpisy:
+    - id: sol_cb0c7b077c29f80dae55
+      kontekst: textscripts.fridgefactory_bigfight:line:126
+      linia: 126
+      sekcja_skryptu: getready
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, uh... Hey, you Mob guys -- can I get you to give me a hand with this?
+      pl: Hej, eee... Hej, panowie z Mafii — pomożecie mi z tym?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_dbb17c9cb7a849b605ec
+      kontekst: textscripts.fridgefactory_bigfight:line:128
+      linia: 128
+      sekcja_skryptu: getready
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Considerin' the newly-terrifyin' Mr. Gluck is between us and the exit... seems like we got no choice.
+      pl: Biorąc pod uwagę, że nowy, przerażający pan Gluck stoi między nami a wyjściem... chyba nie mamy wyboru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_d01cf05299296f4ab958
+      kontekst: textscripts.fridgefactory_bigfight:line:129
+      linia: 129
+      sekcja_skryptu: getready
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Gluck on [fight]
+      pl: Zmierz się z Gluckiem [walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_28f54039c422819ca3d3
+      kontekst: textscripts.fridgefactory_bigfight:line:163
+      linia: 163
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With the shadow creatures defeated, the two Mob guys brush themselves off.
+      pl: Po pokonaniu stworzeń Cienia dwaj ludzie Mafii otrzepują ubrania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_6f83f1628bf82d5135ca
+      kontekst: textscripts.fridgefactory_bigfight:line:165
+      linia: 165
+      sekcja_skryptu: win
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Whew, this caper has got me all balled up.
+      pl: Uff, ten numer naprawdę mnie skołował.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_f5372eb121033b4a9e6a
+      kontekst: textscripts.fridgefactory_bigfight:line:167
+      linia: 167
+      sekcja_skryptu: win
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And how. This whole scene is nutty as a squirrel's mistress. C'mon, let's amscray.
+      pl: Jeszcze jak. Cała ta scena jest bardziej szalona niż kochanka wiewiórki. Chodź, zmywamy się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_df9bd98d67bee71df002
+      kontekst: textscripts.fridgefactory_bigfight:line:168
+      linia: 168
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They tip their hats to you and make for the door.
+      pl: Uchylają kapeluszy i ruszają do drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_feee166ed24961e35778
+      kontekst: textscripts.fridgefactory_bigfight:line:169
+      linia: 169
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate what's left of that guy
+      pl: Zbadaj, co zostało z tego gościa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: invgluck
+    wpisy:
+    - id: sol_65a01b41624293dc3f73
+      kontekst: textscripts.fridgefactory_bigfight:line:173
+      linia: 173
+      sekcja_skryptu: invgluck
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He mostly dissolved into a cloud of that weird shadow stuff, but there are a few objects on the ground -- a pocketwatch, a bank pouch,
+        and an official-looking document of some sort.
+      pl: 'W większości rozpuszcza się w chmurę dziwnej materii Cienia, ale na ziemi pozostaje kilka przedmiotów: zegarek kieszonkowy, sakiewka
+        bankowa i jakiś oficjalny dokument.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_24fad5a2a05c55f6fb99
+      kontekst: textscripts.fridgefactory_bigfight:line:177
+      linia: 177
+      sekcja_skryptu: invgluck
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take a quick look at the document -- it turns out this Gluck guy was the owner of the speakeasy! And now you are, maybe! Is that
+        how deeds work?
+      pl: Szybko przeglądasz dokument — okazuje się, że Gluck był właścicielem speakeasy! A teraz być może jesteś nim ty! Tak działają akty własności?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_3ad8642758f0d33824f0
+      kontekst: textscripts.fridgefactory_bigfight:line:179
+      linia: 179
+      sekcja_skryptu: invgluck
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well whaddya know!
+      pl: No proszę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_4a511f43ce4c778e49d4
+      kontekst: textscripts.fridgefactory_bigfight:line:182
+      linia: 182
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. It isn't entirely clear to what, but you definitely lost.
+      pl: Przegrałeś. Nie do końca wiadomo z czym, ale na pewno przegrałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.fridgefactory_bigfight:line:185
+      linia: 185
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1652
+  skrypt: fridgefactory_boozepile
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_48156cc1528e3a37b382
+      kontekst: textscripts.fridgefactory_boozepile:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This booze looks dangerous, and it also appears to be tainted with some kind of sinister magical energy...
+      pl: Ten alkohol wygląda niebezpiecznie i zdaje się skażony jakąś złowrogą magiczną energią...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1655
+  skrypt: fridgefactory_cranecontrols
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_60583084cbd077beba01
+      kontekst: textscripts.fridgefactory_cranecontrols:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The control booth is locked from the inside.  Somebody's gonna be in big trouble.
+      pl: Sterownia jest zamknięta od środka. Ktoś będzie miał poważne kłopoty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a7bb0ac15bf3beff3e28
+      kontekst: textscripts.fridgefactory_cranecontrols:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's no reason to mess with the crane now.
+      pl: Nie ma już powodu, żeby majstrować przy dźwigu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2c1f4469bdd1e1dc9534
+      kontekst: textscripts.fridgefactory_cranecontrols:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No time to check this out -- you should go see what is going on over yonder.
+      pl: Nie ma czasu na oglądanie — trzeba sprawdzić, co dzieje się tam dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7db595933d6b430ee6bf
+      kontekst: textscripts.fridgefactory_cranecontrols:line:14
+      linia: 14
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can reach the controls through the broken window...
+      pl: Przez rozbite okno dosięgniesz panelu sterowania...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7dc7f6e817bf3282c4ee
+      kontekst: textscripts.fridgefactory_cranecontrols:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use them
+      pl: Użyj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: controls
+    wpisy:
+    - id: sol_d89492f60898f237a119
+      kontekst: textscripts.fridgefactory_cranecontrols:line:21
+      linia: 21
+      sekcja_skryptu: controls
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are two buttons.
+      pl: Są dwa przyciski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buttons
+    wpisy:
+    - id: sol_924565b18866b1c40e44
+      kontekst: textscripts.fridgefactory_cranecontrols:line:25
+      linia: 25
+      sekcja_skryptu: buttons
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the green one
+      pl: Naciśnij zielony
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d7993ab5d0c1d3dbc12e
+      kontekst: textscripts.fridgefactory_cranecontrols:line:27
+      linia: 27
+      sekcja_skryptu: buttons
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the red one
+      pl: Naciśnij czerwony
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: b1
+    wpisy:
+    - id: sol_ed1912d28c31b3309d0d
+      kontekst: textscripts.fridgefactory_cranecontrols:line:40
+      linia: 40
+      sekcja_skryptu: b1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The crane moves...
+      pl: Dźwig się porusza...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+  - etykieta: b2
+    wpisy:
+    - id: sol_ed1912d28c31b3309d0d
+      kontekst: textscripts.fridgefactory_cranecontrols:line:56
+      linia: 56
+      sekcja_skryptu: b2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The crane moves...
+      pl: Dźwig się porusza...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: b3
+    wpisy:
+    - id: sol_f88505996d7ef31a26c1
+      kontekst: textscripts.fridgefactory_cranecontrols:line:66
+      linia: 66
+      sekcja_skryptu: b3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're pretty sure the red button opens the jaws of the crane, and you don't think it's a good idea right now.
+      pl: Czerwony przycisk prawdopodobnie otwiera szczęki dźwigu, a teraz nie wydaje się to dobrym pomysłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f7fdaec0e793bb32179c
+      kontekst: textscripts.fridgefactory_cranecontrols:line:70
+      linia: 70
+      sekcja_skryptu: b3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're pretty sure the red button opens the jaws of the crane, and that... Gluck guy? That... <i>thing?</i> Well, he's right underneath
+        it. You definitely want to press it?
+      pl: Czerwony przycisk prawdopodobnie otwiera szczęki dźwigu, a ten... Gluck? To... <i>coś?</i> Cóż, stoi dokładnie pod nimi. Na pewno chcesz
+        nacisnąć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_10ec83547fa397fdb4fe
+      kontekst: textscripts.fridgefactory_cranecontrols:line:71
+      linia: 71
+      sekcja_skryptu: b3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I do!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_378f9b5b0e084bc56df4
+      kontekst: textscripts.fridgefactory_cranecontrols:line:108
+      linia: 108
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[noncombat puzzle solution here.]'
+      pl: '[tutaj pokojowe rozwiązanie zagadki.]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a0c799fd67f6f2fbb4bf
+      kontekst: textscripts.fridgefactory_cranecontrols:line:109
+      linia: 109
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: We're pretending you solved a puzzle.
+      pl: Udajemy, że udaje ci się rozwiązać zagadkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_96461fb5903fb01e3c34
+      kontekst: textscripts.fridgefactory_cranecontrols:line:110
+      linia: 110
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop a refrigerator on Oliver Gluck and the mob guys flee.
+      pl: Zrzucasz lodówkę na Olivera Glucka, a ludzie Mafii uciekają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1657
+  skrypt: fridgefactory_cutscene
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a6f21ba7b8d2b58cad98
+      kontekst: textscripts.fridgefactory_cutscene:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It looks like something is going down over there...
+      pl: Wygląda, jakby działo się tam coś poważnego...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8311c11d02fdddac2f64
+      kontekst: textscripts.fridgefactory_cutscene:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hide and watch
+      pl: Ukryj się i obserwuj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cutscene
+    wpisy:
+    - id: sol_c87ebb635a2bcb52f004
+      kontekst: textscripts.fridgefactory_cutscene:line:24
+      linia: 24
+      sekcja_skryptu: cutscene
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: queue move(player,1000,100,300)
+      pl: queue move(player,1000,100,300)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne polecenie ruchu, niewidoczne dla gracza; pozostawiono bez zmian.'
+    - id: sol_f802cea1f08a8beb7915
+      kontekst: textscripts.fridgefactory_cutscene:line:25
+      linia: 25
+      sekcja_skryptu: cutscene
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: queue move(player,850,170,300)
+      pl: queue move(player,850,170,300)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczne polecenie ruchu, niewidoczne dla gracza; pozostawiono bez zmian.'
+  - etykieta: cutsceney
+    wpisy:
+    - id: sol_acf9598cc31fb181d51f
+      kontekst: textscripts.fridgefactory_cutscene:line:132
+      linia: 132
+      sekcja_skryptu: cutsceney
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'CUT SCENE:'
+      pl: 'SCENA FILMOWA:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b21b224fc87bd5c7ab15
+      kontekst: textscripts.fridgefactory_cutscene:line:133
+      linia: 133
+      sekcja_skryptu: cutsceney
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Player hides behind crate. Mob guys and Oliver Gluck talk a bit, then a government agent arrives.
+      pl: Postać gracza chowa się za skrzynią. Gangsterzy i Oliver Gluck rozmawiają, po czym przybywa agent rządowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9e37f81060ba42353c20
+      kontekst: textscripts.fridgefactory_cutscene:line:137
+      linia: 137
+      sekcja_skryptu: cutsceney
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The agent says they need to inspect the booze. They activate a shadow device which
+      pl: Agent mówi, że muszą skontrolować alkohol. Uruchamiają urządzenie Cienia, które
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4da0d7857dee2a981eec
+      kontekst: textscripts.fridgefactory_cutscene:line:138
+      linia: 138
+      sekcja_skryptu: cutsceney
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (a) Causes a big explosion
+      pl: (a) wywołuje wielką eksplozję
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ccf0d7d2085b1e709cfd
+      kontekst: textscripts.fridgefactory_cutscene:line:139
+      linia: 139
+      sekcja_skryptu: cutsceney
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (b) Makes Oliver Gluck become a shadow monster
+      pl: (b) zmienia Olivera Glucka w potwora Cienia
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4aa1738c6cc37a244819
+      kontekst: textscripts.fridgefactory_cutscene:line:140
+      linia: 140
+      sekcja_skryptu: cutsceney
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (c) Makes it so the player can see Shadows now
+      pl: (c) sprawia, że postać gracza od tej chwili widzi Cienie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c3014503d027935ba4b1
+      kontekst: textscripts.fridgefactory_cutscene:line:143
+      linia: 143
+      sekcja_skryptu: cutsceney
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+- kolejnosc_w_danych_gry: 1660
+  skrypt: fridgefactory_freezer
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a1bcc1379c6733bb1e4b
+      kontekst: textscripts.fridgefactory_freezer:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh huh -- this fridge is plugged in.
+      pl: O, ta lodówka jest podłączona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2892bc03fb7f04cf2792
+      kontekst: textscripts.fridgefactory_freezer:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A little note on it says: "EXPERIMENTAL -- NOT FOR LUNCHES."'
+      pl: 'Mała notatka głosi: „EKSPERYMENT — NIE NA OBIADY”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9f3e88ea382d71bb5fe9
+      kontekst: textscripts.fridgefactory_freezer:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open it
+      pl: Otwórz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 35
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_ef80ffabe5ae88e0f936
+      kontekst: textscripts.fridgefactory_freezer:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The fridge has been fitted with an experimental automatic ice cube maker. Unfortunately, it's made one single gigantic ice cube that
+        fills the entire fridge.
+      pl: Lodówkę wyposażono w eksperymentalną automatyczną kostkarkę. Niestety produkuje jedną olbrzymią kostkę lodu wypełniającą całe wnętrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: f
+    wpisy:
+    - id: sol_03f4e0c05ca026c94893
+      kontekst: textscripts.fridgefactory_freezer:line:17
+      linia: 17
+      sekcja_skryptu: f
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sure, why not? It isn't the most ridiculous thing you'll do this week.
+      pl: Jasne, czemu nie? To nie jest najbardziej absurdalna rzecz, jaką zrobisz w tym tygodniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: sol_ec259d4e1dad8b904106
+      kontekst: textscripts.fridgefactory_freezer:line:24
+      linia: 24
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's empty -- looks like it takes a while to refill. Not that you <i>want</i> to carry another one of those icebergs around, right?
+      pl: Jest pusta — najwyraźniej potrzebuje czasu na ponowne napełnienie. Nie żebyś <i>chciał</i> nosić drugi taki lodowiec, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1663
+  skrypt: fridgefactory_mapnotice
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: next
+    wpisy:
+    - id: sol_3f3bdc777aafc5477f56
+      kontekst: textscripts.fridgefactory_mapnotice:line:5
+      linia: 5
+      sekcja_skryptu: next
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't have to leave the building to open your map, by the way.
+      pl: Nawiasem mówiąc, nie musisz opuszczać budynku, żeby otworzyć mapę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c3014503d027935ba4b1
+      kontekst: textscripts.fridgefactory_mapnotice:line:9
+      linia: 9
+      sekcja_skryptu: next
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+- kolejnosc_w_danych_gry: 1667
+  skrypt: fridgefactory_oliversmashed
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_87a97b45b0d4b0de75e8
+      kontekst: textscripts.fridgefactory_oliversmashed:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is very little left of this poor fellow.
+      pl: Z tego biedaka zostało bardzo niewiele.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nofish
+    wpisy:
+    - id: sol_91258a79655d1a075a13
+      kontekst: textscripts.fridgefactory_oliversmashed:line:8
+      linia: 8
+      sekcja_skryptu: nofish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fishing in this man's remains would be in poor taste.
+      pl: Łowienie w szczątkach tego człowieka byłoby w złym guście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lootsplat
+    wpisy:
+    - id: sol_ddf11fa6bf10312c2050
+      kontekst: textscripts.fridgefactory_oliversmashed:line:17
+      linia: 17
+      sekcja_skryptu: lootsplat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's got a pocketwatch clutched in one hand and some business matters clutched in the other. Neither of those hands is attached to an
+        arm anymore.
+      pl: W jednej dłoni ściska zegarek kieszonkowy, a w drugiej jakieś interesy. Żadna z dłoni nie jest już połączona z ramieniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b8adc00be06c114a9163
+      kontekst: textscripts.fridgefactory_oliversmashed:line:22
+      linia: 22
+      sekcja_skryptu: lootsplat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take a quick look at the deed -- this must have been Oliver Gluck, the owner of the speakeasy!
+      pl: Szybko przeglądasz akt własności — to musiał być Oliver Gluck, właściciel speakeasy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87b5cbb7aaf019065e13
+      kontekst: textscripts.fridgefactory_oliversmashed:line:23
+      linia: 23
+      sekcja_skryptu: lootsplat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1673
+  skrypt: fridgefactory_toolchest
+  pomieszczenie:
+    id: fridgefactory_mainfloor
+    nazwa_en: Refrigerator Factory (Inside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_27c5fa5e801f92715222
+      kontekst: textscripts.fridgefactory_toolchest:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A chest of tools for fixing upright refrigerators.
+      pl: Skrzynia z narzędziami do naprawy stojących lodówek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9942799660d43c6e6dc7
+      kontekst: textscripts.fridgefactory_toolchest:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's inside
+      pl: Sprawdź, co jest w środku
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 21
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: e
+    wpisy:
+    - id: sol_60d216ecc0017b8b93d5
+      kontekst: textscripts.fridgefactory_toolchest:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Look at all this stuff!
+      pl: Spójrz tylko na te wszystkie rzeczy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

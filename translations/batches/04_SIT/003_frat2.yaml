@@ -1,0 +1,1963 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: frat2
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 13
+liczba_wpisow: 115
+sceny:
+- kolejnosc_w_danych_gry: 5070
+  skrypt: autoscript__frat2__vines__popup
+  pomieszczenie:
+    id: frat2
+    nazwa_en: Phi Upsilon Tau
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b346c617a64a080eec7a
+      kontekst: textscripts.autoscript__frat2__vines__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The front door is overgrown with vines.
+      pl: Drzwi wejściowe zarosły pnączami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1628
+  skrypt: frat2_leftexit
+  pomieszczenie:
+    id: frat2
+    nazwa_en: Phi Upsilon Tau
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f4eacb61feb987e34d5b
+      kontekst: textscripts.frat2_leftexit:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check it out
+      pl: Obejrzyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+- kolejnosc_w_danych_gry: 1631
+  skrypt: frat2_rightexit
+  pomieszczenie:
+    id: frat2
+    nazwa_en: Phi Upsilon Tau
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f4eacb61feb987e34d5b
+      kontekst: textscripts.frat2_rightexit:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check it out
+      pl: Obejrzyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 5071
+  skrypt: autoscript__frat2_backyard__hops__popup
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8eb807d324985e7d05d6
+      kontekst: textscripts.autoscript__frat2_backyard__hops__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This plant is really hoppin'.
+      pl: Ten chmiel aż podskakuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5072
+  skrypt: autoscript__frat2_backyard__trashcan__popup
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7b672d16e81f4395c39a
+      kontekst: textscripts.autoscript__frat2_backyard__trashcan__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This trash can smells as good as it looks.
+      pl: Ten kosz pachnie równie dobrze, jak wygląda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5073
+  skrypt: autoscript__frat2_backyard__vines__popup
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_dd2d7b49e3fb533aa3a9
+      kontekst: textscripts.autoscript__frat2_backyard__vines__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow.  The house is even more vined-up on this side.
+      pl: Łał. Z tej strony dom jest jeszcze bardziej opnączowany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1624
+  skrypt: frat2_barbecuer
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 24
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8c4612b046f8f6fd1115
+      kontekst: textscripts.frat2_barbecuer:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fraternity guy is tending the barbecue here.
+      pl: Gość z bractwa zajmuje się tutaj grillem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.frat2_barbecuer:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: convo
+    wpisy:
+    - id: sol_64964f78bdcba45e4d89
+      kontekst: textscripts.frat2_barbecuer:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi!  Whatcha doin'?
+      pl: Cześć! Co robisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1be62778a7373ad8dc07
+      kontekst: textscripts.frat2_barbecuer:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Cuein'.
+      pl: Barbikuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_20dd62a4998256b12634
+      kontekst: textscripts.frat2_barbecuer:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What?
+      pl: Co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7865836dce99b9e0cd4a
+      kontekst: textscripts.frat2_barbecuer:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a cute way to say barbecuing. Here, try one of these bad boys!
+      pl: To uroczy sposób mówienia o grillowaniu. Proszę, spróbuj jednego z tych łobuziaków!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9d89286f0e8657beaf0a
+      kontekst: textscripts.frat2_barbecuer:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Er... what is it?
+      pl: Eee... co to?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: c2
+    wpisy:
+    - id: sol_9cfe0c644bbe31570c9e
+      kontekst: textscripts.frat2_barbecuer:line:23
+      linia: 23
+      sekcja_skryptu: c2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a special plant-based sausage I'm working on.
+      pl: Specjalna roślinna kiełbaska, nad którą pracuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1052190293129acde051
+      kontekst: textscripts.frat2_barbecuer:line:24
+      linia: 24
+      sekcja_skryptu: c2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Is it any good?
+      pl: Jest dobra?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ce3b65a47cc88694365b
+      kontekst: textscripts.frat2_barbecuer:line:25
+      linia: 25
+      sekcja_skryptu: c2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I didn't call it a <i>good</i> boy just now. I figure I need another... I dunno, 80 or 90 years to really get it right.
+      pl: Nie nazwałem go przed chwilą <i>grzecznym</i> chłopcem. Chyba potrzebuję jeszcze... nie wiem, osiemdziesięciu lub dziewięćdziesięciu lat, żeby ją dopracować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_12019bf4e9f7a7d4f125
+      kontekst: textscripts.frat2_barbecuer:line:26
+      linia: 26
+      sekcja_skryptu: c2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I see. Well, thanks all the same, I guess.
+      pl: Rozumiem. Mimo wszystko chyba dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ac8652057c3be943f75e
+      kontekst: textscripts.frat2_barbecuer:line:27
+      linia: 27
+      sekcja_skryptu: c2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't mention it. Say, do you like to cue?
+      pl: Nie ma za co. Lubisz barbikować?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5c000130de519d644c2e
+      kontekst: textscripts.frat2_barbecuer:line:28
+      linia: 28
+      sekcja_skryptu: c2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yes! I love it more than anything! [Exaggerate]
+      pl: Tak! Kocham to bardziej niż wszystko! [Przesadź]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bba3dad4b0ebbb6e9782
+      kontekst: textscripts.frat2_barbecuer:line:29
+      linia: 29
+      sekcja_skryptu: c2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Who's asking? [Pointless Secrecy]
+      pl: Kto pyta? [Bezsensowna Tajemniczość]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_737ca99b612f1e8054b9
+      kontekst: textscripts.frat2_barbecuer:line:30
+      linia: 30
+      sekcja_skryptu: c2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've never tried it.
+      pl: Nigdy nie próbowałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d7f48fe53df3823c5a64
+      kontekst: textscripts.frat2_barbecuer:line:31
+      linia: 31
+      sekcja_skryptu: c2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's okay I guess.
+      pl: Chyba jest w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: sol_3d884139964d96ab47f4
+      kontekst: textscripts.frat2_barbecuer:line:36
+      linia: 36
+      sekcja_skryptu: get
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well here, have one of these cuein' forks. I've got like ten of them. Once people find out you're into cuein', you start getting them
+        for every birthday and Crimbo.
+      pl: Proszę, weź jeden z tych widelców do barbikowania. Mam ich z dziesięć. Gdy ludzie odkrywają, że lubisz barbikować, zaczynasz dostawać je na każde urodziny i Crimbo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_52132903ba204d31a86a
+      kontekst: textscripts.frat2_barbecuer:line:38
+      linia: 38
+      sekcja_skryptu: get
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Gosh, thanks!
+      pl: Rety, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd292d3b1b5e50aa9052
+      kontekst: textscripts.frat2_barbecuer:line:39
+      linia: 39
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He nods and returns to his cuein'.
+      pl: Kiwa głową i wraca do barbikowania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.frat2_barbecuer:line:40
+      linia: 40
+      sekcja_skryptu: get
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+  - etykieta: already
+    wpisy:
+    - id: sol_225fc030f718bb8e861d
+      kontekst: textscripts.frat2_barbecuer:line:48
+      linia: 48
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's concentrating pretty hard on his cuein'. Probably best to leave him to it.
+      pl: Mocno koncentruje się na barbikowaniu. Lepiej mu nie przeszkadzać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: woodconvo
+    wpisy:
+    - id: sol_092a4451eecf49139e0c
+      kontekst: textscripts.frat2_barbecuer:line:57
+      linia: 57
+      sekcja_skryptu: woodconvo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, a guy over at Zeta Omega Omicron sent me over here to get some kind of special wood chips?
+      pl: Hej, facet z Zeta Omega Omicron przysłał mnie po jakieś specjalne zrębki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_082d393ddf2c95634efc
+      kontekst: textscripts.frat2_barbecuer:line:59
+      linia: 59
+      sekcja_skryptu: woodconvo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh sure, I know who ya mean. What he wants is mesquite -- just shave a little bark off the mesquite tree over there.
+      pl: Pewnie, wiem, o kogo chodzi. Potrzebuje mesquite — zeskrob trochę kory z tamtego drzewa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_78b42cd1d514abaeb520
+      kontekst: textscripts.frat2_barbecuer:line:60
+      linia: 60
+      sekcja_skryptu: woodconvo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 26
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1625
+  skrypt: frat2_cat
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4dff24cbbb4f8a39095f
+      kontekst: textscripts.frat2_cat:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%cat_names/6% continues to writhe in the catnip.'
+      pl: '%cat_names/6% nadal wije się w kocimiętce.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/6%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2e0030351307a97c7e8f
+      kontekst: textscripts.frat2_cat:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet %cat_accusative/6%
+      pl: Pogłaszcz %cat_accusative/6%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/6%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c48a511bf935af4bc71c
+      kontekst: textscripts.frat2_cat:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cat is writhing around in a pile of catnip, in either agony or ecstasy.
+      pl: Ten kot wije się w stercie kocimiętki, pogrążony w agonii albo ekstazie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstpetto
+    wpisy:
+    - id: sol_71399d242da4ce48a56e
+      kontekst: textscripts.frat2_cat:line:21
+      linia: 21
+      sekcja_skryptu: firstpetto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You deftly avoid the flailing claws and gnashing teeth and give %cat_accusative/6% a little scritch on %cat_possessive/6% chin.
+      pl: Zręcznie unikasz wymachujących pazurów i kłapiących zębów, po czym drapiesz %cat_accusative/6% po podbródku %cat_possessive/6%.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/6%'
+      - '%cat_possessive/6%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6baedf7c5b482ef831ae
+      kontekst: textscripts.frat2_cat:line:22
+      linia: 22
+      sekcja_skryptu: firstpetto
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you do, you see %cat_possessive/6% collar, which reads %cat_names/6,uppercase%.
+      pl: Wtedy dostrzegasz obrożę %cat_possessive/6% z napisem %cat_names/6,uppercase%.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_possessive/6%'
+      - '%cat_names/6,uppercase%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7380ff967ff22f5d4ee0
+      kontekst: textscripts.frat2_cat:line:24
+      linia: 24
+      sekcja_skryptu: firstpetto
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rub %cat_possessive/6% belly now
+      pl: Pomasuj teraz brzuch %cat_possessive/6%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_possessive/6%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bd9ab29a0f21785752e6
+      kontekst: textscripts.frat2_cat:line:25
+      linia: 25
+      sekcja_skryptu: firstpetto
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave %cat_accusative/6% be
+      pl: Zostaw %cat_accusative/6% w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/6%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pet
+    wpisy:
+    - id: sol_2f55df06acdd627eaf2d
+      kontekst: textscripts.frat2_cat:line:31
+      linia: 31
+      sekcja_skryptu: pet
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: You give %cat_names/6% an affectionate pet.
+      pl: Czule głaszczesz %cat_names/6%.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/6%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: petmodal
+    wpisy:
+    - id: sol_dbe8aff027acd9c4a172
+      kontekst: textscripts.frat2_cat:line:38
+      linia: 38
+      sekcja_skryptu: petmodal
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: You give old %cat_names/6% a brief belly rub.
+      pl: Przez chwilę masujesz brzuch kotu o imieniu %cat_names/6%.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/6%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0eb97b9dfd9ae7b5930f
+      kontekst: textscripts.frat2_cat:line:38
+      linia: 38
+      sekcja_skryptu: petmodal
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1626
+  skrypt: frat2_helmetguy
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 31
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b079653c105283c75f19
+      kontekst: textscripts.frat2_helmetguy:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This frat guy is tending a row of malty-smelling plants.
+      pl: Ten gość z bractwa pielęgnuje rząd roślin pachnących słodem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.frat2_helmetguy:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: e
+    wpisy:
+    - id: sol_07101e08f1939b0bd331
+      kontekst: textscripts.frat2_helmetguy:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks busy, and you don't really have a reason to bother him.
+      pl: Wygląda na zajętego, a ty właściwie nie masz powodu, żeby mu przeszkadzać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: return
+    wpisy:
+    - id: sol_57b851497c90da1146c3
+      kontekst: textscripts.frat2_helmetguy:line:24
+      linia: 24
+      sekcja_skryptu: return
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey Chip -- something I forgot to ask you.
+      pl: Hej, Chipie — o coś jeszcze zapomniałem cię zapytać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_159de621f4a99798d8bf
+      kontekst: textscripts.frat2_helmetguy:line:26
+      linia: 26
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah? Whassup?
+      pl: Tak? Co jest?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_71aa7064006c6c14e9d2
+      kontekst: textscripts.frat2_helmetguy:line:29
+      linia: 29
+      sekcja_skryptu: return
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Umm... never mind.
+      pl: Eee... nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_0136f1dcc553f2c89aa5
+      kontekst: textscripts.frat2_helmetguy:line:35
+      linia: 35
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi there, I'm @firstname@. I'm a Botany student.
+      pl: Cześć, jestem @firstname@. Studiuję Botanikę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_da2dfdbd903880256828
+      kontekst: textscripts.frat2_helmetguy:line:37
+      linia: 37
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh hey, me too. I'm Chip. What's up?
+      pl: O, ja też. Jestem Chip. Co jest?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_afd92bf8e60633658f58
+      kontekst: textscripts.frat2_helmetguy:line:40
+      linia: 40
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing, never mind.
+      pl: Nic, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: gethelmet
+    wpisy:
+    - id: sol_8add28af1c532fbb7f37
+      kontekst: textscripts.frat2_helmetguy:line:46
+      linia: 46
+      sekcja_skryptu: gethelmet
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, are you Chip?
+      pl: Cześć, jesteś Chipem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_faafc515603910f4af5d
+      kontekst: textscripts.frat2_helmetguy:line:48
+      linia: 48
+      sekcja_skryptu: gethelmet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Umm... that depends on who you are and what your badge looks like.
+      pl: Eee... to zależy, kim jesteś i jak wygląda twoja odznaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_01ae37388df01908f8ef
+      kontekst: textscripts.frat2_helmetguy:line:49
+      linia: 49
+      sekcja_skryptu: gethelmet
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What? No, I'm not a cop or anything, I'm a Botany student. My name's @firstname@.
+      pl: Co? Nie, nie jestem gliną ani nikim takim. Studiuję Botanikę. Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b989dcda44f315c0d4f3
+      kontekst: textscripts.frat2_helmetguy:line:50
+      linia: 50
+      sekcja_skryptu: gethelmet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Okay, in that case I'm Chip. What's up?
+      pl: Och! Dobrze, w takim razie jestem Chip. O co chodzi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_afd92bf8e60633658f58
+      kontekst: textscripts.frat2_helmetguy:line:54
+      linia: 54
+      sekcja_skryptu: gethelmet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing, never mind.
+      pl: Nic, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: helmet
+    wpisy:
+    - id: sol_18a1a7962f592cc30e8d
+      kontekst: textscripts.frat2_helmetguy:line:58
+      linia: 58
+      sekcja_skryptu: helmet
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I need a PUBA helmet, and the TA at the lab said you checked one out.
+      pl: Potrzebuję hełmu PUBA, a asystent w laboratorium mówił, że jeden wypożyczyłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_baa170839f4b79a3bbc7
+      kontekst: textscripts.frat2_helmetguy:line:59
+      linia: 59
+      sekcja_skryptu: helmet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah. Sure, I got the allergen situation worked out on my plants here, so it's no problem. Here you go.
+      pl: No tak. Jasne, rozwiązałem już problem alergenów na tych roślinach, więc nie ma problemu. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_01a5a94c5f817d680448
+      kontekst: textscripts.frat2_helmetguy:line:62
+      linia: 62
+      sekcja_skryptu: helmet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Great, thanks.
+      pl: Świetnie, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: plants
+    wpisy:
+    - id: sol_c997cf4ea9afe9a505ed
+      kontekst: textscripts.frat2_helmetguy:line:69
+      linia: 69
+      sekcja_skryptu: plants
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Check it out -- I'm breeding a new kind of beer.
+      pl: Spójrz — hoduję nowy rodzaj piwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d327beb93e156d4e6613
+      kontekst: textscripts.frat2_helmetguy:line:70
+      linia: 70
+      sekcja_skryptu: plants
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Like a different kind of hops?
+      pl: Inną odmianę chmielu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a81137d4717caceb2382
+      kontekst: textscripts.frat2_helmetguy:line:71
+      linia: 71
+      sekcja_skryptu: plants
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah, hops are just one ingredient of beer. This is gonna be the <i>whole</i> beer, and you can <i>smoke</i> it. Smokeable beer!
+      pl: Nie, chmiel to tylko jeden składnik piwa. To będzie <i>całe</i> piwo i będzie można je <i>palić</i>. Piwo do palenia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_93bc0a850e0bdb9f0d02
+      kontekst: textscripts.frat2_helmetguy:line:72
+      linia: 72
+      sekcja_skryptu: plants
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That... kind of exists already?
+      pl: To... w pewnym sensie już istnieje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fb617cdefaf2f13af0d3
+      kontekst: textscripts.frat2_helmetguy:line:73
+      linia: 73
+      sekcja_skryptu: plants
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What?! Someone copped my idea?
+      pl: Co?! Ktoś podkradł mój pomysł?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c4a6a3200ca4ca4dd1fc
+      kontekst: textscripts.frat2_helmetguy:line:74
+      linia: 74
+      sekcja_skryptu: plants
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Just about every jazz musician, yeah.
+      pl: Prawie każdy muzyk jazzowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: plants2
+    wpisy:
+    - id: sol_460bbd9e1843cc1e1990
+      kontekst: textscripts.frat2_helmetguy:line:79
+      linia: 79
+      sekcja_skryptu: plants2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, you mean reefer. No no, that's swell and all, but this is gonna be <i>beer</i>, see?
+      pl: Och, masz na myśli trawkę. Nie, nie, ona jest świetna i w ogóle, ale to będzie <i>piwo</i>, rozumiesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36634995a5ccf571a54a
+      kontekst: textscripts.frat2_helmetguy:line:80
+      linia: 80
+      sekcja_skryptu: plants2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Literally beer that you smoke?
+      pl: Dosłownie piwo do palenia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_df8ba2182607fdffbea0
+      kontekst: textscripts.frat2_helmetguy:line:81
+      linia: 81
+      sekcja_skryptu: plants2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Right! I'm gonna call it Buzz Wiser.
+      pl: Właśnie! Nazwę je Bud Mądrzejszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f9816c2fb90d55ea0af2
+      kontekst: textscripts.frat2_helmetguy:line:82
+      linia: 82
+      sekcja_skryptu: plants2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's <i>wise</i> about it?
+      pl: Co w nim jest <i>mądrego</i>?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b3e401bb9e2d96225f34
+      kontekst: textscripts.frat2_helmetguy:line:83
+      linia: 83
+      sekcja_skryptu: plants2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, hopefully it won't make you puke if you smoke too much of it.
+      pl: Mam nadzieję, że jeśli wypalisz za dużo, nie będziesz rzygać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bdba1dca0b691aef9b43
+      kontekst: textscripts.frat2_helmetguy:line:84
+      linia: 84
+      sekcja_skryptu: plants2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aead6420b69c8fb47a5d
+      kontekst: textscripts.frat2_helmetguy:line:85
+      linia: 85
+      sekcja_skryptu: plants2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Still working on that part, though.
+      pl: Ale nad tym nadal pracuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6e16434baed25a7a1102
+      kontekst: textscripts.frat2_helmetguy:line:86
+      linia: 86
+      sekcja_skryptu: plants2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1627
+  skrypt: frat2_jacketman
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 23
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_be52c2e2ea6f5ac67048
+      kontekst: textscripts.frat2_jacketman:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy looks much more comfortable now.
+      pl: Ten gość wygląda teraz znacznie wygodniej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a8ffa4543a8830d37d56
+      kontekst: textscripts.frat2_jacketman:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should go find his jacket for him, like you promised.
+      pl: Tak jak obiecujesz, należy znaleźć mu kurtkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_172a135a79473724d163
+      kontekst: textscripts.frat2_jacketman:line:12
+      linia: 12
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask him where he left it
+      pl: Zapytaj, gdzie ją zostawił
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_a4b004c449fee2a4ea97
+      kontekst: textscripts.frat2_jacketman:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He'd probably appreciate it if you got around to finding his jacket for him.
+      pl: Pewnie będzie wdzięczny, jeśli w końcu znajdziesz mu kurtkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_172a135a79473724d163
+      kontekst: textscripts.frat2_jacketman:line:16
+      linia: 16
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask him where he left it
+      pl: Zapytaj, gdzie ją zostawił
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: getquest
+    wpisy:
+    - id: sol_41da04d1202a22495db5
+      kontekst: textscripts.frat2_jacketman:line:29
+      linia: 29
+      sekcja_skryptu: getquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I w-w-was hanging out at that weird stone f-f-frat, and I l-l-left my jacket at the b-b-bar. I'm <i>f-f-freezing!</i>
+      pl: S-s-siedzę w tym dziwnym k-k-kamiennym bractwie i z-z-zostawiam kurtkę przy b-b-barze. <i>Z-z-zamarzam!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16946a5f0d00e6ce233b
+      kontekst: textscripts.frat2_jacketman:line:31
+      linia: 31
+      sekcja_skryptu: getquest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I guess there is kind of an unnatural chill in the air.
+      pl: Rzeczywiście czuć w powietrzu trochę nienaturalnego chłodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_89b8a7607b9097dece69
+      kontekst: textscripts.frat2_jacketman:line:32
+      linia: 32
+      sekcja_skryptu: getquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm r-r-real susceptible to changes in n-n-narrative atmosphere. If you're headed in the direction of Lambda Iota Theta, could you s-s-stop
+        in and grab my jacket for me? It's soft and comforting.
+      pl: J-j-jestem bardzo w-w-wrażliwy na zmiany a-a-atmosfery narracyjnej. Jeśli zmierzasz w stronę Lambda Iota Theta, m-m-możesz zajść i przynieść
+        moją kurtkę? Jest miękka i przyjemna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_64bebebb9245effb84c1
+      kontekst: textscripts.frat2_jacketman:line:34
+      linia: 34
+      sekcja_skryptu: getquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, no problem. [side quest]
+      pl: Jasne, żaden problem. [zadanie poboczne]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0dc58565fffa6688cf3b
+      kontekst: textscripts.frat2_jacketman:line:35
+      linia: 35
+      sekcja_skryptu: getquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ehn. Maybe. [side quest?]
+      pl: Ech. Może. [zadanie poboczne?]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ok1
+    wpisy:
+    - id: sol_bbabc75d8ded57ca4319
+      kontekst: textscripts.frat2_jacketman:line:42
+      linia: 42
+      sekcja_skryptu: ok1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Th-th-th-thanks!
+      pl: D-d-d-dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.frat2_jacketman:line:44
+      linia: 44
+      sekcja_skryptu: ok1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: ok2
+    wpisy:
+    - id: sol_233776c718e9ab4da719
+      kontekst: textscripts.frat2_jacketman:line:49
+      linia: 49
+      sekcja_skryptu: ok2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Th-th-th-thanks?
+      pl: D-d-d-dzięki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.frat2_jacketman:line:51
+      linia: 51
+      sekcja_skryptu: ok2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: thanks
+    wpisy:
+    - id: sol_20da7b57aa439c0116e2
+      kontekst: textscripts.frat2_jacketman:line:64
+      linia: 64
+      sekcja_skryptu: thanks
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Found your jacket. Here.
+      pl: Mam twoją kurtkę. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cce8f61ae6e8c8fce151
+      kontekst: textscripts.frat2_jacketman:line:67
+      linia: 67
+      sekcja_skryptu: thanks
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh wow, thanks!
+      pl: O rany, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a261a7544b93ad6a4f57
+      kontekst: textscripts.frat2_jacketman:line:68
+      linia: 68
+      sekcja_skryptu: thanks
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Mmmmm</i> -- that's much b-better.
+      pl: <i>Mmmmm</i> — o w-w-wiele lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c74b676804feb97db04c
+      kontekst: textscripts.frat2_jacketman:line:71
+      linia: 71
+      sekcja_skryptu: thanks
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No problem.
+      pl: Nie ma sprawy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reask
+    wpisy:
+    - id: sol_079289e596976902ef5d
+      kontekst: textscripts.frat2_jacketman:line:79
+      linia: 79
+      sekcja_skryptu: reask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I forgot, where did you say you left your jacket?
+      pl: Przypomnij, gdzie mówiłeś, że zostawiłeś kurtkę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_188753bb6560df3bf283
+      kontekst: textscripts.frat2_jacketman:line:81
+      linia: 81
+      sekcja_skryptu: reask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Somewhere in Lambda Iota Theta, the geology f-f-frat. I think somewhere around the b-b-bar.
+      pl: Gdzieś w Lambda Iota Theta, geologicznym b-b-bractwie. Chyba w okolicy b-b-baru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_81e4d13c51e2aeee0eb3
+      kontekst: textscripts.frat2_jacketman:line:82
+      linia: 82
+      sekcja_skryptu: reask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Is there a reason you can't go get it yourself?
+      pl: Dlaczego nie możesz pójść po nią osobiście?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2f11ff93b766dbc3faf9
+      kontekst: textscripts.frat2_jacketman:line:83
+      linia: 83
+      sekcja_skryptu: reask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's too quiet there, it gives me the heebie j-j-j-jeebies. You think I'm stuttering n-n-now?
+      pl: Jest tam za cicho i dostaję d-d-d-dreszczy. Myślisz, że t-t-teraz się jąkam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aa50c413ce73de24febd
+      kontekst: textscripts.frat2_jacketman:line:84
+      linia: 84
+      sekcja_skryptu: reask
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay then.
+      pl: No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1629
+  skrypt: frat2_mesquite
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7b225231c014674da451
+      kontekst: textscripts.frat2_mesquite:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a mesquite tree, unless you're mestaquen.
+      pl: To drzewo mesquite, chyba że męsko się mylę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_04e04aed6ae18dbdd83c
+      kontekst: textscripts.frat2_mesquite:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You gather some chips of bark, leaving the tree none worse for wear, you hope.
+      pl: Zbierasz trochę kory i masz nadzieję, że drzewo zbytnio na tym nie ucierpi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1630
+  skrypt: frat2_planter
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2a45291579a59602b2d3
+      kontekst: textscripts.frat2_planter:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pot contains dozens of different kinds of flowers, all grafted together into some kind of weird-smelling Plantenstein.
+      pl: Ta donica zawiera dziesiątki rodzajów kwiatów wszczepionych w jakiegoś dziwnie pachnącego Roślinsteina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_73f4e75eba2c3afed78d
+      kontekst: textscripts.frat2_planter:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You gather some materials from the various pistils and stamens and frimframs.
+      pl: Zbierasz materiały z różnych słupków, pręcików i frimframów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1632
+  skrypt: frat2_shrubber
+  pomieszczenie:
+    id: frat2_backyard
+    nazwa_en: Phi Upsilon Tau (Backyard)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_492eb0017777cb283f1e
+      kontekst: textscripts.frat2_shrubber:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a shrubberman of some sort.
+      pl: Jakiś krzewoczłowiek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.frat2_shrubber:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: convo
+    wpisy:
+    - id: sol_4f90bd91eb0519771e81
+      kontekst: textscripts.frat2_shrubber:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What's this shrub you're working on?
+      pl: Co to za krzew?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c426db81c8bb61b02654
+      kontekst: textscripts.frat2_shrubber:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a new strain of super-aloe.
+      pl: Nowa odmiana superaloesu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf813984b1933a7bb460
+      kontekst: textscripts.frat2_shrubber:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, interesting. Now that you mention it, the leaves do look like <i>Aloe vera</i>, except they're wider.
+      pl: Och, ciekawe. Rzeczywiście liście przypominają <i>Aloe vera</i>, tylko są szersze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c7e330dcb8dedad933c2
+      kontekst: textscripts.frat2_shrubber:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's right! I'm trying to find the best balance between increased phytochemical production and concentration.
+      pl: Zgadza się! Próbuję znaleźć najlepszą równowagę między zwiększoną produkcją fitochemikaliów a ich stężeniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_baa9af1f0049f26ed5d1
+      kontekst: textscripts.frat2_shrubber:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How's it working out?
+      pl: Jak idzie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_11f3be9d57d2754909d5
+      kontekst: textscripts.frat2_shrubber:line:23
+      linia: 23
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I think I've heard of aloe. That's a medicinal thing, right?
+      pl: Chyba słyszałem o aloesie. To coś leczniczego, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e7c00160ec54005a09d4
+      kontekst: textscripts.frat2_shrubber:line:24
+      linia: 24
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep! It's great for burns and rashes and so on. Here, try some!
+      pl: Tak! Świetnie działa na oparzenia, wysypki i tak dalej. Proszę, wypróbuj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dccef98fccfc3c46f832
+      kontekst: textscripts.frat2_shrubber:line:26
+      linia: 26
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Neat, thanks!
+      pl: Nieźle, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+    - id: sol_1ba4fef3b08dbf084065
+      kontekst: textscripts.frat2_shrubber:line:28
+      linia: 28
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leaf
+      pl: Liść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+  - etykieta: convo2
+    wpisy:
+    - id: sol_f96edf3de0b47379ffd5
+      kontekst: textscripts.frat2_shrubber:line:33
+      linia: 33
+      sekcja_skryptu: convo2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pretty well, now that I've given up on crossbreeding it with <i>Toxicodendron radicans</i>. Here, have some ointment samples!
+      pl: Całkiem dobrze, odkąd rezygnuję z krzyżowania go z <i>Toxicodendron radicans</i>. Proszę, oto próbki maści!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dccef98fccfc3c46f832
+      kontekst: textscripts.frat2_shrubber:line:35
+      linia: 35
+      sekcja_skryptu: convo2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Neat, thanks!
+      pl: Nieźle, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+    - id: sol_1ba4fef3b08dbf084065
+      kontekst: textscripts.frat2_shrubber:line:36
+      linia: 36
+      sekcja_skryptu: convo2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leaf
+      pl: Liść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: already
+    wpisy:
+    - id: sol_911bd508795c47d599ba
+      kontekst: textscripts.frat2_shrubber:line:41
+      linia: 41
+      sekcja_skryptu: already
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks again for that great plant goop.
+      pl: Jeszcze raz dzięki za tę świetną roślinną maź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e13f54ab35168979555c
+      kontekst: textscripts.frat2_shrubber:line:43
+      linia: 43
+      sekcja_skryptu: already
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure thing!
+      pl: Nie ma sprawy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1ba4fef3b08dbf084065
+      kontekst: textscripts.frat2_shrubber:line:44
+      linia: 44
+      sekcja_skryptu: already
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leaf
+      pl: Liść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007

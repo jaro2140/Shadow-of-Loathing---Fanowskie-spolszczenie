@@ -1,0 +1,3992 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: fissionchips
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 23
+liczba_wpisow: 237
+sceny:
+- kolejnosc_w_danych_gry: 1529
+  skrypt: fissionchips_exitpopup
+  pomieszczenie:
+    id: fissionchips
+    nazwa_en: Fission Chips Restaurant
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3b232b4e779c1bef0984
+      kontekst: textscripts.fissionchips_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Head back to campus?
+      pl: Wrócić na kampus?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.fissionchips_exitpopup:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+- kolejnosc_w_danych_gry: 1534
+  skrypt: fissionchips_hobo
+  pomieszczenie:
+    id: fissionchips
+    nazwa_en: Fission Chips Restaurant
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 18
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.fissionchips_hobo:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: intro
+    wpisy:
+    - id: sol_515be6a4e6a478c4803c
+      kontekst: textscripts.fissionchips_hobo:line:20
+      linia: 20
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You seem down. Not getting any business?
+      pl: Wyglądasz na przygnębionego. Brak klientów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_933c53b1defd5e389c99
+      kontekst: textscripts.fissionchips_hobo:line:22
+      linia: 22
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope. I thought this was a real good plan, too! College kids always need pencils, right? But I can't sell a dang one of the things.
+      pl: Ano. Myślałem, że to naprawdę dobry plan! Studenci zawsze potrzebują ołówków, prawda? Ale nie mogę sprzedać ani jednego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a4c342fadebd912bcdff
+      kontekst: textscripts.fissionchips_hobo:line:23
+      linia: 23
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They get this mean look on their faces, too. A sort of pitying sneer. Like they think I'm super dumb and these must be dumb pencils
+        that only write dumb answers, or something.
+      pl: Robią też takie wredne miny. Coś w rodzaju litościwego szyderstwa. Jakby uważali mnie za kompletnego głupka, a te ołówki miały pisać
+        tylko głupie odpowiedzi czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_508e8b275634e199d243
+      kontekst: textscripts.fissionchips_hobo:line:25
+      linia: 25
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well that's no good.
+      pl: Niedobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_916f0d076e72a36414ad
+      kontekst: textscripts.fissionchips_hobo:line:35
+      linia: 35
+      sekcja_skryptu: hub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks glumly at the sidewalk and rattles his mug of pencils at you.
+      pl: Posępnie patrzy na chodnik i grzechocze kubkiem pełnym ołówków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0cffddee46b25b5228eb
+      kontekst: textscripts.fissionchips_hobo:line:36
+      linia: 36
+      sekcja_skryptu: hub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mug has "I'm with stupid" printed on it, with an arrow pointing toward the handle.
+      pl: Na kubku widnieje napis „Jestem z głupkiem”, a strzałka wskazuje uchwyt.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b929e443c045e0175e6c
+      kontekst: textscripts.fissionchips_hobo:line:39
+      linia: 39
+      sekcja_skryptu: hub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks for the help! Soon as the kids get back from break, I bet I'll sell a ton of pencils!
+      pl: Dzięki za pomoc! Gdy tylko dzieciaki wrócą z przerwy, na pewno sprzedam masę ołówków!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fissionchips_hobo:line:45
+      linia: 45
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: buy
+    wpisy:
+    - id: sol_d03d3130c2c1faa7b7d8
+      kontekst: textscripts.fissionchips_hobo:line:54
+      linia: 54
+      sekcja_skryptu: buy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him
+      pl: Zostaw go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: codehelp
+    wpisy:
+    - id: sol_d78309b1058642adca7f
+      kontekst: textscripts.fissionchips_hobo:line:62
+      linia: 62
+      sekcja_skryptu: codehelp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why certainly!
+      pl: Oczywiście!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_96bb6bfa7dc6c4616043
+      kontekst: textscripts.fissionchips_hobo:line:63
+      linia: 63
+      sekcja_skryptu: codehelp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He uses one of his pencils to draw some symbols on a scrap of paper for you.
+      pl: Jednym z ołówków rysuje dla ciebie symbole na skrawku papieru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_997c78b93c8019f68a48
+      kontekst: textscripts.fissionchips_hobo:line:66
+      linia: 66
+      sekcja_skryptu: codehelp
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 67
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_133a11669628e9489e1f
+      kontekst: textscripts.fissionchips_hobo:line:68
+      linia: 68
+      sekcja_skryptu: codehelp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, you wouldn't want any hobo code I could give you. It'd probably just be dumb and wrong. I'd probably mix up the one that means "free
+        pie here" with the one that means "bottomless pit" or something.
+      pl: Och, nie chcesz żadnego kodu włóczęgów ode mnie. Pewnie byłby głupi i błędny. Jeszcze pomylę znak „darmowy placek” ze znakiem „dół bez dna” czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_696b00b88e5e7d858fea
+      kontekst: textscripts.fissionchips_hobo:line:69
+      linia: 69
+      sekcja_skryptu: codehelp
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Jeez, man.
+      pl: Rety, człowieku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: muggo
+    wpisy:
+    - id: sol_737980733cb7b896aba3
+      kontekst: textscripts.fissionchips_hobo:line:75
+      linia: 75
+      sekcja_skryptu: muggo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Here, maybe try this S.I.T. mug instead? Maybe that'll convince the students that you're smart.
+      pl: Może zamiast niego wypróbuj ten kubek S.I.T.? Może przekona studentów o twojej inteligencji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dd8845cb9d022dc29809
+      kontekst: textscripts.fissionchips_hobo:line:79
+      linia: 79
+      sekcja_skryptu: muggo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Say! That just might work! Thanks! Here, I'll swap you.
+      pl: Hej! To może zadziałać! Dzięki! Zamieńmy się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2aa5926e0966cbe7a3b2
+      kontekst: textscripts.fissionchips_hobo:line:83
+      linia: 83
+      sekcja_skryptu: muggo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck!
+      pl: Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1541
+  skrypt: fissionchips_statue
+  pomieszczenie:
+    id: fissionchips
+    nazwa_en: Fission Chips Restaurant
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b20d60ed8b56cd8a8fc7
+      kontekst: textscripts.fissionchips_statue:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your latest victim.
+      pl: Twoja najnowsza ofiara.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_b66cfd3fea171aa8ee75
+      kontekst: textscripts.fissionchips_statue:line:20
+      linia: 20
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, this is actually a real diving helmet.  Good instincts!
+      pl: Hej, to naprawdę prawdziwy hełm nurka. Dobry instynkt!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5049
+  skrypt: autoscript__fissionchips_inside__poster__popup
+  pomieszczenie:
+    id: fissionchips_inside
+    nazwa_en: Fission Chips
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_be6a2b7f02ae3ece8c67
+      kontekst: textscripts.autoscript__fissionchips_inside__poster__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a grid that explains what kinds of things are and are not sandwiches.  It's surprising how often it errs on the side of sandwich.
+      pl: To tabela wyjaśniająca, co jest kanapką, a co nią nie jest. Zaskakująco często rozstrzyga na korzyść kanapki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1524
+  skrypt: fissionchips_counter
+  pomieszczenie:
+    id: fissionchips_inside
+    nazwa_en: Fission Chips
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_160d21247e3267f29420
+      kontekst: textscripts.fissionchips_counter:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The kid behind the counter has the glassy-eyed stare traditional to all fast-food employees. Or rather, what will come to be known as
+        "fast-food" in about 23 years.
+      pl: Dzieciak za ladą ma szkliste spojrzenie typowe dla wszystkich pracowników barów szybkiej obsługi. A właściwie dla pracowników czegoś, co za jakieś dwadzieścia trzy lata zacznie się nazywać „fast foodem”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_8fb22f9e3d864b792786
+      kontekst: textscripts.fissionchips_counter:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You okay?
+      pl: Wszystko w porządku?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7d33ea16d2e7841a82eb
+      kontekst: textscripts.fissionchips_counter:line:34
+      linia: 34
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh? Oh, yeah, just... since all the students are gone, there practically hasn't been anyone in here all day except for that one guy
+        gorging himself.
+      pl: Co? Och, tak, tylko... odkąd wszyscy studenci zniknęli, przez cały dzień prawie nikogo tu nie było poza tamtym gościem, który się obżera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd008c4f01d7ea364462
+      kontekst: textscripts.fissionchips_counter:line:35
+      linia: 35
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Who is he?
+      pl: Kto to?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4bdcc0f64946ea3e50b4
+      kontekst: textscripts.fissionchips_counter:line:36
+      linia: 36
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I dunno. But he's in here every day, <i>all</i> day, and he's <i>always eating</i>. Sometimes other guys in suits come in and they whisper
+        together all shifty-like for a minute. And then the other guys leave and this guy... keeps... eating. It's freaking me out.
+      pl: Nie wiem. Ale jest tu codziennie, <i>całymi</i> dniami, i <i>ciągle je</i>. Czasem wchodzą inni faceci w garniturach, przez chwilę szepczą z nim jakoś podejrzanie, a potem wychodzą, podczas gdy ten facet... nadal... je. Przeraża mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_977777c9ee18bb777689
+      kontekst: textscripts.fissionchips_counter:line:37
+      linia: 37
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What do they talk about?
+      pl: O czym rozmawiają?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: sol_1fe5b00d6a22144bedbb
+      kontekst: textscripts.fissionchips_counter:line:42
+      linia: 42
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Look, @p|buddy,lady,pal@, I'm just workin' here part-time to pay my way through college, which in 1928 is completely feasible. I'm not
+        getting involved in whatever that guy's deal is.
+      pl: Słuchaj, @p|buddy,lady,pal@, pracuję tu tylko na pół etatu, żeby opłacić studia, co w 1928 roku jest całkowicie wykonalne. Nie mieszam
+        się w sprawy tego faceta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|buddy,lady,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_817eee47af84e9d2bec2
+      kontekst: textscripts.fissionchips_counter:line:44
+      linia: 44
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see. Well, what's on the menu?
+      pl: Rozumiem. Co jest w menu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0266f8087ccea5520a74
+      kontekst: textscripts.fissionchips_counter:line:45
+      linia: 45
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, fair enough
+      pl: Dobrze, słusznie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1526
+  skrypt: fissionchips_eater
+  pomieszczenie:
+    id: fissionchips_inside
+    nazwa_en: Fission Chips
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 30
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1607fa29f9a204a11c86
+      kontekst: textscripts.fissionchips_eater:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Floyd is now happily eating his lunch. You should leave him to it.
+      pl: Floyd z zadowoleniem zjada obiad. Lepiej mu nie przeszkadzać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.fissionchips_eater:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: convo
+    wpisy:
+    - id: sol_56e751321523591cbfde
+      kontekst: textscripts.fissionchips_eater:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He keeps poking at his food and frowning.
+      pl: Nadal grzebie w jedzeniu i marszczy brwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a33737dd7eabc58d389b
+      kontekst: textscripts.fissionchips_eater:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe I can help? [side quest]
+      pl: Może pomogę? [zadanie poboczne]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_376dc97302eb8a57cdb1
+      kontekst: textscripts.fissionchips_eater:line:25
+      linia: 25
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi there! Any luck finding me some barbecue sauce?
+      pl: Cześć! Udało ci się znaleźć dla mnie sos barbecue?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a450f91aa8d8d6d00695
+      kontekst: textscripts.fissionchips_eater:line:26
+      linia: 26
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Not yet, sorry.
+      pl: Jeszcze nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fissionchips_eater:line:29
+      linia: 29
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: intro
+    wpisy:
+    - id: sol_280ff28fb98f89ebd014
+      kontekst: textscripts.fissionchips_eater:line:33
+      linia: 33
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi there. Is something wrong?
+      pl: Cześć. Coś nie tak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_20de84a3b9c7d7efa5f1
+      kontekst: textscripts.fissionchips_eater:line:34
+      linia: 34
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, well... I just moved out here for school, and this food is... I mean, it's <i>fine</i>, but it just isn't like what we had back
+        home.
+      pl: Och, cóż... Dopiero co przeprowadziłem się tutaj na studia i to jedzenie... To znaczy, jest <i>w porządku</i>, ale w domu jedliśmy inaczej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fde94b4185a6491ea110
+      kontekst: textscripts.fissionchips_eater:line:35
+      linia: 35
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What's different about it?
+      pl: Co było inne?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9d63ba8f63d1c3516aa5
+      kontekst: textscripts.fissionchips_eater:line:36
+      linia: 36
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: My dad worked at a barbecue sauce factory, so everything we ate was smothered in barbecue sauce. I thought I was ready for new experiences
+        at college, but I'm so homesick.
+      pl: Tata pracował w fabryce sosu barbecue, więc wszystko, co jedliśmy, tonęło w sosie. Wydawało mi się, że studia i nowe doświadczenia są
+        dla mnie, ale strasznie tęsknię za domem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5565ffe9efa23dde1077
+      kontekst: textscripts.fissionchips_eater:line:37
+      linia: 37
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Aww, I'm sorry.
+      pl: Ooo, przykro mi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4cc805c5d04d7c5a5d84
+      kontekst: textscripts.fissionchips_eater:line:38
+      linia: 38
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I can relate. For me it was maple syrup.
+      pl: Rozumiem. Dla mnie takim smakiem był syrop klonowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7b81337ae77e90da278c
+      kontekst: textscripts.fissionchips_eater:line:39
+      linia: 39
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's a funny thing to be homesick about.
+      pl: Dziwna rzecz, za którą można tęsknić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: sol_e90ac1cb905d02990bd9
+      kontekst: textscripts.fissionchips_eater:line:47
+      linia: 47
+      sekcja_skryptu: takequest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, really? That'd be swell!
+      pl: Łał, naprawdę? Byłoby wspaniale!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_de394d1a2110f4c40a2a
+      kontekst: textscripts.fissionchips_eater:line:48
+      linia: 48
+      sekcja_skryptu: takequest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He pulls a little paper cup out of his pocket and hands it to you.
+      pl: Wyciąga z kieszeni mały papierowy kubeczek i ci go wręcza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_27c778ea76befd0fd93a
+      kontekst: textscripts.fissionchips_eater:line:49
+      linia: 49
+      sekcja_skryptu: takequest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: There's gotta be some barbecue sauce somewhere on campus, right? It's 1928, after all.
+      pl: Gdzieś na kampusie musi być sos barbecue, prawda? W końcu mamy rok 1928.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0278c937c5ed682d9c47
+      kontekst: textscripts.fissionchips_eater:line:51
+      linia: 51
+      sekcja_skryptu: takequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You carry sauce cups around with you?
+      pl: Nosisz przy sobie kubeczki na sos?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest2
+    wpisy:
+    - id: sol_494fe3b7d70a56547fc4
+      kontekst: textscripts.fissionchips_eater:line:55
+      linia: 55
+      sekcja_skryptu: takequest2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, well, like I said, barbecue sauce is a really important part of my identity.
+      pl: Tak. Jak mówiłem, sos barbecue to bardzo ważna część mojej tożsamości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad062d8c71e9f56fb38a
+      kontekst: textscripts.fissionchips_eater:line:56
+      linia: 56
+      sekcja_skryptu: takequest2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I'll see what I can do, uh...
+      pl: Dobrze, zobaczę, co da się zrobić, eee...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7aae3f6a4e41480b7b98
+      kontekst: textscripts.fissionchips_eater:line:57
+      linia: 57
+      sekcja_skryptu: takequest2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Floyd. Floyd Carbuncle.
+      pl: Floyd. Floyd Carbuncle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c814f03853a495510a2a
+      kontekst: textscripts.fissionchips_eater:line:58
+      linia: 58
+      sekcja_skryptu: takequest2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I'll see what I can do, Floyd.
+      pl: Zobaczę, co da się zrobić, Floydzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d03d3130c2c1faa7b7d8
+      kontekst: textscripts.fissionchips_eater:line:60
+      linia: 60
+      sekcja_skryptu: takequest2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him
+      pl: Zostaw go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: turnin
+    wpisy:
+    - id: sol_1b59b255b45cef7691df
+      kontekst: textscripts.fissionchips_eater:line:67
+      linia: 67
+      sekcja_skryptu: turnin
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Here ya go, Floyd -- one serving of barbecue sauce.
+      pl: Proszę, Floydzie — jedna porcja sosu barbecue.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7636b1cccf73d5bc0ef1
+      kontekst: textscripts.fissionchips_eater:line:68
+      linia: 68
+      sekcja_skryptu: turnin
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, holy cow, thank you!
+      pl: O rany, dziękuję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_da58a2a36eff9b3a8ecb
+      kontekst: textscripts.fissionchips_eater:line:69
+      linia: 69
+      sekcja_skryptu: turnin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes a big sniff of the sauce.
+      pl: Porządnie wciąga zapach sosu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8469d3c1331e84b7f4e0
+      kontekst: textscripts.fissionchips_eater:line:70
+      linia: 70
+      sekcja_skryptu: turnin
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ahh, sweet and smoky! Just like Dad used to make. Well, just like the machines at Dad's factory used to make. Dad's job was just making
+        sure the rats didn't unionize.
+      pl: Ach, słodki i dymny! Zupełnie jak ten, który robił tata. To znaczy, który robiły maszyny w fabryce taty. Tata tylko pilnował, żeby szczury
+        nie zakładały związku zawodowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_42954f0f8aa3deeac688
+      kontekst: textscripts.fissionchips_eater:line:71
+      linia: 71
+      sekcja_skryptu: turnin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, enjoy.
+      pl: Smacznego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin2
+    wpisy:
+    - id: sol_3050b55ea5729dad7ed6
+      kontekst: textscripts.fissionchips_eater:line:75
+      linia: 75
+      sekcja_skryptu: turnin2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I sure will. Thanks for your help!
+      pl: Na pewno będzie! Dzięki za pomoc!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d03d3130c2c1faa7b7d8
+      kontekst: textscripts.fissionchips_eater:line:77
+      linia: 77
+      sekcja_skryptu: turnin2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him
+      pl: Zostaw go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 1538
+  skrypt: fissionchips_mobcontact
+  pomieszczenie:
+    id: fissionchips_inside
+    nazwa_en: Fission Chips
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 88
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7dd3972561b748dfbd71
+      kontekst: textscripts.fissionchips_mobcontact:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A man in a really slick suit -- described as such because it is both expensive and covered in grease -- is stuffing his face. He glances
+        at you shiftily, but otherwise ignores you.
+      pl: Mężczyzna w wyjątkowo śliskim garniturze — drogim i pokrytym tłuszczem — opycha się jedzeniem. Zerka na ciebie spod oka, ale poza tym cię ignoruje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dfbe2847fba2ee40d896
+      kontekst: textscripts.fissionchips_mobcontact:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A man in a really slick suit -- described as such because it is both expensive and covered in grease -- is stuffing his face. This has
+        <i>got</i> to be Greasy Steve.
+      pl: Mężczyzna w wyjątkowo śliskim garniturze — drogim i pokrytym tłuszczem — opycha się jedzeniem. To <i>musi</i> być Tłusty Steve.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.fissionchips_mobcontact:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_dfd99c7a65eb411df067
+      kontekst: textscripts.fissionchips_mobcontact:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve is too busy eating to talk right now.
+      pl: Tłusty Steve jest zbyt zajęty jedzeniem, żeby rozmawiać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f698335b7bd79a3b5b64
+      kontekst: textscripts.fissionchips_mobcontact:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve nods as you approach.
+      pl: Tłusty Steve kiwa głową na twój widok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d6072e8c2d486ee65fc6
+      kontekst: textscripts.fissionchips_mobcontact:line:16
+      linia: 16
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him the laundered Meat
+      pl: Oddaj mu wyprane Mięso
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a761dc656bafccdaf9a6
+      kontekst: textscripts.fissionchips_mobcontact:line:19
+      linia: 19
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve is too busy eating to nod, so he winks at you instead.
+      pl: Tłusty Steve jest zbyt zajęty jedzeniem, żeby skinąć głową, więc zamiast tego mruga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9fd4f20076bc4d841cb0
+      kontekst: textscripts.fissionchips_mobcontact:line:20
+      linia: 20
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sit down
+      pl: Usiądź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_b394818fe2913b0c981f
+      kontekst: textscripts.fissionchips_mobcontact:line:23
+      linia: 23
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve gives you an expectant look.
+      pl: Tłusty Steve patrzy wyczekująco.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9fd4f20076bc4d841cb0
+      kontekst: textscripts.fissionchips_mobcontact:line:24
+      linia: 24
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sit down
+      pl: Usiądź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_5d883aabbc2c39042571
+      kontekst: textscripts.fissionchips_mobcontact:line:27
+      linia: 27
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve gives you a serious nod.
+      pl: Tłusty Steve poważnie kiwa głową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9fd4f20076bc4d841cb0
+      kontekst: textscripts.fissionchips_mobcontact:line:28
+      linia: 28
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sit down
+      pl: Usiądź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_5310864b88e8c0aa79cc
+      kontekst: textscripts.fissionchips_mobcontact:line:31
+      linia: 31
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve greets you with a relieved grin.
+      pl: Tłusty Steve wita cię z uśmiechem ulgi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9fd4f20076bc4d841cb0
+      kontekst: textscripts.fissionchips_mobcontact:line:32
+      linia: 32
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sit down
+      pl: Usiądź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_e51182f7a4d01e1c479f
+      kontekst: textscripts.fissionchips_mobcontact:line:35
+      linia: 35
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve shoots you a wink, but is too busy eating to talk.
+      pl: Tłusty Steve mruga, ale jest zbyt zajęty jedzeniem, żeby rozmawiać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_d5a9611768ba8c9e696b
+      kontekst: textscripts.fissionchips_mobcontact:line:62
+      linia: 62
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi. You're Greasy Steve.
+      pl: Cześć. Jesteś Tłustym Steve'em.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_296c57d8a4de9b6436c1
+      kontekst: textscripts.fissionchips_mobcontact:line:64
+      linia: 64
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I like how you didn't phrase that as a question. You're a cool customer, kid -- I get what Donny Thesaurus sees in ya. Put 'er there.
+      pl: Podoba mi się, że to nie jest pytanie. Zimną krew masz, dzieciaku — już rozumiem, co Donny Thesaurus w tobie widzi. Przybij piątkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_54337a1ffd0fcbdd75ab
+      kontekst: textscripts.fissionchips_mobcontact:line:65
+      linia: 65
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He wipes his hand on his lapel and offers you a handshake. You take it with a grimace, and your hand immediately slides out of his grip.
+      pl: Wyciera dłoń w klapę marynarki i podaje ją do uścisku. Chwytasz z grymasem, a twoja dłoń natychmiast wyślizguje się z jego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dd02961a731668ce4ddb
+      kontekst: textscripts.fissionchips_mobcontact:line:66
+      linia: 66
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now, here's the deal. We got some, whatcha might call "dirty Meat," see? And we gotta get it laundered.
+      pl: Sprawa wygląda tak. Mamy trochę, jak to się mówi, „brudnego Mięsa”. I musimy je wyprać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ae2a5eb4f6d22acb6cef
+      kontekst: textscripts.fissionchips_mobcontact:line:67
+      linia: 67
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Meat laundering? I don't know much about that.
+      pl: Pranie Mięsa? Niewiele o tym wiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7eb7737450e1867de97b
+      kontekst: textscripts.fissionchips_mobcontact:line:68
+      linia: 68
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, it's easy. The only tricky part is, you gotta find a way into S.I.T.'s laundry room to do it.
+      pl: Och, to proste. Jedyna trudność polega na dostaniu się do pralni S.I.T.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3da384566139052404c1
+      kontekst: textscripts.fissionchips_mobcontact:line:69
+      linia: 69
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: S.I.T.'s laundry room?
+      pl: Pralni S.I.T.?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: sol_cbb47ba80d0b386080fe
+      kontekst: textscripts.fissionchips_mobcontact:line:73
+      linia: 73
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: S.I.T.'s laundry room? Like, an actual laundry?
+      pl: Pralni S.I.T.? Takiej prawdziwej pralni?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8f624805d07ebcf54940
+      kontekst: textscripts.fissionchips_mobcontact:line:74
+      linia: 74
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah. On account'a how it's a steam laundry, and only a steam laundry is gonna be powerful enough to clean this particularly dirty Meat.
+      pl: Tak. To pralnia parowa, a tylko pralnia parowa ma dość mocy, żeby wyczyścić to wyjątkowo brudne Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0e4f31316ed45def579b
+      kontekst: textscripts.fissionchips_mobcontact:line:75
+      linia: 75
+      sekcja_skryptu: intro2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He passes you a sack under the table, and you take a look inside.
+      pl: Pod stołem wręcza ci worek. Zaglądasz do środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a25cd10bcc27aa03cd4b
+      kontekst: textscripts.fissionchips_mobcontact:line:77
+      linia: 77
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Eurgh!
+      pl: Blee!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_20ffe7ba6c2f71b839e6
+      kontekst: textscripts.fissionchips_mobcontact:line:78
+      linia: 78
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I can see that you see what I mean. Anyway, get that cleaned up and bring it back to me, and you'll get your payment.
+      pl: Tak, widzę, że rozumiesz. Upierz je, przynieś mi z powrotem, a dostaniesz zapłatę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16c8ca83fef2a7569638
+      kontekst: textscripts.fissionchips_mobcontact:line:79
+      linia: 79
+      sekcja_skryptu: intro2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He pats a briefcase sitting next to his chair.
+      pl: Klepie walizkę stojącą przy krześle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ff2a88e219899841e368
+      kontekst: textscripts.fissionchips_mobcontact:line:81
+      linia: 81
+      sekcja_skryptu: intro2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gross. Well, all right
+      pl: Obrzydliwe. No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninmeat
+    wpisy:
+    - id: sol_a319373d0a574d16c24a
+      kontekst: textscripts.fissionchips_mobcontact:line:88
+      linia: 88
+      sekcja_skryptu: turninmeat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You glance around to make sure nobody is watching, and slide the sack of freshly-laundered Meat across the table. Greasy Steve opens
+        the sack and glances inside.
+      pl: Rozglądasz się, czy nikt nie patrzy, i przesuwasz po stole worek świeżo wypranego Mięsa. Tłusty Steve otwiera go i zagląda do środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_28dd754fca93b254867a
+      kontekst: textscripts.fissionchips_mobcontact:line:90
+      linia: 90
+      sekcja_skryptu: turninmeat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nice job, kid. Here's your payment.
+      pl: Dobra robota. Oto zapłata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b7fb62cef648e424294
+      kontekst: textscripts.fissionchips_mobcontact:line:91
+      linia: 91
+      sekcja_skryptu: turninmeat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He picks up his briefcase, empties the sack into it, and slides the briefcase back to you.
+      pl: Podnosi walizkę, przesypuje do niej zawartość worka i przesuwa walizkę z powrotem do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8b696140ef38ee727923
+      kontekst: textscripts.fissionchips_mobcontact:line:94
+      linia: 94
+      sekcja_skryptu: turninmeat
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Seriously?
+      pl: Poważnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a3ea0ed4690e6d28116d
+      kontekst: textscripts.fissionchips_mobcontact:line:95
+      linia: 95
+      sekcja_skryptu: turninmeat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He shrugs, and goes back to stuffing his face.
+      pl: Wzrusza ramionami i wraca do opychania się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3598592927d569f937fc
+      kontekst: textscripts.fissionchips_mobcontact:line:96
+      linia: 96
+      sekcja_skryptu: turninmeat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Donnm Thmsrmms'll cll ym if wm nmmd ym agmnm.
+      pl: Donnm Thmsrmms zmdzwmnm, jmślm znmwm bmdzmmmy cmm pmtrzmbmwmć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6935f24aa18719af300b
+      kontekst: textscripts.fissionchips_mobcontact:line:97
+      linia: 97
+      sekcja_skryptu: turninmeat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it
+      pl: Zostaw go z tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fratquest
+    wpisy:
+    - id: sol_9a156fb99e31c0da3c1a
+      kontekst: textscripts.fissionchips_mobcontact:line:102
+      linia: 102
+      sekcja_skryptu: fratquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve swallows and drags his sleeve across his mouth.
+      pl: Tłusty Steve przełyka i ociera usta rękawem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41ac0fad51fd260f9e76
+      kontekst: textscripts.fissionchips_mobcontact:line:104
+      linia: 104
+      sekcja_skryptu: fratquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey kid. Good to see ya. Have a french fry.
+      pl: Hej, dzieciaku. Miło cię widzieć. Częstuj się frytką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_13803d29aff7c501c172
+      kontekst: textscripts.fissionchips_mobcontact:line:106
+      linia: 106
+      sekcja_skryptu: fratquest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: They have fries here? I didn't see that on the menu.
+      pl: Mają tu frytki? Nie widziałem ich w menu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6e324b818b257351d582
+      kontekst: textscripts.fissionchips_mobcontact:line:107
+      linia: 107
+      sekcja_skryptu: fratquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I bring my own from home.
+      pl: Przynoszę własne z domu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8175c03e120433151dd4
+      kontekst: textscripts.fissionchips_mobcontact:line:108
+      linia: 108
+      sekcja_skryptu: fratquest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'll pass, thanks.
+      pl: Podziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_97a462c5f7135ca9e791
+      kontekst: textscripts.fissionchips_mobcontact:line:109
+      linia: 109
+      sekcja_skryptu: fratquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's the job?
+      pl: Jakie zadanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: frat2
+    wpisy:
+    - id: sol_545c598da76a14ac1c06
+      kontekst: textscripts.fissionchips_mobcontact:line:114
+      linia: 114
+      sekcja_skryptu: frat2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The Boss has decided we need to send a "message" to Congressman Chutney. You familiar?
+      pl: Szef uznał, że musimy wysłać „wiadomość” kongresmenowi Chutneyowi. Znasz go?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53da99fd90ad7941558d
+      kontekst: textscripts.fissionchips_mobcontact:line:115
+      linia: 115
+      sekcja_skryptu: frat2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, a message is when information is conveyed from one person to another.
+      pl: Jasne. Wiadomość to informacja przekazywana przez jedną osobę drugiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9f9ed5a0ce9f57534b34
+      kontekst: textscripts.fissionchips_mobcontact:line:116
+      linia: 116
+      sekcja_skryptu: frat2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...I meant with the Congressman.'
+      pl: '...Mam na myśli kongresmena.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_699fe6b7799f9f1aa22f
+      kontekst: textscripts.fissionchips_mobcontact:line:117
+      linia: 117
+      sekcja_skryptu: frat2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Never met him.
+      pl: Nigdy go nie spotkałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a7be6ff9b8c4ccf3ef4
+      kontekst: textscripts.fissionchips_mobcontact:line:118
+      linia: 118
+      sekcja_skryptu: frat2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: His son Chadley is a student here. Lives at one of the frat houses, Zeta Omega Omicron.
+      pl: Jego syn Chadley studiuje tutaj. Mieszka w jednym z domów bractwa, Zeta Omega Omicron.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f67c232268d065b738dd
+      kontekst: textscripts.fissionchips_mobcontact:line:121
+      linia: 121
+      sekcja_skryptu: frat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay. What's that got to do with me?
+      pl: Dobrze. Co to ma wspólnego ze mną?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_64c25a9b387d619733b6
+      kontekst: textscripts.fissionchips_mobcontact:line:123
+      linia: 123
+      sekcja_skryptu: frat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I know the place. So?
+      pl: Znam to miejsce. I co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: frat3
+    wpisy:
+    - id: sol_19c0c2eae850abedf9bb
+      kontekst: textscripts.fissionchips_mobcontact:line:129
+      linia: 129
+      sekcja_skryptu: frat3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So, you're gonna make young Chad sleep with the fishes.
+      pl: Masz sprawić, żeby młody Chad spał z rybami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_981a2ca5e81242bc76f2
+      kontekst: textscripts.fissionchips_mobcontact:line:130
+      linia: 130
+      sekcja_skryptu: frat3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whoa, whoa! I didn't sign up for...
+      pl: Hej, chwila! Na to się nie pisałem...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f0ca1acd2395c24bd6cf
+      kontekst: textscripts.fissionchips_mobcontact:line:131
+      linia: 131
+      sekcja_skryptu: frat3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Greasy Steve passes you a large sack of rotting fish.
+      pl: Tłusty Steve wręcza ci wielki worek gnijących ryb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bef798acacdab6523620
+      kontekst: textscripts.fissionchips_mobcontact:line:133
+      linia: 133
+      sekcja_skryptu: frat3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh. Well, I didn't sign up for <i>this,</i> either.
+      pl: Och. Cóż, na <i>to</i> też się nie pisałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8cd1cfd45b5e38b5f3f4
+      kontekst: textscripts.fissionchips_mobcontact:line:134
+      linia: 134
+      sekcja_skryptu: frat3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Look, all you gotta do is get into the kid's room. It's a lead-pipe cinch.
+      pl: Słuchaj, musisz tylko dostać się do pokoju dzieciaka. Łatwizna jak ołowiana rura.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c32332274907e2c64604
+      kontekst: textscripts.fissionchips_mobcontact:line:135
+      linia: 135
+      sekcja_skryptu: frat3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't know what that means, but okay.
+      pl: Nie wiem, co to znaczy, ale dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31a9520f3846ee641c3c
+      kontekst: textscripts.fissionchips_mobcontact:line:136
+      linia: 136
+      sekcja_skryptu: frat3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...I guess.'
+      pl: '...Chyba.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninfrat
+    wpisy:
+    - id: sol_5246249aecb566cfbd17
+      kontekst: textscripts.fissionchips_mobcontact:line:142
+      linia: 142
+      sekcja_skryptu: turninfrat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sit down across from him.
+      pl: Siadasz naprzeciwko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a1aaaf341c40d9f29ab
+      kontekst: textscripts.fissionchips_mobcontact:line:144
+      linia: 144
+      sekcja_skryptu: turninfrat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So! How'd it go, kid? You got some news for me?
+      pl: I jak poszło? Masz dla mnie jakieś wieści?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7b749f2f3c7d11013d2c
+      kontekst: textscripts.fissionchips_mobcontact:line:146
+      linia: 146
+      sekcja_skryptu: turninfrat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, the kid's bed is full of fish. It was a lead-pipe cinch, like you said. I still don't know what that means, though.
+      pl: Tak, łóżko dzieciaka jest pełne ryb. Łatwizna jak ołowiana rura, dokładnie jak mówisz. Nadal nie wiem, co to znaczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd34199fefce8e6dbab2
+      kontekst: textscripts.fissionchips_mobcontact:line:147
+      linia: 147
+      sekcja_skryptu: turninfrat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nobody does! That's what makes it such a great turn of phrase.
+      pl: Nikt nie wie! Właśnie dlatego to taki świetny zwrot.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f93a27abefed36f38027
+      kontekst: textscripts.fissionchips_mobcontact:line:148
+      linia: 148
+      sekcja_skryptu: turninfrat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway, nice job, kid. Now Congressman Chutney will really know who he's dealing with.
+      pl: Tak czy inaczej, dobra robota. Teraz kongresmen Chutney naprawdę zrozumie, z kim ma do czynienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6e23c7e006867be463b0
+      kontekst: textscripts.fissionchips_mobcontact:line:149
+      linia: 149
+      sekcja_skryptu: turninfrat
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: He sure will.
+      pl: Na pewno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.fissionchips_mobcontact:line:151
+      linia: 151
+      sekcja_skryptu: turninfrat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: vampirequest
+    wpisy:
+    - id: sol_d6128369c1722aba918c
+      kontekst: textscripts.fissionchips_mobcontact:line:158
+      linia: 158
+      sekcja_skryptu: vampirequest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sit down.
+      pl: Siadasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_007bef398b85d93791ac
+      kontekst: textscripts.fissionchips_mobcontact:line:160
+      linia: 160
+      sekcja_skryptu: vampirequest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's up with the grim look, Steve?
+      pl: Skąd ta ponura mina, Steve?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a7e57b5fa89b1d161520
+      kontekst: textscripts.fissionchips_mobcontact:line:162
+      linia: 162
+      sekcja_skryptu: vampirequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Got a serious job for ya this time, kid. And it ain't gonna be easy.
+      pl: Tym razem mam dla ciebie poważną robotę. I nie będzie łatwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d648436d96b90448790
+      kontekst: textscripts.fissionchips_mobcontact:line:163
+      linia: 163
+      sekcja_skryptu: vampirequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: After those last two jobs, I could do with a challenge.
+      pl: Po dwóch ostatnich zadaniach przyda mi się wyzwanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fe53873596c431151b3e
+      kontekst: textscripts.fissionchips_mobcontact:line:164
+      linia: 164
+      sekcja_skryptu: vampirequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm. I don't like things that aren't easy.
+      pl: Hm. Nie lubię rzeczy, które nie są łatwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vamp2a
+    wpisy:
+    - id: sol_b022fa3bbe0f30d78937
+      kontekst: textscripts.fissionchips_mobcontact:line:169
+      linia: 169
+      sekcja_skryptu: vamp2a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's an attitude that'll take you far, kid. Maybe right off a cliff, though.
+      pl: Z takim podejściem zajdziesz daleko. Może nawet prosto z urwiska.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d83b49c9b966dd0721f8
+      kontekst: textscripts.fissionchips_mobcontact:line:170
+      linia: 170
+      sekcja_skryptu: vamp2a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So what's the job?
+      pl: Jakie zadanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vamp2b
+    wpisy:
+    - id: sol_c9179e68c9db84194152
+      kontekst: textscripts.fissionchips_mobcontact:line:176
+      linia: 176
+      sekcja_skryptu: vamp2b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Who does? But stuff's gotta get done regardless.
+      pl: A kto lubi? Ale i tak ktoś musi to zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a4fb2a0cc22a941e93b4
+      kontekst: textscripts.fissionchips_mobcontact:line:177
+      linia: 177
+      sekcja_skryptu: vamp2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So what exactly have I gotten myself into?
+      pl: W co ja się właściwie wpakowałem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vamp3
+    wpisy:
+    - id: sol_a07545295484ef15db26
+      kontekst: textscripts.fissionchips_mobcontact:line:182
+      linia: 182
+      sekcja_skryptu: vamp3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There's this vampire -- a real mean S.O.B. -- that got one of our capos really steamed. Like, <i>really</i> steamed. As in, literally
+        steamed the guy to death.
+      pl: Jest taki wampir — naprawdę wredny sukinsyn — który nieźle zagotował jednego z naszych capów. <i>Naprawdę</i> zagotował. Dosłownie ugotował
+        go na parze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0890fcd00c1e326e9b8f
+      kontekst: textscripts.fissionchips_mobcontact:line:183
+      linia: 183
+      sekcja_skryptu: vamp3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...What?'
+      pl: '...Co?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vamp3b
+    wpisy:
+    - id: sol_72a05db70b3fcb5ecee9
+      kontekst: textscripts.fissionchips_mobcontact:line:188
+      linia: 188
+      sekcja_skryptu: vamp3b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's one of those mist-type vampires, you know? But real hot. And I don't mean hot as in "good-looking."
+      pl: To jeden z tych mglistych wampirów, rozumiesz? Ale naprawdę gorący. I nie mam na myśli urody.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3e89bb95f5c1c61a75d3
+      kontekst: textscripts.fissionchips_mobcontact:line:189
+      linia: 189
+      sekcja_skryptu: vamp3b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I see. Maybe.
+      pl: Rozumiem. Chyba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_14e1da182f3c3c697c19
+      kontekst: textscripts.fissionchips_mobcontact:line:190
+      linia: 190
+      sekcja_skryptu: vamp3b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The fight was in the steam tunnels under S.I.T. -- we managed to seal the thing up in there, but someone's gotta go take care of it
+        for good.
+      pl: Do walki doszło w tunelach parowych pod S.I.T. — udało nam się zamknąć tam to coś, ale ktoś musi rozprawić się z nim na dobre.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2db51fc413377ea38822
+      kontekst: textscripts.fissionchips_mobcontact:line:191
+      linia: 191
+      sekcja_skryptu: vamp3b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: And that's where I come in, huh?
+      pl: I tutaj wchodzę ja, tak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vamp4
+    wpisy:
+    - id: sol_6c4c62bcf58e27719484
+      kontekst: textscripts.fissionchips_mobcontact:line:196
+      linia: 196
+      sekcja_skryptu: vamp4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's the long and short of it, kid. Here's the combination to the door, but don't go in there half-cocked.
+      pl: W skrócie właśnie tak. Oto kombinacja do drzwi, ale nie wchodź tam bez przygotowania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_818fae328101152d26a9
+      kontekst: textscripts.fissionchips_mobcontact:line:197
+      linia: 197
+      sekcja_skryptu: vamp4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He hands you a folded slip of paper and a sack of rotting vegetables.
+      pl: Wręcza ci złożoną kartkę i worek gnijących warzyw.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cc215af9e9c391f341e0
+      kontekst: textscripts.fissionchips_mobcontact:line:199
+      linia: 199
+      sekcja_skryptu: vamp4
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: How are these supposed to help?
+      pl: Jak mają pomóc?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bace154c6cfb2a80a1d2
+      kontekst: textscripts.fissionchips_mobcontact:line:200
+      linia: 200
+      sekcja_skryptu: vamp4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: They're not, I just want you to throw them away for me. Or hell, keep 'em, I don't care.
+      pl: Nie mają. Po prostu chcę, żebyś je za mnie wyrzucił. Albo zatrzymaj, do diabła, wszystko mi jedno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_695c6a114eb86993242d
+      kontekst: textscripts.fissionchips_mobcontact:line:201
+      linia: 201
+      sekcja_skryptu: vamp4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Swell, thanks
+      pl: Wspaniale, dzięki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninvampire
+    wpisy:
+    - id: sol_c8f91469f86a7a60f65d
+      kontekst: textscripts.fissionchips_mobcontact:line:206
+      linia: 206
+      sekcja_skryptu: turninvampire
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Kid, I honestly didn't expect to see ya again. You got a real talent.
+      pl: Dzieciaku, szczerze mówiąc, nie spodziewałem się, że cię jeszcze zobaczę. Masz prawdziwy talent.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0a3a5ad978a60beb3449
+      kontekst: textscripts.fissionchips_mobcontact:line:208
+      linia: 208
+      sekcja_skryptu: turninvampire
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aw, it was nothin'.
+      pl: E tam, drobiazg.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4663e1ad133debf408a3
+      kontekst: textscripts.fissionchips_mobcontact:line:209
+      linia: 209
+      sekcja_skryptu: turninvampire
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah, don't sell yerself short! You got a real future in the organization.
+      pl: Nie umniejszaj sobie! Masz prawdziwą przyszłość w organizacji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b5e5ad8d28444b382c7
+      kontekst: textscripts.fissionchips_mobcontact:line:213
+      linia: 213
+      sekcja_skryptu: turninvampire
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's prob'ly the last job you'll be gettin' from me -- you've dealt a fatal blow to the bloodsuckers in this territory, so if the
+        boss has any more work for ya, it'll be somewhere else. Good luck, kid.
+      pl: To pewnie ostatnia robota ode mnie — zadałeś krwiopijcom na tym terenie śmiertelny cios, więc jeśli szef ma dla ciebie coś jeszcze, to już gdzie indziej. Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba118abc3efd1d5eeb7b
+      kontekst: textscripts.fissionchips_mobcontact:line:214
+      linia: 214
+      sekcja_skryptu: turninvampire
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Steve. See you around!
+      pl: Dzięki, Steve. Do zobaczenia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1542
+  skrypt: fissionchips_trash
+  pomieszczenie:
+    id: fissionchips_inside
+    nazwa_en: Fission Chips
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_37e5b6574f8a11293217
+      kontekst: textscripts.fissionchips_trash:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This trash can is about what you'd expect from a trash can at a fish restaurant.
+      pl: Ten kosz na śmieci jest dokładnie taki, jakiego można oczekiwać w restauracji rybnej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_f3e272abbbe71d9fd4a8
+      kontekst: textscripts.fissionchips_trash:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's all just trash, but one of the pieces of trash is big enough for your head to fit into.
+      pl: To same śmieci, ale jeden z nich jest dość duży, by zmieściła się w nim twoja głowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1520
+  skrypt: fissionchips_badge
+  pomieszczenie:
+    id: sit_fissionchips_bathroom
+    nazwa_en: Fission Chips (Secret Underground Bathroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_42fadfbf77f9f19d1ca8
+      kontekst: textscripts.fissionchips_badge:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Somebody dropped a name badge here.
+      pl: Ktoś upuścił tu plakietkę z nazwiskiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.fissionchips_badge:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_b155c9dd153129ccd07e
+      kontekst: textscripts.fissionchips_badge:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's an employee-of-the-month badge with your name on it.  Unbelievable.
+      pl: To plakietka pracownika miesiąca z twoim nazwiskiem. Niewiarygodne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1540
+  skrypt: fissionchips_sink
+  pomieszczenie:
+    id: sit_fissionchips_bathroom
+    nazwa_en: Fission Chips (Secret Underground Bathroom)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1ec1fdec4d2856a0c0df
+      kontekst: textscripts.fissionchips_sink:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the sink in which employees must wash their hands.
+      pl: Umywalka, w której pracownicy muszą myć ręce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firsttime
+    wpisy:
+    - id: sol_301b370ad6d57fb268be
+      kontekst: textscripts.fissionchips_sink:line:9
+      linia: 9
+      sekcja_skryptu: firsttime
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, Smartypants.  There's a sign over this sink that says EMPLOYEES MUST WASH HANDS.  Since you're an employee, that means you, right?
+      pl: Dobrze, Mądraliński. Nad umywalką wisi napis „PRACOWNICY MUSZĄ MYĆ RĘCE”. Skoro jesteś pracownikiem, dotyczy to ciebie, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: sol_cb7028e15c77812880d0
+      kontekst: textscripts.fissionchips_sink:line:13
+      linia: 13
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wash them
+      pl: Umyj je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e069b230352175ad39b1
+      kontekst: textscripts.fissionchips_sink:line:14
+      linia: 14
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't wash them
+      pl: Nie myj ich
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dont
+    wpisy:
+    - id: sol_5996ae09956ab4637a2c
+      kontekst: textscripts.fissionchips_sink:line:17
+      linia: 17
+      sekcja_skryptu: dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: But thou must!
+      pl: Lecz musisz, waszmość!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wash
+    wpisy:
+    - id: sol_cadf68447543d50ca961
+      kontekst: textscripts.fissionchips_sink:line:21
+      linia: 21
+      sekcja_skryptu: wash
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There we go.  All clean and sanitary, which will be extremely safe for the customers of this restaurant when you're serving them food
+        later.
+      pl: Gotowe. Wszystko czyste i higieniczne, co zapewni ogromne bezpieczeństwo klientom tej restauracji, gdy będziesz im później podawać jedzenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab614041e1242091dcc7
+      kontekst: textscripts.fissionchips_sink:line:22
+      linia: 22
+      sekcja_skryptu: wash
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: During your shift.
+      pl: Podczas swojej zmiany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_790b2cb70aa7bdf4fc05
+      kontekst: textscripts.fissionchips_sink:line:23
+      linia: 23
+      sekcja_skryptu: wash
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Because you work here.
+      pl: Bo tutaj pracujesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_171d60c4d2024cd83075
+      kontekst: textscripts.fissionchips_sink:line:25
+      linia: 25
+      sekcja_skryptu: wash
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whatever, weirdo
+      pl: Nieważne, dziwaku
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5546
+  skrypt: autoscript__sit_fissionchips_fishrestaurant__dishes__popup
+  pomieszczenie:
+    id: sit_fissionchips_fishrestaurant
+    nazwa_en: A Fishman... Restaurant?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d876629da680eca691e4
+      kontekst: textscripts.autoscript__sit_fissionchips_fishrestaurant__dishes__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get the sense that these are actually the <i>clean</i> dishes.
+      pl: Masz wrażenie, że to są właśnie <i>czyste</i> naczynia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5547
+  skrypt: autoscript__sit_fissionchips_fishrestaurant__pile__popup
+  pomieszczenie:
+    id: sit_fissionchips_fishrestaurant
+    nazwa_en: A Fishman... Restaurant?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_763c14fb063144a2ef95
+      kontekst: textscripts.autoscript__sit_fissionchips_fishrestaurant__pile__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A big pile of "ingredients" emits a record-breaking stench.
+      pl: Wielka sterta „składników” wydziela rekordowy odór.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1523
+  skrypt: fissionchips_cat
+  pomieszczenie:
+    id: sit_fissionchips_fishrestaurant
+    nazwa_en: A Fishman... Restaurant?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_81fe7a99849c2fb5ac81
+      kontekst: textscripts.fissionchips_cat:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's good old %cat_names/5%.
+      pl: To stary, dobry %cat_names/5%.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_names/5%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6979f58a492d554ebe84
+      kontekst: textscripts.fissionchips_cat:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet %cat_accusative/5%
+      pl: Pogłaszcz %cat_accusative/5%
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_accusative/5%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b3d57984eae12d3d304b
+      kontekst: textscripts.fissionchips_cat:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Given this cat's condition, it can only be named %cat_names/5%.
+      pl: W tym stanie kot może nosić tylko imię %cat_names/5%.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_names/5%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstpetto
+    wpisy:
+    - id: sol_78c32fe7a216b5a7460a
+      kontekst: textscripts.fissionchips_cat:line:18
+      linia: 18
+      sekcja_skryptu: firstpetto
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet %cat_accusative/5% now
+      pl: Pogłaszcz teraz %cat_accusative/5%
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_accusative/5%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_59f9757d827224b54f27
+      kontekst: textscripts.fissionchips_cat:line:19
+      linia: 19
+      sekcja_skryptu: firstpetto
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave %cat_accusative/5% be
+      pl: Zostaw %cat_accusative/5% w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_accusative/5%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pet
+    wpisy:
+    - id: sol_2a1329f551f1b57619b2
+      kontekst: textscripts.fissionchips_cat:line:25
+      linia: 25
+      sekcja_skryptu: pet
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: You pet %cat_names/5% carefully, but lovingly.
+      pl: Głaszczesz %cat_names/5% ostrożnie, lecz czule.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/5%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: petmodal
+    wpisy:
+    - id: sol_e270a05492f5f7c5be54
+      kontekst: textscripts.fissionchips_cat:line:32
+      linia: 32
+      sekcja_skryptu: petmodal
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: You give old %cat_names/5% a scratch behind the ears.
+      pl: Drapiesz %cat_names/5% za uszami.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/5%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0eb97b9dfd9ae7b5930f
+      kontekst: textscripts.fissionchips_cat:line:32
+      linia: 32
+      sekcja_skryptu: petmodal
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1530
+  skrypt: fissionchips_fishrestaurant_counter
+  pomieszczenie:
+    id: sit_fissionchips_fishrestaurant
+    nazwa_en: A Fishman... Restaurant?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 30
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_352e1e0c35e46b62cff0
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He doesn't have anything else for sale, thank God.
+      pl: Dzięki Bogu nie ma już niczego na sprzedaż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba2902d5206a496e2f8f
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh. Wonder if the underground restaurant upstairs knows there's an even undergrounder one down here.
+      pl: Hm. Ciekawe, czy podziemna restauracja na górze wie, że tutaj jest jeszcze bardziej podziemna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ff7801f72aed97a1fc87
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:16
+      linia: 16
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The fishman behind the counter regards you cheerfully.
+      pl: Rybolud za ladą spogląda na ciebie wesoło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea4c548a7ef5b5d5a46a
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:17
+      linia: 17
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask what's for sale
+      pl: Zapytaj, co sprzedaje
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_ef1f3f58e68d532e7fd9
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:27
+      linia: 27
+      sekcja_skryptu: hub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He seems delighted that you asked.
+      pl: Wygląda na zachwyconego pytaniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_da9d10f12fa41a190616
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:31
+      linia: 31
+      sekcja_skryptu: hub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He roots around behind his counter for something else to sell you.
+      pl: Grzebie za ladą w poszukiwaniu czegoś jeszcze na sprzedaż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: phase0
+    wpisy:
+    - id: sol_a841b6f40c32e70883a2
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:37
+      linia: 37
+      sekcja_skryptu: phase0
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He plonks a tin bucket full of raw, chopped-up fish parts onto the counter, and garnishes it with a lemon wedge. Then he makes an expansive
+        gesture at it like a used-car salesman, and waggles all ten of his fingers at you.
+      pl: Stawia na ladzie blaszane wiadro pełne surowych, posiekanych kawałków ryb i dekoruje je plasterkiem cytryny. Potem wykonuje szeroki
+        gest niczym sprzedawca używanych samochodów i macha wszystkimi dziesięcioma palcami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4b37ef9ea0a0e37346
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:40
+      linia: 40
+      sekcja_skryptu: phase0
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+  - etykieta: phase1
+    wpisy:
+    - id: sol_482a74c64942404fe934
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:44
+      linia: 44
+      sekcja_skryptu: phase1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He holds up a fishing spear with a whole (still-wiggling) fish impaled on it. From his gestures and excited babbling, it seems like
+        "you get to keep the spear!" is the main selling point here.
+      pl: Unosi włócznię rybacką z nabitą całą, nadal wierzgającą rybą. Z jego gestów i podekscytowanego bełkotu wynika, że główną zaletą oferty
+        jest „włócznia na własność!”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bc2c5eaed9d5ac8a11d8
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:45
+      linia: 45
+      sekcja_skryptu: phase1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When you ask how much, he flashes his outstretched fingers at you twice.
+      pl: Gdy pytasz o cenę, dwa razy pokazuje wszystkie wyprostowane palce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4b37ef9ea0a0e37346
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:48
+      linia: 48
+      sekcja_skryptu: phase1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: phase2
+    wpisy:
+    - id: sol_71f9d38966b797538f2d
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:52
+      linia: 52
+      sekcja_skryptu: phase2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He shows you a small glass bottle filled with some kind of oil -- his gestures seem to indicate that it's freshly squeezed. Then he
+        holds up one finger, and quickly holds it up again five more times.
+      pl: Pokazuje małą szklaną butelkę pełną jakiegoś oleju — gestami sugeruje, że jest świeżo wyciśnięty. Potem unosi jeden palec i szybko powtarza
+        to jeszcze pięć razy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4b37ef9ea0a0e37346
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:55
+      linia: 55
+      sekcja_skryptu: phase2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: phase3
+    wpisy:
+    - id: sol_b711145432b8c6c4aa9b
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:59
+      linia: 59
+      sekcja_skryptu: phase3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This time he puts another bucket of chum on the counter, and gives you a big grin and two thumbs up. Then he holds up both hands worth
+        of fingers, and then a third hand.
+      pl: Tym razem stawia na ladzie kolejne wiadro zanęty, szeroko się uśmiecha i pokazuje dwa kciuki. Następnie wyciąga palce obu dłoni, a potem
+        trzeciej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_04882bad49aed7d785be
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:60
+      linia: 60
+      sekcja_skryptu: phase3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When you protest that it was only ten the first time, he holds up a card that says "MARKIT PRISE."
+      pl: Gdy protestujesz, że za pierwszym razem kosztowało tylko dziesięć, pokazuje kartkę z napisem „CYNA RYNKOWA”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4b37ef9ea0a0e37346
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:63
+      linia: 63
+      sekcja_skryptu: phase3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: phase4
+    wpisy:
+    - id: sol_d56daa767eb0267947dd
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:67
+      linia: 67
+      sekcja_skryptu: phase4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He seems to be out of "goods" -- but, not wanting to turn away his best customer ever, he plops a big handful of fishman eggs on the
+        counter.
+      pl: Wygląda na to, że skończyły mu się „towary”, ale nie chce odprawić najlepszego klienta w dziejach, więc rzuca na ladę wielką garść jaj
+        ryboludzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f679014fd92240b46f5e
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:68
+      linia: 68
+      sekcja_skryptu: phase4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He holds up one outstretched hand, then repeatedly opens and closes it -- twelve, thirteen, fourteen more times.
+      pl: Pokazuje wyciągniętą dłoń, po czym wielokrotnie ją otwiera i zaciska — jeszcze dwanaście, trzynaście, czternaście razy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4b37ef9ea0a0e37346
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:71
+      linia: 71
+      sekcja_skryptu: phase4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 16
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+  - etykieta: buy1
+    wpisy:
+    - id: sol_72b30477c65db450d4d2
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:77
+      linia: 77
+      sekcja_skryptu: buy1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes your Meat excitedly, and pushes the bucket toward you, along with a bent tin fork and a hardly-used paper napkin.
+      pl: Podekscytowany bierze Mięso i przesuwa wiadro w twoją stronę wraz z wygiętym blaszanym widelcem i prawie nieużywaną papierową serwetką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bfa3902621a2eaa7f206
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:78
+      linia: 78
+      sekcja_skryptu: buy1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're pretty sure you see one of the fish heads twitch as you pick up the bucket.
+      pl: Podczas podnoszenia wiadra niemal na pewno widzisz drgnięcie jednej z rybich głów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c296629a5f304f6ba85d
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:80
+      linia: 80
+      sekcja_skryptu: buy1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ugh
+      pl: Uch
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy2
+    wpisy:
+    - id: sol_3bffdb0d469c98eca7f3
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:86
+      linia: 86
+      sekcja_skryptu: buy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He bows graciously as he hands you the spear. While he's distracted with your Meat, you nonchalantly slide the fish off the end of the
+        spear and kick it away without him noticing.
+      pl: Kłania się z wdziękiem, wręczając ci włócznię. Gdy zajmuje się Mięsem, nonszalancko zsuwasz rybę z ostrza i kopnięciem usuwasz ją z
+        pola widzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f6c481c14622f248ce27
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:88
+      linia: 88
+      sekcja_skryptu: buy2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Eesh
+      pl: Uch
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy3
+    wpisy:
+    - id: sol_a02ad5726f0650cf91a5
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:94
+      linia: 94
+      sekcja_skryptu: buy3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pay him the Meat and take the bottle, which somehow is greasier on the outside than on the inside.
+      pl: Płacisz Mięsem i bierzesz butelkę, która jakimś cudem jest bardziej tłusta na zewnątrz niż w środku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6416c7cbe76b016a2f33
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:96
+      linia: 96
+      sekcja_skryptu: buy3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ew
+      pl: Fuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy4
+    wpisy:
+    - id: sol_7b504fdcaf6ca4eb4fcd
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:102
+      linia: 102
+      sekcja_skryptu: buy4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand him the Meat and take the bucket. This one seems to have more random guts and organs in it than the first one. Is that good
+        or bad?
+      pl: Przekazujesz mu Mięso i bierzesz wiadro. To zawiera więcej przypadkowych flaków i organów niż pierwsze. To dobrze czy źle?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b0764d1cd01cfeca6e8f
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:104
+      linia: 104
+      sekcja_skryptu: buy4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ewwww
+      pl: Fuuuuuj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy5
+    wpisy:
+    - id: sol_171f351f38e2875733e8
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:110
+      linia: 110
+      sekcja_skryptu: buy5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes the Meat with an expression of pure delight and grabs your hand in a wet handshake that you politely disengage from as soon
+        as possible.
+      pl: Z czystym zachwytem przyjmuje Mięso i chwyta twoją dłoń w mokrym uścisku, z którego uprzejmie wycofujesz się tak szybko, jak to możliwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_49168288c1de76c733e4
+      kontekst: textscripts.fissionchips_fishrestaurant_counter:line:112
+      linia: 112
+      sekcja_skryptu: buy5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1531
+  skrypt: fissionchips_fishrestaurant_nastypot
+  pomieszczenie:
+    id: sit_fissionchips_fishrestaurant
+    nazwa_en: A Fishman... Restaurant?
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8456f9cab45d0773041e
+      kontekst: textscripts.fissionchips_fishrestaurant_nastypot:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pot is catching all the grease that drips down through the ceiling.
+      pl: Ten garnek zbiera cały tłuszcz kapiący przez sufit.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1533
+  skrypt: fissionchips_fishsewer_ladder
+  pomieszczenie:
+    id: sit_fissionchips_fishsewer4
+    nazwa_en: Old Sewer (Under Fission Chips)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a78948d3ec7342c6867b
+      kontekst: textscripts.fissionchips_fishsewer_ladder:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A ladder leads back up to the pirate restaurant.
+      pl: Drabina prowadzi z powrotem do pirackiej restauracji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a0b44050cac9a55df84b
+      kontekst: textscripts.fissionchips_fishsewer_ladder:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb up, me hardies, yo ho
+      pl: W górę, kamraci, jo-ho-ho
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5548
+  skrypt: autoscript__sit_fissionchips_secret__dishcounter__popup
+  pomieszczenie:
+    id: sit_fissionchips_secret
+    nazwa_en: Fission Chips (Secret Underground Restaurant)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6e153cb08461649525d4
+      kontekst: textscripts.autoscript__sit_fissionchips_secret__dishcounter__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy seems pretty content.
+      pl: Ten gość wygląda na całkiem zadowolonego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5549
+  skrypt: autoscript__sit_fissionchips_secret__table__popup
+  pomieszczenie:
+    id: sit_fissionchips_secret
+    nazwa_en: Fission Chips (Secret Underground Restaurant)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_089ea9c9a99d911fd5a2
+      kontekst: textscripts.autoscript__sit_fissionchips_secret__table__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Only one table!  This place is either really exclusive or really unpopular.
+      pl: Tylko jeden stół! To miejsce jest albo niezwykle ekskluzywne, albo niezwykle niepopularne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1521
+  skrypt: fissionchips_bathroomdoor
+  pomieszczenie:
+    id: sit_fissionchips_secret
+    nazwa_en: Fission Chips (Secret Underground Restaurant)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8fc2b91f8e39c4dee0e4
+      kontekst: textscripts.fissionchips_bathroomdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign on the door says "RESTROOM FOR EMPLOYEES ONLY."
+      pl: 'Napis na drzwiach głosi: „TOALETA TYLKO DLA PRACOWNIKÓW”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46901d2361e1b5921898
+      kontekst: textscripts.fissionchips_bathroomdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+  - etykieta: e
+    wpisy:
+    - id: sol_ac0ca1ce9517cd036e52
+      kontekst: textscripts.fissionchips_bathroomdoor:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're not an employee.
+      pl: Nie jesteś pracownikiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ee
+    wpisy:
+    - id: sol_321568ae9ff9f3c502b3
+      kontekst: textscripts.fissionchips_bathroomdoor:line:14
+      linia: 14
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're telling me you work here.  In this hidden restaurant you just discovered.  In a town you've never been to before today.
+      pl: Twierdzisz, że tutaj pracujesz. W ukrytej restauracji, którą dopiero co odkryłeś. W mieście, w którym wcześniej nigdy cię nie było.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.fissionchips_bathroomdoor:line:15
+      linia: 15
+      sekcja_skryptu: ee
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: eee
+    wpisy:
+    - id: sol_9d29608ecd437db8400a
+      kontekst: textscripts.fissionchips_bathroomdoor:line:20
+      linia: 20
+      sekcja_skryptu: eee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, fine. I'm done arguing with you about stuff like this.
+      pl: Dobrze, nieważne. Kończę spory na takie tematy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46901d2361e1b5921898
+      kontekst: textscripts.fissionchips_bathroomdoor:line:21
+      linia: 21
+      sekcja_skryptu: eee
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: ff
+    wpisy:
+    - id: sol_e469227d4c378c0a3b4b
+      kontekst: textscripts.fissionchips_bathroomdoor:line:25
+      linia: 25
+      sekcja_skryptu: ff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No one is paying much mind so I guess it wouldn't hurt.
+      pl: Nikt nie zwraca większej uwagi, więc chyba nic się nie stanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.fissionchips_bathroomdoor:line:26
+      linia: 26
+      sekcja_skryptu: ff
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1525
+  skrypt: fissionchips_counter2
+  pomieszczenie:
+    id: sit_fissionchips_secret
+    nazwa_en: Fission Chips (Secret Underground Restaurant)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0f2995a0d4839e05d2ad
+      kontekst: textscripts.fissionchips_counter2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The girl behind the counter gives you a sly "in the know"-kind of nod and wink.
+      pl: Dziewczyna za ladą kiwa do ciebie i mruga porozumiewawczo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: sol_fe6cd5a734d339c08fd7
+      kontekst: textscripts.fissionchips_counter2:line:39
+      linia: 39
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Haven't seen you in here before, @p|bud,babe,pal@! Welcome to the finest hash house in the whole underground restaurant scene!
+      pl: Nie widziałam cię tu wcześniej, @p|bud,babe,pal@! Witaj w najlepszej smażalni na całej podziemnej scenie restauracyjnej!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|bud,babe,pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0cbc730b1be32dcab981
+      kontekst: textscripts.fissionchips_counter2:line:41
+      linia: 41
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Underground restaurant scene?
+      pl: Podziemnej scenie restauracyjnej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a8f0f3c6f089bc73a02
+      kontekst: textscripts.fissionchips_counter2:line:42
+      linia: 42
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's right! Wait -- you ain't a copper, are ya? You gotta tell me if you are.
+      pl: Zgadza się! Chwila — nie jesteś gliną, prawda? Musisz powiedzieć, jeśli jesteś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8fdd89ebc19cd08a2de3
+      kontekst: textscripts.fissionchips_counter2:line:43
+      linia: 43
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I'm not a cop.
+      pl: Nie jestem gliną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d9e06d50f6c9e2ab89f4
+      kontekst: textscripts.fissionchips_counter2:line:44
+      linia: 44
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay, copacetic. In that case, we got no beef. Got no beef anyway! It's a <i>fish</i> place! Ha ha!
+      pl: Dobra, gitara. W takim razie nie ma między nami kości niezgody. Zresztą kości też nie mamy… no dobra, ości mamy! To lokal <i>rybny</i>! Ha, ha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c15b713b42e357c95b1c
+      kontekst: textscripts.fissionchips_counter2:line:45
+      linia: 45
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha.
+      pl: Ha, ha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7304acbe61badceb41a0
+      kontekst: textscripts.fissionchips_counter2:line:46
+      linia: 46
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Poster on the wall there spells out the racket if ya need an explainer. What can I getcha?
+      pl: Plakat na ścianie wyjaśnia cały przekręt, jeśli potrzebujesz instrukcji. Co podać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aece6db21732e5753c15
+      kontekst: textscripts.fissionchips_counter2:line:48
+      linia: 48
+      sekcja_skryptu: talk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Place an order
+      pl: Złóż zamówienie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_96e5efa96b68662652bc
+      kontekst: textscripts.fissionchips_counter2:line:49
+      linia: 49
+      sekcja_skryptu: talk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Not right now
+      pl: Nie teraz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 40
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1535
+  skrypt: fissionchips_manhole
+  pomieszczenie:
+    id: sit_fissionchips_secret
+    nazwa_en: Fission Chips (Secret Underground Restaurant)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d6f1ff4d8c494adacd6f
+      kontekst: textscripts.fissionchips_manhole:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a very old manhole cover.
+      pl: Bardzo stara pokrywa włazu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1536
+  skrypt: fissionchips_manhole_open
+  pomieszczenie:
+    id: sit_fissionchips_secret
+    nazwa_en: Fission Chips (Secret Underground Restaurant)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ab47f62c85081a685934
+      kontekst: textscripts.fissionchips_manhole_open:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A ladder leads from this open manhole.
+      pl: Z otwartego włazu prowadzi drabina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b5e4b090c6f10bb7abe
+      kontekst: textscripts.fissionchips_manhole_open:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1537
+  skrypt: fissionchips_manifesto
+  pomieszczenie:
+    id: sit_fissionchips_secret
+    nazwa_en: Fission Chips (Secret Underground Restaurant)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4a50efe1414777099916
+      kontekst: textscripts.fissionchips_manifesto:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: \"THE PIRATE RESTAURANT MANIFESTO.\"
+      pl: „MANIFEST PIRACKIEJ RESTAURACJI”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b45250458c127d31742
+      kontekst: textscripts.fissionchips_manifesto:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_46b2cfbb00b3accb71a5
+      kontekst: textscripts.fissionchips_manifesto:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read it
+      pl: Przeczytaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 37
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read
+    wpisy:
+    - id: sol_1c94e2b127102955b0dd
+      kontekst: textscripts.fissionchips_manifesto:line:10
+      linia: 10
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: We refuse to be stifled and shackled by the narrow definitions of "sandwich" imposed on us by the Man! By which we are specifically
+        referring to Charles "Chip" Man, owner & proprietor of the greasy spoon upstairs.
+      pl: Nie pozwolimy, by krępowały i tłamsiły nas wąskie definicje „kanapki” narzucane przez Człowieka! Konkretnie Charlesa „Chipa” Człowieka, właściciela i zarządcę tłustej knajpy na górze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4040494d13ced7c65d89
+      kontekst: textscripts.fissionchips_manifesto:line:11
+      linia: 11
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: To that end, we have taken control of this secret basement (as well as whatever ingredients we can filch and/or finagle), to bring you
+        the <i>true taste of freedom,</i> unfettered by hoity-toity cuisine conventions and municipal sanitation & hygeine requirements!
+      pl: Dlatego przejęliśmy tę tajną piwnicę — oraz wszelkie składniki, które uda się podwędzić i/lub wyłudzić — by przynieść wam <i>prawdziwy smak wolności</i>, nieskrępowany nadętymi konwenansami kulinarnymi ani miejskimi wymogami sanitarnymi i higienicznymi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_67d1d8094d8e9dde693a
+      kontekst: textscripts.fissionchips_manifesto:line:12
+      linia: 12
+      sekcja_skryptu: read
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty then
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

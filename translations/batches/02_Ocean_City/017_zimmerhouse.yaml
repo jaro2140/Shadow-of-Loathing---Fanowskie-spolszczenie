@@ -1,0 +1,4468 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: zimmerhouse
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 36
+liczba_wpisow: 256
+sceny:
+- kolejnosc_w_danych_gry: 5719
+  skrypt: autoscript__zimmerhouse__gonecollider__popup
+  pomieszczenie:
+    id: zimmerhouse
+    nazwa_en: '@map1_name_zimmerhouse@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f0b203ff7c3810d84c3d
+      kontekst: textscripts.autoscript__zimmerhouse__gonecollider__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Let's speak of this to no one.
+      pl: Nikomu o tym nie mówmy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4764
+  skrypt: zimmerhouse_begin
+  pomieszczenie:
+    id: zimmerhouse
+    nazwa_en: '@map1_name_zimmerhouse@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_e8e59d70fad11c7444dd
+      kontekst: textscripts.zimmerhouse_begin:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This seems like a pretty normal house in a pretty nice neighborhood, but there's something... odd about it. Some sort of uncomfortable
+        energy that makes the hair on the back of your neck stand up. Maybe it's something to do with that weird droning tone you hear coming
+        from inside, like a pained inhuman moan constantly rising in pitch.
+      pl: To wygląda na całkiem zwyczajny dom w całkiem przyjemnej dzielnicy, ale coś jest z nim... nie tak. Emanuje jakąś nieprzyjemną energią,
+        od której włosy stają dęba. Może chodzi o dobiegający ze środka dziwny, jednostajny dźwięk — jak nieludzki jęk bólu, który bez końca przechodzi
+        w coraz wyższy ton.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3cb46f90325843448ace
+      kontekst: textscripts.zimmerhouse_begin:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe that's it, yeah
+      pl: Tak, to może być to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoops
+    wpisy:
+    - id: sol_955ee69a0f7a309a9fec
+      kontekst: textscripts.zimmerhouse_begin:line:13
+      linia: 13
+      sekcja_skryptu: whoops
+      typ: addproperty
+      mowca_lub_kanal: kanal_addproperty
+      en: Distinct Lack of a House
+      pl: Wyraźny brak domu
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_580f1efe3448e2f67f31
+      kontekst: textscripts.zimmerhouse_begin:line:14
+      linia: 14
+      sekcja_skryptu: whoops
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As the door shuts behind you, you hear a sudden grinding, cracking noise, and turn to see the entire house implode into splinters and
+        get sucked into a whirling black vortex.
+      pl: Gdy drzwi zamykają się za tobą, rozlega się nagły zgrzyt i trzask. Odwracasz się i widzisz, jak cały dom imploduje, rozpada się na drzazgi
+        i zostaje wessany przez wirujący czarny lejek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3d6fb7afad70fa9e09a4
+      kontekst: textscripts.zimmerhouse_begin:line:15
+      linia: 15
+      sekcja_skryptu: whoops
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Can't say I didn't warn you.
+      pl: Nie powiesz, że nie ostrzegałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_72dca1b05e9b47807a73
+      kontekst: textscripts.zimmerhouse_begin:line:16
+      linia: 16
+      sekcja_skryptu: whoops
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whoops! Oh well
+      pl: Ups! Trudno
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wormhole
+    wpisy:
+    - id: sol_ceee994e9e75b3dbd185
+      kontekst: textscripts.zimmerhouse_begin:line:19
+      linia: 19
+      sekcja_skryptu: wormhole
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: goto handleplayer
+      pl: goto handleplayer
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna instrukcja skoku, niewidoczna dla gracza; pozostawiono bez zmian.'
+    - id: sol_c76ed8f7e6e6871e62b9
+      kontekst: textscripts.zimmerhouse_begin:line:20
+      linia: 20
+      sekcja_skryptu: wormhole
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: goto handlecompanion
+      pl: goto handlecompanion
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna instrukcja skoku, niewidoczna dla gracza; pozostawiono bez zmian.'
+- kolejnosc_w_danych_gry: 4769
+  skrypt: zimmerhouse_exitpopup
+  pomieszczenie:
+    id: zimmerhouse
+    nazwa_en: '@map1_name_zimmerhouse@'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_03401792b29af2abb232
+      kontekst: textscripts.zimmerhouse_exitpopup:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id019 []
+- kolejnosc_w_danych_gry: 5720
+  skrypt: autoscript__zimmerhouse_floor0__drygoods__popup
+  pomieszczenie:
+    id: zimmerhouse_floor0
+    nazwa_en: '@map1_name_zimmerhouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2f44f55b44436a847030
+      kontekst: textscripts.autoscript__zimmerhouse_floor0__drygoods__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Everything on this shelf has either evaporated or expired.
+      pl: Wszystko na tej półce albo wyparowało, albo się przeterminowało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4762
+  skrypt: zimmerhouse_basehaunt
+  pomieszczenie:
+    id: zimmerhouse_floor0
+    nazwa_en: '@map1_name_zimmerhouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_91b0fc83bfd78d6ac601
+      kontekst: textscripts.zimmerhouse_basehaunt:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh jeez. That sure is a dark rift in space over there, just like Zimmer was afraid of.
+      pl: O rany. To tam zdecydowanie jest mroczna szczelina w przestrzeni, dokładnie taka, jakiej obawiał się Zimmer.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ed3786d5bc458795d961
+      kontekst: textscripts.zimmerhouse_basehaunt:line:9
+      linia: 9
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, nuts.
+      pl: No i klops.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4765
+  skrypt: zimmerhouse_cellarstairsup
+  pomieszczenie:
+    id: zimmerhouse_floor0
+    nazwa_en: '@map1_name_zimmerhouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e57f2166ecbef6e12183
+      kontekst: textscripts.zimmerhouse_cellarstairsup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Stairs back up to the main floor.
+      pl: Schody z powrotem na parter.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8edbfda6dc011fe2463a
+      kontekst: textscripts.zimmerhouse_cellarstairsup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go up
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4787
+  skrypt: zimmerhouse_poolask
+  pomieszczenie:
+    id: zimmerhouse_floor0
+    nazwa_en: '@map1_name_zimmerhouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8ce15cb28855542e5781
+      kontekst: textscripts.zimmerhouse_poolask:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh -- there is some kind of black rift or portal or something on the floor over there. Maybe you shouldn't get too close to it.
+      pl: Hm — tam na podłodze jest jakaś czarna szczelina, portal czy coś w tym rodzaju. Może lepiej nie podchodzić za blisko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1795fe5e44174d0abdf7
+      kontekst: textscripts.zimmerhouse_poolask:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get too close to it
+      pl: Podejdź za blisko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_878fb84927fea65bc3ef
+      kontekst: textscripts.zimmerhouse_poolask:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, it's your funeral. If there's any of you left to have a funeral with.
+      pl: No dobrze, twój pogrzeb. O ile zostanie z czego go urządzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4788
+  skrypt: zimmerhouse_puddle
+  pomieszczenie:
+    id: zimmerhouse_floor0
+    nazwa_en: '@map1_name_zimmerhouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 23
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c89ed792f8459ee0e2d0
+      kontekst: textscripts.zimmerhouse_puddle:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate
+      pl: Zbadaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: foundit
+    wpisy:
+    - id: sol_62c8e277586812785799
+      kontekst: textscripts.zimmerhouse_puddle:line:10
+      linia: 10
+      sekcja_skryptu: foundit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just a puddle of old tar.
+      pl: Tylko kałuża starej smoły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: investigate
+    wpisy:
+    - id: sol_7ff163b4ba59d58c0be9
+      kontekst: textscripts.zimmerhouse_puddle:line:18
+      linia: 18
+      sekcja_skryptu: investigate
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The only thing nearby is a shelf of old basement junk.
+      pl: W pobliżu stoi tylko półka ze starymi piwnicznymi gratami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_d480965aea3f56350c13
+      kontekst: textscripts.zimmerhouse_puddle:line:23
+      linia: 23
+      sekcja_skryptu: hub
+      typ: option_once
+      mowca_lub_kanal: opcja_gracza
+      en: Check the bottom shelf
+      pl: Sprawdź dolną półkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4f4d665134e1a4c71fba
+      kontekst: textscripts.zimmerhouse_puddle:line:24
+      linia: 24
+      sekcja_skryptu: hub
+      typ: option_once
+      mowca_lub_kanal: opcja_gracza
+      en: Check the second shelf
+      pl: Sprawdź drugą półkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ee0c19358a8224e18038
+      kontekst: textscripts.zimmerhouse_puddle:line:25
+      linia: 25
+      sekcja_skryptu: hub
+      typ: option_once
+      mowca_lub_kanal: opcja_gracza
+      en: Check the third shelf
+      pl: Sprawdź trzecią półkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c54035f2e89020b27be0
+      kontekst: textscripts.zimmerhouse_puddle:line:26
+      linia: 26
+      sekcja_skryptu: hub
+      typ: option_once
+      mowca_lub_kanal: opcja_gracza
+      en: Check the top shelf
+      pl: Sprawdź górną półkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31be9dd562cabcb7bc6d
+      kontekst: textscripts.zimmerhouse_puddle:line:27
+      linia: 27
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the shelf alone
+      pl: Zostaw półkę w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bottom
+    wpisy:
+    - id: sol_d33ac6f8725eef86a7d2
+      kontekst: textscripts.zimmerhouse_puddle:line:31
+      linia: 31
+      sekcja_skryptu: bottom
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing on this shelf except a few dusty old jam jars.
+      pl: Na tej półce nie ma nic poza kilkoma starymi, zakurzonymi słoikami po dżemie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: second
+    wpisy:
+    - id: sol_426eb64d44035a1fe476
+      kontekst: textscripts.zimmerhouse_puddle:line:37
+      linia: 37
+      sekcja_skryptu: second
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing on this shelf except dust.
+      pl: Na tej półce nie ma nic poza kurzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d72ebac2af3b5fec9858
+      kontekst: textscripts.zimmerhouse_puddle:line:38
+      linia: 38
+      sekcja_skryptu: second
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Write your name in the dust
+      pl: Napisz w kurzu swoje imię
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_78ae1006fdfbcb7a7ce2
+      kontekst: textscripts.zimmerhouse_puddle:line:39
+      linia: 39
+      sekcja_skryptu: second
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Draw a smiley-face in the dust
+      pl: Narysuj w kurzu uśmiechniętą buźkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69569bae00c74b5f0c9e
+      kontekst: textscripts.zimmerhouse_puddle:line:40
+      linia: 40
+      sekcja_skryptu: second
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Draw a crude anatomical diagram in the dust
+      pl: Narysuj w kurzu prymitywny schemat anatomiczny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3dbd70f8e55ad77c6c6d
+      kontekst: textscripts.zimmerhouse_puddle:line:41
+      linia: 41
+      sekcja_skryptu: second
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the dust alone
+      pl: Zostaw kurz w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: second2
+    wpisy:
+    - id: sol_7d29653c23266d56ede0
+      kontekst: textscripts.zimmerhouse_puddle:line:45
+      linia: 45
+      sekcja_skryptu: second2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Congratulations on expressing your creativity in a way that nobody will ever know.
+      pl: Gratulacje. Udało ci się dać wyraz własnej kreatywności w sposób, o którym nikt nigdy się nie dowie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_94188bd420bc2be9b6a8
+      kontekst: textscripts.zimmerhouse_puddle:line:46
+      linia: 46
+      sekcja_skryptu: second2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Except for you. You'll know.
+      pl: Poza tobą. Ty będziesz wiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: secondno
+    wpisy:
+    - id: sol_35321ae60640b02f0584
+      kontekst: textscripts.zimmerhouse_puddle:line:52
+      linia: 52
+      sekcja_skryptu: secondno
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already spent all the time you care to devote to messing around with dust today.
+      pl: Wyczerpałeś już dzienny limit czasu na zabawę kurzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: third
+    wpisy:
+    - id: sol_3cbd2c91d1a9e62edd93
+      kontekst: textscripts.zimmerhouse_puddle:line:58
+      linia: 58
+      sekcja_skryptu: third
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf has a box labelled "THINGS." It's full of little screws, rubber bands, stuff like that. Looks like when Zimmer's kitchen
+        junk drawer gets too full, he just dumps it in here.
+      pl: Na półce stoi pudło z napisem „RZECZY”. Jest pełne śrubek, gumek recepturek i podobnych drobiazgów. Wygląda na to, że kiedy szuflada
+        na szpargały w kuchni Zimmera się przepełnia, cała zawartość ląduje tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffa434e1f15629e15706
+      kontekst: textscripts.zimmerhouse_puddle:line:59
+      linia: 59
+      sekcja_skryptu: third
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Since you're already looking, you sift through it for a second and find a fuse that still looks good. Zimmer probably won't mind --
+        or ever even know -- if you pocket it.
+      pl: Skoro już tu zaglądasz, przez chwilę grzebiesz w zawartości i znajdujesz bezpiecznik, który nadal wygląda na sprawny. Zimmer pewnie
+        nie będzie mieć nic przeciwko — ani nawet nigdy się nie dowie — jeśli schowasz go do kieszeni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: thirdno
+    wpisy:
+    - id: sol_820bc9356c72b247e9c2
+      kontekst: textscripts.zimmerhouse_puddle:line:66
+      linia: 66
+      sekcja_skryptu: thirdno
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing else of interest in the box of THINGS.
+      pl: W pudle z RZECZAMI nie ma już nic ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: top
+    wpisy:
+    - id: sol_99cafb9c7a790e9fe987
+      kontekst: textscripts.zimmerhouse_puddle:line:71
+      linia: 71
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The top shelf has a few old tins of varnish, and a big bucket of tar. As you watch, a drip of tar slowly leaks out of a hole in the
+        bottom of the bucket and plops into the puddle below.
+      pl: Na górnej półce stoi kilka starych puszek lakieru i wielkie wiadro smoły. Na twoich oczach kropla smoły powoli przeciska się przez dziurę
+        w dnie wiadra i plumka do kałuży poniżej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a1fc63eefe3e36d21157
+      kontekst: textscripts.zimmerhouse_puddle:line:72
+      linia: 72
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, there you go. Mystery solved.
+      pl: No proszę. Zagadka rozwiązana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_98b220edcd307ddb28bc
+      kontekst: textscripts.zimmerhouse_puddle:line:75
+      linia: 75
+      sekcja_skryptu: top
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Aha
+      pl: Aha
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4790
+  skrypt: zimmerhouse_riftentrance
+  pomieszczenie:
+    id: zimmerhouse_floor0
+    nazwa_en: '@map1_name_zimmerhouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ed6d3af1987712b8ef98
+      kontekst: textscripts.zimmerhouse_riftentrance:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big hole in... well, in "here."
+      pl: To wielka dziura w... no, w „tutaj”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_d65b3ea84686264d7110
+      kontekst: textscripts.zimmerhouse_riftentrance:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Uhhh... really?
+      pl: Eee... naprawdę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.zimmerhouse_riftentrance:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4795
+  skrypt: zimmerhouse_sheetmusic
+  pomieszczenie:
+    id: zimmerhouse_floor0
+    nazwa_en: '@map1_name_zimmerhouse@ (Cellar)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cf8f07c2e8ab9f798fdf
+      kontekst: textscripts.zimmerhouse_sheetmusic:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Boxes of moldy sheet music.
+      pl: Pudła spleśniałych nut.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_b20ccf038d394e83337e
+      kontekst: textscripts.zimmerhouse_sheetmusic:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Jeez, these songs must really stink.
+      pl: Rany, te utwory muszą naprawdę cuchnąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5721
+  skrypt: autoscript__zimmerhouse_floor1__furniture2_haunted__popup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_23c2bce2631610ad6729
+      kontekst: textscripts.autoscript__zimmerhouse_floor1__furniture2_haunted__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This chair is frighteningly non-right-side-up.
+      pl: To krzesło stoi przerażająco niewłaściwą stroną do góry.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5722
+  skrypt: autoscript__zimmerhouse_floor1__furniture3__popup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c992a8954f58d9d6d323
+      kontekst: textscripts.autoscript__zimmerhouse_floor1__furniture3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A dusty, disused chess set.
+      pl: Zakurzony, nieużywany zestaw szachów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 5723
+  skrypt: autoscript__zimmerhouse_floor1__furniture3_haunted__popup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_67df147ce80fe0f402fb
+      kontekst: textscripts.autoscript__zimmerhouse_floor1__furniture3_haunted__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It would appear that two ghosts are playing a very spirited (ha ha) game of chess.
+      pl: Wygląda na to, że dwa duchy rozgrywają partię szachów pełną ducha (ha, ha).
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 5724
+  skrypt: autoscript__zimmerhouse_floor1__furniture4__popup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_de780ad19f52284fa3bc
+      kontekst: textscripts.autoscript__zimmerhouse_floor1__furniture4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The plate rack is a statement piece, and the statement is, "I have too many plates."
+      pl: 'Stojak na talerze jest wyrazistym elementem wystroju, a wyraża: „Mam za dużo talerzy”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5725
+  skrypt: autoscript__zimmerhouse_floor1__furniture6_haunted__popup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4c20bc5b307009cd045e
+      kontekst: textscripts.autoscript__zimmerhouse_floor1__furniture6_haunted__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This table has slipped the surly bonds of the floor.
+      pl: Ten stół zerwał posępne więzy podłogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5726
+  skrypt: autoscript__zimmerhouse_floor1__furniture9__popup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8f4abbcce21e11fee345
+      kontekst: textscripts.autoscript__zimmerhouse_floor1__furniture9__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cabinet is full of backup plates.
+      pl: Szafka jest pełna zapasowych talerzy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5727
+  skrypt: autoscript__zimmerhouse_floor1__furniture9_haunted__popup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d192be8f00bd64a268d2
+      kontekst: textscripts.autoscript__zimmerhouse_floor1__furniture9_haunted__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Moths have eaten all of the contents and most of the container.
+      pl: Mole zjadły całą zawartość i większość pojemnika.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4768
+  skrypt: zimmerhouse_exit
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: crystal
+    wpisy:
+    - id: sol_13d3f89b7df509270a99
+      kontekst: textscripts.zimmerhouse_exit:line:11
+      linia: 11
+      sekcja_skryptu: crystal
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you start to leave the house, something tells you that it would be bad to take that weird crystal out of here.
+      pl: Kiedy zbierasz się do wyjścia, coś podpowiada ci, że wynoszenie stąd tego dziwnego kryształu to zły pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c4ed8bc0fbe72e0b7544
+      kontekst: textscripts.zimmerhouse_exit:line:12
+      linia: 12
+      sekcja_skryptu: crystal
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That something is definitely not the crystal, because it's a really great crystal, and you're deriving great satisfaction from owning
+        it.
+      pl: Tym czymś zdecydowanie nie jest kryształ, bo to naprawdę świetny kryształ, a posiadanie go daje ci ogromną satysfakcję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: heytho
+    wpisy:
+    - id: sol_8f3be53ee32c8311df33
+      kontekst: textscripts.zimmerhouse_exit:line:20
+      linia: 20
+      sekcja_skryptu: heytho
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Although I definitely can't fault your instincts, it might be a bad idea to leave without fixing whatever's going wrong in this place?
+        Or at least finding out what that is?
+      pl: Choć zdecydowanie nie można mieć pretensji do twojego instynktu, może jednak nie warto wychodzić bez naprawienia tego, co jest z tym
+        miejscem nie tak? Albo przynajmniej ustalenia, co to takiego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyousure
+    wpisy:
+    - id: sol_18e968ee22b8228bf7ba
+      kontekst: textscripts.zimmerhouse_exit:line:25
+      linia: 25
+      sekcja_skryptu: areyousure
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just reminding you that this house has an active dimensional rift in the basement, and it might be a real bad idea to leave without
+        fixing that? Especially since it's kind of your fault, at least a little bit.
+      pl: Tylko przypominam, że w piwnicy tego domu znajduje się aktywna szczelina wymiarowa i wyjście bez jej naprawienia może być naprawdę kiepskim
+        pomysłem. Zwłaszcza że to poniekąd twoja wina. Przynajmniej troszeczkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: destroy
+    wpisy:
+    - id: sol_47c9cf3172e715807950
+      kontekst: textscripts.zimmerhouse_exit:line:30
+      linia: 30
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull a hammer out of your inventory (or if you don't actually have a hammer, whatever object would be the most hammer-adjacent)
+        and give the crystal a solid thwack. It makes a sound like a baby being torn in half and bursts into glittering shards that quickly vaporize.
+      pl: Wyciągasz z ekwipunku młotek — albo, jeśli nie masz młotka, przedmiot najbardziej zbliżony do młotka — i porządnie uderzasz kryształ.
+        Wydaje dźwięk podobny do rozdzieranego na pół niemowlęcia, po czym rozpada się na lśniące odłamki, które szybko wyparowują.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a005951be242f2c022dd
+      kontekst: textscripts.zimmerhouse_exit:line:35
+      linia: 35
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The furniture settles down as the house's extremely haunted atmosphere dissipates.
+      pl: Meble uspokajają się, gdy skrajnie nawiedzona atmosfera domu opada.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9e4e4e3ad9b523eeecb9
+      kontekst: textscripts.zimmerhouse_exit:line:36
+      linia: 36
+      sekcja_skryptu: destroy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 22
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id007 []
+  - etykieta: choice
+    wpisy:
+    - id: sol_a60469709ea0f8700815
+      kontekst: textscripts.zimmerhouse_exit:line:40
+      linia: 40
+      sekcja_skryptu: choice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the house
+      pl: Wyjdź z domu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_646c3dfa7b061ec6ebee
+      kontekst: textscripts.zimmerhouse_exit:line:41
+      linia: 41
+      sekcja_skryptu: choice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay here
+      pl: Zostań tutaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id008 []
+- kolejnosc_w_danych_gry: 4775
+  skrypt: zimmerhouse_furniture1
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_27bfa6a5c771a3f61c30
+      kontekst: textscripts.zimmerhouse_furniture1:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A bunch of books about music theory.
+      pl: Sterta książek o teorii muzyki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6f3cd60033b104e369ca
+      kontekst: textscripts.zimmerhouse_furniture1:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, there's one about jazz!
+      pl: Hej, jedna jest o jazzie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f4eacb61feb987e34d5b
+      kontekst: textscripts.zimmerhouse_furniture1:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check it out
+      pl: Obejrzyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_906ed64553c04ecba544
+      kontekst: textscripts.zimmerhouse_furniture1:line:14
+      linia: 14
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pore over the book. It's full of really wild notes!
+      pl: Pochłaniasz książkę. Jest pełna naprawdę dzikich nut!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4779
+  skrypt: zimmerhouse_furniture4
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fad87e3012679d560740
+      kontekst: textscripts.zimmerhouse_furniture4:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: At least the plates had the courtesy to disappear entirely instead of leaving a pile of shards lying around.
+      pl: Talerze miały przynajmniej tyle uprzejmości, żeby zniknąć całkowicie, zamiast zostawić po sobie stertę skorup.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6440a09bf4deed83bde0
+      kontekst: textscripts.zimmerhouse_furniture4:line:14
+      linia: 14
+      sekcja_skryptu: popup
+      typ: speechbubble
+      mowca_lub_kanal: dymek
+      en: (player,10,75,left,"Yikes!")
+      pl: (player,10,75,left,"O rety!")
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4781
+  skrypt: zimmerhouse_furniture8
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5a2bcaa3b1e75d9985ab
+      kontekst: textscripts.zimmerhouse_furniture8:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The chair isn't speaking to you ever again.
+      pl: To krzesło już nigdy się do ciebie nie odezwie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad2b4d1542a27b54ca1b
+      kontekst: textscripts.zimmerhouse_furniture8:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This chair is whispering.
+      pl: To krzesło szepcze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f32c8248b0fa6a8b24e6
+      kontekst: textscripts.zimmerhouse_furniture8:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Listen to it
+      pl: Posłuchaj go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_227db1058feea3a3caf2
+      kontekst: textscripts.zimmerhouse_furniture8:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sit in me.
+      pl: Usiądź na mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3752812f63652cd122d1
+      kontekst: textscripts.zimmerhouse_furniture8:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do it
+      pl: Zrób to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 20
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7b20904ef41c4084fc5a
+      kontekst: textscripts.zimmerhouse_furniture8:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: no1
+    wpisy:
+    - id: sol_347ac8b13dd9c91d91ff
+      kontekst: textscripts.zimmerhouse_furniture8:line:22
+      linia: 22
+      sekcja_skryptu: no1
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Please, @firstname@.  Sit in me.
+      pl: Proszę, @firstname@. Usiądź na mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_29f857fac9ff06b640f0
+      kontekst: textscripts.zimmerhouse_furniture8:line:23
+      linia: 23
+      sekcja_skryptu: no1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay
+      pl: Dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a3c46f54d82b99f01c79
+      kontekst: textscripts.zimmerhouse_furniture8:line:24
+      linia: 24
+      sekcja_skryptu: no1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I said no.
+      pl: Nie znaczy nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: no2
+    wpisy:
+    - id: sol_973715de2af2a42598c5
+      kontekst: textscripts.zimmerhouse_furniture8:line:29
+      linia: 29
+      sekcja_skryptu: no2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Siiiiiiiiit iiiiiiiiin meeeeeeeeee.
+      pl: Usiiiiiiiiądź naaaaaa mniiiiiiiie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad33bdccca2c7125162b
+      kontekst: textscripts.zimmerhouse_furniture8:line:30
+      linia: 30
+      sekcja_skryptu: no2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, I'll sit in you.
+      pl: Dobra, usiądę na tobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_43e3f08b04b4cf49db98
+      kontekst: textscripts.zimmerhouse_furniture8:line:31
+      linia: 31
+      sekcja_skryptu: no2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Noooooooooooo.
+      pl: Niiiiiiiiiiie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: no3
+    wpisy:
+    - id: sol_abfed28bfa5bc4f117b9
+      kontekst: textscripts.zimmerhouse_furniture8:line:37
+      linia: 37
+      sekcja_skryptu: no3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The chair harrumphs and goes silent.
+      pl: Krzesło prycha urażone i milknie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0183a6aaef1b917a0f7a
+      kontekst: textscripts.zimmerhouse_furniture8:line:38
+      linia: 38
+      sekcja_skryptu: no3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id016 []
+  - etykieta: sit
+    wpisy:
+    - id: sol_2c47e0e4ad39bb0c4d1c
+      kontekst: textscripts.zimmerhouse_furniture8:line:46
+      linia: 46
+      sekcja_skryptu: sit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sit in the chair for a few minutes, and nothing bad happens.  Apparently it was all bark and no bite.
+      pl: Siedzisz na krześle przez kilka minut i nie dzieje się nic złego. Najwyraźniej było mocne tylko w gębie, której nie ma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7d06056c8551b90aadff
+      kontekst: textscripts.zimmerhouse_furniture8:line:47
+      linia: 47
+      sekcja_skryptu: sit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just as well
+      pl: I całe szczęście
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4776
+  skrypt: zimmerhouse_furniture11
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_94af7dc4f6546ee593c7
+      kontekst: textscripts.zimmerhouse_furniture11:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A viscous black sludge bubbles in the teapot.
+      pl: W czajniku bulgocze lepka czarna breja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_5cb89d0985456f55da6a
+      kontekst: textscripts.zimmerhouse_furniture11:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You love bubbling black sludge, apparently!
+      pl: Najwyraźniej uwielbiasz bulgoczącą czarną breję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4777
+  skrypt: zimmerhouse_furniture12
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_708c6dece9aef06849bf
+      kontekst: textscripts.zimmerhouse_furniture12:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a cabinet full of sheet music.
+      pl: To szafka pełna nut.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cb3ea9dc182d2b039309
+      kontekst: textscripts.zimmerhouse_furniture12:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Examine one of the pieces
+      pl: Obejrzyj jeden utwór
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_40acf718415e4b84745a
+      kontekst: textscripts.zimmerhouse_furniture12:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull out a sheet, but it's all in German, und du kannst kein deutsch gesprechen.
+      pl: Wyciągasz arkusz, ale wszystko jest po niemiecku, a du kannst kein deutsch.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: haunted
+    wpisy:
+    - id: sol_1be4d2dc46fa1897d3d5
+      kontekst: textscripts.zimmerhouse_furniture12:line:12
+      linia: 12
+      sekcja_skryptu: haunted
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull out a sheet. It's a piece entitled "All Arbeit and No Spiel Makes Ernst a Dull Boy."
+      pl: Wyciągasz arkusz. Utwór nosi tytuł „Sama Arbeit i kein Spiel czynią z Ernsta nudnego chłopca”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4778
+  skrypt: zimmerhouse_furniture13
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3b462f4888f72e552434
+      kontekst: textscripts.zimmerhouse_furniture13:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This chair seems to be having a hard time remaining stationary.
+      pl: To krzesło ma wyraźny problem z pozostaniem w miejscu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4785
+  skrypt: zimmerhouse_intro
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_bb344b6e48957ba37b64
+      kontekst: textscripts.zimmerhouse_intro:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You knock but hear no response, so you nose your way inside.
+      pl: Pukasz, ale nie słyszysz odpowiedzi, więc wtykasz nos do środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3774529e7e4ec0089664
+      kontekst: textscripts.zimmerhouse_intro:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That eerie sound is even louder in here -- it seems to be coming from upstairs.
+      pl: Upiorny dźwięk jest tutaj jeszcze głośniejszy — chyba dobiega z piętra.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0aa7fb73f848b08a9ebd
+      kontekst: textscripts.zimmerhouse_intro:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Also, the owner's interior design sensibilities are a little strange.
+      pl: Poza tym właściciel ma dość osobliwe wyczucie wystroju wnętrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_91a064b35858ea5700f8
+      kontekst: textscripts.zimmerhouse_intro:line:9
+      linia: 9
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Huh
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 11
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hauntprelude
+    wpisy:
+    - id: sol_a7908e7d4f8bb8e3b83e
+      kontekst: textscripts.zimmerhouse_intro:line:18
+      linia: 18
+      sekcja_skryptu: hauntprelude
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Uh-oh.
+      pl: Oho.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d781c2ca212d88961b54
+      kontekst: textscripts.zimmerhouse_intro:line:19
+      linia: 19
+      sekcja_skryptu: hauntprelude
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe convincing Zimmer to stop playing his cello wasn't such a good idea after all.
+      pl: Może przekonanie Zimmera, żeby przestał grać na wiolonczeli, nie było jednak najlepszym pomysłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3965e489c2c025f3f65f
+      kontekst: textscripts.zimmerhouse_intro:line:20
+      linia: 20
+      sekcja_skryptu: hauntprelude
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oops
+      pl: Ups
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4796
+  skrypt: zimmerhouse_stairsdown
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: yup
+    wpisy:
+    - id: sol_ba9b3bd053f0bb21e3ed
+      kontekst: textscripts.zimmerhouse_stairsdown:line:9
+      linia: 9
+      sekcja_skryptu: yup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door has seen better jambs.
+      pl: Te drzwi widziały lepsze futryny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_381e6dba2979f41b8db5
+      kontekst: textscripts.zimmerhouse_stairsdown:line:10
+      linia: 10
+      sekcja_skryptu: yup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go downstairs
+      pl: Zejdź na dół
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlocked
+    wpisy:
+    - id: sol_b1b7f15204ac78ac5fb2
+      kontekst: textscripts.zimmerhouse_stairsdown:line:15
+      linia: 15
+      sekcja_skryptu: unlocked
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Enter the basement?
+      pl: Wejść do piwnicy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.zimmerhouse_stairsdown:line:16
+      linia: 16
+      sekcja_skryptu: unlocked
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: key
+    wpisy:
+    - id: sol_5138bd9bd5586d840ffe
+      kontekst: textscripts.zimmerhouse_stairsdown:line:20
+      linia: 20
+      sekcja_skryptu: key
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the basement door and hang the key on a hook by the door.
+      pl: Otwierasz drzwi do piwnicy i wieszasz klucz na haczyku obok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e056b0e8f7f6d85e395a
+      kontekst: textscripts.zimmerhouse_stairsdown:line:24
+      linia: 24
+      sekcja_skryptu: key
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through
+      pl: Przejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: latekey
+    wpisy:
+    - id: sol_64399ab22682f049bd8b
+      kontekst: textscripts.zimmerhouse_stairsdown:line:28
+      linia: 28
+      sekcja_skryptu: latekey
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice a hook for the basement key, so you hang it up since you don't need it.
+      pl: Zauważasz haczyk na klucz do piwnicy, więc odwieszasz go, skoro nie jest już potrzebny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b1b7f15204ac78ac5fb2
+      kontekst: textscripts.zimmerhouse_stairsdown:line:30
+      linia: 30
+      sekcja_skryptu: latekey
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Enter the basement?
+      pl: Wejść do piwnicy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.zimmerhouse_stairsdown:line:31
+      linia: 31
+      sekcja_skryptu: latekey
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: nope
+    wpisy:
+    - id: sol_84d3e4fc4f11d6dab7a8
+      kontekst: textscripts.zimmerhouse_stairsdown:line:35
+      linia: 35
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is locked.
+      pl: Te drzwi są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: curseunlock
+    wpisy:
+    - id: sol_3751ee38d9183c64359e
+      kontekst: textscripts.zimmerhouse_stairsdown:line:42
+      linia: 42
+      sekcja_skryptu: curseunlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That seems like a bad idea.  Are you sure?
+      pl: To wygląda na kiepski pomysł. Na pewno?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 26
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6b2c5a170c3266d3d96d
+      kontekst: textscripts.zimmerhouse_stairsdown:line:43
+      linia: 43
+      sekcja_skryptu: curseunlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, I'm sure  [cursed key]
+      pl: Tak, na pewno [przeklęty klucz]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yescurseunlock
+    wpisy:
+    - id: sol_2a364321ec1eaf1b8bdb
+      kontekst: textscripts.zimmerhouse_stairsdown:line:50
+      linia: 50
+      sekcja_skryptu: yescurseunlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through the door
+      pl: Przejdź przez drzwi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4797
+  skrypt: zimmerhouse_stairsup
+  pomieszczenie:
+    id: zimmerhouse_floor1
+    nazwa_en: '@map1_name_zimmerhouse@ (Ground Floor)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7a0a146e9f21e6703164
+      kontekst: textscripts.zimmerhouse_stairsup:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb it
+      pl: Wespnij się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4761
+  skrypt: zimmerhouse_atticstairsdown
+  pomieszczenie:
+    id: zimmerhouse_floor2
+    nazwa_en: '@map1_name_zimmerhouse@ (Upstairs)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1794fdc4329fad8930cc
+      kontekst: textscripts.zimmerhouse_atticstairsdown:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These are the stairs you came up.
+      pl: To schody, którymi tu wszedłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_25d4c058300312710b39
+      kontekst: textscripts.zimmerhouse_atticstairsdown:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go back down
+      pl: Zejdź z powrotem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4767
+  skrypt: zimmerhouse_ernstzimmer
+  pomieszczenie:
+    id: zimmerhouse_floor2
+    nazwa_en: '@map1_name_zimmerhouse@ (Upstairs)'
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 75
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_46df315faf85674b745c
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:25
+      linia: 25
+      sekcja_skryptu: intro
+      typ: addproperty
+      mowca_lub_kanal: kanal_addproperty
+      en: Ernst Zimmer's House
+      pl: Dom Ernsta Zimmera
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e04515c2860063d3d9a2
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What-- Who are you? Why are you in my house?
+      pl: Co... Kim jesteś? Co robisz w moim domu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad5b82df88d0bd3bd96a
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:30
+      linia: 30
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sorry for intruding, but I heard the... "music," and I guess I have an intrusive nature.
+      pl: Przepraszam za wtargnięcie, ale słychać było tę... „muzykę”, a wścibstwo leży chyba w mojej naturze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c387caf05e24db1cee5
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:31
+      linia: 31
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: My name's @firstname@ @lastname@.
+      pl: Nazywam się @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_393b0205ef26bf5cce5f
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I am Ernst Zimmer. Forgive me for not stopping, but it is vital that I continue playing.
+      pl: A ja jestem Ernst Zimmer. Wybacz, że nie przerywam, lecz dalsza gra jest sprawą najwyższej wagi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whatsup
+    wpisy:
+    - id: sol_3734671f61f457c1532a
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:77
+      linia: 77
+      sekcja_skryptu: whatsup
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There is a... darkness, beneath my house.
+      pl: Pod moim domem czai się... ciemność.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1257515ffd5129f72f9f
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:78
+      linia: 78
+      sekcja_skryptu: whatsup
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Did you check the fusebox?
+      pl: Sprawdziłeś skrzynkę bezpieczników?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_78f1ecc548cbd59b04b7
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:79
+      linia: 79
+      sekcja_skryptu: whatsup
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, I--
+      pl: Nie, ja...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c8a775c1ca06f54f52b7
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:80
+      linia: 80
+      sekcja_skryptu: whatsup
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's probably that, then.
+      pl: To pewnie przez nią.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whatsupmid
+    wpisy:
+    - id: sol_2da8d7e1306295f89254
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:88
+      linia: 88
+      sekcja_skryptu: whatsupmid
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Listen to me! I had a dream, a premonition, of a dark rift appearing in my basement and growing until it swallowed the entire house!
+        And then the neighborhood, and then... the world!
+      pl: Posłuchaj! Miałem sen, wizję mrocznej szczeliny, która pojawia się w mojej piwnicy i rośnie, aż pochłania cały dom! Potem dzielnicę,
+        a potem... świat!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_740c5a1353cc3b52af92
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:90
+      linia: 90
+      sekcja_skryptu: whatsupmid
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wow, that's quite a dream.
+      pl: Rany, niezły sen.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c2b0d36bcba74661fb17
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:91
+      linia: 91
+      sekcja_skryptu: whatsupmid
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Surely it was just a dream, though.
+      pl: Ale to na pewno tylko sen.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whattwo
+    wpisy:
+    - id: sol_161ab765b1f2a03eae08
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:96
+      linia: 96
+      sekcja_skryptu: whattwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It was not just a dream! I went downstairs to check the basement, and there is indeed a rift! As of now it is still small -- I must
+        keep playing this cello, to prevent it from growing any larger!
+      pl: To nie był tylko sen! Zszedłem sprawdzić piwnicę i naprawdę jest tam szczelina! Na razie pozostaje mała — muszę bez przerwy grać na
+        tej wiolonczeli, żeby nie urosła ani trochę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cello
+    wpisy:
+    - id: sol_b0fece259548c0ba7a1f
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:104
+      linia: 104
+      sekcja_skryptu: cello
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The bass vibration reverberates downward, and is focused by the circle of furniture downstairs. This resonance inhibits the rift.
+      pl: Niskie drgania rozchodzą się w dół, a krąg mebli na parterze skupia ich energię. Ten rezonans powstrzymuje szczelinę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eadfe81eee5fe5bae38e
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:105
+      linia: 105
+      sekcja_skryptu: cello
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh. I don't really get it, but okay. Are you a physicist or something?
+      pl: Hm. Niewiele z tego rozumiem, ale dobrze. Jesteś fizykiem czy kimś takim?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cd5544c904b823ddc381
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:106
+      linia: 106
+      sekcja_skryptu: cello
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, I am only a cellist. I cannot explain how I knew this would work.
+      pl: Nie, jestem tylko wiolonczelistą. Nie potrafię wyjaśnić, skąd wiedziałem, że to zadziała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0332b89dad18dddb053d
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:108
+      linia: 108
+      sekcja_skryptu: cello
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm, okay.
+      pl: Hm, dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: basement
+    wpisy:
+    - id: sol_ec763bb21f499632af5a
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:113
+      linia: 113
+      sekcja_skryptu: basement
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Very well. I cannot blame you for wanting to see it with your own eyes. You will have to reach into my pocket and take the key to the
+        basement for yourself, as I require both hands to play.
+      pl: Dobrze. Nie mogę mieć ci za złe, że chcesz zobaczyć ją na własne oczy. Musisz samodzielnie sięgnąć do mojej kieszeni po klucz do piwnicy,
+        ponieważ do gry potrzebuję obu rąk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bfe1dc859a37ab18c85e
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:114
+      linia: 114
+      sekcja_skryptu: basement
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh... Well, okay.
+      pl: Eee... No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_de6b9fc8901a462b8de5
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:117
+      linia: 117
+      sekcja_skryptu: basement
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Please do not get too close to the rift.
+      pl: Proszę, nie zbliżaj się zanadto do szczeliny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b55230e09884bc059816
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:118
+      linia: 118
+      sekcja_skryptu: basement
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardbrag
+    wpisy:
+    - id: sol_7b04ae55ff8c94022a94
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:124
+      linia: 124
+      sekcja_skryptu: hardbrag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Just leave this to me. I have a lot of experience in dealing with weird stuff like this. One little rift is no problem for @firstname@
+        @lastname@!
+      pl: Zostaw to mnie. Mam duże doświadczenie z takimi dziwactwami. Jedna mała szczelina to dla @firstname@ @lastname@ żaden problem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4a0af66f19353c3c6ebf
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:125
+      linia: 125
+      sekcja_skryptu: hardbrag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... you seem confident in your abilities. And I am extremely tired.
+      pl: Cóż... Nie brak ci wiary we własne możliwości. A ja padam ze zmęczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dc0bbe0b3fbad387a9a7
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:126
+      linia: 126
+      sekcja_skryptu: hardbrag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Attaboy. Go ahead and take a breather, everything's fine.
+      pl: Tak trzymać. Odpocznij sobie, wszystko jest w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: hardmyst
+    wpisy:
+    - id: sol_7ee93458a542f38ab73f
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:131
+      linia: 131
+      sekcja_skryptu: hardmyst
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm sure there's a rational explanation. Probably just a trick of the light, plus your anxiety over the nightmare.
+      pl: Na pewno istnieje racjonalne wyjaśnienie. Pewnie to tylko gra świateł i niepokój po koszmarze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8edcd2bcf98d2103ca3c
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:134
+      linia: 134
+      sekcja_skryptu: hardmyst
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Sigh...</i> You're... you're probably right. Just an old man jumping at shadows, I suppose.
+      pl: <i>Wzdycha...</i> Chyba... chyba masz rację. Stary człowiek boi się własnego cienia, ot co.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2d8c7fff6e588518b7d4
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:135
+      linia: 135
+      sekcja_skryptu: hardmyst
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Happens to the best of us. Don't worry, everything's fine.
+      pl: Najlepszym się zdarza. Bez obaw, wszystko jest w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardmox
+    wpisy:
+    - id: sol_0d48ced6ec4da6719a88
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:140
+      linia: 140
+      sekcja_skryptu: hardmox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're wasting your time, pal. Dark rifts in the fabric of reality? Come on, that isn't a real thing.
+      pl: Tracisz czas, kolego. Mroczne szczeliny w tkance rzeczywistości? Daj spokój, takie rzeczy nie istnieją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b6e4f1943363e5ec1298
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:141
+      linia: 141
+      sekcja_skryptu: hardmox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But... but I...
+      pl: Ale... ale ja...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5dd979ef955f3e71b06d
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:142
+      linia: 142
+      sekcja_skryptu: hardmox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Look, we all see weird things in the night, sometimes, and they always turn out to be nothing in the morning. There's no shame in it.
+        But you're gonna kill yourself if you keep this up. I'm surprised your arms haven't fallen off already.
+      pl: Słuchaj, nocą każdemu czasem majaczy coś dziwnego, a rano zawsze okazuje się, że to nic. Nie ma się czego wstydzić. Ale jeśli tego nie
+        przerwiesz, wykończysz się. Aż dziw, że ręce jeszcze ci nie odpadły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ab7dd0a485230bbef73b
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:143
+      linia: 143
+      sekcja_skryptu: hardmox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You're... you're probably right. I am so very tired.
+      pl: Chyba... chyba masz rację. Jestem potwornie zmęczony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_55e668010a2c21b50e24
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:144
+      linia: 144
+      sekcja_skryptu: hardmox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah. Just relax, everything's fine.
+      pl: Właśnie. Odpocznij, wszystko jest w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id006 []
+  - etykieta: easybrag
+    wpisy:
+    - id: sol_1ddb69e1645d62fe1682
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:150
+      linia: 150
+      sekcja_skryptu: easybrag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Solved it? What do you mean?
+      pl: Rozwiązana? Co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_341cafd36992bc32c4f3
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:151
+      linia: 151
+      sekcja_skryptu: easybrag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's no dark portal down there, fella. It's just a puddle of tar leaking from a bucket on your shelf.
+      pl: Tam na dole nie ma żadnego mrocznego portalu, kolego. To tylko kałuża smoły cieknącej z wiadra na półce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b8b58b5ce0f800a16ad
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:152
+      linia: 152
+      sekcja_skryptu: easybrag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Tar? Oh my goodness. This is mortifying. I've been such a fool!
+      pl: Smoła? Wielkie nieba. Co za upokorzenie. Ależ ze mnie głupiec!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_8d2d324c12fdd3a1f3ae
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:153
+      linia: 153
+      sekcja_skryptu: easybrag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, don't beat yourself up about it. It was a pretty spooky coincidence, after all.
+      pl: Nie zadręczaj się. To był jednak dość upiorny zbieg okoliczności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f000ef762f09efd8d09d
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:154
+      linia: 154
+      sekcja_skryptu: easybrag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, at least I can stop playing this cello. I'm exhausted.
+      pl: Przynajmniej mogę przestać grać na tej wiolonczeli. Padam z nóg.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_dc0bbe0b3fbad387a9a7
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:155
+      linia: 155
+      sekcja_skryptu: easybrag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Attaboy. Go ahead and take a breather, everything's fine.
+      pl: Tak trzymać. Odpocznij sobie, wszystko jest w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: easymyst
+    wpisy:
+    - id: sol_a4bdf488c18bb9ff6228
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:161
+      linia: 161
+      sekcja_skryptu: easymyst
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Figured it out? What do you mean?
+      pl: Ustaliłeś? Co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0f6f9b9c791b8cfd2a91
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:162
+      linia: 162
+      sekcja_skryptu: easymyst
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That black "rift" in your basement isn't a rift at all -- it's just a puddle created by a leaking bucket of tar.
+      pl: Ta czarna „szczelina” w piwnicy wcale nie jest szczeliną — to zwykła kałuża spod cieknącego wiadra smoły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b8b58b5ce0f800a16ad
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:163
+      linia: 163
+      sekcja_skryptu: easymyst
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Tar? Oh my goodness. This is mortifying. I've been such a fool!
+      pl: Smoła? Wielkie nieba. Co za upokorzenie. Ależ ze mnie głupiec!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_f72971bef183cb861855
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:164
+      linia: 164
+      sekcja_skryptu: easymyst
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Don't be so hard on yourself. It was a pretty spooky coincidence, after all.
+      pl: Nie oceniaj się tak surowo. To był jednak dość upiorny zbieg okoliczności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f000ef762f09efd8d09d
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:165
+      linia: 165
+      sekcja_skryptu: easymyst
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, at least I can stop playing this cello. I'm exhausted.
+      pl: Przynajmniej mogę przestać grać na tej wiolonczeli. Padam z nóg.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_20353ec3713cfe8c5168
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:166
+      linia: 166
+      sekcja_skryptu: easymyst
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, go ahead and rest. Don't worry, everything's fine.
+      pl: Tak, odpocznij sobie. Bez obaw, wszystko jest w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: easymox
+    wpisy:
+    - id: sol_260a6ad240fc5d86d142
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:172
+      linia: 172
+      sekcja_skryptu: easymox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Jake? What does that mean?
+      pl: „Klawo”? Co to znaczy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e763cff4e669c7e48146
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:173
+      linia: 173
+      sekcja_skryptu: easymox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Everything's fine. That black puddle in your basement isn't any kind of rift, you've just got a leaking bucket of tar on a shelf down
+        there.
+      pl: Że wszystko jest w porządku. Ta czarna kałuża w piwnicy nie jest żadną szczeliną. Po prostu z wiadra smoły na półce coś cieknie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b8b58b5ce0f800a16ad
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:174
+      linia: 174
+      sekcja_skryptu: easymox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Tar? Oh my goodness. This is mortifying. I've been such a fool!
+      pl: Smoła? Wielkie nieba. Co za upokorzenie. Ależ ze mnie głupiec!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_820873f75233475d090f
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:175
+      linia: 175
+      sekcja_skryptu: easymox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, don't worry about it. It was a pretty spooky coincidence, after all.
+      pl: Nie przejmuj się. To był jednak dość upiorny zbieg okoliczności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f000ef762f09efd8d09d
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:176
+      linia: 176
+      sekcja_skryptu: easymox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, at least I can stop playing this cello. I'm exhausted.
+      pl: Przynajmniej mogę przestać grać na tej wiolonczeli. Padam z nóg.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_55e668010a2c21b50e24
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:177
+      linia: 177
+      sekcja_skryptu: easymox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah. Just relax, everything's fine.
+      pl: Właśnie. Odpocznij, wszystko jest w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: fedora
+    wpisy:
+    - id: sol_7d226acb8b9870b2c75c
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:184
+      linia: 184
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? I... ughh... I must... keep...
+      pl: Co? Ja... uch... muszę... dalej...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fa02b085eb6c1baa8274
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:185
+      linia: 185
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hngg. I can't. I can't play any more. I'm so tired.
+      pl: Hngh. Nie mogę. Nie dam rady dłużej grać. Jestem taki zmęczony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hauntstart
+    wpisy:
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:191
+      linia: 191
+      sekcja_skryptu: hauntstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: debugging
+    wpisy:
+    - id: sol_7a0b8b7ec902f59bc99a
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:202
+      linia: 202
+      sekcja_skryptu: debugging
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fakey fakey, house is scary.
+      pl: Czary-mary, dom koszmarny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60e850b5368fc93afcf5
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:204
+      linia: 204
+      sekcja_skryptu: debugging
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay then
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 22
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoops
+    wpisy:
+    - id: sol_c4db8eb97d84eca882c7
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:210
+      linia: 210
+      sekcja_skryptu: whoops
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? What do you mean?
+      pl: Co? Co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_afff82a366cf37c420b0
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:213
+      linia: 213
+      sekcja_skryptu: whoops
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Let's just say that your house is incredibly haunted now.
+      pl: Powiedzmy tylko, że twój dom jest teraz niewiarygodnie nawiedzony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_792115c42b576cdd7498
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:214
+      linia: 214
+      sekcja_skryptu: whoops
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Arrgh! I should not have trusted you, we are <i>both</i> fools! Did the rift open?
+      pl: Arrgh! Nie powinienem był ci ufać, <i>obaj</i> jesteśmy głupcami! Czy szczelina się otworzyła?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoopsyes
+    wpisy:
+    - id: sol_ef28f8dfe04fb240c474
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:223
+      linia: 223
+      sekcja_skryptu: whoopsyes
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, no! What are we going to do?
+      pl: Nie, nie! Co teraz zrobimy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a48d77b2e16e91670bac
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:224
+      linia: 224
+      sekcja_skryptu: whoopsyes
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Don't worry, I'll think of something.
+      pl: Bez obaw, coś wymyślę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_734bc6fac6ead4479093
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:225
+      linia: 225
+      sekcja_skryptu: whoopsyes
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, if you were me, you'd leave. 'Coz that's what I'm doing.
+      pl: Cóż, gdybyś był mną, tobyś stąd wyszedł. Bo właśnie to robię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: comeback
+    wpisy:
+    - id: sol_08d90420a7f9c376cbe5
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:230
+      linia: 230
+      sekcja_skryptu: comeback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And? And?
+      pl: I co? I co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a99c74b1aaf2d123faff
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:231
+      linia: 231
+      sekcja_skryptu: comeback
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There is definitely a big swirling rift of darkness down there, yep.
+      pl: Tak, na dole zdecydowanie wiruje wielka szczelina pełna ciemności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crystal
+    wpisy:
+    - id: sol_aff8c4086da54bfbf64e
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:239
+      linia: 239
+      sekcja_skryptu: crystal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's... what is that? Where did you get it?
+      pl: To... Co to jest? Skąd to masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aa2137502a2fbdc830f1
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:240
+      linia: 240
+      sekcja_skryptu: crystal
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It was inside the rift.
+      pl: Było wewnątrz szczeliny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cc55a7a755b6eb003f58
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:241
+      linia: 241
+      sekcja_skryptu: crystal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It makes me uncomfortable to look at. ...Can I have it?
+      pl: Samo patrzenie budzi mój niepokój. ...Mogę to dostać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_de6d61b840378c8bbb60
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:242
+      linia: 242
+      sekcja_skryptu: crystal
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No. It's mine.
+      pl: Nie. To moje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c94c322c920667bf6e11
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:243
+      linia: 243
+      sekcja_skryptu: crystal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You found it inside my house!
+      pl: Znalazłeś to w moim domu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b46086b933f0c81e31ca
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:244
+      linia: 244
+      sekcja_skryptu: crystal
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It was in another dimension!
+      pl: To było w innym wymiarze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_70be49f86bcb2e4e5f5c
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:245
+      linia: 245
+      sekcja_skryptu: crystal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Another dimension inside my house!
+      pl: W innym wymiarze wewnątrz mojego domu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_61ef5c7bd29ab57b9aa7
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:246
+      linia: 246
+      sekcja_skryptu: crystal
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Forget it.
+      pl: Zapomnij.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: youwon
+    wpisy:
+    - id: sol_a15ca3b78c0e40761746
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:252
+      linia: 252
+      sekcja_skryptu: youwon
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You did? That's wonderful! I owe you my life! And probably also my house's life!
+      pl: Naprawdę? Wspaniale! Zawdzięczam ci życie! I prawdopodobnie życie mojego domu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_49865b769272828335b5
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:253
+      linia: 253
+      sekcja_skryptu: youwon
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here! Take this cello! I have no further need of it, and to be quite frank with you, the thought of playing it ever again only pains
+        me.
+      pl: Proszę, weź tę wiolonczelę! Nie będzie mi już potrzebna, a szczerze mówiąc, sama myśl o ponownej grze sprawia mi ból.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c972fcd0d2c87d32234b
+      kontekst: textscripts.zimmerhouse_ernstzimmer:line:258
+      linia: 258
+      sekcja_skryptu: youwon
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wow! Uh, thanks!
+      pl: O rany! Eee, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5728
+  skrypt: autoscript__zimmerhouse_shadowzone__leftblocker__popup
+  pomieszczenie:
+    id: zimmerhouse_shadowzone
+    nazwa_en: Shadow Rift (@map1_name_zimmerhouse@ Cellar)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_56c4c2688703d7a4e3ff
+      kontekst: textscripts.autoscript__zimmerhouse_shadowzone__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing in that direction.  I mean, there's nothing here, either, but the nothing over there is less interesting.
+      pl: W tamtym kierunku niczego nie ma. To znaczy tutaj też niczego nie ma, ale tamto nic jest mniej ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5729
+  skrypt: autoscript__zimmerhouse_shadowzone__rightblocker__popup
+  pomieszczenie:
+    id: zimmerhouse_shadowzone
+    nazwa_en: Shadow Rift (@map1_name_zimmerhouse@ Cellar)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_319b8c2e9ff806f41239
+      kontekst: textscripts.autoscript__zimmerhouse_shadowzone__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't want to get too far from that rift -- it would be a <i>real</i> bummer to get stuck here for all eternity.
+      pl: Nie chcesz oddalać się zanadto od szczeliny — utknięcie tu na całą wieczność byłoby <i>naprawdę</i> dołujące.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4763
+  skrypt: zimmerhouse_beast
+  pomieszczenie:
+    id: zimmerhouse_shadowzone
+    nazwa_en: Shadow Rift (@map1_name_zimmerhouse@ Cellar)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 27
+  sekcje:
+  - etykieta: starthere
+    wpisy:
+    - id: sol_8b7e4944e182215dbb91
+      kontekst: textscripts.zimmerhouse_beast:line:9
+      linia: 9
+      sekcja_skryptu: starthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This creature is built more-or-less like a large muscular person -- if you built a large muscular person out of some kind of writhing
+        black ooze and/or smoke and/or just plain raw darkness.
+      pl: Budową to stworzenie z grubsza przypomina wielką, umięśnioną osobę — o ile wielką, umięśnioną osobę zbudować z wijącej się czarnej mazi
+        i/lub dymu, i/lub po prostu surowej ciemności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c9cc2439b61f8acc3c58
+      kontekst: textscripts.zimmerhouse_beast:line:10
+      linia: 10
+      sekcja_skryptu: starthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It has a fist-sized glowing crystal embedded in its chest, about where its sternum would be, and as you draw near you can feel it radiating
+        invisible waves of energy -- kind of like heat coming off of a radiator, except also the opposite of that, and also not at all related
+        to that. Look, incomprehensible forces are tricky to describe, okay?
+      pl: W klatce piersiowej, mniej więcej tam, gdzie znajdowałby się mostek, tkwi świecący kryształ wielkości pięści. Gdy się zbliżasz, czujesz
+        bijące od niego niewidzialne fale energii — trochę jak ciepło od kaloryfera, tylko że również dokładnie odwrotnie i zarazem zupełnie bez
+        związku z kaloryferem. Słuchaj, niepojęte siły trudno się opisuje, dobrze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eea609871c560bed18b1
+      kontekst: textscripts.zimmerhouse_beast:line:11
+      linia: 11
+      sekcja_skryptu: starthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The creature shambles back and forth, waving its arms in a way that almost looks like it's dancing, or praying, or maybe just absent-mindedly
+        flailing. It seems oblivious to your presence, although that will probably change pretty quickly if you try to interfere with it.
+      pl: Stworzenie szura tam i z powrotem, wymachując rękami w sposób przypominający taniec, modlitwę albo zwyczajne bezmyślne machanie. Najwyraźniej
+        nie zauważa twojej obecności, choć to pewnie szybko się zmieni, jeśli spróbujesz mu przeszkodzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1f12c00e085f13203171
+      kontekst: textscripts.zimmerhouse_beast:line:12
+      linia: 12
+      sekcja_skryptu: starthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Like say, if you tried to pry the glowing crystal out of its chest.
+      pl: Na przykład próbując wyrwać świecący kryształ z jego piersi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_707d42097f8277116edd
+      kontekst: textscripts.zimmerhouse_beast:line:13
+      linia: 13
+      sekcja_skryptu: starthere
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Size it up
+      pl: Oceń przeciwnika
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: return
+    wpisy:
+    - id: sol_c1319230cd01dd028026
+      kontekst: textscripts.zimmerhouse_beast:line:17
+      linia: 17
+      sekcja_skryptu: return
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the shambling shadow-beast, which is continuing to shamble. The crystal in its chest sparkles importantly at you.
+      pl: Zbliżasz się do szurającej bestii z Cienia, która nadal szura. Kryształ w jej piersi błyska ku tobie z wielką powagą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lookatit
+    wpisy:
+    - id: sol_b60c9884cab17892dae0
+      kontekst: textscripts.zimmerhouse_beast:line:32
+      linia: 32
+      sekcja_skryptu: lookatit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone for now
+      pl: Na razie zostaw ją w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getit
+    wpisy:
+    - id: sol_26f4a271d5d99e6243ef
+      kontekst: textscripts.zimmerhouse_beast:line:36
+      linia: 36
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make a quick grab for the crystal, but it's firmly lodged in the creature's chest. The creature howls, and its long spindly arms
+        flail ineffectually as you
+      pl: Rzucasz się po kryształ, ale tkwi mocno w piersi stworzenia. Stwór wyje, a jego długie, chude ramiona wymachują bezsilnie, gdy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eb99ef611e603104257b
+      kontekst: textscripts.zimmerhouse_beast:line:37
+      linia: 37
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: barely cognizant of your actions
+      pl: ledwie świadom własnych działań
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cdfb10320eaeacc8616c
+      kontekst: textscripts.zimmerhouse_beast:line:38
+      linia: 38
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: plunge your hands into murky flesh
+      pl: zanurzając dłonie w mętnym ciele
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7c33336d561abd94f7f9
+      kontekst: textscripts.zimmerhouse_beast:line:39
+      linia: 39
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: fingers questing through lukewarm tar until they find ribs
+      pl: błądząc palcami w letniej smole, aż natrafią na żebra
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5b2f1b25be6315d5a585
+      kontekst: textscripts.zimmerhouse_beast:line:40
+      linia: 40
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: gritting your teeth, forcing open the cage
+      pl: zaciskając zęby i rozchylając klatkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1dbb4bfa1536dea696d1
+      kontekst: textscripts.zimmerhouse_beast:line:41
+      linia: 41
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: creaking, cracking, snapping like dry branches
+      pl: skrzypiącą, trzeszczącą, pękającą jak suche gałęzie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad1d26b8088d4d99eed5
+      kontekst: textscripts.zimmerhouse_beast:line:42
+      linia: 42
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab your prize and tear it free of the muck. The creature evaporates in a sigh of smoke.
+      pl: Chwytasz zdobycz i wyrywasz ją z mazi. Stworzenie wyparowuje z dymnym westchnieniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_279e84e6744fbcbc3004
+      kontekst: textscripts.zimmerhouse_beast:line:44
+      linia: 44
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The crystal is both warm and cold in your hand, and has a slight buzzing vibration to it.
+      pl: Kryształ jest w dłoni jednocześnie ciepły i zimny, a do tego lekko brzęczy i wibruje.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id017 []
+    - id: sol_e6f1bc05781ce5fdae21
+      kontekst: textscripts.zimmerhouse_beast:line:45
+      linia: 45
+      sekcja_skryptu: getit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it with you
+      pl: Zabierz go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_135f0496f4a8b7b94c87
+      kontekst: textscripts.zimmerhouse_beast:line:46
+      linia: 46
+      sekcja_skryptu: getit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Destroy it
+      pl: Zniszcz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id015 []
+  - etykieta: have
+    wpisy:
+    - id: sol_9ba1ae4c3c1a1a3eae93
+      kontekst: textscripts.zimmerhouse_beast:line:50
+      linia: 50
+      sekcja_skryptu: have
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yes, something tells you that this crystal is very important, as well as being really shiny and pretty.
+      pl: Tak, coś podpowiada ci, że ten kryształ jest bardzo ważny, a przy tym naprawdę lśniący i śliczny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.zimmerhouse_beast:line:54
+      linia: 54
+      sekcja_skryptu: have
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: destroy
+    wpisy:
+    - id: sol_a220ac2425515ffb88ba
+      kontekst: textscripts.zimmerhouse_beast:line:58
+      linia: 58
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull a hammer out of your inventory (or if you don't actually have a hammer, whatever object would be the most hammer-adjacent)
+        and give the crystal a solid thwack. It makes a sound like a baby being torn in half and bursts into glittering shards that shoot off
+        into the darkness.
+      pl: Wyciągasz z ekwipunku młotek — albo, jeśli nie masz młotka, przedmiot najbardziej zbliżony do młotka — i porządnie uderzasz kryształ.
+        Wydaje dźwięk podobny do rozdzieranego na pół niemowlęcia, po czym rozpada się na lśniące odłamki, które wystrzeliwują w ciemność.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id009 []
+    - id: sol_64430ad6a2d7bdaff8cc
+      kontekst: textscripts.zimmerhouse_beast:line:59
+      linia: 59
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Immediately, you feel... well, I was gonna say a massive earthquake, but since you aren't standing on the ground, you wouldn't feel
+        that. It's more of an everythingquake.
+      pl: Natychmiast czujesz... Właściwie miało tu paść „potężne trzęsienie ziemi”, ale skoro nie stoisz na ziemi, niczego takiego nie dałoby
+        się poczuć. To raczej trzęsienie wszystkiego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id010 []
+    - id: sol_1a4352fe132d88112f4f
+      kontekst: textscripts.zimmerhouse_beast:line:60
+      linia: 60
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should probably get out of here.
+      pl: Chyba pora się stąd wynosić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id011 []
+    - id: sol_a23720125e160be74dbb
+      kontekst: textscripts.zimmerhouse_beast:line:63
+      linia: 63
+      sekcja_skryptu: destroy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-oh
+      pl: Oho
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id012 []
+  - etykieta: destroy2
+    wpisy:
+    - id: sol_352c975de092be0bda42
+      kontekst: textscripts.zimmerhouse_beast:line:67
+      linia: 67
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You run -- swim? hover? -- back to the rift as fast as possible and dive back through it just before it collapses/vanishes/heals.
+      pl: Biegniesz — płyniesz? lewitujesz? — ku szczelinie tak szybko, jak to możliwe, i wskakujesz do niej tuż przed tym, jak zapada się/znika/zasklepia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id018 []
+    - id: sol_51d488b6a08477aa3ee3
+      kontekst: textscripts.zimmerhouse_beast:line:68
+      linia: 68
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Thankfully, you find yourself back in Ernst Zimmer's basement and not some kind of horrible between-dimensions purgatory.
+      pl: Na szczęście trafiasz z powrotem do piwnicy Ernsta Zimmera, a nie do jakiegoś potwornego międzywymiarowego czyśćca.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id013 []
+    - id: sol_967bab3d8dd4f02af494
+      kontekst: textscripts.zimmerhouse_beast:line:69
+      linia: 69
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You run up the stairs to tell Ernst the good news.
+      pl: Pędzisz po schodach, żeby przekazać Ernstowi dobre wieści.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id014 []
+    - id: sol_9e4e4e3ad9b523eeecb9
+      kontekst: textscripts.zimmerhouse_beast:line:73
+      linia: 73
+      sekcja_skryptu: destroy2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 22
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+- kolejnosc_w_danych_gry: 4770
+  skrypt: zimmerhouse_floater
+  pomieszczenie:
+    id: zimmerhouse_shadowzone
+    nazwa_en: Shadow Rift (@map1_name_zimmerhouse@ Cellar)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_eb826e18c449ccfb3bc8
+      kontekst: textscripts.zimmerhouse_floater:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A thrumming spike of nega-energy.
+      pl: Dudniący kolec negaenergii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8eba4db54176f9454b3b
+      kontekst: textscripts.zimmerhouse_floater:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dampen it
+      pl: Wytłum go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'off'
+    wpisy:
+    - id: sol_32e3893e74661ae660d4
+      kontekst: textscripts.zimmerhouse_floater:line:12
+      linia: 12
+      sekcja_skryptu: 'off'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An inert spike of nega-energy.
+      pl: Bezwładny kolec negaenergii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a592ecc9e93dc6759bb
+      kontekst: textscripts.zimmerhouse_floater:line:13
+      linia: 13
+      sekcja_skryptu: 'off'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pluck it
+      pl: Wyrwij go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: addbits
+    wpisy:
+    - id: sol_7d9c8e2dac384f4f649f
+      kontekst: textscripts.zimmerhouse_floater:line:28
+      linia: 28
+      sekcja_skryptu: addbits
+      typ: changeelementproperty
+      mowca_lub_kanal: kanal_changeelementproperty
+      en: randseeded(-1,1,time()/25),randseeded(-1,1)
+      pl: randseeded(-1,1,time()/25),randseeded(-1,1)
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna wartość właściwości elementu, niewidoczna dla gracza; pozostawiono bez zmian.'
+    - id: sol_d30f870891abbc29e85a
+      kontekst: textscripts.zimmerhouse_floater:line:29
+      linia: 29
+      sekcja_skryptu: addbits
+      typ: changeelementproperty
+      mowca_lub_kanal: kanal_changeelementproperty
+      en: shadow_glyphs,head
+      pl: shadow_glyphs,head
+      status: zablokowane
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna wartość właściwości elementu, niewidoczna dla gracza; pozostawiono bez zmian.'
+- kolejnosc_w_danych_gry: 4789
+  skrypt: zimmerhouse_riftenter
+  pomieszczenie:
+    id: zimmerhouse_shadowzone
+    nazwa_en: Shadow Rift (@map1_name_zimmerhouse@ Cellar)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_9ad7b8da6c37bce7e472
+      kontekst: textscripts.zimmerhouse_riftenter:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find youself in an infinite black void.
+      pl: Trafiasz do nieskończonej czarnej pustki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eeb370c17c1659ef725a
+      kontekst: textscripts.zimmerhouse_riftenter:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Or, well, it <i>looks</i> like an infinite black void, but you have the uneasy feeling that your brain is only <i>showing</i> you an
+        infinite black void because it doesn't want to try and process what this place actually looks like.
+      pl: No, przynajmniej <i>wygląda</i> jak nieskończona czarna pustka. Nie daje ci jednak spokoju myśl, że mózg jedynie <i>pokazuje</i> nieskończoną
+        czarną pustkę, bo nie chce nawet próbować przetworzyć prawdziwego wyglądu tego miejsca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_880eb8cf51442d8507ac
+      kontekst: textscripts.zimmerhouse_riftenter:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a weird feeling.
+      pl: Dziwne uczucie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_004263cca723757ad53e
+      kontekst: textscripts.zimmerhouse_riftenter:line:10
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4791
+  skrypt: zimmerhouse_riftexit
+  pomieszczenie:
+    id: zimmerhouse_shadowzone
+    nazwa_en: Shadow Rift (@map1_name_zimmerhouse@ Cellar)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e9d59885bd49fb92e175
+      kontekst: textscripts.zimmerhouse_riftexit:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drift through
+      pl: Przepłyń na drugą stronę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: youtookit
+    wpisy:
+    - id: sol_2be055a7a22a811be603
+      kontekst: textscripts.zimmerhouse_riftexit:line:12
+      linia: 12
+      sekcja_skryptu: youtookit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It occurs to you that taking that weird crystal out of here might be a bad idea. On the other hand, it's yours now, and you'd prefer
+        to keep it.
+      pl: Przychodzi ci do głowy, że wyniesienie stąd tego dziwnego kryształu może być złym pomysłem. Z drugiej strony kryształ należy już do
+        ciebie, a wolisz go zatrzymać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a2f68966edb90a2a2180
+      kontekst: textscripts.zimmerhouse_riftexit:line:13
+      linia: 13
+      sekcja_skryptu: youtookit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter the rift
+      pl: Wejdź w szczelinę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_646c3dfa7b061ec6ebee
+      kontekst: textscripts.zimmerhouse_riftexit:line:14
+      linia: 14
+      sekcja_skryptu: youtookit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay here
+      pl: Zostań tutaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 18
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id008
+  - etykieta: destroy
+    wpisy:
+    - id: sol_a220ac2425515ffb88ba
+      kontekst: textscripts.zimmerhouse_riftexit:line:28
+      linia: 28
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull a hammer out of your inventory (or if you don't actually have a hammer, whatever object would be the most hammer-adjacent)
+        and give the crystal a solid thwack. It makes a sound like a baby being torn in half and bursts into glittering shards that shoot off
+        into the darkness.
+      pl: Wyciągasz z ekwipunku młotek — albo, jeśli nie masz młotka, przedmiot najbardziej zbliżony do młotka — i porządnie uderzasz kryształ.
+        Wydaje dźwięk podobny do rozdzieranego na pół niemowlęcia, po czym rozpada się na lśniące odłamki, które wystrzeliwują w ciemność.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+    - id: sol_64430ad6a2d7bdaff8cc
+      kontekst: textscripts.zimmerhouse_riftexit:line:30
+      linia: 30
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Immediately, you feel... well, I was gonna say a massive earthquake, but since you aren't standing on the ground, you wouldn't feel
+        that. It's more of an everythingquake.
+      pl: Natychmiast czujesz... Właściwie miało tu paść „potężne trzęsienie ziemi”, ale skoro nie stoisz na ziemi, niczego takiego nie dałoby
+        się poczuć. To raczej trzęsienie wszystkiego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+    - id: sol_1a4352fe132d88112f4f
+      kontekst: textscripts.zimmerhouse_riftexit:line:31
+      linia: 31
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should probably get out of here.
+      pl: Chyba pora się stąd wynosić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+    - id: sol_a23720125e160be74dbb
+      kontekst: textscripts.zimmerhouse_riftexit:line:34
+      linia: 34
+      sekcja_skryptu: destroy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-oh
+      pl: Oho
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+  - etykieta: destroy2
+    wpisy:
+    - id: sol_c1a652243b618798a1a3
+      kontekst: textscripts.zimmerhouse_riftexit:line:38
+      linia: 38
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dive back through the rift just before it collapses/vanishes/heals.
+      pl: Wskakujesz z powrotem w szczelinę tuż przed tym, jak zapada się/znika/zasklepia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_51d488b6a08477aa3ee3
+      kontekst: textscripts.zimmerhouse_riftexit:line:39
+      linia: 39
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Thankfully, you find yourself back in Ernst Zimmer's basement and not some kind of horrible between-dimensions purgatory.
+      pl: Na szczęście trafiasz z powrotem do piwnicy Ernsta Zimmera, a nie do jakiegoś potwornego międzywymiarowego czyśćca.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+    - id: sol_967bab3d8dd4f02af494
+      kontekst: textscripts.zimmerhouse_riftexit:line:40
+      linia: 40
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You run up the stairs to tell Ernst the good news.
+      pl: Pędzisz po schodach, żeby przekazać Ernstowi dobre wieści.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id014
+    - id: sol_9e4e4e3ad9b523eeecb9
+      kontekst: textscripts.zimmerhouse_riftexit:line:44
+      linia: 44
+      sekcja_skryptu: destroy2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 22
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+- kolejnosc_w_danych_gry: 4793
+  skrypt: zimmerhouse_riftprize
+  pomieszczenie:
+    id: zimmerhouse_shadowzone
+    nazwa_en: Shadow Rift (@map1_name_zimmerhouse@ Cellar)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_482c20588b0ea68bb44e
+      kontekst: textscripts.zimmerhouse_riftprize:line:2
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This weird pedestal has a weird crystal on it, which is radiating some kind of weird energy. Maybe it opened the rift, or maybe it's
+        controlling the rift, or maintaining the rift, or... actually you have no idea at all what it does. It seems real powerful, though.
+      pl: Na tym dziwnym postumencie leży dziwny kryształ, który emituje jakiś dziwny rodzaj energii. Może otworzył szczelinę, może nią steruje,
+        może ją podtrzymuje albo... Właściwie nie masz pojęcia, co robi. Wygląda jednak na naprawdę potężny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_229bf9dd501439e0708b
+      kontekst: textscripts.zimmerhouse_riftprize:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_135f0496f4a8b7b94c87
+      kontekst: textscripts.zimmerhouse_riftprize:line:4
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Destroy it
+      pl: Zniszcz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id015
+    - id: sol_0183a6aaef1b917a0f7a
+      kontekst: textscripts.zimmerhouse_riftprize:line:5
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id016
+  - etykieta: have
+    wpisy:
+    - id: sol_279e84e6744fbcbc3004
+      kontekst: textscripts.zimmerhouse_riftprize:line:9
+      linia: 9
+      sekcja_skryptu: have
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The crystal is both warm and cold in your hand, and has a slight buzzing vibration to it.
+      pl: Kryształ jest w dłoni jednocześnie ciepły i zimny, a do tego lekko brzęczy i wibruje.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id017
+    - id: sol_fddcaab56a4b3bdcde12
+      kontekst: textscripts.zimmerhouse_riftprize:line:10
+      linia: 10
+      sekcja_skryptu: have
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Holding it gives you a creepy feeling, like you're being watched.
+      pl: Trzymanie go wywołuje upiorne wrażenie, że ktoś cię obserwuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d279adef04367b62450e
+      kontekst: textscripts.zimmerhouse_riftprize:line:13
+      linia: 13
+      sekcja_skryptu: have
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Brr
+      pl: Brr
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: destroy
+    wpisy:
+    - id: sol_a220ac2425515ffb88ba
+      kontekst: textscripts.zimmerhouse_riftprize:line:17
+      linia: 17
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull a hammer out of your inventory (or if you don't actually have a hammer, whatever object would be the most hammer-adjacent)
+        and give the crystal a solid thwack. It makes a sound like a baby being torn in half and bursts into glittering shards that shoot off
+        into the darkness.
+      pl: Wyciągasz z ekwipunku młotek — albo, jeśli nie masz młotka, przedmiot najbardziej zbliżony do młotka — i porządnie uderzasz kryształ.
+        Wydaje dźwięk podobny do rozdzieranego na pół niemowlęcia, po czym rozpada się na lśniące odłamki, które wystrzeliwują w ciemność.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id009
+    - id: sol_64430ad6a2d7bdaff8cc
+      kontekst: textscripts.zimmerhouse_riftprize:line:18
+      linia: 18
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Immediately, you feel... well, I was gonna say a massive earthquake, but since you aren't standing on the ground, you wouldn't feel
+        that. It's more of an everythingquake.
+      pl: Natychmiast czujesz... Właściwie miało tu paść „potężne trzęsienie ziemi”, ale skoro nie stoisz na ziemi, niczego takiego nie dałoby
+        się poczuć. To raczej trzęsienie wszystkiego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id010
+    - id: sol_1a4352fe132d88112f4f
+      kontekst: textscripts.zimmerhouse_riftprize:line:19
+      linia: 19
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should probably get out of here.
+      pl: Chyba pora się stąd wynosić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id011
+    - id: sol_a23720125e160be74dbb
+      kontekst: textscripts.zimmerhouse_riftprize:line:20
+      linia: 20
+      sekcja_skryptu: destroy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-oh
+      pl: Oho
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id012
+  - etykieta: destroy2
+    wpisy:
+    - id: sol_352c975de092be0bda42
+      kontekst: textscripts.zimmerhouse_riftprize:line:24
+      linia: 24
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You run -- swim? hover? -- back to the rift as fast as possible and dive back through it just before it collapses/vanishes/heals.
+      pl: Biegniesz — płyniesz? lewitujesz? — ku szczelinie tak szybko, jak to możliwe, i wskakujesz do niej tuż przed tym, jak zapada się/znika/zasklepia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id018
+    - id: sol_51d488b6a08477aa3ee3
+      kontekst: textscripts.zimmerhouse_riftprize:line:25
+      linia: 25
+      sekcja_skryptu: destroy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Thankfully, you find yourself back in Ernst Zimmer's basement and not some kind of horrible between-dimensions purgatory.
+      pl: Na szczęście trafiasz z powrotem do piwnicy Ernsta Zimmera, a nie do jakiegoś potwornego międzywymiarowego czyśćca.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id013
+    - id: sol_9e4e4e3ad9b523eeecb9
+      kontekst: textscripts.zimmerhouse_riftprize:line:29
+      linia: 29
+      sekcja_skryptu: destroy2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 22
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id007
+  - etykieta: dunno
+    wpisy:
+    - id: sol_812b7be009ab143bed20
+      kontekst: textscripts.zimmerhouse_riftprize:line:33
+      linia: 33
+      sekcja_skryptu: dunno
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Mom always said not to mess around with weird antidimensional crystals.
+      pl: Mama zawsze powtarzała, żeby nie zadzierać z dziwnymi antywymiarowymi kryształami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_03401792b29af2abb232
+      kontekst: textscripts.zimmerhouse_riftprize:line:34
+      linia: 34
+      sekcja_skryptu: dunno
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 28
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id019

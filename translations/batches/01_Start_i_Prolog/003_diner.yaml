@@ -514,7 +514,7 @@ sceny:
       typ: rightsay
       mowca_lub_kanal: postac_po_prawej
       en: Yeah! Ocean City's turning into a real sawmill, so we boosted her jellybean's breezer for a weekend whirl to the Hot Potato!
-      pl: Pewnie! Ocean City zmienia się w niezłą budę, więc gwizdnęłyśmy brykę jej laluśka i śmignęłyśmy na weekendowy wir do Gorącego Kartofla!
+      pl: Pewnie! Ocean City robi się drętwe, więc gwizdnęłyśmy brykę jej laluśka na weekendowy wypad do Gorącego Kartofla!
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -529,7 +529,7 @@ sceny:
       typ: rightsay
       mowca_lub_kanal: postac_po_prawej
       en: Oh bushwa, you make it sound like we went south with it! I flew him a kite, everything's jake!
-      pl: E, nie maluj tego tak, jakbyśmy ją rąbnęły! Puściłam mu cynk, wszystko gra!
+      pl: Bzdura, gadasz, jakbyśmy opyliły ten wóz! Nadaniłam mu na piśmie, wszystko gra!
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -1027,7 +1027,7 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: '@firstname@ who?'
-      pl: '@firstname@ jaki?'
+      pl: '@firstname@ kto?'
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -1933,7 +1933,7 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: Oh.
-      pl: Oh.
+      pl: Och.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2273,7 +2273,7 @@ sceny:
       typ: rightspeak
       mowca_lub_kanal: postac_po_prawej
       en: And what exactly does fortune mean to you, hon?
-      pl: A czym właściwie jest dla ciebie szczęście, kochanie?
+      pl: A co właściwie oznacza dla ciebie fortuna, kochanie?
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2288,7 +2288,7 @@ sceny:
       typ: sayoption
       mowca_lub_kanal: opcja_gracza
       en: Money.
-      pl: Pieniędzmi.
+      pl: Pieniędze.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2303,7 +2303,7 @@ sceny:
       typ: sayoption
       mowca_lub_kanal: opcja_gracza
       en: Fame.
-      pl: Sławą.
+      pl: Sławę.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2318,7 +2318,7 @@ sceny:
       typ: sayoption
       mowca_lub_kanal: opcja_gracza
       en: Having lots of stuff.
-      pl: Posiadaniem mnóstwa rzeczy.
+      pl: Posiadanie mnóstwa rzeczy.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2333,7 +2333,7 @@ sceny:
       typ: sayoption
       mowca_lub_kanal: opcja_gracza
       en: On second thought, forget about fortune.
-      pl: Po namyśle zapomnijmy o szczęściu.
+      pl: Po namyśle zapomnijmy o fortunie.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2350,7 +2350,7 @@ sceny:
       typ: leftsay
       mowca_lub_kanal: postac_po_lewej
       en: Money.  I'm tired of being broke.
-      pl: Pieniędzmi. Mam dość biedowania.
+      pl: Pieniądze. Mam dość bycia spłukanym.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2414,7 +2414,7 @@ sceny:
       typ: leftsay
       mowca_lub_kanal: postac_po_lewej
       en: Fame.  I wanna be somebody.
-      pl: Sławą. Chcę być kimś.
+      pl: Sławę. Chcę być kimś.
       status: zatwierdzono
       wspoldzielony_rekord: false
       liczba_wystapien: 1
@@ -2491,7 +2491,7 @@ sceny:
       typ: leftsay
       mowca_lub_kanal: postac_po_lewej
       en: I'm just sick of having to make do with a cheap wristwatch.
-      pl: Mam po prostu dość zadowalania się tanim zegarkiem na rękę.
+      pl: Mam po prostu dość godzenia się na tani zegarek.
       status: do_korekty
       wspoldzielony_rekord: false
       liczba_wystapien: 1

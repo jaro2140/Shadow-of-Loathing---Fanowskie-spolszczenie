@@ -1,0 +1,447 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: hobostore
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 3
+liczba_wpisow: 26
+sceny:
+- kolejnosc_w_danych_gry: 1978
+  skrypt: hobostore_barrels
+  pomieszczenie:
+    id: hobostore
+    nazwa_en: Ovid's Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_765af5a5ba8a7732a3d7
+      kontekst: textscripts.hobostore_barrels:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a bit of a barrel blockade over here.
+      pl: Tędy przebiega barykada z beczek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1979
+  skrypt: hobostore_exitpopup
+  pomieszczenie:
+    id: hobostore
+    nazwa_en: Ovid's Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_48d56cac30b6a238d388
+      kontekst: textscripts.hobostore_exitpopup:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 23
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1983
+  skrypt: hobostore_shop
+  pomieszczenie:
+    id: hobostore
+    nazwa_en: Ovid's Store
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 24
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0a4bb55df966afe00c90
+      kontekst: textscripts.hobostore_shop:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ovid has taken his beds and gone home. To his new home, that is, back at the hobo camp.
+      pl: Ovid zabrał łóżka i wrócił do domu. To znaczy do swojego nowego domu w obozie włóczęgów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2ba54be651356a1139da
+      kontekst: textscripts.hobostore_shop:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's Ovid, in his element.
+      pl: Ovid w swoim żywiole.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.hobostore_shop:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_69234ed720500c6176ca
+      kontekst: textscripts.hobostore_shop:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I, uh...  Store's closed right now.
+      pl: Ja, eee... Sklep jest teraz zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.hobostore_shop:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Token pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_6728cc7172d82beef10a
+      kontekst: textscripts.hobostore_shop:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Gotta do inventory.
+      pl: Muszę zrobić remanent.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cf4c886bdbd21807aaaf
+      kontekst: textscripts.hobostore_shop:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He turns around and starts shuffling through the random piles of detritus behind him.
+      pl: Odwraca się i zaczyna przekładać przypadkowe sterty rupieci za sobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.hobostore_shop:line:22
+      linia: 22
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_897666fad8e4044a738a
+      kontekst: textscripts.hobostore_shop:line:26
+      linia: 26
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey there, @p|fella,miss,pal@, can I interest ya in some quality merchandise?
+      pl: Hej, @p|fella,miss,pal@, może zainteresuje cię towar pierwsza klasa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@p|fella,miss,pal@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_52595f94f7a968a42297
+      kontekst: textscripts.hobostore_shop:line:28
+      linia: 28
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What kind of merchandise?
+      pl: Jaki towar?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36081b2397e4f3dc0b54
+      kontekst: textscripts.hobostore_shop:line:29
+      linia: 29
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I dunno, just some stuff I found. Have a look, see if any of it catches yer eye!
+      pl: Nie wiem, jakieś rzeczy, które znalazłem. Rozejrzyj się, może coś wpadnie ci w oko!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_2ce56966ed646abacc49
+      kontekst: textscripts.hobostore_shop:line:38
+      linia: 38
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what he's selling
+      pl: Zobacz, co sprzedaje
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2ef59ecf9d5a594f54b6
+      kontekst: textscripts.hobostore_shop:line:39
+      linia: 39
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: What's up with all these beds?
+      pl: O co chodzi z tymi wszystkimi łóżkami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d03d3130c2c1faa7b7d8
+      kontekst: textscripts.hobostore_shop:line:45
+      linia: 45
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him
+      pl: Zostaw go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askbeds
+    wpisy:
+    - id: sol_a17faa6b78387e84800d
+      kontekst: textscripts.hobostore_shop:line:49
+      linia: 49
+      sekcja_skryptu: askbeds
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's up with all these bunk beds?
+      pl: O co chodzi z tymi wszystkimi piętrowymi łóżkami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba0446e776ff8dfd4317
+      kontekst: textscripts.hobostore_shop:line:50
+      linia: 50
+      sekcja_skryptu: askbeds
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: University was getting rid of 'em, and finders sleepers, I say.
+      pl: Uniwersytet się ich pozbywał, a kto znalazł, ten się wyspał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5d99df68d7aabf535623
+      kontekst: textscripts.hobostore_shop:line:52
+      linia: 52
+      sekcja_skryptu: askbeds
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sendtocamp
+    wpisy:
+    - id: sol_94882bf12618f9293e13
+      kontekst: textscripts.hobostore_shop:line:57
+      linia: 57
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Uh, come again?
+      pl: Słucham?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b73faa29aa0c15df65f1
+      kontekst: textscripts.hobostore_shop:line:58
+      linia: 58
+      sekcja_skryptu: sendtocamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There's a hobo camp just outside of Ocean City, and the guy in charge heard you're rich in beds. He asked me to give you this official
+        summons.
+      pl: Tuż za Ocean City jest obóz włóczęgów, a ich szef usłyszał, że opływasz w łóżka. Prosił, żebym przekazał ci to oficjalne wezwanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4e70a10f947aa62522c2
+      kontekst: textscripts.hobostore_shop:line:60
+      linia: 60
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh hey, that sounds like a good deal. Can't use more than one or two of these myself, anyway. I'll head on out there, thanks!
+      pl: O, to brzmi jak dobry układ. Sam i tak nie wykorzystam więcej niż jednego czy dwóch. Zaraz tam ruszę, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.hobostore_shop:line:68
+      linia: 68
+      sekcja_skryptu: sendtocamp
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+  - etykieta: getcode
+    wpisy:
+    - id: sol_6f037750a442ac57575d
+      kontekst: textscripts.hobostore_shop:line:73
+      linia: 73
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, sure. Do you know the one for FREE BED yet?
+      pl: O, jasne. Znasz już znak DARMOWE ŁÓŻKO?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53f6687bc26f92dc9edb
+      kontekst: textscripts.hobostore_shop:line:76
+      linia: 76
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about something else
+      pl: Zapytaj o coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 50
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_74e2f7eb6d6d1c7c241f
+      kontekst: textscripts.hobostore_shop:line:77
+      linia: 77
+      sekcja_skryptu: getcode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thank him and leave
+      pl: Podziękuj i odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

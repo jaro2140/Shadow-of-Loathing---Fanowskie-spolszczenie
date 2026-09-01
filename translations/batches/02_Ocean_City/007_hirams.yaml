@@ -1,0 +1,1360 @@
+schema_version: 1
+dzial:
+  numer: '02'
+  nazwa: Ocean_City
+grupa_lokacji_lub_systemu: hirams
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 11
+liczba_wpisow: 76
+sceny:
+- kolejnosc_w_danych_gry: 1927
+  skrypt: hirams_door
+  pomieszczenie:
+    id: hirams
+    nazwa_en: Hiram's Grocery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5598ff33bf885da56be6
+      kontekst: textscripts.hirams_door:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is not excited about the idea of you going through it.
+      pl: Te drzwi nie są zachwycone pomysłem przejścia przez nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crow
+    wpisy:
+    - id: sol_797ebf0d0f8fc1c583fa
+      kontekst: textscripts.hirams_door:line:17
+      linia: 17
+      sekcja_skryptu: crow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your crowbar makes short work of the boards.
+      pl: Łom błyskawicznie rozprawia się z deskami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e762d89ee05b3bbe2362
+      kontekst: textscripts.hirams_door:line:18
+      linia: 18
+      sekcja_skryptu: crow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go on in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: yank
+    wpisy:
+    - id: sol_a61d5f275152c7c67f03
+      kontekst: textscripts.hirams_door:line:25
+      linia: 25
+      sekcja_skryptu: yank
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your bulging biceps make short work of the boards.
+      pl: Twoje potężne bicepsy błyskawicznie rozprawiają się z deskami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e762d89ee05b3bbe2362
+      kontekst: textscripts.hirams_door:line:26
+      linia: 26
+      sekcja_skryptu: yank
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go on in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 1930
+  skrypt: hirams_exitpopup
+  pomieszczenie:
+    id: hirams
+    nazwa_en: Hiram's Grocery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0a6b18c82bc72791806e
+      kontekst: textscripts.hirams_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Leave this run-of-the-mill runty rundown store, where you run afoul of runagates giving you the runaround and also run on sentences?
+      pl: Opuścić ten przebiegle podupadły sklepik, gdzie obiegają cię naciągacze, wybiegi i zdania biegnące bez końca?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6a62b96d586af2089d38
+      kontekst: textscripts.hirams_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: <i>Run</i> away
+      pl: <i>Wybiegnij</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1931
+  skrypt: hirams_hobo
+  pomieszczenie:
+    id: hirams
+    nazwa_en: Hiram's Grocery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 35
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cd7f81c62d3efba2be16
+      kontekst: textscripts.hirams_hobo:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A bored-looking hobo lounges against the wall of the decrepit building.
+      pl: Znudzony włóczęga opiera się o ścianę zniszczonego budynku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.hirams_hobo:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_4743c60021897d7319e2
+      kontekst: textscripts.hirams_hobo:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi there.
+      pl: Cześć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 8
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f2e0f6d25ca36db2596f
+      kontekst: textscripts.hirams_hobo:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>hey hlo thr <i>mumble</i></size>
+      pl: <size=20>cześ hej tam <i>mamrot</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_28ea1498d7efd2411a72
+      kontekst: textscripts.hirams_hobo:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh, I'm @firstname@.
+      pl: Eee, jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e2beacd2186a0aefad8b
+      kontekst: textscripts.hirams_hobo:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>mm smml, plsd t'<i>mumble</i></size>
+      pl: <size=20>mm smuel, mił p<i>mamrot</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0a93ddf19427d41b0f00
+      kontekst: textscripts.hirams_hobo:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Samuel?
+      pl: Samuel?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf48dbc6d932322a7783
+      kontekst: textscripts.hirams_hobo:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>mm</size>
+      pl: <size=20>mm</size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <size=20>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+    - id: sol_97d13646f365953b3599
+      kontekst: textscripts.hirams_hobo:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm looking for Hiram's Grocery. Is this it?
+      pl: Szukam Sklepu Spożywczego Hirama. To tutaj?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7648c66132eff2b5b24d
+      kontekst: textscripts.hirams_hobo:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, see you around.
+      pl: Dobrze, do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: one
+    wpisy:
+    - id: sol_0cc1805ede6890646446
+      kontekst: textscripts.hirams_hobo:line:26
+      linia: 26
+      sekcja_skryptu: one
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>was. wenoutta bisn<i>mumble</i>.</size>
+      pl: <size=20>był. wypdł z bizn<i>mamrot</i>.</size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_de84ee8f13d7dd768516
+      kontekst: textscripts.hirams_hobo:line:27
+      linia: 27
+      sekcja_skryptu: one
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: When?
+      pl: Kiedy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eefbc02e0f51e83acad2
+      kontekst: textscripts.hirams_hobo:line:28
+      linia: 28
+      sekcja_skryptu: one
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>mm, couplm mmms</size>
+      pl: <size=20>mm, pare msięcy</size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_19d27dc9a260c2d59c9b
+      kontekst: textscripts.hirams_hobo:line:29
+      linia: 29
+      sekcja_skryptu: one
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Have you been standing here that whole time?
+      pl: Stoisz tu przez cały ten czas?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf48dbc6d932322a7783
+      kontekst: textscripts.hirams_hobo:line:30
+      linia: 30
+      sekcja_skryptu: one
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>mm</size>
+      pl: <size=20>mm</size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <size=20>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_7b5f66db7de8fb4f283f
+      kontekst: textscripts.hirams_hobo:line:32
+      linia: 32
+      sekcja_skryptu: one
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What are you doing here?
+      pl: Co tutaj robisz?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6ef1e6840181541651b2
+      kontekst: textscripts.hirams_hobo:line:33
+      linia: 33
+      sekcja_skryptu: one
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Right. Well, good luck.
+      pl: Racja. Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_0779a7546dfc664c13d6
+      kontekst: textscripts.hirams_hobo:line:38
+      linia: 38
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>nm. jus waitn fr<i>mumble</i>.</size>
+      pl: <size=20>nie. tylk czekam n<i>mamrot</i>.</size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fe7de8bd891a56d4f2c
+      kontekst: textscripts.hirams_hobo:line:39
+      linia: 39
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Waiting for what?
+      pl: Na co czekasz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba27b99942f81af62d90
+      kontekst: textscripts.hirams_hobo:line:40
+      linia: 40
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>smwrk, r s<i>mumble</i></size>
+      pl: <size=20>jakś prac, czy c<i>mamrot</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6c8d1ae9ea3f4cc6d989
+      kontekst: textscripts.hirams_hobo:line:41
+      linia: 41
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're looking for work?
+      pl: Szukasz pracy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_689a9ce9f768f7fc41ef
+      kontekst: textscripts.hirams_hobo:line:42
+      linia: 42
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>yeh, jsfr til i mvr<i>mumble</i></size>
+      pl: <size=20>ta, tylk aż ę przen<i>mamrot</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c0792a031cc748526971
+      kontekst: textscripts.hirams_hobo:line:44
+      linia: 44
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't think you're gonna find any work here.
+      pl: Chyba nie znajdziesz tu pracy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: twob
+    wpisy:
+    - id: sol_3c0da9cd09ab8259f147
+      kontekst: textscripts.hirams_hobo:line:48
+      linia: 48
+      sekcja_skryptu: twob
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Considering that this store is pretty thoroughly closed, I don't think you're gonna find any work here.
+      pl: Biorąc pod uwagę, że ten sklep jest zamknięty na dobre, chyba nie znajdziesz tu pracy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_450cd6c6e925a343b757
+      kontekst: textscripts.hirams_hobo:line:49
+      linia: 49
+      sekcja_skryptu: twob
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>mmm. fggrd nthr storn<i>mumble</i></size>
+      pl: <size=20>mmm. myśl inny skl otw<i>mamrot</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_994bf022e98947671583
+      kontekst: textscripts.hirams_hobo:line:50
+      linia: 50
+      sekcja_skryptu: twob
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It doesn't look to me like another store is gonna open here anytime soon.
+      pl: Nie wygląda, żeby w najbliższym czasie miał się tu otworzyć inny sklep.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf48dbc6d932322a7783
+      kontekst: textscripts.hirams_hobo:line:51
+      linia: 51
+      sekcja_skryptu: twob
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>mm</size>
+      pl: <size=20>mm</size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <size=20>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_9a19dfd4070a305f6eb3
+      kontekst: textscripts.hirams_hobo:line:54
+      linia: 54
+      sekcja_skryptu: twob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him alone
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 15
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: give
+    wpisy:
+    - id: sol_c291be15d10f5eec81ab
+      kontekst: textscripts.hirams_hobo:line:58
+      linia: 58
+      sekcja_skryptu: give
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Here, maybe you can take a cab to a different store or something?
+      pl: Może weź taksówkę do innego sklepu czy coś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0140ca5c4e00223499c1
+      kontekst: textscripts.hirams_hobo:line:60
+      linia: 60
+      sekcja_skryptu: give
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>well thnkm. thnkm vr kndl<i>mumble</i></size>
+      pl: <size=20>no dzęk. dzęk bardz uprz<i>mamrot</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0ee00522e63c955a6b2c
+      kontekst: textscripts.hirams_hobo:line:61
+      linia: 61
+      sekcja_skryptu: give
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He tips his hat to you, and whistles for a passing cab.
+      pl: Uchyla kapelusza i gwiżdże na przejeżdżającą taksówkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6694e55f2c3b00958f84
+      kontekst: textscripts.hirams_hobo:line:65
+      linia: 65
+      sekcja_skryptu: give
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck.
+      pl: Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: redo
+    wpisy:
+    - id: sol_66e9076837e9dbcf31d1
+      kontekst: textscripts.hirams_hobo:line:70
+      linia: 70
+      sekcja_skryptu: redo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi there. Samuel, right?
+      pl: Cześć. Samuel, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf48dbc6d932322a7783
+      kontekst: textscripts.hirams_hobo:line:72
+      linia: 72
+      sekcja_skryptu: redo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20>mm</size>
+      pl: <size=20>mm</size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - <size=20>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+    - id: sol_4d492d2a6ceb09e61aac
+      kontekst: textscripts.hirams_hobo:line:76
+      linia: 76
+      sekcja_skryptu: redo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind.
+      pl: Nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 24
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1933
+  skrypt: hirams_trashcan
+  pomieszczenie:
+    id: hirams
+    nazwa_en: Hiram's Grocery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f443c8ca9793147aa522
+      kontekst: textscripts.hirams_trashcan:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A filthy trash can.  Dig through it?
+      pl: Brudny kosz na śmieci. Przekopać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1737228c16c1c2b8ca8a
+      kontekst: textscripts.hirams_trashcan:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You know it!
+      pl: A jakże!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_ff011f21a8a49684331f
+      kontekst: textscripts.hirams_trashcan:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your efforts are rewarded with one shoe.
+      pl: W nagrodę za trud otrzymujesz jeden but.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_83039dd491fb87af379c
+      kontekst: textscripts.hirams_trashcan:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check for a second one
+      pl: Poszukaj drugiego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ee
+    wpisy:
+    - id: sol_5ec13fd9465cb0a579f6
+      kontekst: textscripts.hirams_trashcan:line:14
+      linia: 14
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There isn't a second one.
+      pl: Nie ma drugiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: used
+    wpisy:
+    - id: sol_9615a99615b57fe7a0a9
+      kontekst: textscripts.hirams_trashcan:line:17
+      linia: 17
+      sekcja_skryptu: used
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're still waiting for the other shoe to be dropped off.
+      pl: Nadal czekasz, aż spadnie drugi but.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5153
+  skrypt: autoscript__hirams_interior__shelf2__popup
+  pomieszczenie:
+    id: hirams_interior
+    nazwa_en: Hiram's Grocery (Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41dd04f42c99427fa4ec
+      kontekst: textscripts.autoscript__hirams_interior__shelf2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing but trash on this shelf.
+      pl: Na tej półce nie ma nic poza śmieciami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5154
+  skrypt: autoscript__hirams_interior__shelf3__popup
+  pomieszczenie:
+    id: hirams_interior
+    nazwa_en: Hiram's Grocery (Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_26716d440c49da6f6c50
+      kontekst: textscripts.autoscript__hirams_interior__shelf3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Even mice would be disappointed with this shelf.
+      pl: Nawet myszy rozczarowałyby się tą półką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5155
+  skrypt: autoscript__hirams_interior__shelf6__popup
+  pomieszczenie:
+    id: hirams_interior
+    nazwa_en: Hiram's Grocery (Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_67ffd8f6ea2e6a06cff7
+      kontekst: textscripts.autoscript__hirams_interior__shelf6__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf is so empty, it doesn't even have a shelf.
+      pl: Ta półka jest tak pusta, że nie ma nawet półki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1926
+  skrypt: hirams_counter
+  pomieszczenie:
+    id: hirams_interior
+    nazwa_en: Hiram's Grocery (Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5bcb676073fb5ce509dd
+      kontekst: textscripts.hirams_counter:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The counter is dusty and thoroughly-searched.
+      pl: Lada jest zakurzona i dokładnie przeszukana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dab398759d5eefaa7c59
+      kontekst: textscripts.hirams_counter:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The counter is dusty and long-abandoned.
+      pl: Lada jest zakurzona i od dawna opuszczona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_af91d9311d4a3b368746
+      kontekst: textscripts.hirams_counter:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search it
+      pl: Przeszukaj ją
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 15
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_38aad47b4914f8a2c69d
+      kontekst: textscripts.hirams_counter:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The register is empty, unless you know someone who accepts mouse droppings as currency.
+      pl: Kasa jest pusta, chyba że znasz kogoś, kto przyjmuje mysie bobki jako walutę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e3923ea9d4534a0c0627
+      kontekst: textscripts.hirams_counter:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look behind the counter
+      pl: Zajrzyj za ladę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: sol_8d0b75b9123ced27a968
+      kontekst: textscripts.hirams_counter:line:19
+      linia: 19
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find an old invoice for a shipment from the Snackle Mills factory, which is marked as never having arrived. The factory's address
+        is listed.
+      pl: Znajdujesz starą fakturę za przesyłkę z fabryki Młynów Chrup-Chrup, oznaczoną jako niedostarczona. Podano adres fabryki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1928
+  skrypt: hirams_emptyshelf
+  pomieszczenie:
+    id: hirams_interior
+    nazwa_en: Hiram's Grocery (Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b9361e74bdaad09b6889
+      kontekst: textscripts.hirams_emptyshelf:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An empty shelf.
+      pl: Pusta półka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87ea776a40edd86fcac8
+      kontekst: textscripts.hirams_emptyshelf:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unless...
+      pl: Chyba że...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_6ce10633e643b280ab6f
+      kontekst: textscripts.hirams_emptyshelf:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No, it's empty.
+      pl: Nie, jest pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_aaec27b6e499b82ed16f
+      kontekst: textscripts.hirams_emptyshelf:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: UNLESS...
+      pl: CHYBA ŻE...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: sol_de6e9bbcc8ab30c5f6cd
+      kontekst: textscripts.hirams_emptyshelf:line:14
+      linia: 14
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No. It's definitely empty.
+      pl: Nie. Zdecydowanie pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_81d96189b95676d34e53
+      kontekst: textscripts.hirams_emptyshelf:line:15
+      linia: 15
+      sekcja_skryptu: e2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: BUT WAIT!
+      pl: ALE CHWILA!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e3
+    wpisy:
+    - id: sol_603f03755b3613249bc9
+      kontekst: textscripts.hirams_emptyshelf:line:20
+      linia: 20
+      sekcja_skryptu: e3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Listen. It's empty. I <i>promise.</i>
+      pl: Słuchaj. Jest pusta. <i>Obiecuję.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_305962836f56ed1b26c5
+      kontekst: textscripts.hirams_emptyshelf:line:21
+      linia: 21
+      sekcja_skryptu: e3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sigh, fine
+      pl: Ech, dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e4
+    wpisy:
+    - id: sol_bed94772d79444f6b7b3
+      kontekst: textscripts.hirams_emptyshelf:line:26
+      linia: 26
+      sekcja_skryptu: e4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh wait... what's this?
+      pl: Och, chwila... co to?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3f456811a3687be9fea9
+      kontekst: textscripts.hirams_emptyshelf:line:27
+      linia: 27
+      sekcja_skryptu: e4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What? <i>What?</i>
+      pl: Co? <i>Co?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e5
+    wpisy:
+    - id: sol_8de2f2b24abd3110305f
+      kontekst: textscripts.hirams_emptyshelf:line:32
+      linia: 32
+      sekcja_skryptu: e5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ha ha, just kidding. There's nothing.
+      pl: Ha, ha, żartuję. Niczego nie ma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1932
+  skrypt: hirams_snackshelves
+  pomieszczenie:
+    id: hirams_interior
+    nazwa_en: Hiram's Grocery (Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8d59e270ef49391cc72f
+      kontekst: textscripts.hirams_snackshelves:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already found the single treasure in all this trash.
+      pl: Jedyny skarb w tych śmieciach jest już twój.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9918319289a1fc579fd8
+      kontekst: textscripts.hirams_snackshelves:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf is littered with various pieces of trash.
+      pl: Półkę zaśmiecają różne kawałki odpadków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f477d80ceedcb5c32ed5
+      kontekst: textscripts.hirams_snackshelves:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig through it
+      pl: Przekop ją
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_91436fc851c907d3d87e
+      kontekst: textscripts.hirams_snackshelves:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a (mercifully unopened) tube of lip balm.
+      pl: Znajdujesz — na szczęście nieotwartą — tubkę balsamu do ust.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1934
+  skrypt: hirams_weaponshelf
+  pomieszczenie:
+    id: hirams_interior
+    nazwa_en: Hiram's Grocery (Interior)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3a3ef0ee17fb15fb125a
+      kontekst: textscripts.hirams_weaponshelf:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing left here.
+      pl: Nic tu nie zostało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dcec7b1a07eb0650132b
+      kontekst: textscripts.hirams_weaponshelf:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The only thing left on this shelf is a pair of rusty tongs.
+      pl: Na półce została tylko para zardzewiałych szczypiec.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_24dd98a7978c00cb2b1c
+      kontekst: textscripts.hirams_weaponshelf:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab 'em
+      pl: Zabierz je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_307e1182b878f061c1d2
+      kontekst: textscripts.hirams_weaponshelf:line:14
+      linia: 14
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the tongs, wishing you had a different pair of tongs to do it with.
+      pl: Chwytasz szczypce i żałujesz, że nie masz innych szczypiec do ich podniesienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

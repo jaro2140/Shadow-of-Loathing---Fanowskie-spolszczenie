@@ -1,0 +1,2687 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: famstore
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 22
+liczba_wpisow: 155
+sceny:
+- kolejnosc_w_danych_gry: 5017
+  skrypt: autoscript__famstore__sign__popup
+  pomieszczenie:
+    id: famstore
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bd6e941e28a8ddd8d873
+      kontekst: textscripts.autoscript__famstore__sign__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Smart of Greta to sell compassionate pets instead of indifferent ones.
+      pl: Sprytnie ze strony Grety, że sprzedaje współczujące zwierzątka zamiast obojętnych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1384
+  skrypt: famstore_apiary
+  pomieszczenie:
+    id: famstore
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_67b092ccb516b3741f72
+      kontekst: textscripts.famstore_apiary:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's one of those boxes full of bees.  A bee box, you think it's called.
+      pl: Jedno z tych pudeł pełnych pszczół. Pszczołopudło, tak to się chyba nazywa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_7f51ccefd0acbf7b829e
+      kontekst: textscripts.famstore_apiary:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Apparently this box hasn't been harvested in years -- the honey is as hard as a rock.
+      pl: Najwyraźniej nikt od lat nie zbierał z niego miodu — jest twardy jak skała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1386
+  skrypt: famstore_bathroomdoor
+  pomieszczenie:
+    id: famstore
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_54b484e4e94fb2e6d14d
+      kontekst: textscripts.famstore_bathroomdoor:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign on the door reads "RESTROOM FOR ALL OF EARTH'S CREATURES."
+      pl: 'Napis na drzwiach głosi: „TOALETA DLA WSZYSTKICH ZIEMSKICH STWORZEŃ”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e54dd3d7b419ccd4f26d
+      kontekst: textscripts.famstore_bathroomdoor:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm one of those!
+      pl: Jestem jednym z nich!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1390
+  skrypt: famstore_exitpopup
+  pomieszczenie:
+    id: famstore
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6c5ddb33debbd98e6147
+      kontekst: textscripts.famstore_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Leave Greta to her pets?
+      pl: Zostawić Gretę z jej zwierzętami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0399b933e9207636d703
+      kontekst: textscripts.famstore_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Yes'
+      pl: Tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 57
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1397
+  skrypt: famstore_outhouseback
+  pomieszczenie:
+    id: famstore
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7ad125ce6d6d3b589cf3
+      kontekst: textscripts.famstore_outhouseback:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An outdoor time-toilet.
+      pl: Plenerowa czasotoaleta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_210433ce609d8f16ba0b
+      kontekst: textscripts.famstore_outhouseback:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush yourself to the past
+      pl: Spłucz się do przeszłości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5018
+  skrypt: autoscript__famstore_inside__flow1__popup
+  pomieszczenie:
+    id: famstore_inside
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bd5d70cfcb84f468bbf7
+      kontekst: textscripts.autoscript__famstore_inside__flow1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Good fronds are hard to find.
+      pl: Dobry liść to rzadki gość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5019
+  skrypt: autoscript__famstore_inside__flow2__popup
+  pomieszczenie:
+    id: famstore_inside
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_78ab6b8d47efa237e995
+      kontekst: textscripts.autoscript__famstore_inside__flow2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Better leaf this alone.
+      pl: Lepiej dać temu liściowi święty spokój.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1387
+  skrypt: famstore_cat_post
+  pomieszczenie:
+    id: famstore_inside
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_6afbbf8d2a5caa0318e5
+      kontekst: textscripts.famstore_cat_post:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%cat_names/3% lounges, fat and happy.'
+      pl: '%cat_names/3% wyleguje się, gruba i szczęśliwa.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_names/3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4ab5ff316a29489772bd
+      kontekst: textscripts.famstore_cat_post:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet %cat_accusative/3%
+      pl: Pogłaszcz %cat_accusative/3%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b5fc0b842a7edb9b598f
+      kontekst: textscripts.famstore_cat_post:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fat, happy-looking cat lounges here.
+      pl: Wyleguje się tu gruby, szczęśliwy kot.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6618a1a2d98d387550ca
+      kontekst: textscripts.famstore_cat_post:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet it
+      pl: Pogłaszcz go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_86963c114b00086fb01d
+      kontekst: textscripts.famstore_cat_post:line:15
+      linia: 15
+      sekcja_skryptu: e
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: There y'go, %cat_names/3%.
+      pl: Proszę bardzo, %cat_names/3%.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_names/3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+  - etykieta: unlock
+    wpisy:
+    - id: sol_2684b664bd85db511896
+      kontekst: textscripts.famstore_cat_post:line:21
+      linia: 21
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You give the cat a little scratch behind its ears and it begins to loudly purr.
+      pl: Drapiesz kotkę za uchem, a ona zaczyna głośno mruczeć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d60e88a73ad9e9ba9412
+      kontekst: textscripts.famstore_cat_post:line:23
+      linia: 23
+      sekcja_skryptu: unlock
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aww, she likes you!  Her name's Dottie, by the way.
+      pl: Ooo, polubiła cię! Nawiasem mówiąc, nazywa się Dottie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_54faf55b0e4a4ebac914
+      kontekst: textscripts.famstore_cat_post:line:25
+      linia: 25
+      sekcja_skryptu: unlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pet %cat_accusative/3% now
+      pl: Pogłaszcz teraz %cat_accusative/3%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8a9c0a653da1bd3b94fd
+      kontekst: textscripts.famstore_cat_post:line:26
+      linia: 26
+      sekcja_skryptu: unlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait to pet %cat_accusative/3% at some future time
+      pl: Pogłaszcz %cat_accusative/3% kiedyś później
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cat_accusative/3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: petnow
+    wpisy:
+    - id: sol_86963c114b00086fb01d
+      kontekst: textscripts.famstore_cat_post:line:32
+      linia: 32
+      sekcja_skryptu: petnow
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: There y'go, %cat_names/3%.
+      pl: Proszę bardzo, %cat_names/3%.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%cat_names/3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_0eb97b9dfd9ae7b5930f
+      kontekst: textscripts.famstore_cat_post:line:32
+      linia: 32
+      sekcja_skryptu: petnow
+      typ: call
+      mowca_lub_kanal: kanal_call
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1388
+  skrypt: famstore_cat_pre
+  pomieszczenie:
+    id: famstore_inside
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e554b16a55b7bc917604
+      kontekst: textscripts.famstore_cat_pre:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A scrawny-looking cat is sleeping here.
+      pl: Śpi tu mizernie wyglądający kot.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1391
+  skrypt: famstore_famstore
+  pomieszczenie:
+    id: famstore_inside
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 63
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c9839b43862fb9732392
+      kontekst: textscripts.famstore_famstore:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to her
+      pl: Porozmawiaj z nią
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 47
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_7cac764dd008e1727575
+      kontekst: textscripts.famstore_famstore:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi!
+      pl: Cześć!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_99ed62011bcf00b79683
+      kontekst: textscripts.famstore_famstore:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hi Greta. What are you selling?
+      pl: Cześć, Greta. Co sprzedajesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convohub2
+    wpisy:
+    - id: sol_63dad810e0eeccc76ccf
+      kontekst: textscripts.famstore_famstore:line:43
+      linia: 43
+      sekcja_skryptu: convohub2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I guess I have all the pets I need right now.
+      pl: Chyba mam już wszystkie potrzebne zwierzęta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_75b8f53471324e5a9293
+      kontekst: textscripts.famstore_famstore:line:49
+      linia: 49
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hello there! Welcome to Greta's Compassionate Pet Store. I'm Greta!
+      pl: Witaj w Współczującym Sklepie Zoologicznym Grety. Jestem Greta!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b6804af0bc22fe5f91a3
+      kontekst: textscripts.famstore_famstore:line:51
+      linia: 51
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi Greta, I'm @firstname@. Can I ask you a question?
+      pl: Cześć, Greta. Jestem @firstname@. Mogę o coś zapytać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4609967ef0a82f5e7cee
+      kontekst: textscripts.famstore_famstore:line:52
+      linia: 52
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Of course!
+      pl: Oczywiście!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3a3740b5d31a2833815e
+      kontekst: textscripts.famstore_famstore:line:53
+      linia: 53
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Where are... all the pets?
+      pl: Gdzie są... wszystkie zwierzęta?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dc1bed8ca05f5179b423
+      kontekst: textscripts.famstore_famstore:line:54
+      linia: 54
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, they're out back.
+      pl: Na tyłach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5275facf166ea6e1d0c7
+      kontekst: textscripts.famstore_famstore:line:55
+      linia: 55
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: In cages?
+      pl: W klatkach?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_af0edad3bea2b52c577e
+      kontekst: textscripts.famstore_famstore:line:56
+      linia: 56
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No, in the woods!
+      pl: Nie, w lesie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a5d0abb89524791c182f
+      kontekst: textscripts.famstore_famstore:line:57
+      linia: 57
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I see...  What stops them from leaving?
+      pl: Rozumiem... Co powstrzymuje je przed odejściem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ad4509479d7cd3184cfa
+      kontekst: textscripts.famstore_famstore:line:58
+      linia: 58
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Compassion!
+      pl: Współczucie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: sol_67193fb2d658f5da6b49
+      kontekst: textscripts.famstore_famstore:line:63
+      linia: 63
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, what pets do you have for sale?
+      pl: Dobrze, jakie zwierzęta sprzedajesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: snake
+    wpisy:
+    - id: sol_d8038a18c5910337cf81
+      kontekst: textscripts.famstore_famstore:line:68
+      linia: 68
+      sekcja_skryptu: snake
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, you can't go wrong with the world's most dangerous rope! This guy will totally fill your enemies up with poison. Just $snakecost$
+        Meat!
+      pl: Najniebezpieczniejszy sznur świata to zawsze dobry wybór! Ten koleżka napompuje twoich wrogów trucizną po brzegi po brzegi. Tylko $snakecost$ Mięsa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $snakecost$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_23fcc9637bfddd97a874
+      kontekst: textscripts.famstore_famstore:line:71
+      linia: 71
+      sekcja_skryptu: snake
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm, maybe not for me.
+      pl: Hm, chyba nie dla mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: snakebuy
+    wpisy:
+    - id: sol_3df346155d0cae2efae6
+      kontekst: textscripts.famstore_famstore:line:75
+      linia: 75
+      sekcja_skryptu: snakebuy
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You won't regret it! Unless you make it mad.
+      pl: Nie pożałujesz! Chyba że go rozzłościsz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a6a65f291d369a1c688a
+      kontekst: textscripts.famstore_famstore:line:78
+      linia: 78
+      sekcja_skryptu: snakebuy
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Now you just need to give your new venomous friend a name!
+      pl: Teraz wystarczy nadać imię nowemu jadowitemu przyjacielowi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_de4858e30f0733a8386a
+      kontekst: textscripts.famstore_famstore:line:79
+      linia: 79
+      sekcja_skryptu: snakebuy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm...
+      pl: Hm...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: snakename
+    wpisy:
+    - id: sol_1b97f99dff0e300a8d34
+      kontekst: textscripts.famstore_famstore:line:83
+      linia: 83
+      sekcja_skryptu: snakename
+      typ: prompt
+      mowca_lub_kanal: pole_wprowadzania
+      en: '"What will you name the snake?"'
+      pl: '"Jak nazwiesz węża?"'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: snakenamed
+    wpisy:
+    - id: sol_5dd9d0e1e5a6afac180a
+      kontekst: textscripts.famstore_famstore:line:87
+      linia: 87
+      sekcja_skryptu: snakenamed
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: $promptvalue$? I love it! Here you go!
+      pl: $promptvalue$? Cudowne! Proszę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16c00a0b12ef56d22297
+      kontekst: textscripts.famstore_famstore:line:92
+      linia: 92
+      sekcja_skryptu: snakenamed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Greta!
+      pl: Dzięki, Greta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: mosquito
+    wpisy:
+    - id: sol_3dc4325754d2085e5cdb
+      kontekst: textscripts.famstore_famstore:line:97
+      linia: 97
+      sekcja_skryptu: mosquito
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey now, don't knock it! A mosquito is great to have on your side in a fight! Not only can they suck the blood out of stuff, they can
+        also pump that blood into <i>you</i> to heal you! Mathematically speaking, that's twice the power!
+      pl: Hej, nie lekceważ go! Komar to świetny kompan w walce! Nie tylko wysysa krew z różnych stworzeń, ale może też wpompować ją w <i>ciebie</i>,
+        żeby cię uleczyć! Matematycznie rzecz biorąc, to dwa razy więcej mocy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c95c3bf6967bd1f6fc7d
+      kontekst: textscripts.famstore_famstore:line:98
+      linia: 98
+      sekcja_skryptu: mosquito
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh!
+      pl: Hm!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b42eff3481711e21a889
+      kontekst: textscripts.famstore_famstore:line:99
+      linia: 99
+      sekcja_skryptu: mosquito
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A mere $mosquitocost$ Meat adoption fee, and it's all yours.
+      pl: Opłata adopcyjna to zaledwie $mosquitocost$ Mięsa i jest twój.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $mosquitocost$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_22b8c91c84712843c8ef
+      kontekst: textscripts.famstore_famstore:line:102
+      linia: 102
+      sekcja_skryptu: mosquito
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What all have you got again?
+      pl: Przypomnij, co właściwie masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mosquitobuy
+    wpisy:
+    - id: sol_706d985bf6977693c6f6
+      kontekst: textscripts.famstore_famstore:line:106
+      linia: 106
+      sekcja_skryptu: mosquitobuy
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Excellent choice!
+      pl: Doskonały wybór!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+    - id: sol_4d31a0154faa67c41d25
+      kontekst: textscripts.famstore_famstore:line:110
+      linia: 110
+      sekcja_skryptu: mosquitobuy
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Now you just need to give it a name.
+      pl: Teraz wystarczy nadać mu imię.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_de4858e30f0733a8386a
+      kontekst: textscripts.famstore_famstore:line:111
+      linia: 111
+      sekcja_skryptu: mosquitobuy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm...
+      pl: Hm...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: mosquitoname
+    wpisy:
+    - id: sol_1a23483f75f6929f7f36
+      kontekst: textscripts.famstore_famstore:line:115
+      linia: 115
+      sekcja_skryptu: mosquitoname
+      typ: prompt
+      mowca_lub_kanal: pole_wprowadzania
+      en: '"What will you name the mosquito?"'
+      pl: '"Jak nazwiesz komara?"'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mosquitonamed
+    wpisy:
+    - id: sol_20c3816fcb5b1bf88402
+      kontekst: textscripts.famstore_famstore:line:119
+      linia: 119
+      sekcja_skryptu: mosquitonamed
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: $promptvalue$, huh? Classic! Here you go! You might want to get a malaria shot, just in case.
+      pl: $promptvalue$, tak? Klasyka! Proszę! Na wszelki wypadek warto zaszczepić się przeciw malarii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16c00a0b12ef56d22297
+      kontekst: textscripts.famstore_famstore:line:124
+      linia: 124
+      sekcja_skryptu: mosquitonamed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Greta!
+      pl: Dzięki, Greta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: worm
+    wpisy:
+    - id: sol_53ecf60dcff0c4a71795
+      kontekst: textscripts.famstore_famstore:line:129
+      linia: 129
+      sekcja_skryptu: worm
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You're right to be! A worm is a valuable ally. Imagine a snake, except your enemies can't tell which end is the head and which is the
+        butt! They won't know if it's coming or going!
+      pl: I słusznie! Robak to cenny sprzymierzeniec. Wyobraź sobie węża, tylko wrogowie nie wiedzą, gdzie ma głowę, a gdzie tyłek! Nie odgadną,
+        czy nadchodzi, czy odchodzi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_08941888fb63d42c44aa
+      kontekst: textscripts.famstore_famstore:line:130
+      linia: 130
+      sekcja_skryptu: worm
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can it poison things like a snake?
+      pl: Potrafi zatruwać jak wąż?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c8a68ae93741ac18c2d9
+      kontekst: textscripts.famstore_famstore:line:131
+      linia: 131
+      sekcja_skryptu: worm
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, but it's slimy, and people hate that. Super gross!
+      pl: Nie, ale jest oślizgły, a ludzie tego nie znoszą. Wyjątkowe paskudztwo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d810a44a778b1f5e5797
+      kontekst: textscripts.famstore_famstore:line:132
+      linia: 132
+      sekcja_skryptu: worm
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Just $wormcost$ to cover the paperwork, and you've got yourself a worm!
+      pl: Tylko $wormcost$ za formalności i robak jest twój!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $wormcost$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f828ccdbf8bca9cd4a07
+      kontekst: textscripts.famstore_famstore:line:135
+      linia: 135
+      sekcja_skryptu: worm
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm, what all do you have again?
+      pl: Hm, przypomnij, co właściwie masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wormbuy
+    wpisy:
+    - id: sol_706d985bf6977693c6f6
+      kontekst: textscripts.famstore_famstore:line:139
+      linia: 139
+      sekcja_skryptu: wormbuy
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Excellent choice!
+      pl: Doskonały wybór!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+    - id: sol_4d31a0154faa67c41d25
+      kontekst: textscripts.famstore_famstore:line:143
+      linia: 143
+      sekcja_skryptu: wormbuy
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Now you just need to give it a name.
+      pl: Teraz wystarczy nadać mu imię.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_de4858e30f0733a8386a
+      kontekst: textscripts.famstore_famstore:line:144
+      linia: 144
+      sekcja_skryptu: wormbuy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm...
+      pl: Hm...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: wormname
+    wpisy:
+    - id: sol_c3fd6dcfdc5d990fc56f
+      kontekst: textscripts.famstore_famstore:line:148
+      linia: 148
+      sekcja_skryptu: wormname
+      typ: prompt
+      mowca_lub_kanal: pole_wprowadzania
+      en: '"What will you name the worm?"'
+      pl: '"Jak nazwiesz robaka?"'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wormnamed
+    wpisy:
+    - id: sol_77bd33aa1dd0a202ad26
+      kontekst: textscripts.famstore_famstore:line:152
+      linia: 152
+      sekcja_skryptu: wormnamed
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: $promptvalue$, huh?  Great name for a worm. Here you go!
+      pl: $promptvalue$, tak? Świetne imię dla robaka. Proszę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16c00a0b12ef56d22297
+      kontekst: textscripts.famstore_famstore:line:157
+      linia: 157
+      sekcja_skryptu: wormnamed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Greta!
+      pl: Dzięki, Greta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: prehub
+    wpisy:
+    - id: sol_c238edbfd15f0ca1d586
+      kontekst: textscripts.famstore_famstore:line:162
+      linia: 162
+      sekcja_skryptu: prehub
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No problem! Anything else catch your interest?
+      pl: Nie ma sprawy! Coś jeszcze wpada ci w oko?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6c8ee8eb20dc8b003462
+      kontekst: textscripts.famstore_famstore:line:163
+      linia: 163
+      sekcja_skryptu: prehub
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Tell me what you have, again?
+      pl: Jeszcze raz powiedz, co masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askchow
+    wpisy:
+    - id: sol_bcae494cd6cc463cae3c
+      kontekst: textscripts.famstore_famstore:line:169
+      linia: 169
+      sekcja_skryptu: askchow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, you don't have to worry about regular food. They'll graze or scavenge for whatever. They're very resourceful!
+      pl: O zwykłe jedzenie nie musisz się martwić. Same znajdą sobie coś do skubania albo wygrzebią resztki. Są bardzo zaradne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9d3a6e6e92e9db3d531c
+      kontekst: textscripts.famstore_famstore:line:170
+      linia: 170
+      sekcja_skryptu: askchow
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, that's certainly convenient.
+      pl: To rzeczywiście wygodne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6fda1da7f3a302121c46
+      kontekst: textscripts.famstore_famstore:line:171
+      linia: 171
+      sekcja_skryptu: askchow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If you want to soup them up a bit though, make them really beefy? I sell some specially-formulated familiar chow.
+      pl: Ale jeśli chcesz je trochę podtuczyć i zrobić z nich prawdziwe kawały mięcha, sprzedaję specjalnie opracowaną karmę dla chowańców.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ae88bc07bcfd1cb145bc
+      kontekst: textscripts.famstore_famstore:line:172
+      linia: 172
+      sekcja_skryptu: askchow
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm a little uncomfortable with the use of words like 'soup' and 'beef' in a pet store, but okay.
+      pl: Używanie słów takich jak „podkręcić” i „przypakować” w sklepie zoologicznym trochę mnie niepokoi, ale dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_837bae528ddd97bee35a
+      kontekst: textscripts.famstore_famstore:line:173
+      linia: 173
+      sekcja_skryptu: askchow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha!
+      pl: Ha, ha!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_202677d08a513d49a8d0
+      kontekst: textscripts.famstore_famstore:line:175
+      linia: 175
+      sekcja_skryptu: askchow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Tell me about that special chow.
+      pl: Opowiedz o tej specjalnej karmie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ac949d9149013ae1f073
+      kontekst: textscripts.famstore_famstore:line:176
+      linia: 176
+      sekcja_skryptu: askchow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What pets do you have, again?
+      pl: Jakie zwierzęta masz, przypomnisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d5f21f30bfd895d0355
+      kontekst: textscripts.famstore_famstore:line:177
+      linia: 177
+      sekcja_skryptu: askchow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll be right back.
+      pl: Zaraz wracam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: chow
+    wpisy:
+    - id: sol_0402b298aeeee600a395
+      kontekst: textscripts.famstore_famstore:line:185
+      linia: 185
+      sekcja_skryptu: chow
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Familiar Chow is specially formulated to beef up your buddies.  Want to buy a bag?  Just $chowcost$ Meat.
+      pl: Karma dla chowańców ma specjalny skład, który sprawia, że twoi kompani nabiorą mięcha. Kupić worek? Tylko $chowcost$ Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $chowcost$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b77ea8601115a831123f
+      kontekst: textscripts.famstore_famstore:line:188
+      linia: 188
+      sekcja_skryptu: chow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not right now, thanks.
+      pl: Nie teraz, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buychow
+    wpisy:
+    - id: sol_8ebcab2d0ead435201bb
+      kontekst: textscripts.famstore_famstore:line:195
+      linia: 195
+      sekcja_skryptu: buychow
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: One bag of Familiar Chow, coming right up!  More like going right down your familiar's gullet, ha ha!
+      pl: Jeden worek karmy już idzie! A właściwie zaraz pójdzie w dół — do gardła chowańca! Ha, ha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_db8acbf18cdac4df49d6
+      kontekst: textscripts.famstore_famstore:line:198
+      linia: 198
+      sekcja_skryptu: buychow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thank you, Greta.
+      pl: Dziękuję, Greta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nochow
+    wpisy:
+    - id: sol_6a8c2032898559b34477
+      kontekst: textscripts.famstore_famstore:line:202
+      linia: 202
+      sekcja_skryptu: nochow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, I'm all out of familiar chow. Government inspectors shut the factory down too, so that's pretty much it, I'm afraid.
+      pl: Niestety cała karma się skończyła. Inspektorzy rządowi zamknęli też fabrykę, więc obawiam się, że to już koniec.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f3d8e16cc742fd7158d3
+      kontekst: textscripts.famstore_famstore:line:203
+      linia: 203
+      sekcja_skryptu: nochow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What else do you have?
+      pl: Co jeszcze masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f2a516b1ec8abaef14b4
+      kontekst: textscripts.famstore_famstore:line:204
+      linia: 204
+      sekcja_skryptu: nochow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, thanks anyway.
+      pl: Dobrze, mimo wszystko dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givebook
+    wpisy:
+    - id: sol_b8d775ad9f90156e55d3
+      kontekst: textscripts.famstore_famstore:line:212
+      linia: 212
+      sekcja_skryptu: givebook
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Say, before you leave, would you like a complimentary copy of this book I wrote?
+      pl: Zanim wyjdziesz — może zechcesz przyjąć bezpłatny egzemplarz mojej książki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0d3331869b682b0f9798
+      kontekst: textscripts.famstore_famstore:line:213
+      linia: 213
+      sekcja_skryptu: givebook
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, why not.
+      pl: Jasne, czemu nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f692afc401007731643a
+      kontekst: textscripts.famstore_famstore:line:216
+      linia: 216
+      sekcja_skryptu: givebook
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, umm, thanks
+      pl: Och, eee, dzięki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1400
+  skrypt: famstore_radio
+  pomieszczenie:
+    id: famstore_inside
+    nazwa_en: Greta's Compassionate Pet Store
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1b416406bc54b1d83a53
+      kontekst: textscripts.famstore_radio:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This radio is tuned to a windchimes station.
+      pl: To radio jest nastawione na stację z dzwonkami wietrznymi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5020
+  skrypt: autoscript__famstore_inside_past__barrel1__popup
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_000d82b3ad77cf59c800
+      kontekst: textscripts.autoscript__famstore_inside_past__barrel1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A barrel of miscellaneous useful entrails.
+      pl: Beczka rozmaitych przydatnych wnętrzności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5021
+  skrypt: autoscript__famstore_inside_past__barrel2__popup
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2831592674092e6f3509
+      kontekst: textscripts.autoscript__famstore_inside_past__barrel2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This barrel is full of dirt, but you're sure there's something nasty hiding in it.
+      pl: Ta beczka jest pełna ziemi, ale masz pewność, że kryje się w niej coś paskudnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5022
+  skrypt: autoscript__famstore_inside_past__barrel3__popup
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0346b411adf8471ef74c
+      kontekst: textscripts.autoscript__famstore_inside_past__barrel3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This one's full of pickles.  Probably for catching those fish that like eating pickles.
+      pl: Ta jest pełna ogórków konserwowych. Pewnie służą do łowienia ryb, które lubią takie ogórki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5023
+  skrypt: autoscript__famstore_inside_past__barrel4__popup
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_542b7fbcf17fcc5be9f9
+      kontekst: textscripts.autoscript__famstore_inside_past__barrel4__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This barrel is sealed, but from the smell, you'd say it's full of decaying shellfish.
+      pl: Ta beczka jest zapieczętowana, lecz sądząc po zapachu, wypełniają ją rozkładające się skorupiaki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5024
+  skrypt: autoscript__famstore_inside_past__barrel5__popup
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d9df7d03b82e78e65544
+      kontekst: textscripts.autoscript__famstore_inside_past__barrel5__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A barrel of chum.  You do not want to be pals with it.
+      pl: Beczka zanęty. Nie masz ochoty się z nią zakumplować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1385
+  skrypt: famstore_baitshop
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 44
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.famstore_baitshop:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_3166943bed84a0dbc73a
+      kontekst: textscripts.famstore_baitshop:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, Grady.
+      pl: Cześć, Grady.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: sol_86d520352d386a654a5e
+      kontekst: textscripts.famstore_baitshop:line:17
+      linia: 17
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hello there.
+      pl: Dzień dobry.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4d192f807b6039bf9ef6
+      kontekst: textscripts.famstore_baitshop:line:19
+      linia: 19
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hello, and welcome to Grady's Live Bait.  I'm Grady, and this...
+      pl: Witaj w sklepie „Żywe Przynęty Grady’ego”. Jestem Grady, a to...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3078a78eab28c9d91de6
+      kontekst: textscripts.famstore_baitshop:line:20
+      linia: 20
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He points in various directions.
+      pl: Wskazuje w różnych kierunkach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2d3fdd6ee5d64ea2e1cf
+      kontekst: textscripts.famstore_baitshop:line:21
+      linia: 21
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '...is my bait shop.'
+      pl: '...mój sklep z przynętami.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8f257757e8e7ec527f1e
+      kontekst: textscripts.famstore_baitshop:line:22
+      linia: 22
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nice to meet you, Grady.
+      pl: Miło cię poznać, Grady.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ffef6657a985ac69953f
+      kontekst: textscripts.famstore_baitshop:line:23
+      linia: 23
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's a very nice bait shop.
+      pl: Bardzo ładny sklep.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_691438d0db4d595a13f6
+      kontekst: textscripts.famstore_baitshop:line:34
+      linia: 34
+      sekcja_skryptu: hub
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: How's the worm hunting going?
+      pl: Jak idzie polowanie na rosóweke?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1937b4ae6db76f612b6d
+      kontekst: textscripts.famstore_baitshop:line:40
+      linia: 40
+      sekcja_skryptu: hub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Grady smiles.
+      pl: Grady się uśmiecha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c27f9a442da75ae99ce9
+      kontekst: textscripts.famstore_baitshop:line:41
+      linia: 41
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: Can I see what's for sale?
+      pl: Mogę zobaczyć, co sprzedajesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_675a6ad51d87d9b3c20c
+      kontekst: textscripts.famstore_baitshop:line:43
+      linia: 43
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your leave
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: continuequest
+    wpisy:
+    - id: sol_ac9ae60c06d5fe09b3ca
+      kontekst: textscripts.famstore_baitshop:line:48
+      linia: 48
+      sekcja_skryptu: continuequest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, keep hunting.
+      pl: Poluj dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_20fb631e8ad1af5a341c
+      kontekst: textscripts.famstore_baitshop:line:49
+      linia: 49
+      sekcja_skryptu: continuequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Will do.
+      pl: Tak zrobię.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninquest
+    wpisy:
+    - id: sol_25fbd42a736bc35a03a0
+      kontekst: textscripts.famstore_baitshop:line:56
+      linia: 56
+      sekcja_skryptu: turninquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the worms.
+      pl: Przekazujesz mu rosóweke.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_76acdc616de828ad04b7
+      kontekst: textscripts.famstore_baitshop:line:58
+      linia: 58
+      sekcja_skryptu: turninquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: As promised, honest pay for honest work.
+      pl: 'Zgodnie z obietnicą: uczciwa zapłata za uczciwą pracę.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1428e9e6b9347c519f25
+      kontekst: textscripts.famstore_baitshop:line:61
+      linia: 61
+      sekcja_skryptu: turninquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't help but think that revolting pay would be more appropriate, but Grady beats you to that thought by pulling a flowerpot out
+        from behind the counter and handing it to you with a grin.
+      pl: 'Nie możesz oprzeć się wrażeniu, że bardziej stosowna byłaby odrażająca zapłata, ale Grady ubiega tę myśl: wyciąga spod lady doniczkę
+        i wręcza ci ją z uśmiechem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_74e2f7eb6d6d1c7c241f
+      kontekst: textscripts.famstore_baitshop:line:63
+      linia: 63
+      sekcja_skryptu: turninquest
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thank him and leave
+      pl: Podziękuj i odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: askquest
+    wpisy:
+    - id: sol_094bdcc3fc649981b2d7
+      kontekst: textscripts.famstore_baitshop:line:70
+      linia: 70
+      sekcja_skryptu: askquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'm always looking for people to dig up nightcrawlers for me.
+      pl: Cóż, zawsze szukam kogoś, kto wykopie mi dorodne rosówki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_eb78c0c48c446aa117fd
+      kontekst: textscripts.famstore_baitshop:line:72
+      linia: 72
+      sekcja_skryptu: askquest
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What are nightcrawlers?
+      pl: Rosówki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f920e8d98c6b755f811b
+      kontekst: textscripts.famstore_baitshop:line:73
+      linia: 73
+      sekcja_skryptu: askquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He reaches under the counter and pulls out a handful of wriggling worms, which he then waves in your face.
+      pl: Sięga pod ladę, wyciąga garść wijących się robaków i macha ci nimi przed twarzą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_81e4a2011f286a0ae1ce
+      kontekst: textscripts.famstore_baitshop:line:74
+      linia: 74
+      sekcja_skryptu: askquest
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Gah!  Worms!
+      pl: Aaa! Robaki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fd27f6987cd61850f2f8
+      kontekst: textscripts.famstore_baitshop:line:75
+      linia: 75
+      sekcja_skryptu: askquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (You will never forget that smell.)
+      pl: (Nigdy nie zapomnisz tego zapachu).
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5237522a5c7afb321761
+      kontekst: textscripts.famstore_baitshop:line:78
+      linia: 78
+      sekcja_skryptu: askquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Interested in doing some worm-hunting?
+      pl: Chcesz zapolować na robaki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5378ac8da83c145ced3e
+      kontekst: textscripts.famstore_baitshop:line:81
+      linia: 81
+      sekcja_skryptu: askquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe some other time.
+      pl: Może innym razem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: sol_140cfc2058c43dfb8b86
+      kontekst: textscripts.famstore_baitshop:line:88
+      linia: 88
+      sekcja_skryptu: takequest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Good deal!  Dig up... oh, let's call it five.  Five good-sized nightcrawlers, and I'll make it worth your while.  Here, you'll need
+        this.
+      pl: Umowa stoi! Wykop... powiedzmy pięć. Pięć dorodnych rosówek, a odpowiednio się odwdzięczę. Proszę, to ci się przyda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4aab7766471c02c265d6
+      kontekst: textscripts.famstore_baitshop:line:91
+      linia: 91
+      sekcja_skryptu: takequest
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: How will I know where to dig?
+      pl: Skąd będę wiedział, gdzie kopać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c28f8a2add23ccd40b1c
+      kontekst: textscripts.famstore_baitshop:line:92
+      linia: 92
+      sekcja_skryptu: takequest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Just follow your nose.  You want another sniff to refresh your memory?
+      pl: Po prostu idź za nosem. Powtórzyć demonstrację zapachu dla odświeżenia pamięci?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9decdd4ad46b390b10b1
+      kontekst: textscripts.famstore_baitshop:line:93
+      linia: 93
+      sekcja_skryptu: takequest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He starts to reach under the counter again.
+      pl: Znów zaczyna sięgać pod ladę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4f66022a507abc5958c0
+      kontekst: textscripts.famstore_baitshop:line:94
+      linia: 94
+      sekcja_skryptu: takequest
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: No!  No, no, I've got it.
+      pl: Nie! Nie, wszystko jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_69fbaab77d266a9db8dd
+      kontekst: textscripts.famstore_baitshop:line:97
+      linia: 97
+      sekcja_skryptu: takequest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks! I'll just follow my nose to figure out where to dig.
+      pl: Dzięki! Po prostu pójdę za nosem i tak znajdę miejsce do kopania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_627e9c353c858dd00572
+      kontekst: textscripts.famstore_baitshop:line:100
+      linia: 100
+      sekcja_skryptu: takequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll be back when I have your worms.
+      pl: Wrócę, gdy zdobędę twoje robaki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sell
+    wpisy:
+    - id: sol_4cf2b1f92516c38dd1bb
+      kontekst: textscripts.famstore_baitshop:line:108
+      linia: 108
+      sekcja_skryptu: sell
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure!  Can I interest you in some minnows?
+      pl: Jasne! Może zainteresują cię rybki na przynętę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_84f2eb92fc32373ad49b
+      kontekst: textscripts.famstore_baitshop:line:110
+      linia: 110
+      sekcja_skryptu: sell
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Minnows?
+      pl: Rybki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7069bf19b6fa4d8c9462
+      kontekst: textscripts.famstore_baitshop:line:111
+      linia: 111
+      sekcja_skryptu: sell
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep!  They wriggle quite vigorously, I assure you.  Irresistible to hungry fish.
+      pl: Tak! Zapewniam, że wiją się bardzo energicznie. Głodne ryby nie potrafią im się oprzeć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e8bd85e31f7bf74f26e9
+      kontekst: textscripts.famstore_baitshop:line:112
+      linia: 112
+      sekcja_skryptu: sell
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, I don't want any minnows.
+      pl: Nie, nie chcę żadnych rybek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sell2
+    wpisy:
+    - id: sol_f0bcc52092f19dd07682
+      kontekst: textscripts.famstore_baitshop:line:116
+      linia: 116
+      sekcja_skryptu: sell2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well that's all right.  Maybe you'd like to look at our grasshoppers, then?
+      pl: W porządku. Może w takim razie obejrzysz nasze koniki polne?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_50961210fbd65967aae6
+      kontekst: textscripts.famstore_baitshop:line:117
+      linia: 117
+      sekcja_skryptu: sell2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Umm, no, I don't think so.
+      pl: Eee, nie, raczej nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sell3
+    wpisy:
+    - id: sol_5af7000c21c0cab50b01
+      kontekst: textscripts.famstore_baitshop:line:121
+      linia: 121
+      sekcja_skryptu: sell3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No grasshoppers, gotcha.  What about a nice handful of grubs?  Plump and juicy!
+      pl: Bez koników polnych, rozumiem. A może garść dorodnych pędraków? Pulchne i soczyste!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_51495c00df0c8cb2a1a5
+      kontekst: textscripts.famstore_baitshop:line:122
+      linia: 122
+      sekcja_skryptu: sell3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gross.  No.
+      pl: Fuj. Nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sell4
+    wpisy:
+    - id: sol_157da0dc4352dfaab961
+      kontekst: textscripts.famstore_baitshop:line:126
+      linia: 126
+      sekcja_skryptu: sell4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay, then, how about some leeches?  Chock full of blood.
+      pl: Dobrze, a co powiesz na pijawki? Wypełnione krwią po brzegi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9d0b26ae6b6bbee45809
+      kontekst: textscripts.famstore_baitshop:line:127
+      linia: 127
+      sekcja_skryptu: sell4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: This is awful.
+      pl: To jest okropne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sell5
+    wpisy:
+    - id: sol_f24c3ac2ec84547bf67b
+      kontekst: textscripts.famstore_baitshop:line:130
+      linia: 130
+      sekcja_skryptu: sell5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, if none of those strike your fancy, I think maybe you're not actually in the market for any live bait.
+      pl: Jeśli nic z tego nie przypada ci do gustu, to chyba tak naprawdę nie szukasz żywej przynęty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36d5d788b3447f4e3a7d
+      kontekst: textscripts.famstore_baitshop:line:131
+      linia: 131
+      sekcja_skryptu: sell5
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I think you're right.
+      pl: Chyba masz rację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1395
+  skrypt: famstore_grubbarrel
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_374c0be926f206182e53
+      kontekst: textscripts.famstore_grubbarrel:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a barrel of wriggling, slimy grubs.
+      pl: Beczka pełna wijących się, oślizgłych pędraków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_ebd396406dbb4a9ee080
+      kontekst: textscripts.famstore_grubbarrel:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dive in among the grubs and collect the choicest bit of slime from each of them in turn.
+      pl: Zanurzasz się między pędraki i po kolei zbierasz z każdego najlepszą porcję śluzu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1396
+  skrypt: famstore_mousetrap
+  pomieszczenie:
+    id: famstore_inside_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c8b60781775c3bf60e1c
+      kontekst: textscripts.famstore_mousetrap:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mousetrap has been rearmed.
+      pl: Pułapka została ponownie uzbrojona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f71189f163dba0c21e02
+      kontekst: textscripts.famstore_mousetrap:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mousetrap is disarmed and Grady has no idea.
+      pl: Pułapka jest rozbrojona, a Grady o niczym nie wie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a06808f323097ce95d1
+      kontekst: textscripts.famstore_mousetrap:line:10
+      linia: 10
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a mousetrap set up here.
+      pl: Ustawiono tu pułapkę na myszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1bdc5d4cc9719bfa9415
+      kontekst: textscripts.famstore_mousetrap:line:11
+      linia: 11
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Disarm it
+      pl: Rozbrój ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ee
+    wpisy:
+    - id: sol_6a6dc02f2091c1fa5f36
+      kontekst: textscripts.famstore_mousetrap:line:19
+      linia: 19
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Click!  Tee hee hee.
+      pl: Klik! Hihihi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: disarm
+    wpisy:
+    - id: sol_18e8d96a7492cc3c0779
+      kontekst: textscripts.famstore_mousetrap:line:27
+      linia: 27
+      sekcja_skryptu: disarm
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You disarm the mousetrap.  Grady frowns.
+      pl: Rozbrajasz pułapkę. Grady marszczy brwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5b68af0b80e0c59976ff
+      kontekst: textscripts.famstore_mousetrap:line:29
+      linia: 29
+      sekcja_skryptu: disarm
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, what's the big idea?
+      pl: Hej, co to ma znaczyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_44b2d9a6ba6308e6ef35
+      kontekst: textscripts.famstore_mousetrap:line:30
+      linia: 30
+      sekcja_skryptu: disarm
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sorry...
+      pl: Przepraszam...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_267a864e639dbd79e38a
+      kontekst: textscripts.famstore_mousetrap:line:31
+      linia: 31
+      sekcja_skryptu: disarm
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It was an accident.
+      pl: To przypadek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4742869119616625acb9
+      kontekst: textscripts.famstore_mousetrap:line:32
+      linia: 32
+      sekcja_skryptu: disarm
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It seemed cruel.
+      pl: To wydawało się okrutne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0355bd769155f328b2c9
+      kontekst: textscripts.famstore_mousetrap:line:33
+      linia: 33
+      sekcja_skryptu: disarm
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I just hate traps.
+      pl: Po prostu nie cierpię pułapek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: next
+    wpisy:
+    - id: sol_710d2617d6bcfd9ca269
+      kontekst: textscripts.famstore_mousetrap:line:38
+      linia: 38
+      sekcja_skryptu: next
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Grady frowns.  He walks over, resets the mousetrap, frowns again, and goes back behind the counter.
+      pl: Grady marszczy brwi. Podchodzi, ponownie ustawia pułapkę, jeszcze raz marszczy brwi i wraca za ladę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87b5cbb7aaf019065e13
+      kontekst: textscripts.famstore_mousetrap:line:40
+      linia: 40
+      sekcja_skryptu: next
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 19
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5025
+  skrypt: autoscript__famstore_past__leftblocker__popup
+  pomieszczenie:
+    id: famstore_past
+    nazwa_en: Grady's Live Bait
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_188ad115b851a6c42ffa
+      kontekst: textscripts.autoscript__famstore_past__leftblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whatever that is, you shouldn't walk into it.
+      pl: Cokolwiek to jest, nie należy w to wchodzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5026
+  skrypt: autoscript__famstore_past__rightblocker__popup
+  pomieszczenie:
+    id: famstore_past
+    nazwa_en: Grady's Live Bait
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_5539fb6c05c50fdd7557
+      kontekst: textscripts.autoscript__famstore_past__rightblocker__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing that way except a vast abyss of nothingness, and you're not in the mood for one of those right now.
+      pl: W tamtym kierunku nie ma nic poza rozległą otchłanią nicości, a na taką nie masz teraz nastroju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1398
+  skrypt: famstore_outhouseforward
+  pomieszczenie:
+    id: famstore_past
+    nazwa_en: Grady's Live Bait
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e872710cc57406fcb60e
+      kontekst: textscripts.famstore_outhouseforward:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Good old time travel toilet.
+      pl: Stary, dobry wehikuł czasu w toalecie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a771ec38317141cabf32
+      kontekst: textscripts.famstore_outhouseforward:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Blast forth
+      pl: Wystrzel naprzód
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

@@ -1,0 +1,893 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: physed
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 26
+liczba_wpisow: 38
+sceny:
+- kolejnosc_w_danych_gry: 2935
+  skrypt: physed_ai_a
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_5f9cfa323757d39c82f8
+      kontekst: textscripts.physed_ai_a:line:11
+      linia: 11
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ attacks @mytarget.name@ for $dmg$ damage.'
+      pl: '@me.name/capitalize@ atakuje @mytarget.name@ za $dmg$ pkt. obrażeń.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - $dmg$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2936
+  skrypt: physed_ai_b
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_99189a65777a39ca9921
+      kontekst: textscripts.physed_ai_b:line:12
+      linia: 12
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ attacks everybody for $dmg$.'
+      pl: '@me.name/capitalize@ atakuje wszystkich za $dmg$.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - $dmg$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9defef53ff6ca694629c
+      kontekst: textscripts.physed_ai_b:line:32
+      linia: 32
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ attacks @mytarget.name@ for $dmg$.'
+      pl: '@me.name/capitalize@ atakuje @mytarget.name@ za $dmg$.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - $dmg$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 2937
+  skrypt: physed_ai_behemoth
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_behemoth:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+- kolejnosc_w_danych_gry: 2938
+  skrypt: physed_ai_bombardier
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_e8e045368786c8d4667b
+      kontekst: textscripts.physed_ai_bombardier:line:9
+      linia: 9
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits everyone for @me.power@.'
+      pl: '@me.name/capitalize@ trafia wszystkich za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+- kolejnosc_w_danych_gry: 2939
+  skrypt: physed_ai_c
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_f970770acc408ee3f96a
+      kontekst: textscripts.physed_ai_c:line:20
+      linia: 20
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ attacks @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ atakuje @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2940
+  skrypt: physed_ai_chucker
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_chucker:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2941
+  skrypt: physed_ai_d
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1140b58caddb9280eabb
+      kontekst: textscripts.physed_ai_d:line:21
+      linia: 21
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ heals @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ leczy @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9defef53ff6ca694629c
+      kontekst: textscripts.physed_ai_d:line:46
+      linia: 46
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ attacks @mytarget.name@ for $dmg$.'
+      pl: '@me.name/capitalize@ atakuje @mytarget.name@ za $dmg$.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - $dmg$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002
+- kolejnosc_w_danych_gry: 2942
+  skrypt: physed_ai_e
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_b18c61ea4d981719338a
+      kontekst: textscripts.physed_ai_e:line:38
+      linia: 38
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ buffs @mytarget.name@ with a Good Egg.'
+      pl: '@me.name/capitalize@ wzmacnia @mytarget.name@ Dobrym Jajem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_91908241a0b6b3f904c4
+      kontekst: textscripts.physed_ai_e:line:43
+      linia: 43
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ attacks @mytarget.name@.'
+      pl: '@me.name/capitalize@ atakuje @mytarget.name@.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2943
+  skrypt: physed_ai_flinger
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_flinger:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2944
+  skrypt: physed_ai_giant
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_giant:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2945
+  skrypt: physed_ai_hurler
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_hurler:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2946
+  skrypt: physed_ai_juggernaut
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_juggernaut:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2947
+  skrypt: physed_ai_magus
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_e8e045368786c8d4667b
+      kontekst: textscripts.physed_ai_magus:line:10
+      linia: 10
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits everyone for @me.power@.'
+      pl: '@me.name/capitalize@ trafia wszystkich za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 2948
+  skrypt: physed_ai_ogre
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_ogre:line:7
+      linia: 7
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2949
+  skrypt: physed_ai_pelter
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_e8e045368786c8d4667b
+      kontekst: textscripts.physed_ai_pelter:line:10
+      linia: 10
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits everyone for @me.power@.'
+      pl: '@me.name/capitalize@ trafia wszystkich za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 2950
+  skrypt: physed_ai_pummeler
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_pummeler:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2951
+  skrypt: physed_ai_quarterback
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_e8e045368786c8d4667b
+      kontekst: textscripts.physed_ai_quarterback:line:9
+      linia: 9
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits everyone for @me.power@.'
+      pl: '@me.name/capitalize@ trafia wszystkich za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 2952
+  skrypt: physed_ai_slinger
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_slinger:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2953
+  skrypt: physed_ai_tank
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_tank:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2954
+  skrypt: physed_ai_testenemy
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_testenemy:line:6
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2955
+  skrypt: physed_ai_titan
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_1e3821568b200da71588
+      kontekst: textscripts.physed_ai_titan:line:8
+      linia: 8
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits @mytarget.name@ for @me.power@.'
+      pl: '@me.name/capitalize@ trafia @mytarget.name@ za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 12
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@mytarget.name@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+- kolejnosc_w_danych_gry: 2956
+  skrypt: physed_ai_witch
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_a7e7e801d1d93d3675f5
+      kontekst: textscripts.physed_ai_witch:line:3
+      linia: 3
+      sekcja_skryptu: start
+      typ: aside
+      mowca_lub_kanal: komunikat_techniczny_lub_poboczny
+      en: (400) particleburst(me,burst_dotstorm,backhand)
+      pl: (400) particleburst(me,burst_dotstorm,backhand)
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Techniczna instrukcja efektu cząsteczkowego, niewidoczna dla gracza; pozostawiono bez zmian.'
+    - id: sol_e8e045368786c8d4667b
+      kontekst: textscripts.physed_ai_witch:line:10
+      linia: 10
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits everyone for @me.power@.'
+      pl: '@me.name/capitalize@ trafia wszystkich za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 2957
+  skrypt: physed_ai_wizard
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_e8e045368786c8d4667b
+      kontekst: textscripts.physed_ai_wizard:line:11
+      linia: 11
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@me.name/capitalize@ hits everyone for @me.power@.'
+      pl: '@me.name/capitalize@ trafia wszystkich za @me.power@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne:
+      - '@me.name/capitalize@'
+      - '@me.power@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+- kolejnosc_w_danych_gry: 2960
+  skrypt: physed_athlete_wakeup
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_cc451ecefb2933a65ade
+      kontekst: textscripts.physed_athlete_wakeup:line:11
+      linia: 11
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Alice gains power.
+      pl: Alice zyskuje moc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b2d04b2893b8671eafec
+      kontekst: textscripts.physed_athlete_wakeup:line:17
+      linia: 17
+      sekcja_skryptu: start
+      typ: poptext
+      mowca_lub_kanal: komunikat
+      en: +@me.onfire@ Power
+      pl: +@me.onfire@ Mocy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@me.onfire@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1d60dc19bcaa2801671f
+      kontekst: textscripts.physed_athlete_wakeup:line:18
+      linia: 18
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bob gains power from being %status_onfire%.
+      pl: Bob zyskuje moc dzięki %status_onfire%.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%status_onfire%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2967
+  skrypt: physed_lib
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: athletedefeat
+    wpisy:
+    - id: sol_996e8882fe3d43e440a9
+      kontekst: textscripts.physed_lib:line:5
+      linia: 5
+      sekcja_skryptu: athletedefeat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@$defeatee$.name@ is too dirty to keep fighting.'
+      pl: '@$defeatee$.name@ ma zbyt dużo brudu, żeby walczyć dalej.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@$defeatee$.name@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id004 []
+  - etykieta: enemydefeat
+    wpisy:
+    - id: sol_996e8882fe3d43e440a9
+      kontekst: textscripts.physed_lib:line:10
+      linia: 10
+      sekcja_skryptu: enemydefeat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@$defeatee$.name@ is too dirty to keep fighting.'
+      pl: '@$defeatee$.name@ ma zbyt dużo brudu, żeby walczyć dalej.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@$defeatee$.name@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id004
+- kolejnosc_w_danych_gry: 2968
+  skrypt: physed_testfight
+  pomieszczenie: null
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0b453ee79e9d53ad44e2
+      kontekst: textscripts.physed_testfight:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door leads to an arena where you can practice food-fighting against another SIT division.
+      pl: Drzwi na arenę, gdzie możesz ćwiczyć Bitwę na Jedzenie przeciw innemu wydziałowi S.I.T.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_aec82720f4895e5b0729
+      kontekst: textscripts.physed_testfight:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do it [phys ed battle]
+      pl: Zrób to [bitwa WF]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_8a16f28d76a6f20f8a4a
+      kontekst: textscripts.physed_testfight:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won.
+      pl: Wygrałeś.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.physed_testfight:line:15
+      linia: 15
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_84d39ec206b563a2cf03
+      kontekst: textscripts.physed_testfight:line:20
+      linia: 20
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost.
+      pl: Przegrałeś.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.physed_testfight:line:22
+      linia: 22
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []

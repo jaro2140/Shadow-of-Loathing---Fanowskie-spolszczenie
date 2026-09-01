@@ -1,0 +1,1385 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: sitcourtyard
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 20
+liczba_wpisow: 73
+sceny:
+- kolejnosc_w_danych_gry: 5559
+  skrypt: autoscript__sit_steamtunnel__bedroll__popup
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_92b8071236bd0698444b
+      kontekst: textscripts.autoscript__sit_steamtunnel__bedroll__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Somebody found a warm, if not particularly luxurious, place to sleep.
+      pl: Ktoś znalazł ciepłe, choć niezbyt luksusowe miejsce do spania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4028
+  skrypt: sit_manhole
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4c5c767b0a362c574658
+      kontekst: textscripts.sit_manhole:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a very old manhole cover -- so old, it's practically an apehole.
+      pl: To bardzo stary właz — tak stary, że włazili nim jeszcze praludzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4029
+  skrypt: sit_manhole_open
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1558081f348e17dabe53
+      kontekst: textscripts.sit_manhole_open:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A ladder leads down through this open manhole.
+      pl: Przez otwarty właz prowadzi w dół drabina.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2b5e4b090c6f10bb7abe
+      kontekst: textscripts.sit_manhole_open:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb down
+      pl: Zejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4063
+  skrypt: sit_steamexit1
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_26d9c8b34995a429c15e
+      kontekst: textscripts.sit_steamexit1:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb up
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4064
+  skrypt: sit_steamexit2
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_37ab4b37e999353716b2
+      kontekst: textscripts.sit_steamexit2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door won't budge.
+      pl: Te drzwi ani drgną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0eb068a3d41258cbead5
+      kontekst: textscripts.sit_steamexit2:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hit the ATHENA button
+      pl: Naciśnij przycisk ATHENY
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_35bc6244452bf56fd437
+      kontekst: textscripts.sit_steamexit2:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm, nothing. This ATHENA terminal seems to have blown a fuse.
+      pl: Hm, nic z tego. Chyba przepalił się bezpiecznik w tym terminalu ATHENY.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ee
+    wpisy:
+    - id: sol_b0c55d9de377001d4922
+      kontekst: textscripts.sit_steamexit2:line:14
+      linia: 14
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ATHENA terminal crackles to life.
+      pl: Terminal ATHENY budzi się do życia z trzaskiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_08e64b8a8e995cea480f
+      kontekst: textscripts.sit_steamexit2:line:15
+      linia: 15
+      sekcja_skryptu: ee
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a thump as the door's internal lock disengages.
+      pl: Słyszysz łomot — wewnętrzny zamek drzwi właśnie się zwolnił.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 9
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_11ed004caa5eb76f2a75
+      kontekst: textscripts.sit_steamexit2:line:19
+      linia: 19
+      sekcja_skryptu: ee
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's behind the door
+      pl: Sprawdź, co jest za drzwiami
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4067
+  skrypt: sit_steamexit4
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_111eeb8f199a4b3e38d4
+      kontekst: textscripts.sit_steamexit4:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door seems to be barred from the other side.
+      pl: Te drzwi są chyba zaryglowane od drugiej strony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4070
+  skrypt: sit_steamexit7
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_84d3e4fc4f11d6dab7a8
+      kontekst: textscripts.sit_steamexit7:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door is locked.
+      pl: Te drzwi są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_739b298bbe635af84280
+      kontekst: textscripts.sit_steamexit7:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to ATHENA
+      pl: Porozmawiaj z ATHENĄ
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_69af8b55cf65496fc2c0
+      kontekst: textscripts.sit_steamexit7:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A harsh buzzing noise and a shower of sparks are her only reply. This terminal must be broken.
+      pl: W odpowiedzi słyszysz tylko ostre brzęczenie i widzisz deszcz iskier. Ten terminal musi być zepsuty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fix
+    wpisy:
+    - id: sol_bbb05a36ce4d3142622f
+      kontekst: textscripts.sit_steamexit7:line:17
+      linia: 17
+      sekcja_skryptu: fix
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your nimble fingers bypass the broken circuits and trip the door lock.
+      pl: Zręcznymi palcami obchodzisz uszkodzone obwody i zwalniasz zamek drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b031f99b152f341b62e
+      kontekst: textscripts.sit_steamexit7:line:20
+      linia: 20
+      sekcja_skryptu: fix
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go on through
+      pl: Przejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4071
+  skrypt: sit_steamexit8
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_729408439f3726576f7f
+      kontekst: textscripts.sit_steamexit8:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign has been scraped off of this door.  Curious.
+      pl: Napis na tych drzwiach został zdrapany. Ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8c03c4a47cc875dda1a1
+      kontekst: textscripts.sit_steamexit8:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go inside
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 25
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4072
+  skrypt: sit_steamexit9
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0ae8ca9c991a43ea3300
+      kontekst: textscripts.sit_steamexit9:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door has a combination lock on it.
+      pl: Te drzwi zabezpiecza zamek szyfrowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1d19107e0e0ebf3df240
+      kontekst: textscripts.sit_steamexit9:line:10
+      linia: 10
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Steve's note says "1 2 3". Jeez, these guys.
+      pl: W notatce Steve'a stoi „1 2 3”. Rany, co za ludzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_dcb2def56a9f24472b9f
+      kontekst: textscripts.sit_steamexit9:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dial in the combo and the lock clicks open.
+      pl: Wprowadzasz kombinację i zamek otwiera się z kliknięciem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a2134215bf7b6cfc7522
+      kontekst: textscripts.sit_steamexit9:line:12
+      linia: 12
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4075
+  skrypt: sit_steamhobocode
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_80637c997e1e8077adc9
+      kontekst: textscripts.sit_steamhobocode:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: TRY ORDERING STUFFED PEPPER STYLE.
+      pl: SPRÓBUJ ZAMÓWIĆ W STYLU FASZEROWANEJ PAPRYKI.
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Podpowiedź odblokowuje sekretną pozycję menu; musi pozostać identyczna znaczeniowo z polską nazwą „fish
+        sandwich (stuffed pepper style)” w UI/przedmiotach.'
+    - id: sol_735f995cfca78107e3ca
+      kontekst: textscripts.sit_steamhobocode:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already translated this code.  It says $message$
+      pl: 'Ten kod już przetłumaczyłeś. Brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 20
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_067303aa3dfbfe1faffc
+      kontekst: textscripts.sit_steamhobocode:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange marks are scribbled on a brick here.
+      pl: Na tej cegle nabazgrano jakieś dziwne znaki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_10085041b9d76ff0c19b
+      kontekst: textscripts.sit_steamhobocode:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some hobo code is scribbled on a brick here.
+      pl: Na tej cegle nabazgrano kod włóczęgów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1ac6b611ce848855701e
+      kontekst: textscripts.sit_steamhobocode:line:22
+      linia: 22
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The code reads $message$
+      pl: 'Kod brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 15
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0f411d181e236094c23f
+      kontekst: textscripts.sit_steamhobocode:line:23
+      linia: 23
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, a secret menu item!
+      pl: Uuu, tajna pozycja w menu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4076
+  skrypt: sit_steamrat
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 28
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4b30be6eda994a257806
+      kontekst: textscripts.sit_steamrat:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat waves at you as you approach.
+      pl: Kiedy się zbliżasz, szczur macha do ciebie łapką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ec3bbd006d971a0a77bb
+      kontekst: textscripts.sit_steamrat:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a closer look
+      pl: Przyjrzyj się bliżej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ratconvo
+    wpisy:
+    - id: sol_9a5a84d0350242015da4
+      kontekst: textscripts.sit_steamrat:line:13
+      linia: 13
+      sekcja_skryptu: ratconvo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey there, little fella.
+      pl: Cześć, malutki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4f093dccd5cb758145f1
+      kontekst: textscripts.sit_steamrat:line:14
+      linia: 14
+      sekcja_skryptu: ratconvo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat emits a few squeaks.
+      pl: Szczur wydaje z siebie kilka pisków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_38579f53896d478cf472
+      kontekst: textscripts.sit_steamrat:line:15
+      linia: 15
+      sekcja_skryptu: ratconvo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What's shakin'?
+      pl: Co tam piszczy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f85ab4740e3d261db5bf
+      kontekst: textscripts.sit_steamrat:line:16
+      linia: 16
+      sekcja_skryptu: ratconvo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat dashes into his hole and returns holding a tiny piece of cheese.  He points at you, sweeps his arm broadly from left to right,
+        then points at the cheese.
+      pl: Szczur pędzi do swojej nory i wraca z maleńkim kawałkiem sera. Wskazuje na ciebie, wykonuje zamaszysty ruch łapką od lewej do prawej,
+        a potem wskazuje na ser.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_11d792e25094ea18ef10
+      kontekst: textscripts.sit_steamrat:line:17
+      linia: 17
+      sekcja_skryptu: ratconvo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He stares at you for a few seconds, then eats the crumb.
+      pl: Przez kilka sekund wpatruje się w ciebie, po czym zjada okruszek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c58ffd494d60cab3550f
+      kontekst: textscripts.sit_steamrat:line:18
+      linia: 18
+      sekcja_skryptu: ratconvo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You want me to bring you some cheese? [side quest]
+      pl: Chcesz, żebym przyniósł ci trochę sera? [zadanie poboczne]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bf90cc5bf7f0cdcc7f1b
+      kontekst: textscripts.sit_steamrat:line:19
+      linia: 19
+      sekcja_skryptu: ratconvo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See you later, Mr. Rat!
+      pl: Do zobaczenia, panie Szczurze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: sol_fe9a0c17e16f0e00e142
+      kontekst: textscripts.sit_steamrat:line:23
+      linia: 23
+      sekcja_skryptu: takequest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat nods and scurries around in a quick little circle.
+      pl: Szczur kiwa głową i zatacza w pośpiechu małe kółko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1f12d4e49c526650e6c4
+      kontekst: textscripts.sit_steamrat:line:24
+      linia: 24
+      sekcja_skryptu: takequest
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, I'll see what I can do.
+      pl: Dobrze, zobaczę, co da się zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d03d3130c2c1faa7b7d8
+      kontekst: textscripts.sit_steamrat:line:26
+      linia: 26
+      sekcja_skryptu: takequest
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him
+      pl: Zostaw go
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 14
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postquest
+    wpisy:
+    - id: sol_6b19807c1a03e690571a
+      kontekst: textscripts.sit_steamrat:line:30
+      linia: 30
+      sekcja_skryptu: postquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat looks at you with a hopeful expression on his tiny rat face.
+      pl: Szczur patrzy na ciebie z nadzieją wypisaną na swoim maleńkim szczurzym pyszczku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.sit_steamrat:line:43
+      linia: 43
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gator
+    wpisy:
+    - id: sol_1fdc2e02ce26efaa1fe3
+      kontekst: textscripts.sit_steamrat:line:48
+      linia: 48
+      sekcja_skryptu: gator
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat sniffs the gator cheese and retches a little bit.  You didn't even know rats had a gag reflex.  He raises an eyebrow at you
+        in protest, but eventually drags the cheese into his hole and emerges with a ring for you.
+      pl: Szczur wącha ser kajmański i lekko się krztusi. Nawet nie wiedziałeś, że szczury mają odruch wymiotny. Unosi brew w ramach protestu, ale ostatecznie wciąga ser do nory i wraca z pierścionkiem dla ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_828616017f786d13deb3
+      kontekst: textscripts.sit_steamrat:line:50
+      linia: 50
+      sekcja_skryptu: gator
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thank you.  And sorry, I don't like it either.
+      pl: Dziękuję. I przepraszam — mnie też nie smakuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: squirrel
+    wpisy:
+    - id: sol_c6bfe48f9102493b18c4
+      kontekst: textscripts.sit_steamrat:line:55
+      linia: 55
+      sekcja_skryptu: squirrel
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat considers the squirrel cheese.  He wrinkles his nose a bit, but eventually decides to keep it.  He hauls it into his hole, and
+        emerges with a ring.
+      pl: Szczur rozważa ser wiewiórczy. Trochę marszczy nos, ale w końcu postanawia go zatrzymać. Wciąga ser do nory i wraca z pierścionkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bb6f2523273ace575457
+      kontekst: textscripts.sit_steamrat:line:57
+      linia: 57
+      sekcja_skryptu: squirrel
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks!  Sorry about the whole... squirrel thing.
+      pl: Dzięki! I przepraszam za całą tę... wiewiórczą sprawę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: govt
+    wpisy:
+    - id: sol_f6a0dd88ed63c883775e
+      kontekst: textscripts.sit_steamrat:line:62
+      linia: 62
+      sekcja_skryptu: govt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat nibbles part of the wrapper off of the block of cheese and gives it a good sniff.  He nods at you, drags the block into his
+        hole, and comes back a few seconds later with a gift.
+      pl: Szczur odgryza kawałek opakowania z bloku sera i porządnie go obwąchuje. Kiwając do ciebie głową, wciąga blok do nory, a po kilku sekundach
+        wraca z prezentem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c64dc1c4ee32fa54d8fc
+      kontekst: textscripts.sit_steamrat:line:64
+      linia: 64
+      sekcja_skryptu: govt
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thank you for your service.
+      pl: Dziękuję za służbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cream
+    wpisy:
+    - id: sol_f3324c473cbb060091f5
+      kontekst: textscripts.sit_steamrat:line:70
+      linia: 70
+      sekcja_skryptu: cream
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat graciously accepts the ball of cream cheese and carries it into his hole.  He emerges with a ring, which only has a little bit
+        of leftover cream cheese stuck on it.
+      pl: Szczur łaskawie przyjmuje kulkę serka śmietankowego i zanosi ją do nory. Wraca z pierścionkiem, do którego przykleiła się już tylko
+        odrobina serka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a15278c956bb20a48d0a
+      kontekst: textscripts.sit_steamrat:line:72
+      linia: 72
+      sekcja_skryptu: cream
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, and sorry about the mess.
+      pl: Dzięki, i przepraszam za ten bałagan.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loaf
+    wpisy:
+    - id: sol_127457dbd430b57fe515
+      kontekst: textscripts.sit_steamrat:line:77
+      linia: 77
+      sekcja_skryptu: loaf
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He wrinkles his nose at the loaf, but decides in the end that it's worth keeping.  He drags it into his hole, and emerges with a ring.
+      pl: Marszczy nos na widok bochenka, ale ostatecznie uznaje, że warto go zatrzymać. Wciąga go do nory i wraca z pierścionkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4f6f1e3651be8cb58908
+      kontekst: textscripts.sit_steamrat:line:79
+      linia: 79
+      sekcja_skryptu: loaf
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sorry, the next one will be better.
+      pl: Przepraszam. Następny będzie lepszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: conjure
+    wpisy:
+    - id: sol_2459955dfc3a6ba05a99
+      kontekst: textscripts.sit_steamrat:line:84
+      linia: 84
+      sekcja_skryptu: conjure
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give it to him
+      pl: Daj mu go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givecon
+    wpisy:
+    - id: sol_beec465665cbb65748e7
+      kontekst: textscripts.sit_steamrat:line:87
+      linia: 87
+      sekcja_skryptu: givecon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat sniffs the cheese and makes a few delighted squeaking noises.  He drags the cheese into his hole and emerges with a ring.
+      pl: Szczur wącha ser i wydaje z siebie kilka zachwyconych pisków. Wciąga ser do nory i wraca z pierścionkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: give
+    wpisy:
+    - id: sol_46fcefcac40524ce0d13
+      kontekst: textscripts.sit_steamrat:line:94
+      linia: 94
+      sekcja_skryptu: give
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Mr. Rat!
+      pl: Dzięki, panie Szczurze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: backtohub
+    wpisy:
+    - id: sol_2c0babe5abe78d4b34d9
+      kontekst: textscripts.sit_steamrat:line:102
+      linia: 102
+      sekcja_skryptu: backtohub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rat squeaks as if to say "no problem!"
+      pl: 'Szczur piszczy, jakby chciał powiedzieć: „nie ma sprawy!”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4077
+  skrypt: sit_steamshoes
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e443c8d986331ba96ee7
+      kontekst: textscripts.sit_steamshoes:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This box says FREE SHOES on it.  You're not sure if it's an announcement or a political statement.
+      pl: Na tym pudle napisano „WOLNE BUTY”. Nie masz pewności, czy to ogłoszenie, czy deklaracja polityczna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Funkcjonalna adaptacja dwuznaczności FREE (darmowe/wolne); sprawdzić czy napis występuje również na grafice
+        i ujednolicić oba wystąpienia.'
+    - id: sol_6b217e5994f228776aad
+      kontekst: textscripts.sit_steamshoes:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Find out
+      pl: Dowiedz się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_f271b48fa13be6fcad18
+      kontekst: textscripts.sit_steamshoes:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It was just a regular FREE SHOES sign.
+      pl: To był tylko zwyczajny napis „WOLNE BUTY”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Ujednolicić z tekstem/grafiką „FREE SHOES”.'
+- kolejnosc_w_danych_gry: 4078
+  skrypt: sit_steamtoolbox
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7befc9367dd96f1aaf8a
+      kontekst: textscripts.sit_steamtoolbox:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Tools abandoned by some fleeing prankster, no doubt.
+      pl: Narzędzia porzucone bez wątpienia przez jakiegoś dowcipnisia w odwrocie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_497336d5efc70fdb52ce
+      kontekst: textscripts.sit_steamtoolbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what they left us
+      pl: Sprawdź, co nam zostawił
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_15aa093cd3641170d371
+      kontekst: textscripts.sit_steamtoolbox:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, they were really up to some serious prankery!
+      pl: Rany, szykował naprawdę gruby dowcip!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4081
+  skrypt: sit_steamtunnel_loop
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0e6abeca4f7b7d369183
+      kontekst: textscripts.sit_steamtunnel_loop:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This should never be called.
+      pl: This should never be called.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Komunikat techniczny/deweloperski; sprawdzić, czy może pojawić się graczowi.'
+- kolejnosc_w_danych_gry: 4079
+  skrypt: sit_steamtunnelflies
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b391ad9d08f21a018a14
+      kontekst: textscripts.sit_steamtunnelflies:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are a few hot flies buzzing around this vent.
+      pl: Wokół tego wywietrznika bzyczy kilka gorących much.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_3a5d50b15dd0e854aab3
+      kontekst: textscripts.sit_steamtunnelflies:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully extract the hottest fluids from inside each fly.
+      pl: Ostrożnie wydobywasz z wnętrza każdej muchy najgorętsze płyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4080
+  skrypt: sit_steamtunnelradio
+  pomieszczenie:
+    id: sit_steamtunnel
+    nazwa_en: S.I.T. (Steam Tunnels)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_36ce9bbf1e88e3b9939e
+      kontekst: textscripts.sit_steamtunnelradio:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Somebody has tapped into the steam pipe to power this radio.
+      pl: Ktoś podłączył to radio do rury parowej, żeby je zasilać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5456
+  skrypt: autoscript__sitcourtyard__sculpture1__popup
+  pomieszczenie:
+    id: sitcourtyard
+    nazwa_en: S.I.T. Courtyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_14adfcb3739c5b3808d8
+      kontekst: textscripts.autoscript__sitcourtyard__sculpture1__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sculpture is called "ZERO MAN."  That's also what you rate it on a scale of one to ten, man.
+      pl: Ta rzeźba nosi tytuł „ZERO, STARY”. W skali od jednego do dziesięciu też dajesz jej zero, stary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5457
+  skrypt: autoscript__sitcourtyard__sculpture2__popup
+  pomieszczenie:
+    id: sitcourtyard
+    nazwa_en: S.I.T. Courtyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e0e6586deb6b6817dc3c
+      kontekst: textscripts.autoscript__sitcourtyard__sculpture2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be symbolic of something.  Probably bats.
+      pl: To musi coś symbolizować. Zapewne nietoperze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3786
+  skrypt: sitcourtyard_leftexit
+  pomieszczenie:
+    id: sitcourtyard
+    nazwa_en: S.I.T. Courtyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d68989510907bf377581
+      kontekst: textscripts.sitcourtyard_leftexit:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wander back into the main building?
+      pl: Wrócić do głównego budynku?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id001 []
+    - id: sol_60177be9ff8457737632
+      kontekst: textscripts.sitcourtyard_leftexit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yup
+      pl: Ano
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 3788
+  skrypt: sitcourtyard_rightexit
+  pomieszczenie:
+    id: sitcourtyard
+    nazwa_en: S.I.T. Courtyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_d68989510907bf377581
+      kontekst: textscripts.sitcourtyard_rightexit:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wander back into the main building?
+      pl: Wrócić do głównego budynku?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_60177be9ff8457737632
+      kontekst: textscripts.sitcourtyard_rightexit:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yup
+      pl: Ano
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id002

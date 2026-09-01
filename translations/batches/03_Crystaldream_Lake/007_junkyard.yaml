@@ -1,0 +1,2876 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Crystaldream_Lake
+grupa_lokacji_lub_systemu: junkyard
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 32
+liczba_wpisow: 158
+sceny:
+- kolejnosc_w_danych_gry: 2345
+  skrypt: junkyard_bigdoor
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c1d96f25ca8000e9ab87
+      kontekst: textscripts.junkyard_bigdoor:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter it
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2349
+  skrypt: junkyard_exitpopup
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3554bb2d24d34157e414
+      kontekst: textscripts.junkyard_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Need a breath of fresh air?
+      pl: Potrzebujesz świeżego powietrza?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_73a2daf8187646912bb8
+      kontekst: textscripts.junkyard_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Please
+      pl: Proszę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2350
+  skrypt: junkyard_fishingrodpile
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f442ace74f80a49cd053
+      kontekst: textscripts.junkyard_fishingrodpile:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A heated fishing rod cooks the trash from the inside.
+      pl: Rozgrzana wędka gotuje śmieci od środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_814bc1a4dd45105e8df9
+      kontekst: textscripts.junkyard_fishingrodpile:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it out
+      pl: Wyciągnij ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: sol_44cd49e2f716cc1f32a2
+      kontekst: textscripts.junkyard_fishingrodpile:line:9
+      linia: 9
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The trash is left medium rare, but a connoisseur would eat it well done.
+      pl: Śmieci pozostają średnio wysmażone, ale koneser zjadłby je dobrze wysmażone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2355
+  skrypt: junkyard_flyheap
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_871691bf38cfffcde3b7
+      kontekst: textscripts.junkyard_flyheap:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pile of trash must be especially appealing to flies.
+      pl: Ta sterta śmieci musi być wyjątkowo atrakcyjna dla much.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_303b2e865f2b92b3b9f4
+      kontekst: textscripts.junkyard_flyheap:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ah, of course.  It's because flies love things that are awful.
+      pl: Oczywiście. Muchy uwielbiają okropne rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2364
+  skrypt: junkyard_greasepile
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3fc63acea4b28cdd5d19
+      kontekst: textscripts.junkyard_greasepile:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It seems like all the wettest, slimiest trash has been sorted into this pile.
+      pl: Najwyraźniej na tej stercie zgromadzono najbardziej mokre i oślizgłe śmieci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_540fc50d173fc9e53eb2
+      kontekst: textscripts.junkyard_greasepile:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab a nasty old spoon from the pile and use it to dig through the gloop. You don't find anything, so you just keep the spoon. I
+        don't know <i>why</i> you would keep that spoon, but you did.
+      pl: Chwytasz paskudną starą łyżkę ze sterty i grzebiesz nią w mazi. Niczego nie znajdujesz, więc zachowujesz łyżkę. Nie wiem, <i>dlaczego</i>
+        ktoś miałby to zrobić, ale właśnie tak się stało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2366
+  skrypt: junkyard_hobo
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 31
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41e238448bc4c11ff561
+      kontekst: textscripts.junkyard_hobo:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 134
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: sol_551e26f8aca13f12a577
+      kontekst: textscripts.junkyard_hobo:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He squints at you.
+      pl: Mruży oczy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_61241b1a53a15fb4b2b5
+      kontekst: textscripts.junkyard_hobo:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm a little busy right now.
+      pl: Jestem teraz trochę zajęty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.junkyard_hobo:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id001
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Widoczna wypowiedź jest składana przez makro języka Cienia. Token pozostawiono bez zmian; sprawdzić lokalizację
+        generatora makra.'
+    - id: sol_ccf9421914d4a3ae0459
+      kontekst: textscripts.junkyard_hobo:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Listen, I don't wanna tell you to buzz off, exactly, but...
+      pl: Słuchaj, nie chcę mówić, żebyś się odczepił, ale...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8d139debe700c82f2fb0
+      kontekst: textscripts.junkyard_hobo:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: leftsayshadow
+      mowca_lub_kanal: postac_po_lewej_cien
+      en: (%sf_sentence1%)
+      pl: (%sf_sentence1%)
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 41
+      tokeny_techniczne:
+      - '%sf_sentence1%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id001
+    - id: sol_03e3d7d8cf46df7d35ff
+      kontekst: textscripts.junkyard_hobo:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah.
+      pl: No.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.junkyard_hobo:line:20
+      linia: 20
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id002 []
+  - etykieta: intro
+    wpisy:
+    - id: sol_9fb42cdf1020d233e752
+      kontekst: textscripts.junkyard_hobo:line:30
+      linia: 30
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy! I'm Beanie.
+      pl: Czołem! Jestem Beanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_80ef1d291eb791c6de9c
+      kontekst: textscripts.junkyard_hobo:line:31
+      linia: 31
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi Beanie, I'm @firstname@. What are you up to?
+      pl: Cześć, Beanie. Jestem @firstname@. Co robisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36fc020233ba44ca196b
+      kontekst: textscripts.junkyard_hobo:line:32
+      linia: 32
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm tryin'a get this stove so's I can haul it back to our hobo camp outside of Ocean City.
+      pl: Próbuję wydobyć ten piecyk, żeby zawlec go do naszego obozu włóczęgów pod Ocean City.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ec468555d34f6a001f9b
+      kontekst: textscripts.junkyard_hobo:line:34
+      linia: 34
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, you know about the camp?
+      pl: Och, wiesz o obozie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8ba31ed10fec73fe3d0e
+      kontekst: textscripts.junkyard_hobo:line:35
+      linia: 35
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep! I'll be cookin' up a mess of beans once I get this stove back there, lemme tell ya!
+      pl: Ano! Jak tylko dowiozę tam piecyk, ugotuję fasoli co niemiara, mówię ci!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.junkyard_hobo:line:47
+      linia: 47
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id002
+  - etykieta: sendtocamp
+    wpisy:
+    - id: sol_a4e34399067690a1b35c
+      kontekst: textscripts.junkyard_hobo:line:57
+      linia: 57
+      sekcja_skryptu: sendtocamp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With assorted grunting and heaving, the two of you manage to yank the stove free.
+      pl: Wśród stęknięć i wysiłku udaje wam się wspólnie wyrwać piecyk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_450d2c1a5cfe62f441ca
+      kontekst: textscripts.junkyard_hobo:line:58
+      linia: 58
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Whew! Thanks a million, pal. Now I just gotta drag this back to camp, and I'll be in <i>beans</i>ness! Ha ha!
+      pl: Uff! Wielkie dzięki, kolego. Teraz tylko zaciągnę go do obozu i będę w fasolowym <i>interesie</i>! Ha, ha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f5fac690f9e3ab373649
+      kontekst: textscripts.junkyard_hobo:line:61
+      linia: 61
+      sekcja_skryptu: sendtocamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Where is this camp?
+      pl: Gdzie jest ten obóz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bcb4865dafb1bbee0c3c
+      kontekst: textscripts.junkyard_hobo:line:62
+      linia: 62
+      sekcja_skryptu: sendtocamp
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... since you've done us a real favor here, I guess I can tell ya. Actually, it's probably easier if I just draw it on yer map.
+        Is this a napkin?
+      pl: Cóż... skoro tak bardzo nam pomagasz, chyba mogę powiedzieć. Właściwie łatwiej będzie zaznaczyć go na twojej mapie. Czy to serwetka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4c9951d445b0f73cc102
+      kontekst: textscripts.junkyard_hobo:line:63
+      linia: 63
+      sekcja_skryptu: sendtocamp
+      typ: mapunlock
+      mowca_lub_kanal: odblokowanie_mapy
+      en: Ocean City Hobo Camp
+      pl: Obóz Włóczęgów w Ocean City
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c7ffe35bdfbe32d21db4
+      kontekst: textscripts.junkyard_hobo:line:64
+      linia: 64
+      sekcja_skryptu: sendtocamp
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It is, yeah. Thanks!
+      pl: Tak. Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c8bd9582e34328e749ad
+      kontekst: textscripts.junkyard_hobo:line:66
+      linia: 66
+      sekcja_skryptu: sendtocamp
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: See you around, Beanie.
+      pl: Do zobaczenia, Beanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getcode
+    wpisy:
+    - id: sol_5f6834c6bf1b6d2de3b3
+      kontekst: textscripts.junkyard_hobo:line:70
+      linia: 70
+      sekcja_skryptu: getcode
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you know any hobo code you can teach me?
+      pl: Nauczysz mnie jakichś znaków kodu włóczęgów?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f763bba21259bb9a55df
+      kontekst: textscripts.junkyard_hobo:line:71
+      linia: 71
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure! Heck, I know about a dozen different symbols for beans!
+      pl: Pewnie! Do diabła, znam z tuzin różnych symboli fasoli!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9d3147c2b8fae9f0de6d
+      kontekst: textscripts.junkyard_hobo:line:72
+      linia: 72
+      sekcja_skryptu: getcode
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Wouldn''t one be enough?'
+      pl: '...Czy jeden nie wystarczy?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5dd8618eb31537e5d55e
+      kontekst: textscripts.junkyard_hobo:line:73
+      linia: 73
+      sekcja_skryptu: getcode
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...They all look pretty sim''lar, now that you mention it.'
+      pl: '...Skoro wspominasz, wszystkie wyglądają prawie tak samo.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beans
+    wpisy:
+    - id: sol_29094cc63b0a34f30189
+      kontekst: textscripts.junkyard_hobo:line:81
+      linia: 81
+      sekcja_skryptu: beans
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You guess that on account'a my name?
+      pl: Zgadujesz przez moje imię?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c6eaa2b4b914d4c7549e
+      kontekst: textscripts.junkyard_hobo:line:82
+      linia: 82
+      sekcja_skryptu: beans
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, that and the fact that you mentioned cooking beans.
+      pl: Cóż, również przez wspomnienie o gotowaniu fasoli.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b29dc873844a807b75ad
+      kontekst: textscripts.junkyard_hobo:line:83
+      linia: 83
+      sekcja_skryptu: beans
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I did a bit of beanslingin' back in the day, but there's no money in it since those dang whistles got everywhere.
+      pl: Tak, dawniej trochę czarowałem fasolą, ale odkąd te cholerne gwizdki są wszędzie, nie ma w tym pieniędzy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c5e29c14c20fbedba721
+      kontekst: textscripts.junkyard_hobo:line:84
+      linia: 84
+      sekcja_skryptu: beans
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whistles?
+      pl: Gwizdki?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_36d66b489080faa34579
+      kontekst: textscripts.junkyard_hobo:line:85
+      linia: 85
+      sekcja_skryptu: beans
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Some company went an' put little plastic whistles in their cereal boxes. For the kiddies, you know? But the noise the dang things make
+        is the exact noise that makes bean magic go flooey. An' now they're everywhere. Happened t'see one fall outta that junk pile, in fact.
+        Here, you take it. Wash it off before usin' it.
+      pl: Jakaś firma zaczęła wkładać do pudełek płatków małe plastikowe gwizdki. Dla dzieciaków, wiesz? Ale te cholerstwa wydają dokładnie taki
+        dźwięk, od którego fasolowa magia wariuje. Teraz są wszędzie. Jeden akurat wypadł z tej sterty. Masz, weź go. Umyj przed użyciem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_693f1a7199e52622c499
+      kontekst: textscripts.junkyard_hobo:line:88
+      linia: 88
+      sekcja_skryptu: beans
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Weird, thanks.
+      pl: Dziwne, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2373
+  skrypt: junkyard_radio
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_843a331e458941938424
+      kontekst: textscripts.junkyard_radio:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This radio must be solar powered.  Or trash powered.
+      pl: To radio musi być zasilane słońcem. Albo śmieciami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2374
+  skrypt: junkyard_ringpile
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0e91210b0251ca39ba01
+      kontekst: textscripts.junkyard_ringpile:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh hey, there's something shiny in this pile of trash!
+      pl: O, na tej stercie coś błyszczy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.junkyard_ringpile:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: e
+    wpisy:
+    - id: sol_a3843d9a90f33f07c7e4
+      kontekst: textscripts.junkyard_ringpile:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a ring! Neat!
+      pl: Pierścień! Nieźle!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2381
+  skrypt: junkyard_stairsdown
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_82c099475181d643f895
+      kontekst: textscripts.junkyard_stairsdown:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A tunnel leading back down into that miserable trash warren.
+      pl: Tunel prowadzący z powrotem do tej żałosnej śmieciowej królikarni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b70a8a797fe8bd674bdc
+      kontekst: textscripts.junkyard_stairsdown:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head on in
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2383
+  skrypt: junkyard_stinkpile
+  pomieszczenie:
+    id: junkyard
+    nazwa_en: The Old Junkyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_09ab3bda9ba8f2255a03
+      kontekst: textscripts.junkyard_stinkpile:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pile of trash smells much worse than the other piles.
+      pl: Ta sterta śmieci pachnie znacznie gorzej od pozostałych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_347637cf37e71a6d6cd5
+      kontekst: textscripts.junkyard_stinkpile:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Congratulations, it's the worst pair of pants you could've ever imagined. Yayyyyy.
+      pl: Gratulacje, to najgorsza para spodni, jaką da się sobie wyobrazić. Jeeeej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2346
+  skrypt: junkyard_book
+  pomieszczenie:
+    id: junkyard_hub
+    nazwa_en: The Old Junkyard (Faerie Complex)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e94b3df71b131d99afee
+      kontekst: textscripts.junkyard_book:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A nasty book is half-bured in the nasty ground here.
+      pl: W paskudnej ziemi tkwi na wpół zakopana paskudna książka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_cc4671bef6d3ddfbad17
+      kontekst: textscripts.junkyard_book:line:9
+      linia: 9
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You rip the book out of the ground.  Now you should go wash your hands.
+      pl: Wyrywasz książkę z ziemi. Teraz powinieneś umyć ręce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2365
+  skrypt: junkyard_hanger
+  pomieszczenie:
+    id: junkyard_hub
+    nazwa_en: The Old Junkyard (Faerie Complex)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e4d58bc7fe625d4fe2ce
+      kontekst: textscripts.junkyard_hanger:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a loose coat-hanger on the ground here.
+      pl: Na ziemi leży porzucony wieszak na ubrania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.junkyard_hanger:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz go.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: e
+    wpisy:
+    - id: sol_c4ec97c2c69d5e172e3e
+      kontekst: textscripts.junkyard_hanger:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You never know when this could come in handy.
+      pl: Nigdy nie wiadomo, kiedy się przyda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2371
+  skrypt: junkyard_hub_onenter
+  pomieszczenie:
+    id: junkyard_hub
+    nazwa_en: The Old Junkyard (Faerie Complex)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 24
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: sol_a3015ac55394f954aeca
+      kontekst: textscripts.junkyard_hub_onenter:line:9
+      linia: 9
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It turns out that this garbage dump is much deeper and older than it initially appeared -- huge rooms and tunnels have been carved out
+        of the trash, like the worst archaeological dig imaginable.
+      pl: Okazuje się, że wysypisko jest znacznie głębsze i starsze, niż początkowo się zdawało. W śmieciach wydrążono ogromne komnaty i tunele,
+        niczym w najgorszym wyobrażalnym wykopalisku archeologicznym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_53311dd236cfcccaa44f
+      kontekst: textscripts.junkyard_hub_onenter:line:11
+      linia: 11
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And, just to make a bad scene even worse, it looks like a whole gang of those horrible little faeries have made a home in here.
+      pl: Jakby sytuacja nie była dość zła, wygląda na to, że zamieszkała tu cała banda tych okropnych małych wróżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c296629a5f304f6ba85d
+      kontekst: textscripts.junkyard_hub_onenter:line:12
+      linia: 12
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ugh
+      pl: Uch
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e2cb3044e81de24d7170
+      kontekst: textscripts.junkyard_hub_onenter:line:15
+      linia: 15
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Weirdly, it seems like the trash caves are home to a swarm of large, beautifully-colored butterflies?
+      pl: Co dziwne, jaskinie śmieci zdają się być domem roju wielkich, pięknie ubarwionych motyli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_18186d75e29cd4a6d9e6
+      kontekst: textscripts.junkyard_hub_onenter:line:16
+      linia: 16
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You move toward them slowly so to not startle them, and as you get closer you realize that instead of having regular insect bodies,
+        they're little people! Faeries! Wow!
+      pl: Powoli podchodzisz, by ich nie spłoszyć, i z bliska odkrywasz, że zamiast zwykłych owadzich ciał mają maleńkich ludzi! Wróżki! Rany!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f400ad76c30d865b819a
+      kontekst: textscripts.junkyard_hub_onenter:line:17
+      linia: 17
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Greet them
+      pl: Przywitaj się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: sol_03bbf6186cc7e5a1323a
+      kontekst: textscripts.junkyard_hub_onenter:line:23
+      linia: 23
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hello there!
+      pl: Dzień dobry!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d754d89c35b0c644f4e5
+      kontekst: textscripts.junkyard_hub_onenter:line:25
+      linia: 25
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20><i>Hello!</i></size>
+      pl: <size=20><i>Cześć!</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_18ae447c8ac57bc1ad54
+      kontekst: textscripts.junkyard_hub_onenter:line:26
+      linia: 26
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Gosh, you're really beautiful!
+      pl: Rany, ale jesteście piękne!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_5146d8ad09091e684631
+      kontekst: textscripts.junkyard_hub_onenter:line:27
+      linia: 27
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20><i>You're beautiful!</i></size>
+      pl: <size=20><i>Jesteś piękny!</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b77c50589fdec78d30db
+      kontekst: textscripts.junkyard_hub_onenter:line:28
+      linia: 28
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha, that sounded just like my voice! Are you guys mimics? That's real cu--
+      pl: Ha, ha, zabrzmiało zupełnie jak mój głos! Naśladujecie dźwięki? Ale faj—
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_bce103f4d890fd349146
+      kontekst: textscripts.junkyard_hub_onenter:line:29
+      linia: 29
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20><i>AAAA IT'S ON MY FACE! NO NOT MY EYES! AAAARRGGH!</i></size>
+      pl: <size=20><i>AAAA, TO MI SIEDZI NA TWARZY! TYLKO NIE OCZY! AAAAARGH!</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0890fcd00c1e326e9b8f
+      kontekst: textscripts.junkyard_hub_onenter:line:30
+      linia: 30
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...What?'
+      pl: '...Co?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: twob
+    wpisy:
+    - id: sol_0e7adea9cb494b7e2e09
+      kontekst: textscripts.junkyard_hub_onenter:line:34
+      linia: 34
+      sekcja_skryptu: twob
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wha-- ow! What the hell?
+      pl: Co— auć! Co jest, do diabła?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_64bb28bfe40a2fb2c553
+      kontekst: textscripts.junkyard_hub_onenter:line:35
+      linia: 35
+      sekcja_skryptu: twob
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You swat away a faerie that had fluttered up next to you and attempted to stab you in the neck with a rusty needle.
+      pl: Odpędzasz wróżkę, która podleciała i próbowała dźgnąć cię w szyję zardzewiałą igłą.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e79d18c8f5f5b903c72e
+      kontekst: textscripts.junkyard_hub_onenter:line:36
+      linia: 36
+      sekcja_skryptu: twob
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20><i>Hell!</i></size>
+      pl: <size=20><i>Do diabła!</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a895c95a5fae35298158
+      kontekst: textscripts.junkyard_hub_onenter:line:37
+      linia: 37
+      sekcja_skryptu: twob
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, I'll just be on my way.
+      pl: Dobrze, już sobie idę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a5cbdad072e56d71f1c8
+      kontekst: textscripts.junkyard_hub_onenter:line:38
+      linia: 38
+      sekcja_skryptu: twob
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20><i>LOOK OUT JIM THAT ONE'S GOT A GUN!</i></size>
+      pl: <size=20><i>UWAŻAJ, JIM, TEN MA BROŃ!</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c5a68385194f5b1f830f
+      kontekst: textscripts.junkyard_hub_onenter:line:39
+      linia: 39
+      sekcja_skryptu: twob
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Indeed, another faerie is approaching, lugging a full-sized snub-nose revolver in its little arms.
+      pl: Rzeczywiście, zbliża się kolejna wróżka, dźwigając w maleńkich ramionach pełnowymiarowy krótkolufowy rewolwer.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_6e72e6203cd0fb745cee
+      kontekst: textscripts.junkyard_hub_onenter:line:40
+      linia: 40
+      sekcja_skryptu: twob
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=20><i>Hello beautiful!</i></size>
+      pl: <size=20><i>Cześć, piękna!</i></size>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <size=20>
+      - <i>
+      - </i>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c3351b057ea8dec9e0c7
+      kontekst: textscripts.junkyard_hub_onenter:line:41
+      linia: 41
+      sekcja_skryptu: twob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Run!
+      pl: Uciekaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: sol_83a09c7fc28db3a6d13e
+      kontekst: textscripts.junkyard_hub_onenter:line:45
+      linia: 45
+      sekcja_skryptu: three
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sprint out of the cave and hunker down behind a trash pile. The fairies follow you at first, but their evil giggles quickly fade
+        as they return to their lair -- looks like they have real short attention spans.
+      pl: Wybiegasz z jaskini i kryjesz się za stertą śmieci. Wróżki początkowo ruszają za tobą, ale ich złośliwe chichoty szybko cichną, gdy wracają do legowiska. Najwyraźniej bardzo szybko tracą zainteresowanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_86453857a1e02a8f1a68
+      kontekst: textscripts.junkyard_hub_onenter:line:46
+      linia: 46
+      sekcja_skryptu: three
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Treading carefully, you sneak back into the trash cave, hoping to look around a bit without attracting any more attention.
+      pl: Ostrożnie zakradasz się z powrotem do śmieciowej jaskini z nadzieją, że uda się trochę rozejrzeć bez zwracania uwagi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ce997810597189c70948
+      kontekst: textscripts.junkyard_hub_onenter:line:48
+      linia: 48
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: This seems like a bad idea.
+      pl: To chyba zły pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2369
+  skrypt: junkyard_hubfightleft
+  pomieszczenie:
+    id: junkyard_hub
+    nazwa_en: The Old Junkyard (Faerie Complex)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_685731ad2c58a9cee098
+      kontekst: textscripts.junkyard_hubfightleft:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are a lot of faeries in that direction, flitting around, giggling manically, and occasionally saying things in other peoples'
+        voices that you can only assume were those peoples' last words.
+      pl: W tamtym kierunku roi się od wróżek. Latają, maniakalnie chichoczą i od czasu do czasu powtarzają głosami innych ludzi słowa, które
+        zapewne były ich ostatnimi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_03d22e3f8585ed8d4b8f
+      kontekst: textscripts.junkyard_hubfightleft:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! With those faeries out of the way, you can get to the northern tunnel. Wait, is that north? ... The leftern tunnel.
+      pl: Wygrałeś! Wróżki nie stoją już na drodze do północnego tunelu. Chwila, to północ? ...Do tunelu lewnocnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.junkyard_hubfightleft:line:21
+      linia: 21
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id005 []
+  - etykieta: lose
+    wpisy:
+    - id: sol_2f9f337bf71a1d8ca2c9
+      kontekst: textscripts.junkyard_hubfightleft:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Looks like you're going to have to upgrade your faerie-killing skills if you want to explore in that direction.
+      pl: Przegrałeś. Chcąc zbadać tamten kierunek, trzeba ulepszyć umiejętności zabijania wróżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.junkyard_hubfightleft:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: &id004 []
+- kolejnosc_w_danych_gry: 2370
+  skrypt: junkyard_hubfightright
+  pomieszczenie:
+    id: junkyard_hub
+    nazwa_en: The Old Junkyard (Faerie Complex)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e529f64afbdd76a3c689
+      kontekst: textscripts.junkyard_hubfightright:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are a lot of faeries in that direction, frolicking around and making animal noises. <i>Dying</i> animal noises.
+      pl: W tamtym kierunku roi się od wróżek. Baraszkują i wydają odgłosy zwierząt. Odgłosy <i>umierających</i> zwierząt.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_e3b85679d41b31f215c6
+      kontekst: textscripts.junkyard_hubfightright:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Your reward is getting to explore further in a literal garbage tunnel.
+      pl: Wygrałeś! W nagrodę możesz zbadać dalszy odcinek dosłownego tunelu ze śmieci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0f468bf033061cf7e0fe
+      kontekst: textscripts.junkyard_hubfightright:line:14
+      linia: 14
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh okay, don't pout, you can have some loot too.
+      pl: No dobrze, bez fochów. Łup też się znajdzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_933485793e08bb91cf79
+      kontekst: textscripts.junkyard_hubfightright:line:21
+      linia: 21
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yay!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_7b33ed89e44d929db526
+      kontekst: textscripts.junkyard_hubfightright:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Specifically, you've lost your ability to explore any further in that direction.
+      pl: Przegrałeś. A konkretnie utrata możliwości dalszego badania tego kierunku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.junkyard_hubfightright:line:28
+      linia: 28
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id004
+- kolejnosc_w_danych_gry: 2379
+  skrypt: junkyard_shovel
+  pomieszczenie:
+    id: junkyard_hub
+    nazwa_en: The Old Junkyard (Faerie Complex)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3776bfbe69bc37cf52b4
+      kontekst: textscripts.junkyard_shovel:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is an ironically half-buried shovel here.
+      pl: Leży tu ironicznie wpół zakopana łopata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_229bf9dd501439e0708b
+      kontekst: textscripts.junkyard_shovel:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it
+      pl: Weź ją.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5197
+  skrypt: autoscript__junkyard_room1__backwallcomment__popup
+  pomieszczenie:
+    id: junkyard_room1
+    nazwa_en: The Old Junkyard (Faerie Burrow)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0f95f776c972de8be1d8
+      kontekst: textscripts.autoscript__junkyard_room1__backwallcomment__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This wall of trash is riddled with faerie tunnels.
+      pl: Ta ściana śmieci jest podziurawiona tunelami wróżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2344
+  skrypt: junkyard_bell
+  pomieszczenie:
+    id: junkyard_room1
+    nazwa_en: The Old Junkyard (Faerie Burrow)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_07e70550f7fdec105ecf
+      kontekst: textscripts.junkyard_bell:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ringing this bell would certainly stir up some angry faeries.
+      pl: Dzwonienie tym dzwonkiem z pewnością rozwścieczy to, co tam siedzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_843f6efe9b4e55273843
+      kontekst: textscripts.junkyard_bell:line:32
+      linia: 32
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should have obeyed the instructions of the Crystaldream Lake Historical Society. Or if you didn't read them, you should have read
+        them and <i>then</i> obeyed them.
+      pl: Trzeba było posłuchać instrukcji Towarzystwa Historycznego Jeziora Kryształowych Snów. A jeśli ich nie przeczytano, należało je przeczytać
+        i <i>potem</i> posłuchać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b43673a7cff85e30f5cd
+      kontekst: textscripts.junkyard_bell:line:34
+      linia: 34
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I guess so
+      pl: Chyba tak
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2380
+  skrypt: junkyard_squeezehole
+  pomieszczenie:
+    id: junkyard_room1
+    nazwa_en: The Old Junkyard (Faerie Burrow)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_406f8d1e7dd56ef28d11
+      kontekst: textscripts.junkyard_squeezehole:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm.  This tunnel is big enough to accomodate you, if you can muster the flexibility. And assuming you're neither claustrophobic nor
+        germophobic.
+      pl: Hm. Ten tunel jest dość duży, by cię pomieścić — o ile wykrzeszesz z siebie odpowiednią gibkość i nie cierpisz na klaustrofobię ani
+        mizofobię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crawl
+    wpisy:
+    - id: sol_47c3b4ad11c214147381
+      kontekst: textscripts.junkyard_squeezehole:line:12
+      linia: 12
+      sekcja_skryptu: crawl
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You squeeze into the burrow and wriggle your way through a series of nasty trash tubes.
+      pl: Wciskasz się do nory i przeciskasz przez serię paskudnych rur ze śmieci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2a4543fa176669d8d884
+      kontekst: textscripts.junkyard_squeezehole:line:13
+      linia: 13
+      sekcja_skryptu: crawl
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Eventually the garbage beneath you collapses, depositing you above a different chamber.
+      pl: W końcu śmieci pod tobą się zapadają, pozostawiając cię nad inną komnatą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_7e596bcb077e3d2bce34
+      kontekst: textscripts.junkyard_squeezehole:line:14
+      linia: 14
+      sekcja_skryptu: crawl
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait, above it?
+      pl: Chwila, nad nią?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2367
+  skrypt: junkyard_hobocode
+  pomieszczenie:
+    id: junkyard_room2
+    nazwa_en: The Old Junkyard (Side Tunnel)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_57fbdde936babb74b484
+      kontekst: textscripts.junkyard_hobocode:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: addstate
+      mowca_lub_kanal: kanal_addstate
+      en: WHAT IS JUNK, REALLY?
+      pl: CZYM TAK NAPRAWDĘ JEST ZŁOM?
+      status: do_korekty
+      zakres: do_weryfikacji
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_735f995cfca78107e3ca
+      kontekst: textscripts.junkyard_hobocode:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already translated this code.  It says $message$
+      pl: 'Ten kod już przetłumaczyłeś. Brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 20
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_87f1295b4bdb39c19c10
+      kontekst: textscripts.junkyard_hobocode:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange marks on a half-buried wooden sign.
+      pl: Dziwne znaki na wpół zakopanej drewnianej tablicy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2ccb99e796e3fd0b4157
+      kontekst: textscripts.junkyard_hobocode:line:15
+      linia: 15
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This half-buried sign has hobo code on it!
+      pl: Ta wpół zakopana tablica zawiera kod włóczęgów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1ac6b611ce848855701e
+      kontekst: textscripts.junkyard_hobocode:line:22
+      linia: 22
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The code reads $message$
+      pl: 'Kod brzmi: $message$'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 15
+      tokeny_techniczne:
+      - $message$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a2d4db18d55ee0774dec
+      kontekst: textscripts.junkyard_hobocode:line:23
+      linia: 23
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow.  That really makes you think.
+      pl: Rany. To naprawdę daje do myślenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2372
+  skrypt: junkyard_piggybank
+  pomieszczenie:
+    id: junkyard_room2
+    nazwa_en: The Old Junkyard (Side Tunnel)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_ee26eb789ac622d0ebc8
+      kontekst: textscripts.junkyard_piggybank:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Someone has thrown away a perfectly good giant novelty piggy bank.
+      pl: Ktoś wyrzucił zupełnie dobrą gigantyczną skarbonkę-świnkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_123f237ef963da600bae
+      kontekst: textscripts.junkyard_piggybank:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smash it
+      pl: Rozbij ją
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_3f66b04ea9b4abcc8d93
+      kontekst: textscripts.junkyard_piggybank:line:11
+      linia: 11
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sorry, piggy. ...Hey, whoever threw this out didn't take their Meat out first!
+      pl: Przykro mi, świnko. ...Hej, ktoś to wyrzucił, nie wyjmując Mięsa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2375
+  skrypt: junkyard_room2fight
+  pomieszczenie:
+    id: junkyard_room2
+    nazwa_en: The Old Junkyard (Side Tunnel)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_3ca24c906838f1c82bee
+      kontekst: textscripts.junkyard_room2fight:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This room is positively swarming with faeries. There must be something pretty good over there. Or at least something that faeries think
+        is pretty good, which is an opinion you might or might not share.
+      pl: W tej komnacie aż roi się od wróżek. Po drugiej stronie musi być coś dobrego. Albo przynajmniej coś dobrego zdaniem wróżek, z którym
+        można się zgadzać lub nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_2ac7bb4000fde7df5739
+      kontekst: textscripts.junkyard_room2fight:line:13
+      linia: 13
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Now it's time to see what all the hoopla was about.
+      pl: Wygrałeś! Pora sprawdzić, o co było tyle hałasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.junkyard_room2fight:line:20
+      linia: 20
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id005
+  - etykieta: lose
+    wpisy:
+    - id: sol_085e75a32a8b52042dc8
+      kontekst: textscripts.junkyard_room2fight:line:25
+      linia: 25
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Eh, there's probably just garbage over there. Like, you know, sour grapes and stuff.
+      pl: Przegrałeś. Pewnie leżą tam tylko śmieci. Na przykład kwaśne winogrona i takie tam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.junkyard_room2fight:line:27
+      linia: 27
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id004
+- kolejnosc_w_danych_gry: 2343
+  skrypt: junkyard_bathtub
+  pomieszczenie:
+    id: junkyard_room3
+    nazwa_en: The Old Junkyard (Faerie Spa)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_e8c2f2c742dc7a28d023
+      kontekst: textscripts.junkyard_bathtub:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing left in that bath but your filth.
+      pl: W wannie nie zostało nic poza twoim brudem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ef14a1f065f96e1252f0
+      kontekst: textscripts.junkyard_bathtub:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fish that bathwater! [@fishingrod.name@]
+      pl: Łów w wodzie z kąpieli! [@fishingrod.name@]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@fishingrod.name@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_84ba07faf4c44a8161c6
+      kontekst: textscripts.junkyard_bathtub:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A tub of lukewarm water.
+      pl: Wanna z letnią wodą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d16bf83970c8c601983d
+      kontekst: textscripts.junkyard_bathtub:line:9
+      linia: 9
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ignore it
+      pl: Zignoruj ją
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_df5ae70b5a4cf8264d25
+      kontekst: textscripts.junkyard_bathtub:line:13
+      linia: 13
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An inviting tub of piping-hot water. Piping-hot and <i>clean</i> water. Your brain is insisting that this is impossible, and the rest
+        of your body is yelling at it to shut up.
+      pl: Zachęcająca wanna pełna parującej wody. Parującej i <i>czystej</i> wody. Mózg upiera się, że to niemożliwe, a reszta ciała wrzeszczy,
+        żeby się zamknął.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: sol_1b34ae662f6caf832d1b
+      kontekst: textscripts.junkyard_bathtub:line:23
+      linia: 23
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Consider it ignored.
+      pl: Uznajmy, że ją ignoruję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bathe
+    wpisy:
+    - id: sol_6a7a182fc98e5de73293
+      kontekst: textscripts.junkyard_bathtub:line:29
+      linia: 29
+      sekcja_skryptu: bathe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take off your clothes (behind the privacy of this narration box) and slide into the tub.
+      pl: Zdejmujesz ubrania (za zasłoną tego okienka narracji) i wsuwasz się do wanny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_671201726ec3e99fc0bd
+      kontekst: textscripts.junkyard_bathtub:line:30
+      linia: 30
+      sekcja_skryptu: bathe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your aches, pains, and various worries drift away in the luxurious steam.
+      pl: Bóle, cierpienia i rozmaite zmartwienia ulatują w luksusowej parze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_860d817c8a8d01408d99
+      kontekst: textscripts.junkyard_bathtub:line:31
+      linia: 31
+      sekcja_skryptu: bathe
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Splish
+      pl: Plusk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_a3e45124de2b193254b0
+      kontekst: textscripts.junkyard_bathtub:line:32
+      linia: 32
+      sekcja_skryptu: bathe
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Splash
+      pl: Chlap
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9e8b547fa673520fd758
+      kontekst: textscripts.junkyard_bathtub:line:33
+      linia: 33
+      sekcja_skryptu: bathe
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ahhhhh
+      pl: Aaaaaach
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: s1
+    wpisy:
+    - id: sol_5cc4d1a1f9caa700a635
+      kontekst: textscripts.junkyard_bathtub:line:36
+      linia: 36
+      sekcja_skryptu: s1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You splish around for a while. It's very relaxing.
+      pl: Pluskasz się przez chwilę. To bardzo odprężające.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: s2
+    wpisy:
+    - id: sol_878b7dc97ebcdc82fc33
+      kontekst: textscripts.junkyard_bathtub:line:40
+      linia: 40
+      sekcja_skryptu: s2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You splash about for a bit. Wow, you really needed this.
+      pl: Chlapiesz się przez chwilę. Rany, naprawdę było ci to potrzebne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: s3
+    wpisy:
+    - id: sol_d944c899cb882ac49497
+      kontekst: textscripts.junkyard_bathtub:line:44
+      linia: 44
+      sekcja_skryptu: s3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sigh, delighting in the way your sigh causes the steam to blow around.
+      pl: Wzdychasz, rozkoszując się tym, jak westchnienie rozgania parę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finish
+    wpisy:
+    - id: sol_4d50785a69584c31082c
+      kontekst: textscripts.junkyard_bathtub:line:48
+      linia: 48
+      sekcja_skryptu: finish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You continue to relax in the tub until the water stops being hot.
+      pl: Relaksujesz się w wannie, aż woda przestaje być gorąca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_26a04f99bb85fb7f00ea
+      kontekst: textscripts.junkyard_bathtub:line:50
+      linia: 50
+      sekcja_skryptu: finish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Reluctantly, you leave the tub and dry yourself off with a towel you find in a nearby pile of trash, before putting your clothes back
+        on.
+      pl: Niechętnie wychodzisz z wanny i wycierasz się ręcznikiem znalezionym na pobliskiej stercie śmieci, po czym wkładasz ubrania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_41301f3c0ab17bf2132c
+      kontekst: textscripts.junkyard_bathtub:line:51
+      linia: 51
+      sekcja_skryptu: finish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That was fantastic
+      pl: To było fantastyczne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2377
+  skrypt: junkyard_room4_fence
+  pomieszczenie:
+    id: junkyard_room4
+    nazwa_en: The Old Junkyard (Tunnel Fork)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: clean
+    wpisy:
+    - id: sol_ebc0ac068809d8c18a73
+      kontekst: textscripts.junkyard_room4_fence:line:8
+      linia: 8
+      sekcja_skryptu: clean
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nice clean fence. Looks great in here now.
+      pl: Ładne, czyste ogrodzenie. Teraz wygląda tu świetnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2376
+  skrypt: junkyard_room4fight
+  pomieszczenie:
+    id: junkyard_room4
+    nazwa_en: The Old Junkyard (Tunnel Fork)
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_41a5fff26b513d2c545f
+      kontekst: textscripts.junkyard_room4fight:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a whole flock of faeries here, all armed with rusty needles. It almost seems like they're practicing their fencing skills, but
+        their fighting style is so chaotic, it's hard to tell.
+      pl: Znajduje się tu całe stado wróżek uzbrojonych w zardzewiałe igły. Prawie wygląda, jakby ćwiczyły szermierkę, ale walczą tak chaotycznie,
+        że trudno powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_084115f7b40956b0cde0
+      kontekst: textscripts.junkyard_room4fight:line:12
+      linia: 12
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Hopefully, a case of tetanus is not part of the loot.
+      pl: Wygrałeś! Oby wśród łupów nie trafił ci się tężec.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.junkyard_room4fight:line:19
+      linia: 19
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id005
+  - etykieta: lose
+    wpisy:
+    - id: sol_b44a9d0b76ba18c11be7
+      kontekst: textscripts.junkyard_room4fight:line:24
+      linia: 24
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Maybe you could borrow one of their needles to stitch yourself up with.
+      pl: Przegrałeś. Może pożyczysz od nich igłę, żeby się pozszywać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.junkyard_room4fight:line:26
+      linia: 26
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: *id004
+- kolejnosc_w_danych_gry: 2384
+  skrypt: junkyard_stonefoot
+  pomieszczenie:
+    id: junkyard_room4
+    nazwa_en: The Old Junkyard (Tunnel Fork)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_2c6268c0107cc6f110c6
+      kontekst: textscripts.junkyard_stonefoot:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A foot from a big statue.  That's how far you are away from this and what it is.
+      pl: Stopa wielkiego posągu. Stoisz od niej o stopę — i to też jest stopa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_966308202ee520ba83d0
+      kontekst: textscripts.junkyard_stonefoot:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It seems pretty depressed.
+      pl: Wygląda na mocno przygnębioną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_09077a2710acebc879ac
+      kontekst: textscripts.junkyard_stonefoot:line:8
+      linia: 8
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to it [Psychogeologist]
+      pl: Porozmawiaj z nią [Psychogeolog]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_de31360097bd4d93d382
+      kontekst: textscripts.junkyard_stonefoot:line:13
+      linia: 13
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You listen to the statue.  It's sad about the passage of time, but you manage to make it feel a little better by reminding it that it's
+        still a really big, really strong foot.  It gives you some toe jam as a gesture of thanks.
+      pl: Słuchasz posągu. Smuci go upływ czasu, ale udaje ci się poprawić mu humor przypomnieniem, że nadal jest naprawdę wielką i silną stopą. W podzięce daje ci trochę palcowej mazi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2386
+  skrypt: junkyard_toolbox
+  pomieszczenie:
+    id: junkyard_room4
+    nazwa_en: The Old Junkyard (Tunnel Fork)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_7a11cf3ea34b0080a381
+      kontekst: textscripts.junkyard_toolbox:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A beat-up old toolbox.
+      pl: Stara, poobijana skrzynka na narzędzia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c1963789dd05e437869d
+      kontekst: textscripts.junkyard_toolbox:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what junk is in it
+      pl: Sprawdź, jakie graty są w środku
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1006c688efdc73e31bfa
+      kontekst: textscripts.junkyard_toolbox:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, dangerous stuff!  This must've been buried by some kind of degenerate criminal.
+      pl: Rany, ale niebezpieczny towar! Musiał go zakopać jakiś zdegenerowany przestępca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2382
+  skrypt: junkyard_stairsup
+  pomieszczenie:
+    id: junkyard_room5
+    nazwa_en: The Old Junkyard (Another Tunnel)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_35ec090f6d06de2a536a
+      kontekst: textscripts.junkyard_stairsup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The trash has collapsed into an unsafe staircase-like heap. That was extremely lucky.
+      pl: Śmieci zapadły się w niebezpieczną stertę przypominającą schody. Niewiarygodne szczęście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_26d9c8b34995a429c15e
+      kontekst: textscripts.junkyard_stairsup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb up
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 10
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2385
+  skrypt: junkyard_teeterstack
+  pomieszczenie:
+    id: junkyard_room5
+    nazwa_en: The Old Junkyard (Another Tunnel)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_1b7d4e69d64538318c7d
+      kontekst: textscripts.junkyard_teeterstack:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A teetering stack of crates is holding up part of the ceiling here.
+      pl: Chwiejący się stos skrzyń podpiera tutaj część sufitu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_e08570db0368fb0025a8
+      kontekst: textscripts.junkyard_teeterstack:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Kick it
+      pl: Kopnij go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5206
+  skrypt: autoscript__junkyard_room6__dugspot__popup
+  pomieszczenie:
+    id: junkyard_room6
+    nazwa_en: The Old Junkyard (Yet Another Tunnel)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_11d7db58dde1eef6c8b2
+      kontekst: textscripts.autoscript__junkyard_room6__dugspot__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: None of the other old compasses look to be of value.
+      pl: Żaden z pozostałych starych kompasów nie wygląda na wartościowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2347
+  skrypt: junkyard_compassspot
+  pomieszczenie:
+    id: junkyard_room6
+    nazwa_en: The Old Junkyard (Yet Another Tunnel)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c7b52389c0ab59918830
+      kontekst: textscripts.junkyard_compassspot:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Geiger counter is really going nuts.  This must be the spot.
+      pl: Licznik Geigera naprawdę wariuje. To musi być tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getit
+    wpisy:
+    - id: sol_e79f6a004dbffd2079ca
+      kontekst: textscripts.junkyard_compassspot:line:10
+      linia: 10
+      sekcja_skryptu: getit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just beneath the surface, your shovel strikes the top of a crate.  The Geiger counter continues its irritating clickery.
+      pl: Tuż pod powierzchnią łopata uderza w wieko skrzyni. Licznik Geigera nie przestaje irytująco terkotać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_16dc1a40fb7748125347
+      kontekst: textscripts.junkyard_compassspot:line:11
+      linia: 11
+      sekcja_skryptu: getit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stomp through the crate lid
+      pl: Wdepcz wieko skrzyni
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stomp
+    wpisy:
+    - id: sol_9338462907da70f49a90
+      kontekst: textscripts.junkyard_compassspot:line:14
+      linia: 14
+      sekcja_skryptu: stomp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You give the top of the old crate a mighty stomp, and end up ankle-deep in compasses.
+      pl: Potężnie tupiesz w wieko starej skrzyni i lądujesz po kostki w kompasach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_37b30a2c5d8a7bf8da76
+      kontekst: textscripts.junkyard_compassspot:line:15
+      linia: 15
+      sekcja_skryptu: stomp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's better than being ass-deep in compankles, that's what you always say, ha ha.
+      pl: Lepsze kompasy po kostki niż kostkasy po kompas, jak zawsze powtarzasz, ha, ha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fb7b28d02b786b47598b
+      kontekst: textscripts.junkyard_compassspot:line:16
+      linia: 16
+      sekcja_skryptu: stomp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Anyway, enough jokes. You grab the least ruined-looking compass.
+      pl: Dość żartów. Zabierasz najmniej zniszczony kompas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_830a9bd5f72aa9add3c1
+      kontekst: textscripts.junkyard_compassspot:line:19
+      linia: 19
+      sekcja_skryptu: stomp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You also breathe a sigh of relief as you turn off that annoying Geiger counter.
+      pl: Z ulgą wyłączasz irytujący licznik Geigera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_404fad3cc09facd5ca25
+      kontekst: textscripts.junkyard_compassspot:line:22
+      linia: 22
+      sekcja_skryptu: stomp
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Now back to the lighthouse!
+      pl: Teraz wracaj do latarni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2348
+  skrypt: junkyard_cowtrophy
+  pomieszczenie:
+    id: junkyard_room6
+    nazwa_en: The Old Junkyard (Yet Another Tunnel)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_0368b0d00d35434f77c8
+      kontekst: textscripts.junkyard_cowtrophy:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Holy dang, somebody threw away a perfectly good cow skull! These are rare as heck, considering that there haven't been any cows in this
+        country for more than thirty years.
+      pl: O jasny gwint, ktoś wyrzucił zupełnie dobrą czaszkę krowy! Są diabelnie rzadkie, zważywszy, że w tym kraju od ponad trzydziestu lat
+        nie ma krów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b11e554c85ce64c1b84c
+      kontekst: textscripts.junkyard_cowtrophy:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Zabierz ją.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 44
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: *id003

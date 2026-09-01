@@ -1,0 +1,2324 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: SIT
+grupa_lokacji_lub_systemu: glockstore
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja -> numeryczna linia źródłowa
+liczba_scen: 13
+liczba_wpisow: 138
+sceny:
+- kolejnosc_w_danych_gry: 1836
+  skrypt: glockstore_exitpopup
+  pomieszczenie:
+    id: glockstore
+    nazwa_en: Gideon's Glockenspielery
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_c517e0d04f5eb51e9f79
+      kontekst: textscripts.glockstore_exitpopup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Leave the din of this place behind?
+      pl: Zostawić zgiełk tego miejsca za sobą?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_108fe3305b3cd848090d
+      kontekst: textscripts.glockstore_exitpopup:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, please
+      pl: Tak, poproszę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 7
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1839
+  skrypt: glockstore_guardfight
+  pomieszczenie:
+    id: glockstore
+    nazwa_en: Gideon's Glockenspielery
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 25
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_fd14d3d5fff6bb72ab38
+      kontekst: textscripts.glockstore_guardfight:line:14
+      linia: 14
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As soon as they notice you, these Glocklin guards start playing a menacing tune on their glockenspiels. Well, as menacing a tune as
+        it's possible to play on a glockenspiel anyway, which is honestly not particularly menacing. But their intent is clear.
+      pl: Gdy tylko cię zauważają, strażnicy Glocklinów zaczynają grać groźną melodię na dzwonkach. A przynajmniej tak groźną, jak to możliwe
+        na dzwonkach, czyli szczerze mówiąc niezbyt groźną. Ale intencja jest jasna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ffc255412bfe7ff432e1
+      kontekst: textscripts.glockstore_guardfight:line:17
+      linia: 17
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to them
+      pl: Porozmawiaj z nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: &id001 []
+  - etykieta: ee
+    wpisy:
+    - id: sol_3879536d86f4eb1e90a4
+      kontekst: textscripts.glockstore_guardfight:line:25
+      linia: 25
+      sekcja_skryptu: ee
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi hello! Vat vant you?
+      pl: Witaj cześć! Czego ty chcieć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b8949aca760c6f1db73d
+      kontekst: textscripts.glockstore_guardfight:line:27
+      linia: 27
+      sekcja_skryptu: ee
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well...
+      pl: Cóż...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: sol_4e5fe78b92ef028c4881
+      kontekst: textscripts.glockstore_guardfight:line:32
+      linia: 32
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: I want to go look at the building behind you.
+      pl: Chcę obejrzeć budynek za wami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_25a87ab538b72726cb5d
+      kontekst: textscripts.glockstore_guardfight:line:33
+      linia: 33
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: I want to talk to your boss.
+      pl: Chcę porozmawiać z waszym szefem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_da2549e0f512fa09f15e
+      kontekst: textscripts.glockstore_guardfight:line:34
+      linia: 34
+      sekcja_skryptu: hub
+      typ: sayoption_once
+      mowca_lub_kanal: opcja_gracza
+      en: I want to buy a glockenspiel.
+      pl: Chcę kupić dzwonki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_c4418fec85d616a8b0ff
+      kontekst: textscripts.glockstore_guardfight:line:37
+      linia: 37
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing in particular, I guess?
+      pl: Chyba niczego konkretnego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: building
+    wpisy:
+    - id: sol_accb3a153c9e45e42b9f
+      kontekst: textscripts.glockstore_guardfight:line:42
+      linia: 42
+      sekcja_skryptu: building
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The old glockenspiel shop? That is our hideout! You are in there not allowed!
+      pl: Stary sklep z dzwonkami? To nasza kryjówka! Nie wolno ci tam!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b97bdbb4f76d1de86bf0
+      kontekst: textscripts.glockstore_guardfight:line:43
+      linia: 43
+      sekcja_skryptu: building
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aw, please?
+      pl: Och, proszę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_a50da4165a0704355051
+      kontekst: textscripts.glockstore_guardfight:line:44
+      linia: 44
+      sekcja_skryptu: building
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No. It is only for gang members, that is the whole point of a hideout!
+      pl: Nie. Tylko członkowie gangu mogą wchodzić, taki jest cały sens kryjówki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: sol_708c83ba2413fad8a3cb
+      kontekst: textscripts.glockstore_guardfight:line:50
+      linia: 50
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Have you an appointment?
+      pl: Masz ty umówione spotkanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_6618c893cd0977d729a5
+      kontekst: textscripts.glockstore_guardfight:line:51
+      linia: 51
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No. Can I make one?
+      pl: Nie. Mogę je umówić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_db4625ed558b83809b95
+      kontekst: textscripts.glockstore_guardfight:line:52
+      linia: 52
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: glock
+    wpisy:
+    - id: sol_ac0c72441189451be13c
+      kontekst: textscripts.glockstore_guardfight:line:58
+      linia: 58
+      sekcja_skryptu: glock
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You have a good taste in musical instruments, but our glockenspiels are not for sale.
+      pl: Masz dobry gust muzyczny, ale nasze dzwonki nie są na sprzedaż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_96903d757324ace0eed9
+      kontekst: textscripts.glockstore_guardfight:line:59
+      linia: 59
+      sekcja_skryptu: glock
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh come on, everything has a price.
+      pl: No weź, wszystko ma swoją cenę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_dc460f89f0fdc567baea
+      kontekst: textscripts.glockstore_guardfight:line:60
+      linia: 60
+      sekcja_skryptu: glock
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The price of a glockenspiel is no Meat.
+      pl: Cena dzwonków to nein Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ae691006f8bddc70c524
+      kontekst: textscripts.glockstore_guardfight:line:61
+      linia: 61
+      sekcja_skryptu: glock
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nein Meat? I'll pay you nine Meat for one.
+      pl: Nein Mięsa? To zapłacę dziewięć Mięsa za jeden.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_28837148797ea6775886
+      kontekst: textscripts.glockstore_guardfight:line:62
+      linia: 62
+      sekcja_skryptu: glock
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That joke does not vork even!
+      pl: Ten żart nawet nie działa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: nothing
+    wpisy:
+    - id: sol_fb4726d0c442234a809d
+      kontekst: textscripts.glockstore_guardfight:line:68
+      linia: 68
+      sekcja_skryptu: nothing
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! Auf Wiedersehen!
+      pl: Dobrze! Auf Wiedersehen!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4678d035145e1455e0de
+      kontekst: textscripts.glockstore_guardfight:line:69
+      linia: 69
+      sekcja_skryptu: nothing
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gesundheit.
+      pl: Na zdrowie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_e6f99d4e27d55b455061
+      kontekst: textscripts.glockstore_guardfight:line:77
+      linia: 77
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! The path to the Glocklin hideout is now unobstructed.
+      pl: Wygrałeś! Droga do kryjówki Glocklinów jest wolna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_00dec8b6b8fce2879928
+      kontekst: textscripts.glockstore_guardfight:line:81
+      linia: 81
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 6
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_5df921fa46923cd1c558
+      kontekst: textscripts.glockstore_guardfight:line:86
+      linia: 86
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. The Glocklin guards roll your limp carcass back to the edge of the lot.
+      pl: Przegrałeś. Strażnicy Glocklinów toczą twoje bezwładne truchło z powrotem na skraj parceli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.glockstore_guardfight:line:88
+      linia: 88
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: &id002 []
+- kolejnosc_w_danych_gry: 1847
+  skrypt: glockstore_wasps
+  pomieszczenie:
+    id: glockstore
+    nazwa_en: Gideon's Glockenspielery
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_bff49bef85cdad0a03e8
+      kontekst: textscripts.glockstore_wasps:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The owner of this place added a huge wasp nest in case the KEEP OUT sign wasn't sufficient.
+      pl: Właściciel dodał olbrzymie gniazdo os na wypadek, gdyby tabliczka „WSTĘP WZBRONIONY” nie wystarczyła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_1232bdfca35a3e8bfb04
+      kontekst: textscripts.glockstore_wasps:line:7
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You recognize them as <i>Vespula Megamana</i>, commonly known as Super Magic Wasps!  You carefully extract some of their prized droppings
+        from the bathroom part of the nest.
+      pl: Rozpoznajesz <i>Vespula Megamana</i>, potocznie zwane Supermagicznymi Osami! Ostrożnie wydobywasz ich cenne odchody z łazienkowej części
+        gniazda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5140
+  skrypt: autoscript__glockstore_interior__shelf2__popup
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_f07b428330c377cfb323
+      kontekst: textscripts.autoscript__glockstore_interior__shelf2__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No slats, no ringers!
+      pl: Nie ma sztabek, nie ma dzwonienia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5141
+  skrypt: autoscript__glockstore_interior__shelf3__popup
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_cc2bafff0f23785685ac
+      kontekst: textscripts.autoscript__glockstore_interior__shelf3__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Probably just as well that this one is empty.
+      pl: To chyba nawet lepiej, że ta półka jest pusta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5139
+  skrypt: autoscript__glockstore_interior__shelf__popup
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_524ca44423f67c067443
+      kontekst: textscripts.autoscript__glockstore_interior__shelf__popup:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Glocklins have really bled this store dry.
+      pl: Glocklinowie wycisnęli ten sklep do ostatniej kropli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1832
+  skrypt: glockstore_bigglock
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_8f1697f209e1aace5534
+      kontekst: textscripts.glockstore_bigglock:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, an upright glockenspiel!  This would look good in your room.
+      pl: Łał, pionowe dzwonki! Ładnie wyglądałyby w twoim pokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ee96d183157341d4e329
+      kontekst: textscripts.glockstore_bigglock:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drag it there
+      pl: Przeciągnij je tam
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1833
+  skrypt: glockstore_bossfight
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 39
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_edec0a71b2d507fff248
+      kontekst: textscripts.glockstore_bossfight:line:5
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin looks a bit tougher than the others. Also, they're at the back of the room. So, they're probably the boss.
+      pl: Ten goblin wygląda na trochę silniejszego od pozostałych. Stoi też z tyłu pokoju. Pewnie jest szefem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4f03f9c3bff766471bff
+      kontekst: textscripts.glockstore_bossfight:line:6
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They look both delighted and outraged to see you -- since that's a tricky combination of emotions to imagine, let's just go with 'excited.'
+      pl: Na twój widok wygląda jednocześnie na zachwyconego i oburzonego — ponieważ trudno wyobrazić sobie taką mieszankę emocji, nazwijmy ją po prostu podekscytowaniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ffc255412bfe7ff432e1
+      kontekst: textscripts.glockstore_bossfight:line:7
+      linia: 7
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to them
+      pl: Porozmawiaj z nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 17
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: *id001
+  - etykieta: intro
+    wpisy:
+    - id: sol_bb8960b792a202db5618
+      kontekst: textscripts.glockstore_bossfight:line:21
+      linia: 21
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you step up closer to speak to the goblin, you notice that they appear to be wearing authentic German lederhosen, rather than the
+        makeshift shorts-and-suspenders getup that the other Glocklins are wearing. Not that you're an expert in traditional European fashions
+        or anything, though.
+      pl: Gdy podchodzisz porozmawiać z goblinem, zauważasz, że nosi prawdziwe niemieckie lederhosen, a nie prowizoryczny zestaw spodenek i szelek jak inni Glocklinowie. Nie żeby ktoś uważał cię za eksperta od tradycyjnej europejskiej mody.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_335736555c30e949164f
+      kontekst: textscripts.glockstore_bossfight:line:22
+      linia: 22
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They sneer at you with glittering eyes.
+      pl: Patrzy na ciebie szyderczo błyszczącymi oczami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_9b11235c39e269df94ff
+      kontekst: textscripts.glockstore_bossfight:line:24
+      linia: 24
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So! You break at my house in, und beat my guards together? Think you, you can Günther, the Boss the Glocklins, defeat?
+      pl: A więc! Włamujesz do mojego domu się i bijesz moich strażników razem? Myślisz, że Günthera, Szefa Glocklinów, pokonać potrafisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_7dc11feeb227c89deffc
+      kontekst: textscripts.glockstore_bossfight:line:25
+      linia: 25
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pause for a second, to parse this.
+      pl: Robisz chwilę przerwy, żeby to zrozumieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_1ac8caed2e32c980e3e5
+      kontekst: textscripts.glockstore_bossfight:line:26
+      linia: 26
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Yes?'
+      pl: '...Tak?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_99602a03e80390e39a58
+      kontekst: textscripts.glockstore_bossfight:line:28
+      linia: 28
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, I just want to talk.
+      pl: Właściwie chcę tylko porozmawiać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_644db83441d9430445ac
+      kontekst: textscripts.glockstore_bossfight:line:29
+      linia: 29
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I didn't have any particular intention, I just kind of go places.
+      pl: Nie miałem konkretnego zamiaru, po prostu chodzę w różne miejsca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: sol_012f73154f1072402f7d
+      kontekst: textscripts.glockstore_bossfight:line:35
+      linia: 35
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hah! You think goblins are pretty stupid, I bet! But you have one other think coming!
+      pl: Ha! Pewnie myślisz, że gobliny są bardzo głupie! Ale czeka cię drugie myślenie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_1f8dd9effc178f554532
+      kontekst: textscripts.glockstore_bossfight:line:36
+      linia: 36
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: If I don't feel like having a conversation about goblin intelligence, can I just say yes, and then we fight?
+      pl: Jeśli nie mam ochoty rozmawiać o inteligencji goblinów, mogę po prostu powiedzieć „tak”, a potem walczymy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_24cc15af3a94adeea7e9
+      kontekst: textscripts.glockstore_bossfight:line:37
+      linia: 37
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure!
+      pl: Jasne!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_292169bb603e1aa0e667
+      kontekst: textscripts.glockstore_bossfight:line:38
+      linia: 38
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Then yes, goblins are super dumb.
+      pl: W takim razie tak, gobliny są bardzo głupie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b9dec0c4a2d7c56257a6
+      kontekst: textscripts.glockstore_bossfight:line:39
+      linia: 39
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, I know goblins aren't as dumb as they seem.
+      pl: Nie, wiem, że gobliny nie są tak głupie, jak się wydają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: stupid
+    wpisy:
+    - id: sol_592a8181c909b7cdb64c
+      kontekst: textscripts.glockstore_bossfight:line:44
+      linia: 44
+      sekcja_skryptu: stupid
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Oh! Now have you it done! I am <i>super</i> angry now!
+      pl: Och! Och! Teraz to zrobiłeś już! Jestem teraz <i>bardzo</i> zły!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: notstupid
+    wpisy:
+    - id: sol_e81a3cb1c9c939a120f8
+      kontekst: textscripts.glockstore_bossfight:line:50
+      linia: 50
+      sekcja_skryptu: notstupid
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yes? Yes? Vat know you about that, huh?
+      pl: Och tak? Tak? Co o tym wiesz ty, hm?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_4b83c0bc2f9d3acdcf5b
+      kontekst: textscripts.glockstore_bossfight:line:51
+      linia: 51
+      sekcja_skryptu: notstupid
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I read a magazine article about it once. A lot of it went over my head, but basically, since goblins are fungal creatures instead
+        of mammals, their brains work pretty differently, and they find it really hard to extrapolate from familiar experiences to unfamiliar
+        ones. So when they're dealing with novel situations, they tend to just make wild guesses about how they're supposed to behave.
+      pl: Czytałem kiedyś artykuł w czasopiśmie. Wiele rzeczy było ponad moją głową, ale zasadniczo gobliny są stworzeniami grzybowymi, a nie ssakami, więc ich mózgi działają inaczej i bardzo trudno im przenosić znane doświadczenia na nieznane sytuacje. Dlatego w nowych okolicznościach po prostu dziko zgadują, jak powinny się zachować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_8263e5dd7af47adaf20e
+      kontekst: textscripts.glockstore_bossfight:line:52
+      linia: 52
+      sekcja_skryptu: notstupid
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! I am actually surprised!
+      pl: Och! To mnie naprawdę zaskakuje!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_92e3aeb5f2b886b41681
+      kontekst: textscripts.glockstore_bossfight:line:53
+      linia: 53
+      sekcja_skryptu: notstupid
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Furthermore...
+      pl: Ponadto...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_94829a016aa04cfd75cd
+      kontekst: textscripts.glockstore_bossfight:line:54
+      linia: 54
+      sekcja_skryptu: notstupid
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's enough exposition. Let's move on.
+      pl: Wystarczy ekspozycji. Idźmy dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: notstupid2
+    wpisy:
+    - id: sol_698b8cd1deb7e248e4d5
+      kontekst: textscripts.glockstore_bossfight:line:58
+      linia: 58
+      sekcja_skryptu: notstupid2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Furthermore, because of the way they pass knowledge to their children, goblins are always really excited about having lots of novel
+        experiences. So they're constantly putting themselves in situations where they have no idea what to do, deliberately.
+      pl: Ponadto z powodu sposobu przekazywania wiedzy dzieciom gobliny zawsze bardzo ekscytują się nowymi doświadczeniami. Dlatego celowo ciągle
+        pakują się w sytuacje, w których nie mają pojęcia, co robić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_b7a63e2dedf907ee11f1
+      kontekst: textscripts.glockstore_bossfight:line:59
+      linia: 59
+      sekcja_skryptu: notstupid2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! In fact know you much about it! I am a little impressed! Why know you so much about these things?
+      pl: Dobrze! Rzeczywiście dużo o tym wiesz ty! Trochę jestem pod wrażeniem! Dlaczego tak dobrze te rzeczy znasz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_70054541c768b8abe629
+      kontekst: textscripts.glockstore_bossfight:line:60
+      linia: 60
+      sekcja_skryptu: notstupid2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I was stuck in a dentist's waiting room for a while, and didn't have anything else to read.
+      pl: Przez jakiś czas siedziałem w poczekalni dentysty i nie miałem niczego innego do czytania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ba34bfda3183c4dd2fb1
+      kontekst: textscripts.glockstore_bossfight:line:61
+      linia: 61
+      sekcja_skryptu: notstupid2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So now what?
+      pl: Co teraz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: moveon
+    wpisy:
+    - id: sol_955ff87d3618dd47f27c
+      kontekst: textscripts.glockstore_bossfight:line:66
+      linia: 66
+      sekcja_skryptu: moveon
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay vell! You have proven that you goblins not are dumb think. But, that vas really just a rhetorical question.
+      pl: Dobrze więc! Udowodniłeś, że gobliny za głupie nie uważasz. Ale to tak naprawdę było pytanie retoryczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_07d2b080f93c43c12457
+      kontekst: textscripts.glockstore_bossfight:line:67
+      linia: 67
+      sekcja_skryptu: moveon
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, I guess I was showing off a little.
+      pl: Tak, chyba trochę się popisywałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: return
+    wpisy:
+    - id: sol_47609b23840359457e52
+      kontekst: textscripts.glockstore_bossfight:line:73
+      linia: 73
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So! Ve have now a fight, yes?
+      pl: Więc! Mamy teraz walkę my, tak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0dad83b17fdb5d4c0510
+      kontekst: textscripts.glockstore_bossfight:line:75
+      linia: 75
+      sekcja_skryptu: return
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ummm...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_95355bf8cfce3a558edd
+      kontekst: textscripts.glockstore_bossfight:line:91
+      linia: 91
+      sekcja_skryptu: return
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Is there a peaceful solution to this?
+      pl: Jest jakieś pokojowe rozwiązanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: peace
+    wpisy:
+    - id: sol_658d79631ce338a552f0
+      kontekst: textscripts.glockstore_bossfight:line:96
+      linia: 96
+      sekcja_skryptu: peace
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A peaceful solution for you in my home invading? I suppose you vant that I you just leave let?
+      pl: Pokojowe rozwiązanie twojego wtargnięcia do mojego domu? Przypuszczam, że chcesz, żebym ci po prostu odejść pozwolił?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_938268342129a4267fbb
+      kontekst: textscripts.glockstore_bossfight:line:97
+      linia: 97
+      sekcja_skryptu: peace
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I guess that does seem unrealistic.
+      pl: Chyba rzeczywiście nierealistyczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_ba67592974d198ee516b
+      kontekst: textscripts.glockstore_bossfight:line:98
+      linia: 98
+      sekcja_skryptu: peace
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ummm... yes?
+      pl: Eee... tak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: peace2
+    wpisy:
+    - id: sol_e229b17a5a554da13295
+      kontekst: textscripts.glockstore_bossfight:line:103
+      linia: 103
+      sekcja_skryptu: peace2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! Bye!
+      pl: Dobrze! Cześć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_3e3a2e620af3f841878e
+      kontekst: textscripts.glockstore_bossfight:line:104
+      linia: 104
+      sekcja_skryptu: peace2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What, really?
+      pl: Co, naprawdę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: sol_2d6639970133ae7b68b3
+      kontekst: textscripts.glockstore_bossfight:line:113
+      linia: 113
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Günther has spieled his last glock in this place! He slinks off to find some other venue to terrorize with his plinking.
+      pl: Wygrałeś! Günther zadzwonił tu po raz ostatni! Odchodzi, by znaleźć inną salę do terroryzowania brzdękaniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+    - id: sol_0e3b7c6632f9945830c6
+      kontekst: textscripts.glockstore_bossfight:line:128
+      linia: 128
+      sekcja_skryptu: win
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Excellent
+      pl: Doskonale
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 103
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: sol_0e95755658c66dda2f70
+      kontekst: textscripts.glockstore_bossfight:line:141
+      linia: 141
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 156
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: *id002
+  - etykieta: done2
+    wpisy:
+    - id: sol_e1f77567dbe70f258dc3
+      kontekst: textscripts.glockstore_bossfight:line:155
+      linia: 155
+      sekcja_skryptu: done2
+      typ: speechbubble
+      mowca_lub_kanal: dymek
+      en: (boss,0,70,left,"No.")
+      pl: (boss,0,70,left,"Nie.")
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi:
+      - '[DO PÓŹNIEJSZEJ WERYFIKACJI] Zachowano składnię techniczną dymka, tłumacząc wyłącznie widoczną wypowiedź; sprawdzić parser cudzysłowów.'
+- kolejnosc_w_danych_gry: 1840
+  skrypt: glockstore_minion1
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_4c8db1ca24c86f0ac423
+      kontekst: textscripts.glockstore_minion1:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin is pounding out music that sounds like a quaint mountain village being completely wiped out by an avalanche of tiny sparkling
+        jewels.
+      pl: Ten goblin wybija muzykę brzmiącą jak osobliwa górska wioska całkowicie zmieciona przez lawinę maleńkich lśniących klejnotów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b49992f24fa606857e73
+      kontekst: textscripts.glockstore_minion1:line:4
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Interrupt them
+      pl: Przerwij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id003 []
+  - etykieta: convo
+    wpisy:
+    - id: sol_07d077c413ee0eb6c76c
+      kontekst: textscripts.glockstore_minion1:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow, you're really going to town on that thing.
+      pl: Łał, naprawdę ostro w to jedziesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_d99aba5e2460cf6c2444
+      kontekst: textscripts.glockstore_minion1:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: On the contrary! I am playing it right here!
+      pl: Wręcz przeciwnie! Nigdzie nie jadę, gram dokładnie tutaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.glockstore_minion1:line:18
+      linia: 18
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id004 []
+  - etykieta: convince
+    wpisy:
+    - id: sol_1918d11b6c28d1f65b8b
+      kontekst: textscripts.glockstore_minion1:line:22
+      linia: 22
+      sekcja_skryptu: convince
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You reach around behind the goblin and tap them on the opposite shoulder. When they turn to look, you deftly snag the mallet out of
+        their hand.
+      pl: Sięgasz za goblina i stukasz go w przeciwne ramię. Gdy się odwraca, zręcznie wyciągasz pałeczkę z jego dłoni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_27f99278ce02ba48e54e
+      kontekst: textscripts.glockstore_minion1:line:23
+      linia: 23
+      sekcja_skryptu: convince
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh? Hey! Where is my mallet went there?
+      pl: Co? Hej! Gdzie moja pałeczka tam poszła?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ba0e33848e98b3c2b88f
+      kontekst: textscripts.glockstore_minion1:line:24
+      linia: 24
+      sekcja_skryptu: convince
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It was wild -- you were playing so fast, you accidentally threw it right out the window! Don't worry, I'll save your place here while
+        you go look for it.
+      pl: Ale numer — grałeś tak szybko, że przypadkiem wyrzuciłeś ją przez okno! Bez obaw, zajmę tu twoje miejsce, gdy pójdziesz jej poszukać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8f4f97cd89a6a4c89939
+      kontekst: textscripts.glockstore_minion1:line:25
+      linia: 25
+      sekcja_skryptu: convince
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Thank you!
+      pl: Och! Dziękuję!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4096b8f203db98558f8e
+      kontekst: textscripts.glockstore_minion1:line:26
+      linia: 26
+      sekcja_skryptu: convince
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin scampers out the door.
+      pl: Goblin wybiega przez drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id005 []
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.glockstore_minion1:line:28
+      linia: 28
+      sekcja_skryptu: convince
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id006 []
+- kolejnosc_w_danych_gry: 1841
+  skrypt: glockstore_minion2
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_b46805b5f1a0fe5097f3
+      kontekst: textscripts.glockstore_minion2:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin is pounding that glockenspiel like their life depends on it, filling the room with what exciting boss fight music would
+        sound like in a magical starlight fairyland.
+      pl: Goblin wali w dzwonki, jakby zależało od tego jego życie, wypełniając pokój brzmieniem ekscytującej muzyki do walki z bossem w magicznej
+        krainie wróżek i światła gwiazd.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b49992f24fa606857e73
+      kontekst: textscripts.glockstore_minion2:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Interrupt them
+      pl: Przerwij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: convo
+    wpisy:
+    - id: sol_b3f7ead6322d80ddeaee
+      kontekst: textscripts.glockstore_minion2:line:12
+      linia: 12
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, could you do me a favor and stop playing that glockenspiel for a while?
+      pl: Hej, możesz wyświadczyć mi przysługę i przez chwilę przestać grać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_fc51b506dc96228142e8
+      kontekst: textscripts.glockstore_minion2:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No no! Never!
+      pl: Nie, nie! Nigdy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_31ff1f9f46ed0da547c8
+      kontekst: textscripts.glockstore_minion2:line:15
+      linia: 15
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Please?
+      pl: Proszę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4d5a1a307e2542d87738
+      kontekst: textscripts.glockstore_minion2:line:16
+      linia: 16
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: This music is my life! I will never to stop!
+      pl: Ta muzyka to moje życie! Nigdy nie przestawać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.glockstore_minion2:line:19
+      linia: 19
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: convince
+    wpisy:
+    - id: sol_c2e8f054fd4005c01791
+      kontekst: textscripts.glockstore_minion2:line:23
+      linia: 23
+      sekcja_skryptu: convince
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up the goblin bodily, open the door, and chuck them outside. The goblin is too focused on his music to resist, or even really
+        object.
+      pl: Podnosisz goblina, otwierasz drzwi i wyrzucasz go na zewnątrz. Jest tak skupiony na muzyce, że nie stawia oporu ani nawet nie protestuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_60e850b5368fc93afcf5
+      kontekst: textscripts.glockstore_minion2:line:25
+      linia: 25
+      sekcja_skryptu: convince
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay then
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 22
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1842
+  skrypt: glockstore_minion3
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_975524f279b546c43695
+      kontekst: textscripts.glockstore_minion3:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin is pounding furiously on their glockenspiel. It sounds like the background music they'd use in a war documentary, if the
+        documentary was about dogfighting raids made by an air force entirely consisting of butterflies.
+      pl: Ten goblin wściekle wali w dzwonki. Brzmi to jak muzyka tła z dokumentu wojennego, gdyby opowiadał o nalotach w walkach powietrznych
+        prowadzonych przez siły zbrojne składające się wyłącznie z motyli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b49992f24fa606857e73
+      kontekst: textscripts.glockstore_minion3:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Interrupt them
+      pl: Przerwij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: convo
+    wpisy:
+    - id: sol_3d0f9f53fca8819fdc3c
+      kontekst: textscripts.glockstore_minion3:line:11
+      linia: 11
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, could you maybe... jeez, you're really sweating up a storm.
+      pl: Hej, możesz może... rety, pocisz się jak podczas burzy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_88bc2ab78bfeb3ac798e
+      kontekst: textscripts.glockstore_minion3:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I am so tired! But I must on play!
+      pl: Jestem tak zmęczony! Ale muszę grać dalej!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cbc544dcb66b8a17ffeb
+      kontekst: textscripts.glockstore_minion3:line:14
+      linia: 14
+      sekcja_skryptu: convo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Their hands (and the rest of them) look really sweaty -- you could probably yank the little mallet right out of their grasp. But, that
+        would require getting in sweat-spray range. Ugh.
+      pl: Jego dłonie — i cała reszta — wyglądają na bardzo spocone. Pewnie udałoby się wyrwać małą pałeczkę, ale wymagałoby to wejścia w zasięg
+        rozbryzgu potu. Uch.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.glockstore_minion3:line:17
+      linia: 17
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: convince
+    wpisy:
+    - id: sol_9cf1ec704991e142418d
+      kontekst: textscripts.glockstore_minion3:line:21
+      linia: 21
+      sekcja_skryptu: convince
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hold your breath and grab for the mallet, wincing as you get spattered with hot goblin sweat. The goblin collapses to the ground
+        with a look of combined defeat and relief, and crawls away to find somewhere to pass out.
+      pl: Wstrzymujesz oddech i chwytasz pałeczkę, krzywiąc się pod bryzgami gorącego goblińskiego potu. Goblin osuwa się z miną łączącą porażkę
+        i ulgę, po czym odpełza w poszukiwaniu miejsca do utraty przytomności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_8b4bd24bdc19b71d931f
+      kontekst: textscripts.glockstore_minion3:line:22
+      linia: 22
+      sekcja_skryptu: convince
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You toss the gross mallet away and resolve to find a shower as soon as possible. A less disgusting shower.
+      pl: Odrzucasz obrzydliwą pałeczkę i postanawiasz jak najszybciej znaleźć prysznic. Mniej obrzydliwy prysznic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4c68c35db39b377205b3
+      kontekst: textscripts.glockstore_minion3:line:24
+      linia: 24
+      sekcja_skryptu: convince
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Blech
+      pl: Blee
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1843
+  skrypt: glockstore_minion4
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 33
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_98439a6d75bb5ca97aa6
+      kontekst: textscripts.glockstore_minion4:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin is hammering out music that sounds like tiny, crystalline snowflakes combining together into a blizzard that destroys the
+        entire midwest.
+      pl: Ten goblin wykuwa muzykę brzmiącą jak maleńkie kryształowe płatki śniegu łączące się w zamieć, która niszczy cały Środkowy Zachód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_b49992f24fa606857e73
+      kontekst: textscripts.glockstore_minion4:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Interrupt them
+      pl: Przerwij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id003
+  - etykieta: convo
+    wpisy:
+    - id: sol_1d4a89496fcb600f0925
+      kontekst: textscripts.glockstore_minion4:line:11
+      linia: 11
+      sekcja_skryptu: convo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, could you stop playing for a bit?
+      pl: Hej, możesz na chwilę przestać grać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_18e64488091b1adf6390
+      kontekst: textscripts.glockstore_minion4:line:13
+      linia: 13
+      sekcja_skryptu: convo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha! No!
+      pl: Ha, ha! Nie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4fd785f2d795c2e5b890
+      kontekst: textscripts.glockstore_minion4:line:21
+      linia: 21
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 435
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id004
+  - etykieta: fedora
+    wpisy:
+    - id: sol_8e2ffaf5a031ea1e0211
+      kontekst: textscripts.glockstore_minion4:line:27
+      linia: 27
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Oh, vat say you? Vat language is that?
+      pl: Och! Och, co mówisz? Co to za język?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_359833860aebdeb9c4db
+      kontekst: textscripts.glockstore_minion4:line:28
+      linia: 28
+      sekcja_skryptu: fedora
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, uh, I was just saying you should stop playing the glockenspiel for a while.
+      pl: Och, eee, mówiłem tylko, że powinieneś na jakiś czas przestać grać na dzwonkach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_ea3b452139a27db99ce1
+      kontekst: textscripts.glockstore_minion4:line:29
+      linia: 29
+      sekcja_skryptu: fedora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! Sure!
+      pl: Dobrze! Jasne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1a21624b3fbe78043904
+      kontekst: textscripts.glockstore_minion4:line:30
+      linia: 30
+      sekcja_skryptu: fedora
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They put down their glockenspiel and stand there placidly.
+      pl: Odkłada dzwonki i stoi spokojnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_78b42cd1d514abaeb520
+      kontekst: textscripts.glockstore_minion4:line:32
+      linia: 32
+      sekcja_skryptu: fedora
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 26
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: brag
+    wpisy:
+    - id: sol_e5fb01929fe029849770
+      kontekst: textscripts.glockstore_minion4:line:36
+      linia: 36
+      sekcja_skryptu: brag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well okay. I was gonna show you how to be a much better glockenspiel player, but if you don't wanna know...
+      pl: No dobrze. Zamierzam pokazać ci, jak zostać znacznie lepszym dzwonkarzem, ale jeśli nie chcesz wiedzieć...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_0a31f25f8aa82d81d8da
+      kontekst: textscripts.glockstore_minion4:line:37
+      linia: 37
+      sekcja_skryptu: brag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Vat? Vat know you about the glockenspiel playing?
+      pl: Co? Co wiesz o graniu na dzwonkach?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_96033f5f56acc66fded2
+      kontekst: textscripts.glockstore_minion4:line:38
+      linia: 38
+      sekcja_skryptu: brag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, I'm pretty much an expert. See these muscular forearms? These firm yet flexible wrists? I can play the glockenspiel like you wouldn't
+        believe.
+      pl: Och, jestem właściwie ekspertem. Widzisz te umięśnione przedramiona? Te mocne, ale elastyczne nadgarstki? Potrafię grać tak, że nie
+        uwierzysz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1c5bdd3881591bb00a52
+      kontekst: textscripts.glockstore_minion4:line:39
+      linia: 39
+      sekcja_skryptu: brag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That vould I not believe!
+      pl: W to nie uwierzyłbym!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_2c96d6c2a63838de2407
+      kontekst: textscripts.glockstore_minion4:line:40
+      linia: 40
+      sekcja_skryptu: brag
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I'd be happy to show you, but we'd better step outside. If your boss sees me playing, they'll probably fire you and hire me instead.
+      pl: Chętnie pokażę, ale lepiej wyjdźmy na zewnątrz. Jeśli szef zobaczy mnie przy instrumencie, pewnie zwolni ciebie i zatrudni mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_1b3cbc8193aade18f900
+      kontekst: textscripts.glockstore_minion4:line:41
+      linia: 41
+      sekcja_skryptu: brag
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no! Okay, I vill you outside meet.
+      pl: Och nie! Dobrze, spotkam cię na zewnątrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4096b8f203db98558f8e
+      kontekst: textscripts.glockstore_minion4:line:42
+      linia: 42
+      sekcja_skryptu: brag
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin scampers out the door.
+      pl: Goblin wybiega przez drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_b83d23c5a465d64f93fa
+      kontekst: textscripts.glockstore_minion4:line:44
+      linia: 44
+      sekcja_skryptu: brag
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 122
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id006
+  - etykieta: bewitch
+    wpisy:
+    - id: sol_aa105315acdee98c0b45
+      kontekst: textscripts.glockstore_minion4:line:48
+      linia: 48
+      sekcja_skryptu: bewitch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You waggle your fingers mystically at the goblin.
+      pl: Mistycznie poruszasz palcami przed goblinem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_072c501cc41a8f0b9c8f
+      kontekst: textscripts.glockstore_minion4:line:49
+      linia: 49
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You want to stop playing and leave the room.
+      pl: Chcesz przestać grać i wyjść z pokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_12347930922920aa5b42
+      kontekst: textscripts.glockstore_minion4:line:50
+      linia: 50
+      sekcja_skryptu: bewitch
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That is not the case! Why did your eyes all swirly go?
+      pl: To nie jest prawda! Dlaczego twoje oczy zrobiły się wirowe?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_f261d20b1833cbe8692e
+      kontekst: textscripts.glockstore_minion4:line:51
+      linia: 51
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Huh. Does hypnosis not work on goblins?'
+      pl: '...Hm. Hipnoza nie działa na gobliny?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_c3bd92ac4aa0faf5ca5b
+      kontekst: textscripts.glockstore_minion4:line:52
+      linia: 52
+      sekcja_skryptu: bewitch
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I guess it does not!
+      pl: Chyba nie działa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_18aee4c62f7cba071771
+      kontekst: textscripts.glockstore_minion4:line:53
+      linia: 53
+      sekcja_skryptu: bewitch
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, uh... you should leave because the acoustics are bad in here, and your music will sound much better outside.
+      pl: Cóż, eee... należy wyjść, bo akustyka jest tu kiepska, a na zewnątrz muzyka zabrzmi znacznie lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_3500f73276f9a810e7a2
+      kontekst: textscripts.glockstore_minion4:line:54
+      linia: 54
+      sekcja_skryptu: bewitch
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Okay!
+      pl: Och! Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4096b8f203db98558f8e
+      kontekst: textscripts.glockstore_minion4:line:55
+      linia: 55
+      sekcja_skryptu: bewitch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin scampers out the door.
+      pl: Goblin wybiega przez drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_49168288c1de76c733e4
+      kontekst: textscripts.glockstore_minion4:line:57
+      linia: 57
+      sekcja_skryptu: bewitch
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: &id007 []
+  - etykieta: smoothtalk
+    wpisy:
+    - id: sol_6bacb0a592ace8d4be2a
+      kontekst: textscripts.glockstore_minion4:line:61
+      linia: 61
+      sekcja_skryptu: smoothtalk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well see, I heard your boss say they're getting tired of hearing the same song all the time. So you should go somewhere and learn a
+        new one.
+      pl: Słyszałem, jak twój szef mówił, że ma już dość słuchania w kółko tej samej piosenki. Powinieneś więc gdzieś pójść i nauczyć się nowej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_880467929e7b66d0ee01
+      kontekst: textscripts.glockstore_minion4:line:62
+      linia: 62
+      sekcja_skryptu: smoothtalk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? But we play every day a new song!
+      pl: Co? Ale codziennie gramy nową piosenkę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_891c460d35a29d8f0af5
+      kontekst: textscripts.glockstore_minion4:line:63
+      linia: 63
+      sekcja_skryptu: smoothtalk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, uh, what I meant to say is, they're getting tired of hearing a <i>different</i> song all the time, and you should go somewhere and
+        learn the <i>same</i> one.
+      pl: Och, eee, mam na myśli, że męczy go ciągłe słuchanie <i>innej</i> piosenki i należy pójść gdzieś nauczyć się <i>tej samej</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_cfa1c4c1f616e429409e
+      kontekst: textscripts.glockstore_minion4:line:64
+      linia: 64
+      sekcja_skryptu: smoothtalk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Okay, that is a good idea. Thank you for the warning!
+      pl: Och! Dobrze, to dobry pomysł. Dziękuję za ostrzeżenie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_4096b8f203db98558f8e
+      kontekst: textscripts.glockstore_minion4:line:65
+      linia: 65
+      sekcja_skryptu: smoothtalk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin scampers out the door.
+      pl: Goblin wybiega przez drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id005
+    - id: sol_49168288c1de76c733e4
+      kontekst: textscripts.glockstore_minion4:line:67
+      linia: 67
+      sekcja_skryptu: smoothtalk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 29
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: *id007
+- kolejnosc_w_danych_gry: 1846
+  skrypt: glockstore_toolchest
+  pomieszczenie:
+    id: glockstore_interior
+    nazwa_en: Gideon's Glockenspielery (Inside)
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: sol_a718581862bc9858d77f
+      kontekst: textscripts.glockstore_toolchest:line:2
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be full of... glockenspiel... wrenches?
+      pl: Musi być pełna... kluczy... do dzwonków?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: sol_9f3e88ea382d71bb5fe9
+      kontekst: textscripts.glockstore_toolchest:line:3
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open it
+      pl: Otwórz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 35
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: sol_60041440d7e2d46a4341
+      kontekst: textscripts.glockstore_toolchest:line:8
+      linia: 8
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just regular tools, it turns out.
+      pl: Okazuje się, że to zwykłe narzędzia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
