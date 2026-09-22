@@ -2,6 +2,8 @@
 Nieoficjalne spolszczenie gry **Shadows Over Loathing** (Asymmetric Publications), sequela *West of Loathing*.
 Potrzebujesz **legalnie posiadanej kopii** gry (Steam).
 
+> [!CAUTION]
+> **Spolszczenie stworzone we współpracy z AI**
 
 ## Po co to jest?
 Shadows Over Loathing to absurdalny, czarno-biały RPG z suchym humorem twórców *West of Loathing*, ale oficjalnie dostępny jest tylko po angielsku. Ten projekt to:
